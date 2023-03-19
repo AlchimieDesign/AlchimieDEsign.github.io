@@ -650,29 +650,31 @@ margin-left:40vw;
     
       #logo1{
         position: absolute;
-          margin-top:-28vh;
+          margin-top:-31vh;
           margin-left:36vw;
          height:28vh;
         width:15vw;
       }
         
         #logo2{
-          
-            margin-left:18vw;
+          margin-top:-10vh !important;
+            margin-left:22vw;
          
             
         }
         
         #logo3{
-            
-            margin-left:8vw;
+          position: absolute;
+          margin-top:-13vh !important;
+            margin-left:2vw;
           
             
         }
         
         #logo4{
             position:absolute;
-            margin-left:11vw;
+            margin-top:-13vh !important;
+            margin-left:16vw;
             height:28vh;
             width:15vw;
             
@@ -682,104 +684,81 @@ margin-left:40vw;
     
       #logo5{
            position:absolute;
-          margin-top:36vh;
-        margin-left:-26vh;
-        height:20vh;
-        width:12vw;
+          margin-top:18vh;
+        margin-left:-4vh;
+        height:12vh;
+        width:7vw;
        
     
       }
     
       #graphicHeader{
           font-size:3rem;
-       margin-left:40vw;
-        margin-top:3vh;
+       margin-left:37vw;
+        margin-top:-5vh;
           width:100vh;
       }
         
           #graphicCaption{
+            position: absolute;
         margin-top:18vh;
-        margin-left:38vw;
+        margin-left:63vw !important;
       }
         
-        .footer{
-    
-       margin-top:1950px;
-           
+      .footer{
+        position: absolute;
+        margin-bottom:0;
+        height:300px;
         width:100vw;
-
-        border-width:3px;
-        border-color: #323333;
-            border-style:solid;
-             color:#ffffff;
-       
-      }
-    
-      
-    
-      .footerLink{
-        color:#ffffff;
-        text-decoration: none;
-        list-style-type: none;
-        font-size: 26px;
-      }
-      .class1{
-        position: absolute;
-        margin-top:3vh;
-        margin-left:30vh;
-      }
-    
-      .class2{
-        position: absolute;
-        margin-top:3vh;
-        margin-left:66vw;
-      }
-    
-      #contact{
-        position:absolute;
-       margin-top:-1%;
-        margin-left:-1vw;
-      }
-    
-      .signature{
-        position: absolute;
-        margin-top:35vh;
-        margin-left:34vw;
-      }
-    
-     
-     
-      .iconFooter{
-        position: absolute;
-        margin-top:26vh;
-        margin-left:10vw;
-        width:2vw;
-        height:3vh;
-      }
-    
-      #fb{
-        margin-left:32vw;
-      }
-    
-      #ig{
-        margin-left:45vw;
-      }
-    
-      #gmail{
-        margin-left:60vw;
+        background-color:#505050;
+        color:white;
+  
       }
     
       .footertitle{
         position: absolute;
-        margin-top: 8vh;
-          margin-left:40vw;
-        font-size:50px !important;
-        color:#ffffff;
+        margin-top:6vh;
+        margin-left:40vw;
+        font-family: 'Allura', cursive;
+        font-size: 4rem;
+        font-weight: lighter;
+        color:rgb(202, 202, 202);
+    
       }
     
-      
+      .footerLink{
        
-        
-        
+        list-style-type: none;
+        text-decoration: none;
+        color:white
+      }
+    
+      .class1{
+        position:absolute;
+        margin-top:4vh;
+        margin-left:20vw;
+      }
+    
+     .class2{
+        position: absolute;
+        margin-top:4vh;
+        margin-left:64vw;
+     }
+    #contact{
+      margin-top:-1px;
+      margin-left:-2px;
     }
+     .signature{
+        margin-top:40vh;
+        margin-left:34vw;
+      }
+    
+      .iconFooter{
+        margin-top:30vh;
+        margin-left:24vw;
+        width:2vw;
+        height:4vh;
+      }
+    }
+  
     
