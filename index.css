@@ -1,0 +1,785 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Cormorant+Garamond:wght@300&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Raleway:wght@300&display=swap');
+
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+  min-height: 200vh;
+  font-family: 'Cabin', Sans-serif;
+  overflow-x:hidden;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .35s, visibility .35s, height .35s;
+    overflow: hidden;
+    background: black;
+    z-index: -1;
+}
+
+#main-menu {
+  display: block;
+  height: 30px;
+  width: 100vw;
+  background: #b7b6b82f;
+  margin-left: 6px;  
+  z-index: 9;
+}
+
+#main-menu ul {
+  max-width: 800px;
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  padding: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 9;
+}
+
+#main-menu li {
+  list-style-type: none;
+  font-size: 22px;
+}
+
+#main-menu a {
+  color: #404141;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#work{
+  margin-left:-18vw;
+}
+
+#offer{
+  margin-left:-15vw;
+}
+
+#navTitle{
+  margin-left:-10vw;
+  font-family: 'Allura', cursive;
+  font-size: 30px !important;
+  font-weight: lighter;
+  color:rgb(107, 107, 107);
+}
+
+#discovery{
+  position: absolute;
+  margin-top:-2vh;
+ width:80vw;
+}
+
+
+
+#main-menu a:hover {
+  background-color: rgba(127, 255, 212, 0.151);
+}
+
+#hamburger-input{
+  display: none;
+}
+
+#hamburger-menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height:50px;
+    display: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Cabin', Sans-serif;
+    background: linear-gradient(
+      to bottom, 
+      #4e4c4c9a, #4e4c4c9a 20%, 
+      #4e4c4c9a 20%,  #4e4c4c9a 40%, 
+      #4e4c4c9a 40%, #4e4c4c9a 60%, 
+      #4e4c4c9a 60%,  #4e4c4c9a 80%, 
+      #4e4c4c9a 80%,   #4e4c4c9a 100%
+    );
+    box-shadow: 10px 5px 5px rgba(85, 85, 85, 0.651);
+}
+
+#hamburger-menu #sidebar-menu {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #474747;
+    transition: 0.3s;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+#hamburger-menu h3 {
+  margin-top:2vh;
+  margin-left:30vw;
+  font-family: 'Allura', cursive;
+  font-size: 3rem;
+  font-weight: lighter;
+  color:rgb(107, 107, 107);
+}
+
+#hamburger-menu ul {
+  margin-top:-8vh;
+  padding-left: 36vw;
+}
+
+#hamburger-menu li {
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+#hamburger-menu a {
+  color: #cfcccca8;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+#hamburger-menu a:hover {
+  color:white;
+}
+
+#hamburger-input:checked + #hamburger-menu #sidebar-menu {
+    visibility: visible;
+    left: 0;
+}
+#hamburger-input:checked ~ .overlay{
+   visibility: visible;
+  opacity: 0.4;
+}
+ body{
+
+  font-family: 'Raleway', sans-serif;
+}
+
+.subTitle{
+    display:none;
+  }
+
+  
+  img{
+    width:20%;
+    height:30%;
+
+  }
+
+
+  .headerImg{
+      position:absolute;
+      margin-top:0vh;
+      margin-left:10vw;
+      max-height:70vh;
+      min-height:70vh;
+     max-width:80vw;
+    min-width:80vw;  
+  box-shadow:  3px 4px 22px 16px rgba(224, 224, 224, 0.85);
+  z-index:-1;
+    
+  }
+
+  h2{
+position:absolute;
+margin-top: 22vh;
+    margin-left:30%;
+    font-family: 'Allura', cursive;
+      font-size: 2rem;
+      font-weight: lighter;
+      color:rgb(107, 107, 107);
+  }
+
+
+
+  .slogan{
+    position: absolute;
+   margin-top:75vh;
+   margin-left:20vw; 
+   font-family: 'Allura', cursive;
+   font-size: 34px;
+   font-weight: lighter;
+   color:rgb(114, 113, 113);
+  
+  }
+
+  #topLink {
+position:absolute;
+margin-top:66vh;
+    margin-left:35vw;   
+    padding:5px 6px 5px 8px;
+    font-weight: lighter;
+    background-color: rgba(201, 201, 201, 0.39);
+    text-decoration: none;
+    color:rgb(104, 103, 103);
+      z-index:1;
+  }
+
+ 
+#websites{
+ position: absolute;
+  margin-top:130vh;
+  margin-left:4vw;
+}
+
+.websiteSample{ 
+height:17vh;
+ width:34vw;}
+#webText{
+    margin-left:-14vh;}
+
+
+#emerald{
+ position: absolute;
+  margin-top:-38vh;
+   margin-left:29vw;
+  
+   box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+ }
+
+ #blackDesktop{
+  position: absolute;
+  margin-top:-22vh;
+  margin-left:2vw;
+ box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+  z-index:-1;
+}
+
+
+
+.pageTitle{
+  position: absolute;
+  margin-top:128vh;
+  margin-left:29vw;
+  font-family: 'Allura', cursive;
+  font-size: 3rem;
+  font-weight: lighter;
+  color:rgb(79, 87, 85);
+}
+
+#nature{
+   position: absolute;
+  margin-top:-22vh;
+   margin-left: 53vw;
+  box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+   z-index:1;
+ }
+
+
+#poloriodSample{
+  position: absolute;
+    margin-top:13vh;
+    margin-left:3vw !important;
+    box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+  }
+
+
+  #blog{
+   position: absolute; 
+    margin-top:13vh;
+    
+    margin-left:50vw;
+   
+  
+   
+    box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+  }
+
+ 
+
+  
+ #alchSite{
+     
+    margin-top:40vh;
+    margin-left:10vw;
+    
+   
+    box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+  }
+   .sectionCaption{
+    display:none;
+    position: absolute;
+    margin-top:23vh;
+    margin-left:3vh;
+    font-size:8px;
+   }
+  
+  #websiteHeader{
+     
+  margin-top:37vh;
+  margin-left:24vw;
+  width:100vw;
+  font-size:3rem;
+  }
+
+  #webText{
+  position: absolute;
+  margin-top:50vh;
+  margin-left: 3vw;
+    
+    width:50vh;
+  }
+
+  #graphic{
+    position: absolute;
+    margin-top:200vh;
+  }
+
+  
+
+  #logos{
+    margin-top:30vh;
+    margin-left:5vw;
+  }
+
+
+  .logo{
+
+    height:23vh;
+    width:30vw;
+  }
+
+  #logo1{
+    position: absolute;
+    margin-top:-20vh;
+    margin-left:30vw;
+   height:30vh;
+   width:30vw;
+  }
+
+  #logo4{
+    position: absolute;
+    margin-top:-2vh;
+    margin-left:4vw;
+    height:30vh;
+   width:26vw;
+  }
+
+  #logo5{
+    
+    margin-top:-4vh;
+    margin-left:37vw;
+    height:14vh;
+   width:16vw;
+
+  }
+
+  #graphicHeader{
+   margin-top:1vh;
+   margin-left:30vw;
+   
+  }
+
+#graphicCaption{
+    margin-top:9vh;
+    margin-left:27vw;
+  }
+
+ .footer{
+position: absolute;
+margin-top:300vh;
+    width:100vw;
+    height:100%;
+background-color:#474747;
+border-width: 1px; 
+border-style: solid;
+border-color:  #9b9b9b; 
+    
+    color: #ffffff
+  }
+
+  .footertitle{
+margin-top: 10vh;
+margin-left:40vw;
+    font-family: 'Allura', cursive;
+  font-size: 2rem;
+  font-weight: lighter;
+  color:rgb(255, 255, 255); height:200px;
+  }
+
+  .footerLink{
+    color:#ffffff;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .class1{
+    position: absolute;
+    margin-top:9vh;
+    margin-left:5vw;
+  }
+
+  .class2{
+    position: absolute;
+    margin-top:9vh;
+    margin-left:62vw;
+  }
+
+  #contact{
+    position:absolute;
+    margin-top:-1vw;
+    margin-left:1vw;
+  }
+
+  .signature{
+    position: absolute;
+    margin-top:47vh;
+    margin-left:19vw;
+    font-size:13px;
+  }
+
+ 
+ 
+  .iconFooter{
+    position: absolute;
+    margin-top:32vh;
+    margin-left:5vw;
+    width: 3vw;
+    height:5vh;
+  }
+
+  #fb{
+    margin-left:32vw;
+  }
+
+  #ig{
+    margin-left:45vw;
+  }
+
+  #gmail{
+    margin-left:60vw;
+  }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 750px) {
+  #main-menu {
+    display: none;
+  }
+  #hamburger-menu {
+    display: inline;
+  }
+}
+
+
+@media screen and (min-width:700px){
+    .subTitle{
+        display:none;
+      }
+    
+      
+      img{
+        width:20%;
+        height:30%;
+    
+      }
+      .headerImg{
+        margin-left:8vw;
+        max-height:80vh;
+        min-height:80vh;
+      max-width:80vw;
+      min-width:80vw;  
+      box-shadow:  1px 0px 15px 18px rgba(224, 224, 224, 0.85);
+        
+      }
+    
+      h2{
+        margin-left:30%;
+        font-family: 'Allura', cursive;
+          font-size: 2rem;
+          font-weight: lighter;
+          color:rgb(107, 107, 107);
+      }
+    
+      .slogan{
+        position: absolute;
+       margin-top:40vh;
+       margin-left:34vw;
+        font-family: 'Allura', cursive;
+          font-size: 3rem;
+          font-weight: lighter;
+          color:rgb(88, 87, 87);
+      
+      }
+    
+      #topLink {
+       
+      margin-top:80vh !important;
+        margin-left:43vw;   
+        padding:8px 9px 8px 5px;
+        background-color: rgba(64, 66, 66, 0.39);
+        text-decoration: none;
+        color:beige;
+      }
+    
+      
+    #websites{
+     
+      margin-top:104vh;
+    }
+    
+    .websiteSample{
+     width:30vw;
+     height:26vh;
+    }
+    
+    #emerald{
+     position: absolute;
+      margin-top:-7vh;
+       margin-left:35vw;
+       box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+     }
+    
+     #blackDesktop{
+      position: absolute;
+      margin-top:13vh;
+      margin-left:5vw;
+     box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+      z-index:-1;
+    }
+    
+    
+    
+    
+    .pageTitle{
+      position: absolute;
+      margin-top:135vh;
+      margin-left:35vw;
+      font-family: 'Allura', cursive;
+      font-size: 7rem;
+      font-weight: lighter;
+      color:rgb(79, 87, 85);
+    }
+    
+    #nature{
+       position: absolute;
+      margin-top:13vh;
+       margin-left: 63vw;
+      box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+       z-index:1;
+     }
+    
+    
+    #poloriodSample{
+      position: absolute;
+        margin-top:55vh;
+        margin-left:26vw !important;
+        box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+      }
+    
+    
+      #blog{
+       position: absolute; 
+       margin-top:60vh;
+       margin-left:48vw;
+       box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+      }
+    
+        .sectionCaption{
+        position: absolute;
+        font-size:8px;
+        margin-top: 150vh;
+        margin-left:100vw;
+        }
+    
+      #websiteCaption{
+        position: absolute;
+          margin-top:45vh;
+        margin-left:33vw !important;
+      }
+    
+      #websiteHeader{
+          margin-top:100vh;
+        margin-left:42vw;
+          font-size:3rem;
+      }
+    
+      #webText{
+          margin-top:112vh;
+        margin-left:30vw;
+        width:90vh;
+      }
+    
+      #graphic{
+        position:absolute;
+          margin-top:60vh;
+      }
+    
+      
+    
+    
+    
+      #logos{
+        margin-top:200vh;
+        margin-left:5vw;
+      }
+    
+    
+      .logo{
+    
+        height:20vh;
+        width:12vw;
+      }
+    
+      #logo1{
+        position: absolute;
+          margin-top:-28vh;
+          margin-left:36vw;
+         height:28vh;
+        width:15vw;
+      }
+        
+        #logo2{
+          
+            margin-left:18vw;
+         
+            
+        }
+        
+        #logo3{
+            
+            margin-left:8vw;
+          
+            
+        }
+        
+        #logo4{
+            position:absolute;
+            margin-left:11vw;
+            height:28vh;
+            width:15vw;
+            
+            
+        }
+        
+    
+      #logo5{
+           position:absolute;
+          margin-top:36vh;
+        margin-left:-26vh;
+        height:20vh;
+        width:12vw;
+       
+    
+      }
+    
+      #graphicHeader{
+          font-size:3rem;
+       margin-left:40vw;
+        margin-top:3vh;
+          width:100vh;
+      }
+        
+          #graphicCaption{
+        margin-top:18vh;
+        margin-left:38vw;
+      }
+        
+        .footer{
+    
+       margin-top:1950px;
+           
+        width:100vw;
+
+        border-width:3px;
+        border-color: #323333;
+            border-style:solid;
+             color:#ffffff;
+       
+      }
+    
+      
+    
+      .footerLink{
+        color:#ffffff;
+        text-decoration: none;
+        list-style-type: none;
+        font-size: 26px;
+      }
+      .class1{
+        position: absolute;
+        margin-top:3vh;
+        margin-left:30vh;
+      }
+    
+      .class2{
+        position: absolute;
+        margin-top:3vh;
+        margin-left:66vw;
+      }
+    
+      #contact{
+        position:absolute;
+       margin-top:-1%;
+        margin-left:-1vw;
+      }
+    
+      .signature{
+        position: absolute;
+        margin-top:35vh;
+        margin-left:34vw;
+      }
+    
+     
+     
+      .iconFooter{
+        position: absolute;
+        margin-top:26vh;
+        margin-left:10vw;
+        width:2vw;
+        height:3vh;
+      }
+    
+      #fb{
+        margin-left:32vw;
+      }
+    
+      #ig{
+        margin-left:45vw;
+      }
+    
+      #gmail{
+        margin-left:60vw;
+      }
+    
+      .footertitle{
+        position: absolute;
+        margin-top: 8vh;
+          margin-left:40vw;
+        font-size:50px !important;
+        color:#ffffff;
+      }
+    
+      
+       
+        
+        
+    }
+    
