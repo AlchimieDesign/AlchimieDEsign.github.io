@@ -294,10 +294,10 @@ body {
   }
 
   
-  .footer{
+ .footer{
     position: absolute;
-    margin-bottom:0;
-    height:100%;
+    margin-bottom:-5;
+    height:200px;
     width:100vw;
     background-color:#999999;
     color:white;
@@ -333,7 +333,7 @@ body {
  }
 
  .signature{
-    margin-top:15vh;
+    margin-top:2vh;
     margin-left:5vw;
   }
 
