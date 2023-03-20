@@ -216,7 +216,7 @@ margin-top: 22vh;
 
   .slogan{
     position: absolute;
-   margin-top:52vh;
+   margin-top:32vh;
    margin-left:16vw; 
    font-family: 'Allura', cursive;
    font-size: 40px;
@@ -594,7 +594,7 @@ height:15vh;
       #webText{
           margin-top:112vh;
         margin-left:27vw;
-        width:90vh;
+        width:90vw;
       }
     
       #graphic{
