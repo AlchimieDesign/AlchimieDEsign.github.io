@@ -145,7 +145,7 @@ margin-top: 22vh;
   .slogan{
     position: absolute;
    margin-top:75vh;
-   margin-left:14vw; 
+   margin-left:10vw; 
    font-family: 'Allura', cursive;
    font-size: 44px;
    font-weight: lighter;
@@ -175,7 +175,7 @@ margin-top:10vh;}
 
 .websiteSample{ 
 height:17vh;
- width:39vw;}
+ width:43vw;}
 #webText{
     margin-left:-14vh;}
 
@@ -265,10 +265,10 @@ height:17vh;
 
   #webText{
   position: absolute;
-  margin-top:50vh;
+  margin-top:47vh;
   margin-left: 1vw;
     
-    width:50vh;
+    width:46vh;
   }
 
   #graphic{
@@ -317,7 +317,7 @@ height:17vh;
 
   #graphicHeader{
    margin-top:1vh;
-   margin-left:30vw;
+   margin-left:25vw;
     font-size:43px;
    
   }
@@ -329,7 +329,7 @@ height:17vh;
 
  .footer{
     position: absolute;
-    margin-top:-300vh;
+    margin-top:300vh;
     height:350px;
     width:100vw;
     background-color:#515454;
