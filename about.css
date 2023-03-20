@@ -168,8 +168,8 @@ body {
   }
  .pageTitle{
     position: absolute;
-    margin-top:-12vw;
-    margin-left:20vw;
+    margin-top:-14vw;
+    margin-left:16vw;
     font-family: 'Allura', cursive;
       font-size: 3rem;
       font-weight: lighter;
@@ -211,13 +211,13 @@ body {
   }
 
   #mission{
-    margin-top:7vh;
+    margin-top:10vh;
     margin-left:-7vw;
   }
 
 #missionText{
        position: absolute;
-  margin-left:13vw;}
+  margin-left:15vw;}
 
   .projectHeader{
       margin-top:-9vh;
@@ -237,14 +237,14 @@ body {
   }
 
  #websites{
-    margin-top:6vh;
-    margin-left:30vw;
+    margin-top:4vh;
+    margin-left:26vw;
 
  }
 
  
  .itemHeader{
-    margin-top:10vh;
+    margin-top:6vh;
     margin-left:35vw;
     font-size: 16px;
     font-weight: lighter;
@@ -286,7 +286,7 @@ body {
  .footer{
     position: absolute;
     margin-bottom:-5;
-    height:300px;
+    height:350px;
     width:100vw;
     background-color:#999999;
     color:white;
@@ -322,7 +322,7 @@ body {
  }
 
  .signature{
-    margin-top:2vh;
+    margin-top:-10vh;
     margin-left:5vw;
   }
 
