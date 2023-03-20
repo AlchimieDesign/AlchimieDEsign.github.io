@@ -328,7 +328,7 @@ height:15vh;
 
  .footer{
     position: absolute;
-    margin-top:600vh;
+    margin-top:400vh;
     height:350px;
     width:100vw;
     background-color:#6b696b;
@@ -365,8 +365,9 @@ height:15vh;
  }
 
  .signature{
-    margin-top:-10vh;
+    margin-top:-3vh;
     margin-left:5vw;
+   font-size:12px;
   }
 
   .iconFooter{
