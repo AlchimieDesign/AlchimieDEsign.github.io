@@ -10,7 +10,7 @@ body {
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
   color:rgb(107, 107, 107);
-    background-color:rgb(107, 107, 107);
+   
     
 }
 
@@ -128,13 +128,13 @@ body {
 }
 
 #hamburger-menu ul {
-  margin-top:-8vh;
+  margin-top:-10vh;
   padding-left: 36vw;
 }
 
 #hamburger-menu li {
   list-style-type: none;
-  line-height: 3rem;
+  line-height: 2rem;
 }
 
 #hamburger-menu a {
@@ -215,8 +215,8 @@ margin-top: 22vh;
 
   .slogan{
     position: absolute;
-   margin-top:75vh;
-   margin-left:10vw; 
+   margin-top:49vh;
+   margin-left:16vw; 
    font-family: 'Allura', cursive;
    font-size: 44px;
    font-weight: lighter;
@@ -226,7 +226,7 @@ margin-top: 22vh;
 
   #topLink {
 position:absolute;
-margin-top:66vh;
+margin-top:63vh;
     margin-left:35vw;   
     padding:5px 6px 5px 8px;
     font-weight: lighter;
@@ -240,14 +240,14 @@ margin-top:10vh;}
  
 #websites{
  position: absolute;
-  margin-top:130vh;
+  margin-top:118vh;
   margin-left:4vw;
 }
 
 .websiteSample{ 
     margin-left:-3vw;
 height:17vh;
- width:46vw;}
+ width:42vw;}
 #webText{
     margin-left:-14vh;}
 
@@ -263,7 +263,7 @@ height:17vh;
  #blackDesktop{
   position: absolute;
   margin-top:-22vh;
-  margin-left:2vw;
+  margin-left:-1vw;
  box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
   z-index:-1;
 }
@@ -272,10 +272,10 @@ height:17vh;
 
 .pageTitle{
   position: absolute;
-  margin-top:128vh;
+  margin-top:112vh;
   margin-left:29vw;
   font-family: 'Allura', cursive;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: lighter;
   color:rgb(79, 87, 85);
 }
@@ -283,7 +283,7 @@ height:17vh;
 #nature{
    position: absolute;
   margin-top:-22vh;
-   margin-left: 53vw;
+   margin-left: 52vw;
   box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
    z-index:1;
  }
@@ -292,20 +292,16 @@ height:17vh;
 #poloriodSample{
   position: absolute;
     margin-top:13vh;
-    margin-left:3vw !important;
+    margin-left:9vw !important;
     box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
   }
 
 
   #blog{
    position: absolute; 
-    margin-top:13vh;
-    
-    margin-left:50vw;
-   
-  
-   
-    box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+    margin-top:17vh;
+    margin-left:43vw;
+   box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
   }
 
  
@@ -315,8 +311,6 @@ height:17vh;
      
     margin-top:40vh;
     margin-left:10vw;
-    
-   
     box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
   }
    .sectionCaption{
@@ -337,10 +331,9 @@ height:17vh;
 
   #webText{
   position: absolute;
-  margin-top:45vh;
-  margin-left: 1vw;
-    
-    width:46vh;
+  margin-top:50vh;
+  margin-left: 14vw;
+  width:80vh;
   }
 
   #graphic{
@@ -399,23 +392,24 @@ height:17vh;
     margin-left:27vw;
   }
 
- .footer{
+  .footer{
     position: absolute;
-    margin-top:300vh;
-    height:350px;
+    margin-top:1200px;
+     margin-left:0vw;
+    height:200px;
     width:100vw;
-    background-color:#515454;
+    background-color:#525151;
     color:white;
   }
 
   .footertitle{
     position: absolute;
     margin-top:6vh;
-    margin-left:28vw;
+    margin-left:30vw;
     font-family: 'Allura', cursive;
     font-size: 3rem;
     font-weight: lighter;
-    color:rgb(107, 107, 107);
+    color:rgb(255, 255, 255);
 
   }
 
@@ -429,7 +423,6 @@ height:17vh;
   .class1{
     position:absolute;
     margin-top:4vh;
-      margin-left:-2vw;
   }
 
  .class2{
@@ -440,23 +433,16 @@ height:17vh;
 
  .signature{
     margin-top:3vh;
-    margin-left:9vw;
-   font-size:12px;
+    margin-left:22vw;
+     font-size:12px;
   }
 
   .iconFooter{
-    margin-top:20vh;
+    margin-top:25vh;
     margin-left:20vw;
     width:5vw;
     height:4vh;
   }
-
-
-
-
-
-
-
 
 
 
@@ -483,7 +469,7 @@ height:17vh;
     
       }
       .headerImg{
-        margin-left:8vw;
+        margin-left:10vw;
         max-height:80vh;
         min-height:80vh;
       max-width:80vw;
@@ -502,7 +488,7 @@ height:17vh;
     
       .slogan{
         position: absolute;
-       margin-top:40vh;
+       margin-top:70vh;
        margin-left:34vw;
         font-family: 'Allura', cursive;
           font-size: 3rem;
@@ -535,14 +521,14 @@ height:17vh;
     #emerald{
      position: absolute;
       margin-top:-7vh;
-       margin-left:35vw;
+       margin-left:30vw;
        box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
      }
     
      #blackDesktop{
       position: absolute;
       margin-top:13vh;
-      margin-left:5vw;
+      margin-left:2vw;
      box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
       z-index:-1;
     }
@@ -552,10 +538,10 @@ height:17vh;
     
     .pageTitle{
       position: absolute;
-      margin-top:135vh;
-      margin-left:35vw;
+      margin-top:139vh;
+      margin-left:38vw;
       font-family: 'Allura', cursive;
-      font-size: 7rem;
+      font-size: 5rem;
       font-weight: lighter;
       color:rgb(79, 87, 85);
     }
@@ -563,7 +549,7 @@ height:17vh;
     #nature{
        position: absolute;
       margin-top:13vh;
-       margin-left: 63vw;
+       margin-left: 59vw;
       box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
        z-index:1;
      }
@@ -571,15 +557,15 @@ height:17vh;
     
     #poloriodSample{
       position: absolute;
-        margin-top:55vh;
-        margin-left:26vw !important;
+        margin-top:58vh;
+        margin-left:24vw !important;
         box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
       }
     
     
       #blog{
        position: absolute; 
-       margin-top:60vh;
+       margin-top:65vh;
        margin-left:48vw;
        box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
       }
@@ -599,19 +585,19 @@ height:17vh;
     
       #websiteHeader{
           margin-top:100vh;
-        margin-left:42vw;
-          font-size:3rem;
+        margin-left:35vw;
+          font-size:4rem;
       }
     
       #webText{
           margin-top:112vh;
-        margin-left:30vw;
+        margin-left:27vw;
         width:90vh;
       }
     
       #graphic{
         position:absolute;
-          margin-top:60vh;
+          margin-top:70vh;
       }
     
       
@@ -632,7 +618,7 @@ height:17vh;
     
       #logo1{
         position: absolute;
-          margin-top:-31vh;
+          margin-top:-36vh;
           margin-left:36vw;
          height:28vh;
         width:15vw;
@@ -655,7 +641,7 @@ height:17vh;
         
         #logo4{
             position:absolute;
-            margin-top:-13vh !important;
+            margin-top:-16vh !important;
             margin-left:16vw;
             height:28vh;
             width:15vw;
@@ -666,8 +652,8 @@ height:17vh;
     
       #logo5{
            position:absolute;
-          margin-top:18vh;
-        margin-left:-4vh;
+          margin-top:23vh;
+        margin-left:14vh;
         height:12vh;
         width:7vw;
        
@@ -675,70 +661,73 @@ height:17vh;
       }
     
       #graphicHeader{
-          font-size:3rem;
-       margin-left:37vw;
+          font-size:4rem;
+       margin-left:35vw;
         margin-top:-5vh;
           width:100vh;
       }
         
           #graphicCaption{
             position: absolute;
-        margin-top:18vh;
+        margin-top:15vh;
         margin-left:63vw !important;
       }
         
       .footer{
-      position: absolute;
-      margin-bottom:0;
-      height:300px;
-      width:100vw;
-      background-color:#505050;
-      color:white;
-
+        position: absolute;
+        margin-top:1860px;
+        height:260px;
+        width:100vw;
+        background-color:#505050;
+        color:white;
+  
+      }
+    
+      .footertitle{
+        position: absolute;
+        margin-top:6vh;
+        margin-left:40vw;
+        font-family: 'Allura', cursive;
+        font-size: 4rem;
+        font-weight: lighter;
+        color:rgb(202, 202, 202);
+    
+      }
+    
+      .footerLink{
+       
+        list-style-type: none;
+        text-decoration: none;
+        color:white
+      }
+    
+      .class1{
+        position:absolute;
+        margin-top:4vh;
+        margin-left:20vw;
+      }
+    
+     .class2{
+        position: absolute;
+        margin-top:4vh;
+        margin-left:65vw;
+     }
+    
+     .signature{
+        margin-top:5vh;
+        margin-left:37vw;
+      }
+    
+      .iconFooter{
+        margin-top:27vh;
+        margin-left:23vw;
+       width:2vw;
+        height:4vh;
+      }
+  
+  
     }
   
-    .footertitle{
-      position: absolute;
-      margin-top:6vh;
-      margin-left:40vw;
-      font-family: 'Allura', cursive;
-      font-size: 4rem;
-      font-weight: lighter;
-      color:rgb(202, 202, 202);
-  
-    }
-  
-    .footerLink{
-     
-      list-style-type: none;
-      text-decoration: none;
-      color:white
-    }
-  
-    .class1{
-      position:absolute;
-      margin-top:4vh;
-      margin-left:20vw;
-    }
-  
-   .class2{
-      position: absolute;
-      margin-top:4vh;
-      margin-left:65vw;
-   }
-  
-   .signature{
-      margin-top:7vh;
-      margin-left:34vw;
-    }
-  
-    .iconFooter{
-      margin-top:30vh;
-      margin-left:24vw;
-      width:2vw;
-      height:4vh;
-    }
-    }
   
   
     
