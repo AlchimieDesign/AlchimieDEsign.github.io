@@ -10,7 +10,7 @@ body {
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
   color:rgb(107, 107, 107);
-    background-color:#014a2b;
+    background-color:#0dff98;
   
     
 }
@@ -70,11 +70,13 @@ body {
 }
 
 #navTitle{
-  margin-left:-64vw;
+    position:absolute;
+    
+  margin-left:5vw;
   font-family: 'Allura', cursive;
   font-size: 30px !important;
   font-weight: lighter;
-  color:rgb(107, 107, 107);
+  color:#99b0cc;
 }
 
 #discovery{
@@ -344,7 +346,7 @@ body {
   }
 
   .iconFooter{
-    margin-top:21vh;
+    margin-top:23vh;
     margin-left:20vw;
     width:5vw;
     height:4vh;
@@ -387,7 +389,7 @@ body {
     }
 
     #missionText{
-        font-size:26;
+        font-size:19;
       margin-left:8vw;
         width:60vw;
     }
@@ -459,9 +461,11 @@ body {
     margin-left:28vw;
     width:60vw;
    }
-     
+     #archetypeHeader{
+         margin-left:36vw;
+     }
      #project2{
-         margin-left:350vw;
+         margin-left:35vw;
      }
      
      #project3{
