@@ -183,13 +183,13 @@ body {
     margin-top:-10vw;
     margin-left:30vw;
     font-family: 'Allura', cursive;
-      font-size: 2rem;
+      font-size: 32px;
       font-weight: lighter;
       color:rgb(107, 107, 107);
   }
 
   .headerImg{
-    height:70vh;
+    height:50vh;
     width:100vw;
 
   }
@@ -217,7 +217,7 @@ body {
 
   .sectionText{
     margin-top:-4vh;
-    margin-left:13vw;
+    margin-left:24vw;
     width:90vw;
   }
 
@@ -227,7 +227,7 @@ body {
   }
 
 #missionText{
-  margin-left:14vw;}
+  margin-left:22vw;}
 
   .projectHeader{
     margin-left:25vw;
@@ -236,13 +236,14 @@ body {
     margin-left:13vw;
     width:70vw;
   }
-
+#project1{
+    margin-left:-6vw;}
   #projectHeader2{
-    margin-left:35vw;
+    margin-left:26vw;
   }
 
   #projectHeader3{
-    margin-left:43vw;
+    margin-left:47vw;
   }
 
  #websites{
@@ -294,7 +295,7 @@ body {
   
   .footer{
     position: absolute;
-    margin-bottom:-5;
+    margin-top:1200vh;
     height:200px;
     width:100vw;
     background-color:#999999;
@@ -336,7 +337,7 @@ body {
   }
 
   .iconFooter{
-    margin-top:30vh;
+    margin-top:5vh;
     margin-left:20vw;
     width:5vw;
     height:4vh;
@@ -359,7 +360,7 @@ body {
     }
 
     .pageTitle{
-      margin-top:40vh;
+      margin-top:80vh;
       margin-left:40vw;
       font-size:3rem;
     }
@@ -384,10 +385,11 @@ body {
     }
 
     .sectionHeader{
-        font-size:3rem;
+        font-size:4rem;
 
     #websites{
-      margin-left:42vw;
+        
+  margin-left:42vw;
     }
 
     .websiteOffers{
@@ -397,7 +399,7 @@ body {
     .itemHeader{
       margin-top:2vh;
       margin-left:45vw;
-      font-size: 20px;
+      font-size: 26px;
       font-weight: lighter;
       color:rgb(107, 107, 107);
      
@@ -419,7 +421,7 @@ body {
    }
   
    #futureHeader{
-      margin-top:7vh;
+      margin-top:9vh;
       margin-left:78vh;
       width:100vh;
    }
@@ -433,7 +435,7 @@ body {
    }
 
    .projectHeader{
-    margin-top:12vh;
+    margin-top:10vh;
     margin-left:43vw;
     color:#3b3b3b;
     font-size:30px;
