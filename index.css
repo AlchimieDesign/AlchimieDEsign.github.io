@@ -218,7 +218,7 @@ margin-top: 22vh;
    margin-top:49vh;
    margin-left:16vw; 
    font-family: 'Allura', cursive;
-   font-size: 44px;
+   font-size: 30px;
    font-weight: lighter;
    color:rgb(114, 113, 113);
   
@@ -394,7 +394,7 @@ height:17vh;
 
   .footer{
     position: absolute;
-    margin-top:1200px;
+    margin-top:1400px;
      margin-left:0vw;
     height:200px;
     width:100vw;
