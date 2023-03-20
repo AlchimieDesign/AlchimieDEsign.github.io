@@ -178,7 +178,7 @@ body {
   }
 
   .headerImg{
-      margin-left:3vw;
+      margin-left:2vw;
     height:70vh;
       
     width:100vw;
@@ -289,7 +289,7 @@ body {
  .footer{
     position: absolute;
     margin-bottom:-5;
-     margin-left:2vw;
+     margin-left:1vw;
     height:350px;
     width:100vw;
     background-color:#999999;
