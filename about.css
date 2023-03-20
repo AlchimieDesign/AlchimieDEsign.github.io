@@ -185,7 +185,7 @@ body {
  .pageTitle{
     position: absolute;
     margin-top:-13vw;
-    margin-left:27vw;
+    margin-left:20vw;
     font-family: 'Allura', cursive;
       font-size: 45px;
       font-weight: lighter;
@@ -237,7 +237,7 @@ body {
     margin-left:23vw;
   }
   .projectText{
-    margin-left:22vw;
+    margin-left:24vw;
     width:70vw;
   }
 #project1{
@@ -247,12 +247,12 @@ body {
   }
 
   #projectHeader3{
-    margin-left:47vw;
+    margin-left:50vw;
   }
 
  #websites{
     margin-top:4vh;
-    margin-left:30vw;
+    margin-left:27vw;
 
  }
 
@@ -299,7 +299,7 @@ body {
   
   .footer{
     position: absolute;
-    margin-top:200vh;
+    margin-top:100vh;
     height:200px;
     width:100vw;
     background-color:#999999;
