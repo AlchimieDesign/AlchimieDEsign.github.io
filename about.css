@@ -456,54 +456,56 @@ body {
     }
  
   .footer{
-    position: absolute;
-    margin-bottom:-5;
-    height:200px;
-    width:100vw;
-    background-color:#999999;
-    color:white;
-  }
+      position: absolute;
+      margin-bottom:0;
+      height:300px;
+      width:100vw;
+      background-color:#505050;
+      color:white;
 
-  .footertitle{
-    position: absolute;
-    margin-top:6vh;
-    margin-left:30vw;
-    font-family: 'Allura', cursive;
-    font-size: 3rem;
-    font-weight: lighter;
-    color:rgb(107, 107, 107);
-
-  }
-
-  .footerLink{
-   
-    list-style-type: none;
-    text-decoration: none;
-    color:white
-  }
-
-  .class1{
-    position:absolute;
-    margin-top:4vh;
-  }
-
- .class2{
-    position: absolute;
-    margin-top:4vh;
-    margin-left:60vw;
- }
-
- .signature{
-    margin-top:2vh;
-    margin-left:5vw;
-  }
-
-  .iconFooter{
-    margin-top:30vh;
-    margin-left:20vw;
-    width:5vw;
-    height:4vh;
-  }
+    }
+  
+    .footertitle{
+      position: absolute;
+      margin-top:6vh;
+      margin-left:40vw;
+      font-family: 'Allura', cursive;
+      font-size: 4rem;
+      font-weight: lighter;
+      color:rgb(202, 202, 202);
+  
+    }
+  
+    .footerLink{
+     
+      list-style-type: none;
+      text-decoration: none;
+      color:white
+    }
+  
+    .class1{
+      position:absolute;
+      margin-top:4vh;
+      margin-left:20vw;
+    }
+  
+   .class2{
+      position: absolute;
+      margin-top:4vh;
+      margin-left:65vw;
+   }
+  
+   .signature{
+      margin-top:7vh;
+      margin-left:34vw;
+    }
+  
+    .iconFooter{
+      margin-top:30vh;
+      margin-left:24vw;
+      width:2vw;
+      height:4vh;
+    }
 
 
 }
