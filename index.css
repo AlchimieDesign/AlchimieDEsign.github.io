@@ -10,6 +10,7 @@ body {
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
   color:rgb(107, 107, 107);
+    background-color:#1b6161;
    
     
 }
@@ -394,7 +395,7 @@ height:17vh;
 
   .footer{
     position: absolute;
-    margin-top:1400px;
+    margin-top:1800px;
      margin-left:0vw;
     height:200px;
     width:100vw;
