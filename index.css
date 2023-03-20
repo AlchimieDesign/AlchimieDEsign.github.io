@@ -10,6 +10,7 @@ body {
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
   color:rgb(107, 107, 107);
+    background-color:#1b6161;
    
     
 }
@@ -218,7 +219,7 @@ margin-top: 22vh;
    margin-top:49vh;
    margin-left:16vw; 
    font-family: 'Allura', cursive;
-   font-size: 28rem;
+   font-size: 2rem;
    font-weight: lighter;
    color:rgb(114, 113, 113);
       width:100cw;
@@ -333,8 +334,8 @@ height:17vh;
   #webText{
   position: absolute;
   margin-top:50vh;
-  margin-left: 6vw;
-  width:50vh;
+  margin-left: 1vw;
+  width:40%;
   }
 
   #graphic{
