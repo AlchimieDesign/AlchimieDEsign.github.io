@@ -240,8 +240,9 @@ margin-top:10vh;}
 }
 
 .websiteSample{ 
+    margin-left:-3vw;
 height:17vh;
- width:43vw;}
+ width:46vw;}
 #webText{
     margin-left:-14vh;}
 
@@ -324,14 +325,14 @@ height:17vh;
   #websiteHeader{
      
   margin-top:37vh;
-  margin-left:24vw;
+  margin-left:22vw;
   width:100vw;
   font-size:3rem;
   }
 
   #webText{
   position: absolute;
-  margin-top:47vh;
+  margin-top:45vh;
   margin-left: 1vw;
     
     width:46vh;
@@ -339,7 +340,7 @@ height:17vh;
 
   #graphic{
     position: absolute;
-    margin-top:200vh;
+    margin-top:180vh;
   }
 
   
@@ -382,8 +383,8 @@ height:17vh;
   }
 
   #graphicHeader{
-   margin-top:1vh;
-   margin-left:25vw;
+   margin-top:3vh;
+   margin-left:22vw;
     font-size:43px;
    
   }
@@ -405,7 +406,7 @@ height:17vh;
   .footertitle{
     position: absolute;
     margin-top:6vh;
-    margin-left:30vw;
+    margin-left:28vw;
     font-family: 'Allura', cursive;
     font-size: 3rem;
     font-weight: lighter;
@@ -423,6 +424,7 @@ height:17vh;
   .class1{
     position:absolute;
     margin-top:4vh;
+      margin-left:-2vw;
   }
 
  .class2{
@@ -432,8 +434,8 @@ height:17vh;
  }
 
  .signature{
-    margin-top:-3vh;
-    margin-left:5vw;
+    margin-top:3vh;
+    margin-left:9vw;
    font-size:12px;
   }
 
