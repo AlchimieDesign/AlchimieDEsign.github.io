@@ -246,6 +246,9 @@ body {
   }
 #project1{
     margin-left:-6vw;}
+#project1Header{
+    margin-left;50vw;
+}
   #projectHeader2{
     margin-left:26vw;
   }
@@ -342,7 +345,7 @@ body {
 
  .signature{
     margin-top:-1vh;
-    margin-left:22vw;
+    margin-left:20vw;
      font-size:12px;
   }
 
