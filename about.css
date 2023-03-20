@@ -10,7 +10,7 @@ body {
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
   color:rgb(107, 107, 107);
-    background-color:#0dff98;
+    background-color:#99b0cc;
   
     
 }
@@ -72,7 +72,7 @@ body {
 #navTitle{
     position:absolute;
     
-  margin-left:-80vw;
+  margin-left:-200vw;
   font-family: 'Allura', cursive;
   font-size: 30px !important;
   font-weight: lighter;
@@ -389,7 +389,7 @@ body {
     }
 
     #missionText{
-        font-size:34px;
+        font-size:26px;
       margin-left:8vw;
         width:60vw;
     }
@@ -441,11 +441,8 @@ body {
       color:#3b3b3b;
       font-size:15px;
       font-weight: lighter;
-     }{
-         margin-lrft:30vw;
      }
-     
-     #archtypeHeader{
+     #archetypeHeader{
          margin-left:46vw;
          }
 
@@ -465,11 +462,11 @@ body {
          margin-left:36vw;
      }
      #project2{
-         margin-left:23vw;
+         margin-left:5vw;
      }
      
      #project3{
-         margin-left:23vw
+         margin-left:5vw
      }
 
    #projectHeader2{
