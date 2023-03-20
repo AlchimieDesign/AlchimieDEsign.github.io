@@ -54,7 +54,8 @@ body {
 
 #offer{
   margin-left:-15vw;
-}
+}eader{
+    margin-top:-1vh;
 
 #navTitle{
   margin-left:-10vw;
@@ -230,7 +231,7 @@ margin-top:66vh;
     color:rgb(104, 103, 103);
       z-index:1;
   }
-#book{ 
+.booking{ 
 margin-top:10vh;}
  
 #websites{
