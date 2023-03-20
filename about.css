@@ -156,6 +156,10 @@ body {
   color:white;
 }
 
+#navTitle{
+    margin-left:30vw;
+}
+
 #hamburger-input:checked + #hamburger-menu #sidebar-menu {
     visibility: visible;
     left: 0;
