@@ -367,7 +367,7 @@ body {
     }
 
     .pageTitle{
-      margin-top:20vh;
+      margin-top:-10vh;
       margin-left:40vw;
       font-size:3rem;
     }
@@ -387,13 +387,14 @@ body {
     }
 
     #missionText{
+        font-size:2rem;
       margin-left:16vw;
     }
 
     
 
     #websites{
-      margin-left:42vw;
+      margin-left:38vw;
         font-size:4rem;
     }
 
@@ -413,7 +414,7 @@ body {
   
    .itemText{
       margin-left:34vw;
-      width:70vw;
+      width:65vw;
    }
 
   #itemTwoText{
@@ -441,14 +442,14 @@ body {
 
    .projectHeader{
     margin-top:15vh;
-    margin-left:47vw;
+    margin-left:45vw;
     color:#3b3b3b;
     font-size:24px;
     font-weight: lighter;
    }
    .projectText{
     margin-top:6vh;
-    margin-left:26vw;
+    margin-left:20vw;
     width:60vw;
    }
 
