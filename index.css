@@ -10,7 +10,6 @@ body {
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
   color:rgb(107, 107, 107);
-    background-color:#1b6161;
    
     
 }
@@ -129,7 +128,7 @@ body {
 }
 
 #hamburger-menu ul {
-  margin-top:-8vh;
+  margin-top:-10vh;
   padding-left: 36vw;
 }
 
@@ -219,10 +218,9 @@ margin-top: 22vh;
    margin-top:49vh;
    margin-left:16vw; 
    font-family: 'Allura', cursive;
-   font-size: 30px;
+   font-size: 44px;
    font-weight: lighter;
    color:rgb(114, 113, 113);
-      width:100cw;
   
   }
 
@@ -274,7 +272,7 @@ height:17vh;
 
 .pageTitle{
   position: absolute;
-  margin-top:120vh;
+  margin-top:112vh;
   margin-left:29vw;
   font-family: 'Allura', cursive;
   font-size: 4rem;
@@ -285,7 +283,7 @@ height:17vh;
 #nature{
    position: absolute;
   margin-top:-22vh;
-   margin-left: 50vw;
+   margin-left: 52vw;
   box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
    z-index:1;
  }
@@ -334,8 +332,8 @@ height:17vh;
   #webText{
   position: absolute;
   margin-top:50vh;
-  margin-left: 10vw;
-  width:60%;
+  margin-left: 14vw;
+  width:80vh;
   }
 
   #graphic{
@@ -393,14 +391,14 @@ height:17vh;
     margin-top:9vh;
     margin-left:27vw;
   }
-  
- .footer{
+
+  .footer{
     position: absolute;
-    margin-top:1900px;
+    margin-top:1200px;
      margin-left:0vw;
-    height:350px;
+    height:200px;
     width:100vw;
-    background-color:#999999;
+    background-color:#525151;
     color:white;
   }
 
@@ -411,7 +409,7 @@ height:17vh;
     font-family: 'Allura', cursive;
     font-size: 3rem;
     font-weight: lighter;
-    color:rgb(107, 107, 107);
+    color:rgb(255, 255, 255);
 
   }
 
@@ -434,18 +432,17 @@ height:17vh;
  }
 
  .signature{
-    margin-top:-1vh;
-    margin-left:8vw;
+    margin-top:3vh;
+    margin-left:22vw;
      font-size:12px;
   }
 
   .iconFooter{
-    margin-top:20vh;
+    margin-top:25vh;
     margin-left:20vw;
     width:5vw;
     height:4vh;
   }
-
 
 
 
@@ -717,7 +714,7 @@ height:17vh;
      }
     
      .signature{
-        margin-top:9vh;
+        margin-top:5vh;
         margin-left:37vw;
       }
     
@@ -730,6 +727,7 @@ height:17vh;
   
   
     }
+  
   
   
   
