@@ -219,7 +219,7 @@ margin-top: 22vh;
    margin-top:49vh;
    margin-left:16vw; 
    font-family: 'Allura', cursive;
-   font-size: 24px;
+   font-size: 30px;
    font-weight: lighter;
    color:rgb(114, 113, 113);
       width:100cw;
@@ -334,8 +334,8 @@ height:17vh;
   #webText{
   position: absolute;
   margin-top:50vh;
-  margin-left: 1vw;
-  width:40%;
+  margin-left: 10vw;
+  width:60%;
   }
 
   #graphic{
@@ -717,7 +717,7 @@ height:17vh;
      }
     
      .signature{
-        margin-top:5vh;
+        margin-top:9vh;
         margin-left:37vw;
       }
     
