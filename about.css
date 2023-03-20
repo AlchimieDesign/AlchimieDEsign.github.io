@@ -300,7 +300,7 @@ body {
   
   .footer{
     position: absolute;
-    margin-top:100vh;
+    margin-top:-200vh;
     height:200px;
     width:100vw;
     background-color:#999999;
@@ -338,11 +338,11 @@ body {
 
  .signature{
     margin-top:2vh;
-    margin-left:5vw;
+    margin-left:1vw;
   }
 
   .iconFooter{
-    margin-top:5vh;
+    margin-top:9vh;
     margin-left:20vw;
     width:5vw;
     height:4vh;
