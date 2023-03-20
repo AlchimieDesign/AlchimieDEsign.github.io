@@ -327,9 +327,9 @@ height:17vh;
 
  .footer{
 position: absolute;
-margin-top:300vh;
+margin-top:-4vh;
     width:100vw;
-    height:100%;
+    height:70%;
 background-color:#474747;
 border-width: 1px; 
 border-style: solid;
