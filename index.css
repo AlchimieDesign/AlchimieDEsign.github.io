@@ -328,10 +328,10 @@ height:17vh;
 
  .footer{
     position: absolute;
-    margin-top:900vh;
+    margin-top:600vh;
     height:350px;
     width:100vw;
-    background-color:#c724b7;
+    background-color:#6b696b;
     color:white;
   }
 
