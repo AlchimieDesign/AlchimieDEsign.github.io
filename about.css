@@ -70,7 +70,7 @@ body {
 }
 
 #navTitle{
-  margin-left:-34vw;
+  margin-left:-64vw;
   font-family: 'Allura', cursive;
   font-size: 30px !important;
   font-weight: lighter;
@@ -387,7 +387,7 @@ body {
     }
 
     #missionText{
-        font-size:2rem;
+        font-size:26;
       margin-left:8vw;
         width:60vw;
     }
@@ -461,11 +461,11 @@ body {
    }
      
      #project2{
-         margin-left:50vw;
+         margin-left:350vw;
      }
      
      #project3{
-         margin-left:50vw
+         margin-left:35vw
      }
 
    #projectHeader2{
