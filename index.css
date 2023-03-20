@@ -10,7 +10,7 @@ body {
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
   color:rgb(107, 107, 107);
-    background-color:color:rgb(107, 107, 107);
+    background-color:rgb(107, 107, 107);
     
 }
 
@@ -54,8 +54,10 @@ body {
 
 #offer{
   margin-left:-15vw;
-}eader{
-    margin-top:-1vh;
+}
+
+#bookHeader{
+    margin-top:-1vh;}
 
 #navTitle{
   margin-left:-10vw;
@@ -737,5 +739,6 @@ height:17vh;
       height:4vh;
     }
     }
+  
   
     
