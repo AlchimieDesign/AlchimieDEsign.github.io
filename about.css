@@ -10,7 +10,7 @@ body {
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
   color:rgb(107, 107, 107);
-    background-color:#2c3542;
+    background-color:#013b3d;
   
     
 }
@@ -388,7 +388,7 @@ body {
 
     #missionText{
         font-size:2rem;
-      margin-left:16vw;
+      margin-left:8vw;
     }
 
     
@@ -449,7 +449,7 @@ body {
    }
    .projectText{
     margin-top:6vh;
-    margin-left:25vw;
+    margin-left:28vw;
     width:60vw;
    }
 
@@ -512,7 +512,7 @@ body {
   
    .signature{
       margin-top:7vh;
-      margin-left:36vw;
+      margin-left:39vw;
     }
   
     .iconFooter{
