@@ -389,6 +389,7 @@ body {
     #missionText{
         font-size:2rem;
       margin-left:8vw;
+        width:60vw;
     }
 
     
@@ -460,11 +461,11 @@ body {
    }
      
      #project2{
-         margin-left:-30vw;
+         margin-left:50vw;
      }
      
      #project3{
-         margin-left:-30vw
+         margin-left:50vw
      }
 
    #projectHeader2{
