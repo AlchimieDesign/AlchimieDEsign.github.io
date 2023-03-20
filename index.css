@@ -129,7 +129,7 @@ body {
 }
 
 #hamburger-menu ul {
-  margin-top:-8vh;
+  margin-top:-6vh;
   padding-left: 36vw;
 }
 
@@ -216,7 +216,7 @@ margin-top: 22vh;
 
   .slogan{
     position: absolute;
-   margin-top:49vh;
+   margin-top:52vh;
    margin-left:16vw; 
    font-family: 'Allura', cursive;
    font-size: 40px;
@@ -227,7 +227,7 @@ margin-top: 22vh;
 
   #topLink {
 position:absolute;
-margin-top:53vh;
+margin-top:55vh;
     margin-left:35vw;   
     padding:5px 6px 5px 8px;
     font-weight: lighter;
@@ -241,16 +241,16 @@ margin-top:10vh;}
  
 #websites{
  position: absolute;
-  margin-top:119vh;
+  margin-top:116vh;
   margin-left:4vw;
 }
 
 .websiteSample{ 
-    margin-left:-3vw;
+    margin-left:-4vw;
 height:15vh;
  width:46vw;}
 #webText{
-    margin-left:-14vh;}
+    margin-left:-17vh;}
 
 
 #emerald{
@@ -333,8 +333,8 @@ height:15vh;
   #webText{
   position: absolute;
   margin-top:50vh;
-  margin-left: 6vw;
-  width:80vh;
+  margin-left: 4vw;
+  width:50vh;
   }
 
   #graphic{
@@ -406,7 +406,7 @@ height:15vh;
   .footertitle{
     position: absolute;
     margin-top:6vh;
-    margin-left:30vw;
+    margin-left:28vw;
     font-family: 'Allura', cursive;
     font-size: 3rem;
     font-weight: lighter;
@@ -424,6 +424,7 @@ height:15vh;
   .class1{
     position:absolute;
     margin-top:4vh;
+      margin-left:-2vh;
   }
 
  .class2{
@@ -433,13 +434,13 @@ height:15vh;
  }
 
  .signature{
-    margin-top:3vh;
+    margin-top:-2vh;
     margin-left:22vw;
      font-size:12px;
   }
 
   .iconFooter{
-    margin-top:25vh;
+    margin-top:23vh;
     margin-left:20vw;
     width:5vw;
     height:4vh;
