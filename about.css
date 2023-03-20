@@ -178,7 +178,7 @@ body {
   }
 
   .headerImg{
-      margin-left:2vw;
+      margin-left:1vw;
     height:70vh;
       
     width:100vw;
@@ -289,7 +289,7 @@ body {
  .footer{
     position: absolute;
     margin-bottom:-5;
-     margin-left:1vw;
+     margin-left:0vw;
     height:350px;
     width:100vw;
     background-color:#999999;
@@ -326,7 +326,7 @@ body {
  }
 
  .signature{
-    margin-top:-10vh;
+    margin-top:-5vh;
     margin-left:5vw;
      font-size:12px;
   }
