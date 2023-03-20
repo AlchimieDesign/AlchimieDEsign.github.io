@@ -218,7 +218,7 @@ margin-top: 22vh;
    margin-top:49vh;
    margin-left:16vw; 
    font-family: 'Allura', cursive;
-   font-size: 35px;
+   font-size: 3rem;
    font-weight: lighter;
    color:rgb(114, 113, 113);
       width:100cw;
@@ -273,7 +273,7 @@ height:17vh;
 
 .pageTitle{
   position: absolute;
-  margin-top:117vh;
+  margin-top:120vh;
   margin-left:29vw;
   font-family: 'Allura', cursive;
   font-size: 4rem;
@@ -395,7 +395,7 @@ height:17vh;
   
  .footer{
     position: absolute;
-    margin-bottom:-5;
+    margin-top:1600px;
      margin-left:0vw;
     height:350px;
     width:100vw;
