@@ -10,7 +10,7 @@ body {
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
   color:rgb(107, 107, 107);
-    background-color:#2a5241;
+    background-color:#6a8f7f;
   
     
 }
@@ -299,7 +299,7 @@ body {
 
    .footer{
     position: absolute;
-    margin-top:700px;
+    margin-top:400px;
      margin-left:0vw;
     height:270px;
     width:100vw;
