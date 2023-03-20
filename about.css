@@ -10,7 +10,7 @@ body {
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
   color:rgb(107, 107, 107);
-    background-color:#102038;
+    background-color:#2c3542;
   
     
 }
@@ -441,7 +441,7 @@ body {
    }
 
    .projectHeader{
-    margin-top:15vh;
+    margin-top:20vh;
     margin-left:45vw;
     color:#3b3b3b;
     font-size:24px;
@@ -449,7 +449,7 @@ body {
    }
    .projectText{
     margin-top:6vh;
-    margin-left:20vw;
+    margin-left:25vw;
     width:60vw;
    }
 
@@ -472,7 +472,7 @@ body {
  
     .footer{
       position: absolute;
-      margin-top:600px;
+      margin-top:400px;
       height:300px;
       width:100vw;
       background-color:#505050;
@@ -512,7 +512,7 @@ body {
   
    .signature{
       margin-top:7vh;
-      margin-left:34vw;
+      margin-left:36vw;
     }
   
     .iconFooter{
