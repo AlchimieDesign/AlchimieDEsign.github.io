@@ -128,7 +128,7 @@ body {
 }
 
 #hamburger-menu ul {
-  margin-top:-10vh;
+  margin-top:-8vh;
   padding-left: 36vw;
 }
 
@@ -218,9 +218,10 @@ margin-top: 22vh;
    margin-top:49vh;
    margin-left:16vw; 
    font-family: 'Allura', cursive;
-   font-size: 44px;
+   font-size: 35px;
    font-weight: lighter;
    color:rgb(114, 113, 113);
+      width:100cw;
   
   }
 
@@ -247,7 +248,7 @@ margin-top:10vh;}
 .websiteSample{ 
     margin-left:-3vw;
 height:17vh;
- width:42vw;}
+ width:44vw;}
 #webText{
     margin-left:-14vh;}
 
@@ -272,7 +273,7 @@ height:17vh;
 
 .pageTitle{
   position: absolute;
-  margin-top:112vh;
+  margin-top:117vh;
   margin-left:29vw;
   font-family: 'Allura', cursive;
   font-size: 4rem;
@@ -394,7 +395,7 @@ height:17vh;
 
   .footer{
     position: absolute;
-    margin-top:1200px;
+    margin-top:1600px;
      margin-left:0vw;
     height:200px;
     width:100vw;
