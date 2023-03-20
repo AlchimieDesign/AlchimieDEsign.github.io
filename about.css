@@ -297,24 +297,24 @@ body {
     font-weight: lighter;
   }
 
-  
-  .footer{
+   .footer{
     position: absolute;
-    margin-top:-200vh;
-    height:200px;
+    margin-top:1900px;
+     margin-left:0vw;
+    height:270px;
     width:100vw;
-    background-color:#999999;
+    background-color:#525151;
     color:white;
   }
 
   .footertitle{
     position: absolute;
     margin-top:6vh;
-    margin-left:30vw;
+    margin-left:28vw;
     font-family: 'Allura', cursive;
     font-size: 3rem;
     font-weight: lighter;
-    color:rgb(107, 107, 107);
+    color:rgb(255, 255, 255);
 
   }
 
@@ -328,6 +328,7 @@ body {
   .class1{
     position:absolute;
     margin-top:4vh;
+      margin-left:-2vh;
   }
 
  .class2{
@@ -337,12 +338,13 @@ body {
  }
 
  .signature{
-    margin-top:2vh;
-    margin-left:1vw;
+    margin-top:-3vh;
+    margin-left:22vw;
+     font-size:12px;
   }
 
   .iconFooter{
-    margin-top:9vh;
+    margin-top:21vh;
     margin-left:20vw;
     width:5vw;
     height:4vh;
