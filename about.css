@@ -10,7 +10,7 @@ body {
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
   color:rgb(107, 107, 107);
-    background-color:#013b3d;
+    background-color:#2a5241;
   
     
 }
@@ -299,7 +299,7 @@ body {
 
    .footer{
     position: absolute;
-    margin-top:1900px;
+    margin-top:700px;
      margin-left:0vw;
     height:270px;
     width:100vw;
@@ -438,7 +438,13 @@ body {
       color:#3b3b3b;
       font-size:15px;
       font-weight: lighter;
-   }
+     }{
+         margin-lrft:30vw;
+     }
+     
+     #archtypeHeader{
+         margin-lrft:46vw;
+         }
 
    .projectHeader{
     margin-top:20vh;
@@ -452,6 +458,14 @@ body {
     margin-left:28vw;
     width:60vw;
    }
+     
+     #project2{
+         margin-left:-30vw;
+     }
+     
+     #project3{
+         margin-left:-30vw
+     }
 
    #projectHeader2{
     margin-left:45vw;
