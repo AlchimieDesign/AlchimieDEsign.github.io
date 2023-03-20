@@ -328,7 +328,7 @@ height:17vh;
 
  .footer{
     position: absolute;
-    margin-bottom:-5;
+    margin-bottom:-5vh;
     height:350px;
     width:100vw;
     background-color:#999999;
