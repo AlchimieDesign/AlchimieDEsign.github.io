@@ -216,8 +216,8 @@ margin-top: 22vh;
 
   .slogan{
     position: absolute;
-   margin-top:32vh;
-   margin-left:16vw; 
+   margin-top:40vh;
+   margin-left:13vw; 
    font-family: 'Allura', cursive;
    font-size: 40px;
    font-weight: lighter;
@@ -241,7 +241,7 @@ margin-top:10vh;}
  
 #websites{
  position: absolute;
-  margin-top:116vh;
+  margin-top:113vh;
   margin-left:4vw;
 }
 
@@ -273,7 +273,7 @@ height:15vh;
 
 .pageTitle{
   position: absolute;
-  margin-top:122vh;
+  margin-top:117vh;
   margin-left:29vw;
   font-family: 'Allura', cursive;
   font-size: 4rem;
@@ -333,7 +333,7 @@ height:15vh;
   #webText{
   position: absolute;
   margin-top:50vh;
-  margin-left: 4vw;
+  margin-left: 2vw;
   width:50vh;
   }
 
@@ -434,7 +434,7 @@ height:15vh;
  }
 
  .signature{
-    margin-top:-2vh;
+    margin-top:1vh;
     margin-left:22vw;
      font-size:12px;
   }
