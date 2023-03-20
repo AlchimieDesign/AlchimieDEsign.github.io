@@ -359,7 +359,7 @@ body {
     }
 
     .pageTitle{
-      margin-top:-40vh;
+      margin-top:40vh;
       margin-left:40vw;
       font-size:3rem;
     }
@@ -372,6 +372,8 @@ body {
       text-decoration: none;
       font-weight: lighter;
     }
+      
+     
 
     #mission{
       margin-left:5vw;
@@ -381,7 +383,8 @@ body {
       margin-left:16vw;
     }
 
-    
+    .sectionHeader{
+        font-size:3rem;
 
     #websites{
       margin-left:42vw;
@@ -433,7 +436,7 @@ body {
     margin-top:12vh;
     margin-left:43vw;
     color:#3b3b3b;
-    font-size:24px;
+    font-size:30px;
     font-weight: lighter;
    }
    .projectText{
