@@ -454,13 +454,13 @@ body {
       font-size:15px;
       font-weight: lighter;
      }
-     #archtypeHeader{
+     #archetypeHeader{
          margin-top:6vh;
-         margin-left:50vw;
+         margin-left:30vw;
          }
 
    .projectHeader{
-    margin-top:36vh;
+    margin-top:26vh;
     margin-left:56vw;
     color:#3b3b3b;
     font-size:24px;
@@ -471,9 +471,7 @@ body {
     margin-left:33vw;
     width:60vw;
    }
-     #archetypeHeader{
-         margin-left:36vw;
-     }
+   
      #project2{
          margin-left:5vw;
      }
