@@ -10,7 +10,7 @@ body {
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
   color:rgb(107, 107, 107);
-    background-color:#182b1c;
+    background-color:#234052;
    
   }
 
@@ -291,7 +291,9 @@ body {
  }
 
 
-
+#archetypeheader{
+    margin-left:30vw;
+    font-size:22px;}
 #aechetypeText{
     margin-left:20vw;}
  .sectionSubHeader{
@@ -457,7 +459,7 @@ body {
      #archetypeHeader{
          margin-top:6vh;
          margin-left:48vw;
-         font-size:2rem;
+         
          }
 
    .projectHeader{
