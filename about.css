@@ -10,7 +10,7 @@ body {
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
   color:rgb(107, 107, 107);
-    background-color:#41450e;
+    background-color:#1f3133;
    
     
    
@@ -252,7 +252,7 @@ body {
     margin-top:12vh;
     margin-left:-6vw;}
 #project1Header{
-    margin-left;50vw;
+    margin-left:50vw;
 }
 #archtypeHeader{
     margin-left:32vw;}
