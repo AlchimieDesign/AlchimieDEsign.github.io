@@ -333,7 +333,7 @@ height:15vh;
   #webText{
   position: absolute;
   margin-top:50vh;
-  margin-left: -6vw;
+  margin-left: 3vw;
   width:50vh;
   }
 
@@ -593,7 +593,7 @@ height:15vh;
     
       #webText{
           margin-top:112vh;
-        margin-left:13vw;
+        margin-left:23vw;
         width:90vw;
       }
     
