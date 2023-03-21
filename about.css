@@ -10,7 +10,7 @@ body {
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
   color:rgb(107, 107, 107);
-    background-color:#c2cc9f;
+    background-color:#65703e;
    
   }
 
@@ -173,10 +173,7 @@ body {
   opacity: 0.4;
 }
 
-
-
-
-
+/*for navbar on mobile*/
 
 @media screen and (max-width: 750px) {
     #main-menu {
@@ -186,6 +183,9 @@ body {
       display: inline;
     }
   }
+/*end of block*/
+
+/*mobile header container*/
  .pageTitle{
     position: absolute;
     margin-top:-13vw;
@@ -213,7 +213,20 @@ body {
     font-weight: lighter;
   }
 
-  .sectionHeader{
+/*End of mobile header container*/
+
+  /* mobile mission container*/
+
+  #mission{
+    margin-top:9vh;
+    margin-left:-3vw;
+  }
+
+#missionText{
+  margin-left:14vw;}
+
+
+.sectionHeader{
     margin-top:-2vh;
     margin-left:39vw;
     font-family: 'Allura', cursive;
@@ -229,46 +242,26 @@ body {
     width:90vw;
   }
 
-  #mission{
-    margin-top:9vh;
-    margin-left:1vw;
+/* End of mobile mission container*/
+
+.book{
+    margin-left:20vw;
+    padding: 2px 10px 2px 10px;
+    background-color: #40414150;
+    color:white;
+    text-decoration: none;
+    font-weight: lighter;
   }
 
-#missionText{
-  margin-left:14vw;}
 
-  .projectHeader{
-    margin-left:45vw;
-  }
-  .projectText{
-    margin-left:6vw;
-    width:70vw;
-  }
-#project1{
-    margin-top:12vh;
-    margin-left:-6vw;}
-#project1Header{
-    margin-left:50vw;
-}
-
-
-
-  #projectHeader2{
-    margin-left:30vw;
-  }
-
-  #projectHeader3{
-    margin-left:60vw;
-  }
-
- #websites{
+/*offers block*/
+#websites{
     margin-top:4vh;
     margin-left:27vw;
 
  }
 
- 
- .itemHeader{
+.itemHeader{
     margin-top:7vh;
     margin-left:37vw;
     font-size: 22px;
@@ -283,19 +276,33 @@ body {
     width:70vw;
  }
 
- #futureHeader{
+/*end of offer container*/
+
+
+
+/*Mobile future project container*/
+
+#futureHeader{
     margin-top:8vh;
     margin-left:4vw;
     width:100vh;
     font-size: 43px;
  }
 
-
+.projectHeader{
+    margin-left:45vw;
+  }
+  .projectText{
+    margin-left:15vw;
+    width:70vw
+}
 #archetypeheader{
     margin-left:30vw;
-    font-size:22px;}
+    font-size:15px;}
+
 #aechetypeText{
     margin-left:20vw;}
+
  .sectionSubHeader{
     margin-top:-7vh;
     margin-left:38vw;
@@ -303,17 +310,7 @@ body {
     font-size:15px;
     font-weight: lighter;
  }
- 
- .book{
-    margin-left:20vw;
-    padding: 2px 10px 2px 10px;
-    background-color: #40414150;
-    color:white;
-    text-decoration: none;
-    font-weight: lighter;
-  }
-
-   .footer{
+ .footer{
     position: absolute;
     margin-top:400px;
      margin-left:0vw;
@@ -331,12 +328,10 @@ body {
     font-size: 3rem;
     font-weight: lighter;
     color:rgb(255, 255, 255);
-
-  }
+ }
 
   .footerLink{
-   
-    list-style-type: none;
+   list-style-type: none;
     text-decoration: none;
     color:white
   }
@@ -371,7 +366,7 @@ body {
 
  @media screen and (min-width:700px){
 
-
+/*Desktop header container*/
      .headerImg{
       margin-top:5vh;
       margin-left:12vw;
@@ -396,7 +391,11 @@ body {
       text-decoration: none;
       font-weight: lighter;
     }
-
+     
+     /*End of Desktop header container*/
+     
+     
+/* Desktop mission container*/
     #mission{
      margin-left:5vw;
         font-size:4rem;
@@ -407,8 +406,9 @@ body {
       margin-left:20vw;
         width:60vw;
     }
+     /*End of Desktop mission container*/
 
-    
+    /*Desktop offer container*/
 
     #websites{
       margin-left:44vw;
@@ -425,11 +425,9 @@ body {
       font-size: 20px;
       font-weight: lighter;
       color:rgb(107, 107, 107);
-     
-   }
+     }
   
-  
-   .itemText{
+  .itemText{
       margin-left:34vw;
       width:65vw;
    }
@@ -442,6 +440,11 @@ body {
     margin-left:27vw;
     width:60vw;
    }
+     
+     /*End of Desktop offer container*/
+     
+     
+     /*Desktop future projects container*/
   
    #futureHeader{
       margin-top:7vh;
@@ -459,6 +462,10 @@ body {
      #archetypeHeader{
          margin-top:6vh;
          margin-left:48vw;
+          color:#3b3b3b;
+    font-size:24px;
+    font-weight: lighter;
+         
          
          }
 
@@ -498,7 +505,7 @@ body {
      #archetypeText{
          margin-left:30vw;
      }
-     
+     /*End Desktop future projects container*/ 
      
    
    .book{
