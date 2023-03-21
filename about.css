@@ -298,7 +298,7 @@ body {
 }
 #archetypeheader{
     margin-left:30vw;
-    font-size:15px;}
+   }
 
 #aechetypeText{
     margin-left:20vw;}
@@ -474,7 +474,7 @@ body {
     margin-top:26vh;
     margin-left:56vw;
     color:#3b3b3b;
-    font-size:24px;
+   
     font-weight: lighter;
    }
    .projectText{
