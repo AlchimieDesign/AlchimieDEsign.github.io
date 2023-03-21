@@ -10,7 +10,7 @@ body {
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
   color:rgb(107, 107, 107);
-    background-color:#474457;
+    background-color:#3b3b3b;
    
     
    
@@ -471,15 +471,15 @@ body {
     margin-left:33vw;
     width:60vw;
    }
-     #archetypeHeader{
-         margin-left:66vw;
+     #archtypeHeader{
+         margin-left:36vw;
      }
      #project2{
-         margin-left:24vw;
+         margin-left:15vw;
      }
      
      #project3{
-         margin-left:24vw
+         margin-left:14vw
      }
 
    #projectHeader2{
