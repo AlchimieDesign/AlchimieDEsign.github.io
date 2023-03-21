@@ -10,7 +10,7 @@ body {
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
   color:rgb(107, 107, 107);
-    background-color:#31362f;
+    background-color:#1c2b15;
    
     
    
@@ -480,11 +480,11 @@ body {
      }
 
    #projectHeader2{
-    margin-left:50vw;
+    margin-left:70vw;
    }
 
    #projectHeader3{
-    margin-left:50vw;
+    margin-left:70vw;
    }
    
    .book{
