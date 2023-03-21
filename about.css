@@ -291,16 +291,12 @@ body {
  }
 
 #archetypeHeader{
-     font-family: 'Allura', cursive;
-    font-size: 3rem;
-    font-weight: lighter;
-    color:rgb(107, 107, 107);
+    margin-left:20v
    
 }
 
 #aechetypeText{
     margin-left:20vw;}
-
  .sectionSubHeader{
     margin-top:-7vh;
     margin-left:38vw;
