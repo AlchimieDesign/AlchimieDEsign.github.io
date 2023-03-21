@@ -10,6 +10,7 @@ body {
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
   color:rgb(107, 107, 107);
+    background-color:#5c420f;
     
    
   }
@@ -230,7 +231,7 @@ body {
     margin-top:-2vh;
     margin-left:39vw;
     font-family: 'Allura', cursive;
-    font-size: 3rem;
+    
     font-weight: lighter;
     color:rgb(107, 107, 107);
 
@@ -307,7 +308,7 @@ body {
     margin-top:-7vh;
     margin-left:38vw;
     color:#3b3b3b;
-    font-size:15px;
+  
     font-weight: lighter;
  }
  .footer{
@@ -457,7 +458,7 @@ body {
       margin-top:-10vh;
       margin-left:46vw;
       color:#3b3b3b;
-      font-size:15px;
+     
       font-weight: lighter;
      }
      #archetypeHeader{
