@@ -10,7 +10,7 @@ body {
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
   color:rgb(107, 107, 107);
-    background-color:#184038;
+    background-color:#222936;
    
     
    
@@ -456,12 +456,12 @@ body {
      }
      #archetypeHeader{
          margin-top:6vh;
-         margin-left:74vw;
+         margin-left:94vw;
          }
 
    .projectHeader{
     margin-top:36vh;
-    margin-left:47vw;
+    margin-left:56vw;
     color:#3b3b3b;
     font-size:24px;
     font-weight: lighter;
@@ -475,11 +475,11 @@ body {
          margin-left:36vw;
      }
      #project2{
-         margin-left:-10vw;
+         margin-left:30vw;
      }
      
      #project3{
-         margin-left:-10vw
+         margin-left:30vw
      }
 
    #projectHeader2{
