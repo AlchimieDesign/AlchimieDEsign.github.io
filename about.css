@@ -75,7 +75,7 @@ body {
 
 #navTitle{
     posistion:absolute;
-  margin-left:-80vw;
+  margin-left:-80vw !important;
   font-family: 'Allura', cursive;
   font-size: 30px !important;
   font-weight: lighter;
