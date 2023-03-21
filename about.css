@@ -219,7 +219,7 @@ body {
 
   .sectionHeader{
     margin-top:-2vh;
-    margin-left:37vw;
+    margin-left:39vw;
     font-family: 'Allura', cursive;
     font-size: 3rem;
     font-weight: lighter;
@@ -235,7 +235,7 @@ body {
 
   #mission{
     margin-top:9vh;
-    margin-left:-7vw;
+    margin-left:6vw;
   }
 
 #missionText{
@@ -254,6 +254,9 @@ body {
 #project1Header{
     margin-left;50vw;
 }
+#archtypeHeader{
+    margin-left:32vw;}
+
   #projectHeader2{
     margin-left:30vw;
   }
@@ -264,7 +267,7 @@ body {
 
  #websites{
     margin-top:4vh;
-    margin-left:27vw;
+    margin-left:30vw;
 
  }
 
