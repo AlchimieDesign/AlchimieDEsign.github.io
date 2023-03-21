@@ -146,7 +146,7 @@ body {
 
 #hamburger-menu ul {
   margin-top:4vh;
-  padding-left: 36vw;
+  padding-left: 30vw;
 }
 
 #hamburger-menu li {
@@ -235,11 +235,11 @@ body {
 
   #mission{
     margin-top:9vh;
-    margin-left:6vw;
+    margin-left:4vw;
   }
 
 #missionText{
-  margin-left:16vw;}
+  margin-left:14vw;}
 
   .projectHeader{
     margin-left:65vw;
@@ -267,7 +267,7 @@ body {
 
  #websites{
     margin-top:4vh;
-    margin-left:30vw;
+    margin-left:27vw;
 
  }
 
@@ -293,6 +293,11 @@ body {
     width:100vh;
     font-size: 43px;
  }
+
+#archetypeHeader{
+    margin-left:-20vh;
+    font-size:2rem;
+}
 
  .sectionSubHeader{
     margin-top:-7vh;
@@ -456,7 +461,7 @@ body {
      }
      #archetypeHeader{
          margin-top:6vh;
-         margin-left:45vw;
+         margin-left:35vw;
          }
 
    .projectHeader{
