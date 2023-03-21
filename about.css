@@ -73,11 +73,12 @@ body {
     margin-top:-1vh;}
 
 #navTitle{
-  margin-left:-80vw;
+    posistion:absolute;
+  margin-left:-10vw;
   font-family: 'Allura', cursive;
   font-size: 30px !important;
   font-weight: lighter;
-  color:#a12a95;
+  color:#fccaf7;
 }
 
 #discovery{
