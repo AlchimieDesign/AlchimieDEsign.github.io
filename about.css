@@ -10,13 +10,9 @@ body {
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
   color:rgb(107, 107, 107);
-    background-color:#349beb;
+    background-color:#182b1c;
    
-    
-   
-  
-    
-}
+  }
 
 .overlay{
     position: fixed;
@@ -235,7 +231,7 @@ body {
 
   #mission{
     margin-top:9vh;
-    margin-left:4vw;
+    margin-left:1vw;
   }
 
 #missionText{
@@ -256,8 +252,6 @@ body {
 }
 
 
-#archtypeHeader{
-    margin-left:43vw;}
 
   #projectHeader2{
     margin-left:30vw;
@@ -297,9 +291,15 @@ body {
  }
 
 #archetypeHeader{
-    margin-left:-24vh;
-    font-size:2rem;
+     font-family: 'Allura', cursive;
+    font-size: 3rem;
+    font-weight: lighter;
+    color:rgb(107, 107, 107);
+   
 }
+
+#aechetypeText{
+    margin-left:20vw;}
 
  .sectionSubHeader{
     margin-top:-7vh;
@@ -483,6 +483,11 @@ body {
      #project2{
          margin-left:-2vw;
      }
+     
+     #theLabText{
+         margin-left:-10vw;}
+     #turaText{
+         margin-left;-10vw;}
      
      #project3{
          margin-left:-2vw
