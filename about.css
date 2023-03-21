@@ -10,6 +10,7 @@ body {
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
   color:rgb(107, 107, 107);
+    background-color:#a60714;
    
   
     
@@ -74,7 +75,7 @@ body {
 
 #navTitle{
     posistion:absolute;
-  margin-left:-10vw;
+  margin-left:-40vw;
   font-family: 'Allura', cursive;
   font-size: 30px !important;
   font-weight: lighter;
