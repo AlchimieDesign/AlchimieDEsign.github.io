@@ -218,7 +218,7 @@ body {
   /* mobile mission container*/
 
   #mission{
-    margin-top:9vh;
+    margin-top:3vh;
     margin-left:-3vw;
   }
 
@@ -262,6 +262,7 @@ body {
 #websites{
     margin-top:20vh;
     margin-left:27vw;
+    font-size:42px;
 
  }
 
