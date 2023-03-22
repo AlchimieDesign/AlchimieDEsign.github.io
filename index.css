@@ -218,7 +218,7 @@ margin-top: 22vh;
   .slogan{
     position: absolute;
    margin-top:40vh;
-   margin-left:13vw; 
+   margin-left:9vw; 
    font-family: 'Allura', cursive;
    font-size: 40px;
    font-weight: lighter;
@@ -274,7 +274,7 @@ height:15vh;
 
 .pageTitle{
   position: absolute;
-  margin-top:117vh;
+  margin-top:112vh;
   margin-left:29vw;
   font-family: 'Allura', cursive;
   font-size: 4rem;
