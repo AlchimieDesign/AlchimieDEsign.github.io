@@ -223,7 +223,7 @@ body {
   }
 
 #missionText{
-    margin-top:7vh;
+    margin-top:6vh;
   margin-left:14vw;}
 
 
@@ -237,6 +237,9 @@ body {
 
   }
 
+#websiteHeader{
+    font-size:35px;}
+
   .sectionText{
     margin-top:-4vh;
     margin-left:24vw;
@@ -244,7 +247,7 @@ body {
   }
 
 #explore{
-    margin-top:8vh;}
+    margin-top:4vh;}
 
 /* End of mobile mission container*/
 
@@ -294,6 +297,8 @@ body {
     font-size: 43px;
  }
 
+
+
 .projectHeader{
     margin-left:45vw;
   }
@@ -314,9 +319,9 @@ body {
  .sectionSubHeader{
     margin-top:-7vh;
     margin-left:38vw;
+     font-size:22px;
     color:#3b3b3b;
-  
-    font-weight: lighter;
+   font-weight: lighter;
  }
  .footer{
     position: absolute;
