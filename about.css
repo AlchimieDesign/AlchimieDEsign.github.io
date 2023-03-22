@@ -223,6 +223,7 @@ body {
   }
 
 #missionText{
+    margin-top:-30vh;
   margin-left:14vw;}
 
 
@@ -244,7 +245,8 @@ body {
 
 /* End of mobile mission container*/
 
-.book{
+.bookingLink{
+    display:none;
     margin-left:20vw;
     padding: 2px 10px 2px 10px;
     background-color: #40414150;
