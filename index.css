@@ -472,6 +472,7 @@ height:15vh;
     
       }
       .headerImg{
+      
         margin-left:10vw;
         max-height:80vh;
         min-height:80vh;
@@ -481,24 +482,15 @@ height:15vh;
         
       }
     
-      h2{
-        margin-left:30%;
-        font-family: 'Allura', cursive;
-          font-size: 2rem;
-          font-weight: lighter;
-          color:rgb(107, 107, 107);
-      }
-    
-      .slogan{
-        position: absolute;
-       margin-top:70vh;
-       margin-left:10vw;
-        font-family: 'Allura', cursive;
-          font-size: 3rem;
-          font-weight: lighter;
-          color:rgb(88, 87, 87);
-      
-      }
+    .slogan{
+    position: absolute;
+    margin-top:40vh;
+    margin-left:34vw;
+    font-family: 'Allura', cursive;
+    font-size: 3rem;
+    font-weight: lighter;
+    color:rgb(88, 87, 87);
+    }
     
       #topLink {
        
@@ -573,18 +565,8 @@ height:15vh;
        box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
       }
     
-        .sectionCaption{
-        position: absolute;
-        font-size:8px;
-        margin-top: 150vh;
-        margin-left:100vw;
-        }
+        
     
-      #websiteCaption{
-        position: absolute;
-          margin-top:45vh;
-        margin-left:33vw !important;
-      }
     
       #websiteHeader{
           margin-top:100vh;
@@ -593,9 +575,9 @@ height:15vh;
       }
     
       #webText{
-          margin-top:112vh;
-        margin-left:9vw;
-        width:90vw;
+          margin-top:116vh;
+        margin-left:20vw;
+        width:50vw;
       }
     
       #graphic{
@@ -730,6 +712,8 @@ height:15vh;
   
   
     }
+  
+  
   
   
   
