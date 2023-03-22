@@ -223,7 +223,7 @@ body {
   }
 
 #missionText{
-    margin-top:30vh;
+    margin-top:15vh;
   margin-left:14vw;}
 
 
@@ -231,7 +231,7 @@ body {
     margin-top:-2vh;
     margin-left:39vw;
     font-family: 'Allura', cursive;
-    
+    font-size:26px;
     font-weight: lighter;
     color:rgb(107, 107, 107);
 
@@ -242,6 +242,9 @@ body {
     margin-left:24vw;
     width:90vw;
   }
+
+#explore{
+    margin-top:-6vh;}
 
 /* End of mobile mission container*/
 
