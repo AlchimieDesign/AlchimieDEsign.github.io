@@ -75,7 +75,7 @@ body {
 
 #DesktopNavTitle{
   position:absolute;
-  margin-left:-9vw !important;
+  margin-left:-15vw !important;
   font-family: 'Allura', cursive;
   font-size: 30px !important;
   font-weight: lighter;
@@ -318,7 +318,8 @@ body {
     width:70vw
 }
 #archetypeheader{
-    margin-left:12vw;
+    position:absolute;
+    margin-left:-9vw;   
     color:rgb(107, 107, 107);
    }
 
@@ -532,7 +533,7 @@ body {
  }
  .projectText{
   margin-top:6vh;
-  margin-left:33vw;
+  margin-left:26vw;
   width:60vw;
  }
 
