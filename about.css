@@ -453,7 +453,7 @@ body {
 
     #websiteHeader{
      margin-top:-106vh;
-        margin-left:43vw;
+        margin-left:33vw;
         font-size:4rem;
         width:100vh;
     }
@@ -495,20 +495,20 @@ body {
 
 #itemTwoText{
   position: absolute;
-  margin-top:8vh;
-  margin-left:27vw;
+  margin-top:-3vh;
+  margin-left:10vw;
   color:white;
 
 }
 
 #itemThreeHeader{
   position: absolute;
-  margin-top:9vh !important;
+  margin-top:12vh !important;
   margin-top:-4vw !important;
 }
 
 #itemThreeText{
-   margin-top:28vh;
+   margin-top:32vh;
     margin-left:27vw;
     width:48vw;
     color:white;
