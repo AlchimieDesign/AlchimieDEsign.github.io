@@ -6,6 +6,12 @@ body {
     overflow-x: hidden;
   padding: 0px;
   margin: 0px;
+Alchimie offers digital design at affordable rates with social and creative start ups in mind.
+
+Explore
+Web Design
+Offer One
+$45 one page custom static informative page
   font-size: 20px;
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
@@ -453,7 +459,7 @@ body {
 
     #websiteHeader{
      margin-top:-106vh;
-        margin-left:33vw;
+        margin-left:38vw;
         font-size:4rem;
         width:100vh;
     }
@@ -496,19 +502,19 @@ body {
 #itemTwoText{
   position: absolute;
   margin-top:-3vh;
-  margin-left:10vw;
+  margin-left:30vw;
   color:white;
 
 }
 
 #itemThreeHeader{
   position: absolute;
-  margin-top:12vh !important;
+  margin-top:18vh !important;
   margin-top:-4vw !important;
 }
 
 #itemThreeText{
-   margin-top:32vh;
+   margin-top:12vh;
     margin-left:27vw;
     width:48vw;
     color:white;
