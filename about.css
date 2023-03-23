@@ -6,7 +6,7 @@ body {
     overflow-x: hidden;
   padding: 0px;
   margin: 0px;
-
+background-color:#32a852;
   font-size: 20px;
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
@@ -75,7 +75,7 @@ body {
 
 #DesktopNavTitle{
   position:absolute;
-  margin-left:-15vw !important;
+  margin-left:-20vw !important;
   font-family: 'Allura', cursive;
   font-size: 30px !important;
   font-weight: lighter;
@@ -490,8 +490,8 @@ body {
 }
 
 #itemThreeHeader{
-  
-  margin-top:20vh !important;
+  position:absolute;
+  margin-top:19vh !important;
  
 }
 
@@ -533,7 +533,7 @@ body {
  }
  .projectText{
   margin-top:6vh;
-  margin-left:26vw;
+  margin-left:24vw;
   width:60vw;
  }
 
@@ -652,7 +652,7 @@ body {
   
    .signature{
       margin-top:7vh;
-      margin-left:43vw;
+      margin-left:36vw;
     }
   
     .iconFooter{
