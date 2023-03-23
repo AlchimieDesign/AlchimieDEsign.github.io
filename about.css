@@ -73,7 +73,7 @@ body {
 
 #navTitle{
     
-  margin-left:18vw !important;
+  margin-left:24vw !important;
   font-family: 'Allura', cursive;
   font-size: 30px !important;
   font-weight: lighter;
@@ -239,7 +239,7 @@ body {
 
 #websiteHeader{
     margin-top:11vh;
-    margin-left:11vw;
+    margin-left:17vw;
     font-size:45px;}
 
   .sectionText{
@@ -296,7 +296,7 @@ body {
     margin-top:8vh;
     margin-left:4vw;
     width:100vh;
-    font-size: 43px;
+    font-size: 36px;
  }
 
 
@@ -311,7 +311,7 @@ body {
     width:70vw
 }
 #archetypeheader{
-    margin-left:26vw;
+    margin-left:23vw;
     color:rgb(107, 107, 107);
    }
 
@@ -320,8 +320,8 @@ body {
 
  .sectionSubHeader{
     margin-top:-7vh;
-    margin-left:38vw;
-     font-size:22px;
+    margin-left:34vw;
+     font-size:15px;
     color:#3b3b3b;
    font-weight: lighter;
  }
@@ -453,7 +453,7 @@ body {
 
     #websiteHeader{
      margin-top:-106vh;
-        margin-left:30vw;
+        margin-left:39vw;
         font-size:4rem;
         width:100vh;
     }
@@ -489,13 +489,13 @@ body {
  }
 
 #itemTwoHeader{
-  margin-top:3vh;
+  margin-top:6vh;
 
 }
 
 #itemTwoText{
   position: absolute;
-  margin-top:-5vh;
+  margin-top:4vh;
   margin-left:27vw;
   color:white;
 
@@ -503,12 +503,12 @@ body {
 
 #itemThreeHeader{
   position: absolute;
-  margin-top:2vh !important;
+  margin-top:5vh !important;
   margin-top:-4vw !important;
 }
 
 #itemThreeText{
-   margin-top:17vh;
+   margin-top:24vh;
     margin-left:27vw;
     width:48vw;
     color:white;
