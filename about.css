@@ -73,7 +73,7 @@ body {
 
 #navTitle{
     
-  margin-left:24vw !important;
+  margin-left:26vw !important;
   font-family: 'Allura', cursive;
   font-size: 30px !important;
   font-weight: lighter;
@@ -238,8 +238,8 @@ body {
   }
 
 #websiteHeader{
-    margin-top:11vh;
-    margin-left:17vw;
+    margin-top:13vh;
+    margin-left:22vw;
     font-size:45px;}
 
   .sectionText{
@@ -294,7 +294,7 @@ body {
 
 #futureHeader{
     margin-top:8vh;
-    margin-left:4vw;
+    margin-left:7vw;
     width:100vh;
     font-size: 36px;
  }
@@ -311,7 +311,7 @@ body {
     width:70vw
 }
 #archetypeheader{
-    margin-left:23vw;
+    margin-left:16vw;
     color:rgb(107, 107, 107);
    }
 
@@ -453,7 +453,7 @@ body {
 
     #websiteHeader{
      margin-top:-106vh;
-        margin-left:39vw;
+        margin-left:43vw;
         font-size:4rem;
         width:100vh;
     }
@@ -489,13 +489,13 @@ body {
  }
 
 #itemTwoHeader{
-  margin-top:6vh;
+  margin-top:12vh;
 
 }
 
 #itemTwoText{
   position: absolute;
-  margin-top:4vh;
+  margin-top:8vh;
   margin-left:27vw;
   color:white;
 
@@ -503,12 +503,12 @@ body {
 
 #itemThreeHeader{
   position: absolute;
-  margin-top:5vh !important;
+  margin-top:9vh !important;
   margin-top:-4vw !important;
 }
 
 #itemThreeText{
-   margin-top:24vh;
+   margin-top:28vh;
     margin-left:27vw;
     width:48vw;
     color:white;
@@ -516,7 +516,7 @@ body {
 
 #bookingLink{
   position: absolute;
-  margin-top:6vh;
+  margin-top:13vh;
   margin-left:35vw;
   width:20vw;
   padding: 2px 10px 2px 20px;
