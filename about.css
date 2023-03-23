@@ -8,8 +8,9 @@ body {
   margin: 0px;
  font-size: 20px;
   min-height: 200vh;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', s;ans-serif;
   color:rgb(107, 107, 107);
+    background-color:#fcba03;
    
    
   }
@@ -64,8 +65,8 @@ body {
   margin-left:-18vw;
 }
 
-#offer{
-  margin-left:-58vw;
+#offers{
+  margin-left:10vw;
 }
 
 
@@ -497,7 +498,7 @@ body {
 
 #itemThreeText{
   position: absolute;
-   margin-top:6vh;
+   margin-top:-10vh;
     margin-left:27vw;
     width:48vw;
     color:white;
