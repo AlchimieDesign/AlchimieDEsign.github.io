@@ -6,8 +6,7 @@ body {
     overflow-x: hidden;
   padding: 0px;
   margin: 0px;
-background-color:#32a852;
-  font-size: 20px;
+ font-size: 20px;
   min-height: 200vh;
   font-family: 'Raleway', sans-serif;
   color:rgb(107, 107, 107);
@@ -66,16 +65,15 @@ background-color:#32a852;
 }
 
 #offer{
-  margin-left:-50vw;
+  margin-left:-38vw;
 }
 
-#discovery{
-    margin-top:-1vh;
-  margin-left:8vw;}
+
 
 #DesktopNavTitle{
   position:absolute;
-  margin-left:-20vw !important;
+  margin-top:-3vh;
+  margin-left:6vw !important;
   font-family: 'Allura', cursive;
   font-size: 30px !important;
   font-weight: lighter;
@@ -85,7 +83,7 @@ background-color:#32a852;
 #discovery{
   position: absolute;
   margin-top:-2vh;
-    margin-left:-5vh;
+    margin-left:34vh;
  width:80vw;
 }
 
@@ -317,17 +315,19 @@ background-color:#32a852;
     margin-left:15vw;
     width:70vw
 }
-#archetypeheader{
+#archetypeHeader{
     position:absolute;
-    margin-left:-9vw;   
+    margin-top:-6vh;
+    margin-left:25vw !important;   
     color:rgb(107, 107, 107);
    }
 
 #archetypeText{
-    margin-left:20vw;}
+  margin-top:10vh;
+    margin-left:17vw;}
 
  .sectionSubHeader{
-    margin-top:-7vh;
+    margin-top:-4vh;
     margin-left:34vw;
      font-size:15px;
     color:#3b3b3b;
@@ -491,12 +491,13 @@ background-color:#32a852;
 
 #itemThreeHeader{
   position:absolute;
-  margin-top:19vh !important;
+  margin-top:3vh !important;
  
 }
 
 #itemThreeText{
-   margin-top:1vh;
+  position: absolute;
+   margin-top:14vh;
     margin-left:27vw;
     width:48vw;
     color:white;
@@ -554,7 +555,8 @@ background-color:#32a852;
      }
      #archetypeHeader{
       position: absolute;
-         
+         margin-top:5vh;
+         margin-left:43vw !important;
           color:rgb(107, 107, 107);
           font-size:27px;
           font-weight: lighter;
@@ -570,7 +572,7 @@ background-color:#32a852;
    
       #projectHeader2{
        
-       margin-top:54vh;
+       margin-top:57vh;
           margin-left:47vw;
           color:rgb(105, 105, 105);
           font-size:27px;
@@ -652,7 +654,7 @@ background-color:#32a852;
   
    .signature{
       margin-top:7vh;
-      margin-left:36vw;
+      margin-left:42vw;
     }
   
     .iconFooter{
