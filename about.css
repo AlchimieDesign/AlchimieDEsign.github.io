@@ -245,7 +245,7 @@ $45 one page custom static informative page
 
 #websiteHeader{
     margin-top:13vh;
-    margin-left:22vw;
+    margin-left:24vw;
     font-size:45px;}
 
   .sectionText{
@@ -299,8 +299,8 @@ $45 one page custom static informative page
 /*Mobile future project container*/
 
 #futureHeader{
-    margin-top:8vh;
-    margin-left:7vw;
+    margin-top:6vh;
+    margin-left:9vw;
     width:100vh;
     font-size: 36px;
  }
@@ -458,8 +458,8 @@ $45 one page custom static informative page
     }
 
     #websiteHeader{
-     margin-top:-106vh;
-        margin-left:38vw;
+     margin-top:-104vh;
+        margin-left:36vw;
         font-size:4rem;
         width:100vh;
     }
@@ -490,7 +490,7 @@ $45 one page custom static informative page
 
  #itemOneText{
  margin-top:-4vh;
-  margin-left:32vw;
+  margin-left:34vw;
   color: white;
  }
 
@@ -509,12 +509,12 @@ $45 one page custom static informative page
 
 #itemThreeHeader{
   position: absolute;
-  margin-top:18vh !important;
+  margin-top:21vh !important;
   margin-top:-4vw !important;
 }
 
 #itemThreeText{
-   margin-top:12vh;
+   margin-top:7vh;
     margin-left:27vw;
     width:48vw;
     color:white;
