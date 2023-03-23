@@ -8,7 +8,7 @@ body {
   margin: 0px;
  font-size: 20px;
   min-height: 200vh;
-  font-family: 'Raleway', s;ans-serif;
+  font-family: 'Raleway';
   color:rgb(107, 107, 107);
     
    
@@ -278,7 +278,7 @@ margin-left:-15vw;}
 
  }
 
-#offer{margin-left:-10vw;
+#offer{margin-left:-10vw;}
 
 .itemHeader{
     margin-top:7vh;
