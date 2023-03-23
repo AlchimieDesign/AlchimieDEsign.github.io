@@ -75,7 +75,7 @@ body {
 
 #DesktopNavTitle{
   
-  margin-left:14vw !important;
+  margin-left:10vw !important;
   font-family: 'Allura', cursive;
   font-size: 30px !important;
   font-weight: lighter;
@@ -85,6 +85,7 @@ body {
 #discovery{
   position: absolute;
   margin-top:-2vh;
+    margin-left:-5vh;
  width:80vw;
 }
 
@@ -299,8 +300,8 @@ body {
 /*Mobile future project container*/
 
 #futureHeader{
-    margin-top:6vh;
-    margin-left:9vw;
+    margin-top:3vh;
+    margin-left:10vw;
     width:100vh;
     font-size: 36px;
  }
@@ -317,7 +318,7 @@ body {
     width:70vw
 }
 #archetypeheader{
-    margin-left:16vw;
+    margin-left:12vw;
     color:rgb(107, 107, 107);
    }
 
@@ -386,30 +387,7 @@ body {
 
 
  @media screen and (min-width:700px){
- 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Desktop header container*/
+ /*Desktop header container*/
      .headerImg{
       margin-top:5vh;
       margin-left:20vw;
@@ -512,12 +490,12 @@ body {
 
 #itemThreeHeader{
   
-  margin-top:10vh !important;
+  margin-top:13vh !important;
  
 }
 
 #itemThreeText{
-   margin-top:7vh;
+   margin-top:9vh;
     margin-left:27vw;
     width:48vw;
     color:white;
