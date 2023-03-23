@@ -75,7 +75,7 @@ body {
 
 #DesktopNavTitle{
   
-  margin-left:5vw !important;
+  margin-left:-9vw !important;
   font-family: 'Allura', cursive;
   font-size: 30px !important;
   font-weight: lighter;
@@ -495,7 +495,7 @@ body {
 }
 
 #itemThreeText{
-   margin-top:5vh;
+   margin-top:1vh;
     margin-left:27vw;
     width:48vw;
     color:white;
