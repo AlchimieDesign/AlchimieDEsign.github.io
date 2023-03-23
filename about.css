@@ -526,8 +526,8 @@ body {
 
 
 .projectHeader{
-  margin-top:26vh;
-  margin-left:56vw;
+  margin-top:29vh;
+  margin-left:52vw;
   color:#3b3b3b;
  
   font-weight: lighter;
@@ -541,14 +541,14 @@ body {
 
    #futureHeader{
       margin-top:17vh;
-      margin-left:80vh;
+      margin-left:74vh;
       width:100vh;
       font-size:3rem;
    }
   
    .sectionSubHeader{
-      margin-top:-11vh;
-      margin-left:43vw;
+      margin-top:-7vh;
+      margin-left:46vw;
       color:#3b3b3b;
      
       font-weight: lighter;
