@@ -65,7 +65,7 @@ body {
 }
 
 #offer{
-  margin-left:-38vw;
+  margin-left:-58vw;
 }
 
 
@@ -73,7 +73,7 @@ body {
 #DesktopNavTitle{
   position:absolute;
   margin-top:-3vh;
-  margin-left:-10vw !important;
+  margin-left:-30vw !important;
   font-family: 'Allura', cursive;
   font-size: 30px !important;
   font-weight: lighter;
@@ -83,7 +83,7 @@ body {
 #discovery{
   position: absolute;
   margin-top:-2vh;
-    margin-left:20vh;
+    margin-left:8vh;
  width:80vw;
 }
 
@@ -471,7 +471,7 @@ body {
  }
 
  #itemOneText{
- margin-top:-4vh;
+ margin-top:-10vh;
   margin-left:34vw;
   color: white;
  }
