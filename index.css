@@ -1,717 +1,2908 @@
-@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Cormorant+Garamond:wght@300&family=Raleway:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Italianno&family=Pinyon+Script&family=Tsukimi+Rounded:wght@300&display=swap');
 
-
-body {
-    overflow-x: hidden !important;
-  padding: 0px;
-  margin: 0px;
-  font-size: 20px;
-  min-height: 200vh;
-  font-family: 'Raleway', sans-serif;
-  color:rgb(107, 107, 107);
-    
-    
-   
-    
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Cormorant Garamond', serif;
 }
 
-
-
-#main-menu {
-  display: block;
-  height: 30px;
-  width: 100vw;
-  background: #b7b6b82f;
-  margin-left: 6px;  
-  z-index: 9;
-}
-
-#main-menu ul {
-  max-width: 800px;
-  width: 100%;
-  height: 100%;
-  margin: 0px auto;
-  padding: 0px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  z-index: 9;
-}
-
-#main-menu li {
-  list-style-type: none;
-  font-size: 22px;
-}
-
-#main-menu a {
-  color: #404141;
-  font-size: 20px;
-  text-decoration: none;
-}
-
-#work{
-  margin-left:-18vw;
-}
-
-#offer{
-  margin-left:-15vw;
-}
-
-#bookHeader{
-    margin-top:-1vh;}
-
-#navTitle{
-  margin-left:-5vw;
-  font-family: 'Allura', cursive;
-  font-size: 30px !important;
-  font-weight: lighter;
-  color:#a12a95;
-}
-
-#discovery{
-  position: absolute;
-  margin-top:-2vh;
- width:80vw;
-}
-
-
-
-#main-menu a:hover {
-  background-color: rgba(127, 255, 212, 0.151);
-}
-
-#hamburger-input{
-  display: none;
-}
-
-#hamburger-menu {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    width: 50px;
-    height:50px;
-    display: none;
-    border: none;
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Cabin', Sans-serif;
-    background: linear-gradient(
-      to bottom, 
-      #4e4c4c9a, #4e4c4c9a 20%, 
-      #4e4c4c9a 20%,  #4e4c4c9a 40%, 
-      #4e4c4c9a 40%, #4e4c4c9a 60%, 
-      #4e4c4c9a 60%,  #4e4c4c9a 80%, 
-      #4e4c4c9a 80%,   #4e4c4c9a 100%
-    );
-    box-shadow: 10px 5px 5px rgba(85, 85, 85, 0.651);
-}
-
-#hamburger-menu #sidebar-menu {
-    visibility: hidden;
-    position: fixed;
-    top: 0;
-    left: -250px;
-    width: 100vw;
-    height: 43vh;
-    background-color: #474747;
-    transition: 0.3s;
-    padding: 0px 10px;
-    box-sizing: border-box;
-}
-
-#hamburger-menu h3 {
-  margin-top:2vh;
-  margin-left:30vw;
-  font-family: 'Allura', cursive;
-  font-size: 3rem;
-  font-weight: lighter;
-  color:rgb(107, 107, 107);
-}
-
-#hamburger-menu ul {
-  margin-top:-6vh;
-  padding-left: 36vw;
-}
-
-#hamburger-menu li {
-  list-style-type: none;
-  line-height: 2rem;
-}
-
-#hamburger-menu a {
-  color: #cfcccca8;
-  font-size: 1.3rem;
-  text-decoration: none;
-}
-
-#hamburger-menu a:hover {
-  color:white;
-}
-
-#hamburger-input:checked + #hamburger-menu #sidebar-menu {
-    visibility: visible;
-    left: 0;
-}
-#hamburger-input:checked ~ .overlay{
-   visibility: visible;
-  opacity: 0.4;
-}
-
-
-
-
-
-
-@media screen and (max-width: 750px) {
-    
-    
-    #main-menu {
-      display: none;
+li{
+    list-style-type:none;
     }
-    #hamburger-menu {
-      display: inline;
-    }
-  }
- body{
-overflow-x:hidden;
-  font-family: 'Raleway', sans-serif;
-}
 
-.subTitle{
-    display:none;
-  }
-
-  
-  img{
-    width:20%;
-    height:30%;
-
-  }
-
-
-  .headerImg{
-      position:absolute;
-      margin-top:0vh;
-      margin-left:10vw;
-      max-height:50vh;
-      min-height:50vh;
-     max-width:80vw;
-    min-width:80vw;  
-  box-shadow:  3px 4px 22px 16px rgba(224, 224, 224, 0.85);
-  z-index:-1;
-    
-  }
-
-  h2{
-position:absolute;
-margin-top: 22vh;
-    margin-left:30%;
-    font-family: 'Allura', cursive;
-      font-size: 2rem;
-      font-weight: lighter;
-      color:rgb(107, 107, 107);
-  }
-
-
-
-  .slogan{
-    position: absolute;
-   margin-top:40vh;
-   margin-left:9vw; 
-   font-family: 'Allura', cursive;
-   font-size: 40px;
-   font-weight: lighter;
-   color:rgb(114, 113, 113);
-  
-  }
-
-  #topLink {
-position:absolute;
-margin-top:55vh;
-    margin-left:35vw;   
-    padding:5px 6px 5px 8px;
-    font-weight: lighter;
-    background-color: rgba(201, 201, 201, 0.39);
-    text-decoration: none;
-    color:rgb(104, 103, 103);
-      z-index:1;
-  }
-.booking{ 
-margin-top:10vh;}
- 
-#websites{
- position: absolute;
-  margin-top:113vh;
-  margin-left:4vw;
-}
-
-.websiteSample{ 
-    margin-left:-4vw;
-height:15vh;
- width:46vw;}
-#webText{
-    margin-left:-27vh;}
-
-
-#emerald{
- position: absolute;
-  margin-top:-38vh;
-   margin-left:29vw;
-  
-   box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
- }
-
- #blackDesktop{
-  position: absolute;
-  margin-top:-22vh;
-  margin-left:-1vw;
- box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
-  z-index:-1;
-}
-
-
-
-.pageTitle{
-  position: absolute;
-  margin-top:112vh;
-  margin-left:29vw;
-  font-family: 'Allura', cursive;
-  font-size: 4rem;
-  font-weight: lighter;
-  color:rgb(79, 87, 85);
-}
-
-#nature{
-   position: absolute;
-  margin-top:-22vh;
-   margin-left: 52vw;
-  box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
-   z-index:1;
- }
-
-
-#poloriodSample{
-  position: absolute;
-    margin-top:13vh;
-    margin-left:9vw !important;
-    box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
-  }
-
-
-  #blog{
-   position: absolute; 
-    margin-top:17vh;
-    margin-left:43vw;
-   box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
-  }
-
- 
-
-  
- #alchSite{
-     
-    margin-top:40vh;
-    margin-left:10vw;
-    box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
-  }
-   .sectionCaption{
-    display:none;
-    position: absolute;
-    margin-top:23vh;
-    margin-left:3vh;
-    font-size:8px;
-   }
-  
-  #websiteHeader{
-     
-  margin-top:37vh;
-  margin-left:22vw;
-  width:100vw;
-  font-size:3rem;
-  }
-
-  #webText{
-  position: absolute;
-  margin-top:50vh;
-  margin-left: 5vw;
-  width:50vh;
-  }
-
-  #graphic{
-    position: absolute;
-    margin-top:160vh;
-  }
-
-  
-
-  #logos{
-    margin-top:30vh;
-    margin-left:5vw;
-  }
-
-
-  .logo{
-
-    height:23vh;
-    width:30vw;
-  }
-
-  #logo1{
-    position: absolute;
-    margin-top:-20vh;
-    margin-left:30vw;
-   height:30vh;
-   width:30vw;
-  }
-
-  #logo4{
-    position: absolute;
-    margin-top:-2vh;
-    margin-left:4vw;
-    height:30vh;
-   width:26vw;
-  }
-
-  #logo5{
-    
-    margin-top:-4vh;
-    margin-left:37vw;
-    height:14vh;
-   width:16vw;
-
-  }
-
-  #graphicHeader{
-   margin-top:3vh;
-   margin-left:22vw;
-    font-size:43px;
-   
-  }
-
-#graphicCaption{
-    margin-top:9vh;
-    margin-left:27vw;
-  }
-
-  .footer{
-    position: absolute;
-    margin-top:1900px;
-     margin-left:0vw;
-    height:270px;
-    width:100vw;
-    background-color:#525151;
-    color:white;
-  }
-
-  .footertitle{
-    position: absolute;
-    margin-top:6vh;
-    margin-left:28vw;
-    font-family: 'Allura', cursive;
-    font-size: 3rem;
-    font-weight: lighter;
-    color:rgb(255, 255, 255);
-
-  }
-
-  .footerLink{
-   
-    list-style-type: none;
-    text-decoration: none;
-    color:white
-  }
-
-  .class1{
-    position:absolute;
-    margin-top:4vh;
-      margin-left:-2vh;
-  }
-
- .class2{
-    position: absolute;
-    margin-top:4vh;
-    margin-left:60vw;
- }
-
- .signature{
-    margin-top:1vh;
-    margin-left:22vw;
-     font-size:12px;
-  }
-
-  .iconFooter{
-    margin-top:21vh;
-    margin-left:20vw;
-    width:5vw;
-    height:4vh;
-  }
-
-
-
-
-@media screen and (max-width: 750px) {
-  #main-menu {
-    display: none;
-  }
-  #hamburger-menu {
-    display: inline;
-  }
-}
-
-
-@media screen and (min-width:700px){
-    .subTitle{
-        display:none;
-      }
-    
-      
-      img{
-        width:20%;
-        height:30%;
-    
-      }
-      .headerImg{
-      
-        margin-left:10vw;
-        max-height:80vh;
-        min-height:80vh;
-      max-width:80vw;
-      min-width:80vw;  
-      box-shadow:  1px 0px 15px 18px rgba(224, 224, 224, 0.85);
-        
-      }
-    
-    .slogan{
-    position: absolute;
-    margin-top:40vh;
-    margin-left:34vw;
-    font-family: 'Allura', cursive;
-    font-size: 3rem;
-    font-weight: lighter;
-    color:rgb(88, 87, 87);
-    }
-    
-      #topLink {
-       
-      margin-top:80vh !important;
-        margin-left:43vw;   
-        padding:8px 9px 8px 5px;
-        background-color: rgba(64, 66, 66, 0.39);
+    a{
         text-decoration: none;
-        color:beige;
-      }
-    
-      
-    #websites{
-     
-      margin-top:104vh;
     }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        background-color: #d8d8d8;
+        font-size:2rem;
+    } 
+.nav-logo-mobile{
+    display:none;
+}
+    #contactLink{
+        position: absolute;
+        margin-left:10vw;
+        margin-top:-1%;
+    }
+
+    #bookLink{
+        position: absolute;
+        margin-left:27%;
+        margin-top:-3%;
+        background-color: #fff;
+        padding: 1% 1% 1% 1%;
+        font-size:1rem;
+       
+    }
+    #nav-logo-desktop{
+        position: absolute;
+        margin-left:36%;
+        font-size: 6rem;
+        font-weight: 500;
+       color:#ffffff;
+       font-weight: lighter;
+       font-family: 'Italianno', cursive;
+
+    }
+
+    
+
+    .hamburger {
+        display: none;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #101010;
+    }
+
+
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav-item {
+        margin-left: 5rem;
+    }
+    
+    .nav-link{
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #475569;
+    }
+    
+    .nav-link:hover{
+        color: #ffffff;
+    }
+    
+    
+
+    #homeLink{
+        
+        margin-top:-2%;
+        margin-left:-60%;
+    }
+
+    #projectLink{
+        margin-left:-50%;
+    }
+
+    #aboutLink{
+        margin-left:-90%;
+    }
+
+    #contactLink{
+        margin-top:-2%;
+        margin-left:20%;
+    }
+    @media screen and (min-width:50px) and (max-width:199px){
+        
+        header{
+            height:36vh;
+       background-image: url("img/smoke-show-2.jpg");
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+            
+        }
+    
+        nav{
+            height:10%;
+            background-color: rgba(233, 233, 233, 0.199);
+        }
+        .navbar{
+            background-color: #e4e4e441;
+        }
+                .nav-menu {
+                    position: fixed;
+                    left: -100%;
+                    top: 3rem;
+                    flex-direction: column;
+                    background-color: #fff;
+                    width: 100%;
+                    border-radius: 10px;
+                    text-align: center;
+                    transition: 0.3s;
+                    box-shadow:
+                        0 10px 27px rgba(0, 0, 0, 0.05);
+                        z-index:1 !important;
+                }
+            
+                .nav-menu.active {
+                    left: 0;
+                }
+        
+                .nav-item {
+                    margin: 2.5rem 0;
+                    
+                }
+            
+                .hamburger {
+                    display: block;
+                    cursor: pointer;
+                }
+        .bar{
+            background-color: #3b3b3b;
+        }
+                .hamburger.active .bar:nth-child(2) {
+                    opacity: 0;
+                }
+            
+                .hamburger.active .bar:nth-child(1) {
+                    transform: translateY(8px) rotate(45deg);
+                }
+            
+                .hamburger.active .bar:nth-child(3) {
+                    transform: translateY(-8px) rotate(-45deg);
+                }
+        .nav-logo-mobile{
+            margin-left:39% !important;
+        }
+        
+        .nav-logo-mobile{
+            height: 50vh !important;
+        }
+        
+        #nav-logo-desktop{
+            display:none;
+        }
+                #alchBrand{
+                    margin-top: -59% !important;
+                    margin-left:-9% !important;
+                    width:10% !important;
+                    height:10% !important;
+                   }
+        
+                #homeLink{
+                    position: absolute;
+                    margin-top:-30%;
+                    margin-left:-15% !important;
+                    color:rgb(126, 126, 126);
+                }
+        
+                #projectLink{
+                    position: absolute;
+                    margin-top:-5%;
+                    margin-left:-15% !important;
+                    color:rgb(204, 206, 206);
+                }
+        
+                #aboutLink{
+                    position: absolute;
+                    margin-top:-20%;
+                    margin-left:-15% !important;
+                    color:rgb(126, 126, 126);
+                }
+        
+                #bookLink{
+                    margin-left:-39%;
+                    background-color: #3b3b3b;
+                    color:#fff;
+                }
+        
+                #contactLink{
+                    margin-left:-15%;
+                    margin-top:-6%;
+                    color:rgb(126, 126, 126);
+        
+                }
+        
+                span{
+                    color:#475569;
+                }
+        
+            #alchDesignLogo{
+                margin-top:-12vh !important;
+            }
+    
+        .nav-logo-mobile{
+            height: 50vh !important;
+        }
+        
+        h1{
+            position: absolute;
+            margin-top:58%;
+            margin-left:14%;
+           
+            font-family: 'Italianno', cursive;
+            color:rgb(53, 53, 53);
+            font-size:1.3rem;
+        }
+
+        #desktopTitle{
+            display:none;
+        }
+    
+        #websites{
+            margin-top:20%;
+        }
+    
+        .sampleImg{
+            display:flex;
+            padding:4%;
+            width:90%;
+            height:120px;
+        }
+    
+        h2{
+            position: absolute;
+            margin-top:-13%;
+            margin-left:30%;
+            font-size: 2em;
+            color:rgb(110, 110, 110);
+            font-family: 'Italianno', cursive;
+            
+        }
+
+        h3{
+            width:100%;
+        }
+    }
+    
+    
+    
+
+
+    @media screen and (min-width:200px) and (max-width:239px){
+
+        body {
+            
+        
+            font-family: 'Cormorant Garamond', serif;
+            
+           font-weight:light ;
+    
+        }
+      header{
+        height:36vh;
+       background-image: url("img/smoke-show-2.jpg");
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+    }
+    
+    nav{
+        height:10%;
+        background-color: rgba(233, 233, 233, 0.199);
+    }
+    
+    .nav-logo-mobile{
+        height: 10vh !important;
+    }
+    
+    .navbar{
+        background-color: #e4e4e441;
+    }
+            .nav-menu {
+                position: fixed;
+                left: -100%;
+                top: 3rem;
+                flex-direction: column;
+                background-color: #ffffff;
+                height:100vh !important;
+                width: 100%;
+                border-radius: 10px;
+                text-align: center;
+                transition: 0.3s;
+                box-shadow:
+                    0 10px 27px rgba(0, 0, 0, 0.05);
+                    z-index:1 !important;
+            }
+        
+            .nav-menu.active {
+                left: 0;
+            }
+    
+            .nav-item {
+               margin-left:-9% !important;
+                color:#356ab4 !important;
+                
+            }
+        
+            .hamburger {
+                display: block;
+                cursor: pointer;
+            }
+    .bar{
+        background-color: #3b3b3b;
+    }
+            .hamburger.active .bar:nth-child(2) {
+                opacity: 0;
+            }
+        
+            .hamburger.active .bar:nth-child(1) {
+                transform: translateY(8px) rotate(45deg);
+            }
+        
+            .hamburger.active .bar:nth-child(3) {
+                transform: translateY(-8px) rotate(-45deg);
+            }
+    .nav-logo-mobile{
+        margin-left:39% !important;
+    }
+    
+    .nav-logo-mobile{
+        height: 50vh !important;
+    }
+    
+    #nav-logo-desktop{
+        display:none;
+    }
+            #alchBrand{
+                margin-top: -59% !important;
+                margin-left:-9% !important;
+                width:10% !important;
+                height:10% !important;
+               }
+    
+            #homeLink{
+                position: absolute;
+                margin-top:-90%;
+                margin-left:-15% !important;
+                color:rgb(100, 100, 100);
+            }
+    
+        
+    
+            #aboutLink{
+                position: absolute;
+                margin-top:-160% !important;
+                margin-left:-15% !important;
+                color:rgb(78, 78, 78);
+    
+            }
+    
+            #bookLink{
+                margin-top:-70vh !important;
+                margin-left:-32% !important;
+                background-color: #4d4d4d;
+                color:#fff;
+            }
+    
+            #contactLink{
+                margin-left:-16%;
+                margin-top:-59vh !important;
+                color:rgb(78, 78, 78);
+    
+            }
+    
+            span{
+                color:#475569;
+            }
+    
+        #alchDesignLogo{
+            margin-top:-12vh !important;
+        }
+    
+    
+    h1{
+        position: absolute;
+        margin-top:48% !important;
+       margin-left:12% !important;
+       font-family: 'Italianno', cursive;
+        color:rgb(29, 28, 28);
+        font-size:2rem !important;
+        font-weight: lighter !important;
+        background-color: #ffffff81!important;;
+        
+    
+    }
+
+    #desktopTitle{
+        display:none;
+    }
+    
+    #websites{
+        margin-top:3%;
+    }
+    
+    
+    
     
     .websiteSample{
-     width:30vw;
-     height:26vh;
+        position: absolute;
+        margin-top:2%;
+       
+       
     }
     
-    #emerald{
-     position: absolute;
-      margin-top:-7vh;
-       margin-left:30vw;
-       box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
-     }
+    .slogan{
+        margin-left:-3%;
+        font-size: 2rem;
+    }
     
-     #blackDesktop{
-      position: absolute;
-      margin-top:13vh;
-      margin-left:2vw;
-     box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
-      z-index:-1;
+    .sampleImg{
+        width:40%;
+        height:10%;
     }
     
     
     
-    
-    .pageTitle{
-      position: absolute;
-      margin-top:139vh;
-      margin-left:38vw;
-      font-family: 'Allura', cursive;
-      font-size: 5rem;
-      font-weight: lighter;
-      color:rgb(79, 87, 85);
+    #img1{
+        position: absolute;
+        margin-top:5%;
+        margin-left:27%;
+        height:70px;
+        width:100px;
+        z-index:-1;
     }
     
-    #nature{
-       position: absolute;
-      margin-top:13vh;
-       margin-left: 59vw;
-      box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
-       z-index:1;
-     }
+    #img2{
+        position: absolute;
+        margin-top:24%;
+        margin-left:4% !important;
+        height:50px;
+       ;
+        z-index:-1;
+    }
+    
+    #img3{
+        position: absolute;
+        margin-top:24%;
+        margin-left:50%;
+        height:50px;
+        z-index:-1;
+    }
+    
+    h2{
+        position: absolute;
+        margin-top:14vh;
+        margin-left:23%;
+        font-size: 3rem;
+        color:rgb(110, 110, 110);
+        font-family: 'Italianno', cursive;
+        font-weight:lighter;
+    }
     
     
-    #poloriodSample{
-      position: absolute;
-        margin-top:58vh;
-        margin-left:24vw !important;
-        box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
-      }
+    #img4{
+        position: absolute;
+        margin-top:21vh;
+        margin-left:50vw;
+        height:50px;
+        width:100px;
+        z-index:-1;
+        
+    }
+    
+    #img5{
+        position: absolute;
+        margin-top:23vh;
+        margin-left:10vw;
+        width:100px;
+        height:50px;
+    }
+    
+    #about{
+        margin-top:33vh !important;
+        margin-left:8% !important;
+        padding:3% 5% 3% 7% !important;
+        width:70%;
+        background-color:rgb(87, 86, 85);
+        color:antiquewhite;
+        font-weight: light;
+    }
+    
+    #blog{
+        margin-top:10%;
+    }
+    
+    .post{
+        width:90%;
+        padding:5%;
+    }
     
     
-      #blog{
-       position: absolute; 
-       margin-top:65vh;
-       margin-left:48vw;
-       box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
-      }
+    footer{
+        width:100%;
+        background-color: rgb(71, 71, 71);
+    }
+    
+        h1{
+            margin-left:20%;
+        }
+    }
+
+    @media screen and (min-width:240px) and (max-width:250px){
+      
+       
+
+        header{
+            height:36vh;
+           background-image: url("img/smoke-show-2.jpg");
+           background-repeat: no-repeat;
+           background-position: center;
+           background-size: cover;
+        }
+
+      
+
+        h1{
+            position: absolute;
+            margin-top:40% !important;
+           margin-left:12vh !important;
+           font-family: 'Italianno', cursive;
+            color:rgb(29, 28, 28);
+            font-size:2rem !important;
+            font-weight: lighter !important;
+            background-color: #79777781!important;;
+            
+        
+        }
+
+        #desktopTitle{
+            display:none;
+        }
+
+
+    
+        nav{
+            height:10%;
+            background-color: rgba(233, 233, 233, 0.199);
+        }
+        
+        .nav-logo-mobile{
+            height: 10vh !important;
+        }
+        
+       
+        .navbar{
+            background-color: #e4e4e441;
+        }
+                .nav-menu {
+                    position: fixed;
+                    left: -100%;
+                    top: 3rem;
+                    flex-direction: column;
+                    background-color: #fff;
+                    width: 100%;
+                    border-radius: 10px;
+                    text-align: center;
+                    transition: 0.3s;
+                    box-shadow:
+                        0 10px 27px rgba(0, 0, 0, 0.05);
+                        z-index:1 !important;
+                }
+            
+                .nav-menu.active {
+                    left: 0;
+                }
+        
+                .nav-item {
+                    margin: 2.5rem 0;
+                    
+                }
+            
+                .hamburger {
+                    display: block;
+                    cursor: pointer;
+                }
+        .bar{
+            background-color: #3b3b3b;
+        }
+                .hamburger.active .bar:nth-child(2) {
+                    opacity: 0;
+                }
+            
+                .hamburger.active .bar:nth-child(1) {
+                    transform: translateY(8px) rotate(45deg);
+                }
+            
+                .hamburger.active .bar:nth-child(3) {
+                    transform: translateY(-8px) rotate(-45deg);
+                }
+        .nav-logo-mobile{
+            margin-left:39% !important;
+        }
+        
+        .nav-logo-mobile{
+            height: 50vh !important;
+        }
+        
+        #nav-logo-desktop{
+            display:none;
+        }
+                #alchBrand{
+                    margin-top: -59% !important;
+                    margin-left:-9% !important;
+                    width:10% !important;
+                    height:10% !important;
+                   }
+        
+                #homeLink{
+                    position: absolute;
+                    margin-top:-10% !important;
+                    margin-left:-15% !important;
+                    color:rgb(92, 92, 92);
+                   
+                }
+        
+                
+                #aboutLink{
+                    position: absolute;
+                    margin-top:-5%;
+                    margin-left:-15% !important;
+                    color:rgb(92, 92, 92);
+        
+                }
+        
+                #bookLink{
+                    margin-left:-36%;
+                    background-color: #3b3b3b;
+                    color:#fff;
+                }
+        
+                #contactLink{
+                    margin-left:-15%;
+                    margin-top:-6%;
+                    color:rgb(92, 92, 92);
+                }
+        
+                span{
+                    color:#475569;
+                }
+        
+            #alchDesignLogo{
+                margin-top:-12vh !important;
+            }
+    
+        h1{
+            position: absolute;
+            margin-top:12vh !important;
+            margin-left:14% !important;
+           
+            font-family: 'Italianno', cursive;
+            color:rgb(53, 53, 53);
+            font-size:2rem !important;
+        }
+    
+     
+        
+        .nav-logo-mobile{
+            height: 50vh !important;
+        }
+
+        .slogan{
+            margin-left:-3%;
+            font-size: 2rem;
+        }
+        
+        .sampleImg{
+            width:40%;
+            height:10%;
+        }
+        
+        
+        
+        #img1{
+            position: absolute;
+            margin-top:5%;
+            margin-left:27%;
+            height:70px;
+            width:100px;
+            z-index:-1;
+        }
+        
+        #img2{
+            position: absolute;
+            margin-top:28%;
+            margin-left:4% !important;
+            height:50px;
+           ;
+            z-index:-1;
+        }
+        
+        #img3{
+            position: absolute;
+            margin-top:28%;
+            margin-left:50%;
+            height:50px;
+            z-index:-1;
+        }
+        
+        h2{
+            position: absolute;
+            margin-top:14vh;
+            margin-left:23%;
+            font-size: 3rem;
+            color:rgb(110, 110, 110);
+            font-family: 'Italianno', cursive;
+            font-weight:lighter;
+        }
+        
+        
+        #img4{
+            position: absolute;
+            margin-top:22vh;
+            margin-left:50vw;
+            height:50px;
+            width:100px;
+            z-index:-1;
+            
+        }
+        
+        #img5{
+            position: absolute;
+            margin-top:20vh;
+            margin-left:10vw;
+            width:100px;
+            height:50px;
+        }
+
+        #about{
+            margin-top:40vh;
+        }
+
+        .post{
+            
+            padding:5% !important;
+        }
+    }
+    
+    
+
+    @media screen and (min-width:251px) and (max-width:320px){
+
+        body {
+           
+           
+            font-family: 'Cormorant Garamond', serif;
+            
+           font-weight:light ;
+    
+        }
+      header{
+        height:36vh;
+       background-image: url("img/smoke-show-2.jpg");
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+    }
+    
+    nav{
+        height:10%;
+        background-color: rgba(233, 233, 233, 0.199);
+    }
+    
+    .nav-logo-mobile{
+        height: 10vh !important;
+    }
+    
+    .navbar{
+        background-color: #e4e4e441;
+    }
+            .nav-menu {
+                position: fixed;
+                left: -100%;
+                top: 3rem;
+                flex-direction: column;
+                background-color: #ffffff;
+                height:100vh !important;
+                width: 100%;
+                border-radius: 10px;
+                text-align: center;
+                transition: 0.3s;
+                box-shadow:
+                    0 10px 27px rgba(0, 0, 0, 0.05);
+                    z-index:1 !important;
+            }
+        
+            .nav-menu.active {
+                left: 0;
+            }
+    
+            .nav-item {
+                margin: 2.5rem 0;
+                color:#356ab4 !important;
+                
+            }
+        
+            .hamburger {
+                display: block;
+                cursor: pointer;
+            }
+    .bar{
+        background-color: #3b3b3b;
+    }
+            .hamburger.active .bar:nth-child(2) {
+                opacity: 0;
+            }
+        
+            .hamburger.active .bar:nth-child(1) {
+                transform: translateY(8px) rotate(45deg);
+            }
+        
+            .hamburger.active .bar:nth-child(3) {
+                transform: translateY(-8px) rotate(-45deg);
+            }
+    .nav-logo-mobile{
+        margin-left:39% !important;
+    }
+    
+    .nav-logo-mobile{
+        height: 50vh !important;
+    }
+    
+    #nav-logo-desktop{
+        display:none;
+    }
+            #alchBrand{
+                margin-top: -59% !important;
+                margin-left:-9% !important;
+                width:10% !important;
+                height:10% !important;
+               }
+    
+            #homeLink{
+                position: absolute;
+                margin-top:-90%;
+                margin-left:-7% !important;
+                color:rgb(100, 100, 100);
+            }
     
         
     
+            #aboutLink{
+                position: absolute;
+                margin-top:-36vh !important;
+                margin-left:-7% !important;
+                color:rgb(78, 78, 78);
     
-      #websiteHeader{
-          margin-top:100vh;
-        margin-left:35vw;
-          font-size:4rem;
-      }
+            }
     
-      #webText{
-          margin-top:116vh;
-        margin-left:20vw;
-        width:50vw;
-      }
+            #bookLink{
+                margin-top:-60vh !important;
+                margin-left:-24vw !important;
+                background-color: #393a3a;
+                color:#fff;
+            }
     
-      #graphic{
-        position:absolute;
-          margin-top:70vh;
-      }
+            #contactLink{
+                margin-left:-8%;
+                margin-top:-45vh !important;
+                color:rgb(78, 78, 78);
+    
+            }
+    
+            span{
+                color:#475569;
+            }
+    
+        #alchDesignLogo{
+            margin-top:-12vh !important;
+        }
+    
+    
+    h1{
+        position: absolute;
+        margin-top:12vh !important;
+       margin-left:15% !important;
+       font-family: 'Italianno', cursive;
+        color:rgb(53, 53, 53);
+        font-size:2.2rem !important;
+        font-weight: lighter !important;
+        background-color: #ffffff59;
+        
+    
+    }
+
+    #desktopTitle{
+        display:none;
+    }
+    
+    #websites{
+        margin-top:3%;
+    }
+    
+    
+    
+    
+    .websiteSample{
+        position: absolute;
+        margin-top:2%;
+       
+       
+    }
+    
+    .slogan{
+        margin-left:-3%;
+        font-size: 2rem;
+    }
+    
+    .sampleImg{
+        width:40%;
+        height:10%;
+    }
+    
+    
+    
+    #img1{
+        position: absolute;
+        margin-top:-2%;
+        margin-left:20%;
+        height:10%;
+        width:50%;
+        z-index:-1;
+    }
+    
+    #img2{
+        position: absolute;
+        margin-top:19%;
+        margin-left:2% !important;
+        height:7%;
+        width:42%;
+        z-index:-1;
+    }
+    
+    #img3{
+        margin-top:19%;
+        margin-left:56%;
+        height:7%;
+        width:42%;
+        z-index:-1;
+    }
+    
+    h2{
+        position: absolute;
+        margin-top:43%;
+        margin-left:30%;
+        font-size: 3rem;
+        color:rgb(110, 110, 110);
+        font-family: 'Italianno', cursive;
+        font-weight:lighter;
+    }
+    
+    
+    #img4{
+        
+        margin-top:23%;
+        margin-left:10%;
+        height:7%;
+        width:44%;
+        z-index:-1;
+        
+    }
+    
+    #img5{
+        position: absolute;
+        margin-top:26%;
+        height:6%;
+        width:42%;
+        margin-left:-4%;
+    }
+    
+    #about{
+        margin-top:14% !important;
+        margin-left:6% !important;
+        padding:3% 5% 3% 7% !important;
+        width:77%;
+        background-color:rgb(87, 86, 85);
+        color:antiquewhite;
+        font-weight: light;
+    }
+    
+    #blog{
+        margin-top:10%;
+    }
+    
+    .post{
+        width:80%;
+        margin-left:5%;
+        padding:7% !important;
+    }
+
+    .readMore{
+        margin-left:30%;
+    }
+    
+    
+    footer{
+        width:100%;
+        background-color: rgb(71, 71, 71);
+    }
+    }
+    
+
+
+    
+        
+
+
+
+
+
+@media screen and (min-width:321px) and (max-width:459px){
+
+  
+   
+    header{
+        height:36vh;
+       background-image: url("img/smoke-show-2.jpg");
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+    }
+    
+    nav{
+        height:10%;
+        background-color: rgba(233, 233, 233, 0.199);
+    }
+    
+    .nav-logo-mobile{
+        height: 10vh !important;
+    }
+    
+    .navbar{
+        background-color: #e4e4e441;
+    }
+            .nav-menu {
+                position: fixed;
+                left: -100%;
+                top: 3rem;
+                flex-direction: column;
+                background-color: #ffffff;
+                height:100vh !important;
+                width: 100%;
+                border-radius: 10px;
+                text-align: center;
+                transition: 0.3s;
+                box-shadow:
+                    0 10px 27px rgba(0, 0, 0, 0.05);
+                    z-index:1 !important;
+            }
+        
+            .nav-menu.active {
+                left: 0;
+            }
+    
+            .nav-item {
+                margin: 2.5rem 0;
+                color:#356ab4 !important;
+                
+            }
+        
+            .hamburger {
+                display: block;
+                cursor: pointer;
+            }
+    .bar{
+        background-color: #3b3b3b;
+    }
+            .hamburger.active .bar:nth-child(2) {
+                opacity: 0;
+            }
+        
+            .hamburger.active .bar:nth-child(1) {
+                transform: translateY(8px) rotate(45deg);
+            }
+        
+            .hamburger.active .bar:nth-child(3) {
+                transform: translateY(-8px) rotate(-45deg);
+            }
+    .nav-logo-mobile{
+        margin-left:39% !important;
+    }
+    
+    .nav-logo-mobile{
+        height: 50vh !important;
+    }
+    
+    #nav-logo-desktop{
+        display:none;
+    }
+            #alchBrand{
+                margin-top: -59% !important;
+                margin-left:-9% !important;
+                width:10% !important;
+                height:10% !important;
+               }
+    
+            #homeLink{
+                position: absolute;
+                margin-top:-20vh;
+                margin-left:-7% !important;
+                color:rgb(100, 100, 100);
+            }
+    
+        
+    
+            #aboutLink{
+                position: absolute;
+                margin-top:-30vh !important;
+                margin-left:-7% !important;
+                color:rgb(71, 71, 71);
+    
+            }
+    
+            #bookLink{
+                margin-top:-56vh !important;
+                margin-left:-19%;
+                background-color: #3b3b3b;
+                color:#fff;
+            }
+    
+            #contactLink{
+                margin-left:-8%;
+                margin-top:-41vh !important;
+                color:rgb(78, 78, 78);
+    
+            }
+    
+            span{
+                color:#475569;
+            }
+    
+    
+            h1{
+                position: absolute;
+                margin-top:11vh !important;
+               margin-left:22% !important;
+               font-family: 'Italianno', cursive;
+                color:rgb(102, 102, 102);
+                font-size:2.5rem !important;
+                font-weight: lighter !important;
+                background-color: #ffffff59;
+                
+            
+            }
+
+            #desktopTitle{
+                display:none;
+            }
+            
+            #websites{
+                margin-top:3%;
+            }
+            
+            
+            
+            
+            .websiteSample{
+                position: absolute;
+                margin-top:2%;
+               
+               
+            }
+            
+            .slogan{
+                margin-left:-3%;
+                font-size: 2rem;
+            }
+            
+            .sampleImg{
+                width:40%;
+                height:10%;
+            }
+            
+            
+            
+            #img1{
+                position: absolute;
+                margin-top:-2%;
+                margin-left:28%;
+                height:12%;
+                width:45%;
+                z-index:-1;
+            }
+            
+            #img2{
+                position: absolute;
+                margin-top:10%;
+                margin-left:2% !important;
+                height:10vh;
+                width:43vw;
+                z-index:-1;
+            }
+            
+            #img3{
+                margin-top:10%;
+                margin-left:54%;
+                height:10vh !important;
+                width:43vw;
+                z-index:-1;
+            }
+            
+            h2{
+                position: absolute;
+                margin-top:36%;
+                margin-left:31%;
+                font-size: 4rem;
+                color:rgb(110, 110, 110);
+                font-family: 'Italianno', cursive;
+                font-weight:lighter;
+            }
+            
+            
+            #img4{
+                
+                margin-top:23%;
+                margin-left:10%;
+                height:10vh !important;
+                width:43vw;
+                z-index:-1;
+                
+            }
+            
+            #img5{
+                position: absolute;
+                margin-top:26%;
+                height:10vh;
+                width:45vw;
+                margin-left:-4%;
+            }
+            
+            #about{
+                margin-top:14% !important;
+                margin-left:5% !important;
+                padding:3% 5% 3% 7% !important;
+                width:77%;
+                background-color:rgb(87, 86, 85);
+                color:antiquewhite;
+                font-weight: light;
+            }
+            
+            #blog{
+                margin-top:10%;
+            }
+            
+            .post{
+                width:80%;
+                margin-left:5%;
+                padding:7% !important;
+            }
+        
+            .readMore{
+                margin-left:30%;
+            }
+            
+            
+            footer{
+                width:100%;
+                background-color: rgb(71, 71, 71);
+            }
+}
+
+ @media screen and (min-width:460px) and (max-width:536px)
+{
+    body {
+      
+        font-family: 'Cormorant Garamond', serif;
+        
+       font-weight:light ;
+
+    }
+  header{
+    height:36vh;
+   background-image: url("img/smoke-show-2.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+nav{
+    height:10%;
+    background-color: rgba(233, 233, 233, 0.199);
+}
+
+.nav-logo-mobile{
+    height: 10vh !important;
+}
+
+.navbar{
+    background-color: #e4e4e441;
+}
+        .nav-menu {
+            position: fixed;
+            left: -100%;
+            top: 3rem;
+            flex-direction: column;
+            background-color: #ffffff;
+            height:100vh !important;
+            width: 100%;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow:
+                0 10px 27px rgba(0, 0, 0, 0.05);
+                z-index:1 !important;
+        }
+    
+        .nav-menu.active {
+            left: 0;
+        }
+
+        .nav-item {
+            margin: 2.5rem 0;
+            color:#356ab4 !important;
+            
+        }
+    
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+.bar{
+    background-color: #3b3b3b;
+}
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+    
+        .hamburger.active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+    
+        .hamburger.active .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+.nav-logo-mobile{
+    margin-left:39% !important;
+}
+
+.nav-logo-mobile{
+    height: 50vh !important;
+}
+
+#nav-logo-desktop{
+    display:none;
+}
+        #alchBrand{
+            margin-top: -59% !important;
+            margin-left:-9% !important;
+            width:10% !important;
+            height:10% !important;
+           }
+
+        #homeLink{
+            position: absolute;
+            margin-top:-20vh;
+            margin-left:-7% !important;
+            color:rgb(100, 100, 100);
+        }
+
+    
+
+        #aboutLink{
+            position: absolute;
+            margin-top:-60% !important;
+            margin-left:-7% !important;
+            color:rgb(71, 71, 71);
+
+        }
+
+        #bookLink{
+            margin-top:-50vh !important;
+            margin-left:-17%;
+            background-color: #3b3b3b;
+            color:#fff;
+        }
+
+        #contactLink{
+            margin-left:-8%;
+            margin-top:-41vh !important;
+            color:rgb(78, 78, 78);
+
+        }
+
+        span{
+            color:#475569;
+        }
+
+
+h1{
+    position: absolute;
+    margin-top:22%;
+   margin-left:18%;
+   font-family: 'Italianno', cursive;
+   font-weight: lighter;
+    color:rgb(53, 53, 53);
+    font-size:3.3rem !important;
+    
+
+}
+
+#desktopTitle{
+    display:none;
+}
+
+#websites{
+    margin-top:3%;
+}
+
+
+
+
+.websiteSample{
+    position: absolute;
+    margin-top:2%;
+   
+   
+}
+
+.slogan{
+    margin-left:-3%;
+    font-size: 2rem;
+}
+
+.sampleImg{
+    width:40%;
+    height:10%;
+}
+
+
+
+#img1{
+    position: absolute;
+    margin-top:-2%;
+    margin-left:30%;
+    width:42vw;
+    height:12vh;
+    z-index:-1;
+}
+
+#img2{
+    position: absolute;
+    margin-top:10%;
+    margin-left:9%;
+    height:90px;
+    width:40vw;
+    height:10vh;
+    z-index:-1;
+}
+
+#img3{
+    margin-top:10%;
+    margin-left:54%;
+    width:42vw;
+    height:10vh;
+    z-index:-1;
+}
+
+h2{
+    position: absolute;
+    margin-top:36%;
+    margin-left:26%;
+    font-size: 5rem;
+    color:rgb(110, 110, 110);
+    font-family: 'Italianno', cursive;
+    font-weight:lighter;
+}
+
+
+#img4{
+    
+    margin-top:29%;
+    margin-left:14%;
+    z-index:-1;
+    
+}
+
+#img5{
+    position: absolute;
+    margin-top:32%;
+    margin-left:-2%;
+}
+
+#about{
+    margin-top:12%;
+    margin-left:9% !important;
+    padding:3% 5% 3% 5%;
+    width:70%;
+    background-color:rgb(87, 86, 85);
+    color:antiquewhite;
+    font-weight: light;
+}
+
+#blog{
+    margin-top:10%;
+}
+
+#blogInfo{
+    padding:5%;
+    margin-left:20%;
+    color:#4d4d4d;
+}
+
+.post{
+    width:80%;
+    margin-left:7%;
+    padding:6%;
+}
+
+.readMore{
+    
+    padding:3%;
+    color:#313131;
+    margin-left:30% 
+    !important;
+}
+
+
+footer{
+    height:14vh;
+    width:100%;
+    background-color: rgb(71, 71, 71);
+    color:#fff;
+}
+
+.footerLink{
+padding:10%;
+
+}
+
+.footerLinkBtm{
+    margin-top:10% !important;
+    
+    }
+
+    #footerContentRight{
+        padding:30% !important;
+    }
+
+.footerLogo{
+    margin-left:32% !important;
+    font-family: 'Italianno', cursive;
+}
+}
+
+@media screen and (min-width:536px) and (max-width:700px){
+    
+
+    header{
+        height:36vh;
+       background-image: url("img/smoke-show-2.jpg");
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+    }
+    
+    nav{
+        height:10%;
+        background-color: rgba(233, 233, 233, 0.199);
+    }
+    
+    .nav-logo-mobile{
+        height: 10vh !important;
+    }
+    
+    .navbar{
+        background-color: #e4e4e441;
+    }
+            .nav-menu {
+                position: fixed;
+                left: -100%;
+                top: 3rem;
+                flex-direction: column;
+                background-color: #ffffff;
+                height:100vh !important;
+                width: 100%;
+                border-radius: 10px;
+                text-align: center;
+                transition: 0.3s;
+                box-shadow:
+                    0 10px 27px rgba(0, 0, 0, 0.05);
+                    z-index:1 !important;
+            }
+        
+            .nav-menu.active {
+                left: 0;
+            }
+    
+            .nav-item {
+                margin: 2.5rem 0;
+                color:#356ab4 !important;
+                
+            }
+        
+            .hamburger {
+                display: block;
+                cursor: pointer;
+            }
+    .bar{
+        background-color: #3b3b3b;
+    }
+            .hamburger.active .bar:nth-child(2) {
+                opacity: 0;
+            }
+        
+            .hamburger.active .bar:nth-child(1) {
+                transform: translateY(8px) rotate(45deg);
+            }
+        
+            .hamburger.active .bar:nth-child(3) {
+                transform: translateY(-8px) rotate(-45deg);
+            }
+    .nav-logo-mobile{
+        margin-left:39% !important;
+    }
+    
+    .nav-logo-mobile{
+        height: 50vh !important;
+    }
+    
+    #nav-logo-desktop{
+        display:none;
+    }
+            #alchBrand{
+                margin-top: -59% !important;
+                margin-left:-9% !important;
+                width:10% !important;
+                height:10% !important;
+               }
+    
+            #homeLink{
+                position: absolute;
+                margin-left:-7% !important;
+                color:rgb(100, 100, 100);
+            }
+    
+        
+    
+            #aboutLink{
+                position: absolute;
+                margin-top:-50% !important;
+                margin-left:-7% !important;
+                color:rgb(71, 71, 71);
+    
+            }
+    
+            #bookLink{
+                margin-top:-50vh !important;
+                margin-left:-14%;
+                background-color: #3b3b3b;
+                color:#fff;
+            }
+    
+            #contactLink{
+                margin-left:-8%;
+                margin-top:-41vh !important;
+                color:rgb(78, 78, 78);
+    
+            }
+    
+            span{
+                color:#475569;
+            }
+    
+    
+    h1{
+        position: absolute;
+        margin-top:20%;
+       margin-left:26%;
+       font-family: 'Italianno', cursive;
+       font-weight: lighter;
+        color:rgb(53, 53, 53);
+        font-size:3rem !important;
+        
+    
+    }
+
+    #desktopTitle{
+        display:none;
+    }
+    
+    .sampleImg{
+        width:36%;
+        height:8%;
+    }
+    
+    #img1{
+        position: absolute;
+        margin-top:-2%;
+        margin-left:30%;
+        height:12%;
+        z-index:-1;
+    }
+    
+    #img2{
+        position: absolute;
+        margin-top:11% !important;
+        margin-left:9%;
+        height:90px;
+        z-index:-1;
+        height:100px !important;
+    }
+    
+    #img3{
+        margin-top:11% !important;
+        margin-left:54% !important;
+        height: 100px !important;
+        z-index:-1;
+    }
+    
+    h2{
+        position: absolute;
+        margin-top:34%;
+        margin-left:35%;
+        font-size: 5rem;
+        color:rgb(110, 110, 110);
+        font-family: 'Italianno', cursive;
+        font-weight:lighter;
+    }
+    
+    
+    #img4{
+        
+        margin-top:23%;
+        margin-left:14%;
+        height:11%;
+        z-index:-1;
+        
+    }
+    
+    #img5{
+        position: absolute;
+        margin-top:26%;
+        margin-left:-2%;
+        height:11%;
+    }
+    
+
+}
+
+@media screen and (min-width:452px) and (max-width: 542px){
+    #about{
+        width:69%;
+        margin-left:10vw;
+    }
+}
+
+
+
+@media screen and (min-width:600px) and (max-width:688px){
+  
+    nav{
+        height:10%;
+        background-color: rgba(233, 233, 233, 0.199);
+    }
+    
+    .nav-logo-mobile{
+        height: 10vh !important;
+    }
+    
+    .navbar{
+        background-color: #e4e4e441;
+    }
+            .nav-menu {
+                position: fixed;
+                left: -100%;
+                top: 3rem;
+                flex-direction: column;
+                background-color: #ffffff;
+                height:100vh !important;
+                width: 100%;
+                border-radius: 10px;
+                text-align: center;
+                transition: 0.3s;
+                box-shadow:
+                    0 10px 27px rgba(0, 0, 0, 0.05);
+                    z-index:1 !important;
+            }
+        
+            .nav-menu.active {
+                left: 0;
+            }
+    
+            .nav-item {
+                margin: 2.5rem 0;
+                color:#356ab4 !important;
+                
+            }
+        
+            .hamburger {
+                display: block;
+                cursor: pointer;
+            }
+    .bar{
+        background-color: #3b3b3b;
+    }
+            .hamburger.active .bar:nth-child(2) {
+                opacity: 0;
+            }
+        
+            .hamburger.active .bar:nth-child(1) {
+                transform: translateY(8px) rotate(45deg);
+            }
+        
+            .hamburger.active .bar:nth-child(3) {
+                transform: translateY(-8px) rotate(-45deg);
+            }
+    .nav-logo-mobile{
+        margin-left:39% !important;
+    }
+    
+    .nav-logo-mobile{
+        height: 50vh !important;
+    }
+    
+    #nav-logo-desktop{
+        display:none;
+    }
+            #alchBrand{
+                margin-top: -59% !important;
+                margin-left:-9% !important;
+                width:10% !important;
+                height:10% !important;
+               }
+    
+            #homeLink{
+                position: absolute;
+                margin-top:-20vh;
+                margin-left:-7% !important;
+                color:rgb(100, 100, 100);
+            }
+    
+        
+    
+            #aboutLink{
+                position: absolute;
+                margin-top:-45% !important;
+                margin-left:-7% !important;
+                color:rgb(71, 71, 71);
+    
+            }
+    
+            #bookLink{
+                margin-top:-50vh !important;
+                margin-left:-15% !important;
+                background-color: #3b3b3b;
+                color:#fff;
+            }
+    
+            #contactLink{
+                margin-left:-8%;
+                margin-top:-41vh !important;
+                color:rgb(78, 78, 78);
+    
+            }
+    
+            span{
+                color:#475569;
+            }
+    
+
+    header{
+        height:36vh;
+       background-image: url("img/smoke-show-2.jpg");
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+    }
+
+
+    h1{
+        position: absolute;
+        margin-top:16% !important;
+       margin-left:20%;
+       font-family: 'Italianno', cursive;
+       font-weight: lighter;
+        color:rgb(53, 53, 53);
+        font-size:4rem !important;
+        
+    
+    }
+
+    #desktopTitle{
+        display:none;
+    }
+    
+    .sampleImg{
+        width:36%;
+        height:8%;
+    }
+    
+    #img1{
+        position: absolute;
+        margin-top:5%;
+        margin-left:30%;
+        z-index:-1;
+    }
+    
+    #img2{
+        position: absolute;
+        margin-top:16% !important;
+        margin-left:9%;
+        height:90px;
+        z-index:-1;
+    }
+    
+    #img3{
+        margin-top:16% !important;
+        margin-left:54%;
+        z-index:-1;
+    }
+    
+    h2{
+        position: absolute;
+        margin-top:40%;
+        margin-left:32%;
+        font-size: 5rem;
+        color:rgb(110, 110, 110);
+        font-family: 'Italianno', cursive;
+        font-weight:lighter;
+    }
+    
+    
+    #img4{
+        
+        margin-top:23%;
+        margin-left:14%;
+        height:100px;
+        z-index:-1;
+        
+    }
+    
+    #img5{
+        position: absolute;
+        margin-top:26%;
+        margin-left:-2%;
+        height:12vh;
+    }
+
+    #about{
+        margin-top:12%;
+        margin-left:9% !important;
+        padding:3% 5% 3% 5%;
+        width:70%;
+        background-color:rgb(87, 86, 85);
+        color:antiquewhite;
+        font-weight: light;
+    }
+    
+    #blog{
+        margin-top:10%;
+    }
+    
+    #blogInfo{
+        padding:5%;
+        margin-left:20%;
+        color:#4d4d4d;
+    }
+    
+    .post{
+        width:80%;
+        margin-left:7%;
+        padding:6%;
+    }
+    
+    .readMore{
+        
+        padding:3%;
+        color:#313131;
+        margin-left:30% 
+        !important;
+    }
+    
+    
+    footer{
+        height:14vh;
+        width:100%;
+        background-color: rgb(71, 71, 71);
+        color:#fff;
+    }
+    
+    .footerLink{
+    padding:10%;
+    
+    }
+    
+    .footerLinkBtm{
+        margin-top:10% !important;
+        
+        }
+    
+        #footerContentRight{
+            padding:30% !important;
+        }
+    
+    .footerLogo{
+        margin-left:32% !important;
+        font-family: 'Italianno', cursive;
+    }
+    
+
+}
+
+
+@media screen and (min-width:692px) and (max-width:759px){
+ 
+
+  nav{
+    height:10%;
+    background-color: rgba(233, 233, 233, 0.199);
+}
+
+.nav-logo-mobile{
+    height: 10vh !important;
+}
+
+.navbar{
+    background-color: #e4e4e441;
+}
+        .nav-menu {
+            position: fixed;
+            left: -100%;
+            top: 3rem;
+            flex-direction: column;
+            background-color: #ffffff;
+            height:100vh !important;
+            width: 100%;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow:
+                0 10px 27px rgba(0, 0, 0, 0.05);
+                z-index:1 !important;
+        }
+    
+        .nav-menu.active {
+            left: 0;
+        }
+
+        .nav-item {
+            margin: 2.5rem 0;
+            color:#356ab4 !important;
+            
+        }
+    
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+.bar{
+    background-color: #3b3b3b;
+}
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+    
+        .hamburger.active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+    
+        .hamburger.active .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+.nav-logo-mobile{
+    margin-left:39% !important;
+}
+
+.nav-logo-mobile{
+    height: 50vh !important;
+}
+
+#nav-logo-desktop{
+    display:none;
+}
+        #alchBrand{
+            margin-top: -59% !important;
+            margin-left:-9% !important;
+            width:10% !important;
+            height:10% !important;
+           }
+
+        #homeLink{
+            position: absolute;
+            margin-top:-20vh;
+            margin-left:-6% !important;
+            color:rgb(100, 100, 100);
+        }
+
+    
+
+        #aboutLink{
+            position: absolute;
+            margin-top:-40% !important;
+            margin-left:-7% !important;
+            color:rgb(71, 71, 71);
+
+        }
+
+        #bookLink{
+            margin-top:-50vh !important;
+            margin-left:-13%;
+            background-color: #3b3b3b;
+            color:#fff;
+        }
+
+        #contactLink{
+            margin-left:-8%;
+            margin-top:-41vh !important;
+            color:rgb(78, 78, 78);
+
+        }
+
+        span{
+            color:#475569;
+        }
+
+
+  header{
+    height:36vh;
+   background-image: url("img/smoke-show-2.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+
+h1{
+    position: absolute;
+    margin-top:13%;
+   margin-left:17%;
+   font-family: 'Italianno', cursive;
+   font-weight: lighter;
+    color:rgb(53, 53, 53);
+    font-size:5rem !important;
+    
+
+}
+
+#desktopTitle{
+    display:none;
+}
+
+    .sampleImg{
+        width:36%;
+        height:12%;
+    }
+    
+    #img1{
+        position: absolute;
+        margin-top:6%;
+        margin-left:30%;
+        z-index:-1;
+    }
+    
+    #img2{
+        position: absolute;
+        margin-top:15% !important;
+        margin-left:9%;
+        height:122px !important;
+        z-index:-1;
+    }
+    
+    #img3{
+        margin-top:15% !important;
+        margin-left:54%;
+        height:115px !important;
+        z-index:-1;
+    }
+    
+    h2{
+        position: absolute;
+        margin-top:36%;
+        margin-left:32%;
+        font-size: 5rem;
+        color:rgb(110, 110, 110);
+        font-family: 'Italianno', cursive;
+        font-weight:lighter;
+    }
+    
+    
+    #img4{
+        
+        margin-top:23%;
+        margin-left:14%;
+        height:115px !important;
+        z-index:-1;
+        
+    }
+    
+    #img5{
+        position: absolute;
+        margin-top:26%;
+        margin-left:-2%;
+        height:115px !important;
+    }
+
+    #about{
+        margin-top:12%;
+        margin-left:9% !important;
+        padding:3% 5% 3% 5%;
+        width:70%;
+        background-color:rgb(87, 86, 85);
+        color:antiquewhite;
+        font-weight: light;
+    }
+    
+    #blog{
+        margin-top:10%;
+    }
+    
+    #blogInfo{
+        padding:5%;
+        margin-left:20%;
+        color:#4d4d4d;
+    }
+    
+    .post{
+        width:80%;
+        margin-left:7%;
+        padding:6%;
+    }
+    
+    .readMore{
+        
+        padding:3%;
+        color:#313131;
+        margin-left:30% 
+        !important;
+    }
+    
+    
+    footer{
+        height:22vh;
+        width:100%;
+        background-color: rgb(71, 71, 71);
+        color:#fff;
+    }
+    
+    .footerLink{
+    padding:9%;
+    
+    }
+
+    .footerContentLeft{
+        margin-left:20%;
+    }
+
+    .footerContentRight{
+        margin-top: 8%;
+        margin-left:17%;
+    }
+    
+    .footerLinkBtm{
+        margin-top:2% !important;
+        padding:9%;
+        
+        }
+    
+        #footerContentRight{
+            padding:30% !important;
+        }
+    
+    .footerLogo{
+        margin-left:32% !important;
+        margin-top:5%;
+        font-family: 'Italianno', cursive;
+        font-size:2rem;
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width:760px) and (max-width:780px){
+
+body{
+   
+    font-family: 'Tsukimi Rounded', sans-serif;
+
+
+}
+header{
+    height:50vh;
+   background-image: url("img/smoke-show-2.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+
+li{
+    list-style-type:none;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        background-color: #dadadaad;
+        font-size:2rem;
+    } 
+.nav-logo-mobile{
+    display:none;
+}
+    #contactLink{
+        position: absolute;
+        margin-left:10vw;
+        margin-top:-1%;
+    }
+
+    #bookLink{
+        position: absolute;
+        margin-left:-19%;
+        margin-top:50%;
+        background-color: #fff;
+        padding: 1% 1% 1% 1%;
+        font-size:1rem;
+       
+    }
+    #nav-logo-desktop{
+        position: absolute;
+        margin-left:39%;
+        font-size: 6rem;
+        font-weight: 500;
+       color:#ffffff;
+       font-weight: lighter;
+       font-family: 'Italianno', cursive;
+
+    }
+
+    
+
+    .hamburger {
+        display: none;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #101010;
+    }
+
+
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav-item {
+        margin-left: 5rem;
+    }
+    
+    .nav-link{
+        font-size: 20px;
+        font-weight: 400;
+        color: #535353;
+    }
+    
+    .nav-link:hover{
+        color: #ffffff;
+    }
+    
+    
+
+    #homeLink{
+        
+        margin-top:-2%;
+        margin-left:-18vw;
+    }
+
+    #projectLink{
+        margin-left:-50%;
+    }
+
+    #aboutLink{
+        margin-left:-16vw;
+    }
+
+    #contactLink{
+        margin-top:-2%;
+        margin-left:36vw;
+    }
+
+
+
+#nav-logo-desktop{
+    position: absolute;
+    margin-top:-3%;
+    margin-left:21%;
+    font-size: 3rem;
+    font-weight: 500;
+   color:#ffffff;
+   font-weight: lighter;
+   font-family: 'Italianno', cursive;
+
+}
+
+
+
+h1{
+position: absolute;
+    margin-top:17%;
+    margin-left:19%;
+    font-family: 'Italianno', cursive;
+    color:rgb(71, 71, 71);
+    font-size:5rem;
+    font-weight: lighter;
+    
+}
+
+#mobileTitle{
+    display:none;
+}
+
+
+
+h2{
+    margin-left:37%;
+    font-size: 4rem;
+    font-family: 'Italianno', cursive;
+    color:rgb(110, 110, 110);
+}
+
+
+
+.slogan{
+    margin-left:-3%;
+    font-size: 2rem;
+}
+
+.sampleImg{
+    width:20rem;
+    height: 20rem;
+}
+
+
+
+#img1{
+    position: absolute;
+    margin-top:6%;
+    margin-left:30%;
+    height:16vh;
+    z-index:-1;
+}
+
+#img2{
+    position: absolute;
+    margin-top:15%;
+    margin-left:9%;
+    height:16vh;
+    z-index:-1;
+}
+
+#img3{
+    margin-top:16%;
+    margin-left:56%;
+    height:16vh;
+    z-index:-1;
+}
+
+h2{
+    position: absolute;
+    margin-top:41%;
+    margin-left:36%;
+    font-size: 5rem;
+    color:rgb(110, 110, 110);
+    font-family: 'Italianno', cursive;
+    font-weight:lighter;
+}
+
+
+#img4{
+    
+    margin-top:23%;
+    margin-left:14%;
+    height:16vh;
+    z-index:-1;
+    
+}
+
+#img5{
+    position: absolute;
+    margin-top:26%;
+    margin-left:-2%;
+    height:16vh;
+}
+
+#about{
+    margin-top:12%;
+    margin-left:10%;
+    padding:10%;
+    width:60%;
+    background-color:rgb(87, 86, 85);
+    color:antiquewhite;
+    font-weight: light;
+}
+
+
+
+
+.post{
+    margin-top:10%;
+    width:40%;
+    padding:5%;
+}
+
+
+#aboutContent{
+    margin-top:10%;
+    padding:5%;
+}
+
+#blogContent{
+    margin-top:-46vh;
+    margin-left:52vw;
+}
+
+
+h3{
+    margin-top:45%;
+    margin-left:10%;
+    width:100%;
+    font-size: 2rem;
+    font-family: 'Italianno', cursive;
+    color:rgb(110, 110, 110);
+    
+}
+
+footer{
+    background-color: #101010;
+    height:25vh;
+    color:white;
+}
+
+.footerLogo{
+    margin-top:5%;
+    margin-left:40vw;
+    font-weight: lighter;
+
+}
+.footerLinkBtm{
+    padding:10%;
+}
+
+.footerLink{
+    margin-left:14vw;
+    padding:5%;
+}
+.footerContentRight{
+    margin-left:10%;
+    padding:4%;
+}
+
+}
+
+@media screen and (min-width:780px){
+
+    body{
+      
+        font-family: 'Tsukimi Rounded', sans-serif;
+    
+    
+    }
+    header{
+        height:60vh;
+       background-image: url("img/smoke-show-2.jpg");
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+    }
+    
+    
+    li{
+        list-style-type:none;
+        }
+    
+        a{
+            text-decoration: none;
+        }
+    
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 1.5rem;
+            background-color: #dadada69;
+            font-size:2rem;
+        } 
+    .nav-logo-mobile{
+        display:none;
+    }
+        #contactLink{
+            position: absolute;
+            margin-left:30vw;
+            margin-top:-1%;
+        }
+    
+        #bookLink{
+            position: absolute;
+            margin-left:35%;
+            margin-top:-2%;
+            
+            background-color: #ffffff;
+            
+            font-size:1rem;
+            color:#313131;
+           
+        }
+        #nav-logo-desktop{
+            position: absolute;
+            margin-top:-3%;
+            margin-left:36%;
+            font-size: 3rem !important;
+            font-weight: 500;
+           color:#ffffff;
+           font-weight: lighter;
+           font-family: 'Italianno', cursive;
+    
+        }
+    
+        
+    
+        .hamburger {
+            display: none;
+        }
+    
+        .bar {
+            display: block;
+            width: 25px;
+            height: 3px;
+            margin: 5px auto;
+            -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            background-color: #101010;
+        }
+    
+    
+        .nav-menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .nav-item {
+            margin-left: 5rem;
+        }
+        
+        .nav-link{
+            font-size: 20px;
+            font-weight: 400;
+            color: #535353;
+        }
+        
+        .nav-link:hover{
+            color: #ffffff;
+        }
+        
+        
+    
+        #homeLink{
+            
+            margin-top:-20% !important;
+           
+            
+        }
+    
+        #projectLink{
+            margin-left:-50%;
+        }
+    
+        #aboutLink{
+            margin-left:-90%;
+        }
+    
+        #contactLink{
+            margin-top:-1%;
+            margin-left:30%;
+        }
+    
+    
+    
+    #nav-logo-desktop{
+        position: absolute;
+        margin-left:25%;
+        font-size: 4rem !important;
+        font-weight: 500;
+       color:#ffffff;
+       font-weight: lighter;
+       font-family: 'Italianno', cursive;
+    
+    }
+    
+    
+    
+    h1{
+    position: absolute;
+        margin-top:15%;
+        margin-left:20%;
+        font-family: 'Italianno', cursive;
+        color:rgb(71, 71, 71);
+        font-size:8rem;
+        font-weight: lighter;
+        
+    }
+
+    #mobileTitle{
+        display:none;
+    }
+    
+    
+    
+    h2{
+        margin-left:37%;
+        font-size: 4rem;
+        font-family: 'Italianno', cursive;
+        color:rgb(110, 110, 110);
+    }
+    
+    
+    
+    .slogan{
+        margin-left:-3%;
+        font-size: 2rem;
+    }
+    
+    .sampleImg{
+        width:40vw;
+        height: 30vh !important;
+    }
+    
+    
+    
+    #img1{
+        position: absolute;
+        margin-top:6%;
+        margin-left:30%;
+        height:16vh;
+        z-index:-1;
+    }
+    
+    #img2{
+        position: absolute;
+        margin-top:15%;
+        margin-left:3%;
+        height:16vh;
+        z-index:-1;
+    }
+    
+    #img3{
+        margin-top:16%;
+        margin-left:56%;
+        height:16vh;
+        z-index:-1;
+    }
+    
+    h2{
+        position: absolute;
+        margin-top:41%;
+        margin-left:36%;
+        font-size: 8rem;
+        color:rgb(110, 110, 110);
+        font-family: 'Italianno', cursive;
+        font-weight:lighter;
+    }
+    
+    
+    #img4{
+        
+        margin-top:23%;
+        margin-left:14%;
+        height:16vh;
+        z-index:-1;
+        
+    }
+    
+    #img5{
+        position: absolute;
+        margin-top:24%;
+        margin-left:-2%;
+        height:16vh;
+    }
+    
+    #about{
+        margin-top:17%;
+        margin-left:25%;
+        padding:2%;
+        width:50%;
+        background-color:rgb(87, 86, 85);
+        font-size:30px;
+        color:antiquewhite;
+        font-weight: light;
+    }
+    
+    
+    
+    
+    .post{
+        margin-top:17%;
+       width:40%;
+       padding:5%;
+       font-size:23px;
+    }
+
+    
+    
+    h3{
+        margin-top:26%;
+        margin-left:-50%;
+        font-size: 4rem;
+        width:100%;
+        font-family: 'Italianno', cursive;
+        color:rgb(110, 110, 110);
+        
+    }
+
+    #blogContent{
+        margin-top:-26.5%;
+        margin-left:50%;
+    }
+    footer{
+        height:300px;
+        width:100%;
+        background-color: rgb(71, 71, 71);
+        color:#fff;
+    }
+    
+    .footerLink{
+        margin-left:5%;
+    padding:10%;
+    
+    }
+    
+    #footerContentLeft{
+        margin-left:30vw !important;
+    }
+    
     
       
-    
-    
-    
-      #logos{
-        margin-top:200vh;
-        margin-left:5vw;
-      }
-    
-    
-      .logo{
-    
-        height:20vh;
-        width:12vw;
-      }
-    
-      #logo1{
-        position: absolute;
-          margin-top:-36vh;
-          margin-left:36vw;
-         height:28vh;
-        width:15vw;
-      }
-        
-        #logo2{
-          margin-top:-10vh !important;
-            margin-left:22vw;
-         
-            
+
+        .footerLinkBtm{
+            margin-left:10%;
+            padding:6%;
         }
-        
-        #logo3{
-          position: absolute;
-          margin-top:-13vh !important;
-            margin-left:2vw;
-          
-            
-        }
-        
-        #logo4{
-            position:absolute;
-            margin-top:-16vh !important;
-            margin-left:16vw;
-            height:28vh;
-            width:15vw;
-            
-            
-        }
-        
     
-      #logo5{
-           position:absolute;
-          margin-top:23vh;
-        margin-left:14vh;
-        height:12vh;
-        width:7vw;
+    .footerLogo{
        
-    
-      }
-    
-      #graphicHeader{
-          font-size:4rem;
-       margin-left:35vw;
-        margin-top:-5vh;
-          width:100vh;
-      }
-        
-          #graphicCaption{
-            position: absolute;
-        margin-top:15vh;
-        margin-left:63vw !important;
-      }
-        
-      .footer{
-        position: absolute;
-        margin-top:1860px;
-        height:260px;
-        width:100vw;
-        background-color:#505050;
-        color:white;
-  
-      }
-    
-      .footertitle{
-        position: absolute;
-        margin-top:6vh;
-        margin-left:40vw;
-        font-family: 'Allura', cursive;
-        font-size: 4rem;
-        font-weight: lighter;
-        color:rgb(202, 202, 202);
-    
-      }
-    
-      .footerLink{
-       
-        list-style-type: none;
-        text-decoration: none;
-        color:white
-      }
-    
-      .class1{
-        position:absolute;
-        margin-top:4vh;
-        margin-left:20vw;
-      }
-    
-     .class2{
-        position: absolute;
-        margin-top:4vh;
-        margin-left:65vw;
-     }
-    
-     .signature{
-        margin-top:5vh;
-        margin-left:37vw;
-      }
-    
-      .iconFooter{
-        margin-top:27vh;
-        margin-left:23vw;
-       width:2vw;
-        height:4vh;
-      }
-  
-  
+        margin-top:10vh;
+        margin-left:32% !important;
+        font-family: 'Italianno', cursive;
+        color:whitesmoke;
     }
+
+
+}
+
+
   
   
   
