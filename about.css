@@ -1,668 +1,6032 @@
-@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Cormorant+Garamond:wght@300&family=Raleway:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Cormorant+Garamond:wght@300&family=Fraunces:opsz,wght@9..144,100&family=Italianno&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Pinyon+Script&family=Tsukimi+Rounded:wght@300&display=swap');
 
-
-body {
-    overflow-x: hidden;
-  padding: 0px;
-  margin: 0px;
- font-size: 20px;
-  min-height: 200vh;
-  font-family: 'Raleway', sans-serif;
-  color:rgb(107, 107, 107);
-   
-   
-  }
-
-.overlay{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity .35s, visibility .35s, height .35s;
-    overflow: hidden;
-    background: black;
-    z-index: -1;
+*{
+    padding:0;
+    margin:0;
 }
+/*mobile min 178px*/
 
-#main-menu {
-  display: block;
-  height: 30px;
-  width: 100vw;
-  background: #b7b6b82f;
-  margin-left: 6px;  
-  z-index: 9;
+body{
+    font-family: 'Tsukimi Rounded', sans-serif;
 }
-
-#main-menu ul {
-  max-width: 800px;
-  width: 100%;
-  height: 100%;
-  margin: 0px auto;
-  padding: 0px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  z-index: 9;
-}
-
-#main-menu li {
-  list-style-type: none;
-  font-size: 22px;
-}
-
-#main-menu a {
-  color: #404141;
-  font-size: 20px;
-  text-decoration: none;
-}
-
-#work{
-  margin-left:-18vw;
-}
-
-#offer{
-  margin-left:-38vw;
+header{
+    height:80vh;
+  
 }
 
 
+li{
+    list-style-type:none;
+    }
 
-#DesktopNavTitle{
-  position:absolute;
-  margin-top:-3vh;
-  margin-left:6vw !important;
-  font-family: 'Allura', cursive;
-  font-size: 30px !important;
-  font-weight: lighter;
-  color:#fccaf7;
+    a{
+        text-decoration: none;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        background-color: #d8d8d8;
+        font-size:2rem;
+    } 
+.nav-logo-mobile{
+    display:none;
+}
+    #contactLink{
+        position: absolute;
+        margin-left:10vw;
+        margin-top:-1%;
+    }
+
+    #bookLink{
+        position: absolute;
+        margin-left:27%;
+        margin-top:-3%;
+        background-color: #fff;
+        padding: 1% 1% 1% 1%;
+        font-size:1rem;
+       
+    }
+    #nav-logo-desktop{
+        position: absolute;
+        margin-left:36%;
+        font-size: 6rem;
+        font-weight: 500;
+       color:#ffffff;
+       font-weight: lighter;
+       font-family: 'Italianno', cursive;
+
+    }
+
+    
+
+    .hamburger {
+        display: none;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #101010;
+    }
+
+
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav-item {
+        margin-left: 5rem;
+    }
+    
+    .nav-link{
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #475569;
+    }
+    
+    .nav-link:hover{
+        color: #ffffff;
+    }
+    
+    
+
+    #homeLink{
+        
+        margin-top:-2%;
+        margin-left:-60%;
+    }
+
+    #projectLink{
+        margin-left:-50%;
+    }
+
+    #aboutLink{
+        margin-left:-90%;
+    }
+
+    #contactLink{
+        margin-top:-2%;
+        margin-left:20%;
+    }
+
+    * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
 
-#discovery{
-  position: absolute;
-  margin-top:-2vh;
-    margin-left:30vh;
- width:80vw;
-}
-
-
-
-#main-menu a:hover {
-  background-color: rgba(127, 255, 212, 0.151);
-}
-
-#hamburger-input{
+/* Hide the images by default */
+.mySlides {
   display: none;
 }
 
-#hamburger-menu {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    width: 50px;
-    height:50px;
-    display: none;
-    border: none;
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Cabin', Sans-serif;
-    background: linear-gradient(
-      to bottom, 
-      #4e4c4c9a, #4e4c4c9a 20%, 
-      #4e4c4c9a 20%,  #4e4c4c9a 40%, 
-      #4e4c4c9a 40%, #4e4c4c9a 60%, 
-      #4e4c4c9a 60%,  #4e4c4c9a 80%, 
-      #4e4c4c9a 80%,   #4e4c4c9a 100%
-    );
-    box-shadow: 10px 5px 5px rgba(85, 85, 85, 0.651);
-}
-
-#hamburger-menu #sidebar-menu {
-    visibility: hidden;
-    position: fixed;
-    top: 0;
-    left: -250px;
-    width: 100vw;
-    height: 43vh;
-    background-color: #474747;
-    transition: 0.3s;
-    padding: 0px 10px;
-    box-sizing: border-box;
-}
-
-#hamburger-menu h3 {
-  margin-top:2vh;
-  margin-left:30vw;
-  font-family: 'Allura', cursive;
-  font-size: 3rem;
-  font-weight: lighter;
-  color:rgb(107, 107, 107);
-}
-
-#hamburger-menu ul {
-  margin-top:4vh;
-  padding-left: 30vw;
-}
-
-#hamburger-menu li {
-  list-style-type: none;
-  line-height: 3rem;
-}
-
-#hamburger-menu a {
-  color: #cfcccca8;
-  font-size: 1.3rem;
-  text-decoration: none;
-}
-
-#hamburger-menu a:hover {
-  color:white;
-}
-
-#navTitle{
-    
-  margin-left:26vw !important;
-  font-family: 'Allura', cursive;
-  font-size: 30px !important;
-  font-weight: lighter;
-  color:#fccaf7;
-}
-#hamburger-input:checked + #hamburger-menu #sidebar-menu {
-    visibility: visible;
-    left: 0;
-}
-#hamburger-input:checked ~ .overlay{
-   visibility: visible;
-  opacity: 0.4;
-}
-
-/*for navbar on mobile*/
-
-@media screen and (max-width: 750px) {
-    #main-menu {
-      display: none;
-    }
-    #hamburger-menu {
-      display: inline;
-    }
-  }
-/*end of block*/
-
-/*mobile header container*/
- .pageTitle{
-    position: absolute;
-    margin-top:-13vw;
-    margin-left:20vw;
-    font-family: 'Allura', cursive;
-      font-size: 45px;
-      font-weight: lighter;
-      color:rgb(107, 107, 107);
-  }
-
-  .headerImg{
-    height:50vh;
-    width:100vw;
-
-  }
-
-  #explore{
-    position: absolute;
-    margin-top:11vh;
-    margin-left:40vw;
-    padding: 2px 10px 2px 10px;
-    background-color: #40414150;
-    color:white;
-    text-decoration: none;
-    font-weight: lighter;
-  }
-
-/*End of mobile header container*/
-
-  /* mobile mission container*/
-
-  #mission{
-    margin-top:3vh;
-    margin-left:-3vw;
-  }
-
-#missionText{
-    margin-top:6vh;
-  margin-left:12vw;}
-
-
-.sectionHeader{
-    margin-top:-2vh;
-    margin-left:39vw;
-    font-family: 'Allura', cursive;
-    font-size:26px;
-    font-weight: lighter;
-    color:rgb(107, 107, 107);
-
-  }
-
-#websiteHeader{
-    margin-top:13vh;
-    margin-left:24vw;
-    font-size:45px;}
-
-  .sectionText{
-    margin-top:-4vh;
-    margin-left:24vw;
-    width:90vw;
-  }
-
-#explore{
-    margin-top:4vh;}
-
-/* End of mobile mission container*/
-
-.book{
-    margin-left:20vw;
-    padding: 2px 10px 2px 10px;
-    background-color: #40414150;
-    color:white;
-    text-decoration: none;
-    font-weight: lighter;
-  }
-
-
-/*offers block*/
-#websites{
-    margin-top:20vh;
-    margin-left:27vw;
-    font-size:42px;
-
- }
-
-.itemHeader{
-    margin-top:7vh;
-    margin-left:37vw;
-    font-size: 22px;
-    font-weight: lighter;
-    color:rgb(107, 107, 107);
-   
- }
-
-
- .itemText{
-    margin-left:22vw;
-    width:70vw;
- }
-
-/*end of offer container*/
-
-
-
-/*Mobile future project container*/
-
-#futureHeader{
-    margin-top:3vh;
-    margin-left:10vw;
-    width:100vh;
-    font-size: 36px;
- }
-
-
-
-.projectHeader{
-    margin-left:45vw;
-  }
-
-#bookingLink{display:none;}
-  .projectText{
-    margin-left:15vw;
-    width:70vw
-}
-#archetypeHeader{
-    position:absolute;
-    margin-top:-6vh;
-    margin-left:25vw !important;   
-    color:rgb(107, 107, 107);
-   }
-
-#archetypeText{
-  margin-top:10vh;
-    margin-left:17vw;}
-
- .sectionSubHeader{
-    margin-top:-4vh;
-    margin-left:34vw;
-     font-size:15px;
-    color:#3b3b3b;
-   font-weight: lighter;
- }
- .footer{
-    position: absolute;
-    margin-top:400px;
-     margin-left:0vw;
-    height:270px;
-    width:100vw;
-    background-color:#525151;
-    color:white;
-  }
-
-  .footertitle{
-    position: absolute;
-    margin-top:6vh;
-    margin-left:28vw;
-    font-family: 'Allura', cursive;
-    font-size: 3rem;
-    font-weight: lighter;
-    color:rgb(255, 255, 255);
- }
-
-  .footerLink{
-   list-style-type: none;
-    text-decoration: none;
-    color:white
-  }
-
-  .class1{
-    position:absolute;
-    margin-top:4vh;
-      margin-left:-2vh;
-  }
-
- .class2{
-    position: absolute;
-    margin-top:4vh;
-    margin-left:60vw;
- }
-
- .signature{
-    margin-top:1vh;
-    margin-left:19vw;
-     font-size:12px;
-  }
-
-  .iconFooter{
-    margin-top:24vh;
-    margin-left:20vw;
-    width:5vw;
-    height:4vh;
-  }
-
-
-
-
- @media screen and (min-width:700px){
- /*Desktop header container*/
-     .headerImg{
-      margin-top:5vh;
-      margin-left:20vw;
-      max-height:80vh;
-      min-height:80vh;
-    max-width:60vw;
-    min-width:60vw;  
-    box-shadow:  1px 0px 15px 18px rgba(224, 224, 224, 0.85);
-    }
-
-    #missionText{
-     margin-top:-60vh;
-    margin-left:27vw;
-    width:50vw;
-   font-size: 3rem;
-  font-weight: lighter;
-  color:rgb(88, 87, 87);
-  }
-
-    
-
-    #explore{
-      margin-top:23vh;
-      margin-left:46vw;
-      padding: 2px 10px 2px 10px;
-      background-color: #40414150;
-      color:white;
-      text-decoration: none;
-      font-weight: lighter;
-    }
-     
-     /*End of Desktop header container*/
-     
-     
-
-
-    /*Desktop offer container*/
-
-    
-
-    #offers{
-      position: absolute;
-     margin-top:-65vh;
-      margin-left:2vw;
-      color:#858585;
-     
-    }
-
-    #websiteHeader{
-      position: absolute;
-     margin-top:-36vh;
-        margin-left:38vw;
-        font-size:4rem;
-        width:100vh;
-    }
-
-    .overlayBlock{
-     
-    margin-top:59vh;
-    margin-left:20vw;
-     height:80vh;
-      width:60vw;
-      background-color: #3b3b3b;
-      z-index:-1;
-    }
-
-    .itemHeader{
-   
-      margin-left:41vw;
-      font-size: 37px;
-      font-weight: lighter;
-      color:rgb(255, 252, 252);
-      width:100vw;
-      z-index:1;
-    }
-  
- #itemOneHeader{
- margin-top:-5vh;
-  color: rgb(255, 255, 255);
- }
-
- #itemOneText{
- margin-top:-4vh;
-  margin-left:34vw;
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
   color: white;
- }
-
-#itemTwoHeader{
-  margin-top:6vh;
-
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
 
-#itemTwoText{
-  position: absolute;
-  margin-top:-7vh;
-  margin-left:30vw;
-  color:white;
-
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
-#itemThreeHeader{
-  position:absolute;
-  margin-top:3vh !important;
- 
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
 }
 
-#itemThreeText{
-  position: absolute;
-   margin-top:14vh;
-    margin-left:27vw;
-    width:48vw;
-    color:white;
-   }
+/* Caption text */
 
-#bookingLink{
-  position: absolute;
-  margin-top:13vh;
-  margin-left:35vw;
-  width:20vw;
-  padding: 2px 10px 2px 20px;
-  background-color: #40414150;
-  color:white;
-  text-decoration: none;
-  font-weight: lighter;
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
-   
-     
-     /*End of Desktop offer container*/
-     
-     
-     /*Desktop future projects container*/
-  
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 
 
 
 
-.projectHeader{
-  margin-top:26vh;
-  margin-left:56vw;
-  color:#3b3b3b;
- 
-  font-weight: lighter;
- }
- .projectText{
-  margin-top:6vh;
-  margin-left:24vw;
-  width:60vw;
- }
 
 
-   #futureHeader{
-      margin-top:17vh;
-      margin-left:80vh;
-      width:100vh;
-      font-size:3rem;
-   }
-  
-   .sectionSubHeader{
-      margin-top:-11vh;
-      margin-left:43vw;
-      color:#3b3b3b;
-     
-      font-weight: lighter;
+
+
+
+
+
+
+
+    @media screen and (min-width:50px) and (max-width:208px){
+     body{
+        background-color: #07096d;
      }
-     #archetypeHeader{
-      position: absolute;
-         margin-top:5vh;
-         margin-left:43vw !important;
-          color:rgb(107, 107, 107);
-          font-size:27px;
-          font-weight: lighter;
-         }
-
-         #archetypeText{
-          position: absolute;
-          margin-top:18vh;
-          margin-left:26vw;
-      }
-
-   
-   
-      #projectHeader2{
-       
-       margin-top:57vh;
-          margin-left:47vw;
-          color:rgb(105, 105, 105);
-          font-size:27px;
-          font-weight: lighter;
-         }
-
-         #theLabText{
-          margin-top:4vh;
-          margin-left:25vw;
-         }
-
-         #projectHeader3{
-          color:#3b3b3b;
-          margin-left:49vw;
-          color:rgb(105, 105, 105);
-          font-size:27px;
-          font-weight: lighter;
-         }
-      
-         #turaText{
-          margin-left:26vw;
-         }
      
-
-   
-   
+            .navbar{
+                background-color: #e4e4e441;
+            }
+            .nav-menu {
+                height:37vh;
+                position: fixed;
+                left: -100%;
+                top: 3rem;
+                flex-direction: column;
+                background-color: #fff;
+                width: 100%;
+                border-radius: 10px;
+                text-align: center;
+                transition: 0.3s;
+                box-shadow:
+                    0 10px 27px rgba(0, 0, 0, 0.05);
+                    z-index:1;
+            }
+        
+            .nav-menu.active {
+                left: 0;
+            }
     
-     /*End Desktop future projects container*/ 
+            .nav-item {
+                margin: 2.5rem 0;
+                
+            }
+        
+            .hamburger {
+                display: block;
+                cursor: pointer;
+            }
+    .bar{
+        background-color: #3b3b3b;
+    }
+            .hamburger.active .bar:nth-child(2) {
+                opacity: 0;
+            }
+        
+            .hamburger.active .bar:nth-child(1) {
+                transform: translateY(8px) rotate(45deg);
+            }
+        
+            .hamburger.active .bar:nth-child(3) {
+                transform: translateY(-8px) rotate(-45deg);
+            }
+    .nav-logo-mobile{
+        margin-left:39% !important;
+    }
+    
+    .nav-logo-mobile{
+        height: 50vh !important;
+    }
+    
+    #nav-logo-desktop{
+        display:none;
+    }
+            #alchBrand{
+                margin-top: -59% !important;
+                margin-left:-9% !important;
+                width:10% !important;
+                height:10% !important;
+               }
+    
+            #homeLink{
+                position: absolute;
+                margin-top:-10vh !important;
+                margin-left:-16% !important;
+                color:rgb(90, 90, 90);
+            }
+    
+           
+            #aboutLink{
+                position: absolute;
+                margin-top:-30% !important;
+                margin-left:-16% !important;
+                color:rgb(90, 90, 90);
+    
+            }
+    
+            #bookLink{
+                margin-top:-8vh !important;
+                margin-left:-47% !important;
+                background-color: #3b3b3b;
+                color:#fff;
+            }
+    
+            #contactLink{
+                margin-left:-16%;
+                margin-top:-20%;
+                color:rgb(90, 90, 90);
+            }
+    
+            span{
+                color:#475569;
+            }
+        
+    
+                #alchDesignLogo{
+                    margin-top:-12vh !important;
+                }
+        
+               
+        
+                h1{
+                    margin-top:37vh !important;
+                     margin-left:4% !important;
+                     font-size: 2.6rem !important;
+                     width:100% !important;
+                     color:rgb(75, 73, 73) !important;
+                     
+                 }
+
+                 #project{
+                    margin-top:43% !important;
+                    margin-left:-5%;
+                  }
+         
+                .prev, .next {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 20%;
+                    width:22px !important;
+                    width: auto;
+                    margin-top: -40px !important;
+                    padding: 14px;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 18px;
+                    transition: 0.6s ease;
+                    border-radius: 0 3px 3px 0;
+                    user-select: none;
+                    background-color: #77777793;
+                  }
+                  
+                
+                  .next {
+                    
+                   width:14% !important;
+                   
+                    right: -33vw;
+                    border-radius: 3px 0 0 3px;
+                    background-color: #77777793;
+                    
+                  }
+                  
+                  /* On hover, add a black background color with a little bit see-through */
+                  .prev:hover, .next:hover {
+                    background-color: rgba(19, 49, 54, 0.8);
+                  }
+         
+                 #slide1{
+                    margin-top:-36%;
+                    width:27vh !important;
+                    height:20vh;
+                    
+                }
+
+
+                #slide2{
+                    margin-top:-36%;
+                    width:27vh !important;
+                    height:20vh;
+                }
+
+                #slide3{
+                    margin-top:-36%;
+                    width:27vh !important;
+                    height:20vh;
+                }
+
+                #slide4{
+                    margin-top:-36%;
+                    width:27vh !important;
+                    height:20vh;
+                }
+
+                #slide5{
+                    margin-top:-36%;
+                    width:27vh !important;
+                    height:20vh;
+                }
+
+                .addInfo{
+                    margin-top:10% !important;
+                    color:#3a1b1b;
+                }
+                 
+                 #project{
+                    
+                     margin-top:6%;
+                     width:70vw;
+                     height:70vh;
+                     z-index:-1;
+                 }
+                 
+                 
+                 
+                 
+                    #alchDesignLogo{
+                     display:none !important;
+                     margin-top:-20vh !important;
+                     width:120vw !important;
+                     height: 30vh !important;
+                    }
+                     
+                    
+         
+                    .service{
+                     width:30vw !important;
+                    }
+
+                    #mission{
+                        margin-left:10% !important;
+                        width:90% !important;
+                    font-size:12px !important;
+                color:#424242;}
+         
+                    #slogan{
+                     position: absolute;
+                     padding: 2% 5% 2% 20% !important;
+                     margin-top:13vh !important;
+                     margin-left:8vw !important;
+                     background-color: #ffffff9d;
+                     color:#0d494b !important;
+                     font-size:2rem !important;
+                     width:100vw !important;
+                    }
+
+                    #logo{
+                        margin-top:15vh;
+                    }
+         
+                    p{
+                     margin-left:30vw!important;
+                     width:60vw !important;
+                    }
+         
+                    h3{
+                     margin-left:20vw !important;
+                    }
+         
+                    #about{
+                     margin-top:-30% !important;
+                     margin-left: 15% !important;
+                    
+                    }
+
+                    #aboutContent{
+                       margin-top:-80% !important;
+                        margin-left:-4vw !important;
+                        width:96% !important;
+                        color:rgb(87, 87, 87);
+                    }
+                   
+
+                    #pricingContent{
+                        margin-top:5vh;
+                        margin-left:-22vw;
+                        display:flex;
+                        flex-direction: column;
+                        flex-wrap: wrap;
+                        
+                        color:#535353;
+                    }
+
+                    #pricingHeader{
+                        margin-left:33vw !important;
+                        font-size: 3rem !important;
+                    }
+
+                    #listItemOne{
+                        position: absolute;
+                        margin-top:3vh;
+                        margin-left:20vw;
+                        font-size: 22px;
+                        font-weight: bolder;
+                         
+                    }
+
+                #itemOne{
+                    position: absolute;
+                    margin-top:10vh;
+                    margin-left:16vw !important;
+                    width:90% !important;
+                }
+
+                #listItemTwo{
+                    position: absolute;
+                        margin-top:36vh;
+                        margin-left:20vw;
+                        font-size: 22px;
+                        font-weight: bolder;
+                }
+
+            #itemTwo{
+                position: absolute;
+                margin-top:42vh;
+                margin-left:16vw !important;
+                width:90% !important;
+            }
+                .addInfo{
+                    margin-top: 60vh !important;
+                    margin-left:13% !important;
+                    
+                    
+                    width:90% !important;
+                    color:#444444;
+                    font-size:1rem !important;
+                }
+                     
+                
+                #mission{
+                    margin-top:10% !important;
+                }
+                #newLogo{
+                    position: absolute;
+                    margin-top:-30vh !important;
+                    margin-left:17vw !important;
+                    width:70vw !important;
+                    height:20vh !important;
+                }
+         
+                #slogan{
+                    margin-top:-7vh !important;
+                   margin-left:-2% !important;
+                    font-size: 1rem !important;
+                }
+                    .sectionContent{
+                   margin-top:-38% !important;
+                    margin-left:-14% !important;
+                     width:96vw !important;
+                     color:#312f2f;
+                    }
+         
+                    .service{
+                        margin-left:60vh !important;
+                     width: 100vw !important;
+                    }
+footer{
+    margin-top: 70%;
+    height:130px;
+    background-color: #515252;
+    color:#d8d8d8;
+}
+
+.footerLink{
+    padding:0% 1% 1% 0% !important;
+
+}
+
+#footerContentLeft{
+    margin-left:7% !important;
+}
+
+#footerContentRight{margin-left:20% !important;
+}
+
+#footerLogo{
+    margin-top:10% !important;
+    margin-left:2% !important;
+    font-size:2rem !important;
+  
+    width:100%;
+    color:#f8f8f8 !important;
+}
+                    
+                 
+     
+        }
+
+    
+        @media screen and (min-width:210px) and (max-width:214px){
+        
+      
+
+            .navbar{
+                background-color: #e4e4e441;
+            }
+            .nav-menu {
+                height:37vh;
+                position: fixed;
+                left: -100%;
+                top: 3rem;
+                flex-direction: column;
+                background-color: #ffffff;
+                width: 100%;
+                border-radius: 10px;
+                text-align: center;
+                transition: 0.3s;
+                box-shadow:
+                    0 10px 27px rgba(0, 0, 0, 0.05);
+                    z-index:1;
+            }
+        
+            .nav-menu.active {
+                left: 0;
+            }
+    
+            .nav-item {
+                margin: 2.5rem 0;
+                
+            }
+        
+            .hamburger {
+                display: block;
+                cursor: pointer;
+            }
+    .bar{
+        background-color: #3b3b3b;
+    }
+            .hamburger.active .bar:nth-child(2) {
+                opacity: 0;
+            }
+        
+            .hamburger.active .bar:nth-child(1) {
+                transform: translateY(8px) rotate(45deg);
+            }
+        
+            .hamburger.active .bar:nth-child(3) {
+                transform: translateY(-8px) rotate(-45deg);
+            }
+    .nav-logo-mobile{
+        margin-left:39% !important;
+    }
+    
+    .nav-logo-mobile{
+        height: 50vh !important;
+    }
+    
+    #nav-logo-desktop{
+        display:none;
+    }
+            #alchBrand{
+                margin-top: -59% !important;
+                margin-left:-9% !important;
+                width:10% !important;
+                height:10% !important;
+               }
+    
+            #homeLink{
+                position: absolute;
+                margin-top:-10vh !important;
+                margin-left:-15% !important;
+                color:rgb(90, 90, 90);
+            }
+    
+           
+            #aboutLink{
+                position: absolute;
+                margin-top:-29% !important;
+                margin-left:-15% !important;
+                color:rgb(90, 90, 90);
+    
+            }
+    
+            #bookLink{
+                margin-top:-5vh !important;
+                margin-left:-46% !important;
+                background-color: #3b3b3b;
+                color:#fff;
+            }
+    
+            #contactLink{
+                margin-left:-15%;
+                margin-top:-20%;
+                color:rgb(90, 90, 90);
+            }
+    
+            span{
+                color:#475569;
+            }
+        
+    
+                #alchDesignLogo{
+                    margin-top:-12vh !important;
+                }
+        
+               
+        
+               
+
+                 #project{
+                    margin-top:7% !important;
+                  }
+         
+                .prev, .next {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    width:22px !important;
+                    width: auto;
+                    margin-top: -50px;
+                    padding: 14px;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 18px;
+                    transition: 0.6s ease;
+                    border-radius: 0 3px 3px 0;
+                    user-select: none;
+                    background-color: #7777776e;
+                  }
+                  
+                
+                  .next {
+                   width:14% !important;
+                    right: -28vw;
+                    border-radius: 3px 0 0 3px;
+                    background-color: #7777776e;
+                    
+                  }
+                  
+                  /* On hover, add a black background color with a little bit see-through */
+                  .prev:hover, .next:hover {
+                    background-color: rgba(19, 49, 54, 0.8);
+                  }
+         
+                 #slide1{
+                    width:27vh !important;
+                    height:26vh;
+                    
+                }
+
+
+                #slide2{
+                    width:27vh !important;
+                    height:26vh;
+                }
+
+                #slide3{
+                    width:27vh !important;
+                    height:26vh;
+                }
+
+                #slide4{
+                    width:27vh !important;
+                    height:26vh;
+                }
+
+                #slide5{
+                    width:27vh !important;
+                    height:26vh;}
+
+                    h1{
+                        margin-top:35vh !important;
+                         margin-left:6% !important;
+                         font-size: 2.7rem !important;
+                         width:100% !important;
+                         color:rgb(75, 73, 73) !important;
+                         
+                     }
+
+                     #about{
+                        margin-top:-10% !important;
+                        margin-left: 15% !important;
+                       color: #101010;
+                       }
+                 
+                 #project{
+                    
+                     margin-top:6%;
+                     width:70vw;
+                     height:70vh;
+                     z-index:-1;
+                 }
+                 
+                 
+                 
+                 
+                    #alchDesignLogo{
+                     display:none !important;
+                     margin-top:-20vh !important;
+                     width:120vw !important;
+                     height: 30vh !important;
+                    }
+                     
+                    
+         
+                    .service{
+                     width:30vw !important;
+                    }
+         
+                    #slogan{
+                     position: absolute;
+                     padding: 2% 5% 2% 20% !important;
+                     margin-top:13vh !important;
+                     margin-left:8vw !important;
+                     background-color: #ffffff9d;
+                     color:#0d494b !important;
+                     font-size:2rem !important;
+                     width:100vw !important;
+                    }
+
+                    #logo{
+                        margin-top:15vh;
+                    }
+         
+                    p{
+                     margin-left:30vw!important;
+                     width:60vw !important;
+                    }
+         
+                    h3{
+                     margin-left:20vw !important;
+                    }
+         
+                   
+
+                    #aboutContent{
+                       margin-top:-80% !important;
+                        margin-left:-4vw !important;
+                        width:96% !important;
+                    }
+                   
+
+                    #pricingContent{
+                        margin-top:5vh;
+                        margin-left:-17vw;
+                        display:flex;
+                        flex-direction: column;
+                        flex-wrap: wrap;
+                        
+                        color:#535353;
+                    }
+
+                    #pricingHeader{
+                        margin-left:27vw !important;
+                        font-size: 3rem !important;
+                    }
+
+                    #listItemOne{
+                        position: absolute;
+                        margin-top:2vh !important;
+                        margin-left:20vw;
+                        width:100% !important;
+                        font-weight: bold !important;
+                        font-size:17px !important;
+                         
+                    }
+
+                #itemOne{
+                    position: absolute;
+                    margin-top:7vh;
+                    margin-left:10vw !important;
+                    width:80% !important;
+                }
+
+                #listItemTwo{
+                    position: absolute;
+                    margin-top:33vh !important;
+                    margin-left:27vw;
+                    font-weight: bolder;
+                     
+                }
+
+            #itemTwo{
+                position: absolute;
+                margin-top:36vh;
+                margin-left:14vw !important;
+                width:81% !important;
+            }
+                .addInfo{
+                    margin-top: 53vh !important;
+                    margin-left:10% !important;
+                    width:90% !important;
+                   
+                    color:#2e2e2e;
+                    font-size:1rem !important;
+                }
+                      
+                #newLogo{
+                    position: absolute;
+                    margin-top:-34vh !important;
+                    margin-left:17vw !important;
+                    width:70vw !important;
+                    height:20vh !important;
+                }
+
+                #mission{
+                    margin-top:10% !important;
+                    margin-left:4% !important;
+                    width:90% !important;
+                }
+         
+                #slogan{
+                    margin-top:-9vh !important;
+                    margin-left:-3vw !important;
+                    font-size:1.2rem !important;
+                }
+                    .sectionContent{
+                   margin-top:-38% !important;
+                    margin-left:-14% !important;
+                     width:96vw !important;
+                     color:#312f2f;
+                    }
+         
+                    .service{
+                        margin-left:60vh !important;
+                     width: 100vw !important;
+                    }
+footer{
+    margin-top: 70%;
+    height:100px;
+    background-color: #515252;
+    color:#d8d8d8;
+}
+
+.footerLink{
+    padding:0% 3% 2% 0% !important;
+
+}
+
+#footerContentLeft{
+    margin-left:10% !important;
+}
+
+#footerContentRight{margin-left:20% !important;
+}
+
+#footerLogo{
+    margin-top:5% !important;
+    margin-left:4% !important;
+    font-size:2rem !important;
+    width:100%;
+    color: #ffffff !important;
+}
+                    
+                 
+         
+            }
+
+
+
+
+            @media screen and (min-width:215px) and (max-width:250px){
+
+          
+
+                .navbar{
+                    background-color: #e4e4e441;
+                }
+                .nav-menu {
+                    height:37vh;
+                    position: fixed;
+                    left: -100%;
+                    top: 3rem;
+                    flex-direction: column;
+                    background-color: #fff;
+                    width: 100%;
+                    border-radius: 10px;
+                    text-align: center;
+                    transition: 0.3s;
+                    box-shadow:
+                        0 10px 27px rgba(0, 0, 0, 0.05);
+                        z-index:1;
+                }
+            
+                .nav-menu.active {
+                    left: 0;
+                }
+        
+                .nav-item {
+                    margin: 2.5rem 0;
+                    
+                }
+            
+                .hamburger {
+                    display: block;
+                    cursor: pointer;
+                }
+        .bar{
+            background-color: #3b3b3b;
+        }
+                .hamburger.active .bar:nth-child(2) {
+                    opacity: 0;
+                }
+            
+                .hamburger.active .bar:nth-child(1) {
+                    transform: translateY(8px) rotate(45deg);
+                }
+            
+                .hamburger.active .bar:nth-child(3) {
+                    transform: translateY(-8px) rotate(-45deg);
+                }
+        .nav-logo-mobile{
+            margin-left:39% !important;
+        }
+        
+        .nav-logo-mobile{
+            height: 50vh !important;
+        }
+        
+        #nav-logo-desktop{
+            display:none;
+        }
+                #alchBrand{
+                    margin-top: -59% !important;
+                    margin-left:-9% !important;
+                    width:10% !important;
+                    height:10% !important;
+                   }
+        
+                #homeLink{
+                    position: absolute;
+                    margin-top:-10vh !important;
+                    margin-left:-17% !important;
+                    color:rgb(90, 90, 90);
+                }
+        
+               
+                #aboutLink{
+                    position: absolute;
+                    margin-top:-33% !important;
+                    margin-left:-17% !important;
+                    color:rgb(90, 90, 90);
+        
+                }
+        
+                #bookLink{
+                    margin-top:-7vh !important;
+                    margin-left:-40%;
+                    background-color: #3b3b3b;
+                    color:#fff;
+                }
+        
+                #contactLink{
+                    margin-left:-17%;
+                    margin-top:-25%;
+                    color:rgb(90, 90, 90);
+                }
+        
+                span{
+                    color:#475569;
+                }
+            
+        
+                    #alchDesignLogo{
+                        margin-top:-12vh !important;
+                    }
+            
+                   
+            
+                   
+    
+                     #project{
+                        margin-top:2% !important;
+                      }
+             
+                    .prev, .next {
+                        cursor: pointer;
+                        position: absolute;
+                        top: 50%;
+                        width:22px !important;
+                        width: auto;
+                        margin-top: -22px;
+                        padding: 14px;
+                        color: white;
+                        font-weight: bold;
+                        font-size: 18px;
+                        transition: 0.6s ease;
+                        border-radius: 0 3px 3px 0;
+                        user-select: none;
+                        background-color: #77777767;
+                      }
+                      
+                    
+                      .next {
+                       width:14% !important;
+                        right: -30vw;
+                        border-radius: 3px 0 0 3px;
+                        background-color: #77777767;
+                        
+                      }
+                      
+                      /* On hover, add a black background color with a little bit see-through */
+                      .prev:hover, .next:hover {
+                        background-color: rgba(19, 49, 54, 0.8);
+                      }
+             
+                     #slide1{
+                        width:27vh !important;
+                    height:27vh;
+                        
+                    }
+    
+    
+                    #slide2{
+                        width:27vh !important;
+                    height:27vh;
+                    }
+    
+                    #slide3{
+                        width:27vh !important;
+                        height:27vh;
+                    }
+    
+                    #slide4{
+                        width:27vh !important;
+                    height:27vh;
+                    }
+    
+                    #slide5{
+                        width:27vh !important;
+                        height:27vh;
+                    }
+
+                    h1{
+                        margin-top:39vh !important;
+                         margin-left:2% !important;
+                         font-size: 3rem !important;
+                         color:rgb(75, 73, 73) !important;
+                         
+                     }
+                     
+                     #project{
+                        
+                         margin-top:6%;
+                         width:70vw;
+                         height:70vh;
+                         z-index:-1;
+                     }
+                     
+                     
+                     
+                     
+                        #alchDesignLogo{
+                         display:none !important;
+                         margin-top:-20vh !important;
+                         width:120vw !important;
+                         height: 30vh !important;
+                        }
+                         
+                        
+             
+                        .service{
+                         width:30vw !important;
+                        }
+             
+                        #slogan{
+                         position: absolute;
+                         padding: 2% 5% 2% 20% !important;
+                         margin-top:13vh !important;
+                         margin-left:8vw !important;
+                         background-color: #ffffff9d;
+                         color:#0d494b !important;
+                         font-size:2rem !important;
+                         width:100vw !important;
+                        }
+    
+                        #logo{
+                            margin-top:15vh;
+                        }
+             
+                        p{
+                         margin-left:30vw!important;
+                         width:60vw !important;
+                        }
+             
+                        h3{
+                         margin-left:20vw !important;
+                        }
+             
+                        #about{
+                         margin-top:25% !important;
+                         margin-left: 15% !important;
+                        color: #101010;
+                        }
+    
+                        #aboutContent{
+                           margin-top:-80% !important;
+                            margin-left:-4vw !important;
+                            width:96% !important;
+                        }
+                       
+    #mission{
+        margin-left:9% !important;
+        font-size:13px;
+        width:90% !important;
+    }
+                        #pricingContent{
+                            margin-top:5vh;
+                            margin-left:-17vw;
+                            display:flex;
+                            flex-direction: column;
+                            flex-wrap: wrap;
+                            
+                            color:#535353;
+                        }
+    
+                        #pricingHeader{
+                            margin-left:35vw !important;
+                            font-size:3rem !important;
+                        }
+    
+                        #listItemOne{
+                            position: absolute;
+                            margin-top:2vh;
+                            margin-left:33vw;
+                            font-weight: bolder;
+                             
+                        }
+    
+                    #itemOne{
+                        position: absolute;
+                        margin-top:6vh;
+                        margin-left:16vw !important;
+                        width:80% !important;
+                    }
+    
+                    #listItemTwo{
+                        position: absolute;
+                        margin-top:33vh !important;
+                        margin-left:30vw;
+                        font-weight: bolder;
+                         
+                    }
+    
+                #itemTwo{
+                    position: absolute;
+                    margin-top:38vh;
+                    margin-left:15vw !important;
+                    width:80% !important;
+                }
+                    .addInfo{
+                        margin-top: 58vh !important;
+                        margin-left:10% !important;
+                        width:90% !important;
+                        color:#101010;
+                        font-size:1.3rem !important;
+                    }
+                          
+                    #newLogo{
+                        position: absolute;
+                        margin-top:-32vh !important;
+                        margin-left:24vw !important;
+                        width:60vw !important;
+                        height:16vh !important;
+                    }
+
+                    #mission{
+                        margin-top:10% !important;
+                    }
+             
+                    #slogan{
+                        margin-top:-7vh !important;
+                        margin-left:1vw !important;
+                        font-size:1.3rem !important;
+                    }
+                        .sectionContent{
+                       margin-top:-38% !important;
+                        margin-left:-14% !important;
+                         width:96vw !important;
+                         color:#312f2f;
+                        }
+             
+                        .service{
+                            margin-left:60vh !important;
+                         width: 100vw !important;
+                        }
+    footer{
+        margin-top: 70%;
+        height:100px;
+        background-color: #515252;
+        color:#d8d8d8;
+    }
+    
+    .footerLink{
+        padding:0% 3% 2% 0% !important;
+    
+    }
+    
+    #footerContentLeft{
+        margin-left:8% !important;
+    }
+    
+    #footerContentRight{margin-left:20% !important;
+    }
+    
+    #footerLogo{
+        margin-top:6%;
+        margin-left:6% !important;
+        font-size:2rem !important;
+        width:100%;
+        color:#dbdbdb ;
+    }
+             
+                }
+
+                
+
+
+            @media screen and (min-width:251px) and (max-width:261px){
+
+            
+              .navbar{
+                background-color: #e4e4e441;
+            }
+            .nav-menu {
+                height:37vh;
+                position: fixed;
+                left: -100%;
+                top: 3rem;
+                flex-direction: column;
+                background-color: #fff;
+                width: 100%;
+                border-radius: 10px;
+                text-align: center;
+                transition: 0.3s;
+                box-shadow:
+                    0 10px 27px rgba(0, 0, 0, 0.05);
+                    z-index:1;
+            }
+        
+            .nav-menu.active {
+                left: 0;
+            }
+    
+            .nav-item {
+                margin: 2.5rem 0;
+                
+            }
+        
+            .hamburger {
+                display: block;
+                cursor: pointer;
+            }
+    .bar{
+        background-color: #3b3b3b;
+    }
+            .hamburger.active .bar:nth-child(2) {
+                opacity: 0;
+            }
+        
+            .hamburger.active .bar:nth-child(1) {
+                transform: translateY(8px) rotate(45deg);
+            }
+        
+            .hamburger.active .bar:nth-child(3) {
+                transform: translateY(-8px) rotate(-45deg);
+            }
+    .nav-logo-mobile{
+        margin-left:39% !important;
+    }
+    
+    .nav-logo-mobile{
+        height: 50vh !important;
+    }
+    
+    #nav-logo-desktop{
+        display:none;
+    }
+            #alchBrand{
+                margin-top: -59% !important;
+                margin-left:-9% !important;
+                width:10% !important;
+                height:10% !important;
+               }
+    
+            #homeLink{
+                position: absolute;
+                margin-top:-10vh !important;
+                margin-left:-15% !important;
+                color:rgb(90, 90, 90);
+            }
+    
+           
+            #aboutLink{
+                position: absolute;
+                margin-top:-33% !important;
+                margin-left:-15% !important;
+                color:rgb(90, 90, 90);
+    
+            }
+    
+            #bookLink{
+                margin-top:-10vh !important;
+                margin-left:-35%;
+                background-color: #3b3b3b;
+                color:#fff;
+            }
+    
+            #contactLink{
+                margin-left:-15%;
+                margin-top:-30%;
+                color:rgb(90, 90, 90);
+            }
+    
+            span{
+                color:#475569;
+            }
+        
+    
+                #alchDesignLogo{
+                    margin-top:-12vh !important;
+                }
+        
+               
+        
+               
+
+                 #project{
+                    margin-top:2% !important;
+                   
+                  }
+         
+                .prev, .next {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    width:22px !important;
+                    width: auto;
+                    margin-top: -22px;
+                    padding: 14px;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 18px;
+                    transition: 0.6s ease;
+                    border-radius: 0 3px 3px 0;
+                    user-select: none;
+                    background-color: #77777767;
+                  }
+                  
+                
+                  .next {
+                   width:14% !important;
+                    right: -26vw;
+                    border-radius: 3px 0 0 3px;
+                    background-color: #77777767;
+                    
+                  }
+                  
+                  /* On hover, add a black background color with a little bit see-through */
+                  .prev:hover, .next:hover {
+                    background-color: rgba(19, 49, 54, 0.8);
+                  }
+         
+                 #slide1{
+                    width:31vh !important;
+                    height:27vh;
+                    
+                }
+
+
+                #slide2{
+                    width:31vh !important;
+                    height:27vh;
+                }
+
+                #slide3{
+                    width:31vh !important;
+                    height:27vh;
+                }
+
+                #slide4{
+                    width:31vh !important;
+                    height:27vh;
+                }
+
+                #slide5{
+                    width:31vh !important;
+                    height:27vh;
+                }
+
+                h1{
+                    margin-top:36vh !important;
+                     margin-left:12% !important;
+                     font-size: 3rem !important;
+                     color:rgb(75, 73, 73) !important;
+                     
+                 }
+                 
+                 #project{
+                    
+                     margin-top:6%;
+                     width:70vw;
+                     height:70vh;
+                     z-index:-1;
+                 }
+                 
+                 
+                 
+                 
+                    #alchDesignLogo{
+                     display:none !important;
+                     margin-top:-20vh !important;
+                     width:120vw !important;
+                     height: 30vh !important;
+                    }
+                     
+                    
+         
+                    .service{
+                     width:30vw !important;
+                    }
+         
+                    #slogan{
+                     position: absolute;
+                     padding: 2% 5% 2% 20% !important;
+                     margin-top:13vh !important;
+                     margin-left:8vw !important;
+                     background-color: #ffffff9d;
+                     color:#0d494b !important;
+                     font-size:2rem !important;
+                     width:100vw !important;
+                    }
+
+                    #logo{
+                        margin-top:15vh;
+                    }
+         
+                    p{
+                     margin-left:30vw!important;
+                     width:60vw !important;
+                    }
+         
+                    h3{
+                     margin-left:20vw !important;
+                    }
+         
+                    #about{
+                     margin-top:25% !important;
+                     margin-left: 15% !important;
+                    color: #101010;
+                    }
+
+                    #aboutContent{
+                       margin-top:-80% !important;
+                        margin-left:-4vw !important;
+                        width:96% !important;
+                    }
+                   
+
+                    #pricingContent{
+                        margin-top:5vh;
+                        margin-left:-17vw;
+                        display:flex;
+                        flex-direction: column;
+                        flex-wrap: wrap;
+                        
+                        color:#535353;
+                    }
+
+                    #pricingHeader{
+                        margin-left:35vw !important;
+                        font-size:3rem !important;
+                    }
+
+                    #listItemOne{
+                        position: absolute;
+                        margin-top:2vh;
+                        margin-left:33vw;
+                        font-weight: bolder;
+                         
+                    }
+
+                #itemOne{
+                    position: absolute;
+                    margin-top:6vh;
+                    margin-left:16vw !important;
+                    width:80% !important;
+                }
+
+                #listItemTwo{
+                    position: absolute;
+                    margin-top:30vh !important;
+                    margin-left:32vw;
+                    font-weight: bolder;
+                     
+                }
+
+            #itemTwo{
+                position: absolute;
+                margin-top:36vh;
+                margin-left:15vw !important;
+                width:80% !important;
+            }
+                .addInfo{
+                    margin-top: 53vh !important;
+                    margin-left:10% !important;
+                    width:90% !important;
+                    color:#101010;
+                    font-size:1.3rem !important;
+                }
+
+                #mission{
+                    margin-left:6% !important;
+                    width:90% !important;
+
+                }
+                      
+                #newLogo{
+                    position: absolute;
+                    margin-top:-32vh !important;
+                    margin-left:24vw !important;
+                    width:60vw !important;
+                    height:16vh !important;
+                }
+         
+                #slogan{
+                    margin-top:-7vh !important;
+                    margin-left:1vw !important;
+                    font-size:1.3rem !important;
+                }
+                    .sectionContent{
+                   margin-top:-38% !important;
+                    margin-left:-14% !important;
+                     width:96vw !important;
+                     color:#312f2f;
+                    }
+         
+                    .service{
+                        margin-left:60vh !important;
+                     width: 100vw !important;
+                    }
+footer{
+    margin-top: 70%;
+    height:100px;
+    background-color: #515252;
+    color:#d8d8d8;
+}
+
+.footerLink{
+    padding:0% 3% 2% 0% !important;
+
+}
+
+#footerContentLeft{
+    margin-left:18% !important;
+}
+
+#footerContentRight{margin-left:20% !important;
+}
+
+#footerLogo{
+    margin-top:5%;
+    margin-left:12% !important;
+    font-size:2rem !important;
+    width:100%;
+    color:#dbdbdb ;
+}
+         
+             
+                }
+        @media screen and (min-width:262px) and (max-width:268px){
+           
+        
+              .navbar{
+                background-color: #e4e4e441;
+            }
+            .nav-menu {
+                height:35vh;
+                position: fixed;
+                left: -100%;
+                top: 3rem;
+                flex-direction: column;
+                background-color: #fff;
+                width: 100%;
+                border-radius: 10px;
+                text-align: center;
+                transition: 0.3s;
+                box-shadow:
+                    0 10px 27px rgba(0, 0, 0, 0.05);
+                    z-index:1;
+            }
+        
+            .nav-menu.active {
+                left: 0;
+            }
+    
+            .nav-item {
+                margin: 2.5rem 0;
+                
+            }
+        
+            .hamburger {
+                display: block;
+                cursor: pointer;
+            }
+    .bar{
+        background-color: #3b3b3b;
+    }
+            .hamburger.active .bar:nth-child(2) {
+                opacity: 0;
+            }
+        
+            .hamburger.active .bar:nth-child(1) {
+                transform: translateY(8px) rotate(45deg);
+            }
+        
+            .hamburger.active .bar:nth-child(3) {
+                transform: translateY(-8px) rotate(-45deg);
+            }
+    .nav-logo-mobile{
+        margin-left:39% !important;
+    }
+    
+    .nav-logo-mobile{
+        height: 50vh !important;
+    }
+    
+    #nav-logo-desktop{
+        display:none;
+    }
+            #alchBrand{
+                margin-top: -59% !important;
+                margin-left:-9% !important;
+                width:10% !important;
+                height:10% !important;
+               }
+    
+            #homeLink{
+                position: absolute;
+                margin-top:-10vh !important;
+                margin-left:-15% !important;
+                color:rgb(90, 90, 90);
+            }
+    
+           
+            #aboutLink{
+                position: absolute;
+                margin-top:-33% !important;
+                margin-left:-15% !important;
+                color:rgb(90, 90, 90);
+    
+            }
+    
+            #bookLink{
+                margin-top:-12vh !important;
+                margin-left:-33%;
+                background-color: #3b3b3b;
+                color:#fff;
+            }
+    
+            #contactLink{
+                margin-left:-15%;
+                margin-top:-30%;
+                color:rgb(90, 90, 90);
+            }
+    
+            span{
+                color:#475569;
+            }
+        
+    
+                #alchDesignLogo{
+                    margin-top:-12vh !important;
+                }
+        
+               
+        
+               
+
+                 #project{
+                    margin-top:2% !important;
+                   
+                  }
+         
+                .prev, .next {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 43%;
+                    width:22px !important;
+                    width: auto;
+                    margin-top: -40px;
+                    padding: 14px;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 18px;
+                    transition: 0.6s ease;
+                    border-radius: 0 3px 3px 0;
+                    user-select: none;
+                    background-color: #77777767;
+                  }
+                  
+                
+                  .next {
+                   
+                   width:14% !important;
+                    right: -29vw;
+                    border-radius: 3px 0 0 3px;
+                    background-color: #77777767;
+                    
+                  }
+                  
+                  /* On hover, add a black background color with a little bit see-through */
+                  .prev:hover, .next:hover {
+                    background-color: rgba(19, 49, 54, 0.8);
+                  }
+         
+                 #slide1{
+                    width:32vh !important;
+                    height:26vh;
+                }
+
+
+                #slide2{
+                    width:32vh !important;
+                    height:26vh;
+                }
+
+                #slide3{
+                    width:32vh !important;
+                    height:26vh;
+                }
+
+                #slide4{
+                    width:32vh !important;
+                    height:26vh;
+                }
+
+                #slide5{
+                    width:32vh !important;
+                    height:26vh;
+                }
+
+                h1{
+                    margin-top:34vh !important;
+                     margin-left:5% !important;
+                     font-size: 3.4rem !important;
+                     color:rgb(75, 73, 73) !important;
+                     
+                 }
+                 
+                 #project{
+                    
+                     margin-top:6%;
+                     width:70vw;
+                     height:70vh;
+                     z-index:-1;
+                 }
+                 
+                 
+                 
+                 
+                    #alchDesignLogo{
+                     display:none !important;
+                     margin-top:-20vh !important;
+                     width:120vw !important;
+                     height: 30vh !important;
+                    }
+                     
+                    
+         
+                    .service{
+                     width:30vw !important;
+                    }
+         
+                    #slogan{
+                     position: absolute;
+                     padding: 2% 5% 2% 20% !important;
+                     margin-top:13vh !important;
+                     margin-left:8vw !important;
+                     background-color: #ffffff9d;
+                     color:#0d494b !important;
+                     font-size:1.4rem !important;
+                     width:100vw !important;
+                    }
+
+                    #logo{
+                        margin-top:15vh;
+                    }
+         
+                    p{
+                     margin-left:30vw!important;
+                     width:60vw !important;
+                    }
+         
+                    h3{
+                     margin-left:20vw !important;
+                    }
+         
+                    #about{
+                     margin-top:30% !important;
+                     margin-left: 15% !important;
+                    color: #101010;
+                    }
+
+                    #aboutContent{
+                       margin-top:-80% !important;
+                        margin-left:-4vw !important;
+                        width:96% !important;
+                    }
+                   
+
+                    #pricingContent{
+                        margin-top:5vh;
+                        margin-left:-17vw;
+                        display:flex;
+                        flex-direction: column;
+                        flex-wrap: wrap;
+                        
+                        color:#535353;
+                    }
+
+                    #pricingHeader{
+                        margin-left:35vw !important;
+                        font-size:3rem !important;
+                    }
+
+                    #listItemOne{
+                        position: absolute;
+                        margin-top:2vh;
+                        margin-left:33vw;
+                        font-weight: bolder;
+                         
+                    }
+
+                #itemOne{
+                    position: absolute;
+                    margin-top:6vh;
+                    margin-left:16vw !important;
+                    width:80% !important;
+                }
+
+                #listItemTwo{
+                    position: absolute;
+                    margin-top:30vh !important;
+                    margin-left:32vw;
+                    font-weight: bolder;
+                     
+                }
+
+            #itemTwo{
+                position: absolute;
+                margin-top:34vh;
+                margin-left:15vw !important;
+                width:80% !important;
+            }
+                .addInfo{
+                    margin-top: 50vh !important;
+                    margin-left:6% !important;
+                    width:100% !important;
+                    color:#101010;
+                    font-size:1.5rem !important;
+                }
+                      
+                #newLogo{
+                    position: absolute;
+                    margin-top:-30vh !important;
+                    margin-left:20vw !important;
+                    width:60vw !important;
+                    height:20vh !important;
+                }
+
+                #mission{
+                    margin-left:9% !important;
+                    width:90% !important
+                }
+         
+                #slogan{
+                    margin-top:-7vh !important;
+                    margin-left:1vw !important;
+                    font-size:1.3rem !important;
+                }
+                    .sectionContent{
+                   margin-top:-38% !important;
+                    margin-left:-14% !important;
+                     width:96vw !important;
+                     color:#312f2f;
+                    }
+         
+                    .service{
+                        margin-left:60vh !important;
+                     width: 100vw !important;
+                    }
+footer{
+    margin-top: 70%;
+    height:100px;
+    background-color: #515252;
+    color:#d8d8d8;
+}
+
+.footerLink{
+    padding:0% 3% 2% 0% !important;
+
+}
+
+#footerContentLeft{
+    margin-left:20% !important;
+}
+
+#footerContentRight{margin-left:20% !important;
+}
+
+#footerLogo{
+    margin-top:4%;
+    margin-left:15% !important;
+    font-size:2rem !important;
+    width:100%;
+    color:#dbdbdb ;
+}
+
+        }
+    
+        
+    
+
+     
+
+    @media screen and (min-width:270px) and (max-width:280px){
+
+       
+    
+          .navbar{
+            background-color: #e4e4e441;
+        }
+        .nav-menu {
+            height:37vh;
+            position: fixed;
+            left: -100%;
+            top: 3rem;
+            flex-direction: column;
+            background-color: #fff;
+            width: 100%;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow:
+                0 10px 27px rgba(0, 0, 0, 0.05);
+                z-index:1;
+        }
+    
+        .nav-menu.active {
+            left: 0;
+        }
+
+        .nav-item {
+            margin: 2.5rem 0;
+            
+        }
+    
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+.bar{
+    background-color: #3b3b3b;
+}
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+    
+        .hamburger.active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+    
+        .hamburger.active .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+.nav-logo-mobile{
+    margin-left:39% !important;
+}
+
+.nav-logo-mobile{
+    height: 50vh !important;
+}
+
+#nav-logo-desktop{
+    display:none;
+}
+        #alchBrand{
+            margin-top: -59% !important;
+            margin-left:-9% !important;
+            width:10% !important;
+            height:10% !important;
+           }
+
+        #homeLink{
+            position: absolute;
+            margin-top:-10vh !important;
+            margin-left:-15% !important;
+            color:rgb(90, 90, 90);
+        }
+
+       
+        #aboutLink{
+            position: absolute;
+            margin-top:-33% !important;
+            margin-left:-15% !important;
+            color:rgb(90, 90, 90);
+
+        }
+
+        #bookLink{
+            margin-top:-10vh !important;
+            margin-left:-33%;
+            background-color: #3b3b3b;
+            color:#fff;
+        }
+
+        #contactLink{
+            margin-left:-15%;
+            margin-top:-30%;
+            color:rgb(90, 90, 90);
+        }
+
+        span{
+            color:#475569;
+        }
+    
+
+            #alchDesignLogo{
+                margin-top:-12vh !important;
+            }
+    
+           
+    
+           
+
+             #project{
+                margin-top:2% !important;
+              }
+     
+            .prev, .next {
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                width:22px !important;
+                width: auto;
+                margin-top: -22px;
+                padding: 14px;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                background-color: #77777767;
+              }
+              
+            
+              .next {
+               width:14% !important;
+                right: -30vw;
+                border-radius: 3px 0 0 3px;
+                background-color: #77777767;
+                
+              }
+              
+              /* On hover, add a black background color with a little bit see-through */
+              .prev:hover, .next:hover {
+                background-color: rgba(19, 49, 54, 0.8);
+              }
+     
+             #slide1{
+                width:33vh !important;
+                    height:30vh;
+                
+            }
+
+
+            #slide2{
+                width:33vh !important;
+                    height:30vh;
+            }
+
+            #slide3{
+                width:33vh !important;
+                height:30vh;
+            }
+
+            #slide4{
+                width:33vh !important;
+                height:30vh;
+            }
+
+            #slide5{
+                width:33vh !important;
+                    height:30vh;
+            }
+
+            h1{
+                margin-top:36vh !important;
+                 margin-left:12% !important;
+                 font-size: 3rem !important;
+                 color:rgb(75, 73, 73) !important;
+                 
+             }
+
+             #about{
+                margin-top:37% !important;
+                margin-left: 14% !important;
+                width:90%;
+               color: #101010;
+               }
+             
+             #project{
+                
+                 margin-top:6%;
+                 width:70vw;
+                 height:70vh;
+                 z-index:-1;
+             }
+             
+             
+             
+             
+                #alchDesignLogo{
+                 display:none !important;
+                 margin-top:-20vh !important;
+                 width:120vw !important;
+                 height: 30vh !important;
+                }
+                 
+                
+     
+                .service{
+                 width:30vw !important;
+                }
+     
+                #slogan{
+                 position: absolute;
+                 padding: 2% 5% 2% 20% !important;
+                 margin-top:13vh !important;
+                 margin-left:8vw !important;
+                 background-color: #ffffff9d;
+                 color:#0d494b !important;
+                 font-size:1.4rem !important;
+                 width:100vw !important;
+                }
+
+                #logo{
+                    margin-top:15vh;
+                }
+     
+                p{
+                 margin-left:30vw!important;
+                 width:60vw !important;
+                }
+     
+                h3{
+                 margin-left:20vw !important;
+                }
+     
+                
+
+                #aboutContent{
+                   margin-top:-80% !important;
+                    margin-left:-4vw !important;
+                    width:96% !important;
+                }
+               
+
+                #pricingContent{
+                    margin-top:5vh;
+                    margin-left:-17vw;
+                    display:flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    
+                    color:#535353;
+                }
+
+                #pricingHeader{
+                    margin-left:35vw !important;
+                    font-size:3rem !important;
+                }
+
+                #listItemOne{
+                    position: absolute;
+                    margin-top:2vh;
+                    margin-left:33vw;
+                    font-weight: bolder;
+                     
+                }
+
+            #itemOne{
+                position: absolute;
+                margin-top:6vh;
+                margin-left:16vw !important;
+                width:80% !important;
+            }
+
+            #listItemTwo{
+                position: absolute;
+                margin-top:30vh !important;
+                margin-left:32vw;
+                font-weight: bolder;
+                 
+            }
+
+        #itemTwo{
+            position: absolute;
+            margin-top:36vh;
+            margin-left:15vw !important;
+            width:80% !important;
+        }
+            .addInfo{
+                margin-top: 52vh !important;
+                margin-left:8% !important;
+                width:100% !important;
+                color:#101010;
+                font-size:1.5rem !important;
+            }
+                  
+            #newLogo{
+                position: absolute;
+                margin-top:-30vh !important;
+                margin-left:20vw !important;
+                width:60vw !important;
+                height:20vh !important;
+            }
+
+            #mission{
+                margin-top:4%;
+                margin-left:9% !important;
+                width:90% !important
+            }
+     
+            #slogan{
+                margin-top:-7vh !important;
+                margin-left:1vw !important;
+                font-size:1.3rem !important;
+            }
+                .sectionContent{
+               margin-top:-38% !important;
+                margin-left:-14% !important;
+                 width:96vw !important;
+                 color:#312f2f;
+                }
+     
+                .service{
+                    margin-left:60vh !important;
+                 width: 100vw !important;
+                }
+footer{
+margin-top: 70%;
+height:100px;
+background-color: #515252;
+color:#d8d8d8;
+}
+
+.footerLink{
+padding:0% 3% 2% 0% !important;
+
+}
+
+#footerContentLeft{
+margin-left:20% !important;
+}
+
+#footerContentRight{margin-left:20% !important;
+}
+
+#footerLogo{
+    margin-top:5%;
+margin-left:18% !important;
+font-size:2rem !important;
+width:100%;
+color:#dbdbdb ;
+}
+    }
+       
+
+     
+    
+
+    @media screen and (min-width:281px) and (max-width:311px){
      
    
-   .book{
-      margin-left:40vw;
-      padding: 2px 10px 2px 10px;
-      background-color: #40414150;
-      color:white;
-      text-decoration: none;
-      font-weight: lighter;
+          .navbar{
+            background-color: #e4e4e441;
+        }
+        .nav-menu {
+            height:40vh;
+            position: fixed;
+            left: -100%;
+            top: 3rem;
+            flex-direction: column;
+            background-color: #fff;
+            width: 100%;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow:
+                0 10px 27px rgba(0, 0, 0, 0.05);
+                z-index:1;
+        }
+    
+        .nav-menu.active {
+            left: 0;
+        }
+
+        .nav-item {
+            margin: 2.5rem 0;
+            
+        }
+    
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+.bar{
+    background-color: #3b3b3b;
+}
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+    
+        .hamburger.active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+    
+        .hamburger.active .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+.nav-logo-mobile{
+    margin-left:39% !important;
+}
+
+.nav-logo-mobile{
+    height: 50vh !important;
+}
+
+#nav-logo-desktop{
+    display:none;
+}
+        #alchBrand{
+            margin-top: -59% !important;
+            margin-left:-9% !important;
+            width:10% !important;
+            height:10% !important;
+           }
+
+        #homeLink{
+            position: absolute;
+            margin-top:-10vh !important;
+            margin-left:-15% !important;
+            color:rgb(90, 90, 90);
+        }
+
+       
+        #aboutLink{
+            position: absolute;
+            margin-top:-33% !important;
+            margin-left:-15% !important;
+            color:rgb(90, 90, 90);
+
+        }
+
+        #bookLink{
+            margin-top:-10vh !important;
+            margin-left:-33%;
+            background-color: #3b3b3b;
+            color:#fff;
+        }
+
+        #contactLink{
+            margin-left:-15%;
+            margin-top:-30%;
+            color:rgb(90, 90, 90);
+        }
+
+        span{
+            color:#475569;
+        }
+    
+
+            #alchDesignLogo{
+                margin-top:-12vh !important;
+            }
+    
+           
+    
+           
+
+             #project{
+                margin-top:2% !important;
+                
+              }
+     
+            .prev, .next {
+                cursor: pointer;
+                position: absolute;
+                top: 40%;
+                width:22px !important;
+                width: auto;
+                margin-top: -22px;
+                padding: 14px;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                background-color: #77777767;
+              }
+              
+            
+              .next {
+               width:14% !important;
+                right: -30vw;
+                border-radius: 3px 0 0 3px;
+                background-color: #77777767;
+                
+              }
+              
+              /* On hover, add a black background color with a little bit see-through */
+              .prev:hover, .next:hover {
+                background-color: rgba(19, 49, 54, 0.8);
+              }
+     
+             #slide1{
+                width:37vh !important;
+                    height:30vh;
+            }
+
+
+            #slide2{
+                width:37vh !important;
+                    height:30vh;
+            }
+
+            #slide3{
+                width:37vh !important;
+                height:30vh;
+            }
+
+            #slide4{
+                width:37vh !important;
+                    height:30vh;
+            }
+
+            #slide5{
+                width:37vh !important;
+                height:30vh;
+            }
+
+            h1{
+                margin-top:39vh !important;
+                 margin-left:9% !important;
+                 font-size: 3.6rem !important;
+                 color:rgb(75, 73, 73) !important;
+                 
+             }
+
+             #about{
+                margin-top:52% !important;
+                margin-left: 15% !important;
+               color: #101010;
+               }
+             
+             #project{
+                
+                 margin-top:6%;
+                 width:70vw;
+                 height:70vh;
+                 z-index:-1;
+             }
+             
+             
+             
+             
+                #alchDesignLogo{
+                 display:none !important;
+                 margin-top:-20vh !important;
+                 width:120vw !important;
+                 height: 30vh !important;
+                }
+                 
+                
+     
+                .service{
+                 width:30vw !important;
+                }
+     
+                #slogan{
+                 position: absolute;
+                 padding: 2% 5% 2% 20% !important;
+                 margin-top:13vh !important;
+                 margin-left:8vw !important;
+                 background-color: #ffffff9d;
+                 color:#0d494b !important;
+                 font-size:1.4rem !important;
+                 width:100vw !important;
+                }
+
+                #logo{
+                    margin-top:15vh;
+                }
+     
+                p{
+                 margin-left:30vw!important;
+                 width:60vw !important;
+                }
+     
+                h3{
+                 margin-left:20vw !important;
+                }
+     
+                
+
+                #aboutContent{
+                   margin-top:-80% !important;
+                    margin-left:-4vw !important;
+                    width:96% !important;
+                }
+               
+
+                #pricingContent{
+                    margin-top:5vh;
+                    margin-left:-17vw;
+                    display:flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    
+                    color:#535353;
+                }
+
+                #pricingHeader{
+                    margin-left:35vw !important;
+                    font-size:3rem !important;
+                }
+
+                #listItemOne{
+                    position: absolute;
+                    margin-top:2vh;
+                    margin-left:33vw;
+                    font-weight: bolder;
+                     
+                }
+
+            #itemOne{
+                position: absolute;
+                margin-top:6vh;
+                margin-left:16vw !important;
+                width:80% !important;
+            }
+
+            #listItemTwo{
+                position: absolute;
+                margin-top:26vh !important;
+                margin-left:32vw;
+                font-weight: bolder;
+                 
+            }
+
+        #itemTwo{
+            position: absolute;
+            margin-top:30vh;
+            margin-left:15vw !important;
+            width:80% !important;
+        }
+            .addInfo{
+                margin-top: 45vh !important;
+                margin-left:11% !important;
+                width:100% !important;
+                color:#101010;
+                font-size:1.5rem !important;
+            }
+                  
+            #newLogo{
+                position: absolute;
+                margin-top:-30vh !important;
+                margin-left:20vw !important;
+                width:60vw !important;
+                height:20vh !important;
+            }
+
+            #mission{
+                margin-top:4%;
+                margin-left:9% !important;
+                width:90% !important
+            }
+     
+            #slogan{
+                margin-top:-7vh !important;
+                margin-left:1vw !important;
+                font-size:1.3rem !important;
+            }
+                .sectionContent{
+               margin-top:-38% !important;
+                margin-left:-14% !important;
+                 width:96vw !important;
+                 color:#312f2f;
+                }
+     
+                .service{
+                    margin-left:60vh !important;
+                 width: 100vw !important;
+                }
+footer{
+margin-top: 70%;
+height:100px;
+background-color: #515252;
+color:#d8d8d8;
+}
+
+.footerLink{
+padding:0% 3% 2% 0% !important;
+
+}
+
+#footerContentLeft{
+margin-left:20% !important;
+}
+
+#footerContentRight{margin-left:20% !important;
+}
+
+#footerLogo{
+    margin-top:5%;
+margin-left:16% !important;
+font-size:2rem !important;
+width:100%;
+color:#dbdbdb ;
+}
+
+        
     }
- 
-    .footer{
-      position: absolute;
-      margin-top:200px;
-      height:300px;
-      width:100vw;
-      background-color:#505050;
-      color:white;
+
+
+    @media screen and (min-width:312px) and (max-width:340px){
+      
+
+        .navbar{
+            background-color: #e4e4e441;
+        }
+        .nav-menu {
+            height:50vh;
+            position: fixed;
+            left: -100%;
+            top: 3rem;
+            flex-direction: column;
+            background-color: #fff;
+            width: 100%;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow:
+                0 10px 27px rgba(0, 0, 0, 0.05);
+                z-index:1;
+        }
+    
+        .nav-menu.active {
+            left: 0;
+        }
+
+        .nav-item {
+            margin: 2.5rem 0;
+            
+        }
+    
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+.bar{
+    background-color: #3b3b3b;
+}
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+    
+        .hamburger.active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+    
+        .hamburger.active .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+.nav-logo-mobile{
+    margin-left:39% !important;
+}
+
+.nav-logo-mobile{
+    height: 50vh !important;
+}
+
+#nav-logo-desktop{
+    display:none;
+}
+        #alchBrand{
+            margin-top: -59% !important;
+            margin-left:-9% !important;
+            width:10% !important;
+            height:10% !important;
+           }
+
+        #homeLink{
+            position: absolute;
+            margin-top:-14vh !important;
+            margin-left:-15% !important;
+            color:rgb(90, 90, 90);
+        }
+
+       
+        #aboutLink{
+            position: absolute;
+            margin-top:-35% !important;
+            margin-left:-16% !important;
+            color:rgb(90, 90, 90);
+
+        }
+
+        #bookLink{
+            margin-top:-14vh !important;
+            margin-left:-32%;
+            background-color: #3b3b3b;
+            color:#fff;
+        }
+
+        #contactLink{
+            margin-left:-17%;
+            margin-top:-34%;
+            color:rgb(90, 90, 90);
+        }
+
+        span{
+            color:#475569;
+        }
+    
+
+            #alchDesignLogo{
+                margin-top:-12vh !important;
+            }
+    
+           
+    
+           
+
+             #project{
+                margin-top:25% !important;
+              }
+     
+            .prev, .next {
+                cursor: pointer;
+                position: absolute;
+                top: 20%;
+                width:22px !important;
+                width: auto;
+               
+                padding: 14px;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                background-color: #77777767;
+              }
+              
+            
+              .next {
+               width:14% !important;
+                right: -30vw;
+                border-radius: 3px 0 0 3px;
+                background-color: #77777767;
+                
+              }
+              
+              /* On hover, add a black background color with a little bit see-through */
+              .prev:hover, .next:hover {
+                background-color: rgba(19, 49, 54, 0.8);
+              }
+     
+             #slide1{
+               margin-top:-36%;
+                width:40vh !important;
+                height:35vh !important;
+                
+            }
+
+
+            #slide2{
+                margin-top:-36%;
+              
+                width:40vh !important;
+                height:35vh;
+            }
+
+            #slide3{
+                margin-top:-36%;
+                width:45vh !important;
+                height:35vh;
+            }
+
+            #slide4{
+                margin-top:-36%;
+                width:40vh !important;
+                height:35vh;
+            }
+
+            #slide5{
+                margin-top:-36%;
+                width:40vh !important;
+                height:35vh;
+            }
+
+            h1{
+                margin-top:36vh !important;
+                 margin-left:3% !important;
+                 font-size: 4rem !important;
+                 color:rgb(75, 73, 73) !important;
+                 
+             }
+
+             #about{
+                margin-top:57% !important;
+                margin-left: 14% !important;
+                width:90%;
+               color: #101010;
+               }
+             
+             #project{
+                
+                 margin-top:6%;
+                 width:70vw;
+                 height:70vh;
+                 z-index:-1;
+             }
+             
+             
+             
+             
+                #alchDesignLogo{
+                 display:none !important;
+                 margin-top:-20vh !important;
+                 width:120vw !important;
+                 height: 30vh !important;
+                }
+                 
+                
+     
+                .service{
+                 width:30vw !important;
+                }
+     
+              
+                
+
+                #aboutContent{
+                   margin-top:-80% !important;
+                    margin-left:-6vw !important;
+                    width:100% !important;
+                }
+               
+
+                #pricingContent{
+                    margin-top:5vh;
+                    margin-left:-17vw;
+                    display:flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    
+                    color:#535353;
+                }
+
+                #pricingHeader{
+                    margin-top:-4%;
+                    margin-left:35vw !important;
+                    font-size:3.4rem !important;
+                }
+
+                #listItemOne{
+                    position: absolute;
+                    margin-top:2vh;
+                    margin-left:33vw;
+                    font-weight: bolder;
+                     
+                }
+
+            #itemOne{
+                position: absolute;
+                margin-top:6vh;
+                margin-left:14vw !important;
+                width:80% !important;
+            }
+
+            #listItemTwo{
+                position: absolute;
+                margin-top:25vh !important;
+                margin-left:32vw;
+                font-weight: bolder;
+                 
+            }
+
+        #itemTwo{
+            position: absolute;
+            margin-top:30vh;
+            margin-left:15vw !important;
+            width:80% !important;
+        }
+            .addInfo{
+                margin-top: 45vh !important;
+                margin-left:6% !important;
+                width:100% !important;
+                color:#101010;
+                font-size:1.8rem !important;
+            }
+                  
+            #newLogo{
+                position: absolute;
+                margin-top:-27vh !important;
+                margin-left:20vw !important;
+                width:60vw !important;
+                height:20vh !important;
+            }
+
+            #mission{
+                margin-top:7%;
+                margin-left:10% !important;
+                width:90% !important
+            }
+     
+           
+                .sectionContent{
+               margin-top:-38% !important;
+                margin-left:-14% !important;
+                 width:96vw !important;
+                 color:#312f2f;
+                }
+     
+                .service{
+                    margin-left:60vh !important;
+                 width: 100vw !important;
+                }
+
+                #slogan{
+                    position: absolute;
+                    padding: 2% 5% 2% 20% !important;
+                    margin-top:-5vh !important;
+                    margin-left:2vw !important;
+                    background-color: #ffffff9d;
+                    color:#0d494b !important;
+                    font-size:1.7rem !important;
+                    width:100vw !important;
+                   }
+   
+                   #logo{
+                       margin-top:15vh;
+                   }
+        
+                   p{
+                    margin-left:30vw!important;
+                    width:60vw !important;
+                   }
+        
+                   h3{
+                    margin-left:20vw !important;
+                   }
+footer{
+margin-top: 70%;
+height:100px;
+background-color: #515252;
+color:#d8d8d8;
+}
+
+.footerLink{
+padding:0% 3% 2% 0% !important;
+
+}
+
+#footerContentLeft{
+margin-left:20% !important;
+}
+
+#footerContentRight{margin-left:20% !important;
+}
+
+#footerLogo{
+    margin-top:5%;
+margin-left:19% !important;
+font-size:2rem !important;
+width:100%;
+color:#dbdbdb ;
+}
 
     }
-  
-    .footertitle{
-      position: absolute;
-      margin-top:6vh;
-      margin-left:40vw;
-      font-family: 'Allura', cursive;
-      font-size: 4rem;
-      font-weight: lighter;
-      color:rgb(202, 202, 202);
-  
-    }
-  
-    .footerLink{
+
+    @media screen and (min-width:341px) and (max-width:368px) {
+
+        
+    
      
-      list-style-type: none;
-      text-decoration: none;
-      color:white;
+        .navbar{
+            background-color: #e4e4e441;
+        }
+        .nav-menu {
+            height:47vh;
+            position: fixed;
+            left: -100%;
+            top: 3rem;
+            flex-direction: column;
+            background-color: #fff;
+            width: 100%;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow:
+                0 10px 27px rgba(0, 0, 0, 0.05);
+                z-index:1;
+        }
+    
+        .nav-menu.active {
+            left: 0;
+        }
+
+        .nav-item {
+            margin: 2.5rem 0;
+            
+        }
+    
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+.bar{
+    background-color: #3b3b3b;
+}
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+    
+        .hamburger.active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+    
+        .hamburger.active .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+.nav-logo-mobile{
+    margin-left:39% !important;
+}
+
+.nav-logo-mobile{
+    height: 50vh !important;
+}
+
+#nav-logo-desktop{
+    display:none;
+}
+        #alchBrand{
+            margin-top: -59% !important;
+            margin-left:-9% !important;
+            width:10% !important;
+            height:10% !important;
+           }
+
+        #homeLink{
+            position: absolute;
+            margin-top:-10vh !important;
+            margin-left:-34% !important;
+            color:rgb(90, 90, 90);
+        }
+
+       
+        #aboutLink{
+            position: absolute;
+            margin-top:-10% !important;
+            margin-left:-34% !important;
+            color:rgb(90, 90, 90);
+
+        }
+
+        #bookLink{
+            margin-top:-6vh !important;
+            margin-left:-39%;
+            background-color: #3b3b3b;
+            color:#fff;
+        }
+
+        #contactLink{
+            margin-left:-35%;
+            margin-top:-10%;
+            color:rgb(90, 90, 90);
+        }
+
+        span{
+            color:#475569;
+        }
+    
+
+            #alchDesignLogo{
+                margin-top:-12vh !important;
+            }
+    
+           
+    
+           
+
+             #project{
+                margin-top:25% !important;
+               
+              }
+     
+            .prev, .next {
+                cursor: pointer;
+                position: absolute;
+                top: 20%;
+                width:22px !important;
+                width: auto;
+                margin-top: -22px;
+                padding: 14px;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                background-color: #77777767;
+              }
+              
+            
+              .next {
+               width:14% !important;
+                right: -30vw;
+                border-radius: 3px 0 0 3px;
+                background-color: #77777767;
+                
+              }
+              
+              /* On hover, add a black background color with a little bit see-through */
+              .prev:hover, .next:hover {
+                background-color: rgba(19, 49, 54, 0.8);
+              }
+     
+             #slide1{
+                margin-top:-36%;
+                width:50vh !important;
+                height:44vh;
+                
+            }
+
+
+            #slide2{
+                margin-top:-36%;
+                width:50vh !important;
+                height:44vh;
+            }
+
+            #slide3{
+                margin-top:-36%;
+                width:50vh !important;
+                height:44vh;
+            }
+
+            #slide4{
+                margin-top:-36%;
+                width:50vh !important;
+                height:44vh;
+            }
+
+            #slide5{
+                margin-top:-36%;
+                width:50vh !important;
+                height:44vh;
+            }
+
+            h1{
+                margin-top:50vh !important;
+                 margin-left:3% !important;
+                 font-size: 4.6rem !important;
+                 color:rgb(75, 73, 73) !important;
+                 
+             }
+
+             #about{
+                margin-top:100% !important;
+                margin-left: 15% !important;
+               color: #888181;
+               }
+             
+             #project{
+                
+                 margin-top:6%;
+                 width:70vw;
+                 height:70vh;
+                 z-index:-1;
+             }
+             
+             
+             
+             
+                #alchDesignLogo{
+                 display:none !important;
+                 margin-top:-20vh !important;
+                 width:120vw !important;
+                 height: 30vh !important;
+                }
+                 
+                
+     
+                .service{
+                 width:30vw !important;
+                }
+     
+                #slogan{
+                 position: absolute;
+                 padding: 2% 5% 2% 20% !important;
+                 margin-top:13vh !important;
+                 margin-left:8vw !important;
+                 background-color: #ffffff9d;
+                 color:#0d494b !important;
+                 font-size:1.4rem !important;
+                 width:100vw !important;
+                }
+
+                #logo{
+                    margin-top:15vh;
+                }
+     
+                p{
+                 margin-left:30vw!important;
+                 width:60vw !important;
+                }
+     
+                h3{
+                 margin-left:20vw !important;
+                }
+     
+               
+
+                #aboutContent{
+                   margin-top:-80% !important;
+                    margin-left:-4vw !important;
+                    width:96% !important;
+                }
+               
+
+                #pricingContent{
+                    margin-top:15vh;
+                    margin-left:-17vw;
+                    display:flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    
+                    color:#535353;
+                }
+
+                #pricingHeader{
+                    margin-top:-20%;
+                    margin-left:35vw !important;
+                    font-size:4rem !important;
+                   
+                }
+
+                #listItemOne{
+                    position: absolute;
+                    margin-top:2vh;
+                    margin-left:33vw;
+                    font-weight: bolder;
+                     
+                }
+
+            #itemOne{
+                position: absolute;
+                margin-top:6vh;
+                margin-left:16vw !important;
+                width:80% !important;
+            }
+
+            #listItemTwo{
+                position: absolute;
+                margin-top:26vh !important;
+                margin-left:34vw;
+                font-weight: bolder;
+                 
+            }
+
+        #itemTwo{
+            position: absolute;
+            margin-top:30vh;
+            margin-left:12vw !important;
+            width:80% !important;
+        }
+            .addInfo{
+                margin-top: 44vh !important;
+                margin-left:5% !important;
+                width:100% !important;
+                color:#555555;
+                font-size:2rem !important;
+            }
+                  
+            #newLogo{
+                position: absolute;
+                margin-top:-20vh !important;
+                margin-left:20vw !important;
+                width:60vw !important;
+                height:30vh !important;
+            }
+
+            #mission{
+                margin-top:7%;
+                margin-left:9% !important;
+                width:90% !important
+            }
+     
+            #slogan{
+                margin-top:24vh !important;
+                margin-left:1vw !important;
+                font-size:2rem !important;
+            }
+                .sectionContent{
+               margin-top:-38% !important;
+                margin-left:-14% !important;
+                 width:96vw !important;
+                 color:#312f2f;
+                }
+     
+                .service{
+                    margin-left:60vh !important;
+                 width: 100vw !important;
+                }
+footer{
+margin-top: 150%;
+height:100px;
+background-color: #515252;
+font-size:17px;
+color:#d8d8d8;
+}
+
+.footerLink{
+padding:0% 3% 2% 0% !important;
+
+}
+
+#footerContentLeft{
+margin-left:22% !important;
+}
+
+#footerContentRight{margin-left:20% !important;
+}
+
+#footerLogo{
+    margin-top:5%;
+margin-left:14% !important;
+font-size:2.7rem !important;
+width:100%;
+color:#dbdbdb ;
+}
+
     }
-  
-    .class1{
-      position:absolute;
-      margin-top:4vh;
-      margin-left:20vw;
+
+    @media screen  and (min-width:369px) and (max-width:379px){
+        body{
+            background-color: #0d494b;
+        }
+   
+        .navbar{
+            background-color: #e4e4e441;
+        }
+        .nav-menu {
+            height:47vh;
+            position: fixed;
+            left: -100%;
+            top: 3rem;
+            flex-direction: column;
+            background-color: #fff;
+            width: 100%;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow:
+                0 10px 27px rgba(0, 0, 0, 0.05);
+                z-index:1;
+        }
+    
+        .nav-menu.active {
+            left: 0;
+        }
+
+        .nav-item {
+            margin: 2.5rem 0;
+            
+        }
+    
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+.bar{
+    background-color: #3b3b3b;
+}
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+    
+        .hamburger.active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+    
+        .hamburger.active .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+.nav-logo-mobile{
+    margin-left:39% !important;
+}
+
+.nav-logo-mobile{
+    height: 50vh !important;
+}
+
+#nav-logo-desktop{
+    display:none;
+}
+        #alchBrand{
+            margin-top: -59% !important;
+            margin-left:-9% !important;
+            width:10% !important;
+            height:10% !important;
+           }
+
+        #homeLink{
+            position: absolute;
+            margin-top:-13vh !important;
+            margin-left:-33% !important;
+            color:rgb(90, 90, 90);
+        }
+
+       
+        #aboutLink{
+            position: absolute;
+            margin-top:-11% !important;
+            margin-left:-33% !important;
+            color:rgb(90, 90, 90);
+
+        }
+
+        #bookLink{
+            margin-top:-12vh !important;
+            margin-left:-38%;
+            background-color: #3b3b3b;
+            color:#fff;
+        }
+
+        #contactLink{
+            margin-left:-33%;
+            margin-top:-10%;
+            color:rgb(90, 90, 90);
+        }
+
+        span{
+            color:#475569;
+        }
+    
+
+            #alchDesignLogo{
+                margin-top:-12vh !important;
+            }
+    
+           
+    
+           
+
+             #project{
+                margin-top:26% !important;
+                margin-left:1%;
+              }
+     
+            .prev, .next {
+                cursor: pointer;
+                position: absolute;
+                top: 20%;
+                width:22px !important;
+                width: auto;
+                margin-top: -22px;
+                padding: 14px;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                background-color: #77777767;
+              }
+              
+            
+              .next {
+                margin-top:-8% !important;
+               width:14% !important;
+                right: -30vw;
+                border-radius: 3px 0 0 3px;
+                background-color: #77777767;
+                
+              }
+              
+              /* On hover, add a black background color with a little bit see-through */
+              .prev:hover, .next:hover {
+                background-color: rgba(19, 49, 54, 0.8);
+              }
+     
+             #slide1{
+                margin-top:-36%;
+                width:57vh !important;
+                height:45vh !important;
+                
+            }
+
+
+            #slide2{
+                margin-top:-36%;
+                width:57vh !important;
+                height:45vh;
+            }
+
+            #slide3{
+                margin-top:-36%;
+                width:57vh !important;
+                height:45vh;
+            }
+
+            #slide4{
+                margin-top:-36%;
+                width:57vh !important;
+                height:45vh;
+            }
+
+            #slide5{
+                margin-top:-36%;
+                width:57vh !important;
+                height:45vh;
+            }
+
+            h1{
+                margin-top:45vh !important;
+                 margin-left:9% !important;
+                 font-size: 4.5rem !important;
+                 color:rgb(75, 73, 73) !important;
+                 
+             }
+
+             #about{
+                margin-top:100% !important;
+                margin-left: 15% !important;
+               color: #101010;
+               }
+             
+             #project{
+                
+                 margin-top:6%;
+                 width:70vw;
+                 height:70vh;
+                 z-index:-1;
+             }
+             
+             
+             
+             
+                #alchDesignLogo{
+                 display:none !important;
+                 margin-top:-20vh !important;
+                 width:120vw !important;
+                 height: 30vh !important;
+                }
+                 
+                
+     
+                .service{
+                 width:30vw !important;
+                }
+     
+                #slogan{
+                 position: absolute;
+                 padding: 2% 5% 2% 20% !important;
+                 margin-top:13vh !important;
+                 margin-left:8vw !important;
+                 background-color: #ffffff9d;
+                 color:#0d494b !important;
+                 font-size:1.4rem !important;
+                 width:100vw !important;
+                }
+
+                #logo{
+                    margin-top:15vh;
+                }
+     
+                p{
+                 margin-left:30vw!important;
+                 width:60vw !important;
+                }
+     
+                h3{
+                 margin-left:20vw !important;
+                }
+     
+                
+
+                #aboutContent{
+                   margin-top:-80% !important;
+                    margin-left:-4vw !important;
+                    width:96% !important;
+                }
+               
+
+                #pricingContent{
+                    margin-top:5vh;
+                    margin-left:-17vw;
+                    display:flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    
+                    color:#535353;
+                }
+
+                #pricingHeader{
+                    margin-top:-4%;
+                    margin-left:35vw !important;
+                    font-size:4rem !important;
+                }
+
+                #listItemOne{
+                    position: absolute;
+                    margin-top:2vh;
+                    margin-left:33vw;
+                    font-weight: bolder;
+                     
+                }
+
+            #itemOne{
+                position: absolute;
+                margin-top:6vh;
+                margin-left:16vw !important;
+                width:80% !important;
+            }
+
+            #listItemTwo{
+                position: absolute;
+                margin-top:24vh !important;
+                margin-left:32vw;
+                font-weight: bolder;
+                 
+            }
+
+        #itemTwo{
+            position: absolute;
+            margin-top:30vh;
+            margin-left:15vw !important;
+            width:80% !important;
+        }
+            .addInfo{
+                margin-top: 43vh !important;
+                margin-left:16% !important;
+                width:100% !important;
+                color:#101010;
+                font-size:1.5rem !important;
+            }
+                  
+            #newLogo{
+                position: absolute;
+                margin-top:-27vh !important;
+                margin-left:20vw !important;
+                width:60vw !important;
+                height:30vh !important;
+            }
+
+            #mission{
+                margin-top:2%;
+                margin-left:9% !important;
+                width:90% !important
+            }
+     
+            #slogan{
+                margin-top:15vh !important;
+                margin-left:1vw !important;
+                font-size:2rem !important;
+            }
+                .sectionContent{
+               margin-top:-38% !important;
+                margin-left:-14% !important;
+                 width:96vw !important;
+                 color:#312f2f;
+                }
+     
+                .service{
+                    margin-left:60vh !important;
+                 width: 100vw !important;
+                }
+footer{
+margin-top: 130%;
+height:200px;
+background-color: #515252;
+font-size:17px;
+color:#d8d8d8;
+}
+
+.footerLink{
+padding:0% 3% 2% 0% !important;
+
+}
+
+#footerContentLeft{
+margin-left:22% !important;
+}
+
+#footerContentRight{margin-left:20% !important;
+}
+
+#footerLogo{
+    margin-top:5%;
+margin-left:14% !important;
+font-size:2.7rem !important;
+width:100%;
+color:#dbdbdb ;
+}
     }
-  
-   .class2{
-      position: absolute;
-      margin-top:4vh;
-      margin-left:65vw;
+
+    @media screen and (min-width:380px) and (max-width:399px){
+
+
+        .navbar{
+            background-color: #e4e4e441;
+        }
+        .nav-menu {
+            height:43vh;
+            position: fixed;
+            left: -100%;
+            top: 3rem;
+            flex-direction: column;
+            background-color: #fff;
+            width: 100%;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow:
+                0 10px 27px rgba(0, 0, 0, 0.05);
+                z-index:1;
+        }
+    
+        .nav-menu.active {
+            left: 0;
+        }
+
+        .nav-item {
+            margin: 2.5rem 0;
+            
+        }
+    
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+.bar{
+    background-color: #3b3b3b;
+}
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+    
+        .hamburger.active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+    
+        .hamburger.active .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+.nav-logo-mobile{
+    margin-left:39% !important;
+}
+
+.nav-logo-mobile{
+    height: 50vh !important;
+}
+
+#nav-logo-desktop{
+    display:none;
+}
+        #alchBrand{
+            margin-top: -59% !important;
+            margin-left:-9% !important;
+            width:10% !important;
+            height:10% !important;
+           }
+
+        #homeLink{
+            position: absolute;
+            margin-top:-10vh !important;
+            margin-left:-36% !important;
+            color:rgb(90, 90, 90);
+        }
+
+       
+        #aboutLink{
+            position: absolute;
+            margin-top:-9% !important;
+            margin-left:-36% !important;
+            color:rgb(90, 90, 90);
+
+        }
+
+        #bookLink{
+            margin-top:-5vh !important;
+            margin-left:-40%;
+            background-color: #3b3b3b;
+            color:#fff;
+        }
+
+        #contactLink{
+            margin-left:-36%;
+            margin-top:-7%;
+            color:rgb(90, 90, 90);
+        }
+
+        span{
+            color:#475569;
+        }
+    
+
+            #alchDesignLogo{
+                margin-top:-12vh !important;
+            }
+    
+           
+    
+           
+
+             #project{
+                margin-top:25% !important;
+                
+              }
+     
+            .prev, .next {
+                cursor: pointer;
+                position: absolute;
+                top: 20%;
+                width:22px !important;
+                width: auto;
+                margin-top: -22px;
+                padding: 14px;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                background-color: #77777767;
+              }
+              
+            
+              .next {
+               width:14% !important;
+                right: -30vw;
+                border-radius: 3px 0 0 3px;
+                background-color: #77777767;
+                
+              }
+              
+              /* On hover, add a black background color with a little bit see-through */
+              .prev:hover, .next:hover {
+                background-color: rgba(19, 49, 54, 0.8);
+              }
+     
+             #slide1{
+                margin-top:-36%;
+                width:53vh !important;
+                height:44vh;
+            }
+
+
+            #slide2{
+                margin-top:-36%;
+                width:53vh !important;
+                height:44vh;
+            }
+
+            #slide3{
+                margin-top:-36%;
+                width:53vh !important;
+                height:44vh;
+            }
+
+            #slide4{
+                margin-top:-36%;
+                width:53vh !important;
+                height:44vh;
+            }
+
+            #slide5{
+                margin-top:-36%;
+                width:53vh !important;
+                height:44vh;
+            }
+
+            h1{
+                margin-top:48vh !important;
+                 margin-left:14% !important;
+                 font-size: 4rem !important;
+                 color:rgb(75, 73, 73) !important;
+                 
+             }
+
+             #about{
+                margin-top:93% !important;
+                margin-left: 13% !important;
+               color: #101010;
+               }
+             
+             #project{
+                
+                 margin-top:6%;
+                 width:70vw;
+                 height:70vh;
+                 z-index:-1;
+             }
+             
+             
+             
+             
+                #alchDesignLogo{
+                 display:none !important;
+                 margin-top:-20vh !important;
+                 width:120vw !important;
+                 height: 30vh !important;
+                }
+                 
+                
+     
+                .service{
+                 width:30vw !important;
+                }
+     
+                #slogan{
+                 position: absolute;
+                 padding: 2% 5% 2% 20% !important;
+                 margin-top:13vh !important;
+                 margin-left:8vw !important;
+                 background-color: #ffffff9d;
+                 color:#0d494b !important;
+                 font-size:1.4rem !important;
+                 width:100vw !important;
+                }
+
+                #logo{
+                    margin-top:15vh;
+                }
+     
+                p{
+                 margin-left:30vw!important;
+                 width:60vw !important;
+                }
+     
+                h3{
+                 margin-left:20vw !important;
+                }
+     
+               
+
+                #aboutContent{
+                   margin-top:-80% !important;
+                    margin-left:-4vw !important;
+                    width:96% !important;
+                }
+               
+
+                #pricingContent{
+                    margin-top:5vh;
+                    margin-left:-17vw;
+                    display:flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    
+                    color:#535353;
+                }
+
+                #pricingHeader{
+                    margin-left:35vw !important;
+                    font-size:4rem !important;
+                }
+
+                #listItemOne{
+                    position: absolute;
+                    margin-top:2vh;
+                    margin-left:35vw;
+                    font-weight: bolder;
+                     
+                }
+
+            #itemOne{
+                position: absolute;
+                margin-top:6vh;
+                margin-left:16vw !important;
+                width:80% !important;
+            }
+
+            #listItemTwo{
+                position: absolute;
+                margin-top:25vh !important;
+                margin-left:37vw;
+                font-weight: bolder;
+                 
+            }
+
+        #itemTwo{
+            position: absolute;
+            margin-top:29vh;
+            margin-left:15vw !important;
+            width:80% !important;
+        }
+            .addInfo{
+                margin-top: 43vh !important;
+                margin-left:17% !important;
+                width:100% !important;
+                color:#101010;
+                font-size:1.8rem !important;
+            }
+                  
+            #newLogo{
+                position: absolute;
+                margin-top:-20vh !important;
+                margin-left:17vw !important;
+                width:70vw !important;
+                height:36vh !important;
+            }
+
+            #mission{
+                margin-top:6% !important;
+                margin-left:9% !important;
+                width:90% !important;
+            }
+     
+            #slogan{
+                margin-top:22vh !important;
+                margin-left:-5vw !important;
+                font-size:2.4rem !important;
+                width:100% !important;
+                background-color: #ffffff00;
+            }
+                .sectionContent{
+               margin-top:-38% !important;
+                margin-left:-14% !important;
+                 width:96vw !important;
+                 color:#312f2f;
+                }
+     
+                .service{
+                    margin-left:60vh !important;
+                 width: 100vw !important;
+                }
+footer{
+margin-top: 130%;
+height:200px;
+background-color: #515252;
+font-size:17px;
+color:#d8d8d8;
+}
+
+.footerLink{
+padding:0% 3% 2% 0% !important;
+
+}
+
+#footerContentLeft{
+margin-left:15% !important;
+font-size:24px;
+}
+
+#footerContentRight{margin-left:20% !important;
+}
+
+#footerLogo{
+    margin-top:5%;
+margin-left:10% !important;
+font-size:3.4rem !important;
+width:100%;
+color:#dbdbdb ;
+}
+
+    }
+@media screen and (min-width:400px) and (max-width:449px){
+   
+    .navbar{
+        background-color: #e4e4e441;
+    }
+    .nav-menu {
+        height:46vh;
+        position: fixed;
+        left: -100%;
+        top: 3rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+            z-index:1;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+        
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+.bar{
+background-color: #3b3b3b;
+}
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+.nav-logo-mobile{
+margin-left:39% !important;
+}
+
+.nav-logo-mobile{
+height: 50vh !important;
+}
+
+#nav-logo-desktop{
+display:none;
+}
+    #alchBrand{
+        margin-top: -59% !important;
+        margin-left:-9% !important;
+        width:10% !important;
+        height:10% !important;
+       }
+
+    #homeLink{
+        position: absolute;
+        margin-top:-10vh !important;
+        margin-left:-34% !important;
+        color:rgb(90, 90, 90);
+    }
+
+   
+    #aboutLink{
+        position: absolute;
+        margin-top:-9% !important;
+        margin-left:-34% !important;
+        color:rgb(90, 90, 90);
+
+    }
+
+    #bookLink{
+        margin-top:-6vh !important;
+        margin-left:-39%;
+        background-color: #3b3b3b;
+        color:#fff;
+    }
+
+    #contactLink{
+        margin-left:-34%;
+        margin-top:-9%;
+        color:rgb(90, 90, 90);
+    }
+
+    span{
+        color:#475569;
+    }
+
+
+        #alchDesignLogo{
+            margin-top:-12vh !important;
+        }
+
+       
+
+       
+
+         #project{
+            margin-top:1% !important;
+          }
+ 
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width:22px !important;
+            width: auto;
+            margin-top: -22px;
+            padding: 14px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            background-color: #77777767;
+          }
+          
+        
+          .next {
+           width:14% !important;
+            right: -30vw;
+            border-radius: 3px 0 0 3px;
+            background-color: #77777767;
+            
+          }
+          
+          /* On hover, add a black background color with a little bit see-through */
+          .prev:hover, .next:hover {
+            background-color: rgba(19, 49, 54, 0.8);
+          }
+ 
+         #slide1{
+            width:50vh !important;
+            height:42vh;
+            
+        }
+
+
+        #slide2{
+            width:50vh !important;
+            height:42vh;
+            
+        }
+
+        #slide3{
+            width:50vh !important;
+            height:42vh;
+        }
+
+        #slide4{
+            width:50vh !important;
+            height:42vh;
+        }
+
+        #slide5{
+            width:50vh !important;
+            height:42vh;
+        }
+
+        h1{
+            margin-top:50vh !important;
+             margin-left:8% !important;
+             font-size: 5rem !important;
+             color:rgb(75, 73, 73) !important;
+             
+         }
+
+         #about{
+            margin-top:95% !important;
+            margin-left: 15% !important;
+           color: #101010;
+           }
+         
+         #project{
+            
+             margin-top:6%;
+             width:70vw;
+             height:70vh;
+             z-index:-1;
+         }
+         
+         
+         
+         
+            #alchDesignLogo{
+             display:none !important;
+             margin-top:-20vh !important;
+             width:120vw !important;
+             height: 30vh !important;
+            }
+             
+            
+ 
+            .service{
+             width:30vw !important;
+            }
+ 
+            #slogan{
+             position: absolute;
+             padding: 2% 5% 2% 20% !important;
+             margin-top:13vh !important;
+             margin-left:8vw !important;
+             background-color: #ffffff9d;
+             color:#0d494b !important;
+             font-size:1.4rem !important;
+             width:100vw !important;
+            }
+
+            #logo{
+                margin-top:15vh;
+            }
+ 
+            p{
+             margin-left:30vw!important;
+             width:60vw !important;
+            }
+ 
+            h3{
+             margin-left:20vw !important;
+            }
+ 
+          
+
+            #aboutContent{
+               margin-top:-80% !important;
+                margin-left:-4vw !important;
+                width:96% !important;
+            }
+           
+
+            #pricingContent{
+                margin-top:5vh;
+                margin-left:-17vw;
+                display:flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                
+                color:#535353;
+            }
+
+            #pricingHeader{
+                margin-left:35vw !important;
+                font-size:4rem !important;
+            }
+
+            #listItemOne{
+                position: absolute;
+                margin-top:2vh;
+                margin-left:33vw;
+                font-weight: bolder;
+                 
+            }
+
+        #itemOne{
+            position: absolute;
+            margin-top:6vh;
+            margin-left:16vw !important;
+            width:80% !important;
+        }
+
+        #listItemTwo{
+            position: absolute;
+            margin-top:25vh !important;
+            margin-left:36vw;
+            font-weight: bolder;
+             
+        }
+
+    #itemTwo{
+        position: absolute;
+        margin-top:29vh;
+        margin-left:15vw !important;
+        width:80% !important;
+    }
+        .addInfo{
+            margin-top: 45vh !important;
+            margin-left:14% !important;
+            width:100% !important;
+            color:#101010;
+            font-size:2rem !important;
+        }
+              
+        #newLogo{
+            position: absolute;
+            margin-top:-27vh !important;
+            margin-left:10vw !important;
+            width:80vw !important;
+            height:40vh !important;
+        }
+
+        #mission{
+            margin-top:6% !important;
+            margin-left:9% !important;
+            width:90% !important
+        }
+ 
+        #slogan{
+            margin-top:12vh !important;
+            margin-left:-5% !important;
+            width:100% !important;
+            font-size:2.4rem !important;
+        }
+            .sectionContent{
+           margin-top:-38% !important;
+            margin-left:-14% !important;
+             width:96vw !important;
+             color:#312f2f;
+            }
+ 
+            .service{
+                margin-left:60vh !important;
+             width: 100vw !important;
+            }
+footer{
+margin-top: 140%;
+height:220px;
+background-color: #515252;
+font-size:17px;
+color:#d8d8d8;
+}
+
+.footerLink{
+padding:0% 3% 2% 0% !important;
+
+}
+
+#footerContentLeft{
+margin-left:16% !important;
+font-size:1.5rem
+}
+
+#footerContentRight{margin-left:20% !important;
+}
+
+#footerLogo{
+margin-top:5%;
+margin-left:4% !important;
+font-size:4rem !important;
+width:100%;
+color:#dbdbdb ;
+}
+}
+
+@media screen  and (min-width:450px) and (max-width:458px){
+
+    body{
+        background-color: #2e2e2e;
+    }
+    .navbar{
+        background-color: #e4e4e441;
+    }
+    .nav-menu {
+        height:37vh;
+        position: fixed;
+        left: -100%;
+        top: 3rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+            z-index:1;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+        
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+.bar{
+background-color: #3b3b3b;
+}
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+.nav-logo-mobile{
+margin-left:39% !important;
+}
+
+.nav-logo-mobile{
+height: 50vh !important;
+}
+
+#nav-logo-desktop{
+display:none;
+}
+    #alchBrand{
+        margin-top: -59% !important;
+        margin-left:-9% !important;
+        width:10% !important;
+        height:10% !important;
+       }
+
+    #homeLink{
+        position: absolute;
+        margin-top:-10vh !important;
+        margin-left:-12% !important;
+        color:rgb(90, 90, 90);
+    }
+
+   
+    #aboutLink{
+        position: absolute;
+        margin-top:-20% !important;
+        margin-left:-12vw !important;
+        color:rgb(90, 90, 90);
+
+    }
+
+    #bookLink{
+        margin-top:-6vh !important;
+        margin-left:-25%;
+        background-color: #3b3b3b;
+        color:#fff;
+    }
+
+    #contactLink{
+        margin-left:-15%;
+        margin-top:-16%;
+        color:rgb(90, 90, 90);
+    }
+
+    span{
+        color:#475569;
+    }
+
+
+        #alchDesignLogo{
+            margin-top:-12vh !important;
+        }
+
+       
+
+       
+
+         #project{
+            margin-top:1% !important;
+          }
+ 
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width:22px !important;
+            width: auto;
+            margin-top: -22px;
+            padding: 14px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            background-color: #77777767;
+          }
+          
+        
+          .next {
+           width:14% !important;
+            right: -30vw;
+            border-radius: 3px 0 0 3px;
+            background-color: #77777767;
+            
+          }
+          
+          /* On hover, add a black background color with a little bit see-through */
+          .prev:hover, .next:hover {
+            background-color: rgba(19, 49, 54, 0.8);
+          }
+ 
+         #slide1{
+            width:50vh !important;
+            height:38vh;
+            
+        }
+
+
+        #slide2{
+            width:50vh !important;
+            height:38vh;
+            
+        }
+
+        #slide3{
+            width:50vh !important;
+            height:38vh;
+            
+        }
+
+        #slide4{
+            width:50vh !important;
+            height:38vh;
+            
+        }
+
+        #slide5{
+            width:50vh !important;
+            height:38vh;
+            
+        }
+
+        h1{
+            margin-top:39vh !important;
+             margin-left:17% !important;
+             font-size: 4rem !important;
+             color:rgb(75, 73, 73) !important;
+             
+         }
+         
+         #project{
+            
+             margin-top:6%;
+             width:70vw;
+             height:70vh;
+             z-index:-1;
+         }
+         
+         
+         
+         
+            #alchDesignLogo{
+             display:none !important;
+             margin-top:-20vh !important;
+             width:120vw !important;
+             height: 30vh !important;
+            }
+             
+            
+ 
+            .service{
+             width:30vw !important;
+            }
+ 
+            #slogan{
+             position: absolute;
+             padding: 2% 5% 2% 20% !important;
+             margin-top:13vh !important;
+             margin-left:8vw !important;
+             background-color: #ffffff9d;
+             color:#0d494b !important;
+             font-size:1.4rem !important;
+             width:100vw !important;
+            }
+
+            #logo{
+                margin-top:15vh;
+            }
+ 
+            p{
+             margin-left:30vw!important;
+             width:60vw !important;
+            }
+ 
+            h3{
+             margin-left:20vw !important;
+            }
+ 
+            #about{
+             margin-top:53% !important;
+             margin-left: 13% !important;
+            color: #101010;
+            }
+
+            #aboutContent{
+               margin-top:-80% !important;
+                margin-left:-4vw !important;
+                width:96% !important;
+            }
+           
+
+            #pricingContent{
+                margin-top:5vh;
+                margin-left:-17vw;
+                display:flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                
+                color:#535353;
+            }
+
+            #pricingHeader{
+                margin-left:35vw !important;
+                font-size:4rem !important;
+            }
+
+            #listItemOne{
+                position: absolute;
+                margin-top:2vh;
+                margin-left:33vw;
+                font-weight: bolder;
+                 
+            }
+
+        #itemOne{
+            position: absolute;
+            margin-top:6vh;
+            margin-left:12vw !important;
+            width:80% !important;
+        }
+
+        #listItemTwo{
+            position: absolute;
+            margin-top:25vh !important;
+            margin-left:34vw;
+            font-weight: bolder;
+             
+        }
+
+    #itemTwo{
+        position: absolute;
+        margin-top:30vh;
+        margin-left:13vw !important;
+        width:80% !important;
+    }
+        .addInfo{
+            margin-top: 45vh !important;
+            margin-left:17% !important;
+            width:100% !important;
+            color:#101010;
+            font-size:1.8rem !important;
+        }
+              
+        #newLogo{
+            position: absolute;
+            margin-top:-24vh !important;
+            margin-left:20vw !important;
+            width:60vw !important;
+            height:20vh !important;
+        }
+
+        #mission{
+            margin-top:6% !important;
+            margin-left:9% !important;
+            width:90% !important
+        }
+ 
+        #slogan{
+            margin-top:3vh !important;
+            margin-left:1vw !important;
+            font-size:2rem !important;
+        }
+            .sectionContent{
+           margin-top:-38% !important;
+            margin-left:-14% !important;
+             width:96vw !important;
+             color:#312f2f;
+            }
+ 
+            .service{
+                margin-left:60vh !important;
+             width: 100vw !important;
+            }
+footer{
+margin-top: 70%;
+height:100px;
+background-color: #515252;
+font-size:17px;
+color:#d8d8d8;
+}
+
+.footerLink{
+padding:0% 3% 2% 0% !important;
+
+}
+
+#footerContentLeft{
+margin-left:27% !important;
+}
+
+#footerContentRight{margin-left:20% !important;
+}
+
+#footerLogo{
+margin-top:5%;
+margin-left:17% !important;
+font-size:2.7rem !important;
+width:100%;
+color:#dbdbdb ;
+}
+}
+
+
+@media screen  and (min-width:458px) and (max-width:480px){
+
+    body{
+        background-color: #9c1313;
+    }
+    .navbar{
+        background-color: #e4e4e441;
+    }
+    .nav-menu {
+        height:37vh;
+        position: fixed;
+        left: -100%;
+        top: 3rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+            z-index:1;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+        
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+.bar{
+background-color: #3b3b3b;
+}
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+.nav-logo-mobile{
+margin-left:39% !important;
+}
+
+.nav-logo-mobile{
+height: 50vh !important;
+}
+
+#nav-logo-desktop{
+display:none;
+}
+    #alchBrand{
+        margin-top: -59% !important;
+        margin-left:-9% !important;
+        width:10% !important;
+        height:10% !important;
+       }
+
+    #homeLink{
+        position: absolute;
+        margin-top:-10vh !important;
+        margin-left:-12% !important;
+        color:rgb(90, 90, 90);
+    }
+
+   
+    #aboutLink{
+        position: absolute;
+        margin-top:-20% !important;
+        margin-left:-12vw !important;
+        color:rgb(90, 90, 90);
+
+    }
+
+    #bookLink{
+        margin-top:-6vh !important;
+        margin-left:-25%;
+        background-color: #3b3b3b;
+        color:#fff;
+    }
+
+    #contactLink{
+        margin-left:-15%;
+        margin-top:-16%;
+        color:rgb(90, 90, 90);
+    }
+
+    span{
+        color:#475569;
+    }
+
+
+        #alchDesignLogo{
+            margin-top:-12vh !important;
+        }
+
+       
+
+       
+
+         #project{
+            margin-top:1% !important;
+          }
+ 
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width:22px !important;
+            width: auto;
+            margin-top: -22px;
+            padding: 14px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            background-color: #77777767;
+          }
+          
+        
+          .next {
+           width:14% !important;
+            right: -30vw;
+            border-radius: 3px 0 0 3px;
+            background-color: #77777767;
+            
+          }
+          
+          /* On hover, add a black background color with a little bit see-through */
+          .prev:hover, .next:hover {
+            background-color: rgba(19, 49, 54, 0.8);
+          }
+ 
+         #slide1{
+            width:51vh !important;
+            height:36vh;
+            
+            
+        }
+
+
+        #slide2{
+            width:51vh !important;
+            height:36vh;
+            
+        }
+
+        #slide3{
+            width:51vh !important;
+            height:36vh;
+            
+        }
+
+        #slide4{
+            width:51vh !important;
+            height:36vh;
+            
+        }
+
+        #slide5{
+            width:51vh !important;
+            height:36vh;
+            
+        }
+
+        h1{
+            margin-top:39vh !important;
+             margin-left:17% !important;
+             font-size: 4rem !important;
+             color:rgb(75, 73, 73) !important;
+             
+         }
+         
+         #project{
+            
+             margin-top:6%;
+             width:70vw;
+             height:70vh;
+             z-index:-1;
+         }
+         
+         
+         
+         
+            #alchDesignLogo{
+             display:none !important;
+             margin-top:-20vh !important;
+             width:120vw !important;
+             height: 30vh !important;
+            }
+             
+            
+ 
+            .service{
+             width:30vw !important;
+            }
+ 
+            #slogan{
+             position: absolute;
+             padding: 2% 5% 2% 20% !important;
+             margin-top:13vh !important;
+             margin-left:8vw !important;
+             background-color: #ffffff9d;
+             color:#0d494b !important;
+             font-size:1.4rem !important;
+             width:100vw !important;
+            }
+
+            #logo{
+                margin-top:15vh;
+            }
+ 
+            p{
+             margin-left:30vw!important;
+             width:60vw !important;
+            }
+ 
+            h3{
+             margin-left:20vw !important;
+            }
+ 
+            #about{
+             margin-top:77% !important;
+             margin-left: 13% !important;
+            color: #101010;
+            }
+
+            #aboutContent{
+               margin-top:-80% !important;
+                margin-left:-4vw !important;
+                width:96% !important;
+            }
+           
+
+            #pricingContent{
+                margin-top:5vh;
+                margin-left:-17vw;
+                display:flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                
+                color:#535353;
+            }
+
+            #pricingHeader{
+                margin-left:35vw !important;
+                font-size:4rem !important;
+            }
+
+            #listItemOne{
+                position: absolute;
+                margin-top:2vh;
+                margin-left:33vw;
+                font-weight: bolder;
+                 
+            }
+
+        #itemOne{
+            position: absolute;
+            margin-top:6vh;
+            margin-left:12vw !important;
+            width:80% !important;
+        }
+
+        #listItemTwo{
+            position: absolute;
+            margin-top:25vh !important;
+            margin-left:34vw;
+            font-weight: bolder;
+             
+        }
+
+    #itemTwo{
+        position: absolute;
+        margin-top:30vh;
+        margin-left:13vw !important;
+        width:80% !important;
+    }
+        .addInfo{
+            margin-top: 45vh !important;
+            margin-left:17% !important;
+            width:100% !important;
+            color:#101010;
+            font-size:1.8rem !important;
+        }
+              
+        #newLogo{
+            position: absolute;
+            margin-top:-24vh !important;
+            margin-left:20vw !important;
+            width:60vw !important;
+            height:20vh !important;
+        }
+
+        #mission{
+            margin-top:6% !important;
+            margin-left:9% !important;
+            width:90% !important
+        }
+ 
+        #slogan{
+            margin-top:3vh !important;
+            margin-left:1vw !important;
+            font-size:2rem !important;
+        }
+            .sectionContent{
+           margin-top:-38% !important;
+            margin-left:-14% !important;
+             width:96vw !important;
+             color:#312f2f;
+            }
+ 
+            .service{
+                margin-left:60vh !important;
+             width: 100vw !important;
+            }
+footer{
+margin-top: 70%;
+height:100px;
+background-color: #515252;
+font-size:17px;
+color:#d8d8d8;
+}
+
+.footerLink{
+padding:0% 3% 2% 0% !important;
+
+}
+
+#footerContentLeft{
+margin-left:27% !important;
+}
+
+#footerContentRight{margin-left:20% !important;
+}
+
+#footerLogo{
+margin-top:5%;
+margin-left:17% !important;
+font-size:2.7rem !important;
+width:100%;
+color:#dbdbdb ;
+}
+}
+
+@media screen  and (min-width:480px) and (max-width:516px){
+
+    body{
+        background-color: #07096d;
+    }
+    .navbar{
+        background-color: #e4e4e441;
+    }
+    .nav-menu {
+        height:37vh;
+        position: fixed;
+        left: -100%;
+        top: 3rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+            z-index:1;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+        
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+.bar{
+background-color: #3b3b3b;
+}
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+.nav-logo-mobile{
+margin-left:39% !important;
+}
+
+.nav-logo-mobile{
+height: 50vh !important;
+}
+
+#nav-logo-desktop{
+display:none;
+}
+    #alchBrand{
+        margin-top: -59% !important;
+        margin-left:-9% !important;
+        width:10% !important;
+        height:10% !important;
+       }
+
+    #homeLink{
+        position: absolute;
+        margin-top:-10vh !important;
+        margin-left:-12% !important;
+        color:rgb(90, 90, 90);
+    }
+
+   
+    #aboutLink{
+        position: absolute;
+        margin-top:-20% !important;
+        margin-left:-12vw !important;
+        color:rgb(90, 90, 90);
+
+    }
+
+    #bookLink{
+        margin-top:-6vh !important;
+        margin-left:-25%;
+        background-color: #3b3b3b;
+        color:#fff;
+    }
+
+    #contactLink{
+        margin-left:-15%;
+        margin-top:-16%;
+        color:rgb(90, 90, 90);
+    }
+
+    span{
+        color:#475569;
+    }
+
+
+        #alchDesignLogo{
+            margin-top:-12vh !important;
+        }
+
+       
+
+       
+
+         #project{
+            margin-top:17% !important;
+          }
+ 
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width:22px !important;
+            width: auto;
+            margin-top: -22px;
+            padding: 14px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            background-color: #77777767;
+          }
+          
+        
+          .next {
+           width:14% !important;
+            right: -30vw;
+            border-radius: 3px 0 0 3px;
+            background-color: #77777767;
+            
+          }
+          
+          /* On hover, add a black background color with a little bit see-through */
+          .prev:hover, .next:hover {
+            background-color: rgba(19, 49, 54, 0.8);
+          }
+ 
+         #slide1{
+            margin-left:2% !important;
+            width:48vh !important;
+            height:27vh;
+            
+        }
+
+
+        #slide2{
+            margin-left:18% !important;
+            width:37vh !important;
+            height:26vh;
+        }
+
+        #slide3{
+            margin-left:25% !important;
+            width:29vh !important;
+            height:25vh;
+        }
+
+        #slide4{
+            margin-left:18% !important;
+            width:37vh !important;
+            height:25vh;
+        }
+
+        #slide5{
+            margin-left:22% !important;
+            width:34vh !important;
+            height:25vh;
+        }
+
+        h1{
+            margin-top:39vh !important;
+             margin-left:17% !important;
+             font-size: 4rem !important;
+             color:rgb(75, 73, 73) !important;
+             
+         }
+         
+         #project{
+            
+             margin-top:6%;
+             width:70vw;
+             height:70vh;
+             z-index:-1;
+         }
+         
+         
+         
+         
+            #alchDesignLogo{
+             display:none !important;
+             margin-top:-20vh !important;
+             width:120vw !important;
+             height: 30vh !important;
+            }
+             
+            
+ 
+            .service{
+             width:30vw !important;
+            }
+ 
+            #slogan{
+             position: absolute;
+             padding: 2% 5% 2% 20% !important;
+             margin-top:13vh !important;
+             margin-left:8vw !important;
+             background-color: #ffffff9d;
+             color:#0d494b !important;
+             font-size:1.4rem !important;
+             width:100vw !important;
+            }
+
+            #logo{
+                margin-top:15vh;
+            }
+ 
+            p{
+             margin-left:30vw!important;
+             width:60vw !important;
+            }
+ 
+            h3{
+             margin-left:20vw !important;
+            }
+ 
+            #about{
+             margin-top:53% !important;
+             margin-left: 13% !important;
+            color: #101010;
+            }
+
+            #aboutContent{
+               margin-top:-80% !important;
+                margin-left:-4vw !important;
+                width:96% !important;
+            }
+           
+
+            #pricingContent{
+                margin-top:5vh;
+                margin-left:-17vw;
+                display:flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                
+                color:#535353;
+            }
+
+            #pricingHeader{
+                margin-left:35vw !important;
+                font-size:4rem !important;
+            }
+
+            #listItemOne{
+                position: absolute;
+                margin-top:2vh;
+                margin-left:33vw;
+                font-weight: bolder;
+                 
+            }
+
+        #itemOne{
+            position: absolute;
+            margin-top:6vh;
+            margin-left:12vw !important;
+            width:80% !important;
+        }
+
+        #listItemTwo{
+            position: absolute;
+            margin-top:25vh !important;
+            margin-left:34vw;
+            font-weight: bolder;
+             
+        }
+
+    #itemTwo{
+        position: absolute;
+        margin-top:30vh;
+        margin-left:13vw !important;
+        width:80% !important;
+    }
+        .addInfo{
+            margin-top: 45vh !important;
+            margin-left:17% !important;
+            width:100% !important;
+            color:#101010;
+            font-size:1.8rem !important;
+        }
+              
+        #newLogo{
+            position: absolute;
+            margin-top:-24vh !important;
+            margin-left:20vw !important;
+            width:60vw !important;
+            height:20vh !important;
+        }
+
+        #mission{
+            margin-top:6% !important;
+            margin-left:9% !important;
+            width:90% !important
+        }
+ 
+        #slogan{
+            margin-top:3vh !important;
+            margin-left:1vw !important;
+            font-size:2rem !important;
+        }
+            .sectionContent{
+           margin-top:-38% !important;
+            margin-left:-14% !important;
+             width:96vw !important;
+             color:#312f2f;
+            }
+ 
+            .service{
+                margin-left:60vh !important;
+             width: 100vw !important;
+            }
+footer{
+margin-top: 70%;
+height:100px;
+background-color: #515252;
+font-size:17px;
+color:#d8d8d8;
+}
+
+.footerLink{
+padding:0% 3% 2% 0% !important;
+
+}
+
+#footerContentLeft{
+margin-left:27% !important;
+}
+
+#footerContentRight{margin-left:20% !important;
+}
+
+#footerLogo{
+margin-top:5%;
+margin-left:17% !important;
+font-size:2.7rem !important;
+width:100%;
+color:#dbdbdb ;
+}
+}
+
+
+
+
+@media screen  and (min-width:517px) and (max-width:560px){
+
+    body{
+        background-color: #cccccc;
+    }
+    .navbar{
+        background-color: #e4e4e441;
+    }
+    .nav-menu {
+        height:37vh;
+        position: fixed;
+        left: -100%;
+        top: 3rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+            z-index:1;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+        
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+.bar{
+background-color: #3b3b3b;
+}
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+.nav-logo-mobile{
+margin-left:39% !important;
+}
+
+.nav-logo-mobile{
+height: 50vh !important;
+}
+
+#nav-logo-desktop{
+display:none;
+}
+    #alchBrand{
+        margin-top: -59% !important;
+        margin-left:-9% !important;
+        width:10% !important;
+        height:10% !important;
+       }
+
+    #homeLink{
+        position: absolute;
+        margin-top:-10vh !important;
+        margin-left:-12% !important;
+        color:rgb(90, 90, 90);
+    }
+
+   
+    #aboutLink{
+        position: absolute;
+        margin-top:-20% !important;
+        margin-left:-12vw !important;
+        color:rgb(90, 90, 90);
+
+    }
+
+    #bookLink{
+        margin-top:-6vh !important;
+        margin-left:-25%;
+        background-color: #3b3b3b;
+        color:#fff;
+    }
+
+    #contactLink{
+        margin-left:-15%;
+        margin-top:-16%;
+        color:rgb(90, 90, 90);
+    }
+
+    span{
+        color:#475569;
+    }
+
+
+        #alchDesignLogo{
+            margin-top:-12vh !important;
+        }
+
+       
+
+       
+
+         #project{
+            margin-top:17% !important;
+          }
+ 
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width:22px !important;
+            width: auto;
+            margin-top: -22px;
+            padding: 14px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            background-color: #77777767;
+          }
+          
+        
+          .next {
+           width:14% !important;
+            right: -30vw;
+            border-radius: 3px 0 0 3px;
+            background-color: #77777767;
+            
+          }
+          
+          /* On hover, add a black background color with a little bit see-through */
+          .prev:hover, .next:hover {
+            background-color: rgba(19, 49, 54, 0.8);
+          }
+ 
+         #slide1{
+            margin-left:2% !important;
+            width:48vh !important;
+            height:27vh;
+            
+        }
+
+
+        #slide2{
+            margin-left:18% !important;
+            width:37vh !important;
+            height:26vh;
+        }
+
+        #slide3{
+            margin-left:25% !important;
+            width:29vh !important;
+            height:25vh;
+        }
+
+        #slide4{
+            margin-left:18% !important;
+            width:37vh !important;
+            height:25vh;
+        }
+
+        #slide5{
+            margin-left:22% !important;
+            width:34vh !important;
+            height:25vh;
+        }
+
+        h1{
+            margin-top:39vh !important;
+             margin-left:17% !important;
+             font-size: 4rem !important;
+             color:rgb(75, 73, 73) !important;
+             
+         }
+         
+         #project{
+            
+             margin-top:6%;
+             width:70vw;
+             height:70vh;
+             z-index:-1;
+         }
+         
+         
+         
+         
+            #alchDesignLogo{
+             display:none !important;
+             margin-top:-20vh !important;
+             width:120vw !important;
+             height: 30vh !important;
+            }
+             
+            
+ 
+            .service{
+             width:30vw !important;
+            }
+ 
+            #slogan{
+             position: absolute;
+             padding: 2% 5% 2% 20% !important;
+             margin-top:13vh !important;
+             margin-left:8vw !important;
+             background-color: #ffffff9d;
+             color:#0d494b !important;
+             font-size:1.4rem !important;
+             width:100vw !important;
+            }
+
+            #logo{
+                margin-top:15vh;
+            }
+ 
+            p{
+             margin-left:30vw!important;
+             width:60vw !important;
+            }
+ 
+            h3{
+             margin-left:20vw !important;
+            }
+ 
+            #about{
+             margin-top:53% !important;
+             margin-left: 13% !important;
+            color: #101010;
+            }
+
+            #aboutContent{
+               margin-top:-80% !important;
+                margin-left:-4vw !important;
+                width:96% !important;
+            }
+           
+
+            #pricingContent{
+                margin-top:5vh;
+                margin-left:-17vw;
+                display:flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                
+                color:#535353;
+            }
+
+            #pricingHeader{
+                margin-left:35vw !important;
+                font-size:4rem !important;
+            }
+
+            #listItemOne{
+                position: absolute;
+                margin-top:2vh;
+                margin-left:33vw;
+                font-weight: bolder;
+                 
+            }
+
+        #itemOne{
+            position: absolute;
+            margin-top:6vh;
+            margin-left:12vw !important;
+            width:80% !important;
+        }
+
+        #listItemTwo{
+            position: absolute;
+            margin-top:25vh !important;
+            margin-left:34vw;
+            font-weight: bolder;
+             
+        }
+
+    #itemTwo{
+        position: absolute;
+        margin-top:30vh;
+        margin-left:13vw !important;
+        width:80% !important;
+    }
+        .addInfo{
+            margin-top: 45vh !important;
+            margin-left:17% !important;
+            width:100% !important;
+            color:#101010;
+            font-size:1.8rem !important;
+        }
+              
+        #newLogo{
+            position: absolute;
+            margin-top:-24vh !important;
+            margin-left:20vw !important;
+            width:60vw !important;
+            height:20vh !important;
+        }
+
+        #mission{
+            margin-top:6% !important;
+            margin-left:9% !important;
+            width:90% !important
+        }
+ 
+        #slogan{
+            margin-top:3vh !important;
+            margin-left:1vw !important;
+            font-size:2rem !important;
+        }
+            .sectionContent{
+           margin-top:-38% !important;
+            margin-left:-14% !important;
+             width:96vw !important;
+             color:#312f2f;
+            }
+ 
+            .service{
+                margin-left:60vh !important;
+             width: 100vw !important;
+            }
+footer{
+margin-top: 70%;
+height:100px;
+background-color: #515252;
+font-size:17px;
+color:#d8d8d8;
+}
+
+.footerLink{
+padding:0% 3% 2% 0% !important;
+
+}
+
+#footerContentLeft{
+margin-left:27% !important;
+}
+
+#footerContentRight{margin-left:20% !important;
+}
+
+#footerLogo{
+margin-top:5%;
+margin-left:17% !important;
+font-size:2.7rem !important;
+width:100%;
+color:#dbdbdb ;
+}
+}
+
+    
+
+h1{
+    position: absolute;
+    margin-top:15%;
+    margin-left:25%;
+   
+    font-family: 'Italianno', cursive;
+    color:rgb(255, 255, 255);
+    font-size:9rem;
+    font-weight: lighter;
+    z-index:1;
+}
+
+.sliderImg{
+    
+    margin-top:-6%;
+    margin-left:31%;
+    width:60vw;
+    height:60vh;
+   z-index:-1;
+}
+
+#project{
+   
+    margin-top:6%;
+    width:70vw;
+    height:100vh;
+    z-index:-1;
+}
+
+.overlay{
+    position: absolute;
+    margin-top:-34%;
+    width:100vw;
+    height:100vh;
+    background-color: rgba(95, 94, 94, 0.541);
+}
+
+.smOverlay{
+    position: absolute;
+    margin-top:-33%;
+    margin-left:5%;
+    z-index:-1;
+    width:90vw;
+    height:70vh;
+    background-color: rgba(51, 50, 50, 0.5);}
+    
+   
+
+   h3{
+    font-family: 'Italianno', cursive;
+    font-weight:lighter;
+    font-size:4rem;
+    color:#363636;
    }
-  
-   .signature{
-      margin-top:7vh;
-      margin-left:42vw;
-    }
-  
-    .iconFooter{
-      margin-top:30vh;
-      margin-left:24vw;
-      width:2vw;
-      height:4vh;
-    }
-  }
+
+   #alchBrand{
+    margin-top:15%;
+   }
+
+   #alchDesignLogo{
+    margin-left:30%;
+   }
+
+   #slogan{
+    margin-top:-22%;
+    margin-left:35%;
+    color:#dbdbdb;
+    text-shadow: #fff 5%;
+   }
+
+#values{
+    margin-top:30%;
+    margin-left:5%;
+    background-color: #475569;
+    width:80%;
+
+}
+h2{
+    margin-top:5%;
+    margin-left:40%;
+    font-family: 'Italianno', cursive;
+    color:#363636;
+    font-size:4rem;
+    font-weight: lighter;
+   }
 
 
