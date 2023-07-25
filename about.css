@@ -6,8 +6,6 @@
     padding:0;
     margin:0;
 }
-
-body{overflow-x:hidden;}
 /*mobile min 178px*/
 
 body{
@@ -191,6 +189,7 @@ li{
 
 
     @media screen and (min-width:50px) and (max-width:208px){
+      
      body{
         background-color: #07096d;
      }
@@ -199,7 +198,7 @@ li{
                 background-color: #e4e4e441;
             }
             .nav-menu {
-                height:37vh;
+                height:45vh;
                 position: fixed;
                 left: -100%;
                 top: 3rem;
@@ -269,22 +268,25 @@ li{
            
             #aboutLink{
                 position: absolute;
-                margin-top:-30% !important;
+                margin-top:-52% !important;
                 margin-left:-16% !important;
                 color:rgb(90, 90, 90);
     
             }
     
             #bookLink{
-                margin-top:-8vh !important;
-                margin-left:-47% !important;
+                margin-top:-10vh !important;
+                margin-left:-49% !important;
                 background-color: #3b3b3b;
                 color:#fff;
             }
     
             #contactLink{
-                margin-left:-16%;
-                margin-top:-20%;
+                margin-left:-56%;
+                margin-top:-50%;width:27vh !important;
+                height:20vh;
+                
+               
                 color:rgb(90, 90, 90);
             }
     
@@ -299,24 +301,16 @@ li{
         
                
         
-                h1{
-                    margin-top:37vh !important;
-                     margin-left:4% !important;
-                     font-size: 2.6rem !important;
-                     width:100% !important;
-                     color:rgb(75, 73, 73) !important;
-                     
-                 }
 
                  #project{
-                    margin-top:43% !important;
+                    margin-top:2% !important;
                     margin-left:-5%;
                   }
          
                 .prev, .next {
                     cursor: pointer;
                     position: absolute;
-                    top: 20%;
+                    top: 50%;
                     width:22px !important;
                     width: auto;
                     margin-top: -40px !important;
@@ -329,54 +323,83 @@ li{
                     user-select: none;
                     background-color: #77777793;
                   }
-                  
+                  .prev{
+                    margin-left:3%;
+                  }
                 
                   .next {
                     
                    width:14% !important;
                    
-                    right: -33vw;
+                    right: -34vw;
                     border-radius: 3px 0 0 3px;
                     background-color: #77777793;
                     
                   }
-                  
+                  #about{
+                    margin-top:-30% !important;
+                    margin-left: 15% !important;
+                   
+                   }
+
                   /* On hover, add a black background color with a little bit see-through */
                   .prev:hover, .next:hover {
                     background-color: rgba(19, 49, 54, 0.8);
                   }
          
                  #slide1{
-                    margin-top:-36%;
-                    width:27vh !important;
-                    height:20vh;
+                   
+                    width:24vh !important;
+                    height:32vh;
                     
                 }
 
 
                 #slide2{
-                    margin-top:-36%;
-                    width:27vh !important;
-                    height:20vh;
+                    
+                    width:24vh !important;
+                    height:32vh;
+                    
+                   
                 }
 
                 #slide3{
-                    margin-top:-36%;
-                    width:27vh !important;
-                    height:20vh;
+                  
+                    width:24vh !important;
+                    height:32vh;
+                    
                 }
 
                 #slide4{
-                    margin-top:-36%;
-                    width:27vh !important;
-                    height:20vh;
+                   
+                    width:24vh !important;
+                    height:32vh;
+                    
                 }
 
                 #slide5{
-                    margin-top:-36%;
-                    width:27vh !important;
-                    height:20vh;
+                   
+                    width:24vh !important;
+                    height:32vh;
+                    
                 }
+
+
+                h1{
+                    margin-top:37vh !important;
+                     margin-left:4% !important;
+                     font-size: 2.6rem !important;
+                     width:100% !important;
+                     color:rgb(75, 73, 73) !important;
+                     
+                 }
+
+                 #about{
+                    margin-top:-9% !important;
+                    margin-left: 15% !important;
+                   
+                   }
+
 
                 .addInfo{
                     margin-top:10% !important;
@@ -437,12 +460,7 @@ li{
                      margin-left:20vw !important;
                     }
          
-                    #about{
-                     margin-top:-30% !important;
-                     margin-left: 15% !important;
-                    
-                    }
-
+                   
                     #aboutContent{
                        margin-top:-80% !important;
                         margin-left:-4vw !important;
@@ -484,7 +502,7 @@ li{
 
                 #listItemTwo{
                     position: absolute;
-                        margin-top:36vh;
+                        margin-top:39vh;
                         margin-left:20vw;
                         font-size: 22px;
                         font-weight: bolder;
@@ -492,18 +510,18 @@ li{
 
             #itemTwo{
                 position: absolute;
-                margin-top:42vh;
+                margin-top:45vh;
                 margin-left:16vw !important;
                 width:90% !important;
             }
                 .addInfo{
-                    margin-top: 60vh !important;
+                    margin-top: 69vh !important;
                     margin-left:13% !important;
                     
                     
                     width:90% !important;
                     color:#444444;
-                    font-size:1rem !important;
+                    font-size:1.2rem !important;
                 }
                      
                 
@@ -512,14 +530,14 @@ li{
                 }
                 #newLogo{
                     position: absolute;
-                    margin-top:-30vh !important;
+                    margin-top:4vh !important;
                     margin-left:17vw !important;
                     width:70vw !important;
                     height:20vh !important;
                 }
          
                 #slogan{
-                    margin-top:-7vh !important;
+                    margin-top:-5vh !important;
                    margin-left:-2% !important;
                     font-size: 1rem !important;
                 }
@@ -535,7 +553,7 @@ li{
                      width: 100vw !important;
                     }
 footer{
-    margin-top: 70%;
+    margin-top: 190%;
     height:130px;
     background-color: #515252;
     color:#d8d8d8;
@@ -567,361 +585,396 @@ footer{
         }
 
     
-        @media screen and (min-width:210px) and (max-width:214px){
-        
+        @media screen and (min-width:209px) and (max-width:220px){
+        body{
+            background-color:#0d494b ;
+        }
       
 
-            .navbar{
-                background-color: #e4e4e441;
-            }
-            .nav-menu {
-                height:37vh;
-                position: fixed;
-                left: -100%;
-                top: 3rem;
-                flex-direction: column;
-                background-color: #ffffff;
-                width: 100%;
-                border-radius: 10px;
-                text-align: center;
-                transition: 0.3s;
-                box-shadow:
-                    0 10px 27px rgba(0, 0, 0, 0.05);
-                    z-index:1;
-            }
-        
-            .nav-menu.active {
-                left: 0;
-            }
+        .navbar{
+            background-color: #e4e4e441;
+        }
+        .nav-menu {
+            height:45vh;
+            position: fixed;
+            left: -100%;
+            top: 3rem;
+            flex-direction: column;
+            background-color: #fff;
+            width: 100%;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow:
+                0 10px 27px rgba(0, 0, 0, 0.05);
+                z-index:1;
+        }
     
-            .nav-item {
-                margin: 2.5rem 0;
-                
-            }
-        
-            .hamburger {
-                display: block;
-                cursor: pointer;
-            }
-    .bar{
-        background-color: #3b3b3b;
-    }
-            .hamburger.active .bar:nth-child(2) {
-                opacity: 0;
-            }
-        
-            .hamburger.active .bar:nth-child(1) {
-                transform: translateY(8px) rotate(45deg);
-            }
-        
-            .hamburger.active .bar:nth-child(3) {
-                transform: translateY(-8px) rotate(-45deg);
-            }
-    .nav-logo-mobile{
-        margin-left:39% !important;
-    }
+        .nav-menu.active {
+            left: 0;
+        }
+
+        .nav-item {
+            margin: 2.5rem 0;
+            
+        }
     
-    .nav-logo-mobile{
-        height: 50vh !important;
-    }
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+.bar{
+    background-color: #3b3b3b;
+}
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+        }
     
-    #nav-logo-desktop{
-        display:none;
-    }
-            #alchBrand{
-                margin-top: -59% !important;
-                margin-left:-9% !important;
-                width:10% !important;
-                height:10% !important;
-               }
+        .hamburger.active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
     
-            #homeLink{
-                position: absolute;
-                margin-top:-10vh !important;
-                margin-left:-15% !important;
-                color:rgb(90, 90, 90);
+        .hamburger.active .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+.nav-logo-mobile{
+    margin-left:39% !important;
+}
+
+.nav-logo-mobile{
+    height: 50vh !important;
+}
+
+#nav-logo-desktop{
+    display:none;
+}
+        #alchBrand{
+            margin-top: -59% !important;
+            margin-left:-9% !important;
+            width:10% !important;
+            height:10% !important;
+           }
+
+        #homeLink{
+            position: absolute;
+            margin-top:-11vh !important;
+            margin-left:-16% !important;
+            color:rgb(90, 90, 90);
+        }
+
+       
+        #aboutLink{
+            position: absolute;
+            margin-top:-52% !important;
+            margin-left:-16% !important;
+            color:rgb(90, 90, 90);
+
+        }
+
+        #bookLink{
+            margin-top:-10vh !important;
+            margin-left:-47% !important;
+            background-color: #3b3b3b;
+            color:#fff;
+        }
+
+        #contactLink{
+            margin-left:-56%;
+            margin-top:-50%;width:27vh !important;
+            height:20vh;
+            
+           
+            color:rgb(90, 90, 90);
+        }
+
+        span{
+            color:#475569;
+        }
+    
+
+            #alchDesignLogo{
+                margin-top:-12vh !important;
             }
     
            
-            #aboutLink{
+    
+
+             #project{
+                margin-top:2% !important;
+                margin-left:-5%;
+              }
+     
+            .prev, .next {
+                cursor: pointer;
                 position: absolute;
-                margin-top:-29% !important;
-                margin-left:-15% !important;
-                color:rgb(90, 90, 90);
-    
-            }
-    
-            #bookLink{
-                margin-top:-5vh !important;
-                margin-left:-46% !important;
-                background-color: #3b3b3b;
-                color:#fff;
-            }
-    
-            #contactLink{
-                margin-left:-15%;
-                margin-top:-20%;
-                color:rgb(90, 90, 90);
-            }
-    
-            span{
-                color:#475569;
-            }
-        
-    
-                #alchDesignLogo{
-                    margin-top:-12vh !important;
-                }
-        
-               
-        
-               
-
-                 #project{
-                    margin-top:7% !important;
-                  }
-         
-                .prev, .next {
-                    cursor: pointer;
-                    position: absolute;
-                    top: 50%;
-                    width:22px !important;
-                    width: auto;
-                    margin-top: -50px;
-                    padding: 14px;
-                    color: white;
-                    font-weight: bold;
-                    font-size: 18px;
-                    transition: 0.6s ease;
-                    border-radius: 0 3px 3px 0;
-                    user-select: none;
-                    background-color: #7777776e;
-                  }
-                  
+                top: 50%;
+                width:22px !important;
+                width: auto;
+                margin-top: -40px !important;
+                padding: 14px;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                background-color: #77777793;
+              }
+              .prev{
+                margin-left:3%;
+              }
+            
+              .next {
                 
-                  .next {
-                   width:14% !important;
-                    right: -28vw;
-                    border-radius: 3px 0 0 3px;
-                    background-color: #7777776e;
-                    
-                  }
-                  
-                  /* On hover, add a black background color with a little bit see-through */
-                  .prev:hover, .next:hover {
-                    background-color: rgba(19, 49, 54, 0.8);
-                  }
-         
-                 #slide1{
-                    width:27vh !important;
-                    height:26vh;
-                    
+               width:14% !important;
+               
+                right: -34vw;
+                border-radius: 3px 0 0 3px;
+                background-color: #77777793;
+                
+              }
+              #about{
+                margin-top:-30% !important;
+                margin-left: 15% !important;
+               
+               }
+
+              /* On hover, add a black background color with a little bit see-through */
+              .prev:hover, .next:hover {
+                background-color: rgba(19, 49, 54, 0.8);
+              }
+     
+             #slide1{
+               
+                width:27vh !important;
+                height:30vh;
+                
+            }
+
+
+            #slide2{
+                width:27vh !important;
+                height:30vh;
+                
+               
+            }
+
+            #slide3{
+                width:27vh !important;
+                height:30vh;
+                
+            }
+
+            #slide4{
+                width:27vh !important;
+                height:30vh;
+                
+            }
+
+            #slide5{
+                width:27vh !important;
+                height:30vh;
+                
+            }
+
+
+            h1{
+                margin-top:33vh !important;
+                 margin-left:4% !important;
+                 font-size: 2.6rem !important;
+                 width:100% !important;
+                 color:rgb(75, 73, 73) !important;
+                 
+             }
+
+             #about{
+                margin-top:-22vh !important;
+                margin-left: 15% !important;
+                color:#312f2f
+               
+               }
+
+
+            .addInfo{
+                margin-top:10% !important;
+                color:#3a1b1b;
+            }
+             
+             #project{
+                
+                 margin-top:6%;
+                 width:70vw;
+                 height:70vh;
+                 z-index:-1;
+             }
+             
+             
+             
+             
+                #alchDesignLogo{
+                 display:none !important;
+                 margin-top:-20vh !important;
+                 width:120vw !important;
+                 height: 30vh !important;
+                }
+                 
+                
+     
+                .service{
+                 width:30vw !important;
                 }
 
-
-                #slide2{
-                    width:27vh !important;
-                    height:26vh;
+                #mission{
+                    margin-left:10% !important;
+                    width:90% !important;
+                font-size:12px !important;
+            color:#424242;}
+     
+                #slogan{
+                 position: absolute;
+                 padding: 2% 5% 2% 20% !important;
+                 margin-top:13vh !important;
+                 margin-left:8vw !important;
+                 background-color: #ffffff9d;
+                 color:#0d494b !important;
+                 font-size:2rem !important;
+                 width:100vw !important;
                 }
 
-                #slide3{
-                    width:27vh !important;
-                    height:26vh;
+                #logo{
+                    margin-top:15vh;
                 }
-
-                #slide4{
-                    width:27vh !important;
-                    height:26vh;
+     
+                p{
+                 margin-left:30vw!important;
+                 width:60vw !important;
                 }
+     
+                h3{
+                 margin-left:20vw !important;
+                }
+     
+               
+                #aboutContent{
+                   margin-top:-80% !important;
+                    margin-left:-4vw !important;
+                    width:96% !important;
+                    color:rgb(87, 87, 87);
+                }
+               
 
-                #slide5{
-                    width:27vh !important;
-                    height:26vh;}
-
-                    h1{
-                        margin-top:35vh !important;
-                         margin-left:6% !important;
-                         font-size: 2.7rem !important;
-                         width:100% !important;
-                         color:rgb(75, 73, 73) !important;
-                         
-                     }
-
-                     #about{
-                        margin-top:-10% !important;
-                        margin-left: 15% !important;
-                       color: #101010;
-                       }
-                 
-                 #project{
+                #pricingContent{
+                    margin-top:5vh;
+                    margin-left:-22vw;
+                    display:flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
                     
-                     margin-top:6%;
-                     width:70vw;
-                     height:70vh;
-                     z-index:-1;
-                 }
-                 
-                 
-                 
-                 
-                    #alchDesignLogo{
-                     display:none !important;
-                     margin-top:-20vh !important;
-                     width:120vw !important;
-                     height: 30vh !important;
-                    }
-                     
-                    
-         
-                    .service{
-                     width:30vw !important;
-                    }
-         
-                    #slogan{
-                     position: absolute;
-                     padding: 2% 5% 2% 20% !important;
-                     margin-top:13vh !important;
-                     margin-left:8vw !important;
-                     background-color: #ffffff9d;
-                     color:#0d494b !important;
-                     font-size:2rem !important;
-                     width:100vw !important;
-                    }
+                    color:#535353;
+                }
 
-                    #logo{
-                        margin-top:15vh;
-                    }
-         
-                    p{
-                     margin-left:30vw!important;
-                     width:60vw !important;
-                    }
-         
-                    h3{
-                     margin-left:20vw !important;
-                    }
-         
-                   
+                #pricingHeader{
+                    margin-left:33vw !important;
+                    font-size: 3rem !important;
+                }
 
-                    #aboutContent{
-                       margin-top:-80% !important;
-                        margin-left:-4vw !important;
-                        width:96% !important;
-                    }
-                   
-
-                    #pricingContent{
-                        margin-top:5vh;
-                        margin-left:-17vw;
-                        display:flex;
-                        flex-direction: column;
-                        flex-wrap: wrap;
-                        
-                        color:#535353;
-                    }
-
-                    #pricingHeader{
-                        margin-left:27vw !important;
-                        font-size: 3rem !important;
-                    }
-
-                    #listItemOne{
-                        position: absolute;
-                        margin-top:2vh !important;
-                        margin-left:20vw;
-                        width:100% !important;
-                        font-weight: bold !important;
-                        font-size:17px !important;
-                         
-                    }
-
-                #itemOne{
+                #listItemOne{
                     position: absolute;
-                    margin-top:7vh;
-                    margin-left:10vw !important;
-                    width:80% !important;
-                }
-
-                #listItemTwo{
-                    position: absolute;
-                    margin-top:33vh !important;
-                    margin-left:27vw;
+                    margin-top:3vh;
+                    margin-left:20vw;
+                    font-size: 22px;
                     font-weight: bolder;
                      
                 }
 
-            #itemTwo{
+            #itemOne{
                 position: absolute;
-                margin-top:36vh;
-                margin-left:14vw !important;
-                width:81% !important;
+                margin-top:10vh;
+                margin-left:16vw !important;
+                width:90% !important;
             }
-                .addInfo{
-                    margin-top: 53vh !important;
-                    margin-left:10% !important;
-                    width:90% !important;
-                   
-                    color:#2e2e2e;
-                    font-size:1rem !important;
-                }
-                      
-                #newLogo{
-                    position: absolute;
-                    margin-top:-34vh !important;
-                    margin-left:17vw !important;
-                    width:70vw !important;
-                    height:20vh !important;
-                }
 
-                #mission{
-                    margin-top:10% !important;
-                    margin-left:4% !important;
-                    width:90% !important;
+            #listItemTwo{
+                position: absolute;
+                    margin-top:39vh;
+                    margin-left:20vw;
+                    font-size: 22px;
+                    font-weight: bolder;
+            }
+
+        #itemTwo{
+            position: absolute;
+            margin-top:45vh;
+            margin-left:16vw !important;
+            width:90% !important;
+        }
+            .addInfo{
+                margin-top: 69vh !important;
+                margin-left:13% !important;
+                
+                
+                width:90% !important;
+                color:#444444;
+                font-size:1.2rem !important;
+            }
+                 
+            
+            #mission{
+                margin-top:10% !important;
+            }
+            #newLogo{
+                position: absolute;
+                margin-top:4vh !important;
+                margin-left:17vw !important;
+                width:70vw !important;
+                height:20vh !important;
+            }
+     
+            #slogan{
+                margin-top:-5vh !important;
+               margin-left:-2% !important;
+                font-size: 1rem !important;
+            }
+                .sectionContent{
+               margin-top:-38% !important;
+                margin-left:-14% !important;
+                 width:96vw !important;
+                 color:#312f2f;
                 }
-         
-                #slogan{
-                    margin-top:-9vh !important;
-                    margin-left:-3vw !important;
-                    font-size:1.2rem !important;
+     
+                .service{
+                    margin-left:60vh !important;
+                 width: 100vw !important;
                 }
-                    .sectionContent{
-                   margin-top:-38% !important;
-                    margin-left:-14% !important;
-                     width:96vw !important;
-                     color:#312f2f;
-                    }
-         
-                    .service{
-                        margin-left:60vh !important;
-                     width: 100vw !important;
-                    }
 footer{
-    margin-top: 70%;
-    height:100px;
-    background-color: #515252;
-    color:#d8d8d8;
+margin-top: 190%;
+height:130px;
+background-color: #515252;
+color:#d8d8d8;
 }
 
 .footerLink{
-    padding:0% 3% 2% 0% !important;
+padding:0% 1% 1% 0% !important;
 
 }
 
 #footerContentLeft{
-    margin-left:10% !important;
+margin-left:7% !important;
 }
 
 #footerContentRight{margin-left:20% !important;
 }
 
 #footerLogo{
-    margin-top:5% !important;
-    margin-left:4% !important;
-    font-size:2rem !important;
-    width:100%;
-    color: #ffffff !important;
+margin-top:10% !important;
+margin-left:2% !important;
+font-size:2rem !important;
+
+width:100%;
+color:#f8f8f8 !important;
 }
-                    
+                
+             
                  
          
             }
@@ -930,14 +983,16 @@ footer{
 
 
             @media screen and (min-width:215px) and (max-width:250px){
-
+body{
+    background-color: #fa0e0e91;
+}
           
 
                 .navbar{
                     background-color: #e4e4e441;
                 }
                 .nav-menu {
-                    height:37vh;
+                    height:50vh;
                     position: fixed;
                     left: -100%;
                     top: 3rem;
@@ -999,7 +1054,7 @@ footer{
         
                 #homeLink{
                     position: absolute;
-                    margin-top:-10vh !important;
+                    margin-top:-13vh !important;
                     margin-left:-17% !important;
                     color:rgb(90, 90, 90);
                 }
@@ -1007,22 +1062,22 @@ footer{
                
                 #aboutLink{
                     position: absolute;
-                    margin-top:-33% !important;
+                    margin-top:-56% !important;
                     margin-left:-17% !important;
                     color:rgb(90, 90, 90);
         
                 }
         
                 #bookLink{
-                    margin-top:-7vh !important;
+                    margin-top:-15vh !important;
                     margin-left:-40%;
                     background-color: #3b3b3b;
                     color:#fff;
                 }
         
                 #contactLink{
-                    margin-left:-17%;
-                    margin-top:-25%;
+                    margin-left:-57%;
+                    margin-top:-59%;
                     color:rgb(90, 90, 90);
                 }
         
@@ -1063,7 +1118,7 @@ footer{
                     
                       .next {
                        width:14% !important;
-                        right: -30vw;
+                        right: -29vw;
                         border-radius: 3px 0 0 3px;
                         background-color: #77777767;
                         
@@ -1075,39 +1130,47 @@ footer{
                       }
              
                      #slide1{
-                        width:27vh !important;
-                    height:27vh;
+                        width:28vh !important;
+                    height:30vh;
                         
                     }
     
     
                     #slide2{
-                        width:27vh !important;
-                    height:27vh;
+                        width:28vh !important;
+                    height:30vh;
                     }
     
                     #slide3{
-                        width:27vh !important;
-                        height:27vh;
+                        width:28vh !important;
+                        height:30vh;
                     }
     
                     #slide4{
-                        width:27vh !important;
-                    height:27vh;
+                        width:28vh !important;
+                        height:30vh;
                     }
     
                     #slide5{
-                        width:27vh !important;
-                        height:27vh;
+                        width:28vh !important;
+                    height:30vh;
                     }
 
                     h1{
-                        margin-top:39vh !important;
-                         margin-left:2% !important;
+                        margin-top:33vh !important;
+                         margin-left:3% !important;
                          font-size: 3rem !important;
                          color:rgb(75, 73, 73) !important;
                          
                      }
+
+                     #about{
+                        position:absolute;
+                        margin-top:-10vh !important;
+                        margin-left: 15% !important;
+                        width:92%;
+                       color: #101010;
+                       }
                      
                      #project{
                         
@@ -1157,17 +1220,9 @@ footer{
                          margin-left:20vw !important;
                         }
              
-                        #about{
-                         margin-top:25% !important;
-                         margin-left: 15% !important;
-                        color: #101010;
-                        }
+                       
     
-                        #aboutContent{
-                           margin-top:-80% !important;
-                            margin-left:-4vw !important;
-                            width:96% !important;
-                        }
+                       
                        
     #mission{
         margin-left:9% !important;
@@ -1175,7 +1230,7 @@ footer{
         width:90% !important;
     }
                         #pricingContent{
-                            margin-top:5vh;
+                            margin-top:3vh;
                             margin-left:-17vw;
                             display:flex;
                             flex-direction: column;
@@ -1192,7 +1247,7 @@ footer{
                         #listItemOne{
                             position: absolute;
                             margin-top:2vh;
-                            margin-left:33vw;
+                            margin-left:19vw;
                             font-weight: bolder;
                              
                         }
@@ -1200,35 +1255,35 @@ footer{
                     #itemOne{
                         position: absolute;
                         margin-top:6vh;
-                        margin-left:16vw !important;
+                        margin-left:12vw !important;
                         width:80% !important;
                     }
     
                     #listItemTwo{
                         position: absolute;
-                        margin-top:33vh !important;
-                        margin-left:30vw;
+                        margin-top:30vh !important;
+                        margin-left:20vw;
                         font-weight: bolder;
                          
                     }
     
                 #itemTwo{
                     position: absolute;
-                    margin-top:38vh;
+                    margin-top:35vh;
                     margin-left:15vw !important;
                     width:80% !important;
                 }
                     .addInfo{
-                        margin-top: 58vh !important;
-                        margin-left:10% !important;
+                        margin-top: 53vh !important;
+                        margin-left:15% !important;
                         width:90% !important;
                         color:#101010;
-                        font-size:1.3rem !important;
+                        font-size:1rem !important;
                     }
                           
                     #newLogo{
                         position: absolute;
-                        margin-top:-32vh !important;
+                        margin-top:63vh !important;
                         margin-left:24vw !important;
                         width:60vw !important;
                         height:16vh !important;
@@ -1239,7 +1294,7 @@ footer{
                     }
              
                     #slogan{
-                        margin-top:-7vh !important;
+                        margin-top:70vh !important;
                         margin-left:1vw !important;
                         font-size:1.3rem !important;
                     }
@@ -1255,7 +1310,7 @@ footer{
                          width: 100vw !important;
                         }
     footer{
-        margin-top: 70%;
+        margin-top: 100vh;
         height:100px;
         background-color: #515252;
         color:#d8d8d8;
@@ -1275,7 +1330,7 @@ footer{
     
     #footerLogo{
         margin-top:6%;
-        margin-left:6% !important;
+        margin-left:10% !important;
         font-size:2rem !important;
         width:100%;
         color:#dbdbdb ;
@@ -1286,14 +1341,16 @@ footer{
                 
 
 
-            @media screen and (min-width:251px) and (max-width:261px){
+            @media screen and (min-width:251px) and (max-width:257px){
 
-            
-              .navbar{
+            body{
+                background-color: #899b8a;
+            }
+            .navbar{
                 background-color: #e4e4e441;
             }
             .nav-menu {
-                height:37vh;
+                height:50vh;
                 position: fixed;
                 left: -100%;
                 top: 3rem;
@@ -1355,30 +1412,31 @@ footer{
     
             #homeLink{
                 position: absolute;
-                margin-top:-10vh !important;
-                margin-left:-15% !important;
+                margin-top:-14vh !important;
+                margin-left:-17% !important;
                 color:rgb(90, 90, 90);
             }
     
            
             #aboutLink{
                 position: absolute;
-                margin-top:-33% !important;
-                margin-left:-15% !important;
+                margin-top:-44% !important;
+                margin-left:-17% !important;
                 color:rgb(90, 90, 90);
     
             }
     
             #bookLink{
-                margin-top:-10vh !important;
-                margin-left:-35%;
+                margin-top:-13vh !important;
+                margin-left:-40%;
                 background-color: #3b3b3b;
                 color:#fff;
+                padding:4%;
             }
     
             #contactLink{
-                margin-left:-15%;
-                margin-top:-30%;
+                margin-left:-19%;
+                margin-top:-37%;
                 color:rgb(90, 90, 90);
             }
     
@@ -1397,7 +1455,6 @@ footer{
 
                  #project{
                     margin-top:2% !important;
-                   
                   }
          
                 .prev, .next {
@@ -1420,7 +1477,7 @@ footer{
                 
                   .next {
                    width:14% !important;
-                    right: -26vw;
+                    right: -30vw;
                     border-radius: 3px 0 0 3px;
                     background-color: #77777767;
                     
@@ -1432,39 +1489,44 @@ footer{
                   }
          
                  #slide1{
-                    width:31vh !important;
-                    height:27vh;
-                    
+                    width:28vh !important;
+                    height:34vh;
                 }
 
 
                 #slide2{
-                    width:31vh !important;
-                    height:27vh;
-                }
+                    width:28vh !important;
+                    height:34vh;}
 
                 #slide3{
-                    width:31vh !important;
-                    height:27vh;
+                    width:28vh !important;
+                    height:34vh;
                 }
 
                 #slide4{
-                    width:31vh !important;
-                    height:27vh;
+                    width:28vh !important;
+                    height:34vh;
                 }
 
                 #slide5{
-                    width:31vh !important;
-                    height:27vh;
+                    width:28vh !important;
+                    height:34vh;
                 }
 
                 h1{
-                    margin-top:36vh !important;
-                     margin-left:12% !important;
+                    margin-top:39vh !important;
+                     margin-left:9% !important;
                      font-size: 3rem !important;
                      color:rgb(75, 73, 73) !important;
                      
                  }
+
+                 #about{
+                    margin-top:35% !important;
+                    margin-left: 15% !important;
+                    width:90%;
+                   color: #101010;
+                   }
                  
                  #project{
                     
@@ -1514,11 +1576,7 @@ footer{
                      margin-left:20vw !important;
                     }
          
-                    #about{
-                     margin-top:25% !important;
-                     margin-left: 15% !important;
-                    color: #101010;
-                    }
+                   
 
                     #aboutContent{
                        margin-top:-80% !important;
@@ -1526,7 +1584,11 @@ footer{
                         width:96% !important;
                     }
                    
-
+#mission{
+    margin-left:9% !important;
+    font-size:13px;
+    width:90% !important;
+}
                     #pricingContent{
                         margin-top:5vh;
                         margin-left:-17vw;
@@ -1545,7 +1607,7 @@ footer{
                     #listItemOne{
                         position: absolute;
                         margin-top:2vh;
-                        margin-left:33vw;
+                        margin-left:30vw;
                         font-weight: bolder;
                          
                     }
@@ -1559,8 +1621,8 @@ footer{
 
                 #listItemTwo{
                     position: absolute;
-                    margin-top:30vh !important;
-                    margin-left:32vw;
+                    margin-top:31vh !important;
+                    margin-left:30vw;
                     font-weight: bolder;
                      
                 }
@@ -1578,374 +1640,21 @@ footer{
                     color:#101010;
                     font-size:1.3rem !important;
                 }
-
-                #mission{
-                    margin-left:6% !important;
-                    width:90% !important;
-
-                }
                       
                 #newLogo{
                     position: absolute;
-                    margin-top:-32vh !important;
-                    margin-left:24vw !important;
+                    margin-top:-12vh !important;
+                    margin-left:21vw !important;
                     width:60vw !important;
                     height:16vh !important;
                 }
-         
-                #slogan{
-                    margin-top:-7vh !important;
-                    margin-left:1vw !important;
-                    font-size:1.3rem !important;
-                }
-                    .sectionContent{
-                   margin-top:-38% !important;
-                    margin-left:-14% !important;
-                     width:96vw !important;
-                     color:#312f2f;
-                    }
-         
-                    .service{
-                        margin-left:60vh !important;
-                     width: 100vw !important;
-                    }
-footer{
-    margin-top: 70%;
-    height:100px;
-    background-color: #515252;
-    color:#d8d8d8;
-}
-
-.footerLink{
-    padding:0% 3% 2% 0% !important;
-
-}
-
-#footerContentLeft{
-    margin-left:18% !important;
-}
-
-#footerContentRight{margin-left:20% !important;
-}
-
-#footerLogo{
-    margin-top:5%;
-    margin-left:12% !important;
-    font-size:2rem !important;
-    width:100%;
-    color:#dbdbdb ;
-}
-         
-             
-                }
-        @media screen and (min-width:262px) and (max-width:268px){
-           
-        
-              .navbar{
-                background-color: #e4e4e441;
-            }
-            .nav-menu {
-                height:35vh;
-                position: fixed;
-                left: -100%;
-                top: 3rem;
-                flex-direction: column;
-                background-color: #fff;
-                width: 100%;
-                border-radius: 10px;
-                text-align: center;
-                transition: 0.3s;
-                box-shadow:
-                    0 10px 27px rgba(0, 0, 0, 0.05);
-                    z-index:1;
-            }
-        
-            .nav-menu.active {
-                left: 0;
-            }
-    
-            .nav-item {
-                margin: 2.5rem 0;
-                
-            }
-        
-            .hamburger {
-                display: block;
-                cursor: pointer;
-            }
-    .bar{
-        background-color: #3b3b3b;
-    }
-            .hamburger.active .bar:nth-child(2) {
-                opacity: 0;
-            }
-        
-            .hamburger.active .bar:nth-child(1) {
-                transform: translateY(8px) rotate(45deg);
-            }
-        
-            .hamburger.active .bar:nth-child(3) {
-                transform: translateY(-8px) rotate(-45deg);
-            }
-    .nav-logo-mobile{
-        margin-left:39% !important;
-    }
-    
-    .nav-logo-mobile{
-        height: 50vh !important;
-    }
-    
-    #nav-logo-desktop{
-        display:none;
-    }
-            #alchBrand{
-                margin-top: -59% !important;
-                margin-left:-9% !important;
-                width:10% !important;
-                height:10% !important;
-               }
-    
-            #homeLink{
-                position: absolute;
-                margin-top:-10vh !important;
-                margin-left:-15% !important;
-                color:rgb(90, 90, 90);
-            }
-    
-           
-            #aboutLink{
-                position: absolute;
-                margin-top:-33% !important;
-                margin-left:-15% !important;
-                color:rgb(90, 90, 90);
-    
-            }
-    
-            #bookLink{
-                margin-top:-12vh !important;
-                margin-left:-33%;
-                background-color: #3b3b3b;
-                color:#fff;
-            }
-    
-            #contactLink{
-                margin-left:-15%;
-                margin-top:-30%;
-                color:rgb(90, 90, 90);
-            }
-    
-            span{
-                color:#475569;
-            }
-        
-    
-                #alchDesignLogo{
-                    margin-top:-12vh !important;
-                }
-        
-               
-        
-               
-
-                 #project{
-                    margin-top:2% !important;
-                   
-                  }
-         
-                .prev, .next {
-                    cursor: pointer;
-                    position: absolute;
-                    top: 43%;
-                    width:22px !important;
-                    width: auto;
-                    margin-top: -40px;
-                    padding: 14px;
-                    color: white;
-                    font-weight: bold;
-                    font-size: 18px;
-                    transition: 0.6s ease;
-                    border-radius: 0 3px 3px 0;
-                    user-select: none;
-                    background-color: #77777767;
-                  }
-                  
-                
-                  .next {
-                   
-                   width:14% !important;
-                    right: -29vw;
-                    border-radius: 3px 0 0 3px;
-                    background-color: #77777767;
-                    
-                  }
-                  
-                  /* On hover, add a black background color with a little bit see-through */
-                  .prev:hover, .next:hover {
-                    background-color: rgba(19, 49, 54, 0.8);
-                  }
-         
-                 #slide1{
-                    width:32vh !important;
-                    height:26vh;
-                }
-
-
-                #slide2{
-                    width:32vh !important;
-                    height:26vh;
-                }
-
-                #slide3{
-                    width:32vh !important;
-                    height:26vh;
-                }
-
-                #slide4{
-                    width:32vh !important;
-                    height:26vh;
-                }
-
-                #slide5{
-                    width:32vh !important;
-                    height:26vh;
-                }
-
-                h1{
-                    margin-top:34vh !important;
-                     margin-left:5% !important;
-                     font-size: 3.4rem !important;
-                     color:rgb(75, 73, 73) !important;
-                     
-                 }
-                 
-                 #project{
-                    
-                     margin-top:6%;
-                     width:70vw;
-                     height:70vh;
-                     z-index:-1;
-                 }
-                 
-                 
-                 
-                 
-                    #alchDesignLogo{
-                     display:none !important;
-                     margin-top:-20vh !important;
-                     width:120vw !important;
-                     height: 30vh !important;
-                    }
-                     
-                    
-         
-                    .service{
-                     width:30vw !important;
-                    }
-         
-                    #slogan{
-                     position: absolute;
-                     padding: 2% 5% 2% 20% !important;
-                     margin-top:13vh !important;
-                     margin-left:8vw !important;
-                     background-color: #ffffff9d;
-                     color:#0d494b !important;
-                     font-size:1.4rem !important;
-                     width:100vw !important;
-                    }
-
-                    #logo{
-                        margin-top:15vh;
-                    }
-         
-                    p{
-                     margin-left:30vw!important;
-                     width:60vw !important;
-                    }
-         
-                    h3{
-                     margin-left:20vw !important;
-                    }
-         
-                    #about{
-                     margin-top:30% !important;
-                     margin-left: 15% !important;
-                    color: #101010;
-                    }
-
-                    #aboutContent{
-                       margin-top:-80% !important;
-                        margin-left:-4vw !important;
-                        width:96% !important;
-                    }
-                   
-
-                    #pricingContent{
-                        margin-top:5vh;
-                        margin-left:-17vw;
-                        display:flex;
-                        flex-direction: column;
-                        flex-wrap: wrap;
-                        
-                        color:#535353;
-                    }
-
-                    #pricingHeader{
-                        margin-left:35vw !important;
-                        font-size:3rem !important;
-                    }
-
-                    #listItemOne{
-                        position: absolute;
-                        margin-top:2vh;
-                        margin-left:33vw;
-                        font-weight: bolder;
-                         
-                    }
-
-                #itemOne{
-                    position: absolute;
-                    margin-top:6vh;
-                    margin-left:16vw !important;
-                    width:80% !important;
-                }
-
-                #listItemTwo{
-                    position: absolute;
-                    margin-top:30vh !important;
-                    margin-left:32vw;
-                    font-weight: bolder;
-                     
-                }
-
-            #itemTwo{
-                position: absolute;
-                margin-top:34vh;
-                margin-left:15vw !important;
-                width:80% !important;
-            }
-                .addInfo{
-                    margin-top: 50vh !important;
-                    margin-left:6% !important;
-                    width:100% !important;
-                    color:#101010;
-                    font-size:1.5rem !important;
-                }
-                      
-                #newLogo{
-                    position: absolute;
-                    margin-top:-30vh !important;
-                    margin-left:20vw !important;
-                    width:60vw !important;
-                    height:20vh !important;
-                }
 
                 #mission{
-                    margin-left:9% !important;
-                    width:90% !important
+                    margin-top:10% !important;
                 }
          
                 #slogan{
-                    margin-top:-7vh !important;
+                    margin-top:12vh !important;
                     margin-left:1vw !important;
                     font-size:1.3rem !important;
                 }
@@ -1961,7 +1670,7 @@ footer{
                      width: 100vw !important;
                     }
 footer{
-    margin-top: 70%;
+    margin-top: 150%;
     height:100px;
     background-color: #515252;
     color:#d8d8d8;
@@ -1973,744 +1682,27 @@ footer{
 }
 
 #footerContentLeft{
-    margin-left:20% !important;
+    margin-left:8% !important;
 }
 
 #footerContentRight{margin-left:20% !important;
 }
 
 #footerLogo{
-    margin-top:4%;
-    margin-left:15% !important;
+    margin-top:6%;
+    margin-left:8% !important;
     font-size:2rem !important;
     width:100%;
     color:#dbdbdb ;
 }
-
-        }
-    
-        
-    
-
-     
-
-    @media screen and (min-width:270px) and (max-width:280px){
-
-       
-    
-          .navbar{
-            background-color: #e4e4e441;
-        }
-        .nav-menu {
-            height:37vh;
-            position: fixed;
-            left: -100%;
-            top: 3rem;
-            flex-direction: column;
-            background-color: #fff;
-            width: 100%;
-            border-radius: 10px;
-            text-align: center;
-            transition: 0.3s;
-            box-shadow:
-                0 10px 27px rgba(0, 0, 0, 0.05);
-                z-index:1;
-        }
-    
-        .nav-menu.active {
-            left: 0;
-        }
-
-        .nav-item {
-            margin: 2.5rem 0;
-            
-        }
-    
-        .hamburger {
-            display: block;
-            cursor: pointer;
-        }
-.bar{
-    background-color: #3b3b3b;
-}
-        .hamburger.active .bar:nth-child(2) {
-            opacity: 0;
-        }
-    
-        .hamburger.active .bar:nth-child(1) {
-            transform: translateY(8px) rotate(45deg);
-        }
-    
-        .hamburger.active .bar:nth-child(3) {
-            transform: translateY(-8px) rotate(-45deg);
-        }
-.nav-logo-mobile{
-    margin-left:39% !important;
-}
-
-.nav-logo-mobile{
-    height: 50vh !important;
-}
-
-#nav-logo-desktop{
-    display:none;
-}
-        #alchBrand{
-            margin-top: -59% !important;
-            margin-left:-9% !important;
-            width:10% !important;
-            height:10% !important;
+             
+                }
+        @media screen and (min-width:258px) and (max-width:269px){
+           body{
+            background-color: brown;
            }
-
-        #homeLink{
-            position: absolute;
-            margin-top:-10vh !important;
-            margin-left:-15% !important;
-            color:rgb(90, 90, 90);
-        }
-
-       
-        #aboutLink{
-            position: absolute;
-            margin-top:-33% !important;
-            margin-left:-15% !important;
-            color:rgb(90, 90, 90);
-
-        }
-
-        #bookLink{
-            margin-top:-10vh !important;
-            margin-left:-33%;
-            background-color: #3b3b3b;
-            color:#fff;
-        }
-
-        #contactLink{
-            margin-left:-15%;
-            margin-top:-30%;
-            color:rgb(90, 90, 90);
-        }
-
-        span{
-            color:#475569;
-        }
-    
-
-            #alchDesignLogo{
-                margin-top:-12vh !important;
-            }
-    
-           
-    
-           
-
-             #project{
-                margin-top:2% !important;
-              }
-     
-            .prev, .next {
-                cursor: pointer;
-                position: absolute;
-                top: 50%;
-                width:22px !important;
-                width: auto;
-                margin-top: -22px;
-                padding: 14px;
-                color: white;
-                font-weight: bold;
-                font-size: 18px;
-                transition: 0.6s ease;
-                border-radius: 0 3px 3px 0;
-                user-select: none;
-                background-color: #77777767;
-              }
-              
-            
-              .next {
-               width:14% !important;
-                right: -30vw;
-                border-radius: 3px 0 0 3px;
-                background-color: #77777767;
-                
-              }
-              
-              /* On hover, add a black background color with a little bit see-through */
-              .prev:hover, .next:hover {
-                background-color: rgba(19, 49, 54, 0.8);
-              }
-     
-             #slide1{
-                width:33vh !important;
-                    height:30vh;
-                
-            }
-
-
-            #slide2{
-                width:33vh !important;
-                    height:30vh;
-            }
-
-            #slide3{
-                width:33vh !important;
-                height:30vh;
-            }
-
-            #slide4{
-                width:33vh !important;
-                height:30vh;
-            }
-
-            #slide5{
-                width:33vh !important;
-                    height:30vh;
-            }
-
-            h1{
-                margin-top:36vh !important;
-                 margin-left:12% !important;
-                 font-size: 3rem !important;
-                 color:rgb(75, 73, 73) !important;
-                 
-             }
-
-             #about{
-                margin-top:37% !important;
-                margin-left: 14% !important;
-                width:90%;
-               color: #101010;
-               }
-             
-             #project{
-                
-                 margin-top:6%;
-                 width:70vw;
-                 height:70vh;
-                 z-index:-1;
-             }
-             
-             
-             
-             
-                #alchDesignLogo{
-                 display:none !important;
-                 margin-top:-20vh !important;
-                 width:120vw !important;
-                 height: 30vh !important;
-                }
-                 
-                
-     
-                .service{
-                 width:30vw !important;
-                }
-     
-                #slogan{
-                 position: absolute;
-                 padding: 2% 5% 2% 20% !important;
-                 margin-top:13vh !important;
-                 margin-left:8vw !important;
-                 background-color: #ffffff9d;
-                 color:#0d494b !important;
-                 font-size:1.4rem !important;
-                 width:100vw !important;
-                }
-
-                #logo{
-                    margin-top:15vh;
-                }
-     
-                p{
-                 margin-left:30vw!important;
-                 width:60vw !important;
-                }
-     
-                h3{
-                 margin-left:20vw !important;
-                }
-     
-                
-
-                #aboutContent{
-                   margin-top:-80% !important;
-                    margin-left:-4vw !important;
-                    width:96% !important;
-                }
-               
-
-                #pricingContent{
-                    margin-top:5vh;
-                    margin-left:-17vw;
-                    display:flex;
-                    flex-direction: column;
-                    flex-wrap: wrap;
-                    
-                    color:#535353;
-                }
-
-                #pricingHeader{
-                    margin-left:35vw !important;
-                    font-size:3rem !important;
-                }
-
-                #listItemOne{
-                    position: absolute;
-                    margin-top:2vh;
-                    margin-left:33vw;
-                    font-weight: bolder;
-                     
-                }
-
-            #itemOne{
-                position: absolute;
-                margin-top:6vh;
-                margin-left:16vw !important;
-                width:80% !important;
-            }
-
-            #listItemTwo{
-                position: absolute;
-                margin-top:30vh !important;
-                margin-left:32vw;
-                font-weight: bolder;
-                 
-            }
-
-        #itemTwo{
-            position: absolute;
-            margin-top:36vh;
-            margin-left:15vw !important;
-            width:80% !important;
-        }
-            .addInfo{
-                margin-top: 52vh !important;
-                margin-left:8% !important;
-                width:100% !important;
-                color:#101010;
-                font-size:1.5rem !important;
-            }
-                  
-            #newLogo{
-                position: absolute;
-                margin-top:-30vh !important;
-                margin-left:20vw !important;
-                width:60vw !important;
-                height:20vh !important;
-            }
-
-            #mission{
-                margin-top:4%;
-                margin-left:9% !important;
-                width:90% !important
-            }
-     
-            #slogan{
-                margin-top:-7vh !important;
-                margin-left:1vw !important;
-                font-size:1.3rem !important;
-            }
-                .sectionContent{
-               margin-top:-38% !important;
-                margin-left:-14% !important;
-                 width:96vw !important;
-                 color:#312f2f;
-                }
-     
-                .service{
-                    margin-left:60vh !important;
-                 width: 100vw !important;
-                }
-footer{
-margin-top: 70%;
-height:100px;
-background-color: #515252;
-color:#d8d8d8;
-}
-
-.footerLink{
-padding:0% 3% 2% 0% !important;
-
-}
-
-#footerContentLeft{
-margin-left:20% !important;
-}
-
-#footerContentRight{margin-left:20% !important;
-}
-
-#footerLogo{
-    margin-top:5%;
-margin-left:18% !important;
-font-size:2rem !important;
-width:100%;
-color:#dbdbdb ;
-}
-    }
-       
-
-     
-    
-
-    @media screen and (min-width:281px) and (max-width:311px){
-     
-   
-          .navbar{
-            background-color: #e4e4e441;
-        }
-        .nav-menu {
-            height:40vh;
-            position: fixed;
-            left: -100%;
-            top: 3rem;
-            flex-direction: column;
-            background-color: #fff;
-            width: 100%;
-            border-radius: 10px;
-            text-align: center;
-            transition: 0.3s;
-            box-shadow:
-                0 10px 27px rgba(0, 0, 0, 0.05);
-                z-index:1;
-        }
-    
-        .nav-menu.active {
-            left: 0;
-        }
-
-        .nav-item {
-            margin: 2.5rem 0;
-            
-        }
-    
-        .hamburger {
-            display: block;
-            cursor: pointer;
-        }
-.bar{
-    background-color: #3b3b3b;
-}
-        .hamburger.active .bar:nth-child(2) {
-            opacity: 0;
-        }
-    
-        .hamburger.active .bar:nth-child(1) {
-            transform: translateY(8px) rotate(45deg);
-        }
-    
-        .hamburger.active .bar:nth-child(3) {
-            transform: translateY(-8px) rotate(-45deg);
-        }
-.nav-logo-mobile{
-    margin-left:39% !important;
-}
-
-.nav-logo-mobile{
-    height: 50vh !important;
-}
-
-#nav-logo-desktop{
-    display:none;
-}
-        #alchBrand{
-            margin-top: -59% !important;
-            margin-left:-9% !important;
-            width:10% !important;
-            height:10% !important;
-           }
-
-        #homeLink{
-            position: absolute;
-            margin-top:-10vh !important;
-            margin-left:-15% !important;
-            color:rgb(90, 90, 90);
-        }
-
-       
-        #aboutLink{
-            position: absolute;
-            margin-top:-33% !important;
-            margin-left:-15% !important;
-            color:rgb(90, 90, 90);
-
-        }
-
-        #bookLink{
-            margin-top:-10vh !important;
-            margin-left:-33%;
-            background-color: #3b3b3b;
-            color:#fff;
-        }
-
-        #contactLink{
-            margin-left:-15%;
-            margin-top:-30%;
-            color:rgb(90, 90, 90);
-        }
-
-        span{
-            color:#475569;
-        }
-    
-
-            #alchDesignLogo{
-                margin-top:-12vh !important;
-            }
-    
-           
-    
-           
-
-             #project{
-                margin-top:2% !important;
-                
-              }
-     
-            .prev, .next {
-                cursor: pointer;
-                position: absolute;
-                top: 40%;
-                width:22px !important;
-                width: auto;
-                margin-top: -22px;
-                padding: 14px;
-                color: white;
-                font-weight: bold;
-                font-size: 18px;
-                transition: 0.6s ease;
-                border-radius: 0 3px 3px 0;
-                user-select: none;
-                background-color: #77777767;
-              }
-              
-            
-              .next {
-               width:14% !important;
-                right: -30vw;
-                border-radius: 3px 0 0 3px;
-                background-color: #77777767;
-                
-              }
-              
-              /* On hover, add a black background color with a little bit see-through */
-              .prev:hover, .next:hover {
-                background-color: rgba(19, 49, 54, 0.8);
-              }
-     
-             #slide1{
-                width:37vh !important;
-                    height:30vh;
-            }
-
-
-            #slide2{
-                width:37vh !important;
-                    height:30vh;
-            }
-
-            #slide3{
-                width:37vh !important;
-                height:30vh;
-            }
-
-            #slide4{
-                width:37vh !important;
-                    height:30vh;
-            }
-
-            #slide5{
-                width:37vh !important;
-                height:30vh;
-            }
-
-            h1{
-                margin-top:39vh !important;
-                 margin-left:9% !important;
-                 font-size: 3.6rem !important;
-                 color:rgb(75, 73, 73) !important;
-                 
-             }
-
-             #about{
-                margin-top:52% !important;
-                margin-left: 15% !important;
-               color: #101010;
-               }
-             
-             #project{
-                
-                 margin-top:6%;
-                 width:70vw;
-                 height:70vh;
-                 z-index:-1;
-             }
-             
-             
-             
-             
-                #alchDesignLogo{
-                 display:none !important;
-                 margin-top:-20vh !important;
-                 width:120vw !important;
-                 height: 30vh !important;
-                }
-                 
-                
-     
-                .service{
-                 width:30vw !important;
-                }
-     
-                #slogan{
-                 position: absolute;
-                 padding: 2% 5% 2% 20% !important;
-                 margin-top:13vh !important;
-                 margin-left:8vw !important;
-                 background-color: #ffffff9d;
-                 color:#0d494b !important;
-                 font-size:1.4rem !important;
-                 width:100vw !important;
-                }
-
-                #logo{
-                    margin-top:15vh;
-                }
-     
-                p{
-                 margin-left:30vw!important;
-                 width:60vw !important;
-                }
-     
-                h3{
-                 margin-left:20vw !important;
-                }
-     
-                
-
-                #aboutContent{
-                   margin-top:-80% !important;
-                    margin-left:-4vw !important;
-                    width:96% !important;
-                }
-               
-
-                #pricingContent{
-                    margin-top:5vh;
-                    margin-left:-17vw;
-                    display:flex;
-                    flex-direction: column;
-                    flex-wrap: wrap;
-                    
-                    color:#535353;
-                }
-
-                #pricingHeader{
-                    margin-left:35vw !important;
-                    font-size:3rem !important;
-                }
-
-                #listItemOne{
-                    position: absolute;
-                    margin-top:2vh;
-                    margin-left:33vw;
-                    font-weight: bolder;
-                     
-                }
-
-            #itemOne{
-                position: absolute;
-                margin-top:6vh;
-                margin-left:16vw !important;
-                width:80% !important;
-            }
-
-            #listItemTwo{
-                position: absolute;
-                margin-top:26vh !important;
-                margin-left:32vw;
-                font-weight: bolder;
-                 
-            }
-
-        #itemTwo{
-            position: absolute;
-            margin-top:30vh;
-            margin-left:15vw !important;
-            width:80% !important;
-        }
-            .addInfo{
-                margin-top: 45vh !important;
-                margin-left:11% !important;
-                width:100% !important;
-                color:#101010;
-                font-size:1.5rem !important;
-            }
-                  
-            #newLogo{
-                position: absolute;
-                margin-top:-30vh !important;
-                margin-left:20vw !important;
-                width:60vw !important;
-                height:20vh !important;
-            }
-
-            #mission{
-                margin-top:4%;
-                margin-left:9% !important;
-                width:90% !important
-            }
-     
-            #slogan{
-                margin-top:-7vh !important;
-                margin-left:1vw !important;
-                font-size:1.3rem !important;
-            }
-                .sectionContent{
-               margin-top:-38% !important;
-                margin-left:-14% !important;
-                 width:96vw !important;
-                 color:#312f2f;
-                }
-     
-                .service{
-                    margin-left:60vh !important;
-                 width: 100vw !important;
-                }
-footer{
-margin-top: 70%;
-height:100px;
-background-color: #515252;
-color:#d8d8d8;
-}
-
-.footerLink{
-padding:0% 3% 2% 0% !important;
-
-}
-
-#footerContentLeft{
-margin-left:20% !important;
-}
-
-#footerContentRight{margin-left:20% !important;
-}
-
-#footerLogo{
-    margin-top:5%;
-margin-left:16% !important;
-font-size:2rem !important;
-width:100%;
-color:#dbdbdb ;
-}
-
         
-    }
-
-
-    @media screen and (min-width:312px) and (max-width:340px){
-      
-
-        .navbar{
+           .navbar{
             background-color: #e4e4e441;
         }
         .nav-menu {
@@ -2777,29 +1769,30 @@ color:#dbdbdb ;
         #homeLink{
             position: absolute;
             margin-top:-14vh !important;
-            margin-left:-15% !important;
+            margin-left:-17% !important;
             color:rgb(90, 90, 90);
         }
 
        
         #aboutLink{
             position: absolute;
-            margin-top:-35% !important;
-            margin-left:-16% !important;
+            margin-top:-44% !important;
+            margin-left:-17% !important;
             color:rgb(90, 90, 90);
 
         }
 
         #bookLink{
-            margin-top:-14vh !important;
-            margin-left:-32%;
+            margin-top:-12vh !important;
+            margin-left:-40%;
+            padding:4%;
             background-color: #3b3b3b;
             color:#fff;
         }
 
         #contactLink{
-            margin-left:-17%;
-            margin-top:-34%;
+            margin-left:-19%;
+            margin-top:-37%;
             color:rgb(90, 90, 90);
         }
 
@@ -2817,16 +1810,16 @@ color:#dbdbdb ;
            
 
              #project{
-                margin-top:25% !important;
+                margin-top:2% !important;
               }
      
             .prev, .next {
                 cursor: pointer;
                 position: absolute;
-                top: 20%;
+                top: 50%;
                 width:22px !important;
                 width: auto;
-               
+                margin-top: -22px;
                 padding: 14px;
                 color: white;
                 font-weight: bold;
@@ -2852,42 +1845,1125 @@ color:#dbdbdb ;
               }
      
              #slide1{
-               margin-top:-36%;
-                width:40vh !important;
-                height:35vh !important;
+                width:32vh !important;
+            height:36vh;
                 
             }
 
 
             #slide2{
-                margin-top:-36%;
-              
-                width:40vh !important;
-                height:35vh;
+                width:32vh !important;
+                height:36vh;
             }
 
             #slide3{
-                margin-top:-36%;
-                width:45vh !important;
-                height:35vh;
+                width:32vh !important;
+                height:36vh;
             }
 
             #slide4{
-                margin-top:-36%;
-                width:40vh !important;
-                height:35vh;
+                width:32vh !important;
+            height:36vh;
             }
 
             #slide5{
-                margin-top:-36%;
-                width:40vh !important;
-                height:35vh;
+                width:32vh !important;
+                height:36vh;
             }
 
             h1{
-                margin-top:36vh !important;
-                 margin-left:3% !important;
-                 font-size: 4rem !important;
+                margin-top:37vh !important;
+                 margin-left:12% !important;
+                 font-size: 3rem !important;
+                 color:rgb(75, 73, 73) !important;
+                 
+             }
+
+             #about{
+                margin-top:30% !important;
+                margin-left: 15% !important;
+                width:90%;
+               color: #101010;
+               }
+             
+             #project{
+                
+                 margin-top:6%;
+                 width:70vw;
+                 height:70vh;
+                 z-index:-1;
+             }
+             
+             
+             
+             
+                #alchDesignLogo{
+                 display:none !important;
+                 margin-top:-20vh !important;
+                 width:120vw !important;
+                 height: 30vh !important;
+                }
+                 
+                
+     
+                .service{
+                 width:30vw !important;
+                }
+     
+                #slogan{
+                 position: absolute;
+                 padding: 2% 5% 2% 20% !important;
+                 margin-top:13vh !important;
+                 margin-left:8vw !important;
+                 background-color: #ffffff9d;
+                 color:#0d494b !important;
+                 font-size:2rem !important;
+                 width:100vw !important;
+                }
+
+                #logo{
+                    margin-top:15vh;
+                }
+     
+                p{
+                 margin-left:30vw!important;
+                 width:60vw !important;
+                }
+     
+                h3{
+                 margin-left:20vw !important;
+                }
+     
+               
+
+                #aboutContent{
+                   margin-top:-80% !important;
+                    margin-left:-4vw !important;
+                    width:96% !important;
+                }
+               
+#mission{
+margin-left:9% !important;
+font-size:13px;
+width:90% !important;
+}
+                #pricingContent{
+                    margin-top:5vh;
+                    margin-left:-17vw;
+                    display:flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    
+                    color:#535353;
+                }
+
+                #pricingHeader{
+                    margin-left:35vw !important;
+                    font-size:3rem !important;
+                }
+
+                #listItemOne{
+                    position: absolute;
+                    margin-top:2vh;
+                    margin-left:33vw;
+                    font-weight: bolder;
+                     
+                }
+
+            #itemOne{
+                position: absolute;
+                margin-top:6vh;
+                margin-left:16vw !important;
+                width:80% !important;
+            }
+
+            #listItemTwo{
+                position: absolute;
+                margin-top:30vh !important;
+                margin-left:30vw;
+                font-weight: bolder;
+                 
+            }
+
+        #itemTwo{
+            position: absolute;
+            margin-top:36vh;
+            margin-left:15vw !important;
+            width:80% !important;
+        }
+            .addInfo{
+                margin-top: 53vh !important;
+                margin-left:10% !important;
+                width:90% !important;
+                color:#101010;
+                font-size:1.3rem !important;
+            }
+                  
+            #newLogo{
+                position: absolute;
+                margin-top:-12vh !important;
+                margin-left:21vw !important;
+                width:60vw !important;
+                height:16vh !important;
+            }
+
+            #mission{
+                margin-top:10% !important;
+                margin-left:3% !important;
+            }
+     
+            #slogan{
+                margin-top:12vh !important;
+                margin-left:1vw !important;
+                font-size:1.3rem !important;
+            }
+                .sectionContent{
+               margin-top:-38% !important;
+                margin-left:-14% !important;
+                 width:96vw !important;
+                 color:#312f2f;
+                }
+     
+                .service{
+                    margin-left:60vh !important;
+                 width: 100vw !important;
+                }
+footer{
+margin-top: 150%;
+height:100px;
+background-color: #515252;
+color:#d8d8d8;
+}
+
+.footerLink{
+padding:0% 3% 2% 0% !important;
+
+}
+
+#footerContentLeft{
+margin-left:15% !important;
+}
+
+#footerContentRight{margin-left:20% !important;
+}
+
+#footerLogo{
+margin-top:6%;
+margin-left:15% !important;
+font-size:2rem !important;
+width:100%;
+color:#dbdbdb ;
+}
+
+        }
+    
+        
+    
+
+     
+
+    @media screen and (min-width:270px) and (max-width:280px){
+
+       
+    
+        .navbar{
+            background-color: #e4e4e441;
+        }
+        .nav-menu {
+            height:53vh;
+            position: fixed;
+            left: -100%;
+            top: 3rem;
+            flex-direction: column;
+            background-color: #fff;
+            width: 100%;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow:
+                0 10px 27px rgba(0, 0, 0, 0.05);
+                z-index:1;
+        }
+    
+        .nav-menu.active {
+            left: 0;
+        }
+
+        .nav-item {
+            margin: 2.5rem 0;
+            
+        }
+    
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+.bar{
+    background-color: #3b3b3b;
+}
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+    
+        .hamburger.active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+    
+        .hamburger.active .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+.nav-logo-mobile{
+    margin-left:39% !important;
+}
+
+.nav-logo-mobile{
+    height: 50vh !important;
+}
+
+#nav-logo-desktop{
+    display:none;
+}
+        #alchBrand{
+            margin-top: -59% !important;
+            margin-left:-9% !important;
+            width:10% !important;
+            height:10% !important;
+           }
+
+        #homeLink{
+            position: absolute;
+            margin-top:-12vh !important;
+            margin-left:-17% !important;
+            color:rgb(90, 90, 90);
+        }
+
+       
+        #aboutLink{
+            position: absolute;
+            margin-top:-44% !important;
+            margin-left:-17% !important;
+            color:rgb(90, 90, 90);
+
+        }
+
+        #bookLink{
+            margin-top:-15vh !important;
+            margin-left:-34%;
+            padding:4%;
+            background-color: #3b3b3b;
+            color:#fff;
+        }
+
+        #contactLink{
+            margin-left:-19%;
+            margin-top:-42%;
+            color:rgb(90, 90, 90);
+        }
+
+        span{
+            color:#475569;
+        }
+    
+
+            #alchDesignLogo{
+                margin-top:-12vh !important;
+            }
+    
+           
+    
+           
+
+             #project{
+                margin-top:2% !important;
+              }
+     
+            .prev, .next {
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                width:22px !important;
+                width: auto;
+                margin-top: -22px;
+                padding: 14px;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                background-color: #77777767;
+              }
+              
+            
+              .next {
+               width:14% !important;
+                right: -30vw;
+                border-radius: 3px 0 0 3px;
+                background-color: #77777767;
+                
+              }
+              
+              /* On hover, add a black background color with a little bit see-through */
+              .prev:hover, .next:hover {
+                background-color: rgba(19, 49, 54, 0.8);
+              }
+     
+             #slide1{
+                width:33vh !important;
+            height:40vh;
+                
+            }
+
+
+            #slide2{
+                width:33vh !important;
+                height:40vh;
+            }
+
+            #slide3{
+                width:33vh !important;
+            height:40vh;
+            }
+
+            #slide4{
+                width:33vh !important;
+                height:40vh;
+            }
+
+            #slide5{
+                width:33vh !important;
+                height:40vh;
+            }
+
+            h1{
+                margin-top:41vh !important;
+                 margin-left:12% !important;
+                 font-size: 3rem !important;
+                 color:rgb(75, 73, 73) !important;
+                 
+             }
+
+             #about{
+                margin-top:43% !important;
+                margin-left: 10% !important;
+                width:90%;
+               color: #101010;
+               }
+             
+             #project{
+                
+                 margin-top:6%;
+                 width:70vw;
+                 height:70vh;
+                 z-index:-1;
+             }
+             
+             
+             
+             
+                #alchDesignLogo{
+                 display:none !important;
+                 margin-top:-20vh !important;
+                 width:120vw !important;
+                 height: 30vh !important;
+                }
+                 
+                
+     
+                .service{
+                 width:30vw !important;
+                }
+     
+                #slogan{
+                 position: absolute;
+                 padding: 2% 5% 2% 20% !important;
+                 margin-top:13vh !important;
+                 margin-left:8vw !important;
+                 background-color: #ffffff9d;
+                 color:#0d494b !important;
+                 font-size:2rem !important;
+                 width:100vw !important;
+                }
+
+                #logo{
+                    margin-top:15vh;
+                }
+     
+                p{
+                 margin-left:30vw!important;
+                 width:60vw !important;
+                }
+     
+                h3{
+                 margin-left:20vw !important;
+                }
+     
+               
+
+                #aboutContent{
+                   margin-top:-80% !important;
+                    margin-left:-4vw !important;
+                    width:96% !important;
+                }
+               
+#mission{
+margin-left:9% !important;
+font-size:13px;
+width:90% !important;
+}
+                #pricingContent{
+                    margin-top:5vh;
+                    margin-left:-17vw;
+                    display:flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    
+                    color:#535353;
+                }
+
+                #pricingHeader{
+                    margin-left:35vw !important;
+                    font-size:3rem !important;
+                }
+
+                #listItemOne{
+                    position: absolute;
+                    margin-top:2vh;
+                    margin-left:33vw;
+                    font-weight: bolder;
+                     
+                }
+
+            #itemOne{
+                position: absolute;
+                margin-top:6vh;
+                margin-left:16vw !important;
+                width:80% !important;
+            }
+
+            #listItemTwo{
+                position: absolute;
+                margin-top:28vh !important;
+                margin-left:34vw;
+                font-weight: bolder;
+                 
+            }
+
+        #itemTwo{
+            position: absolute;
+            margin-top:33vh;
+            margin-left:17vw !important;
+            width:80% !important;
+        }
+            .addInfo{
+                margin-top: 48vh !important;
+                margin-left:14% !important;
+                width:90% !important;
+                color:#101010;
+                font-size:1.3rem !important;
+            }
+                  
+            #newLogo{
+                position: absolute;
+                margin-top:-12vh !important;
+                margin-left:17vw !important;
+                width:60vw !important;
+                height:22vh !important;
+            }
+
+            #mission{
+                margin-top:10% !important;
+            }
+     
+            #slogan{
+                margin-top:12vh !important;
+                margin-left:-6vw !important;
+                width:100vw;
+                font-size:1.7rem !important;
+            }
+                .sectionContent{
+               margin-top:-38% !important;
+                margin-left:-14% !important;
+                 width:96vw !important;
+                 color:#312f2f;
+                }
+     
+                .service{
+                    margin-left:60vh !important;
+                 width: 100vw !important;
+                }
+footer{
+margin-top: 150%;
+height:100px;
+background-color: #515252;
+color:#d8d8d8;
+}
+
+.footerLink{
+padding:0% 3% 2% 0% !important;
+
+}
+
+#footerContentLeft{
+margin-left:17% !important;
+}
+
+
+
+#footerLogo{
+margin-top:6%;
+margin-left:13% !important;
+font-size:2rem !important;
+width:100%;
+color:#dbdbdb ;
+}
+    }
+       
+
+     
+    
+
+    @media screen and (min-width:281px) and (max-width:311px){
+     body{
+        background-color: #0d494b;
+     }
+   
+        .navbar{
+            background-color: #e4e4e441;
+        }
+        .nav-menu {
+            height:53vh;
+            position: fixed;
+            left: -100%;
+            top: 3rem;
+            flex-direction: column;
+            background-color: #fff;
+            width: 100%;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow:
+                0 10px 27px rgba(0, 0, 0, 0.05);
+                z-index:1;
+        }
+    
+        .nav-menu.active {
+            left: 0;
+        }
+
+        .nav-item {
+            margin: 2.5rem 0;
+            
+        }
+    
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+.bar{
+    background-color: #3b3b3b;
+}
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+    
+        .hamburger.active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+    
+        .hamburger.active .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+.nav-logo-mobile{
+    margin-left:39% !important;
+}
+
+.nav-logo-mobile{
+    height: 50vh !important;
+}
+
+#nav-logo-desktop{
+    display:none;
+}
+        #alchBrand{
+            margin-top: -59% !important;
+            margin-left:-9% !important;
+            width:10% !important;
+            height:10% !important;
+           }
+
+        #homeLink{
+            position: absolute;
+            margin-top:-13vh !important;
+            margin-left:-17% !important;
+            color:rgb(90, 90, 90);
+        }
+
+       
+        #aboutLink{
+            position: absolute;
+            margin-top:-12vh !important;
+            margin-left:-17% !important;
+            color:rgb(90, 90, 90);
+
+        }
+
+        #bookLink{
+            margin-top:-15vh !important;
+            margin-left:-33%;
+            padding:4%;
+            background-color: #3b3b3b;
+            color:#fff;
+        }
+
+        #contactLink{
+            margin-left:-19%;
+            margin-top:-12vh;
+            color:rgb(90, 90, 90);
+        }
+
+        span{
+            color:#475569;
+        }
+    
+
+            #alchDesignLogo{
+                margin-top:-12vh !important;
+            }
+    
+           
+    
+           
+
+             #project{
+                margin-top:2% !important;
+              }
+     
+            .prev, .next {
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                width:22px !important;
+                width: auto;
+                margin-top: -22px;
+                padding: 14px;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                background-color: #77777767;
+              }
+              
+            
+              .next {
+               width:14% !important;
+                right: -30vw;
+                border-radius: 3px 0 0 3px;
+                background-color: #77777767;
+                
+              }
+              
+              /* On hover, add a black background color with a little bit see-through */
+              .prev:hover, .next:hover {
+                background-color: rgba(19, 49, 54, 0.8);
+              }
+     
+             #slide1{
+                width:37vh !important;
+            height:37vh;
+                
+            }
+
+
+            #slide2{
+                width:37vh !important;
+                height:37vh;
+            }
+
+            #slide3{
+                width:37vh !important;
+                height:37vh;
+            }
+
+            #slide4{
+                width:37vh !important;
+                height:37vh;
+            }
+
+            #slide5{
+                width:37vh !important;
+                height:37vh;
+            }
+
+            h1{
+                margin-top:40vh !important;
+                 margin-left:10% !important;
+                 font-size: 3.3rem !important;
+                 color:rgb(75, 73, 73) !important;
+                 
+             }
+
+             #about{
+                margin-top:47% !important;
+                margin-left: 13% !important;
+                width:90%;
+               color: #101010;
+               }
+
+               .addInfo{
+                margin-left:35% !important;
+               }
+             
+             #project{
+                
+                 margin-top:6%;
+                 width:70vw;
+                 height:70vh;
+                 z-index:-1;
+             }
+             
+             
+             
+             
+                #alchDesignLogo{
+                 display:none !important;
+                 margin-top:-20vh !important;
+                 width:120vw !important;
+                 height: 30vh !important;
+                }
+                 
+                
+     
+                .service{
+                 width:30vw !important;
+                }
+     
+                #slogan{
+                 position: absolute;
+                 padding: 2% 5% 2% 20% !important;
+                 margin-top:13vh !important;
+                 margin-left:8vw !important;
+                 background-color: #ffffff9d;
+                 color:#0d494b !important;
+                 font-size:2rem !important;
+                 width:100vw !important;
+                }
+
+                #logo{
+                    margin-top:15vh;
+                }
+     
+                p{
+                 margin-left:30vw!important;
+                 width:60vw !important;
+                }
+     
+                h3{
+                 margin-left:20vw !important;
+                }
+     
+               
+
+                #aboutContent{
+                   margin-top:-80% !important;
+                    margin-left:-4vw !important;
+                    width:96% !important;
+                }
+               
+#mission{
+margin-left:9% !important;
+font-size:13px;
+width:90% !important;
+}
+                #pricingContent{
+                    margin-top:5vh;
+                    margin-left:-17vw;
+                    display:flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    
+                    color:#535353;
+                }
+
+                #pricingHeader{
+                    margin-left:35vw !important;
+                    font-size:3rem !important;
+                }
+
+                #listItemOne{
+                    position: absolute;
+                    margin-top:2vh;
+                    margin-left:33vw;
+                    font-weight: bolder;
+                     
+                }
+
+            #itemOne{
+                position: absolute;
+                margin-top:6vh;
+                margin-left:16vw !important;
+                width:80% !important;
+            }
+
+            #listItemTwo{
+                position: absolute;
+                margin-top:27vh !important;
+                margin-left:30vw;
+                font-weight: bolder;
+                 
+            }
+
+        #itemTwo{
+            position: absolute;
+            margin-top:30vh;
+            margin-left:13vw !important;
+            width:80% !important;
+        }
+            .addInfo{
+                margin-top: 43vh !important;
+                margin-left:10% !important;
+                width:90% !important;
+                color:#101010;
+                font-size:1.5rem !important;
+            }
+                  
+            #newLogo{
+                position: absolute;
+                margin-top:-10vh !important;
+                margin-left:24vw !important;
+                width:60vw !important;
+                height:25vh !important;
+            }
+
+            #mission{
+                margin-top:10% !important;
+                margin-left:-1%;
+                width:87% !important;
+            }
+     
+            #slogan{
+                margin-top:22vh !important;
+                margin-left:1vw !important;
+                font-size:1.3rem !important;
+            }
+                .sectionContent{
+               margin-top:-38% !important;
+                margin-left:-14% !important;
+                 width:96vw !important;
+                 color:#312f2f;
+                }
+     
+                .service{
+                    margin-left:60vh !important;
+                 width: 100vw !important;
+                }
+footer{
+margin-top: 150%;
+height:100px;
+background-color: #515252;
+color:#d8d8d8;
+}
+
+.footerLink{
+padding:0% 3% 2% 0% !important;
+
+}
+
+#footerContentLeft{
+margin-left:17% !important;
+}
+
+
+
+#footerLogo{
+margin-top:6%;
+margin-left:13% !important;
+font-size:2rem !important;
+width:100%;
+color:#dbdbdb ;
+}
+        
+    }
+
+
+    @media screen and (min-width:312px) and (max-width:340px){
+      
+
+        .navbar{
+            background-color: #e4e4e441;
+        }
+        .nav-menu {
+            height:53vh;
+            position: fixed;
+            left: -100%;
+            top: 3rem;
+            flex-direction: column;
+            background-color: #fff;
+            width: 100%;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow:
+                0 10px 27px rgba(0, 0, 0, 0.05);
+                z-index:1;
+        }
+    
+        .nav-menu.active {
+            left: 0;
+        }
+
+        .nav-item {
+            margin: 2.5rem 0;
+            
+        }
+    
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+.bar{
+    background-color: #3b3b3b;
+}
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+    
+        .hamburger.active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+    
+        .hamburger.active .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+.nav-logo-mobile{
+    margin-left:39% !important;
+}
+
+.nav-logo-mobile{
+    height: 50vh !important;
+}
+
+#nav-logo-desktop{
+    display:none;
+}
+        #alchBrand{
+            margin-top: -59% !important;
+            margin-left:-9% !important;
+            width:10% !important;
+            height:10% !important;
+           }
+
+        #homeLink{
+            position: absolute;
+            margin-top:-13vh !important;
+            margin-left:-14% !important;
+            color:rgb(90, 90, 90);
+        }
+
+       
+        #aboutLink{
+            position: absolute;
+            margin-top:-33% !important;
+            margin-left:-14% !important;
+            color:rgb(90, 90, 90);
+
+        }
+
+        #bookLink{
+            margin-top:-15vh !important;
+            margin-left:-27%;
+            padding:4%;
+            background-color: #3b3b3b;
+            color:#fff;
+        }
+
+        #contactLink{
+            margin-left:-14%;
+            margin-top:-33%;
+            color:rgb(90, 90, 90);
+        }
+
+        span{
+            color:#475569;
+        }
+    
+
+            #alchDesignLogo{
+                margin-top:-12vh !important;
+            }
+    
+           
+    
+           
+
+             #project{
+                margin-top:2% !important;
+              }
+     
+            .prev, .next {
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                width:22px !important;
+                width: auto;
+                margin-top: -22px;
+                padding: 14px;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                background-color: #77777767;
+              }
+              
+            
+              .next {
+               width:14% !important;
+                right: -30vw;
+                border-radius: 3px 0 0 3px;
+                background-color: #77777767;
+                
+              }
+              
+              /* On hover, add a black background color with a little bit see-through */
+              .prev:hover, .next:hover {
+                background-color: rgba(19, 49, 54, 0.8);
+              }
+     
+             #slide1{
+                width:38vh !important;
+            height:40vh;
+                
+            }
+
+
+            #slide2{
+                width:38vh !important;
+                height:40vh;
+            }
+
+            #slide3{
+                width:38vh !important;
+                height:40vh;
+            }
+
+            #slide4{
+                width:38vh !important;
+                height:40vh;
+            }
+
+            #slide5{
+                width:38vh !important;
+                height:40vh;
+            }
+
+            h1{
+                margin-top:41vh !important;
+                 margin-left:22% !important;
+                 font-size: 3rem !important;
                  color:rgb(75, 73, 73) !important;
                  
              }
@@ -2923,16 +2999,43 @@ color:#dbdbdb ;
                  width:30vw !important;
                 }
      
-              
-                
+                #slogan{
+                 position: absolute;
+                 padding: 2% 5% 2% 20% !important;
+                 margin-top:13vh !important;
+                 margin-left:8vw !important;
+                 background-color: #ffffff9d;
+                 color:#0d494b !important;
+                 font-size:2rem !important;
+                 width:100vw !important;
+                }
+
+                #logo{
+                    margin-top:15vh;
+                }
+     
+                p{
+                 margin-left:30vw!important;
+                 width:60vw !important;
+                }
+     
+                h3{
+                 margin-left:20vw !important;
+                }
+     
+               
 
                 #aboutContent{
                    margin-top:-80% !important;
-                    margin-left:-6vw !important;
-                    width:100% !important;
+                    margin-left:-4vw !important;
+                    width:96% !important;
                 }
                
-
+#mission{
+margin-left:9% !important;
+font-size:13px;
+width:90% !important;
+}
                 #pricingContent{
                     margin-top:5vh;
                     margin-left:-17vw;
@@ -2944,9 +3047,8 @@ color:#dbdbdb ;
                 }
 
                 #pricingHeader{
-                    margin-top:-4%;
                     margin-left:35vw !important;
-                    font-size:3.4rem !important;
+                    font-size:3rem !important;
                 }
 
                 #listItemOne{
@@ -2960,47 +3062,49 @@ color:#dbdbdb ;
             #itemOne{
                 position: absolute;
                 margin-top:6vh;
-                margin-left:14vw !important;
+                margin-left:16vw !important;
                 width:80% !important;
             }
 
             #listItemTwo{
                 position: absolute;
-                margin-top:25vh !important;
-                margin-left:32vw;
+                margin-top:28vh !important;
+                margin-left:37vw;
                 font-weight: bolder;
                  
             }
 
         #itemTwo{
             position: absolute;
-            margin-top:30vh;
-            margin-left:15vw !important;
+            margin-top:33vh;
+            margin-left:17vw !important;
             width:80% !important;
         }
             .addInfo{
-                margin-top: 45vh !important;
-                margin-left:6% !important;
-                width:100% !important;
+                margin-top: 50vh !important;
+                margin-left:13% !important;
+                width:90% !important;
                 color:#101010;
-                font-size:1.8rem !important;
+                font-size:1.6rem !important;
             }
                   
             #newLogo{
                 position: absolute;
-                margin-top:-27vh !important;
-                margin-left:20vw !important;
-                width:60vw !important;
-                height:20vh !important;
+                margin-top:-7vh !important;
+                margin-left:24vw !important;
+                width:50vw !important;
+                height:30vh !important;
             }
 
             #mission{
-                margin-top:7%;
-                margin-left:10% !important;
-                width:90% !important
+                margin-top:10% !important;
             }
      
-           
+            #slogan{
+                margin-top:36vh !important;
+                margin-left:-3vw !important;
+                font-size:2rem !important;
+            }
                 .sectionContent{
                margin-top:-38% !important;
                 margin-left:-14% !important;
@@ -3012,32 +3116,8 @@ color:#dbdbdb ;
                     margin-left:60vh !important;
                  width: 100vw !important;
                 }
-
-                #slogan{
-                    position: absolute;
-                    padding: 2% 5% 2% 20% !important;
-                    margin-top:-5vh !important;
-                    margin-left:2vw !important;
-                    background-color: #ffffff9d;
-                    color:#0d494b !important;
-                    font-size:1.7rem !important;
-                    width:100vw !important;
-                   }
-   
-                   #logo{
-                       margin-top:15vh;
-                   }
-        
-                   p{
-                    margin-left:30vw!important;
-                    width:60vw !important;
-                   }
-        
-                   h3{
-                    margin-left:20vw !important;
-                   }
 footer{
-margin-top: 70%;
+margin-top: 150%;
 height:100px;
 background-color: #515252;
 color:#d8d8d8;
@@ -3049,32 +3129,29 @@ padding:0% 3% 2% 0% !important;
 }
 
 #footerContentLeft{
-margin-left:20% !important;
+margin-left:22% !important;
 }
 
-#footerContentRight{margin-left:20% !important;
-}
+
 
 #footerLogo{
-    margin-top:5%;
+margin-top:6%;
 margin-left:19% !important;
 font-size:2rem !important;
 width:100%;
 color:#dbdbdb ;
 }
-
     }
 
     @media screen and (min-width:341px) and (max-width:368px) {
-
-        
+   
     
      
         .navbar{
             background-color: #e4e4e441;
         }
         .nav-menu {
-            height:47vh;
+            height:50vh;
             position: fixed;
             left: -100%;
             top: 3rem;
@@ -3137,28 +3214,28 @@ color:#dbdbdb ;
         #homeLink{
             position: absolute;
             margin-top:-10vh !important;
-            margin-left:-34% !important;
+            margin-left:-14% !important;
             color:rgb(90, 90, 90);
         }
 
        
         #aboutLink{
             position: absolute;
-            margin-top:-10% !important;
-            margin-left:-34% !important;
+            margin-top:-18% !important;
+            margin-left:-14% !important;
             color:rgb(90, 90, 90);
 
         }
 
         #bookLink{
-            margin-top:-6vh !important;
-            margin-left:-39%;
+            margin-top:-8vh !important;
+            margin-left:-29%;
             background-color: #3b3b3b;
             color:#fff;
         }
 
         #contactLink{
-            margin-left:-35%;
+            margin-left:-15%;
             margin-top:-10%;
             color:rgb(90, 90, 90);
         }
@@ -3177,14 +3254,14 @@ color:#dbdbdb ;
            
 
              #project{
-                margin-top:25% !important;
+                margin-top:0% !important;
                
               }
      
             .prev, .next {
                 cursor: pointer;
                 position: absolute;
-                top: 20%;
+                top: 50%;
                 width:22px !important;
                 width: auto;
                 margin-top: -22px;
@@ -3213,47 +3290,48 @@ color:#dbdbdb ;
               }
      
              #slide1{
-                margin-top:-36%;
-                width:50vh !important;
-                height:44vh;
+                
+                width:40vh !important;
+                height:40vh;
                 
             }
 
 
             #slide2{
-                margin-top:-36%;
-                width:50vh !important;
-                height:44vh;
+              
+                width:40vh !important;
+                height:40vh;
+                
             }
 
             #slide3{
-                margin-top:-36%;
-                width:50vh !important;
-                height:44vh;
+                width:40vh !important;
+                height:40vh;
+                
             }
 
             #slide4{
-                margin-top:-36%;
-                width:50vh !important;
-                height:44vh;
+                width:40vh !important;
+                height:40vh;
+                
             }
 
             #slide5{
-                margin-top:-36%;
-                width:50vh !important;
-                height:44vh;
+                width:40vh !important;
+                height:40vh;
+                
             }
 
             h1{
-                margin-top:50vh !important;
-                 margin-left:3% !important;
-                 font-size: 4.6rem !important;
+                margin-top:40vh !important;
+                 margin-left:15% !important;
+                 font-size: 3.6rem !important;
                  color:rgb(75, 73, 73) !important;
                  
              }
 
              #about{
-                margin-top:100% !important;
+                margin-top:60% !important;
                 margin-left: 15% !important;
                color: #888181;
                }
@@ -3371,7 +3449,7 @@ color:#dbdbdb ;
                   
             #newLogo{
                 position: absolute;
-                margin-top:-20vh !important;
+                margin-top:-10vh !important;
                 margin-left:20vw !important;
                 width:60vw !important;
                 height:30vh !important;
@@ -3430,9 +3508,7 @@ color:#dbdbdb ;
     }
 
     @media screen  and (min-width:369px) and (max-width:379px){
-        body{
-            background-color: #0d494b;
-        }
+       
    
         .navbar{
             background-color: #e4e4e441;
@@ -3501,29 +3577,30 @@ color:#dbdbdb ;
         #homeLink{
             position: absolute;
             margin-top:-13vh !important;
-            margin-left:-33% !important;
+            margin-left:-13% !important;
             color:rgb(90, 90, 90);
         }
 
        
         #aboutLink{
             position: absolute;
-            margin-top:-11% !important;
-            margin-left:-33% !important;
+            margin-top:-20% !important;
+            margin-left:-13% !important;
             color:rgb(90, 90, 90);
 
         }
 
         #bookLink{
-            margin-top:-12vh !important;
-            margin-left:-38%;
+            margin-top:-9vh !important;
+            margin-left:-27%;
+            padding:4%;
             background-color: #3b3b3b;
             color:#fff;
         }
 
         #contactLink{
-            margin-left:-33%;
-            margin-top:-10%;
+            margin-left:-13%;
+            margin-top:-12%;
             color:rgb(90, 90, 90);
         }
 
@@ -3541,14 +3618,14 @@ color:#dbdbdb ;
            
 
              #project{
-                margin-top:26% !important;
-                margin-left:1%;
+                margin-top:0% !important;
+                
               }
      
             .prev, .next {
                 cursor: pointer;
                 position: absolute;
-                top: 20%;
+                top: 50%;
                 width:22px !important;
                 width: auto;
                 margin-top: -22px;
@@ -3578,47 +3655,46 @@ color:#dbdbdb ;
               }
      
              #slide1{
-                margin-top:-36%;
-                width:57vh !important;
+               
+                width:50vh !important;
                 height:45vh !important;
                 
             }
 
 
             #slide2{
-                margin-top:-36%;
-                width:57vh !important;
-                height:45vh;
+               
+                width:50vh !important;
+                height:45vh !important;
             }
 
             #slide3{
-                margin-top:-36%;
-                width:57vh !important;
-                height:45vh;
+                
+                width:50vh !important;
+                height:45vh !important;
             }
 
             #slide4{
-                margin-top:-36%;
-                width:57vh !important;
-                height:45vh;
+              
+                width:50vh !important;
+                height:45vh !important;
             }
 
             #slide5{
-                margin-top:-36%;
-                width:57vh !important;
-                height:45vh;
+                width:50vh !important;
+                height:45vh !important;
             }
 
             h1{
                 margin-top:45vh !important;
-                 margin-left:9% !important;
-                 font-size: 4.5rem !important;
+                 margin-left:19% !important;
+                 font-size: 3.5rem !important;
                  color:rgb(75, 73, 73) !important;
                  
              }
 
              #about{
-                margin-top:100% !important;
+                margin-top:90% !important;
                 margin-left: 15% !important;
                color: #101010;
                }
@@ -3726,7 +3802,7 @@ color:#dbdbdb ;
             width:80% !important;
         }
             .addInfo{
-                margin-top: 43vh !important;
+                margin-top: 48vh !important;
                 margin-left:16% !important;
                 width:100% !important;
                 color:#101010;
@@ -3735,7 +3811,7 @@ color:#dbdbdb ;
                   
             #newLogo{
                 position: absolute;
-                margin-top:-27vh !important;
+                margin-top:-13vh !important;
                 margin-left:20vw !important;
                 width:60vw !important;
                 height:30vh !important;
@@ -3748,9 +3824,9 @@ color:#dbdbdb ;
             }
      
             #slogan{
-                margin-top:15vh !important;
-                margin-left:1vw !important;
-                font-size:2rem !important;
+                margin-top:20vh !important;
+                margin-left:-6vw !important;
+                font-size:2.4rem !important;
             }
                 .sectionContent{
                margin-top:-38% !important;
@@ -3764,8 +3840,8 @@ color:#dbdbdb ;
                  width: 100vw !important;
                 }
 footer{
-margin-top: 130%;
-height:200px;
+margin-top: 135%;
+height:164px;
 background-color: #515252;
 font-size:17px;
 color:#d8d8d8;
@@ -3780,11 +3856,10 @@ padding:0% 3% 2% 0% !important;
 margin-left:22% !important;
 }
 
-#footerContentRight{margin-left:20% !important;
-}
+
 
 #footerLogo{
-    margin-top:5%;
+    margin-top:8%;
 margin-left:14% !important;
 font-size:2.7rem !important;
 width:100%;
@@ -3799,7 +3874,7 @@ color:#dbdbdb ;
             background-color: #e4e4e441;
         }
         .nav-menu {
-            height:43vh;
+            height:57vh;
             position: fixed;
             left: -100%;
             top: 3rem;
@@ -3862,29 +3937,30 @@ color:#dbdbdb ;
         #homeLink{
             position: absolute;
             margin-top:-10vh !important;
-            margin-left:-36% !important;
-            color:rgb(90, 90, 90);
+            margin-left:-10% !important;
+            color:rgb(90 90, 90);
         }
 
        
         #aboutLink{
             position: absolute;
-            margin-top:-9% !important;
-            margin-left:-36% !important;
+            margin-top:-16% !important;
+            margin-left:-10% !important;
             color:rgb(90, 90, 90);
 
         }
 
         #bookLink{
-            margin-top:-5vh !important;
-            margin-left:-40%;
+            margin-top:-6vh !important;
+            margin-left:-22%;
+            padding:2%;
             background-color: #3b3b3b;
             color:#fff;
         }
 
         #contactLink{
-            margin-left:-36%;
-            margin-top:-7%;
+            margin-left:-10%;
+            margin-top:-12%;
             color:rgb(90, 90, 90);
         }
 
@@ -3902,14 +3978,14 @@ color:#dbdbdb ;
            
 
              #project{
-                margin-top:25% !important;
+                margin-top:0% !important;
                 
               }
      
             .prev, .next {
                 cursor: pointer;
                 position: absolute;
-                top: 20%;
+                top: 50%;
                 width:22px !important;
                 width: auto;
                 margin-top: -22px;
@@ -3938,38 +4014,34 @@ color:#dbdbdb ;
               }
      
              #slide1{
-                margin-top:-36%;
-                width:53vh !important;
-                height:44vh;
+               
+                width:55vh !important;
+                height:53vh;
             }
 
 
             #slide2{
-                margin-top:-36%;
-                width:53vh !important;
-                height:44vh;
+                width:55vh !important;
+                height:53vh;
             }
 
             #slide3{
-                margin-top:-36%;
-                width:53vh !important;
-                height:44vh;
+                width:55vh !important;
+                height:53vh;
             }
 
             #slide4{
-                margin-top:-36%;
-                width:53vh !important;
-                height:44vh;
+                width:55vh !important;
+                height:53vh;
             }
 
             #slide5{
-                margin-top:-36%;
-                width:53vh !important;
-                height:44vh;
+                width:55vh !important;
+                height:53vh;
             }
 
             h1{
-                margin-top:48vh !important;
+                margin-top:54vh !important;
                  margin-left:14% !important;
                  font-size: 4rem !important;
                  color:rgb(75, 73, 73) !important;
@@ -3977,7 +4049,7 @@ color:#dbdbdb ;
              }
 
              #about{
-                margin-top:93% !important;
+                margin-top:113% !important;
                 margin-left: 13% !important;
                color: #101010;
                }
@@ -4050,6 +4122,7 @@ color:#dbdbdb ;
                 }
 
                 #pricingHeader{
+                    margin-top:-4%;
                     margin-left:35vw !important;
                     font-size:4rem !important;
                 }
@@ -4084,7 +4157,7 @@ color:#dbdbdb ;
             width:80% !important;
         }
             .addInfo{
-                margin-top: 43vh !important;
+                margin-top: 47vh !important;
                 margin-left:17% !important;
                 width:100% !important;
                 color:#101010;
@@ -4093,7 +4166,7 @@ color:#dbdbdb ;
                   
             #newLogo{
                 position: absolute;
-                margin-top:-20vh !important;
+                margin-top:-10vh !important;
                 margin-left:17vw !important;
                 width:70vw !important;
                 height:36vh !important;
@@ -4125,7 +4198,7 @@ color:#dbdbdb ;
                 }
 footer{
 margin-top: 130%;
-height:200px;
+height:150px;
 background-color: #515252;
 font-size:17px;
 color:#d8d8d8;
@@ -4159,7 +4232,7 @@ color:#dbdbdb ;
         background-color: #e4e4e441;
     }
     .nav-menu {
-        height:46vh;
+        height:55vh;
         position: fixed;
         left: -100%;
         top: 3rem;
@@ -4222,28 +4295,28 @@ display:none;
     #homeLink{
         position: absolute;
         margin-top:-10vh !important;
-        margin-left:-34% !important;
+        margin-left:-10% !important;
         color:rgb(90, 90, 90);
     }
 
    
     #aboutLink{
         position: absolute;
-        margin-top:-9% !important;
-        margin-left:-34% !important;
+        margin-top:-14% !important;
+        margin-left:-10% !important;
         color:rgb(90, 90, 90);
 
     }
 
     #bookLink{
         margin-top:-6vh !important;
-        margin-left:-39%;
+        margin-left:-20%;
         background-color: #3b3b3b;
         color:#fff;
     }
 
     #contactLink{
-        margin-left:-34%;
+        margin-left:-10%;
         margin-top:-9%;
         color:rgb(90, 90, 90);
     }
@@ -4297,44 +4370,44 @@ display:none;
           }
  
          #slide1{
-            width:50vh !important;
-            height:42vh;
+            width:56vh !important;
+            height:47vh;
             
         }
 
 
         #slide2{
-            width:50vh !important;
-            height:42vh;
+            width:56vh !important;
+            height:47vh;
             
         }
 
         #slide3{
-            width:50vh !important;
-            height:42vh;
+            width:56vh !important;
+            height:47vh;
         }
 
         #slide4{
-            width:50vh !important;
-            height:42vh;
+            width:56vh !important;
+            height:47vh;
         }
 
         #slide5{
-            width:50vh !important;
-            height:42vh;
+            width:56vh !important;
+            height:47vh;
         }
 
         h1{
-            margin-top:50vh !important;
-             margin-left:8% !important;
-             font-size: 5rem !important;
+            margin-top:53vh !important;
+             margin-left:17% !important;
+             font-size: 4rem !important;
              color:rgb(75, 73, 73) !important;
              
          }
 
          #about{
-            margin-top:95% !important;
-            margin-left: 15% !important;
+            margin-top:114% !important;
+            margin-left: 17% !important;
            color: #101010;
            }
          
@@ -4421,7 +4494,7 @@ display:none;
         #itemOne{
             position: absolute;
             margin-top:6vh;
-            margin-left:16vw !important;
+            margin-left:12vw !important;
             width:80% !important;
         }
 
@@ -4449,7 +4522,7 @@ display:none;
               
         #newLogo{
             position: absolute;
-            margin-top:-27vh !important;
+            margin-top:-7vh !important;
             margin-left:10vw !important;
             width:80vw !important;
             height:40vh !important;
@@ -4462,7 +4535,7 @@ display:none;
         }
  
         #slogan{
-            margin-top:12vh !important;
+            margin-top:10vh !important;
             margin-left:-5% !important;
             width:100% !important;
             font-size:2.4rem !important;
@@ -4480,7 +4553,7 @@ display:none;
             }
 footer{
 margin-top: 140%;
-height:220px;
+height:200px;
 background-color: #515252;
 font-size:17px;
 color:#d8d8d8;
@@ -4501,8 +4574,8 @@ font-size:1.5rem
 
 #footerLogo{
 margin-top:5%;
-margin-left:4% !important;
-font-size:4rem !important;
+margin-left:9% !important;
+font-size:3.4rem !important;
 width:100%;
 color:#dbdbdb ;
 }
@@ -4510,14 +4583,11 @@ color:#dbdbdb ;
 
 @media screen  and (min-width:450px) and (max-width:458px){
 
-    body{
-        background-color: #2e2e2e;
-    }
     .navbar{
         background-color: #e4e4e441;
     }
     .nav-menu {
-        height:37vh;
+        height:57vh;
         position: fixed;
         left: -100%;
         top: 3rem;
@@ -4580,29 +4650,29 @@ display:none;
     #homeLink{
         position: absolute;
         margin-top:-10vh !important;
-        margin-left:-12% !important;
+        margin-left:-10% !important;
         color:rgb(90, 90, 90);
     }
 
    
     #aboutLink{
         position: absolute;
-        margin-top:-20% !important;
-        margin-left:-12vw !important;
+        margin-top:-14% !important;
+        margin-left:-10% !important;
         color:rgb(90, 90, 90);
 
     }
 
     #bookLink{
         margin-top:-6vh !important;
-        margin-left:-25%;
+        margin-left:-20%;
         background-color: #3b3b3b;
         color:#fff;
     }
 
     #contactLink{
-        margin-left:-15%;
-        margin-top:-16%;
+        margin-left:-10%;
+        margin-top:-9%;
         color:rgb(90, 90, 90);
     }
 
@@ -4655,43 +4725,46 @@ display:none;
           }
  
          #slide1{
-            width:50vh !important;
-            height:38vh;
+            width:69vh !important;
+            height:47vh;
             
         }
 
 
         #slide2{
-            width:50vh !important;
-            height:38vh;
+            width:69vh !important;
+            height:47vh;
             
         }
 
         #slide3{
-            width:50vh !important;
-            height:38vh;
-            
+            width:69vh !important;
+            height:42vh;
         }
 
         #slide4{
-            width:50vh !important;
-            height:38vh;
-            
+            width:69vh !important;
+            height:42vh;
         }
 
         #slide5{
-            width:50vh !important;
-            height:38vh;
-            
+            width:69vh !important;
+            height:42vh;
         }
 
         h1{
-            margin-top:39vh !important;
-             margin-left:17% !important;
-             font-size: 4rem !important;
+            margin-top:56vh !important;
+             margin-left:22% !important;
+             font-size: 3.3rem !important;
              color:rgb(75, 73, 73) !important;
              
          }
+
+         #about{
+            margin-top:117% !important;
+            margin-left: 17% !important;
+           color: #101010;
+           }
          
          #project{
             
@@ -4741,11 +4814,7 @@ display:none;
              margin-left:20vw !important;
             }
  
-            #about{
-             margin-top:53% !important;
-             margin-left: 13% !important;
-            color: #101010;
-            }
+          
 
             #aboutContent{
                margin-top:-80% !important;
@@ -4787,31 +4856,31 @@ display:none;
         #listItemTwo{
             position: absolute;
             margin-top:25vh !important;
-            margin-left:34vw;
+            margin-left:36vw;
             font-weight: bolder;
              
         }
 
     #itemTwo{
         position: absolute;
-        margin-top:30vh;
-        margin-left:13vw !important;
+        margin-top:29vh;
+        margin-left:15vw !important;
         width:80% !important;
     }
         .addInfo{
             margin-top: 45vh !important;
-            margin-left:17% !important;
+            margin-left:14% !important;
             width:100% !important;
             color:#101010;
-            font-size:1.8rem !important;
+            font-size:2rem !important;
         }
               
         #newLogo{
             position: absolute;
-            margin-top:-24vh !important;
-            margin-left:20vw !important;
-            width:60vw !important;
-            height:20vh !important;
+            margin-top:4vh !important;
+            margin-left:10vw !important;
+            width:80vw !important;
+            height:43vh !important;
         }
 
         #mission{
@@ -4821,9 +4890,10 @@ display:none;
         }
  
         #slogan{
-            margin-top:3vh !important;
-            margin-left:1vw !important;
-            font-size:2rem !important;
+            margin-top:23vh !important;
+            margin-left:-5% !important;
+            width:100% !important;
+            font-size:2.4rem !important;
         }
             .sectionContent{
            margin-top:-38% !important;
@@ -4837,8 +4907,8 @@ display:none;
              width: 100vw !important;
             }
 footer{
-margin-top: 70%;
-height:100px;
+margin-top: 140%;
+height:150px;
 background-color: #515252;
 font-size:17px;
 color:#d8d8d8;
@@ -4850,32 +4920,30 @@ padding:0% 3% 2% 0% !important;
 }
 
 #footerContentLeft{
-margin-left:27% !important;
+margin-left:16% !important;
+font-size:1.5rem
 }
 
-#footerContentRight{margin-left:20% !important;
-}
+
 
 #footerLogo{
 margin-top:5%;
-margin-left:17% !important;
-font-size:2.7rem !important;
+margin-left:13% !important;
+font-size:3.2rem !important;
 width:100%;
 color:#dbdbdb ;
 }
 }
 
 
-@media screen  and (min-width:458px) and (max-width:480px){
+@media screen  and (min-width:459px) and (max-width:480px){
 
-    body{
-        background-color: #9c1313;
-    }
+   
     .navbar{
         background-color: #e4e4e441;
     }
     .nav-menu {
-        height:37vh;
+        height:46vh;
         position: fixed;
         left: -100%;
         top: 3rem;
@@ -4937,7 +5005,7 @@ display:none;
 
     #homeLink{
         position: absolute;
-        margin-top:-10vh !important;
+        margin-top:-12vh !important;
         margin-left:-12% !important;
         color:rgb(90, 90, 90);
     }
@@ -4952,15 +5020,15 @@ display:none;
     }
 
     #bookLink{
-        margin-top:-6vh !important;
-        margin-left:-25%;
+        margin-top:-15vh !important;
+        margin-left:-22%;
         background-color: #3b3b3b;
         color:#fff;
     }
 
     #contactLink{
-        margin-left:-15%;
-        margin-top:-16%;
+        margin-left:-13%;
+        margin-top:-20%;
         color:rgb(90, 90, 90);
     }
 
@@ -4978,7 +5046,7 @@ display:none;
        
 
          #project{
-            margin-top:1% !important;
+            margin-top:0% !important;
           }
  
         .prev, .next {
@@ -5013,44 +5081,50 @@ display:none;
           }
  
          #slide1{
-            width:51vh !important;
-            height:36vh;
+            width:72vh !important;
+            height:40vh;
             
             
         }
 
 
         #slide2{
-            width:51vh !important;
-            height:36vh;
+            width:72vh !important;
+            height:40vh;
             
         }
 
         #slide3{
-            width:51vh !important;
-            height:36vh;
+            width:72vh !important;
+            height:40vh;
             
         }
 
         #slide4{
-            width:51vh !important;
-            height:36vh;
+            width:72vh !important;
+            height:40vh;
             
         }
 
         #slide5{
-            width:51vh !important;
-            height:36vh;
+            width:72vh !important;
+            height:40vh;
             
         }
 
         h1{
-            margin-top:39vh !important;
-             margin-left:17% !important;
-             font-size: 4rem !important;
+            margin-top:43vh !important;
+             margin-left:23% !important;
+             font-size: 3.6rem !important;
              color:rgb(75, 73, 73) !important;
              
          }
+
+         #about{
+            margin-top:104% !important;
+            margin-left: 15% !important;
+           color: #101010;
+           }
          
          #project{
             
@@ -5100,11 +5174,7 @@ display:none;
              margin-left:20vw !important;
             }
  
-            #about{
-             margin-top:77% !important;
-             margin-left: 13% !important;
-            color: #101010;
-            }
+           
 
             #aboutContent{
                margin-top:-80% !important;
@@ -5124,14 +5194,14 @@ display:none;
             }
 
             #pricingHeader{
-                margin-left:35vw !important;
+                margin-left:37vw !important;
                 font-size:4rem !important;
             }
 
             #listItemOne{
                 position: absolute;
                 margin-top:2vh;
-                margin-left:33vw;
+                margin-left:37vw;
                 font-weight: bolder;
                  
             }
@@ -5146,7 +5216,7 @@ display:none;
         #listItemTwo{
             position: absolute;
             margin-top:25vh !important;
-            margin-left:34vw;
+            margin-left:39vw;
             font-weight: bolder;
              
         }
@@ -5159,7 +5229,7 @@ display:none;
     }
         .addInfo{
             margin-top: 45vh !important;
-            margin-left:17% !important;
+            margin-left:22% !important;
             width:100% !important;
             color:#101010;
             font-size:1.8rem !important;
@@ -5167,10 +5237,10 @@ display:none;
               
         #newLogo{
             position: absolute;
-            margin-top:-24vh !important;
+            margin-top:-10vh !important;
             margin-left:20vw !important;
             width:60vw !important;
-            height:20vh !important;
+            height:30vh !important;
         }
 
         #mission{
@@ -5180,7 +5250,7 @@ display:none;
         }
  
         #slogan{
-            margin-top:3vh !important;
+            margin-top:2vh !important;
             margin-left:1vw !important;
             font-size:2rem !important;
         }
@@ -5217,14 +5287,376 @@ margin-left:27% !important;
 
 #footerLogo{
 margin-top:5%;
-margin-left:17% !important;
+margin-left:20% !important;
 font-size:2.7rem !important;
 width:100%;
 color:#dbdbdb ;
 }
 }
 
-@media screen  and (min-width:480px) and (max-width:516px){
+@media screen  and (min-width:481px) and (max-width:516px){
+
+   
+    .navbar{
+        background-color: #e4e4e441;
+    }
+    .nav-menu {
+        height:42vh;
+        position: fixed;
+        left: -100%;
+        top: 3rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+            z-index:1;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+        
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+.bar{
+background-color: #3b3b3b;
+}
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+.nav-logo-mobile{
+margin-left:39% !important;
+}
+
+.nav-logo-mobile{
+height: 50vh !important;
+}
+
+#nav-logo-desktop{
+display:none;
+}
+    #alchBrand{
+        margin-top: -59% !important;
+        margin-left:-9% !important;
+        width:10% !important;
+        height:10% !important;
+       }
+
+    #homeLink{
+        position: absolute;
+        margin-top:-13vh !important;
+        margin-left:-12% !important;
+        color:rgb(90, 90, 90);
+    }
+
+   
+    #aboutLink{
+        position: absolute;
+        margin-top:-20% !important;
+        margin-left:-12vw !important;
+        color:rgb(90, 90, 90);
+
+    }
+
+    #bookLink{
+        margin-top:-16vh !important;
+        margin-left:-22%;
+        background-color: #3b3b3b;
+        color:#fff;
+    }
+
+    #contactLink{
+        margin-left:-14%;
+        margin-top:-20%;
+        color:rgb(90, 90, 90);
+    }
+
+    span{
+        color:#475569;
+    }
+
+
+        #alchDesignLogo{
+            margin-top:-12vh !important;
+        }
+
+       
+
+       
+
+         #project{
+            margin-top:0% !important;
+          }
+ 
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width:22px !important;
+            width: auto;
+            margin-top: -22px;
+            padding: 14px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            background-color: #77777767;
+          }
+          
+        
+          .next {
+           width:14% !important;
+            right: -30vw;
+            border-radius: 3px 0 0 3px;
+            background-color: #77777767;
+            
+          }
+          
+          /* On hover, add a black background color with a little bit see-through */
+          .prev:hover, .next:hover {
+            background-color: rgba(19, 49, 54, 0.8);
+          }
+ 
+         #slide1{
+          
+                width:77vh !important;
+                height:37vh;
+        }
+
+
+        #slide2{
+         
+            width:77vh !important;
+            height:37vh;
+        }
+
+        #slide3{
+          
+            width:77vh !important;
+                height:37vh;
+        }
+
+        #slide4{
+          
+            width:77vh !important;
+                height:37vh;
+        }
+
+        #slide5{
+           
+            width:77vh !important;
+            height:37vh;
+        }
+
+        h1{
+            margin-top:43vh !important;
+             margin-left:22% !important;
+             font-size: 3.7rem !important;
+             color:rgb(75, 73, 73) !important;
+             
+         }
+
+         #about{
+            margin-top:108% !important;
+            margin-left: 15% !important;
+            width:90%;
+           color: #101010;
+           }
+         
+         #project{
+            
+             margin-top:6%;
+             width:70vw;
+             height:70vh;
+             z-index:-1;
+         }
+         
+         
+         
+         
+            #alchDesignLogo{
+             display:none !important;
+             margin-top:-20vh !important;
+             width:120vw !important;
+             height: 30vh !important;
+            }
+             
+            
+ 
+            .service{
+             width:30vw !important;
+            }
+ 
+            #slogan{
+             position: absolute;
+             padding: 2% 5% 2% 20% !important;
+             margin-top:13vh !important;
+             margin-left:8vw !important;
+             background-color: #ffffff9d;
+             color:#0d494b !important;
+             font-size:1.4rem !important;
+             width:100vw !important;
+            }
+
+            #logo{
+                margin-top:15vh;
+            }
+ 
+            p{
+             margin-left:30vw!important;
+             width:60vw !important;
+            }
+ 
+            h3{
+             margin-left:20vw !important;
+            }
+ 
+            
+
+            #aboutContent{
+               margin-top:-80% !important;
+                margin-left:-4vw !important;
+                width:96% !important;
+            }
+           
+
+            #pricingContent{
+                margin-top:5vh;
+                margin-left:-17vw;
+                display:flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                
+                color:#535353;
+            }
+
+            #pricingHeader{
+                margin-top:-4%;
+                margin-left:37vw !important;
+                font-size:4rem !important;
+            }
+
+            #listItemOne{
+                position: absolute;
+                margin-top:2vh;
+                margin-left:37vw;
+                font-weight: bolder;
+                 
+            }
+
+        #itemOne{
+            position: absolute;
+            margin-top:6vh;
+            margin-left:12vw !important;
+            width:80% !important;
+        }
+
+        #listItemTwo{
+            position: absolute;
+            margin-top:25vh !important;
+            margin-left:37vw;
+            font-weight: bolder;
+             
+        }
+
+    #itemTwo{
+        position: absolute;
+        margin-top:30vh;
+        margin-left:13vw !important;
+        width:80% !important;
+    }
+        .addInfo{
+            margin-top: 45vh !important;
+            margin-left:22% !important;
+            width:100% !important;
+            color:#101010;
+            font-size:1.8rem !important;
+        }
+              
+        #newLogo{
+            position: absolute;
+            margin-top:-10vh !important;
+            margin-left:20vw !important;
+            width:60vw !important;
+            height:32vh !important;
+        }
+
+        #mission{
+            margin-top:6% !important;
+            margin-left:6% !important;
+            width:86% !important
+        }
+ 
+        #slogan{
+            margin-top:19vh !important;
+            margin-left:7vw !important;
+            font-size:2rem !important;
+        }
+            .sectionContent{
+           margin-top:-38% !important;
+            margin-left:-14% !important;
+             width:96vw !important;
+             color:#312f2f;
+            }
+ 
+            .service{
+                margin-left:60vh !important;
+             width: 100vw !important;
+            }
+footer{
+margin-top: 70%;
+height:100px;
+background-color: #515252;
+font-size:17px;
+color:#d8d8d8;
+}
+
+.footerLink{
+padding:0% 3% 2% 0% !important;
+
+}
+
+#footerContentLeft{
+margin-left:27% !important;
+}
+
+#footerContentRight{margin-left:20% !important;
+}
+
+#footerLogo{
+margin-top:5%;
+margin-left:24% !important;
+font-size:2.7rem !important;
+width:100%;
+color:#dbdbdb ;
+}
+}
+
+
+
+
+@media screen  and (min-width:517px) and (max-width:618px){
 
     body{
         background-color: #07096d;
@@ -5233,7 +5665,7 @@ color:#dbdbdb ;
         background-color: #e4e4e441;
     }
     .nav-menu {
-        height:37vh;
+        height:50vh;
         position: fixed;
         left: -100%;
         top: 3rem;
@@ -5295,7 +5727,7 @@ display:none;
 
     #homeLink{
         position: absolute;
-        margin-top:-10vh !important;
+        margin-top:-13vh !important;
         margin-left:-12% !important;
         color:rgb(90, 90, 90);
     }
@@ -5303,22 +5735,23 @@ display:none;
    
     #aboutLink{
         position: absolute;
-        margin-top:-20% !important;
+        margin-top:-15% !important;
         margin-left:-12vw !important;
         color:rgb(90, 90, 90);
 
     }
 
     #bookLink{
-        margin-top:-6vh !important;
-        margin-left:-25%;
+        margin-top:-10vh !important;
+        margin-left:-22%;
+        padding:2%;
         background-color: #3b3b3b;
         color:#fff;
     }
 
     #contactLink{
-        margin-left:-15%;
-        margin-top:-16%;
+        margin-left:-14%;
+        margin-top:-15%;
         color:rgb(90, 90, 90);
     }
 
@@ -5336,7 +5769,7 @@ display:none;
        
 
          #project{
-            margin-top:17% !important;
+            margin-top:0% !important;
           }
  
         .prev, .next {
@@ -5358,7 +5791,7 @@ display:none;
           
         
           .next {
-           width:14% !important;
+           width:10% !important;
             right: -30vw;
             border-radius: 3px 0 0 3px;
             background-color: #77777767;
@@ -5371,44 +5804,46 @@ display:none;
           }
  
          #slide1{
-            margin-left:2% !important;
-            width:48vh !important;
-            height:27vh;
-            
+          
+                width:80vh !important;
+                height:47vh;
         }
 
 
         #slide2{
-            margin-left:18% !important;
-            width:37vh !important;
-            height:26vh;
+            width:80vh !important;
+            height:47vh;
         }
 
         #slide3{
-            margin-left:25% !important;
-            width:29vh !important;
-            height:25vh;
+            width:80vh !important;
+            height:47vh;
         }
 
         #slide4{
-            margin-left:18% !important;
-            width:37vh !important;
-            height:25vh;
+            width:80vh !important;
+                height:47vh;
         }
 
         #slide5{
-            margin-left:22% !important;
-            width:34vh !important;
-            height:25vh;
+            width:80vh !important;
+            height:47vh;
         }
 
         h1{
-            margin-top:39vh !important;
-             margin-left:17% !important;
-             font-size: 4rem !important;
+            margin-top:50vh !important;
+             margin-left:25% !important;
+             font-size: 3.5rem !important;
              color:rgb(75, 73, 73) !important;
              
          }
+
+         #about{
+            margin-top:111% !important;
+            margin-left: 11% !important;
+            width:90%;
+           color: #101010;
+           }
          
          #project{
             
@@ -5439,7 +5874,7 @@ display:none;
              padding: 2% 5% 2% 20% !important;
              margin-top:13vh !important;
              margin-left:8vw !important;
-             background-color: #ffffff9d;
+            
              color:#0d494b !important;
              font-size:1.4rem !important;
              width:100vw !important;
@@ -5458,11 +5893,7 @@ display:none;
              margin-left:20vw !important;
             }
  
-            #about{
-             margin-top:53% !important;
-             margin-left: 13% !important;
-            color: #101010;
-            }
+            
 
             #aboutContent{
                margin-top:-80% !important;
@@ -5482,14 +5913,15 @@ display:none;
             }
 
             #pricingHeader{
-                margin-left:35vw !important;
+                margin-top:6%;
+                margin-left:39vw !important;
                 font-size:4rem !important;
             }
 
             #listItemOne{
                 position: absolute;
                 margin-top:2vh;
-                margin-left:33vw;
+                margin-left:40vw;
                 font-weight: bolder;
                  
             }
@@ -5497,14 +5929,14 @@ display:none;
         #itemOne{
             position: absolute;
             margin-top:6vh;
-            margin-left:12vw !important;
+            margin-left:16vw !important;
             width:80% !important;
         }
 
         #listItemTwo{
             position: absolute;
             margin-top:25vh !important;
-            margin-left:34vw;
+            margin-left:40vw;
             font-weight: bolder;
              
         }
@@ -5512,12 +5944,12 @@ display:none;
     #itemTwo{
         position: absolute;
         margin-top:30vh;
-        margin-left:13vw !important;
+        margin-left:16vw !important;
         width:80% !important;
     }
         .addInfo{
             margin-top: 45vh !important;
-            margin-left:17% !important;
+            margin-left:25% !important;
             width:100% !important;
             color:#101010;
             font-size:1.8rem !important;
@@ -5525,10 +5957,10 @@ display:none;
               
         #newLogo{
             position: absolute;
-            margin-top:-24vh !important;
+            margin-top:-10vh !important;
             margin-left:20vw !important;
             width:60vw !important;
-            height:20vh !important;
+            height:32vh !important;
         }
 
         #mission{
@@ -5538,8 +5970,8 @@ display:none;
         }
  
         #slogan{
-            margin-top:3vh !important;
-            margin-left:1vw !important;
+            margin-top:23vh !important;
+            margin-left:7vw !important;
             font-size:2rem !important;
         }
             .sectionContent{
@@ -5555,7 +5987,7 @@ display:none;
             }
 footer{
 margin-top: 70%;
-height:100px;
+height:105px;
 background-color: #515252;
 font-size:17px;
 color:#d8d8d8;
@@ -5575,7 +6007,7 @@ margin-left:27% !important;
 
 #footerLogo{
 margin-top:5%;
-margin-left:17% !important;
+margin-left:24% !important;
 font-size:2.7rem !important;
 width:100%;
 color:#dbdbdb ;
@@ -5583,365 +6015,95 @@ color:#dbdbdb ;
 }
 
 
+    
 
-
-@media screen  and (min-width:517px) and (max-width:560px){
-
-    body{
-        background-color: #cccccc;
+    h1{
+        position: absolute;
+        margin-top:15%;
+        margin-left:25%;
+       
+        font-family: 'Italianno', cursive;
+        color:rgb(255, 255, 255);
+        font-size:9rem;
+        font-weight: lighter;
+        z-index:1;
     }
-    .navbar{
-        background-color: #e4e4e441;
-    }
-    .nav-menu {
-        height:37vh;
-        position: fixed;
-        left: -100%;
-        top: 3rem;
-        flex-direction: column;
-        background-color: #fff;
-        width: 100%;
-        border-radius: 10px;
-        text-align: center;
-        transition: 0.3s;
-        box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
-            z-index:1;
-    }
-
-    .nav-menu.active {
-        left: 0;
-    }
-
-    .nav-item {
-        margin: 2.5rem 0;
+    
+    .sliderImg{
         
+        margin-top:-6%;
+        margin-left:31%;
+        width:60vw;
+        height:60vh;
+       z-index:-1;
     }
-
-    .hamburger {
-        display: block;
-        cursor: pointer;
+    
+    #project{
+       
+        margin-top:6%;
+        width:70vw;
+        height:100vh;
+        z-index:-1;
     }
-.bar{
-background-color: #3b3b3b;
-}
-    .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
+    
+    .overlay{
+        position: absolute;
+        margin-top:-34%;
+        width:100vw;
+        height:100vh;
+        background-color: rgba(95, 94, 94, 0.541);
     }
-
-    .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-
-    .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
-.nav-logo-mobile{
-margin-left:39% !important;
-}
-
-.nav-logo-mobile{
-height: 50vh !important;
-}
-
-#nav-logo-desktop{
-display:none;
-}
-    #alchBrand{
-        margin-top: -59% !important;
-        margin-left:-9% !important;
-        width:10% !important;
-        height:10% !important;
+    
+    .smOverlay{
+        position: absolute;
+        margin-top:-33%;
+        margin-left:5%;
+        z-index:-1;
+        width:90vw;
+        height:70vh;
+        background-color: rgba(51, 50, 50, 0.5);}
+        
+       
+    
+       h3{
+        font-family: 'Italianno', cursive;
+        font-weight:lighter;
+        font-size:4rem;
+        color:#363636;
        }
-
-    #homeLink{
-        position: absolute;
-        margin-top:-10vh !important;
-        margin-left:-12% !important;
-        color:rgb(90, 90, 90);
+    
+       #alchBrand{
+        margin-top:15%;
+       }
+    
+       #alchDesignLogo{
+        margin-left:30%;
+       }
+    
+       #slogan{
+        margin-top:-22%;
+        margin-left:35%;
+        color:#dbdbdb;
+        text-shadow: #fff 5%;
+       }
+    
+    #values{
+        margin-top:30%;
+        margin-left:5%;
+        background-color: #475569;
+        width:80%;
+    
     }
-
-   
-    #aboutLink{
-        position: absolute;
-        margin-top:-20% !important;
-        margin-left:-12vw !important;
-        color:rgb(90, 90, 90);
-
-    }
-
-    #bookLink{
-        margin-top:-6vh !important;
-        margin-left:-25%;
-        background-color: #3b3b3b;
-        color:#fff;
-    }
-
-    #contactLink{
-        margin-left:-15%;
-        margin-top:-16%;
-        color:rgb(90, 90, 90);
-    }
-
-    span{
-        color:#475569;
-    }
-
-
-        #alchDesignLogo{
-            margin-top:-12vh !important;
-        }
-
-       
-
-       
-
-         #project{
-            margin-top:17% !important;
-          }
- 
-        .prev, .next {
-            cursor: pointer;
-            position: absolute;
-            top: 50%;
-            width:22px !important;
-            width: auto;
-            margin-top: -22px;
-            padding: 14px;
-            color: white;
-            font-weight: bold;
-            font-size: 18px;
-            transition: 0.6s ease;
-            border-radius: 0 3px 3px 0;
-            user-select: none;
-            background-color: #77777767;
-          }
-          
+    h2{
+        margin-top:5%;
+        margin-left:40%;
+        font-family: 'Italianno', cursive;
+        color:#363636;
+        font-size:4rem;
+        font-weight: lighter;
+       }
         
-          .next {
-           width:14% !important;
-            right: -30vw;
-            border-radius: 3px 0 0 3px;
-            background-color: #77777767;
-            
-          }
-          
-          /* On hover, add a black background color with a little bit see-through */
-          .prev:hover, .next:hover {
-            background-color: rgba(19, 49, 54, 0.8);
-          }
- 
-         #slide1{
-            margin-left:2% !important;
-            width:48vh !important;
-            height:27vh;
-            
-        }
 
-
-        #slide2{
-            margin-left:18% !important;
-            width:37vh !important;
-            height:26vh;
-        }
-
-        #slide3{
-            margin-left:25% !important;
-            width:29vh !important;
-            height:25vh;
-        }
-
-        #slide4{
-            margin-left:18% !important;
-            width:37vh !important;
-            height:25vh;
-        }
-
-        #slide5{
-            margin-left:22% !important;
-            width:34vh !important;
-            height:25vh;
-        }
-
-        h1{
-            margin-top:39vh !important;
-             margin-left:17% !important;
-             font-size: 4rem !important;
-             color:rgb(75, 73, 73) !important;
-             
-         }
-         
-         #project{
-            
-             margin-top:6%;
-             width:70vw;
-             height:70vh;
-             z-index:-1;
-         }
-         
-         
-         
-         
-            #alchDesignLogo{
-             display:none !important;
-             margin-top:-20vh !important;
-             width:120vw !important;
-             height: 30vh !important;
-            }
-             
-            
- 
-            .service{
-             width:30vw !important;
-            }
- 
-            #slogan{
-             position: absolute;
-             padding: 2% 5% 2% 20% !important;
-             margin-top:13vh !important;
-             margin-left:8vw !important;
-             background-color: #ffffff9d;
-             color:#0d494b !important;
-             font-size:1.4rem !important;
-             width:100vw !important;
-            }
-
-            #logo{
-                margin-top:15vh;
-            }
- 
-            p{
-             margin-left:30vw!important;
-             width:60vw !important;
-            }
- 
-            h3{
-             margin-left:20vw !important;
-            }
- 
-            #about{
-             margin-top:53% !important;
-             margin-left: 13% !important;
-            color: #101010;
-            }
-
-            #aboutContent{
-               margin-top:-80% !important;
-                margin-left:-4vw !important;
-                width:96% !important;
-            }
-           
-
-            #pricingContent{
-                margin-top:5vh;
-                margin-left:-17vw;
-                display:flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-                
-                color:#535353;
-            }
-
-            #pricingHeader{
-                margin-left:35vw !important;
-                font-size:4rem !important;
-            }
-
-            #listItemOne{
-                position: absolute;
-                margin-top:2vh;
-                margin-left:33vw;
-                font-weight: bolder;
-                 
-            }
-
-        #itemOne{
-            position: absolute;
-            margin-top:6vh;
-            margin-left:12vw !important;
-            width:80% !important;
-        }
-
-        #listItemTwo{
-            position: absolute;
-            margin-top:25vh !important;
-            margin-left:34vw;
-            font-weight: bolder;
-             
-        }
-
-    #itemTwo{
-        position: absolute;
-        margin-top:30vh;
-        margin-left:13vw !important;
-        width:80% !important;
-    }
-        .addInfo{
-            margin-top: 45vh !important;
-            margin-left:17% !important;
-            width:100% !important;
-            color:#101010;
-            font-size:1.8rem !important;
-        }
-              
-        #newLogo{
-            position: absolute;
-            margin-top:-24vh !important;
-            margin-left:20vw !important;
-            width:60vw !important;
-            height:20vh !important;
-        }
-
-        #mission{
-            margin-top:6% !important;
-            margin-left:9% !important;
-            width:90% !important
-        }
- 
-        #slogan{
-            margin-top:3vh !important;
-            margin-left:1vw !important;
-            font-size:2rem !important;
-        }
-            .sectionContent{
-           margin-top:-38% !important;
-            margin-left:-14% !important;
-             width:96vw !important;
-             color:#312f2f;
-            }
- 
-            .service{
-                margin-left:60vh !important;
-             width: 100vw !important;
-            }
-footer{
-margin-top: 70%;
-height:100px;
-background-color: #515252;
-font-size:17px;
-color:#d8d8d8;
-}
-
-.footerLink{
-padding:0% 3% 2% 0% !important;
-
-}
-
-#footerContentLeft{
-margin-left:27% !important;
-}
-
-#footerContentRight{margin-left:20% !important;
-}
-
-#footerLogo{
-margin-top:5%;
-margin-left:17% !important;
-font-size:2.7rem !important;
-width:100%;
-color:#dbdbdb ;
-}
-}
 
     
 
@@ -6030,5 +6192,6 @@ h2{
     font-size:4rem;
     font-weight: lighter;
    }
+    
 
 
