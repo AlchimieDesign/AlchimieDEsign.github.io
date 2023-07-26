@@ -183,7 +183,7 @@ li{
 
 @media screen and (min-width:50px) and (max-width:208px){
       body{
-          background-color:red;}
+          background-color:pink;}
    
      
             .navbar{
@@ -338,7 +338,7 @@ li{
          
                  #slide1{
                    
-                    width:29vh !important;
+                    width:32vh !important;
                     height:29vh;
                     
                 }
@@ -346,7 +346,7 @@ li{
 
                 #slide2{
                     
-                    width:29vh !important;
+                    width:32vh !important;
                     height:29vh ;
                     
                    
@@ -354,21 +354,21 @@ li{
 
                 #slide3{
                   
-                    width:29vh !important;
+                    width:32vh !important;
                     height:29vh;
                     
                 }
 
                 #slide4{
                    
-                    width:29vh !important;
+                    width:32vh !important;
                     height:29vh;
                     
                 }
 
                 #slide5{
                    
-                    width:29vh !important;
+                    width:32vh !important;
                     height:29vh;
                     
                 }
