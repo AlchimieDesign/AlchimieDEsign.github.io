@@ -496,7 +496,7 @@ li{
 
                 #listItemTwo{
                     position: absolute;
-                        margin-top:33vh;
+                        margin-top:49vh;
                         margin-left:20vw;
                         font-size: 22px;
                         font-weight: bolder;
@@ -504,7 +504,7 @@ li{
 
             #itemTwo{
                 position: absolute;
-                margin-top:38vh;
+                margin-top:45vh;
                 margin-left:16vw !important;
                 width:90% !important;
             }
