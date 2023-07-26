@@ -977,16 +977,15 @@ color:#f8f8f8 !important;
 
 
 
-            @media screen and (min-width:215px) and (max-width:250px){
-               body{
-                   background-color:red;}
-          
+
+            @media screen and (min-width:218px) and (max-width:230px){
+   
 
                 .navbar{
                     background-color: #e4e4e441;
                 }
                 .nav-menu {
-                    height:50vh;
+                    height:46vh;
                     position: fixed;
                     left: -100%;
                     top: 3rem;
@@ -1162,7 +1161,7 @@ color:#f8f8f8 !important;
 
                      #about{
                         position:absolute;
-                        margin-top:-12vh !important;
+                        margin-top:-8vh !important;
                         margin-left: 17% !important;
                         width:90%;
                        color: #101010;
@@ -1257,7 +1256,7 @@ color:#f8f8f8 !important;
     
                     #listItemTwo{
                         position: absolute;
-                        margin-top:33vh !important;
+                        margin-top:36vh !important;
                         margin-left:20vw;
                         font-weight: bolder;
                          
@@ -1265,12 +1264,12 @@ color:#f8f8f8 !important;
     
                 #itemTwo{
                     position: absolute;
-                    margin-top:37vh;
+                    margin-top:40vh;
                     margin-left:12vw !important;
                     width:80% !important;
                 }
                     .addInfo{
-                        margin-top: 56vh !important;
+                        margin-top: 63vh !important;
                         margin-left:15% !important;
                         width:90% !important;
                         color:#101010;
@@ -1279,18 +1278,20 @@ color:#f8f8f8 !important;
                           
                     #newLogo{
                         position: absolute;
-                        margin-top:69vh !important;
+                        margin-top:90vh !important;
                         margin-left:22vw !important;
                         width:60vw !important;
-                        height:16vh !important;
+                        height:20vh !important;
                     }
 
                     #mission{
                         margin-top:10% !important;
+                        margin-left:4% !important;
+                        width:90% !important;
                     }
              
                     #slogan{
-                        margin-top:90vh !important;
+                        margin-top:109vh !important;
                         margin-left:1vw !important;
                         font-size:1.3rem !important;
                     }
@@ -1306,7 +1307,7 @@ color:#f8f8f8 !important;
                          width: 100vw !important;
                         }
     footer{
-        margin-top: 110vh;
+        margin-top: 140vh;
         height:100px;
         background-color: #515252;
         color:#d8d8d8;
