@@ -675,8 +675,8 @@ footer{
         }
 
         #contactLink{
-            margin-left:-49%;
-            margin-top:-58%;width:27vh !important;
+            margin-left:-40%;
+            margin-top:-62%;
             height:20vh;
             
            
@@ -742,33 +742,33 @@ footer{
      
              #slide1{
                
-                width:30vh !important;
+                width:34vh !important;
                 height:30vh;
                 
             }
 
 
             #slide2{
-                width:30vh !important;
+                width:34vh !important;
                 height:30vh;
                 
                
             }
 
             #slide3{
-                width:30vh !important;
+                width:34vh !important;
                 height:30vh;
                 
             }
 
             #slide4{
-                width:30vh !important;
+                width:34vh !important;
                 height:30vh;
                 
             }
 
             #slide5{
-                width:30vh !important;
+                width:34vh !important;
                 height:30vh;
                 
             }
@@ -784,7 +784,7 @@ footer{
              }
 
              #about{
-                margin-top:1vh !important;
+                margin-top:10vh !important;
                 margin-left: 15% !important;
                 width:90%;
                 color:#312f2f
