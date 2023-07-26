@@ -984,7 +984,8 @@ color:#f8f8f8 !important;
 
 
             @media screen and (min-width:215px) and (max-width:250px){
-
+               body{
+                   background-color:red;}
           
 
                 .navbar{
@@ -1343,7 +1344,8 @@ color:#f8f8f8 !important;
 
 
             @media screen and (min-width:251px) and (max-width:257px){
-
+body{
+    background-color:blue;}
           
             .navbar{
                 background-color: #e4e4e441;
@@ -1698,6 +1700,8 @@ footer{
              
                 }
         @media screen and (min-width:258px) and (max-width:269px){
+            body{
+                background-color:green;}
           
         
            .navbar{
@@ -2061,7 +2065,8 @@ color:#dbdbdb ;
      
 
     @media screen and (min-width:270px) and (max-width:280px){
-
+body{
+    background-color:pink;}
        
     
         .navbar{
@@ -2422,7 +2427,8 @@ color:#dbdbdb ;
     
 
     @media screen and (min-width:281px) and (max-width:311px){
-   
+   body{
+       background-color:purple;}
    
         .navbar{
             background-color: #e4e4e441;
@@ -2786,7 +2792,8 @@ color:#dbdbdb ;
 
     @media screen and (min-width:312px) and (max-width:340px){
       
-
+body{
+    background-color:yellow;}
         .navbar{
             background-color: #e4e4e441;
         }
@@ -3142,7 +3149,8 @@ color:#dbdbdb ;
     }
 
     @media screen and (min-width:341px) and (max-width:368px) {
-   
+   body{
+       background-color:brown;}
     
      
         .navbar{
@@ -3506,7 +3514,8 @@ color:#dbdbdb ;
     }
 
     @media screen  and (min-width:369px) and (max-width:379px){
-       
+       body{
+           background-color:orange;}
    
         .navbar{
             background-color: #e4e4e441;
@@ -3871,7 +3880,8 @@ color:#dbdbdb ;
 
     @media screen and (min-width:380px) and (max-width:399px){
 
-
+body{
+    background-color:515252;}
         .navbar{
             background-color: #e4e4e441;
         }
