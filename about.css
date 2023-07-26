@@ -584,9 +584,8 @@ footer{
         }
 
 
-    
-        @media screen and (min-width:209px) and (max-width:220px){
-       
+     @media screen and (min-width:209px) and (max-width:217px){
+     
 
         .navbar{
             background-color: #e4e4e441;
@@ -654,7 +653,7 @@ footer{
 
         #homeLink{
             position: absolute;
-            margin-top:-11vh !important;
+            margin-top:-14vh !important;
             margin-left:-16% !important;
             color:rgb(90, 90, 90);
         }
@@ -662,14 +661,14 @@ footer{
        
         #aboutLink{
             position: absolute;
-            margin-top:-52% !important;
+            margin-top:-56% !important;
             margin-left:-16% !important;
             color:rgb(90, 90, 90);
 
         }
 
         #bookLink{
-            margin-top:-14vh !important;
+            margin-top:-18vh !important;
             margin-left:-49% !important;
             padding:3%;
             background-color: #3b3b3b;
@@ -677,8 +676,8 @@ footer{
         }
 
         #contactLink{
-            margin-left:-56%;
-            margin-top:-50%;width:27vh !important;
+            margin-left:-49%;
+            margin-top:-58%;width:27vh !important;
             height:20vh;
             
            
@@ -744,33 +743,33 @@ footer{
      
              #slide1{
                
-                width:27vh !important;
+                width:30vh !important;
                 height:30vh;
                 
             }
 
 
             #slide2{
-                width:27vh !important;
+                width:30vh !important;
                 height:30vh;
                 
                
             }
 
             #slide3{
-                width:27vh !important;
+                width:30vh !important;
                 height:30vh;
                 
             }
 
             #slide4{
-                width:27vh !important;
+                width:30vh !important;
                 height:30vh;
                 
             }
 
             #slide5{
-                width:27vh !important;
+                width:30vh !important;
                 height:30vh;
                 
             }
@@ -786,9 +785,9 @@ footer{
              }
 
              #about{
-                margin-top:-22vh !important;
+                margin-top:1vh !important;
                 margin-left: 15% !important;
-                width:93%;
+                width:90%;
                 color:#312f2f
                
                }
@@ -831,7 +830,6 @@ footer{
                  padding: 2% 5% 2% 20% !important;
                  margin-top:13vh !important;
                  margin-left:8vw !important;
-                 background-color: #ffffff9d;
                  color:#0d494b !important;
                  font-size:2rem !important;
                  width:100vw !important;
@@ -892,7 +890,7 @@ footer{
 
             #listItemTwo{
                 position: absolute;
-                    margin-top:32vh;
+                    margin-top:34vh;
                     margin-left:22vw;
                     font-size: 22px;
                     font-weight: bolder;
@@ -900,12 +898,12 @@ footer{
 
         #itemTwo{
             position: absolute;
-            margin-top:37vh !important;
+            margin-top:38vh !important;
             margin-left:16vw !important;
             width:90% !important;
         }
             .addInfo{
-                margin-top: 56vh !important;
+                margin-top: 59vh !important;
                 margin-left:8% !important;
                 
                 
@@ -916,21 +914,21 @@ footer{
                  
             
             #mission{
-                margin-top:10% !important;
+                margin-top:13% !important;
             }
             #newLogo{
                 position: absolute;
-                margin-top:-3vh !important;
-                margin-left:17vw !important;
+                margin-top:4vh !important;
+                margin-left:14vw !important;
                 width:70vw !important;
                 height:20vh !important;
             }
      
             #slogan{
-                margin-top:-10vh !important;
+                margin-top:-6vh !important;
                margin-left:-4% !important;
                 font-size: 1.3rem !important;
-                widht:100% !important;
+              
             }
                 .sectionContent{
                margin-top:-38% !important;
