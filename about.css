@@ -181,11 +181,7 @@ li{
 
 
 
-
-
-
-
-  @media screen and (min-width:50px) and (max-width:208px){
+@media screen and (min-width:50px) and (max-width:208px){
       
    
      
@@ -582,6 +578,8 @@ footer{
                  
      
         }
+
+    
 
 
      @media screen and (min-width:209px) and (max-width:217px){
