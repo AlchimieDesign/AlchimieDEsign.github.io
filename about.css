@@ -182,7 +182,8 @@ li{
 
 
 @media screen and (min-width:50px) and (max-width:208px){
-      
+      body{
+          background-color:blue;}
    
      
             .navbar{
