@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Cormorant+Garamond:wght@300&family=Fraunces:opsz,wght@9..144,100&family=Italianno&family=Raleway:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Pinyon+Script&family=Tsukimi+Rounded:wght@300&display=swap');
+import url('https://fonts.googleapis.com/css2?family=Italianno&family=Pinyon+Script&family=Tsukimi+Rounded:wght@300&display=swap');
 
 *{
     padding:0;
@@ -192,9 +190,7 @@ li{
     @media screen and (min-width:50px) and (max-width:208px){
       
    
-     body{
-        background-color: aquamarine !important;
-     }
+   
             .navbar{
                 background-color: #e4e4e441;
             }
@@ -335,7 +331,7 @@ li{
                     
                    width:14% !important;
                    
-                    right: -34vw;
+                    right: -35vw;
                     border-radius: 3px 0 0 3px;
                     background-color: #77777793;
                     
@@ -386,7 +382,7 @@ li{
 
 
                 h1{
-                    margin-top:34vh !important;
+                    margin-top:33vh !important;
                      margin-left:10% !important;
                      font-size: 2.4rem !important;
                      width:100% !important;
@@ -395,10 +391,11 @@ li{
                  }
 
                  #about{
-                    margin-top:-19vh !important;
-                    margin-left: 15% !important;
-                    width:85% !important;
+                    margin-top:-14vh !important;
+                    margin-left: 12% !important;
+                    width:97% !important;
                     color:#ffffff;
+                    font-size:13px !important;
                    
                    
                    }
@@ -485,37 +482,38 @@ li{
                     }
 
                     #pricingHeader{
+                        margin-top:-3%;
                         margin-left:33vw !important;
-                        font-size: 3rem !important;
+                        font-size: 2.5rem !important;
                     }
 
                     #listItemOne{
                         position: absolute;
-                        margin-top:3vh;
-                        margin-left:20vw;
-                        font-size: 22px;
+                        margin-top:1vh;
+                        margin-left:26vw;
+                        font-size: 16px;
                         font-weight: bolder;
                          
                     }
 
                 #itemOne{
                     position: absolute;
-                    margin-top:8vh;
+                    margin-top:4vh;
                     margin-left:16vw !important;
                     width:90% !important;
                 }
 
                 #listItemTwo{
                     position: absolute;
-                        margin-top:35vh;
-                        margin-left:20vw;
-                        font-size: 22px;
+                        margin-top:22vh;
+                        margin-left:29vw;
+                        font-size: 16px;
                         font-weight: bolder;
                 }
 
             #itemTwo{
                 position: absolute;
-                margin-top:40vh;
+                margin-top:25vh;
                 margin-left:16vw !important;
                 width:90% !important;
             }
@@ -533,20 +531,21 @@ li{
                      
                 
                 #mission{
-                    margin-top:63vh !important;
+                    margin-top:40vh !important;
                 }
                 #newLogo{
                     position: absolute;
-                    margin-top:4vh !important;
+                    margin-top:-5vh !important;
                     margin-left:17vw !important;
                     width:70vw !important;
                     height:20vh !important;
                 }
          
                 #slogan{
-                    margin-top:-5vh !important;
-                   margin-left:-2% !important;
-                    font-size: 1rem !important;
+                    margin-top:20vh !important;
+                   margin-left:-3% !important;
+                   width:100vw;
+                    font-size: 1.2rem !important;
                 }
                     .sectionContent{
                    margin-top:-38% !important;
@@ -594,9 +593,7 @@ footer{
     
         @media screen and (min-width:209px) and (max-width:217px){
      
-body{
-    background-color: #0d494b;
-}
+
         .navbar{
             background-color: #e4e4e441;
         }
@@ -795,10 +792,11 @@ body{
              }
 
              #about{
-                margin-top:1vh !important;
-                margin-left: 15% !important;
-                width:90%;
-                color:#312f2f
+                margin-top:3vh !important;
+                margin-left: 10% !important;
+                width:97%;
+                color:#312f2f;
+                font-size:15px;
                
                }
 
@@ -878,43 +876,44 @@ body{
                 }
 
                 #pricingHeader{
+                    margin-top:-7%;
                     margin-left:33vw !important;
                     font-size: 3rem !important;
                 }
 
                 #listItemOne{
                     position: absolute;
-                    margin-top:3vh;
-                    margin-left:20vw;
-                    font-size: 22px;
+                    margin-top:1vh;
+                    margin-left:25vw;
+                    font-size: 18px;
                     font-weight: bolder;
                      
                 }
 
             #itemOne{
                 position: absolute;
-                margin-top:7vh;
-                margin-left:13vw !important;
+                margin-top:5vh;
+                margin-left:17vw !important;
                 width:90% !important;
             }
 
             #listItemTwo{
                 position: absolute;
-                    margin-top:34vh;
-                    margin-left:22vw;
-                    font-size: 22px;
+                    margin-top:26vh;
+                    margin-left:28vw;
+                    font-size: 18px;
                     font-weight: bolder;
             }
 
         #itemTwo{
             position: absolute;
-            margin-top:38vh !important;
+            margin-top:30vh !important;
             margin-left:16vw !important;
             width:90% !important;
         }
             .addInfo{
-                margin-top: 59vh !important;
-                margin-left:8% !important;
+                margin-top: 49vh !important;
+                margin-left:12% !important;
                 
                 
                 width:90% !important;
@@ -925,17 +924,18 @@ body{
             
             #mission{
                 margin-top:13% !important;
-            }
+                margin-left:17% !important;
+            width:70% !important;            }
             #newLogo{
                 position: absolute;
-                margin-top:4vh !important;
+                margin-top:1vh !important;
                 margin-left:14vw !important;
                 width:70vw !important;
                 height:20vh !important;
             }
      
             #slogan{
-                margin-top:-6vh !important;
+                margin-top:-9vh !important;
                margin-left:-4% !important;
                 font-size: 1.3rem !important;
               
@@ -989,9 +989,7 @@ color:#f8f8f8 !important;
 
             @media screen and (min-width:218px) and (max-width:230px){
 
-                body{
-                    background-color: chartreuse;
-                }
+              
    
 
                 .navbar{
@@ -1352,9 +1350,7 @@ color:#f8f8f8 !important;
 
 
             @media screen and (min-width:231px) and (max-width:240px){
-                body{
-                    background-color: #5e474741;
-                }
+                
 
           
             .navbar{
@@ -1537,6 +1533,7 @@ color:#f8f8f8 !important;
                     margin-left: 15% !important;
                     width:85%;
                    color: #101010;
+                   font-size:14px;
                    }
                  
                  #project{
@@ -1613,13 +1610,13 @@ color:#f8f8f8 !important;
                     #pricingHeader{
                         margin-top:-10%;
                         margin-left:35vw !important;
-                        font-size:3rem !important;
+                        font-size:2rem !important;
                     }
 
                     #listItemOne{
                         position: absolute;
                         margin-top:2vh;
-                        margin-left:30vw;
+                        margin-left:25vw;
                         font-weight: bolder;
                          
                     }
@@ -1711,9 +1708,7 @@ footer{
                 }
         @media screen and (min-width:241px) and (max-width:246px){
           
-            body{
-                background-color: coral;
-            }
+          
         
            .navbar{
             background-color: #e4e4e441;
@@ -2077,10 +2072,7 @@ color:#dbdbdb ;
 
     @media screen and (min-width:247px) and (max-width:266px){
 
-       body{
-        background-color: darkgoldenrod;
-       }
-    
+      
         .navbar{
             background-color: #e4e4e441;
         }
@@ -2379,7 +2371,7 @@ width:90% !important;
                   
             #newLogo{
                 position: absolute;
-                margin-top:-12vh !important;
+                margin-top:-7vh !important;
                 margin-left:17vw !important;
                 width:60vw !important;
                 height:22vh !important;
@@ -2439,9 +2431,7 @@ color:#dbdbdb ;
 
     @media screen and (min-width:267px) and (max-width:294px){
    
-   body{
-    background-color: crimson;
-   }
+   
         .navbar{
             background-color: #e4e4e441;
         }
@@ -2613,7 +2603,7 @@ color:#dbdbdb ;
 
             h1{
                 margin-top:38vh !important;
-                 margin-left:12% !important;
+                 margin-left:8% !important;
                  font-size: 3.3rem !important;
                  color:rgb(75, 73, 73) !important;
                  
@@ -2720,7 +2710,7 @@ width:90% !important;
 
             #listItemTwo{
                 position: absolute;
-                margin-top:27vh !important;
+                margin-top:31vh !important;
                 margin-left:30vw;
                 font-weight: bolder;
                  
@@ -2728,12 +2718,12 @@ width:90% !important;
 
         #itemTwo{
             position: absolute;
-            margin-top:30vh;
+            margin-top:34vh;
             margin-left:13vw !important;
             width:80% !important;
         }
             .addInfo{
-                margin-top: 48vh !important;
+                margin-top: 52vh !important;
                 margin-left:10% !important;
                 width:90% !important;
                 color:#101010;
@@ -2743,7 +2733,7 @@ width:90% !important;
             #newLogo{
                 position: absolute;
                 margin-top:-10vh !important;
-                margin-left:22vw !important;
+                margin-left:20vw !important;
                 width:60vw !important;
                 height:25vh !important;
             }
@@ -2755,7 +2745,7 @@ width:90% !important;
             }
      
             #slogan{
-                margin-top:22vh !important;
+                margin-top:17vh !important;
                 margin-left:1vw !important;
                 font-size:1.3rem !important;
             }
@@ -2799,10 +2789,8 @@ color:#dbdbdb ;
     }
 
 
-    @media screen and (min-width:295px) and (max-width:348px){
-      body{
-        background-color: darkolivegreen;
-      }
+    @media screen and (min-width:295px) and (max-width:304px){
+    
 
         .navbar{
             background-color: #e4e4e441;
@@ -2986,10 +2974,11 @@ color:#dbdbdb ;
              }
 
              #about{
-                margin-top:64% !important;
+                margin-top:62% !important;
                 margin-left: 11% !important;
-                width:90%;
+                width:96%;
                color: #101010;
+               font-size:15px !important; 
                }
              
              #project{
@@ -3120,9 +3109,9 @@ width:90% !important;
             }
      
             #slogan{
-                margin-top:20vh !important;
-                margin-left:-3vw !important;
-                font-size:2rem !important;
+                margin-top:18vh !important;
+                margin-left:4vw !important;
+                font-size:1.4rem !important;
             }
                 .sectionContent{
                margin-top:-38% !important;
@@ -3162,10 +3151,8 @@ color:#dbdbdb ;
 }
     }
 
-    @media screen and (min-width:349px) and (max-width:369px) {
+    @media screen and (min-width:304px) and (max-width:342px) {
    
-    body{
-        background-color:#0d494b;}
     
      
         .navbar{
@@ -3345,7 +3332,7 @@ color:#dbdbdb ;
 
             h1{
                 margin-top:40vh !important;
-                 margin-left:15% !important;
+                 margin-left:10% !important;
                  font-size: 3.6rem !important;
                  color:rgb(75, 73, 73) !important;
                  
@@ -3354,6 +3341,7 @@ color:#dbdbdb ;
              #about{
                 margin-top:68% !important;
                 margin-left: 15% !important;
+                
                color: #888181;
                }
              
@@ -3386,7 +3374,7 @@ color:#dbdbdb ;
                  padding: 2% 5% 2% 20% !important;
                  margin-top:13vh !important;
                  margin-left:8vw !important;
-                 background-color: #ffffff9d;
+                
                  color:#0d494b !important;
                  font-size:1.4rem !important;
                  width:100vw !important;
@@ -3425,9 +3413,9 @@ color:#dbdbdb ;
                 }
 
                 #pricingHeader{
-                    margin-top:-20%;
+                    margin-top:-26%;
                     margin-left:35vw !important;
-                    font-size:4rem !important;
+                    font-size:3rem !important;
                    
                 }
 
@@ -3462,10 +3450,10 @@ color:#dbdbdb ;
         }
             .addInfo{
                 margin-top: 44vh !important;
-                margin-left:5% !important;
+                margin-left:15% !important;
                 width:100% !important;
                 color:#555555;
-                font-size:2rem !important;
+                font-size:1.3rem !important;
             }
                   
             #newLogo{
@@ -3478,13 +3466,13 @@ color:#dbdbdb ;
 
             #mission{
                 margin-top:7%;
-                margin-left:9% !important;
-                width:90% !important
+                margin-left:12% !important;
+                width:86% !important
             }
      
             #slogan{
-                margin-top:24vh !important;
-                margin-left:1vw !important;
+                margin-top:18vh !important;
+                margin-left:-3vw !important;
                 font-size:2rem !important;
             }
                 .sectionContent{
@@ -3528,12 +3516,9 @@ color:#dbdbdb ;
 
     }
 
-    @media screen  and (min-width:370px) and (max-width:376px){
+    @media screen  and (min-width:342px) and (max-width:376px){
        
-        body{
-            background-color: darkseagreen;
-        }
-   
+       
         .navbar{
             background-color: #e4e4e441;
         }
@@ -3715,14 +3700,14 @@ color:#dbdbdb ;
 
             h1{
                 margin-top:38vh !important;
-                 margin-left:19% !important;
-                 font-size: 3.5rem !important;
+                 margin-left:20% !important;
+                 font-size: 3rem !important;
                  color:rgb(75, 73, 73) !important;
                  
              }
 
              #about{
-                margin-top:68% !important;
+                margin-top:62% !important;
                 margin-left: 15% !important;
                color: #101010;
                }
@@ -3796,13 +3781,13 @@ color:#dbdbdb ;
                 #pricingHeader{
                     margin-top:-4%;
                     margin-left:35vw !important;
-                    font-size:4rem !important;
+                    font-size:3rem !important;
                 }
 
                 #listItemOne{
                     position: absolute;
                     margin-top:2vh;
-                    margin-left:33vw;
+                    margin-left:31vw;
                     font-weight: bolder;
                      
                 }
@@ -3824,7 +3809,7 @@ color:#dbdbdb ;
 
         #itemTwo{
             position: absolute;
-            margin-top:30vh;
+            margin-top:29vh;
             margin-left:15vw !important;
             width:80% !important;
         }
@@ -3853,7 +3838,7 @@ color:#dbdbdb ;
             #slogan{
                 margin-top:24vh !important;
                 margin-left:-6vw !important;
-                font-size:2.4rem !important;
+                font-size:2rem !important;
             }
                 .sectionContent{
                margin-top:-38% !important;
@@ -3896,9 +3881,7 @@ color:#dbdbdb ;
 
     @media screen and (min-width:377px) and (max-width:405px){
 
-body{
-    background-color: #0d494b;
-}
+
         .navbar{
             background-color: #e4e4e441;
         }
@@ -4256,9 +4239,7 @@ color:#dbdbdb ;
 
     }
 @media screen and (min-width:406px) and (max-width:449px){
-    body{
-        background-color: #f11684;
-    }
+   
    
     .navbar{
         background-color: #e4e4e441;
@@ -4616,9 +4597,7 @@ color:#dbdbdb ;
 
 @media screen  and (min-width:450px) and (max-width:460px){
 
-    body{
-        background-color: #475569;
-    }
+    
 
     .navbar{
         background-color: #e4e4e441;
@@ -4694,7 +4673,7 @@ display:none;
    
     #aboutLink{
         position: absolute;
-        margin-top:-33% !important;
+        margin-top:-30% !important;
         margin-left:-10% !important;
         color:rgb(90, 90, 90);
 
@@ -4798,7 +4777,7 @@ display:none;
          }
 
          #about{
-            margin-top:77% !important;
+            margin-top:87% !important;
             margin-left: 14% !important;
             width:90%;
            color: #101010;
@@ -4977,13 +4956,8 @@ color:#dbdbdb ;
 
 @media screen  and (min-width:460px) and (max-width:480px){
 
-   body{
-
-    background-color: blueviolet;
-   }
-    .navbar{
-        background-color: #e4e4e441;
-    }
+  
+    
     .nav-menu {
         height:46vh;
         position: fixed;
@@ -5337,9 +5311,7 @@ color:#dbdbdb ;
 }
 
 @media screen  and (min-width:481px) and (max-width:516px){
-body{
-    background-color: #475569;
-}
+
    
     .navbar{
         background-color: #e4e4e441;
@@ -5701,9 +5673,7 @@ color:#dbdbdb ;
 
 @media screen  and (min-width:517px) and (max-width:568px){
 
-   body{
-    background-color: #0d494b;
-   }
+ 
     .navbar{
         background-color: #e4e4e441;
     }
@@ -5875,7 +5845,7 @@ display:none;
 
         h1{
             margin-top:37vh !important;
-             margin-left:25% !important;
+             margin-left:23% !important;
              font-size: 3.6rem !important;
              color:rgb(75, 73, 73) !important;
              
@@ -5957,14 +5927,14 @@ display:none;
 
             #pricingHeader{
                 margin-top:-2%;
-                margin-left:46vw !important;
+                margin-left:38vw !important;
                 font-size:4rem !important;
             }
 
             #listItemOne{
                 position: absolute;
                 margin-top:2vh;
-                margin-left:48vw;
+                margin-left:38vw;
                 font-weight: bolder;
                  
             }
@@ -5972,27 +5942,27 @@ display:none;
         #itemOne{
             position: absolute;
             margin-top:6vh;
-            margin-left:19vw !important;
+            margin-left:17vw !important;
             width:80% !important;
         }
 
         #listItemTwo{
             position: absolute;
-            margin-top:18vh !important;
-            margin-left:48vw;
+            margin-top:20vh !important;
+            margin-left:38vw;
             font-weight: bolder;
              
         }
 
     #itemTwo{
         position: absolute;
-        margin-top:23vh;
-        margin-left:19vw !important;
+        margin-top:24vh;
+        margin-left:16vw !important;
         width:80% !important;
     }
         .addInfo{
             margin-top: 36vh !important;
-            margin-left:25% !important;
+            margin-left:23% !important;
             width:100% !important;
             color:#101010;
             font-size:2rem !important;
@@ -6008,8 +5978,8 @@ display:none;
 
         #mission{
             margin-top:6% !important;
-            margin-left:9% !important;
-            width:90% !important
+            margin-left:12% !important;
+            width:86% !important
         }
  
         #slogan{
@@ -6060,8 +6030,7 @@ color:#dbdbdb ;
 @media screen and (min-width:569px) and (max-width:588px){
     body{
         font-family: 'Tsukimi Rounded', sans-serif;
-        background-color: #0d494b;
-
+        
         
     }
     header{
