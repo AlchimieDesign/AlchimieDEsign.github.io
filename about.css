@@ -6022,14 +6022,99 @@ margin-left:27% !important;
 
 #footerLogo{
 margin-top:5%;
-margin-left:24% !important;
+margin-left:24% !important;h1{
+    position: absolute;
+    margin-top:15%;
+    margin-left:25%;
+   
+    font-family: 'Italianno', cursive;
+    color:rgb(255, 255, 255);
+    font-size:9rem;
+    font-weight: lighter;
+    z-index:1;
+}
+
+.sliderImg{
+    
+    margin-top:-6%;
+    margin-left:31%;
+    width:60vw;
+    height:60vh;
+   z-index:-1;
+}
+
+#project{
+   
+    margin-top:6%;
+    width:70vw;
+    height:100vh;
+    z-index:-1;
+}
+
+.overlay{
+    position: absolute;
+    margin-top:-34%;
+    width:100vw;
+    height:100vh;
+    background-color: rgba(95, 94, 94, 0.541);
+}
+
+.smOverlay{
+    position: absolute;
+    margin-top:-33%;
+    margin-left:5%;
+    z-index:-1;
+    width:90vw;
+    height:70vh;
+    background-color: rgba(51, 50, 50, 0.5);}
+    
+   
+
+   h3{
+    font-family: 'Italianno', cursive;
+    font-weight:lighter;
+    font-size:4rem;
+    color:#363636;
+   }
+
+   #alchBrand{
+    margin-top:15%;
+   }
+
+   #alchDesignLogo{
+    margin-left:30%;
+   }
+
+   #slogan{
+    margin-top:-22%;
+    margin-left:35%;
+    color:#dbdbdb;
+    text-shadow: #fff 5%;
+   }
+
+#values{
+    margin-top:30%;
+    margin-left:5%;
+    background-color: #475569;
+    width:80%;
+
+}
+h2{
+    margin-top:5%;
+    margin-left:40%;
+    font-family: 'Italianno', cursive;
+    color:#363636;
+    font-size:4rem;
+    font-weight: lighter;
+   }
+    
 font-size:2.7rem !important;
 width:100%;
 color:#dbdbdb ;
 }
 }
 
-@media screen and (min-width:569px) and (max-width:588px){
+@media screen and (min-width:569px) {
     body{
         font-family: 'Tsukimi Rounded', sans-serif;
         
