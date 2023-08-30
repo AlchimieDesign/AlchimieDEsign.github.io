@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Tsukimi+Rounded:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Raleway:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Cormorant+Garamond:wght@300&family=Fraunces:opsz,wght@9..144,100&family=Raleway:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Cormorant+Garamond:wght@300&family=Fraunces:opsz,wght@9..144,100&family=Italianno&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Cormorant+Garamond:wght@300&family=Fraunces:opsz,wght@9..144,100&family=Italianno&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Pinyon+Script&family=Tsukimi+Rounded:wght@300&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Pinyon+Script&family=Tsukimi+Rounded:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Pinyon+Script&family=Tsukimi+Rounded:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Italianno&family=Pinyon+Script&family=Tsukimi+Rounded:wght@300&display=swap');
 
 *{
@@ -21,7 +34,7 @@ li{
         justify-content: space-between;
         align-items: center;
         padding: 1rem 1.5rem;
-        background-color: #d8d8d8;
+        background-color: #f3f3f3;
         font-size:2rem;
     } 
 .nav-logo-mobile{
@@ -37,7 +50,7 @@ li{
         position: absolute;
         margin-left:27%;
         margin-top:-3%;
-        background-color: #fff;
+        background-color: #ffffff;
         padding: 1% 1% 1% 1%;
         font-size:1rem;
        
@@ -110,11 +123,499 @@ li{
         margin-top:-2%;
         margin-left:20%;
     }
-    @media screen and (min-width:50px) and (max-width:199px){
+
+    .typewriter h1 {
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid rgba(230, 230, 230, 0); /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+       /* Adjust as needed */
+        animation: 
+          typing 3.5s steps(40, end),
+          blink-caret .75s step-end infinite;
+      }
+      
+      /* The typing effect */
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+
+      /* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  #aboutHeader{
+      margin-top:40vh !important;
+      margin-left:-3vw !important;
+      width:90vw !important;
+  }
+  
+  small{
+      font-size:8.10px !important;
+      width:20% !important;
+      padding:7% !important;
+      
+  }
+  
+  .details{
+      width:20px !important;
+      color:rgb(73, 73, 73);
+  }
+  
+  .slideshow-container{
+      margin-top:6vh !important;
+  }
+
+  @media screen and (min-width:50px) and (max-width:113px){
+   
+
+   header{
+    height:20vh;
+background-image: url("img/smoke-show-2.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+    
+}
+
+nav{
+    height:10%;
+    background-color: rgba(223, 220, 220, 0.582);
+    color:#f2f2f2;
+}
+
+.nav-link{
+    color:#ffffff;
+}
+.navbar{
+    background-color: #e4e4e4cc;
+}
+        .nav-menu {
+            position: fixed;
+            left: -100%;
+            top: 3rem;
+            flex-direction: column;
+            background-color: #fff;
+            width: 100%;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow:
+                0 10px 27px rgba(0, 0, 0, 0.05);
+                z-index:1 !important;
+               
+        }
+    
+        .nav-menu.active {
+            left: 0;
+        }
+
+        .nav-item {
+            font-size:1rem;
+            color:#ffffff;
+            margin: 2.5rem 0;
+            
+        }
+    
+        .hamburger {
+            display: block;
+            cursor: pointer;
+            position: fixed;
+        }
+.bar{
+    background-color: #3b3b3b;
+   
+}
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+    
+        .hamburger.active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+    
+        .hamburger.active .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+.nav-logo-mobile{
+    margin-left:39% !important;
+}
+
+.nav-logo-mobile{
+    height: 50vh !important;
+}
+
+#nav-logo-desktop{
+    display:none;
+}
+        #alchBrand{
+            margin-top: -59% !important;
+            margin-left:-9% !important;
+            width:10% !important;
+            height:10% !important;
+            color:#ffffff;
+            font-size:1rem;
+           }
+
+        #homeLink{
+            position: absolute;
+            margin-top:-30%;
+            margin-left:-15% !important;
+           
+            color:#ffffff;
+            font-size:1rem;
+        }
+
+        #projectLink{
+            position: absolute;
+            margin-top:-5%;
+            margin-left:-15% !important;
+            color:#ffffff;
+            font-size:1rem;
+        }
+
+        #aboutLink{
+            position: absolute;
+            margin-top:-20%;
+            margin-left:-15% !important;
+            color:#ffffff;
+            font-size:1rem;
+        }
+
+        #bookLink{
+          
+           
+            margin-left:-39%;
+            background-color: #3b3b3b;
+            color:#fff;
+        }
+
+        #contactLink{
+            margin-left:-15%;
+            margin-top:-6%;
+            color:#ffffff;
+            font-size:1rem;
+        }
+
+        span{
+            color:#475569;
+        }
+
+    #alchDesignLogo{
+        margin-top:-12vh !important;
+    }
+
+.nav-logo-mobile{
+    height: 50vh !important;
+}
+
+h1{
+    position: absolute;
+    margin-top:6vh !important;
+    margin-left:2vw !important;
+    font-size:.9rem;
+   font-family: 'Italianno', cursive;
+    color:rgb(255, 255, 255);
+   
+}
+
+#desktopTitle{
+    display:none;
+}
+
+#websites{
+    display:none;
+    margin-top:20%;
+}
+
+.sampleImg{
+    
+    display:flex;
+    padding:4%;
+    width:90%;
+    height:120px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    z-index:1;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    display:none;
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+#details{
+position: absolute;
+margin-top:13vh !important;
+margin-left:1vw !important;
+width:87vw !important;
+font-size:9px !important;
+
+}
+
+
+
+
+
+#explore{
+margin-top:1vh !important;
+}
+
+h2{
+    position: absolute;
+    margin-top:20vh !important;
+    margin-left:30%;
+    font-size: 1.4em;
+    color:rgb(63, 61, 61);
+    font-family: 'Italianno', cursive;
+    
+}
+
+h3{
+    margin-left:14vw !important;
+    font-size: 1.4em;
+    font-weight: lighter;
+    color:rgb(63, 61, 61);
+    font-family: 'Italianno', cursive;
+
+}
+
+#aboutHeader{
+    margin-top:20vh !important;
+    margin-left:9vw !important;
+    font-weight: lighter;
+    font-size:1.2rem;
+}
+
+#contact{
+    position:absolute;
+    margin-top:23vh !important;
+    margin-left:12vw !important;
+    width:50vw;
+    font-size:0.6rem !important;
+    padding:0% 10% 0% 10%;
+    background-color: #3b3b3b;
+    color:#ffffff;
+    border-radius: 25px;
+    
+    
+    }
+
+#aboutContent{
+  position: relative;
+    margin-top:28vh !important;
+    margin-left:10vw !important;
+    width:87vw !important;
+}
+#pricing{
+    margin-top:4vh !important;
+}
+
+.pricingHeader{
+    margin-top:-4vh !important;
+    margin-left:10vw !important;
+    font-size:1.6rem;
+    font-family: 'Italianno', cursive;
+    color:#535353;
+    font-weight: lighter;
+    padding:3%;
+
+}
+
+.itemContent{
+    padding:2%;
+    font-size:10px;
+    width:84vw;
+    
+}
+
+#impact{
+    font-size:.70rem;
+    font-weight: lighter;
+    color:#393a3a;
+}
+
+.itemHeader{
+    font-size:1.2rem;
+}
+
+h3{
+   
+    width:100%;
+
+}
+
+h4{
+    margin-top:-4vh !important;
+    margin-left:10vw !important;
+    font-size:1.6rem;
+    font-family: 'Italianno', cursive;
+    color:#535353;
+    font-weight: lighter;
+    padding:3%;
+
+}
+
+footer{
+    margin-top:8vh !important;
+}
+  }
+    @media screen and (min-width:114px) and (max-width:133px){
+
+       
         
         header{
-            height:36vh;
-       background-image: url("img/smoke-show.png");
+            height:26vh;
+       background-image: url("img/smoke-show-2.jpg");
        background-repeat: no-repeat;
        background-position: center;
        background-size: cover;
@@ -123,17 +624,17 @@ li{
     
         nav{
             height:10%;
-            background-color: rgba(233, 233, 233, 0.199);
+            background-color: rgb(250, 250, 250);
         }
         .navbar{
-            background-color: #e4e4e441;
+            background-color: #e4e4e4a9;
         }
                 .nav-menu {
                     position: fixed;
                     left: -100%;
                     top: 3rem;
                     flex-direction: column;
-                    background-color: #fff;
+                    background-color: #ffffff;
                     width: 100%;
                     border-radius: 10px;
                     text-align: center;
@@ -155,9 +656,11 @@ li{
                 .hamburger {
                     display: block;
                     cursor: pointer;
+                    position: fixed;
                 }
         .bar{
             background-color: #3b3b3b;
+           
         }
                 .hamburger.active .bar:nth-child(2) {
                     opacity: 0;
@@ -192,33 +695,40 @@ li{
                     position: absolute;
                     margin-top:-30%;
                     margin-left:-15% !important;
-                    color:rgb(126, 126, 126);
+                    font-size:1rem;
+                    color:rgb(255, 255, 255);
                 }
         
                 #projectLink{
                     position: absolute;
                     margin-top:-5%;
                     margin-left:-15% !important;
-                    color:rgb(204, 206, 206);
+                    font-size:1rem;
+                    color:rgb(255, 255, 255);
                 }
         
                 #aboutLink{
                     position: absolute;
                     margin-top:-20%;
                     margin-left:-15% !important;
-                    color:rgb(126, 126, 126);
+                    font-size:1rem;
+                    color:rgb(255, 255, 255);
                 }
         
                 #bookLink{
+                  display:none;
+                   
                     margin-left:-39%;
                     background-color: #3b3b3b;
                     color:#fff;
+
                 }
         
                 #contactLink{
                     margin-left:-15%;
                     margin-top:-6%;
-                    color:rgb(126, 126, 126);
+                    font-size:1rem;
+                    color:rgb(255, 255, 255);
         
                 }
         
@@ -236,12 +746,12 @@ li{
         
         h1{
             position: absolute;
-            margin-top:58%;
-            margin-left:14%;
+            margin-top:9vh !important;
+            margin-left:6vw !important;
+            font-size:1rem;
+           font-family: 'Italianno', cursive;
+            color:rgb(255, 255, 255);
            
-            font-family: 'Italianno', cursive;
-            color:rgb(53, 53, 53);
-            font-size:1.3rem;
         }
 
         #desktopTitle{
@@ -249,28 +759,185 @@ li{
         }
     
         #websites{
+            display:none;
             margin-top:20%;
         }
     
         .sampleImg{
+            
             display:flex;
             padding:4%;
             width:90%;
             height:120px;
         }
-    
+
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            
+          }
+          
+          /* Position the "next button" to the right */
+          .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+          }
+          
+          /* On hover, add a black background color with a little bit see-through */
+          .prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+          }
+          
+          /* Caption text */
+          .text {
+            margin-left:-10%;
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+          }
+          
+          /* Number text (1/3 etc) */
+          .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+          }
+          
+          /* The dots/bullets/indicators */
+          .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+          }
+          
+          .active, .dot:hover {
+            background-color: #717171;
+          }
+          
+          /* Fading animation */
+          .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+          }
+          
+          @keyframes fade {
+            from {opacity: .4}
+            to {opacity: 1}
+          }
+#details{
+    position: absolute;
+    margin-top:16vh !important;
+margin-left:1vw !important;
+    width:87vw !important;
+    font-size:11px !important;
+   
+}
+
+#contact{
+   position:absolute;
+    margin-top:29vh !important;
+    margin-left:10vw !important;
+    width:50vw;
+    font-size:0.6rem !important;
+    padding:0% 10% 0% 10%;
+    background-color: #3b3b3b;
+    color:#ffffff;
+    border-radius: 25px;
+}
+
+
+       
+    #explore{
+        margin-top:1vh !important;
+    }
+
         h2{
             position: absolute;
-            margin-top:-13%;
+            margin-top:20vh !important;
             margin-left:30%;
-            font-size: 2em;
-            color:rgb(110, 110, 110);
+            font-size: 1.4em;
+            color:rgb(63, 61, 61);
             font-family: 'Italianno', cursive;
             
         }
 
         h3{
+            margin-left:14vw !important;
+            font-size: 1.4em;
+            font-weight: lighter;
+            color:rgb(63, 61, 61);
+            font-family: 'Italianno', cursive;
+
+        }
+
+        #aboutHeader{
+            margin-top:28vh !important;
+            margin-left:9vw !important;
+            font-weight: lighter;
+            font-size:1.2rem;
+        }
+
+        #aboutContent{
+          position: relative;
+            margin-top:34vh !important;
+            margin-left:10vw !important;
+            width:87vw !important;
+        }
+        #pricing{
+            margin-top:6vh !important;
+        }
+
+        #pricingHeader{
+            margin-top:-4vh !important;
+            margin-left:27vw !important;
+            font-size:2rem;
+            font-family: 'Italianno', cursive;
+            color:#535353;
+            font-weight: lighter;
+
+        }
+
+        #impact{
+            font-size:.70rem;
+            font-weight: lighter;
+            color:#393a3a;
+        }
+
+        h3{
             width:100%;
+        }
+
+        h4{
+            margin-left:14vw !important;
+            font-size: 1.4em;
+            font-weight: lighter;
+            color:rgb(63, 61, 61);
+            font-family: 'Italianno', cursive;
+        }
+
+        footer{
+            margin-top:8vh !important;
         }
     }
     
@@ -278,19 +945,20 @@ li{
     
 
 
-    @media screen and (min-width:200px) and (max-width:239px){
+    @media screen and (min-width:134px) and (max-width:176px){
 
         body {
-            
+         
         
             font-family: 'Cormorant Garamond', serif;
             
            font-weight:light ;
-    
+         
+           
         }
       header{
-        height:36vh;
-       background-image: url("img/smoke-show.png");
+        height:28vh;
+       background-image: url("img/smoke-show-2.jpg");
        background-repeat: no-repeat;
        background-position: center;
        background-size: cover;
@@ -381,13 +1049,14 @@ li{
     
             #aboutLink{
                 position: absolute;
-                margin-top:-160% !important;
+                margin-top:-100vh !important;
                 margin-left:-15% !important;
                 color:rgb(78, 78, 78);
     
             }
     
             #bookLink{
+                display:none;
                 margin-top:-70vh !important;
                 margin-left:-32% !important;
                 background-color: #4d4d4d;
@@ -412,13 +1081,13 @@ li{
     
     h1{
         position: absolute;
-        margin-top:48% !important;
-       margin-left:12% !important;
+        margin-top:8vh !important;
+       margin-left:4vw !important;
        font-family: 'Italianno', cursive;
         color:rgb(29, 28, 28);
-        font-size:2rem !important;
+        font-size:1.3rem !important;
         font-weight: lighter !important;
-        background-color: #ffffff81!important;;
+       
         
     
     }
@@ -456,95 +1125,175 @@ li{
     #img1{
         position: absolute;
         margin-top:5%;
-        margin-left:27%;
-        height:70px;
-        width:100px;
+        margin-left:26vw;
+        height:8vh;
+        width:50vw;
         z-index:-1;
     }
     
     #img2{
         position: absolute;
-        margin-top:24%;
-        margin-left:4% !important;
-        height:50px;
-       ;
+        margin-top:9vh;
+        height:8vh;
+        width:50vw;
         z-index:-1;
     }
     
     #img3{
         position: absolute;
-        margin-top:24%;
-        margin-left:50%;
-        height:50px;
+        margin-top:9vh;
+        margin-left:50vw;
+        height:8vh;
+        width:50vw;
         z-index:-1;
     }
     
+    #details{
+        position: absolute;
+        margin-top:-3vh !important;
+        width:70vw !important;
+    }
     h2{
         position: absolute;
         margin-top:14vh;
         margin-left:23%;
-        font-size: 3rem;
+        font-size: 2rem;
         color:rgb(110, 110, 110);
         font-family: 'Italianno', cursive;
         font-weight:lighter;
     }
     
-    
-    #img4{
-        position: absolute;
-        margin-top:21vh;
-        margin-left:50vw;
-        height:50px;
-        width:100px;
-        z-index:-1;
-        
+    #contact{
+        margin-top:20vh !important;
+        margin-left:26vw !important;
+        font-size:16px;
+        background-color: #4d4d4d;
+        color:#fff;
     }
-    
-    #img5{
-        position: absolute;
-        margin-top:23vh;
-        margin-left:10vw;
-        width:100px;
-        height:50px;
-    }
-    
+
     #about{
-        margin-top:33vh !important;
-        margin-left:8% !important;
+        margin-top:21vh !important;
+        margin-left:2% !important;
         padding:3% 5% 3% 7% !important;
-        width:70%;
-        background-color:rgb(87, 86, 85);
-        color:antiquewhite;
+        width:90%;
+       
+        color:rgb(58, 57, 57);
         font-weight: light;
     }
+    
+
     
     #blog{
         margin-top:10%;
     }
     
-    .post{
-        width:90%;
-        padding:5%;
+    #aboutHeader{
+        margin-top:4vh !important;
+        margin-left:-1vw !important;
+        font-size:1.4rem !important;
+       
     }
+
+    #aboutContent{
+        margin-top:2vh !important;
+        margin-left:6vw;
+        font-size:13px;
+        width:89vw;
+    }
+
+    #itemContent{
+        width:80vw;
+    }
+
+    #explore{
+        margin-top:19vh !important;
+        margin-left:-9vw !important
+    }
+
+    .dot{
+      display:none;
+      
+    }
+
+    .text{
+        margin-left:-8%;
+    }
+
+    #contact{
+        margin-left:13vw !important;
+    }
+    #pricing{
+        margin-top:6vh !important;
+    }
+
+    #pricingHeader{
+        margin-top:-4vh !important;
+        margin-left:27vw !important;
+        font-size:2rem;
+        font-family: 'Italianno', cursive;
+        color:#535353;
+        font-weight: lighter;
+
+    }
+
+    #impact{
+        margin-left:5vw;
+        width:90vw;
+        font-size:.70rem;
+        font-weight: lighter;
+        color:#393a3a;
+    }
+
+    .itemHeader{
+        margin-left:16vw;
+        font-size:1.4rem;
+        font-family: 'Italianno', cursive;
+        color:#535353;
+        font-weight: lighter;
+
+
+    }
+
+    #templates{
+        margin-left:20vw !;
+    }
+
+    #dynamic{
+        margin-left:2vw;
+    }
+
+    #branding{
+        margin-left:8vw;
+    }
+
+    .itemContent{
+        margin-left:10vw;
+        width:85vw;
+        font-size:13px;
+    }
+
+    h3{
+        width:100%;
+    }
+
+   
     
     
     footer{
+        margin-top:6vh !important;
         width:100%;
         background-color: rgb(71, 71, 71);
     }
     
-        h1{
-            margin-left:20%;
-        }
     }
 
-    @media screen and (min-width:240px) and (max-width:250px){
-      
+    @media screen and (min-width:177px) and (max-width:198px){
+     
        
 
         header{
-            height:36vh;
-           background-image: url("img/smoke-show.png");
+            height:30vh;
+           background-image: url("img/smoke-show-2.jpg");
            background-repeat: no-repeat;
            background-position: center;
            background-size: cover;
@@ -552,18 +1301,7 @@ li{
 
       
 
-        h1{
-            position: absolute;
-            margin-top:40% !important;
-           margin-left:12vh !important;
-           font-family: 'Italianno', cursive;
-            color:rgb(29, 28, 28);
-            font-size:2rem !important;
-            font-weight: lighter !important;
-            background-color: #79777781!important;;
-            
         
-        }
 
         #desktopTitle{
             display:none;
@@ -683,12 +1421,12 @@ li{
     
         h1{
             position: absolute;
-            margin-top:12vh !important;
-            margin-left:14% !important;
+            margin-top:9vh !important;
+            margin-left:11vw !important;
            
             font-family: 'Italianno', cursive;
-            color:rgb(53, 53, 53);
-            font-size:2rem !important;
+            color:rgb(49, 49, 49);
+            font-size:1.5rem !important;
         }
     
      
@@ -712,29 +1450,34 @@ li{
         #img1{
             position: absolute;
             margin-top:5%;
-            margin-left:27%;
-            height:70px;
-            width:100px;
+            margin-left:26vw;
+            height:8vh;
+            width:50vw;
             z-index:-1;
         }
         
         #img2{
             position: absolute;
-            margin-top:28%;
-            margin-left:4% !important;
-            height:50px;
-           ;
+            margin-top:9vh;
+            height:8vh;
+            width:50vw;
             z-index:-1;
         }
         
         #img3{
             position: absolute;
-            margin-top:28%;
-            margin-left:50%;
-            height:50px;
+            margin-top:9vh;
+            margin-left:50vw;
+            height:8vh;
+            width:50vw;
             z-index:-1;
         }
         
+        #details{
+            position: absolute;
+            margin-top:-3vh !important;
+            width:70vw !important;
+        }
         h2{
             position: absolute;
             margin-top:14vh;
@@ -744,51 +1487,462 @@ li{
             font-family: 'Italianno', cursive;
             font-weight:lighter;
         }
+
+       
+
+        #aboutHeader{
+            margin-top:26vh !important;
+            margin-left:3vw !important;
+            font-size:2rem;
+        }
+
+
         
-        
-        #img4{
-            position: absolute;
-            margin-top:22vh;
-            margin-left:50vw;
-            height:50px;
-            width:100px;
-            z-index:-1;
-            
+        #contact{
+            position:absolute;
+            margin-top:24vh !important;
+            margin-left:18%;
+            font-size:1rem;
+            background-color: #3b3b3b;
+            color:#fff;
         }
         
-        #img5{
-            position: absolute;
-            margin-top:20vh;
-            margin-left:10vw;
-            width:100px;
-            height:50px;
+        #aboutContent{
+         
+            margin-top:30vh !important;
+            margin-left:11vw !important;
+            width:88vw !important;
         }
+       
+        
+        #about{
+            margin-top:21vh !important;
+            margin-left:2% !important;
+            padding:3% 5% 3% 7% !important;
+            width:90%;
+           
+            color:rgb(58, 57, 57);
+            font-weight: light;
+        }
+        
+    
+        #explore{
+            margin-top:5vh !important;
+            margin-left:-9vw !important;
+        }
+
+        #pricing{
+            position: absolute;
+            margin-top:1vh !important;
+        }
+
+        #pricingHeader{
+            margin-left:29vw;
+            font-size:2.5rem;
+        }
+
+        .itemHeader{
+            margin-left:20vw;
+        }
+        
+        h2{
+            position: absolute;
+           
+            font-size: 3rem;
+            color:rgb(110, 110, 110);
+            font-family: 'Italianno', cursive;
+            font-weight:lighter;
+        }
+        
+        
+       
 
         #about{
             margin-top:40vh;
         }
 
-        .post{
-            
-            padding:5% !important;
+        h3{
+            margin-left:37vw;
+            font-size:1.5rem;
+            color:rgb(110, 110, 110);
+            font-family: 'Italianno', cursive;
+            font-weight:lighter;
+
+        }
+
+      .itemContent{
+        margin-left:5vw !important;
+        width:80vw;
+        font-size:12px;
+      }
+
+      h4{
+        margin-left:37vw;
+        font-size:1.5rem;
+        color:rgb(110, 110, 110);
+        font-family: 'Italianno', cursive;
+        font-weight:lighter;
+
+      }
+      #templates{
+        margin-left:27vw;
+    }
+
+    #dynamic{
+        margin-left:2vw;
+    }
+
+    #branding{
+        margin-left:8vw;
+    }
+
+    .itemContent{
+        margin-left:14vw;
+        width:85vw;
+        font-size:13px;
+    }
+        footer{
+            margin-top:90vh !important;
+            height: 12vh;
+            background-color: #313131;
         }
     }
     
-    
+    @media screen and (min-width:199px) and (max-width:240px){
+      
+         
+  
+          header{
+              height:30vh;
+             background-image: url("img/smoke-show-2.jpg");
+             background-repeat: no-repeat;
+             background-position: center;
+             background-size: cover;
+          }
+  
+        
+  
+          
+  
+          #desktopTitle{
+              display:none;
+          }
+  
+  
+      
+          nav{
+              height:10%;
+              background-color: rgba(233, 233, 233, 0.199);
+          }
+          
+          .nav-logo-mobile{
+              height: 10vh !important;
+          }
+          
+         
+          .navbar{
+              background-color: #e4e4e441;
+          }
+                  .nav-menu {
+                      position: fixed;
+                      left: -100%;
+                      top: 3rem;
+                      flex-direction: column;
+                      background-color: #fff;
+                      width: 100%;
+                      border-radius: 10px;
+                      text-align: center;
+                      transition: 0.3s;
+                      box-shadow:
+                          0 10px 27px rgba(0, 0, 0, 0.05);
+                          z-index:1 !important;
+                  }
+              
+                  .nav-menu.active {
+                      left: 0;
+                  }
+          
+                  .nav-item {
+                      margin: 2.5rem 0;
+                      
+                  }
+              
+                  .hamburger {
+                      display: block;
+                      cursor: pointer;
+                  }
+          .bar{
+              background-color: #3b3b3b;
+          }
+                  .hamburger.active .bar:nth-child(2) {
+                      opacity: 0;
+                  }
+              
+                  .hamburger.active .bar:nth-child(1) {
+                      transform: translateY(8px) rotate(45deg);
+                  }
+              
+                  .hamburger.active .bar:nth-child(3) {
+                      transform: translateY(-8px) rotate(-45deg);
+                  }
+          .nav-logo-mobile{
+              margin-left:39% !important;
+          }
+          
+          .nav-logo-mobile{
+              height: 50vh !important;
+          }
+          
+          #nav-logo-desktop{
+              display:none;
+          }
+                  #alchBrand{
+                      margin-top: -59% !important;
+                      margin-left:-9% !important;
+                      width:10% !important;
+                      height:10% !important;
+                     }
+          
+                  #homeLink{
+                      position: absolute;
+                      margin-top:-10% !important;
+                      margin-left:-15% !important;
+                      color:rgb(92, 92, 92);
+                     
+                  }
+          
+                  
+                  #aboutLink{
+                      position: absolute;
+                      margin-top:-5%;
+                      margin-left:-15% !important;
+                      color:rgb(92, 92, 92);
+          
+                  }
+          
+                  #bookLink{
+                      margin-left:-36%;
+                      background-color: #3b3b3b;
+                      color:#fff;
+                  }
+          
+                  #contactLink{
+                      margin-left:-15%;
+                      margin-top:-6%;
+                      color:rgb(92, 92, 92);
+                  }
+          
+                  span{
+                      color:#475569;
+                  }
+          
+              #alchDesignLogo{
+                  margin-top:-12vh !important;
+              }
+      
+          h1{
+              position: absolute;
+              margin-top:8vh !important;
+              margin-left:5vw !important;
+             
+              font-family: 'Italianno', cursive;
+              color:rgb(49, 49, 49);
+              font-size:2rem !important;
+              font-weight: lighter;
+          }
+      
+       
+          
+          .nav-logo-mobile{
+              height: 50vh !important;
+          }
+  
+          .slogan{
+              margin-left:-3%;
+              font-size: 2rem;
+          }
+          
+          .sampleImg{
+              width:40%;
+              height:10%;
+          }
+          
+          
+          
+          #img1{
+              position: absolute;
+              margin-top:5%;
+              margin-left:26vw;
+              height:8vh;
+              width:50vw;
+              z-index:-1;
+          }
+          
+          #img2{
+              position: absolute;
+              margin-top:9vh;
+              height:8vh;
+              width:50vw;
+              z-index:-1;
+          }
+          
+          #img3{
+              position: absolute;
+              margin-top:9vh;
+              margin-left:50vw;
+              height:8vh;
+              width:50vw;
+              z-index:-1;
+          }
+          
+          #details{
+              position: absolute;
+              margin-top:-3vh !important;
+              width:70vw !important;
+          }
+          h2{
+              position: absolute;
+              margin-top:14vh;
+              margin-left:23%;
+              font-size: 3rem;
+              color:rgb(110, 110, 110);
+              font-family: 'Italianno', cursive;
+              font-weight:lighter;
+          }
+  
+         
+  
+          #aboutHeader{
+              margin-top:24vh !important;
+              margin-left:-5vw !important; 
+              font-size:1.5rem;
+              width:70vw;
+          }
+  
+  
+          
+          #contact{
+              position:absolute;
+              margin-top:14vh !important;
+              margin-left:23%;
+              font-size:1rem;
+              background-color: #3b3b3b;
+              color:#fff;
+          }
+          
+          #aboutContent{
+           
+              margin-top:20vh !important;
+              margin-left:8vw !important;
+              width:88vw !important;
+          }
+         
+          
+          #about{
+              margin-top:21vh !important;
+              margin-left:2% !important;
+              padding:3% 5% 3% 7% !important;
+              width:90%;
+             
+              color:rgb(58, 57, 57);
+              font-weight: light;
+          }
+          
+      
+          #explore{
+              margin-top:5vh !important;
+              margin-left:-9vw !important;
+          }
+  
+          #pricing{
+              position: absolute;
+              margin-top:1vh !important;
+          }
+  
+          #pricingHeader{
+              margin-left:29vw;
+              font-size:2.5rem;
+          }
+  
+          .itemHeader{
+              margin-left:20vw;
+          }
+          
+          h2{
+              position: absolute;
+             
+              font-size: 3rem;
+              color:rgb(110, 110, 110);
+              font-family: 'Italianno', cursive;
+              font-weight:lighter;
+          }
+          
+          
+         
+  
+          #about{
+              margin-top:40vh;
+          }
+  
+          h3{
+              margin-left:37vw;
+              font-size:1.5rem;
+              color:rgb(110, 110, 110);
+              font-family: 'Italianno', cursive;
+              font-weight:lighter;
+  
+          }
+  
+        .itemContent{
+          margin-left:8vw;
+          width:80vw;
+          font-size:12px;
+        }
+  
+        h4{
+          margin-left:37vw;
+          font-size:1.5rem;
+          color:rgb(110, 110, 110);
+          font-family: 'Italianno', cursive;
+          font-weight:lighter;
+  
+        }
 
-    @media screen and (min-width:251px) and (max-width:320px){
+        #templates{
+            margin-left:26vw !important;
+           
+        }
+
+        #dynamic{
+            margin-left:13vw;
+        }
+
+        #branding{
+            margin-left:15vw;
+        }
+  
+          footer{
+              margin-top:90vh !important;
+              height: 12vh;
+              background-color: #313131;
+          }
+      }
+      
+      
+
+    @media screen and (min-width:241px) and (max-width:300px){
 
         body {
-           
-           
+          
             font-family: 'Cormorant Garamond', serif;
             
            font-weight:light ;
+          
     
         }
       header{
-        height:36vh;
-       background-image: url("img/smoke-show.png");
+        height:30vh;
+       background-image: url("img/smoke-show-2.jpg");
        background-repeat: no-repeat;
        background-position: center;
        background-size: cover;
@@ -827,7 +1981,7 @@ li{
             }
     
             .nav-item {
-                margin: 2.5rem 0;
+                margin-left:-12vw;
                 color:#356ab4 !important;
                 
             }
@@ -870,9 +2024,9 @@ li{
     
             #homeLink{
                 position: absolute;
-                margin-top:-90%;
+                margin-top:-22vh;
                 margin-left:-7% !important;
-                color:rgb(100, 100, 100);
+                color:rgb(255, 255, 255);
             }
     
         
@@ -886,10 +2040,8 @@ li{
             }
     
             #bookLink{
-                margin-top:-60vh !important;
-                margin-left:-24vw !important;
-                background-color: #393a3a;
-                color:#fff;
+                display:none;
+               
             }
     
             #contactLink{
@@ -911,12 +2063,12 @@ li{
     h1{
         position: absolute;
         margin-top:12vh !important;
-       margin-left:15% !important;
+       margin-left:10vw !important;
        font-family: 'Italianno', cursive;
         color:rgb(53, 53, 53);
         font-size:2.2rem !important;
         font-weight: lighter !important;
-        background-color: #ffffff59;
+        
         
     
     }
@@ -944,10 +2096,7 @@ li{
         font-size: 2rem;
     }
     
-    .sampleImg{
-        width:40%;
-        height:10%;
-    }
+   
     
     
     
@@ -955,86 +2104,233 @@ li{
         position: absolute;
         margin-top:-2%;
         margin-left:20%;
-        height:10%;
-        width:50%;
+        height:10vh;
+        width:50vw;
         z-index:-1;
     }
     
     #img2{
         position: absolute;
-        margin-top:19%;
-        margin-left:2% !important;
-        height:7%;
-        width:42%;
+        margin-top:9.5vh;
+        margin-left:1vw !important;
+        height:10vh;
+        width:50vw;
         z-index:-1;
     }
     
     #img3{
-        margin-top:19%;
-        margin-left:56%;
-        height:7%;
-        width:42%;
+        margin-top:9.5vh;
+        margin-left:52vw;
+        height:10vh;
+        width:46vw;
         z-index:-1;
+    }
+
+    #details{
+        position: absolute;
+        margin-top:1vh !important;
+        margin-left:-7vw;
+        width:90vw !important;
     }
     
     h2{
         position: absolute;
         margin-top:43%;
         margin-left:30%;
-        font-size: 3rem;
+        font-size: 2rem;
         color:rgb(110, 110, 110);
         font-family: 'Italianno', cursive;
         font-weight:lighter;
     }
     
     
-    #img4{
-        
-        margin-top:23%;
-        margin-left:10%;
-        height:7%;
-        width:44%;
-        z-index:-1;
-        
-    }
-    
-    #img5{
-        position: absolute;
-        margin-top:26%;
-        height:6%;
-        width:42%;
-        margin-left:-4%;
-    }
     
     #about{
-        margin-top:14% !important;
+        margin-top:-3vh !important;
         margin-left:6% !important;
         padding:3% 5% 3% 7% !important;
         width:77%;
-        background-color:rgb(87, 86, 85);
-        color:antiquewhite;
+        
+        color:rgb(99, 98, 97);
         font-weight: light;
     }
-    
-    #blog{
-        margin-top:10%;
-    }
-    
-    .post{
-        width:80%;
-        margin-left:5%;
-        padding:7% !important;
+
+    #aboutHeader{
+        margin-top:-20vh;
+        font-size:2rem;
+        
     }
 
-    .readMore{
-        margin-left:30%;
+    #contact{
+        margin-top:-70vh !important;
+        background-color: #515253;
     }
+    
+
+    #aboutContent{
+        margin-top:10vh !important;
+    }
+
+    #explore{
+        margin-top:27vh !important;
+        margin-left:10vw;
+    }
+    
+    * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+.slideshow-container{
+    margin-top:6vh !important;
+}
+
+#aboutHeader{
+    margin-top:10vh !important;
+    margin-left:-6vw !important;
+    color:#3b3b3b;
+}
+
+#contact{
+   
+    margin-top:97vh !important;
+    margin-left:16vw;
+    
+    font-size:1rem;
+    color:#f2f2f2;
+    background-color: #494949;
+}
+
+#aboutContent{
+    position:absolute;
+    margin-top:2vh !important;
+    margin-left:9vw !important;
+    width:90vw !important;
+    color:#5e5c5c;
+}
+
+#pricing{
+    margin-top:15vh;
+    margin-left:6vw;
+}
+
+
+   h3{
+    margin-left:16vw;
+    font-size: 2rem;
+        color:rgb(110, 110, 110);
+        font-family: 'Italianno', cursive;
+        font-weight:lighter;
+
+   }
+
+   h4{
+    margin-left:20vw;
+    font-size: 2rem;
+        color:rgb(110, 110, 110);
+        font-family: 'Italianno', cursive;
+        font-weight:lighter;
+
+   }
+
+   .itemContent{
+    width:80vw;
+   }
     
     
     footer{
         width:100%;
         background-color: rgb(71, 71, 71);
     }
+
+
     }
     
 
@@ -1046,13 +2342,13 @@ li{
 
 
 
-@media screen and (min-width:321px) and (max-width:459px){
+@media screen and (min-width:301px) and (max-width:350px){
 
-  
+ 
    
     header{
         height:36vh;
-       background-image: url("img/smoke-show.png");
+       background-image: url("img/smoke-show-2.jpg");
        background-repeat: no-repeat;
        background-position: center;
        background-size: cover;
@@ -1150,6 +2446,7 @@ li{
             }
     
             #bookLink{
+                display:none;
                 margin-top:-56vh !important;
                 margin-left:-19%;
                 background-color: #3b3b3b;
@@ -1171,13 +2468,12 @@ li{
             h1{
                 position: absolute;
                 margin-top:11vh !important;
-               margin-left:22% !important;
+               margin-left:13vw !important;
                font-family: 'Italianno', cursive;
-                color:rgb(102, 102, 102);
+                color:rgb(53, 52, 52);
                 font-size:2.5rem !important;
                 font-weight: lighter !important;
-                background-color: #ffffff59;
-                
+               
             
             }
 
@@ -1205,8 +2501,8 @@ li{
             }
             
             .sampleImg{
-                width:40%;
-                height:10%;
+                width:60%;
+                height:40%;
             }
             
             
@@ -1214,26 +2510,27 @@ li{
             #img1{
                 position: absolute;
                 margin-top:-2%;
-                margin-left:28%;
-                height:12%;
-                width:45%;
+                margin-left:22vw;
+                height:12vh;
+                width:54vw;
                 z-index:-1;
             }
             
             #img2{
                 position: absolute;
-                margin-top:10%;
-                margin-left:2% !important;
-                height:10vh;
-                width:43vw;
+                margin-top:20%;
+                margin-left:3vw !important;
+               
+                height:14vh;
+                width:46vw;
                 z-index:-1;
             }
             
             #img3{
-                margin-top:10%;
-                margin-left:54%;
-                height:10vh !important;
-                width:43vw;
+                margin-top:20%;
+                margin-left:50vw !important;
+                height:14vh;
+                width:46vw;
                 z-index:-1;
             }
             
@@ -1241,54 +2538,100 @@ li{
                 position: absolute;
                 margin-top:36%;
                 margin-left:31%;
-                font-size: 4rem;
+                font-size: 2rem;
                 color:rgb(110, 110, 110);
                 font-family: 'Italianno', cursive;
                 font-weight:lighter;
             }
-            
-            
-            #img4{
-                
-                margin-top:23%;
-                margin-left:10%;
-                height:10vh !important;
-                width:43vw;
-                z-index:-1;
-                
+
+           
+            #contact{
+                margin-top:30vh !important;
+                margin-left:26vw;
+                font-size:1rem;
+                background-color: #78797a;
+                color:#f3f3f3;
             }
             
-            #img5{
-                position: absolute;
-                margin-top:26%;
-                height:10vh;
-                width:45vw;
-                margin-left:-4%;
-            }
+            
+          
             
             #about{
                 margin-top:14% !important;
                 margin-left:5% !important;
                 padding:3% 5% 3% 7% !important;
                 width:77%;
-                background-color:rgb(87, 86, 85);
+                
                 color:antiquewhite;
                 font-weight: light;
             }
-            
-            #blog{
-                margin-top:10%;
+
+           
+
+            #details{
+                position: absolute;
+                margin-top:-10vh !important;
+                margin-left:-7vw;
+                width:80vw !important;
+                color:#3b3b3b;
+            }
+
+            #aboutHeader{
+                margin-top:-1vh !important;
+                margin-left:-8vw !important;
+                color:#3b3b3b;
+            }
+
+            #explore{
+                margin-top:17vh !important;
             }
             
-            .post{
-                width:80%;
-                margin-left:5%;
-                padding:7% !important;
+            #contact{
+               
+                margin-top:39vh !important;
+                margin-left:23vw;
+                font-size:1rem;
+                color:#f2f2f2;
+                background-color: #78797a;
             }
-        
-            .readMore{
-                margin-left:30%;
+            
+            #aboutContent{
+                margin-top:2vh !important;
+                margin-left:11vw !important;
+                width:80% !important;
+                color:#5e5c5c;
             }
+
+            .text{
+                margin-left:-3vw;
+            }
+
+            #pricing{
+                margin-top:4vh;
+            }
+
+            .itemContent{
+                margin-left:10vw;
+                width:80vw;
+            }
+               h3{
+                margin-left:33vw;
+                font-size: 2rem;
+                    color:rgb(110, 110, 110);
+                    font-family: 'Italianno', cursive;
+                    font-weight:lighter;
+            
+               }
+            
+               h4{
+                font-size: 2rem;
+                    color:rgb(110, 110, 110);
+                    font-family: 'Italianno', cursive;
+                    font-weight:lighter;
+            
+               }
+                
+           
             
             
             footer{
@@ -1297,7 +2640,346 @@ li{
             }
 }
 
- @media screen and (min-width:460px) and (max-width:536px)
+
+
+
+@media screen and (min-width:351px) and (max-width:420px){
+
+ 
+   
+    header{
+        height:36vh;
+       background-image: url("img/smoke-show-2.jpg");
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+    }
+    
+    nav{
+        height:10%;
+        background-color: rgba(233, 233, 233, 0.199);
+    }
+    
+    .nav-logo-mobile{
+        height: 10vh !important;
+    }
+    
+    .navbar{
+        background-color: #e4e4e441;
+    }
+            .nav-menu {
+                position: fixed;
+                left: -100%;
+                top: 3rem;
+                flex-direction: column;
+                background-color: #ffffff;
+                height:100vh !important;
+                width: 100%;
+                border-radius: 10px;
+                text-align: center;
+                transition: 0.3s;
+                box-shadow:
+                    0 10px 27px rgba(0, 0, 0, 0.05);
+                    z-index:1 !important;
+            }
+        
+            .nav-menu.active {
+                left: 0;
+            }
+    
+            .nav-item {
+                margin: 2.5rem 0;
+                color:#356ab4 !important;
+                
+            }
+        
+            .hamburger {
+                display: block;
+                cursor: pointer;
+            }
+    .bar{
+        background-color: #3b3b3b;
+    }
+            .hamburger.active .bar:nth-child(2) {
+                opacity: 0;
+            }
+        
+            .hamburger.active .bar:nth-child(1) {
+                transform: translateY(8px) rotate(45deg);
+            }
+        
+            .hamburger.active .bar:nth-child(3) {
+                transform: translateY(-8px) rotate(-45deg);
+            }
+    .nav-logo-mobile{
+        margin-left:39% !important;
+    }
+    
+    .nav-logo-mobile{
+        height: 50vh !important;
+    }
+    
+    #nav-logo-desktop{
+        display:none;
+    }
+            #alchBrand{
+                margin-top: -59% !important;
+                margin-left:-9% !important;
+                width:10% !important;
+                height:10% !important;
+               }
+    
+            #homeLink{
+                position: absolute;
+                margin-top:-20vh;
+                margin-left:-7% !important;
+                color:rgb(100, 100, 100);
+            }
+    
+        
+    
+            #aboutLink{
+                position: absolute;
+                margin-top:-30vh !important;
+                margin-left:-7% !important;
+                color:rgb(71, 71, 71);
+    
+            }
+    
+            #bookLink{
+                display:none;
+                margin-top:-56vh !important;
+                margin-left:-19%;
+                background-color: #3b3b3b;
+                color:#fff;
+            }
+    
+            #contactLink{
+                margin-left:-8%;
+                margin-top:-41vh !important;
+                color:rgb(78, 78, 78);
+    
+            }
+    
+            span{
+                color:#475569;
+            }
+    
+    
+            h1{
+                position: absolute;
+                margin-top:11vh !important;
+               margin-left:20vw !important;
+               font-family: 'Italianno', cursive;
+                color:rgb(53, 52, 52);
+                font-size:2.6rem !important;
+                font-weight: lighter !important;
+               
+            
+            }
+
+            #desktopTitle{
+                display:none;
+            }
+            
+            #websites{
+                margin-top:3%;
+            }
+            
+            
+            
+            
+            .websiteSample{
+                position: absolute;
+                margin-top:2%;
+               
+               
+            }
+            
+            .slogan{
+                margin-left:-3%;
+                font-size: 2rem;
+            }
+            
+            .sampleImg{
+                width:60%;
+                height:40%;
+            }
+            
+            
+            
+            #img1{
+                position: absolute;
+                margin-top:-2%;
+                margin-left:22vw;
+                height:12vh;
+                width:54vw;
+                z-index:-1;
+            }
+            
+            #img2{
+                position: absolute;
+                margin-top:20%;
+                margin-left:3vw !important;
+               
+                height:14vh;
+                width:46vw;
+                z-index:-1;
+            }
+            
+            #img3{
+                margin-top:20%;
+                margin-left:50vw !important;
+                height:14vh;
+                width:46vw;
+                z-index:-1;
+            }
+            
+            h2{
+                position: absolute;
+                margin-top:36%;
+                margin-left:31%;
+                font-size: 2rem;
+                color:rgb(110, 110, 110);
+                font-family: 'Italianno', cursive;
+                font-weight:lighter;
+            }
+
+            #contact{
+                margin-top:30vh !important;
+                margin-left:26vw;
+                font-size:1rem;
+                background-color: #78797a;
+                color:#f3f3f3;
+            }
+            
+            
+          
+            
+            #about{
+                margin-top:14% !important;
+                margin-left:5% !important;
+                padding:3% 5% 3% 7% !important;
+                width:77%;
+                
+                color:antiquewhite;
+                font-weight: light;
+            }
+
+           
+
+            #details{
+                position: absolute;
+                margin-top:-10vh !important;
+                margin-left:-7vw;
+                width:80vw !important;
+                color:#3b3b3b;
+            }
+
+            #aboutHeader{
+                margin-top:-2vh !important;
+                margin-left:-3vw !important;
+                width:87vw !important;
+                color:#5f5f5f;
+            }
+
+            #explore{
+                margin-top:12vh !important;
+            }
+
+            p{
+                width:80vw;
+            }
+            
+            #contact{
+               
+                margin-top:37vh !important;
+                margin-left:26vw;
+                font-size:1rem;
+                color:#f2f2f2;
+                background-color: #78797a;
+            }
+            
+            #aboutContent{
+                margin-top:2vh !important;
+                margin-left:13vw !important;
+                width:80vw !important;
+                color:#5e5c5c;
+            }
+
+            #pricing{
+                margin-top:4vh;
+                margin-left:10vw;
+            }
+
+            #pricingHeader{
+                margin-top:-2vh;
+                margin-left:25vw;
+                padding:2%;
+                font-size:2.7rem;
+            }
+
+            #templates{
+                margin-top:5vh;
+                margin-left:26vw;
+            }
+
+
+            #dynamic{
+                margin-top:5vh;
+                margin-left:20vw;
+            }
+
+            #custom
+                {
+                    margin-top:5vh;
+                    margin-left:20vw;
+                }
+
+                #other{
+                    margin-top:5vh;
+                    margin-left:26vw;
+                }
+
+                #branding{
+                    
+                        margin-top:5vh;
+                        margin-left:26vw;
+                    
+                }
+
+                .extraitemContent{
+                   margin-left:20vw;
+                }
+            
+               h3{
+                margin-left:17vw;
+                font-size: 2rem;
+                    color:rgb(110, 110, 110);
+                    font-family: 'Italianno', cursive;
+                    font-weight:lighter;
+            
+               }
+            
+               h4{
+                margin-left:4vw;
+                font-size: 2rem;
+                    color:rgb(110, 110, 110);
+                    font-family: 'Italianno', cursive;
+                    font-weight:lighter;
+            
+               }
+                
+           
+            
+            
+            footer{
+                width:100%;
+                background-color: rgb(71, 71, 71);
+            }
+}
+
+ @media screen and (min-width:421px) and (max-width:536px)
 {
     body {
       
@@ -1308,7 +2990,7 @@ li{
     }
   header{
     height:36vh;
-   background-image: url("img/smoke-show.png");
+   background-image: url("img/smoke-show-2.jpg");
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -1426,8 +3108,8 @@ nav{
 
 h1{
     position: absolute;
-    margin-top:22%;
-   margin-left:18%;
+    margin-top:11vh !important;
+   margin-left:13vw !important;
    font-family: 'Italianno', cursive;
    font-weight: lighter;
     color:rgb(53, 53, 53);
@@ -1469,26 +3151,26 @@ h1{
 #img1{
     position: absolute;
     margin-top:-2%;
-    margin-left:30%;
-    width:42vw;
+    margin-left:27vw;
+    width:47vw;
     height:12vh;
     z-index:-1;
 }
 
 #img2{
     position: absolute;
-    margin-top:10%;
-    margin-left:9%;
+    margin-top:11vh;
+    margin-left:6vw;
     height:90px;
-    width:40vw;
+    width:47vw;
     height:10vh;
     z-index:-1;
 }
 
 #img3{
-    margin-top:10%;
-    margin-left:54%;
-    width:42vw;
+    margin-top:11vh;
+    margin-left:48vw;
+    width:47vw;
     height:10vh;
     z-index:-1;
 }
@@ -1504,53 +3186,156 @@ h2{
 }
 
 
-#img4{
-    
-    margin-top:29%;
-    margin-left:14%;
-    z-index:-1;
-    
-}
-
-#img5{
-    position: absolute;
-    margin-top:32%;
-    margin-left:-2%;
-}
 
 #about{
     margin-top:12%;
     margin-left:9% !important;
     padding:3% 5% 3% 5%;
     width:70%;
-    background-color:rgb(87, 86, 85);
+    
     color:antiquewhite;
     font-weight: light;
 }
 
-#blog{
-    margin-top:10%;
+h2{
+    position: absolute;
+    margin-top:36%;
+    margin-left:31%;
+    font-size: 2rem;
+    color:rgb(110, 110, 110);
+    font-family: 'Italianno', cursive;
+    font-weight:lighter;
 }
 
-#blogInfo{
-    padding:5%;
-    margin-left:20%;
-    color:#4d4d4d;
+#contact{
+    margin-top:30vh !important;
+    margin-left:26vw;
+    font-size:1rem;
+    background-color: #78797a;
+    color:#f3f3f3;
 }
 
-.post{
-    width:80%;
-    margin-left:7%;
-    padding:6%;
-}
 
-.readMore{
+
+
+#about{
+    margin-top:14% !important;
+    margin-left:5% !important;
+    padding:3% 5% 3% 7% !important;
+    width:77%;
     
-    padding:3%;
-    color:#313131;
-    margin-left:30% 
-    !important;
+    color:antiquewhite;
+    font-weight: light;
 }
+
+
+
+#details{
+    position: absolute;
+    margin-top:-10vh !important;
+    margin-left:-7vw;
+    width:80vw !important;
+    color:#3b3b3b;
+}
+
+#aboutHeader{
+    margin-top:-2vh !important;
+    margin-left:-3vw !important;
+    width:87vw !important;
+    color:#5f5f5f;
+}
+
+#explore{
+    margin-top:12vh !important;
+}
+
+p{
+    width:80vw;
+}
+
+#contact{
+   
+    margin-top:37vh !important;
+    margin-left:29vw;
+    font-size:1rem;
+    color:#f2f2f2;
+    background-color: #78797a;
+}
+
+#aboutContent{
+    margin-top:2vh !important;
+    margin-left:13vw !important;
+    width:80vw !important;
+    color:#5e5c5c;
+}
+
+#pricing{
+    margin-top:4vh;
+    margin-left:10vw;
+}
+
+
+#impact{
+    margin-left:5vw;
+}
+#pricingHeader{
+    margin-top:-2vh;
+    margin-left:25vw;
+    padding:2%;
+    font-size:2.7rem;
+}
+
+#templates{
+    margin-top:3vh;
+    margin-left:27vw;
+}
+
+
+#dynamic{
+    margin-top:2vh;
+    margin-left:20vw;
+}
+
+#custom{
+    margin-top:2vh;
+    margin-left:24vw;
+}
+
+#other{
+    margin-top:2vh;
+    margin-left:25vw;
+}
+
+#branding{
+    margin-top:2vh;
+    margin-left:20vw;
+}
+   h3{
+    margin-left:17vw;
+    font-size: 2rem;
+        color:rgb(110, 110, 110);
+        font-family: 'Italianno', cursive;
+        font-weight:lighter;
+
+   }
+
+   h4{
+    margin-left:4vw;
+    font-size: 2rem;
+        color:rgb(110, 110, 110);
+        font-family: 'Italianno', cursive;
+        font-weight:lighter;
+
+   }
+
+  .extraitemContent{
+    margin-left:20vw;
+  }
+
+
+
+
+
 
 
 footer{
@@ -1585,7 +3370,7 @@ padding:10%;
 
     header{
         height:36vh;
-       background-image: url("img/smoke-show.png");
+       background-image: url("img/smoke-show-2.jpg");
        background-repeat: no-repeat;
        background-position: center;
        background-size: cover;
@@ -1898,7 +3683,7 @@ padding:10%;
 
     header{
         height:36vh;
-       background-image: url("img/smoke-show.png");
+       background-image: url("img/smoke-show-2.jpg");
        background-repeat: no-repeat;
        background-position: center;
        background-size: cover;
@@ -1979,7 +3764,7 @@ padding:10%;
         margin-left:9% !important;
         padding:3% 5% 3% 5%;
         width:70%;
-        background-color:rgb(87, 86, 85);
+        
         color:antiquewhite;
         font-weight: light;
     }
@@ -2154,7 +3939,7 @@ padding:10%;
 
   header{
     height:36vh;
-   background-image: url("img/smoke-show.png");
+   background-image: url("img/smoke-show-2.jpg");
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -2320,7 +4105,7 @@ body{
 }
 header{
     height:50vh;
-   background-image: url("img/smoke-show.png");
+   background-image: url("img/smoke-show-2.jpg");
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -2448,7 +4233,7 @@ li{
 
 h1{
 position: absolute;
-    margin-top:17%;
+    margin-top:30% !important;
     margin-left:19%;
     font-family: 'Italianno', cursive;
     color:rgb(71, 71, 71);
@@ -2539,7 +4324,7 @@ h2{
     margin-left:10%;
     padding:10%;
     width:60%;
-    background-color:rgb(87, 86, 85);
+   
     color:antiquewhite;
     font-weight: light;
 }
@@ -2611,8 +4396,8 @@ footer{
     
     }
     header{
-        height:90vh;
-       background-image: url("img/smoke-show.png");
+        height:70vh !important;
+       background-image: url("img/smoke-show-2.jpg");
        background-repeat: no-repeat;
        background-position: center;
        background-size: cover;
@@ -2743,8 +4528,8 @@ footer{
     
     h1{
     position: absolute;
-        margin-top:15%;
-        margin-left:20%;
+        margin-top:22% !important;
+        margin-left:10% !important;
         font-family: 'Italianno', cursive;
         color:rgb(71, 71, 71);
         font-size:8rem;
@@ -2783,7 +4568,7 @@ footer{
         position: absolute;
         margin-top:6%;
         margin-left:30%;
-        height:16vh;
+        height:35vh !important;
         z-index:-1;
     }
     
@@ -2791,14 +4576,14 @@ footer{
         position: absolute;
         margin-top:15%;
         margin-left:3%;
-        height:16vh;
+        height:35vh !important;
         z-index:-1;
     }
     
     #img3{
         margin-top:16%;
         margin-left:56%;
-        height:16vh;
+        height:35vh !important;
         z-index:-1;
     }
     
@@ -2817,16 +4602,16 @@ footer{
         
         margin-top:23%;
         margin-left:14%;
-        height:16vh;
+        height:35vh !important;
         z-index:-1;
         
     }
     
     #img5{
         position: absolute;
-        margin-top:24%;
+        margin-top:26%;
         margin-left:-2%;
-        height:16vh;
+        height:35vh !important;
     }
     
     #about{
@@ -2834,7 +4619,7 @@ footer{
         margin-left:25%;
         padding:2%;
         width:50%;
-        background-color:rgb(87, 86, 85);
+       
         font-size:30px;
         color:antiquewhite;
         font-weight: light;
@@ -2866,6 +4651,13 @@ footer{
         margin-top:-26.5%;
         margin-left:50%;
     }
+
+    #blogInfo{
+        margin-left:-80%;
+        font-family: 'Italianno', cursive;
+        font-weight: lighter;
+        width:100vw;
+    }
     footer{
         height:300px;
         width:100%;
@@ -2896,11 +4688,14 @@ footer{
         margin-top:10vh;
         margin-left:32% !important;
         font-family: 'Italianno', cursive;
+        font-weight: lighter;
         color:whitesmoke;
     }
 
 
 }
+
+
 
 
   
