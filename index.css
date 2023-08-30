@@ -125,6 +125,9 @@ li{
         margin-left:20%;
     }
 
+header{
+    background-image: url("img/smoke-show2.png");
+
     .typewriter h1 {
         overflow: hidden; /* Ensures the content is not revealed until the animation */
         border-right: .15em solid rgba(230, 230, 230, 0); /* The typwriter cursor */
