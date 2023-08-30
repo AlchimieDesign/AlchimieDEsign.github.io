@@ -19,7 +19,6 @@
 }
 body{
     font-family: 'Cormorant Garamond', serif;
-  
 }
 
 li{
@@ -124,9 +123,6 @@ li{
         margin-top:-2%;
         margin-left:20%;
     }
-
-header{
-    background-image: url("img/smoke-show2.png");
 
     .typewriter h1 {
         overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -4698,6 +4694,8 @@ footer{
 
 
 }
+
+
 
 
 
