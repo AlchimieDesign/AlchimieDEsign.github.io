@@ -254,7 +254,7 @@ li{
 
    header{
     height:20vh;
-background-image: url("img/smoke-show-2.jpg");
+background-image: url("img/smoke-show2.png");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -615,7 +615,7 @@ footer{
         
         header{
             height:26vh;
-       background-image: url("img/smoke-show-2.jpg");
+       background-image: url("img/smoke-show2.png");
        background-repeat: no-repeat;
        background-position: center;
        background-size: cover;
@@ -958,7 +958,7 @@ margin-left:1vw !important;
         }
       header{
         height:28vh;
-       background-image: url("img/smoke-show-2.jpg");
+       background-image: url("img/smoke-show2.png");
        background-repeat: no-repeat;
        background-position: center;
        background-size: cover;
@@ -1293,7 +1293,7 @@ margin-left:1vw !important;
 
         header{
             height:30vh;
-           background-image: url("img/smoke-show-2.jpg");
+           background-image: url("img/smoke-show2.png");
            background-repeat: no-repeat;
            background-position: center;
            background-size: cover;
@@ -1614,7 +1614,7 @@ margin-left:1vw !important;
   
           header{
               height:30vh;
-             background-image: url("img/smoke-show-2.jpg");
+             background-image: url("img/smoke-show2.png");
              background-repeat: no-repeat;
              background-position: center;
              background-size: cover;
@@ -1942,7 +1942,7 @@ margin-left:1vw !important;
         }
       header{
         height:30vh;
-       background-image: url("img/smoke-show-2.jpg");
+       background-image: url("img/smoke-show2.png");
        background-repeat: no-repeat;
        background-position: center;
        background-size: cover;
@@ -2348,7 +2348,7 @@ margin-left:1vw !important;
    
     header{
         height:36vh;
-       background-image: url("img/smoke-show-2.jpg");
+       background-image: url("img/smoke-show2.png");
        background-repeat: no-repeat;
        background-position: center;
        background-size: cover;
@@ -2649,7 +2649,7 @@ margin-left:1vw !important;
    
     header{
         height:36vh;
-       background-image: url("img/smoke-show-2.jpg");
+       background-image: url("img/smoke-show2.png");
        background-repeat: no-repeat;
        background-position: center;
        background-size: cover;
@@ -2990,7 +2990,7 @@ margin-left:1vw !important;
     }
   header{
     height:36vh;
-   background-image: url("img/smoke-show-2.jpg");
+   background-image: url("img/smoke-show2.png");
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -3370,7 +3370,7 @@ padding:10%;
 
     header{
         height:36vh;
-       background-image: url("img/smoke-show-2.jpg");
+       background-image: url("img/smoke-show2.png");
        background-repeat: no-repeat;
        background-position: center;
        background-size: cover;
@@ -3570,6 +3570,10 @@ padding:10%;
 
 
 @media screen and (min-width:600px) and (max-width:688px){
+
+    header{
+        background-image: url ("img/smoke-show2.png");
+    }
   
     nav{
         height:10%;
@@ -3825,6 +3829,10 @@ padding:10%;
 
 
 @media screen and (min-width:692px) and (max-width:759px){
+
+       header{
+        background-image: url ("img/smoke-show2.png");
+    }
  
 
   nav{
@@ -4105,7 +4113,9 @@ body{
 }
 header{
     height:50vh;
-   background-image: url("img/smoke-show-2.jpg");
+    
+        background-image: url ("img/smoke-show2.png");
+        
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -4397,7 +4407,9 @@ footer{
     }
     header{
         height:70vh !important;
-       background-image: url("img/smoke-show-2.jpg");
+       
+        background-image: url ("img/smoke-show2.png");
+
        background-repeat: no-repeat;
        background-position: center;
        background-size: cover;
