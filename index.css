@@ -249,6 +249,9 @@ li{
       margin-top:6vh !important;
   }
 
+
+#dynamic{margin-left:3vw;}
+
   @media screen and (min-width:50px) and (max-width:113px){
    
 
