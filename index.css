@@ -2521,7 +2521,7 @@ margin-left:1vw !important;
             
             #img2{
                 position: absolute;
-                margin-top:20%;
+                margin-top:24vh;
                 margin-left:3vw !important;
                
                 height:14vh;
@@ -2530,7 +2530,7 @@ margin-left:1vw !important;
             }
             
             #img3{
-                margin-top:20%;
+                margin-top:24vh;
                 margin-left:50vw !important;
                 height:14vh;
                 width:46vw;
