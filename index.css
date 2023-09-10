@@ -265,73 +265,37 @@ background-size: cover;
     
 }
 
-nav{
-    height:10%;
-    background-color: rgba(223, 220, 220, 0.582);
-    color:#f2f2f2;
-}
-
-.nav-link{
-    color:#ffffff;
-}
-.navbar{
-    background-color: #e4e4e4cc;
-}
-        .nav-menu {
-            position: fixed;
-            left: -100%;
-            top: 3rem;
-            flex-direction: column;
-            background-color: #fff;
-            width: 100%;
-            border-radius: 10px;
-            text-align: center;
-            transition: 0.3s;
-            box-shadow:
-                0 10px 27px rgba(0, 0, 0, 0.05);
-                z-index:1 !important;
-               
-        }
-    
-        .nav-menu.active {
-            left: 0;
-        }
-
-        .nav-item {
-            font-size:1rem;
-            color:#ffffff;
-            margin: 2.5rem 0;
-            
-        }
-    
-        .hamburger {
-            display: block;
-            cursor: pointer;
-            position: fixed;
-        }
-.bar{
-    background-color: #3b3b3b;
-   
-}
-        .hamburger.active .bar:nth-child(2) {
-            opacity: 0;
-        }
-    
-        .hamburger.active .bar:nth-child(1) {
-            transform: translateY(8px) rotate(45deg);
-        }
-    
-        .hamburger.active .bar:nth-child(3) {
-            transform: translateY(-8px) rotate(-45deg);
-        }
-.nav-logo-mobile{
-    margin-left:39% !important;
-}
-
-.nav-logo-mobile{
-    height: 50vh !important;
-}
-
+.topnav {
+    overflow: hidden;
+    background-color: #e6e3e362;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a.icon {
+    float: right;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
 #nav-logo-desktop{
     display:none;
 }
@@ -626,65 +590,37 @@ footer{
             
         }
     
-        nav{
-            height:10%;
-            background-color: rgb(250, 250, 250);
-        }
-        .navbar{
-            background-color: #e4e4e4a9;
-        }
-                .nav-menu {
-                    position: fixed;
-                    left: -100%;
-                    top: 3rem;
-                    flex-direction: column;
-                    background-color: #ffffff;
-                    width: 100%;
-                    border-radius: 10px;
-                    text-align: center;
-                    transition: 0.3s;
-                    box-shadow:
-                        0 10px 27px rgba(0, 0, 0, 0.05);
-                        z-index:1 !important;
-                }
-            
-                .nav-menu.active {
-                    left: 0;
-                }
-        
-                .nav-item {
-                    margin: 2.5rem 0;
-                    
-                }
-            
-                .hamburger {
-                    display: block;
-                    cursor: pointer;
-                    position: fixed;
-                }
-        .bar{
-            background-color: #3b3b3b;
-           
-        }
-                .hamburger.active .bar:nth-child(2) {
-                    opacity: 0;
-                }
-            
-                .hamburger.active .bar:nth-child(1) {
-                    transform: translateY(8px) rotate(45deg);
-                }
-            
-                .hamburger.active .bar:nth-child(3) {
-                    transform: translateY(-8px) rotate(-45deg);
-                }
-        .nav-logo-mobile{
-            margin-left:39% !important;
-        }
-        
-        .nav-logo-mobile{
-            height: 50vh !important;
-        }
-        
+       .topnav {
+    overflow: hidden;
+    background-color: #e6e3e362;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a.icon {
+    float: right;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
         #nav-logo-desktop{
             display:none;
         }
@@ -968,69 +904,37 @@ margin-left:1vw !important;
        background-size: cover;
     }
     
-    nav{
-        height:10%;
-        background-color: rgba(233, 233, 233, 0.199);
-    }
-    
-    .nav-logo-mobile{
-        height: 10vh !important;
-    }
-    
-    .navbar{
-        background-color: #e4e4e441;
-    }
-            .nav-menu {
-                position: fixed;
-                left: -100%;
-                top: 3rem;
-                flex-direction: column;
-                background-color: #ffffff;
-                height:100vh !important;
-                width: 100%;
-                border-radius: 10px;
-                text-align: center;
-                transition: 0.3s;
-                box-shadow:
-                    0 10px 27px rgba(0, 0, 0, 0.05);
-                    z-index:1 !important;
-            }
-        
-            .nav-menu.active {
-                left: 0;
-            }
-    
-            .nav-item {
-               margin-left:-9% !important;
-                color:#356ab4 !important;
-                
-            }
-        
-            .hamburger {
-                display: block;
-                cursor: pointer;
-            }
-    .bar{
-        background-color: #3b3b3b;
-    }
-            .hamburger.active .bar:nth-child(2) {
-                opacity: 0;
-            }
-        
-            .hamburger.active .bar:nth-child(1) {
-                transform: translateY(8px) rotate(45deg);
-            }
-        
-            .hamburger.active .bar:nth-child(3) {
-                transform: translateY(-8px) rotate(-45deg);
-            }
-    .nav-logo-mobile{
-        margin-left:39% !important;
-    }
-    
-    .nav-logo-mobile{
-        height: 50vh !important;
-    }
+ .topnav {
+    overflow: hidden;
+    background-color: #e6e3e362;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a.icon {
+    float: right;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
     
     #nav-logo-desktop{
         display:none;
@@ -1313,112 +1217,37 @@ margin-left:1vw !important;
 
 
     
-        nav{
-            height:10%;
-            background-color: rgba(233, 233, 233, 0.199);
-        }
-        
-        .nav-logo-mobile{
-            height: 10vh !important;
-        }
-        
-       
-        .navbar{
-            background-color: #e4e4e441;
-        }
-                .nav-menu {
-                    position: fixed;
-                    left: -100%;
-                    top: 3rem;
-                    flex-direction: column;
-                    background-color: #fff;
-                    width: 100%;
-                    border-radius: 10px;
-                    text-align: center;
-                    transition: 0.3s;
-                    box-shadow:
-                        0 10px 27px rgba(0, 0, 0, 0.05);
-                        z-index:1 !important;
-                }
-            
-                .nav-menu.active {
-                    left: 0;
-                }
-        
-                .nav-item {
-                    margin: 2.5rem 0;
-                    
-                }
-            
-                .hamburger {
-                    display: block;
-                    cursor: pointer;
-                }
-        .bar{
-            background-color: #3b3b3b;
-        }
-                .hamburger.active .bar:nth-child(2) {
-                    opacity: 0;
-                }
-            
-                .hamburger.active .bar:nth-child(1) {
-                    transform: translateY(8px) rotate(45deg);
-                }
-            
-                .hamburger.active .bar:nth-child(3) {
-                    transform: translateY(-8px) rotate(-45deg);
-                }
-        .nav-logo-mobile{
-            margin-left:39% !important;
-        }
-        
-        .nav-logo-mobile{
-            height: 50vh !important;
-        }
-        
-        #nav-logo-desktop{
-            display:none;
-        }
-                #alchBrand{
-                    margin-top: -59% !important;
-                    margin-left:-9% !important;
-                    width:10% !important;
-                    height:10% !important;
-                   }
-        
-                #homeLink{
-                    position: absolute;
-                    margin-top:-10% !important;
-                    margin-left:-15% !important;
-                    color:rgb(92, 92, 92);
-                   
-                }
-        
-                
-                #aboutLink{
-                    position: absolute;
-                    margin-top:-5%;
-                    margin-left:-15% !important;
-                    color:rgb(92, 92, 92);
-        
-                }
-        
-                #bookLink{
-                    margin-left:-36%;
-                    background-color: #3b3b3b;
-                    color:#fff;
-                }
-        
-                #contactLink{
-                    margin-left:-15%;
-                    margin-top:-6%;
-                    color:rgb(92, 92, 92);
-                }
-        
-                span{
-                    color:#475569;
-                }
-        
+   .topnav {
+    overflow: hidden;
+    background-color: #e6e3e362;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a.icon {
+    float: right;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
             #alchDesignLogo{
                 margin-top:-12vh !important;
             }
@@ -1634,111 +1463,37 @@ margin-left:1vw !important;
   
   
       
-          nav{
-              height:10%;
-              background-color: rgba(233, 233, 233, 0.199);
-          }
-          
-          .nav-logo-mobile{
-              height: 10vh !important;
-          }
-          
-         
-          .navbar{
-              background-color: #e4e4e441;
-          }
-                  .nav-menu {
-                      position: fixed;
-                      left: -100%;
-                      top: 3rem;
-                      flex-direction: column;
-                      background-color: #fff;
-                      width: 100%;
-                      border-radius: 10px;
-                      text-align: center;
-                      transition: 0.3s;
-                      box-shadow:
-                          0 10px 27px rgba(0, 0, 0, 0.05);
-                          z-index:1 !important;
-                  }
-              
-                  .nav-menu.active {
-                      left: 0;
-                  }
-          
-                  .nav-item {
-                      margin: 2.5rem 0;
-                      
-                  }
-              
-                  .hamburger {
-                      display: block;
-                      cursor: pointer;
-                  }
-          .bar{
-              background-color: #3b3b3b;
-          }
-                  .hamburger.active .bar:nth-child(2) {
-                      opacity: 0;
-                  }
-              
-                  .hamburger.active .bar:nth-child(1) {
-                      transform: translateY(8px) rotate(45deg);
-                  }
-              
-                  .hamburger.active .bar:nth-child(3) {
-                      transform: translateY(-8px) rotate(-45deg);
-                  }
-          .nav-logo-mobile{
-              margin-left:39% !important;
-          }
-          
-          .nav-logo-mobile{
-              height: 50vh !important;
-          }
-          
-          #nav-logo-desktop{
-              display:none;
-          }
-                  #alchBrand{
-                      margin-top: -59% !important;
-                      margin-left:-9% !important;
-                      width:10% !important;
-                      height:10% !important;
-                     }
-          
-                  #homeLink{
-                      position: absolute;
-                      margin-top:-10% !important;
-                      margin-left:-15% !important;
-                      color:rgb(92, 92, 92);
-                     
-                  }
-          
-                  
-                  #aboutLink{
-                      position: absolute;
-                      margin-top:-5%;
-                      margin-left:-15% !important;
-                      color:rgb(92, 92, 92);
-          
-                  }
-          
-                  #bookLink{
-                      margin-left:-36%;
-                      background-color: #3b3b3b;
-                      color:#fff;
-                  }
-          
-                  #contactLink{
-                      margin-left:-15%;
-                      margin-top:-6%;
-                      color:rgb(92, 92, 92);
-                  }
-          
-                  span{
-                      color:#475569;
-                  }
+         .topnav {
+    overflow: hidden;
+    background-color: #e6e3e362;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a.icon {
+    float: right;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
           
               #alchDesignLogo{
                   margin-top:-12vh !important;
@@ -1952,70 +1707,37 @@ margin-left:1vw !important;
        background-size: cover;
     }
     
-    nav{
-        height:10%;
-        background-color: rgba(233, 233, 233, 0.199);
-    }
-    
-    .nav-logo-mobile{
-        height: 10vh !important;
-    }
-    
-    .navbar{
-        background-color: #e4e4e441;
-    }
-            .nav-menu {
-                position: fixed;
-                left: -100%;
-                top: 3rem;
-                flex-direction: column;
-                background-color: #ffffff;
-                height:100vh !important;
-                width: 100%;
-                border-radius: 10px;
-                text-align: center;
-                transition: 0.3s;
-                box-shadow:
-                    0 10px 27px rgba(0, 0, 0, 0.05);
-                    z-index:1 !important;
-            }
-        
-            .nav-menu.active {
-                left: 0;
-            }
-    
-            .nav-item {
-                margin-left:-12vw;
-                color:#356ab4 !important;
-                
-            }
-        
-            .hamburger {
-                display: block;
-                cursor: pointer;
-            }
-    .bar{
-        background-color: #3b3b3b;
-    }
-            .hamburger.active .bar:nth-child(2) {
-                opacity: 0;
-            }
-        
-            .hamburger.active .bar:nth-child(1) {
-                transform: translateY(8px) rotate(45deg);
-            }
-        
-            .hamburger.active .bar:nth-child(3) {
-                transform: translateY(-8px) rotate(-45deg);
-            }
-    .nav-logo-mobile{
-        margin-left:39% !important;
-    }
-    
-    .nav-logo-mobile{
-        height: 50vh !important;
-    }
-    
+  .topnav {
+    overflow: hidden;
+    background-color: #e6e3e362;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a.icon {
+    float: right;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
     #nav-logo-desktop{
         display:none;
     }
@@ -2331,115 +2053,37 @@ margin-left:1vw !important;
        background-size: cover;
     }
     
-    nav{
-        height:10%;
-        background-color: rgba(233, 233, 233, 0.199);
-    }
-    
-    .nav-logo-mobile{
-        height: 10vh !important;
-    }
-    
-    .navbar{
-        background-color: #e4e4e441;
-    }
-            .nav-menu {
-                position: fixed;
-                left: -100%;
-                top: 3rem;
-                flex-direction: column;
-                background-color: #ffffff;
-                height:100vh !important;
-                width: 100%;
-                border-radius: 10px;
-                text-align: center;
-                transition: 0.3s;
-                box-shadow:
-                    0 10px 27px rgba(0, 0, 0, 0.05);
-                    z-index:1 !important;
-            }
-        
-            .nav-menu.active {
-                left: 0;
-            }
-    
-            .nav-item {
-                margin: 2.5rem 0;
-                color:#356ab4 !important;
-                
-            }
-        
-            .hamburger {
-                display: block;
-                cursor: pointer;
-            }
-    .bar{
-        background-color: #3b3b3b;
-    }
-            .hamburger.active .bar:nth-child(2) {
-                opacity: 0;
-            }
-        
-            .hamburger.active .bar:nth-child(1) {
-                transform: translateY(8px) rotate(45deg);
-            }
-        
-            .hamburger.active .bar:nth-child(3) {
-                transform: translateY(-8px) rotate(-45deg);
-            }
-    .nav-logo-mobile{
-        margin-left:39% !important;
-    }
-    
-    .nav-logo-mobile{
-        height: 50vh !important;
-    }
-    
-    #nav-logo-desktop{
-        display:none;
-    }
-            #alchBrand{
-                margin-top: -59% !important;
-                margin-left:-9% !important;
-                width:10% !important;
-                height:10% !important;
-               }
-    
-            #homeLink{
-                position: absolute;
-                margin-top:-20vh;
-                margin-left:-7% !important;
-                color:rgb(100, 100, 100);
-            }
-    
-        
-    
-            #aboutLink{
-                position: absolute;
-                margin-top:-30vh !important;
-                margin-left:-7% !important;
-                color:rgb(71, 71, 71);
-    
-            }
-    
-            #bookLink{
-                display:none;
-                margin-top:-56vh !important;
-                margin-left:-19%;
-                background-color: #3b3b3b;
-                color:#fff;
-            }
-    
-            #contactLink{
-                margin-left:-8%;
-                margin-top:-41vh !important;
-                color:rgb(78, 78, 78);
-    
-            }
-    
-            span{
-                color:#475569;
-            }
+    .topnav {
+    overflow: hidden;
+    background-color: #e6e3e362;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a.icon {
+    float: right;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
     
     
             h1{
@@ -2631,116 +2275,37 @@ margin-left:1vw !important;
        background-position: center;
        background-size: cover;
     }
-    
-    nav{
-        height:10%;
-        background-color: rgba(233, 233, 233, 0.199);
-    }
-    
-    .nav-logo-mobile{
-        height: 10vh !important;
-    }
-    
-    .navbar{
-        background-color: #e4e4e441;
-    }
-            .nav-menu {
-                position: fixed;
-                left: -100%;
-                top: 3rem;
-                flex-direction: column;
-                background-color: #ffffff;
-                height:100vh !important;
-                width: 100%;
-                border-radius: 10px;
-                text-align: center;
-                transition: 0.3s;
-                box-shadow:
-                    0 10px 27px rgba(0, 0, 0, 0.05);
-                    z-index:1 !important;
-            }
-        
-            .nav-menu.active {
-                left: 0;
-            }
-    
-            .nav-item {
-                margin: 2.5rem 0;
-                color:#356ab4 !important;
-                
-            }
-        
-            .hamburger {
-                display: block;
-                cursor: pointer;
-            }
-    .bar{
-        background-color: #3b3b3b;
-    }
-            .hamburger.active .bar:nth-child(2) {
-                opacity: 0;
-            }
-        
-            .hamburger.active .bar:nth-child(1) {
-                transform: translateY(8px) rotate(45deg);
-            }
-        
-            .hamburger.active .bar:nth-child(3) {
-                transform: translateY(-8px) rotate(-45deg);
-            }
-    .nav-logo-mobile{
-        margin-left:39% !important;
-    }
-    
-    .nav-logo-mobile{
-        height: 50vh !important;
-    }
-    
-    #nav-logo-desktop{
-        display:none;
-    }
-            #alchBrand{
-                margin-top: -59% !important;
-                margin-left:-9% !important;
-                width:10% !important;
-                height:10% !important;
-               }
-    
-            #homeLink{
-                position: absolute;
-                margin-top:-20vh;
-                margin-left:-7% !important;
-                color:rgb(100, 100, 100);
-            }
-    
-        
-    
-            #aboutLink{
-                position: absolute;
-                margin-top:-30vh !important;
-                margin-left:-7% !important;
-                color:rgb(71, 71, 71);
-    
-            }
-    
-            #bookLink{
-                display:none;
-                margin-top:-56vh !important;
-                margin-left:-19%;
-                background-color: #3b3b3b;
-                color:#fff;
-            }
-    
-            #contactLink{
-                margin-left:-8%;
-                margin-top:-41vh !important;
-                color:rgb(78, 78, 78);
-    
-            }
-    
-            span{
-                color:#475569;
-            }
+    .topnav {
+    overflow: hidden;
+    background-color: #e6e3e362;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a.icon {
+    float: right;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
     
     
             h1{
@@ -2973,69 +2538,37 @@ margin-left:1vw !important;
    background-size: cover;
 }
 
-nav{
-    height:10%;
-    background-color: rgba(233, 233, 233, 0.199);
-}
-
-.nav-logo-mobile{
-    height: 10vh !important;
-}
-
-.navbar{
-    background-color: #e4e4e441;
-}
-        .nav-menu {
-            position: fixed;
-            left: -100%;
-            top: 3rem;
-            flex-direction: column;
-            background-color: #ffffff;
-            height:100vh !important;
-            width: 100%;
-            border-radius: 10px;
-            text-align: center;
-            transition: 0.3s;
-            box-shadow:
-                0 10px 27px rgba(0, 0, 0, 0.05);
-                z-index:1 !important;
-        }
-    
-        .nav-menu.active {
-            left: 0;
-        }
-
-        .nav-item {
-            margin: 2.5rem 0;
-            color:#356ab4 !important;
-            
-        }
-    
-        .hamburger {
-            display: block;
-            cursor: pointer;
-        }
-.bar{
-    background-color: #3b3b3b;
-}
-        .hamburger.active .bar:nth-child(2) {
-            opacity: 0;
-        }
-    
-        .hamburger.active .bar:nth-child(1) {
-            transform: translateY(8px) rotate(45deg);
-        }
-    
-        .hamburger.active .bar:nth-child(3) {
-            transform: translateY(-8px) rotate(-45deg);
-        }
-.nav-logo-mobile{
-    margin-left:39% !important;
-}
-
-.nav-logo-mobile{
-    height: 50vh !important;
-}
+.topnav {
+    overflow: hidden;
+    background-color: #e6e3e362;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a.icon {
+    float: right;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
 
 #nav-logo-desktop{
     display:none;
