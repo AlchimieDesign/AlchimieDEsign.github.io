@@ -2026,35 +2026,8 @@ margin-left:1vw !important;
                 height:10% !important;
                }
     
-            #homeLink{
-                position: absolute;
-                margin-top:-22vh;
-                margin-left:-7% !important;
-                color:rgb(255, 255, 255);
-            }
-    
-        
-    
-            #aboutLink{
-                position: absolute;
-                margin-top:-36vh !important;
-                margin-left:-7% !important;
-                color:rgb(78, 78, 78);
-    
-            }
-    
-            #bookLink{
-                display:none;
-               
-            }
-    
-            #contactLink{
-                margin-left:-8%;
-                margin-top:-45vh !important;
-                color:rgb(78, 78, 78);
-    
-            }
-    
+          #demos{
+              margin-top:-30vh;}
             span{
                 color:#475569;
             }
