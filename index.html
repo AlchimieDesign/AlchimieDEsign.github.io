@@ -9,43 +9,28 @@
 </head>
 <body>
   <header>
-    <nav class="navbar">
-     
-      <ul class="nav-menu">
-        
-      <li class="nav-item">
-           
-            
-        <p id="nav-logo-desktop" class="nav-link" >Alchimie Design Co</p>
-    </li>
-        
-        <li class="nav-item">
-           
-            
-             <a href="#explore" id="demos" class="nav-link">Project Demos</a>
-          </li>
-        
-          <li class="nav-item">
-            <a href="#about" id="aboutLink" class="nav-link">Our Story</a>
-          </li>
-          <li class="nav-item">
-              <a href="#" id="contactLink" class="nav-link">Connect</a>
-          </li>
+    <div class="mobile-container">
 
-     <div id="socialLink">
-       <span class="socials">Social Link</span>
-        <span class="socials">Social Link</span>
-        <span class="socials">Social Link</span>
-        <span class="socials">Social Link</span>
-     </div>
-        
-      </ul>
-      <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+      <!-- Top Navigation Menu -->
+      <div class="topnav">
+       
+        <div id="myLinks">
+          <a href="#explore">Project Demos</a>
+          <a href="#about">About Us</a>
+          <a href="#contact">Connect</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
-  </nav>
+      
+<div class="typewriter">
+    <h1 class="siteTitle" id="mobileTitle">Alchimie Design Co</h1>
+    </div>
+    <div class="typewriter">
+    <h1 class="siteTitle" id="desktopTitle">Transforming Vision To Form</h1>
+   </div>
+
 <div class="typewriter">
     <h1 class="siteTitle" id="mobileTitle">Alchimie Design Co</h1>
     </div>
@@ -160,16 +145,14 @@
 </footer>
 
 <script>
-  const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
-
-hamburger.addEventListener("click", mobileMenu);
-
-function mobileMenu() {
-hamburger.classList.toggle("active");
-navMenu.classList.toggle("active");
-}
-
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
   </script>
 
   <script>
