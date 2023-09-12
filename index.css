@@ -1,25 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Tsukimi+Rounded:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Raleway:wght@300&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Cormorant+Garamond:wght@300&family=Fraunces:opsz,wght@9..144,100&family=Raleway:wght@300&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Cormorant+Garamond:wght@300&family=Fraunces:opsz,wght@9..144,100&family=Italianno&family=Raleway:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Cormorant+Garamond:wght@300&family=Fraunces:opsz,wght@9..144,100&family=Italianno&family=Raleway:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Pinyon+Script&family=Tsukimi+Rounded:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Imbue:opsz,wght@10..100,100&family=Italianno&family=Pinyon+Script&family=Tsukimi+Rounded:wght@300&display=swap');
 
 
-@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Pinyon+Script&family=Tsukimi+Rounded:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Pinyon+Script&family=Tsukimi+Rounded:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Italianno&family=Pinyon+Script&family=Tsukimi+Rounded:wght@300&display=swap');
 
 *{
     margin:0;
     padding:0;
 }
 body{
-    font-family: 'Cormorant Garamond', serif;
-}
+    font-family: 'Imbue', serif;}
 
 li{
     list-style-type:none;
@@ -29,12 +17,14 @@ li{
         text-decoration: none;
     }
 
+   
+
     .navbar {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 1rem 1.5rem;
-        background-color: #f3f3f3;
+        background-color: #b61c1c;
         font-size:2rem;
     } 
 .nav-logo-mobile{
@@ -50,7 +40,7 @@ li{
         position: absolute;
         margin-left:27%;
         margin-top:-3%;
-        background-color: #ffffff;
+        background-color: #fff;
         padding: 1% 1% 1% 1%;
         font-size:1rem;
        
@@ -124,259 +114,559 @@ li{
         margin-left:20%;
     }
 
-    .typewriter h1 {
-        overflow: hidden; /* Ensures the content is not revealed until the animation */
-        border-right: .15em solid rgba(230, 230, 230, 0); /* The typwriter cursor */
-        white-space: nowrap; /* Keeps the content on a single line */
-        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-       /* Adjust as needed */
-        animation: 
-          typing 3.5s steps(40, end),
-          blink-caret .75s step-end infinite;
-      }
-      
-      /* The typing effect */
-      @keyframes typing {
-        from { width: 0 }
-        to { width: 100% }
-      }
-
-      /* Slideshow container */
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-      background-color: #393a3a;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 50%;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 50%;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  #aboutHeader{
-      margin-top:40vh !important;
-      margin-left:-3vw !important;
-      width:90vw !important;
-  }
-  
-  small{
-      font-size:8.10px !important;
-      width:20% !important;
-      padding:7% !important;
-      
-  }
-  
-  .details{
-      width:20px !important;
-      color:rgb(73, 73, 73);
-  }
-  
-  .slideshow-container{
-      margin-top:6vh !important;
-  }
-
-
-#dynamic{margin-left:3vw;}
-
-  @media screen and (min-width:50px) and (max-width:113px){
-   
-
-   header{
-    height:20vh;
-background-image: url("img/smoke-show2.png");
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
+    @media screen and (min-width:50px) and (max-width:199px){
+       
+        #header{
+            height:20vh;
+       background-image: url("img/smoke-show2.jpg");
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+            
+        }
     
-}
-
-.topnav {
-    overflow: hidden;
-    background-color: #e6e3e362;
-    position: relative;
-  }
-  
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  .topnav a {
-    float: left;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a.icon {
-    float: right;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-    color: white;
-  }
-#nav-logo-desktop{
-    display:none;
-}
-        #alchBrand{
-            margin-top: -59% !important;
-            margin-left:-9% !important;
-            width:10% !important;
-            height:10% !important;
-            color:#ffffff;
-            font-size:1rem;
-           }
-
-        #homeLink{
-            position: absolute;
-            margin-top:-30%;
-            margin-left:-15% !important;
-           
-            color:#ffffff;
-            font-size:1rem;
+        nav{
+            height:1vh;
+            background-color: rgba(233, 233, 233, 0.534);
         }
-
-        #projectLink{
-            position: absolute;
-            margin-top:-5%;
-            margin-left:-15% !important;
-            color:#ffffff;
-            font-size:1rem;
+        .navbar{
+            background-color: #e4e4e493;
         }
-
-        #aboutLink{
-            position: absolute;
-            margin-top:-20%;
-            margin-left:-15% !important;
-            color:#ffffff;
-            font-size:1rem;
-        }
-
-        #bookLink{
-          
-           
-            margin-left:-39%;
+                .nav-menu {
+                    position: fixed;
+                    left: -100%;
+                    top: 3rem;
+                    flex-direction: column;
+                    background-color: #fff;
+                    height:40vh !important;
+                    width: 100%;
+                    border-radius: 10px;
+                    text-align: center;
+                    transition: 0.3s;
+                    box-shadow:
+                        0 10px 27px rgba(0, 0, 0, 0.05);
+                        z-index:1 !important;
+                }
+            
+                .nav-menu.active {
+                    left: 0;
+                }
+        
+                .nav-item {
+                    margin: 2.5rem 0;
+                    
+                }
+            
+                .hamburger {
+                    display: block;
+                    cursor: pointer;
+                }
+        .bar{
             background-color: #3b3b3b;
-            color:#fff;
+        }
+                .hamburger.active .bar:nth-child(2) {
+                    opacity: 0;
+                }
+            
+                .hamburger.active .bar:nth-child(1) {
+                    transform: translateY(8px) rotate(45deg);
+                }
+            
+                .hamburger.active .bar:nth-child(3) {
+                    transform: translateY(-8px) rotate(-45deg);
+                }
+        .nav-logo-mobile{
+            margin-left:39% !important;
+        }
+        
+        .nav-logo-mobile{
+            height: 50vh !important;
+        }
+        
+        #nav-logo-desktop{
+            display:none;
+        }
+                #alchBrand{
+                    margin-top: -59% !important;
+                    margin-left:-9% !important;
+                    width:10% !important;
+                    height:10% !important;
+                   }
+
+                   #bodycontact{
+                    margin-left:26vw;
+                   }
+        
+                #homeLink{
+                    position: absolute;
+                    margin-top:-30%;
+                    margin-left:-15% !important;
+                    color:rgb(255, 255, 255);
+                }
+        
+                #projectLink{
+                    position: absolute;
+                    margin-top:-5%;
+                    margin-left:-15% !important;
+                    color:rgb(255, 255, 255);
+                }
+        
+                #aboutLink{
+                    position: absolute;
+                    margin-top:-20%;
+                    margin-left:-15% !important;
+                    color:rgb(255, 255, 255);
+                }
+        
+                #bookLink{
+                    margin-top:-5vh;
+                    margin-left:-32%;
+                    background-color: #3b3b3b;
+                    color:#fff;
+                }
+        
+                #contactLink{
+                   display:none;
+        
+                }
+        
+                span{
+                    color:#475569;
+                }
+        
+            #alchDesignLogo{
+                margin-top:-12vh !important;
+            }
+    
+        .nav-logo-mobile{
+            height: 50vh !important;
+        }
+        
+        #mainNav{
+            display:none;
+        }
+    
+       
+        
+    
+        h1{
+            display:none;
+            position: absolute;
+            margin-top:3vh !important;
+            margin-left:10vw !important;
+            font-size:.9rem;
+           font-family: 'Italianno', cursive;
+            color:rgb(49, 49, 49);
+           
         }
 
-        #contactLink{
-            margin-left:-15%;
-            margin-top:-6%;
-            color:#ffffff;
-            font-size:1rem;
+        #subTitle{
+            display:none;
         }
-
-        span{
-            color:#475569;
+    
+        #websites{
+            display:none;
+            margin-top:3%;
         }
-
-    #alchDesignLogo{
-        margin-top:-12vh !important;
+        
+        #explore{
+            margin-top:70vh;
+        }
+        
+        
+        .websiteSample{
+            position: absolute;
+            margin-top:2%;
+           
+           
+        }
+        
+        .slogan{
+            margin-left:-3%;
+            font-size: 2rem;
+        }
+        
+        .sampleImg{
+            width:40%;
+            height:10%;
+        }
+        
+        
+        
+        #img1{
+            position: absolute;
+            margin-top:5%;
+            margin-left:26vw;
+            height:8vh;
+            width:50vw;
+            z-index:-1;
+        }
+        
+        #img2{
+            position: absolute;
+            margin-top:9vh;
+            height:8vh;
+            width:50vw;
+            z-index:-1;
+        }
+        
+        #img3{
+            position: absolute;
+            margin-top:9vh;
+            margin-left:50vw;
+            height:8vh;
+            width:50vw;
+            z-index:-1;
+        }
+    
+    h2{
+        position: absolute;
+                margin-top:17vh !important;
+                margin-left:7vw !important;
+                font-size:2rem;
+                font-weight: lighter;
+               font-family: 'Italianno', cursive;
+                color:rgb(94, 92, 92);
+               
     }
 
-.nav-logo-mobile{
-    height: 50vh !important;
-}
 
-h1{
-    position: absolute;
-    margin-top:6vh !important;
-    margin-left:2vw !important;
-    font-size:.9rem;
-   font-family: 'Italianno', cursive;
-    color:rgb(255, 255, 255);
-   
-}
+    .sampleImg{
+    
+        display:flex;
+        padding:4%;
+        width:90%;
+        height:120px;
+    }
 
-#desktopTitle{
-    display:none;
-}
+    #explore{
+        margin-top:10vh;
+    }
+    
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 45vh;;
+        width: auto;
+        margin-top: -22px;
+        padding: 5px;
+        color: rgb(94, 94, 94);
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        z-index:1;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+      }
+      
+      /* Caption text */
+      .text {
+        display:none;
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+      
+      /* Fading animation */
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+      }
 
+      #bodycontact{
+        font-size:1rem;
+      }
+    
+    #aboutHeader{
+        margin-top:1vh !important;
+        margin-left:11vw !important;
+        font-size:1rem;
+        width:80vw;
+        color:#464646;
+    }
+
+    .pricingHeader{
+        margin-top:-4vh !important;
+        margin-left:17vw !important;
+        font-size:1.6rem;
+        font-family: 'Italianno', cursive;
+        color:#535353;
+        font-weight: lighter;
+        padding:3%;
+    
+    }
+
+  
+    
+    .itemContent{
+        margin-left:6vw;
+        padding:2%;
+        font-size:10px;
+        width:84vw;
+        
+    }
+    
+    #impact{
+        margin-left:9vw;
+        width:82vw;
+        font-size:.70rem;
+        font-weight: lighter;
+        color:#393a3a;
+    }
+    
+    .itemHeader{
+        margin-left:8vw;
+        font-size:1.2rem;
+    }
+    
+    h3{
+       margin-left:30vw !important;
+       color:#535353;
+        width:100%;
+    
+    }
+    
+    h4{
+        margin-top:-4vh !important;
+        margin-left:10vw !important;
+        font-size:1.6rem;
+        font-family: 'Italianno', cursive;
+        color:#535353;
+        font-weight: lighter;
+        padding:3%;
+    
+    }
+    
+    #dynamic{
+        margin-top:2vh !important;
+        margin-left:11vw !important;
+        width:70vw;
+        font-size:.80rem;
+    
+    }
+    
+    #comingSoon{
+        margin-top:2vh !important;
+    
+    }
+    
+    .extraitemContent{
+        margin-top:2vh;
+        margin-left:7vw;
+        font-size:.80rem;
+    }
+    
+    footer{
+        margin-top:8vh !important;
+    }}
+
+        @media screen and (min-width:200px) and (max-width:220px){
+
+            
+        
+            #header{
+                height:36vh;
+           background-image: url("img/smoke-show2.png");
+           background-repeat: no-repeat;
+           background-position: center;
+           background-size: cover;
+                
+            }
+        
+            nav{
+                height:10%;
+                background-color: rgba(233, 233, 233, 0.199);
+            }
+            .navbar{
+                background-color: #e4e4e441;
+            }
+                    .nav-menu {
+                        position: fixed;
+                        left: -100%;
+                        top: 3rem;
+                        flex-direction: column;
+                        background-color: #fff;
+                        width: 100%;
+                        border-radius: 10px;
+                        text-align: center;
+                        transition: 0.3s;
+                        box-shadow:
+                            0 10px 27px rgba(0, 0, 0, 0.05);
+                            z-index:1 !important;
+                    }
+                
+                    .nav-menu.active {
+                        left: 0;
+                    }
+            
+                    .nav-item {
+                        font-weight: lighter;
+                        margin: 2.5rem 0;
+                        
+                    }
+                
+                    .hamburger {
+                        display: block;
+                        cursor: pointer;
+                    }
+            .bar{
+                background-color: #3b3b3b;
+            }
+                    .hamburger.active .bar:nth-child(2) {
+                        opacity: 0;
+                    }
+                
+                    .hamburger.active .bar:nth-child(1) {
+                        transform: translateY(8px) rotate(45deg);
+                    }
+                
+                    .hamburger.active .bar:nth-child(3) {
+                        transform: translateY(-8px) rotate(-45deg);
+                    }
+            .nav-logo-mobile{
+                margin-left:39% !important;
+            }
+            
+            .nav-logo-mobile{
+                height: 50vh !important;
+            }
+            
+            #nav-logo-desktop{
+                display:none;
+            }
+                    #alchBrand{
+                        margin-top: -59% !important;
+                        margin-left:-9% !important;
+                        width:10% !important;
+                        height:10% !important;
+                       }
+            
+                    #homeLink{
+                        position: absolute;
+                        margin-top:-30%;
+                        margin-left:-15% !important;
+                        color:rgb(252, 249, 249);
+                    }
+            
+                    #projectLink{
+                        position: absolute;
+                        margin-top:-5%;
+                        margin-left:-15% !important;
+                        color:rgb(255, 255, 255);
+                    }
+            
+                    #aboutLink{
+                        position: absolute;
+                        margin-top:-20%;
+                        margin-left:-15% !important;
+                        color:rgb(253, 251, 251);
+                    }
+            
+                    #bookLink{
+                        margin-top:-20%;
+                        margin-left:-26%;
+                        background-color: #3b3b3b;
+                        color:#fff;
+                    }
+            
+                    #contactLink{
+                        margin-left:-15%;
+                        margin-top:-6%;
+                        color:rgb(126, 126, 126);
+            
+                    }
+            
+                    span{
+                        color:#475569;
+                    }
+            
+                #alchDesignLogo{
+                    margin-top:-12vh !important;
+                }
+        
+            .nav-logo-mobile{
+                height: 50vh !important;
+            }
+            
+            #mainNav{
+                display:none;
+            }
+        
+            h1{
+                position: absolute;
+                margin-top:10vh !important;
+                margin-left:8vw !important;
+                font-size:2rem;
+                font-weight: lighter;
+               font-family: 'Italianno', cursive;
+                color:rgb(37, 37, 37);
+               
+            }
+
+            #aboutHeader{
+                position: absolute;
+                margin-top:2vh !important;
+                margin-left:4vw !important;
+                font-size:1.5rem;
+                font-weight: lighter;
+               font-family: 'Italianno', cursive;
+                color:rgb(37, 37, 37);
+            }
+
+            #subTitle{
+                margin-top:140vh;
+            }
 #websites{
     display:none;
-    margin-top:20%;
+}
+            
+#explore{
+    margin-top:16vh;
 }
 
 .sampleImg{
@@ -390,11 +680,11 @@ h1{
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 65vh;
     width: auto;
     margin-top: -22px;
     padding: 5px;
-    color: white;
+    color: rgb(56, 55, 55);
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -461,248 +751,692 @@ h1{
     from {opacity: .4}
     to {opacity: 1}
   }
-#details{
-position: absolute;
-margin-top:13vh !important;
-margin-left:1vw !important;
-width:87vw !important;
-font-size:9px !important;
 
-}
-
-
-
-
-
-#explore{
-margin-top:1vh !important;
-}
-
-h2{
-    position: absolute;
-    margin-top:20vh !important;
-    margin-left:30%;
-    font-size: 1.4em;
-    color:rgb(63, 61, 61);
-    font-family: 'Italianno', cursive;
-    
-}
-
-h3{
-    margin-left:14vw !important;
-    font-size: 1.4em;
-    font-weight: lighter;
-    color:rgb(63, 61, 61);
-    font-family: 'Italianno', cursive;
-
-}
-
-#aboutHeader{
-    margin-top:20vh !important;
-    margin-left:9vw !important;
-    font-weight: lighter;
-    font-size:1.2rem;
-}
-
-#contact{
-    position:absolute;
-    margin-top:23vh !important;
-    margin-left:12vw !important;
-    width:50vw;
-    font-size:0.6rem !important;
-    padding:0% 10% 0% 10%;
-    background-color: #3b3b3b;
-    color:#ffffff;
-    border-radius: 25px;
-    
-    
-    }
-
-#aboutContent{
-  position: relative;
-    margin-top:28vh !important;
-    margin-left:10vw !important;
-    width:87vw !important;
-}
-#pricing{
-    margin-top:4vh !important;
-}
-
-.pricingHeader{
-    margin-top:-4vh !important;
-    margin-left:10vw !important;
-    font-size:1.6rem;
-    font-family: 'Italianno', cursive;
-    color:#535353;
-    font-weight: lighter;
-    padding:3%;
-
-}
-
-.itemContent{
-    padding:2%;
-    font-size:10px;
-    width:84vw;
-    
-}
-
-#impact{
-    font-size:.70rem;
-    font-weight: lighter;
-    color:#393a3a;
-}
-
-.itemHeader{
-    font-size:1.2rem;
-}
-
-h3{
-   
-    width:100%;
-
-}
-
-h4{
-    margin-top:-4vh !important;
-    margin-left:10vw !important;
-    font-size:1.6rem;
-    font-family: 'Italianno', cursive;
-    color:#535353;
-    font-weight: lighter;
-    padding:3%;
-
-}
-
-footer{
-    margin-top:8vh !important;
-}
+  #bodycontact{
+    margin-left:30vw;
   }
-    @media screen and (min-width:114px) and (max-width:133px){
-
-       
         
-        header{
-            height:26vh;
-       background-image: url("img/smoke-show2.png");
-       background-repeat: no-repeat;
-       background-position: center;
-       background-size: cover;
-            
-        }
-    
-       .topnav {
-    overflow: hidden;
-    background-color: #e6e3e362;
-    position: relative;
-  }
-  
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  .topnav a {
-    float: left;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a.icon {
-    float: right;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-    color: white;
-  }
-        #nav-logo-desktop{
-            display:none;
-        }
-                #alchBrand{
-                    margin-top: -59% !important;
-                    margin-left:-9% !important;
-                    width:10% !important;
-                    height:10% !important;
-                   }
-        
-                #homeLink{
-                    position: absolute;
-                    margin-top:-30%;
-                    margin-left:-15% !important;
-                    font-size:1rem;
-                    color:rgb(255, 255, 255);
-                }
-        
-                #projectLink{
-                    position: absolute;
-                    margin-top:-5%;
-                    margin-left:-15% !important;
-                    font-size:1rem;
-                    color:rgb(255, 255, 255);
-                }
-        
-                #aboutLink{
-                    position: absolute;
-                    margin-top:-20%;
-                    margin-left:-15% !important;
-                    font-size:1rem;
-                    color:rgb(255, 255, 255);
-                }
-        
-                #bookLink{
-                  display:none;
-                   
-                    margin-left:-39%;
-                    background-color: #3b3b3b;
-                    color:#fff;
-
-                }
-        
-                #contactLink{
-                    margin-left:-15%;
-                    margin-top:-6%;
-                    font-size:1rem;
-                    color:rgb(255, 255, 255);
-        
-                }
-        
-                span{
-                    color:#475569;
-                }
-        
-            #alchDesignLogo{
-                margin-top:-12vh !important;
+            #websites{
+                margin-top:3%;
             }
-    
-        .nav-logo-mobile{
-            height: 50vh !important;
-        }
-        
-        h1{
-            position: absolute;
-            margin-top:9vh !important;
-            margin-left:6vw !important;
-            font-size:1rem;
-           font-family: 'Italianno', cursive;
-            color:rgb(255, 255, 255);
-           
-        }
+            
+            
+            
+            
+            .websiteSample{
+                position: absolute;
+                margin-top:2%;
+               
+               
+            }
+            
+            .slogan{
+                margin-left:-3%;
+                font-size: 2rem;
+            }
+            
+            .sampleImg{
+                width:40%;
+                height:10%;
+            }
+            
+            
+            
+            #img1{
+                position: absolute;
+                margin-top:5%;
+                margin-left:26vw;
+                height:8vh;
+                width:50vw;
+                z-index:-1;
+            }
+            
+            #img2{
+                position: absolute;
+                margin-top:9vh;
+                height:8vh;
+                width:50vw;
+                z-index:-1;
+            }
+            
+            #img3{
+                position: absolute;
+                margin-top:9vh;
+                margin-left:50vw;
+                height:8vh;
+                width:50vw;
+                z-index:-1;
+            }
 
-        #desktopTitle{
-            display:none;
-        }
+
+            #pricingHeader{
+                margin-top:2vh !important;
+                margin-left:30vw !important;
+                font-size:1.6rem;
+                font-family: 'Italianno', cursive;
+                color:#535353;
+                font-weight: lighter;
+                padding:3%;
+            
+            }
+            
+            .itemContent{
+                margin-left:3vw;
+                padding:2%;
+                font-size:10px;
+                width:84vw;
+                
+            }
+            
+            #impact{
+                margin-left:9vw;
+                width:82vw;
+                font-size:.70rem;
+                font-weight: lighter;
+                color:#393a3a;
+            }
+            
+            .itemHeader{
+                margin-top:2vh !important;
+                margin-left:30vw !important;
+                font-size:1.6rem;
+                font-family: 'Italianno', cursive;
+                color:#535353;
+                font-weight: lighter;
+                padding:3%;
+            }
+            
+            h3{
+               
+                width:100%;
+            
+            }
+            
+            h4{
+                margin-top:-4vh !important;
+                margin-left:10vw !important;
+                font-size:1.6rem;
+                font-family: 'Italianno', cursive;
+                color:#535353;
+                font-weight: lighter;
+                padding:3%;
+            
+            }
+            
+            #dynamic{
+                margin-top:2vh !important;
+                margin-left:11vw !important;
+                width:70vw;
+                font-size:.80rem;
+            
+            }
+            
+            #comingSoon{
+                margin-top:2vh !important;
+            
+            }
+            
+            .extraitemContent{
+                margin-top:2vh;
+                margin-left:7vw;
+                font-size:.80rem;
+            }
+            
+            footer{
+                margin-top:8vh !important;
+            }
+            }
+
+
+            @media screen and (min-width:221px) and (max-width:270px){
+
+           
+                #header{
+                    height:36vh;
+               background-image: url("img/smoke-show2.png");
+               background-repeat: no-repeat;
+               background-position: center;
+               background-size: cover;
+                    
+                }
+            
+                nav{
+                    height:10%;
+                    background-color: rgba(233, 233, 233, 0.199);
+                }
+                .navbar{
+                    background-color: #e4e4e441;
+                }
+                        .nav-menu {
+                            position: fixed;
+                            left: -100%;
+                            top: 3rem;
+                            flex-direction: column;
+                            background-color: #fff;
+                            width: 100%;
+                            border-radius: 10px;
+                            text-align: center;
+                            transition: 0.3s;
+                            box-shadow:
+                                0 10px 27px rgba(0, 0, 0, 0.05);
+                                z-index:1 !important;
+                        }
+                    
+                        .nav-menu.active {
+                            left: 0;
+                        }
+                
+                        .nav-item {
+                            font-weight: lighter;
+                            margin: 2.5rem 0;
+                            
+                        }
+                    
+                        .hamburger {
+                            display: block;
+                            cursor: pointer;
+                        }
+                .bar{
+                    background-color: #3b3b3b;
+                }
+                        .hamburger.active .bar:nth-child(2) {
+                            opacity: 0;
+                        }
+                    
+                        .hamburger.active .bar:nth-child(1) {
+                            transform: translateY(8px) rotate(45deg);
+                        }
+                    
+                        .hamburger.active .bar:nth-child(3) {
+                            transform: translateY(-8px) rotate(-45deg);
+                        }
+                .nav-logo-mobile{
+                    margin-left:39% !important;
+                }
+                
+                .nav-logo-mobile{
+                    height: 50vh !important;
+                }
+                
+                #nav-logo-desktop{
+                    display:none;
+                }
+                        #alchBrand{
+                            margin-top: -59% !important;
+                            margin-left:-9% !important;
+                            width:10% !important;
+                            height:10% !important;
+                           }
+                
+                        #homeLink{
+                            position: absolute;
+                            margin-top:-30%;
+                            margin-left:-15% !important;
+                            color:rgb(252, 249, 249);
+                        }
+                
+                        #projectLink{
+                            position: absolute;
+                            margin-top:-5%;
+                            margin-left:-15% !important;
+                            color:rgb(255, 255, 255);
+                        }
+                
+                        #aboutLink{
+                            position: absolute;
+                            margin-top:-20%;
+                            margin-left:-15% !important;
+                            color:rgb(253, 251, 251);
+                        }
+                
+                        #bookLink{
+                            margin-top:-20%;
+                            margin-left:-26%;
+                            background-color: #3b3b3b;
+                            color:#fff;
+                        }
+                
+                        #contactLink{
+                            margin-left:-15%;
+                            margin-top:-6%;
+                            color:rgb(126, 126, 126);
+                
+                        }
+                
+                        span{
+                            color:#475569;
+                        }
+                
+                    #alchDesignLogo{
+                        margin-top:-12vh !important;
+                    }
+            
+                .nav-logo-mobile{
+                    height: 50vh !important;
+                }
+                
+                #mainNav{
+                    display:none;
+                }
+            
+                h1{
+                    position: absolute;
+                    margin-top:10vh !important;
+                    margin-left:8vw !important;
+                    font-size:2rem;
+                    font-weight: lighter;
+                   font-family: 'Italianno', cursive;
+                    color:rgb(37, 37, 37);
+                   
+                }
     
+                #aboutHeader{
+                    position: absolute;
+                    margin-top:2vh !important;
+                    margin-left:9vw !important;
+                    width:80vw;
+                    font-size:1.5rem;
+                    font-weight: lighter;
+                   font-family: 'Italianno', cursive;
+                    color:rgb(37, 37, 37);
+                }
+    
+                #subTitle{
+                    margin-top:140vh;
+                }
+    #websites{
+        display:none;
+    }
+                
+    #explore{
+        margin-top:16vh;
+    }
+    
+    .sampleImg{
+        
+        display:flex;
+        padding:4%;
+        width:90%;
+        height:120px;
+    }
+    
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 65vh;
+        width: auto;
+        margin-top: -22px;
+        padding: 5px;
+        color: rgb(56, 55, 55);
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        z-index:1;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+      }
+      
+      /* Caption text */
+      .text {
+        display:none;
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+      
+      /* Fading animation */
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+      }
+    
+      #bodycontact{
+        margin-left:30vw;
+      }
+            
+                #websites{
+                    margin-top:3%;
+                }
+                
+                
+                
+                
+                .websiteSample{
+                    position: absolute;
+                    margin-top:2%;
+                   
+                   
+                }
+                
+                .slogan{
+                    margin-left:-3%;
+                    font-size: 2rem;
+                }
+                
+                .sampleImg{
+                    width:40%;
+                    height:10%;
+                }
+                
+                
+                
+                #img1{
+                    position: absolute;
+                    margin-top:5%;
+                    margin-left:26vw;
+                    height:8vh;
+                    width:50vw;
+                    z-index:-1;
+                }
+                
+                #img2{
+                    position: absolute;
+                    margin-top:9vh;
+                    height:8vh;
+                    width:50vw;
+                    z-index:-1;
+                }
+                
+                #img3{
+                    position: absolute;
+                    margin-top:9vh;
+                    margin-left:50vw;
+                    height:8vh;
+                    width:50vw;
+                    z-index:-1;
+                }
+    
+    
+                .pricingHeader{
+                    margin-top:-4vh !important;
+                    margin-left:17vw !important;
+                    font-size:1.6rem;
+                    font-family: 'Italianno', cursive;
+                    color:#535353;
+                    font-weight: lighter;
+                    padding:3%;
+                
+                }
+                
+                .itemContent{
+                    margin-left:3vw;
+                    padding:2%;
+                    font-size:10px;
+                    width:84vw;
+                    
+                }
+                
+                #impact{
+                    margin-left:9vw;
+                    width:82vw;
+                    font-size:.70rem;
+                    font-weight: lighter;
+                    color:#393a3a;
+                }
+                
+                .itemHeader{
+                    font-size:2rem;
+                    
+                }
+                
+                h3{
+                   margin-left:35vw;
+                    width:100%;
+                    font-size:2rem;
+                    font-family: 'Italianno', cursive;
+                    color:#535353;
+                    font-weight: lighter;
+                    
+                
+                }
+                
+                h4{
+                    margin-top:-4vh !important;
+                    margin-left:10vw !important;
+                    font-size:2rem;
+                    font-family: 'Italianno', cursive;
+                    color:#535353;
+                    font-weight: lighter;
+                    padding:3%;
+                
+                }
+                
+                #dynamic{
+                    margin-top:2vh !important;
+                    margin-left:11vw !important;
+                    width:70vw;
+                    font-size:.80rem;
+                
+                }
+                
+                #comingSoon{
+                    margin-top:2vh !important;
+                
+                }
+                
+                .extraitemContent{
+                    margin-top:2vh;
+                    margin-left:7vw;
+                    font-size:.80rem;
+                }
+                
+                footer{
+                    margin-top:8vh !important;
+                }
+                }
+    
+    
+                @media screen and (min-width:270px) and (max-width:299px){
+
+           body{
+            background-color: #9e5b5b;
+           }
+                    #header{
+                        height:36vh;
+                   background-image: url("img/smoke-show2.png");
+                   background-repeat: no-repeat;
+                   background-position: center;
+                   background-size: cover;
+                        
+                    }
+                
+                    nav{
+                        height:10%;
+                        background-color: rgba(233, 233, 233, 0.199);
+                    }
+                    .navbar{
+                        background-color: #e4e4e441;
+                    }
+                            .nav-menu {
+                                position: fixed;
+                                left: -100%;
+                                top: 3rem;
+                                flex-direction: column;
+                                background-color: #fff;
+                                width: 100%;
+                                border-radius: 10px;
+                                text-align: center;
+                                transition: 0.3s;
+                                box-shadow:
+                                    0 10px 27px rgba(0, 0, 0, 0.05);
+                                    z-index:1 !important;
+                            }
+                        
+                            .nav-menu.active {
+                                left: 0;
+                            }
+                    
+                            .nav-item {
+                                font-weight: lighter;
+                                margin: 2.5rem 0;
+                                
+                            }
+                        
+                            .hamburger {
+                                display: block;
+                                cursor: pointer;
+                            }
+                    .bar{
+                        background-color: #3b3b3b;
+                    }
+                            .hamburger.active .bar:nth-child(2) {
+                                opacity: 0;
+                            }
+                        
+                            .hamburger.active .bar:nth-child(1) {
+                                transform: translateY(8px) rotate(45deg);
+                            }
+                        
+                            .hamburger.active .bar:nth-child(3) {
+                                transform: translateY(-8px) rotate(-45deg);
+                            }
+                    .nav-logo-mobile{
+                        margin-left:39% !important;
+                    }
+                    
+                    .nav-logo-mobile{
+                        height: 50vh !important;
+                    }
+                    
+                    #nav-logo-desktop{
+                        display:none;
+                    }
+                            #alchBrand{
+                                margin-top: -59% !important;
+                                margin-left:-9% !important;
+                                width:10% !important;
+                                height:10% !important;
+                               }
+                    
+                            #homeLink{
+                                position: absolute;
+                                margin-top:-30%;
+                                margin-left:-15% !important;
+                                color:rgb(252, 249, 249);
+                            }
+                    
+                            #projectLink{
+                                position: absolute;
+                                margin-top:-5%;
+                                margin-left:-15% !important;
+                                color:rgb(255, 255, 255);
+                            }
+                    
+                            #aboutLink{
+                                position: absolute;
+                                margin-top:-20%;
+                                margin-left:-15% !important;
+                                color:rgb(253, 251, 251);
+                            }
+                    
+                            #bookLink{
+                                margin-top:-20%;
+                                margin-left:-26%;
+                                background-color: #3b3b3b;
+                                color:#fff;
+                            }
+                    
+                            #contactLink{
+                                margin-left:-15%;
+                                margin-top:-6%;
+                                color:rgb(126, 126, 126);
+                    
+                            }
+                    
+                            span{
+                                color:#475569;
+                            }
+                    
+                        #alchDesignLogo{
+                            margin-top:-12vh !important;
+                        }
+                
+                    .nav-logo-mobile{
+                        height: 50vh !important;
+                    }
+                    
+                    #mainNav{
+                        display:none;
+                    }
+                
+                    h1{
+                        position: absolute;
+                        margin-top:10vh !important;
+                        margin-left:16vw !important;
+                        font-size:2rem;
+                        font-weight: lighter;
+                       font-family: 'Italianno', cursive;
+                        color:rgb(37, 37, 37);
+                       
+                    }
+        
+                    #aboutHeader{
+                        position: absolute;
+                        margin-top:2vh !important;
+                        margin-left:9vw !important;
+                        width:80vw;
+                        font-size:1.5rem;
+                        font-weight: lighter;
+                       font-family: 'Italianno', cursive;
+                        color:rgb(37, 37, 37);
+                    }
+        
+                    #subTitle{
+                        margin-top:140vh;
+                    }
         #websites{
             display:none;
-            margin-top:20%;
         }
-    
+                    
+        #explore{
+            margin-top:16vh;
+        }
+        
         .sampleImg{
             
             display:flex;
@@ -710,21 +1444,21 @@ footer{
             width:90%;
             height:120px;
         }
-
+        
         .prev, .next {
             cursor: pointer;
             position: absolute;
-            top: 50%;
+            top: 65vh;
             width: auto;
             margin-top: -22px;
-            padding: 16px;
-            color: white;
+            padding: 5px;
+            color: rgb(56, 55, 55);
             font-weight: bold;
             font-size: 18px;
             transition: 0.6s ease;
             border-radius: 0 3px 3px 0;
             user-select: none;
-            
+            z-index:1;
           }
           
           /* Position the "next button" to the right */
@@ -740,7 +1474,7 @@ footer{
           
           /* Caption text */
           .text {
-            margin-left:-10%;
+            display:none;
             color: #f2f2f2;
             font-size: 15px;
             padding: 8px 12px;
@@ -785,1325 +1519,234 @@ footer{
             from {opacity: .4}
             to {opacity: 1}
           }
-#details{
-    position: absolute;
-    margin-top:16vh !important;
-margin-left:1vw !important;
-    width:87vw !important;
-    font-size:11px !important;
-   
-}
-
-#contact{
-   position:absolute;
-    margin-top:29vh !important;
-    margin-left:10vw !important;
-    width:50vw;
-    font-size:0.6rem !important;
-    padding:0% 10% 0% 10%;
-    background-color: #3b3b3b;
-    color:#ffffff;
-    border-radius: 25px;
-}
-
-
-       
-    #explore{
-        margin-top:1vh !important;
-    }
-
-        h2{
-            position: absolute;
-            margin-top:20vh !important;
-            margin-left:30%;
-            font-size: 1.4em;
-            color:rgb(63, 61, 61);
-            font-family: 'Italianno', cursive;
-            
-        }
-
-        h3{
-            margin-left:14vw !important;
-            font-size: 1.4em;
-            font-weight: lighter;
-            color:rgb(63, 61, 61);
-            font-family: 'Italianno', cursive;
-
-        }
-
-        #aboutHeader{
-            margin-top:28vh !important;
-            margin-left:9vw !important;
-            font-weight: lighter;
-            font-size:1.2rem;
-        }
-
-        #aboutContent{
-          position: relative;
-            margin-top:34vh !important;
-            margin-left:10vw !important;
-            width:87vw !important;
-        }
-        #pricing{
-            margin-top:6vh !important;
-        }
-
-        #pricingHeader{
-            margin-top:-4vh !important;
-            margin-left:27vw !important;
-            font-size:2rem;
-            font-family: 'Italianno', cursive;
-            color:#535353;
-            font-weight: lighter;
-
-        }
-
-        #impact{
-            font-size:.70rem;
-            font-weight: lighter;
-            color:#393a3a;
-        }
-
-        h3{
-            width:100%;
-        }
-
-        h4{
-            margin-left:14vw !important;
-            font-size: 1.4em;
-            font-weight: lighter;
-            color:rgb(63, 61, 61);
-            font-family: 'Italianno', cursive;
-        }
-
-        footer{
-            margin-top:8vh !important;
-        }
-    }
-    
-    
-    
-
-
-    @media screen and (min-width:134px) and (max-width:176px){
-
-        body {
-         
         
-            font-family: 'Cormorant Garamond', serif;
-            
-           font-weight:light ;
-         
-           
-        }
-      header{
-        height:28vh;
-       background-image: url("img/smoke-show2.png");
-       background-repeat: no-repeat;
-       background-position: center;
-       background-size: cover;
-    }
-    
- .topnav {
-    overflow: hidden;
-    background-color: #e6e3e362;
-    position: relative;
-  }
-  
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  .topnav a {
-    float: left;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a.icon {
-    float: right;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-    color: white;
-  }
-    
-    #nav-logo-desktop{
-        display:none;
-    }
-            #alchBrand{
-                margin-top: -59% !important;
-                margin-left:-9% !important;
-                width:10% !important;
-                height:10% !important;
-               }
-    
-            #homeLink{
-                position: absolute;
-                margin-top:-90%;
-                margin-left:-15% !important;
-                color:rgb(100, 100, 100);
-            }
-    
-        
-    
-            #aboutLink{
-                position: absolute;
-                margin-top:-100vh !important;
-                margin-left:-15% !important;
-                color:rgb(78, 78, 78);
-    
-            }
-    
-            #bookLink{
-                display:none;
-                margin-top:-70vh !important;
-                margin-left:-32% !important;
-                background-color: #4d4d4d;
-                color:#fff;
-            }
-    
-            #contactLink{
-                margin-left:-16%;
-                margin-top:-59vh !important;
-                color:rgb(78, 78, 78);
-    
-            }
-    
-            span{
-                color:#475569;
-            }
-    
-        #alchDesignLogo{
-            margin-top:-12vh !important;
-        }
-    
-    
-    h1{
-        position: absolute;
-        margin-top:8vh !important;
-       margin-left:4vw !important;
-       font-family: 'Italianno', cursive;
-        color:rgb(29, 28, 28);
-        font-size:1.3rem !important;
-        font-weight: lighter !important;
-       
-        
-    
-    }
-
-    #desktopTitle{
-        display:none;
-    }
-    
-    #websites{
-        margin-top:3%;
-    }
-    
-    
-    
-    
-    .websiteSample{
-        position: absolute;
-        margin-top:2%;
-       
-       
-    }
-    
-    .slogan{
-        margin-left:-3%;
-        font-size: 2rem;
-    }
-    
-    .sampleImg{
-        width:40%;
-        height:10%;
-    }
-    
-    
-    
-    #img1{
-        position: absolute;
-        margin-top:5%;
-        margin-left:26vw;
-        height:8vh;
-        width:50vw;
-        z-index:-1;
-    }
-    
-    #img2{
-        position: absolute;
-        margin-top:9vh;
-        height:8vh;
-        width:50vw;
-        z-index:-1;
-    }
-    
-    #img3{
-        position: absolute;
-        margin-top:9vh;
-        margin-left:50vw;
-        height:8vh;
-        width:50vw;
-        z-index:-1;
-    }
-    
-    #details{
-        position: absolute;
-        margin-top:-3vh !important;
-        width:70vw !important;
-    }
-    h2{
-        position: absolute;
-        margin-top:14vh;
-        margin-left:23%;
-        font-size: 2rem;
-        color:rgb(110, 110, 110);
-        font-family: 'Italianno', cursive;
-        font-weight:lighter;
-    }
-    
-    #contact{
-        margin-top:20vh !important;
-        margin-left:26vw !important;
-        font-size:16px;
-        background-color: #4d4d4d;
-        color:#fff;
-    }
-
-    #about{
-        margin-top:21vh !important;
-        margin-left:2% !important;
-        padding:3% 5% 3% 7% !important;
-        width:90%;
-       
-        color:rgb(58, 57, 57);
-        font-weight: light;
-    }
-    
-
-    
-    #blog{
-        margin-top:10%;
-    }
-    
-    #aboutHeader{
-        margin-top:4vh !important;
-        margin-left:-1vw !important;
-        font-size:1.4rem !important;
-       
-    }
-
-    #aboutContent{
-        margin-top:2vh !important;
-        margin-left:6vw;
-        font-size:13px;
-        width:89vw;
-    }
-
-    #itemContent{
-        width:80vw;
-    }
-
-    #explore{
-        margin-top:19vh !important;
-        margin-left:-9vw !important
-    }
-
-    .dot{
-      display:none;
-      
-    }
-
-    .text{
-        margin-left:-8%;
-    }
-
-    #contact{
-        margin-left:13vw !important;
-    }
-    #pricing{
-        margin-top:6vh !important;
-    }
-
-    #pricingHeader{
-        margin-top:-4vh !important;
-        margin-left:27vw !important;
-        font-size:2rem;
-        font-family: 'Italianno', cursive;
-        color:#535353;
-        font-weight: lighter;
-
-    }
-
-    #impact{
-        margin-left:5vw;
-        width:90vw;
-        font-size:.70rem;
-        font-weight: lighter;
-        color:#393a3a;
-    }
-
-    .itemHeader{
-        margin-left:16vw;
-        font-size:1.4rem;
-        font-family: 'Italianno', cursive;
-        color:#535353;
-        font-weight: lighter;
-
-
-    }
-
-    #templates{
-        margin-left:20vw !;
-    }
-
-    #dynamic{
-        margin-left:2vw;
-    }
-
-    #branding{
-        margin-left:8vw;
-    }
-
-    .itemContent{
-        margin-left:10vw;
-        width:85vw;
-        font-size:13px;
-    }
-
-    h3{
-        width:100%;
-    }
-
-   
-    
-    
-    footer{
-        margin-top:6vh !important;
-        width:100%;
-        background-color: rgb(71, 71, 71);
-    }
-    
-    }
-
-    @media screen and (min-width:177px) and (max-width:198px){
-     
-       
-
-        header{
-            height:30vh;
-           background-image: url("img/smoke-show2.png");
-           background-repeat: no-repeat;
-           background-position: center;
-           background-size: cover;
-        }
-
-      
-
-        
-
-        #desktopTitle{
-            display:none;
-        }
-
-
-    
-   .topnav {
-    overflow: hidden;
-    background-color: #e6e3e362;
-    position: relative;
-  }
-  
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  .topnav a {
-    float: left;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a.icon {
-    float: right;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-    color: white;
-  }
-            #alchDesignLogo{
-                margin-top:-12vh !important;
-            }
-    
-        h1{
-            position: absolute;
-            margin-top:9vh !important;
-            margin-left:11vw !important;
-           
-            font-family: 'Italianno', cursive;
-            color:rgb(49, 49, 49);
-            font-size:1.5rem !important;
-        }
-    
-     
-        
-        .nav-logo-mobile{
-            height: 50vh !important;
-        }
-
-        .slogan{
-            margin-left:-3%;
-            font-size: 2rem;
-        }
-        
-        .sampleImg{
-            width:40%;
-            height:10%;
-        }
-        
-        
-        
-        #img1{
-            position: absolute;
-            margin-top:5%;
-            margin-left:26vw;
-            height:8vh;
-            width:50vw;
-            z-index:-1;
-        }
-        
-        #img2{
-            position: absolute;
-            margin-top:9vh;
-            height:8vh;
-            width:50vw;
-            z-index:-1;
-        }
-        
-        #img3{
-            position: absolute;
-            margin-top:9vh;
-            margin-left:50vw;
-            height:8vh;
-            width:50vw;
-            z-index:-1;
-        }
-        
-        #details{
-            position: absolute;
-            margin-top:-3vh !important;
-            width:70vw !important;
-        }
-        h2{
-            position: absolute;
-            margin-top:14vh;
-            margin-left:23%;
-            font-size: 3rem;
-            color:rgb(110, 110, 110);
-            font-family: 'Italianno', cursive;
-            font-weight:lighter;
-        }
-
-       
-
-        #aboutHeader{
-            margin-top:26vh !important;
-            margin-left:3vw !important;
-            font-size:2rem;
-        }
-
-
-        
-        #contact{
-            position:absolute;
-            margin-top:24vh !important;
-            margin-left:18%;
-            font-size:1rem;
-            background-color: #3b3b3b;
-            color:#fff;
-        }
-        
-        #aboutContent{
-         
-            margin-top:30vh !important;
-            margin-left:11vw !important;
-            width:88vw !important;
-        }
-       
-        
-        #about{
-            margin-top:21vh !important;
-            margin-left:2% !important;
-            padding:3% 5% 3% 7% !important;
-            width:90%;
-           
-            color:rgb(58, 57, 57);
-            font-weight: light;
-        }
-        
-    
-        #explore{
-            margin-top:5vh !important;
-            margin-left:-9vw !important;
-        }
-
-        #pricing{
-            position: absolute;
-            margin-top:1vh !important;
-        }
-
-        #pricingHeader{
-            margin-left:29vw;
-            font-size:2.5rem;
-        }
-
-        .itemHeader{
-            margin-left:20vw;
-        }
-        
-        h2{
-            position: absolute;
-           
-            font-size: 3rem;
-            color:rgb(110, 110, 110);
-            font-family: 'Italianno', cursive;
-            font-weight:lighter;
-        }
-        
-        
-       
-
-        #about{
-            margin-top:40vh;
-        }
-
-        h3{
-            margin-left:37vw;
-            font-size:1.5rem;
-            color:rgb(110, 110, 110);
-            font-family: 'Italianno', cursive;
-            font-weight:lighter;
-
-        }
-
-      .itemContent{
-        margin-left:5vw !important;
-        width:80vw;
-        font-size:12px;
-      }
-
-      h4{
-        margin-left:37vw;
-        font-size:1.5rem;
-        color:rgb(110, 110, 110);
-        font-family: 'Italianno', cursive;
-        font-weight:lighter;
-
-      }
-      #templates{
-        margin-left:27vw;
-    }
-
-    #dynamic{
-        margin-left:2vw;
-    }
-
-    #branding{
-        margin-left:8vw;
-    }
-
-    .itemContent{
-        margin-left:14vw;
-        width:85vw;
-        font-size:13px;
-    }
-        footer{
-            margin-top:90vh !important;
-            height: 12vh;
-            background-color: #313131;
-        }
-    }
-    
-    @media screen and (min-width:199px) and (max-width:240px){
-      
-         
-  
-          header{
-              height:30vh;
-             background-image: url("img/smoke-show2.png");
-             background-repeat: no-repeat;
-             background-position: center;
-             background-size: cover;
+          #bodycontact{
+            margin-left:30vw;
           }
-  
+                
+                    #websites{
+                        margin-top:3%;
+                    }
+                    
+                    
+                    
+                    
+                    .websiteSample{
+                        position: absolute;
+                        margin-top:2%;
+                       
+                       
+                    }
+                    
+                    .slogan{
+                        margin-left:-3%;
+                        font-size: 2rem;
+                    }
+                    
+                    .sampleImg{
+                        width:40%;
+                        height:10%;
+                    }
+                    
+                    
+                    
+                    #img1{
+                        position: absolute;
+                        margin-top:5%;
+                        margin-left:26vw;
+                        height:8vh;
+                        width:50vw;
+                        z-index:-1;
+                    }
+                    
+                    #img2{
+                        position: absolute;
+                        margin-top:9vh;
+                        height:8vh;
+                        width:50vw;
+                        z-index:-1;
+                    }
+                    
+                    #img3{
+                        position: absolute;
+                        margin-top:9vh;
+                        margin-left:50vw;
+                        height:8vh;
+                        width:50vw;
+                        z-index:-1;
+                    }
         
-  
-          
-  
-          #desktopTitle{
-              display:none;
-          }
-  
-  
-      
-         .topnav {
-    overflow: hidden;
-    background-color: #e6e3e362;
-    position: relative;
-  }
-  
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  .topnav a {
-    float: left;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a.icon {
-    float: right;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-    color: white;
-  }
-          
-              #alchDesignLogo{
-                  margin-top:-12vh !important;
+        
+                    .pricingHeader{
+                        margin-top:-4vh !important;
+                        margin-left:17vw !important;
+                        font-size:1.6rem;
+                        font-family: 'Italianno', cursive;
+                        color:#535353;
+                        font-weight: lighter;
+                        padding:3%;
+                    
+                    }
+                    
+                    .itemContent{
+                        margin-left:3vw;
+                        padding:2%;
+                        font-size:10px;
+                        width:84vw;
+                        
+                    }
+                    
+                    #impact{
+                        margin-left:9vw;
+                        width:82vw;
+                        font-size:.70rem;
+                        font-weight: lighter;
+                        color:#393a3a;
+                    }
+                    
+                    .itemHeader{
+                        font-size:2rem;
+                        
+                    }
+                    
+                    h3{
+                       margin-left:35vw;
+                        width:100%;
+                        font-size:2rem;
+                        font-family: 'Italianno', cursive;
+                        color:#535353;
+                        font-weight: lighter;
+                        
+                    
+                    }
+                    
+                    h4{
+                        margin-top:-4vh !important;
+                        margin-left:10vw !important;
+                        font-size:2rem;
+                        font-family: 'Italianno', cursive;
+                        color:#535353;
+                        font-weight: lighter;
+                        padding:3%;
+                    
+                    }
+                    
+                    #dynamic{
+                        margin-top:2vh !important;
+                        margin-left:11vw !important;
+                        width:70vw;
+                        font-size:.80rem;
+                    
+                    }
+                    
+                    #comingSoon{
+                        margin-top:2vh !important;
+                    
+                    }
+                    
+                    .extraitemContent{
+                        margin-top:2vh;
+                        margin-left:7vw;
+                        font-size:.80rem;
+                    }
+                    
+                    footer{
+                        margin-top:8vh !important;
+                    }
+                    }
+        
+        
+
+            @media screen and (min-width:300px) and (max-width:400px){
+        body{
+        background-image: url("img/smoke-show.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+
+        .navBlock{
+            background-color: #9e5b5b;
+        }
+
+        #mainNav{
+            background-color: #ffffffb0;
+            width:100vw;
+            height:15vh;
+        }
+              a{
+                color:#313131;
+                font-weight: lighter;
               }
-      
-          h1{
-              position: absolute;
-              margin-top:8vh !important;
-              margin-left:5vw !important;
-             
-              font-family: 'Italianno', cursive;
-              color:rgb(49, 49, 49);
-              font-size:2rem !important;
-              font-weight: lighter;
-          }
-      
-       
-          
-          .nav-logo-mobile{
-              height: 50vh !important;
-          }
-  
-          .slogan{
-              margin-left:-3%;
-              font-size: 2rem;
-          }
-          
-          .sampleImg{
-              width:40%;
-              height:10%;
-          }
-          
-          
-          
-          #img1{
-              position: absolute;
-              margin-top:5%;
-              margin-left:26vw;
-              height:8vh;
-              width:50vw;
-              z-index:-1;
-          }
-          
-          #img2{
-              position: absolute;
-              margin-top:9vh;
-              height:8vh;
-              width:50vw;
-              z-index:-1;
-          }
-          
-          #img3{
-              position: absolute;
-              margin-top:9vh;
-              margin-left:50vw;
-              height:8vh;
-              width:50vw;
-              z-index:-1;
-          }
-          
-          #details{
-              position: absolute;
-              margin-top:-3vh !important;
-              width:70vw !important;
-          }
-          h2{
-              position: absolute;
-              margin-top:14vh;
-              margin-left:23%;
-              font-size: 3rem;
-              color:rgb(110, 110, 110);
-              font-family: 'Italianno', cursive;
-              font-weight:lighter;
-          }
-  
-         
-  
-          #aboutHeader{
-              margin-top:24vh !important;
-              margin-left:-5vw !important; 
-              font-size:1.5rem;
-              width:70vw;
-          }
-  
-  
-          
-          #contact{
-              position:absolute;
-              margin-top:14vh !important;
-              margin-left:23%;
-              font-size:1rem;
-              background-color: #3b3b3b;
-              color:#fff;
-          }
-          
-          #aboutContent{
-           
-              margin-top:20vh !important;
-              margin-left:8vw !important;
-              width:88vw !important;
-          }
-         
-          
-          #about{
-              margin-top:21vh !important;
-              margin-left:2% !important;
-              padding:3% 5% 3% 7% !important;
-              width:90%;
-             
-              color:rgb(58, 57, 57);
-              font-weight: light;
-          }
-          
-      
-          #explore{
-              margin-top:5vh !important;
-              margin-left:-9vw !important;
-          }
-  
-          #pricing{
-              position: absolute;
-              margin-top:1vh !important;
-          }
-  
-          #pricingHeader{
-              margin-left:29vw;
-              font-size:2.5rem;
-          }
-  
-          .itemHeader{
-              margin-left:20vw;
-          }
-          
-          h2{
-              position: absolute;
-             
-              font-size: 3rem;
-              color:rgb(110, 110, 110);
-              font-family: 'Italianno', cursive;
-              font-weight:lighter;
-          }
-          
-          
-         
-  
-          #about{
-              margin-top:40vh;
-          }
-  
-          h3{
-              margin-left:37vw;
-              font-size:1.5rem;
-              color:rgb(110, 110, 110);
-              font-family: 'Italianno', cursive;
-              font-weight:lighter;
-  
-          }
-  
-        .itemContent{
-          margin-left:8vw;
-          width:80vw;
-          font-size:12px;
-        }
-  
-        h4{
-          margin-left:37vw;
-          font-size:1.5rem;
-          color:rgb(110, 110, 110);
-          font-family: 'Italianno', cursive;
-          font-weight:lighter;
-  
-        }
 
-        #templates{
-            margin-left:26vw !important;
-           
-        }
+              .nav-link{
+                margin-left:7vw;
+                padding:4%;
+                color:#242424;
+                font-size:1.40rem;
+                font-weight: lighter;
 
-        #dynamic{
-            margin-left:13vw;
-        }
+              }
 
-        #branding{
-            margin-left:15vw;
-        }
-  
-          footer{
-              margin-top:90vh !important;
-              height: 12vh;
-              background-color: #313131;
-          }
-      }
-      
-      
+              #miniNav{
+                display:none;
+              }
 
-    @media screen and (min-width:241px) and (max-width:300px){
-
-        body {
-          
-            font-family: 'Cormorant Garamond', serif;
-            
-           font-weight:light ;
-          
-    
-        }
-      header{
-        height:30vh;
-       background-image: url("img/smoke-show2.png");
-       background-repeat: no-repeat;
-       background-position: center;
-       background-size: cover;
-    }
-    
-  .topnav {
-    overflow: hidden;
-    background-color: #e6e3e362;
-    position: relative;
-  }
-  
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  .topnav a {
-    float: left;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a.icon {
-    float: right;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-    color: white;
-  }
-    #nav-logo-desktop{
-        display:none;
-    }
-            #alchBrand{
-                margin-top: -59% !important;
-                margin-left:-9% !important;
-                width:10% !important;
-                height:10% !important;
-               }
-    
-          #demos{
-              margin-top:-30vh;}
-            span{
-                color:#475569;
+              #mainNav{
+                display:inline-block;
+                font-size:0.50rem;
+                color:#fff;
+              }
+            #mobileTitle{
+                margin-top:-10vh;
             }
-    
-        #alchDesignLogo{
-            margin-top:-12vh !important;
-        }
-    
-    
-    h1{
-        position: absolute;
-        margin-top:12vh !important;
-       margin-left:10vw !important;
-       font-family: 'Italianno', cursive;
-        color:rgb(53, 53, 53);
-        font-size:2.2rem !important;
-        font-weight: lighter !important;
-        
-        
-    
-    }
-
-    #desktopTitle{
-        display:none;
-    }
-    
-    #websites{
-        margin-top:3%;
-    }
-    
-    
-    
-    
-    .websiteSample{
-        position: absolute;
-        margin-top:2%;
-       
-       
-    }
-    
-    .slogan{
-        margin-left:-3%;
-        font-size: 2rem;
-    }
-    
-   
-    
-    
-    
-    #img1{
-        position: absolute;
-        margin-top:-2%;
-        margin-left:20%;
-        height:10vh;
-        width:50vw;
-        z-index:-1;
-    }
-    
-    #img2{
-        position: absolute;
-        margin-top:9.5vh;
-        margin-left:1vw !important;
-        height:10vh;
-        width:50vw;
-        z-index:-1;
-    }
-    
-    #img3{
-        margin-top:9.5vh;
-        margin-left:52vw;
-        height:10vh;
-        width:46vw;
-        z-index:-1;
-    }
-
-    #details{
-        position: absolute;
-        margin-top:1vh !important;
-        margin-left:-7vw;
-        width:90vw !important;
-    }
-    
-    h2{
-        position: absolute;
-        margin-top:43%;
-        margin-left:30%;
-        font-size: 2rem;
-        color:rgb(110, 110, 110);
-        font-family: 'Italianno', cursive;
-        font-weight:lighter;
-    }
-    
-    
-    
-    #about{
-        margin-top:-3vh !important;
-        margin-left:6% !important;
-        padding:3% 5% 3% 7% !important;
-        width:77%;
-        
-        color:rgb(99, 98, 97);
-        font-weight: light;
-    }
-
-    #aboutHeader{
-        margin-top:-20vh;
-        font-size:2rem;
-        
-    }
-
-    #contact{
-        margin-top:-70vh !important;
-        background-color: #515253;
-    }
-    
-
-    #aboutContent{
-        margin-top:10vh !important;
-    }
-
-    #explore{
-        margin-top:27vh !important;
-        margin-left:10vw;
-    }
-    
-    * {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-
-
-
-
-.slideshow-container{
-    margin-top:6vh !important;
-}
-
-#aboutHeader{
-    margin-top:10vh !important;
-    margin-left:-6vw !important;
-    color:#3b3b3b;
-}
-
-#contact{
-   
-    margin-top:97vh !important;
-    margin-left:16vw;
-    
-    font-size:1rem;
-    color:#f2f2f2;
-    background-color: #494949;
-}
-
-#aboutContent{
-    position:absolute;
-    margin-top:2vh !important;
-    margin-left:9vw !important;
-    width:90vw !important;
-    color:#5e5c5c;
-}
-
-#pricing{
-    margin-top:15vh;
-    margin-left:6vw;
-}
-
-
-   h3{
-    margin-left:16vw;
-    font-size: 2rem;
-        color:rgb(110, 110, 110);
-        font-family: 'Italianno', cursive;
-        font-weight:lighter;
-
-   }
-
-   h4{
-    margin-left:20vw;
-    font-size: 2rem;
-        color:rgb(110, 110, 110);
-        font-family: 'Italianno', cursive;
-        font-weight:lighter;
-
-   }
-
-   .itemContent{
-    width:80vw;
-   }
-    
-    
-    footer{
-        width:100%;
-        background-color: rgb(71, 71, 71);
-    }
-
-
-    }
-    
-
-
-    
-        
-
-
-
-
-
-@media screen and (min-width:301px) and (max-width:350px){
-
- 
-   
-    header{
-        height:36vh;
-       background-image: url("img/smoke-show2.png");
-       background-repeat: no-repeat;
-       background-position: center;
-       background-size: cover;
-    }
-    
-    .topnav {
-    overflow: hidden;
-    background-color: #e6e3e362;
-    position: relative;
-  }
-  
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  .topnav a {
-    float: left;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a.icon {
-    float: right;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-    color: white;
-  }
-    
-    
+            
             h1{
                 position: absolute;
-                margin-top:11vh !important;
-               margin-left:13vw !important;
+                margin-top:-10vh !important;
+                margin-left:21vw !important;
+                font-size:2rem;
+                font-weight: lighter;
                font-family: 'Italianno', cursive;
-                color:rgb(53, 52, 52);
-                font-size:2.5rem !important;
-                font-weight: lighter !important;
+                color:rgb(94, 92, 92);
                
-            
             }
 
-            #desktopTitle{
-                display:none;
-            }
-            
-            #websites{
-                margin-top:3%;
+            .typewriter h1 {
+                overflow: hidden; /* Ensures the content is not revealed until the animation */
+                border-right: .15em solid rgba(230, 230, 230, 0); /* The typwriter cursor */
+                white-space: nowrap; /* Keeps the content on a single line */
+                margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+               /* Adjust as needed */
+                animation: 
+                  typing 3.5s steps(40, end),
+                  blink-caret .75s step-end infinite;
+              }
+              
+              /* The typing effect */
+              @keyframes typing {
+                from { width: 0 }
+                to { width: 100% }
+              }
+
+              #subTitle{
+               margin-top:4vh;
+               margin-left:20vw;
+                color:#fff !important;
+              }
+
+              #aboutHeader{
+                position: absolute;
+                margin-top:17vh !important;
+                margin-left:7vw !important;
+                font-size:2rem;
+                font-weight: lighter;
+               font-family: 'Italianno', cursive;
+                color:rgb(94, 92, 92);
+               
+              }
+              #websites{
+                position: absolute;
+                margin-top:36vh;
             }
             
             
@@ -2122,2100 +1765,208 @@ margin-left:1vw !important;
             }
             
             .sampleImg{
-                width:60%;
-                height:40%;
+                width:40%;
+                height:10%;
             }
             
             
             
             #img1{
                 position: absolute;
-                margin-top:-2%;
-                margin-left:22vw;
-                height:12vh;
-                width:54vw;
+                margin-top:5%;
+                margin-left:26vw;
+                height:8vh;
+                width:50vw;
                 z-index:-1;
             }
             
             #img2{
                 position: absolute;
-                margin-top:24vh;
-                margin-left:3vw !important;
-               
-                height:14vh;
-                width:46vw;
+                margin-top:9vh;
+                height:8vh;
+                width:50vw;
                 z-index:-1;
             }
             
             #img3{
-                margin-top:24vh;
-                margin-left:50vw !important;
-                height:14vh;
-                width:46vw;
+                position: absolute;
+                margin-top:9vh;
+                margin-left:50vw;
+                height:8vh;
+                width:50vw;
                 z-index:-1;
-            }
-            
-            h2{
-                position: absolute;
-                margin-top:36%;
-                margin-left:31%;
-                font-size: 2rem;
-                color:rgb(110, 110, 110);
-                font-family: 'Italianno', cursive;
-                font-weight:lighter;
-            }
-
-           
-            #contact{
-                margin-top:30vh !important;
-                margin-left:26vw;
-                font-size:1rem;
-                background-color: #78797a;
-                color:#f3f3f3;
-            }
-            
-            
-          
-            
-            #about{
-                margin-top:14% !important;
-                margin-left:5% !important;
-                padding:3% 5% 3% 7% !important;
-                width:77%;
-                
-                color:antiquewhite;
-                font-weight: light;
-            }
-
-           
-
-            #details{
-                position: absolute;
-                margin-top:-10vh !important;
-                margin-left:-7vw;
-                width:80vw !important;
-                color:#3b3b3b;
-            }
-
-            #aboutHeader{
-                margin-top:-1vh !important;
-                margin-left:-8vw !important;
-                color:#3b3b3b;
             }
 
             #explore{
-                margin-top:17vh !important;
+                margin-top:16vh;
             }
             
-            #contact{
+            .sampleImg{
+                
+                display:flex;
+                padding:4%;
+                width:90%;
+                height:120px;
+            }
+            
+            .prev, .next {
+                cursor: pointer;
+                position: absolute;
+                top: 65vh;
+                width: auto;
+                margin-top: -22px;
+                padding: 5px;
+                color: rgb(56, 55, 55);
+                font-weight: bold;
+                font-size: 18px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                z-index:1;
+              }
+              
+              /* Position the "next button" to the right */
+              .next {
+                right: 0;
+                border-radius: 3px 0 0 3px;
+              }
+              
+              /* On hover, add a black background color with a little bit see-through */
+              .prev:hover, .next:hover {
+                background-color: rgba(0,0,0,0.8);
+              }
+              
+              /* Caption text */
+              .text {
+                display:none;
+                color: #f2f2f2;
+                font-size: 15px;
+                padding: 8px 12px;
+                position: absolute;
+                bottom: 8px;
+                width: 100%;
+                text-align: center;
+              }
+              
+              /* Number text (1/3 etc) */
+              .numbertext {
+                color: #f2f2f2;
+                font-size: 12px;
+                padding: 8px 12px;
+                position: absolute;
+                top: 0;
+              }
+              
+              /* The dots/bullets/indicators */
+              .dot {
+                cursor: pointer;
+                height: 15px;
+                width: 15px;
+                margin: 0 2px;
+                background-color: #bbb;
+                border-radius: 50%;
+                display: inline-block;
+                transition: background-color 0.6s ease;
+              }
+              
+              .active, .dot:hover {
+                background-color: #717171;
+              }
+              
+              /* Fading animation */
+              .fade {
+                animation-name: fade;
+                animation-duration: 1.5s;
+              }
+              
+              @keyframes fade {
+                from {opacity: .4}
+                to {opacity: 1}
+              }
+            
+              #bodycontact{
+                margin-left:30vw;
+              }
+                    
+
+            .pricingHeader{
+                margin-top:-4vh !important;
+                margin-left:17vw !important;
+                font-size:1.6rem;
+                font-family: 'Italianno', cursive;
+                color:#535353;
+                font-weight: lighter;
+                padding:3%;
+            
+            }
+            
+            .itemContent{
+                margin-left:3vw;
+                padding:2%;
+                font-size:10px;
+                width:84vw;
+                
+            }
+            
+            #impact{
+                margin-left:9vw;
+                width:82vw;
+                font-size:.70rem;
+                font-weight: lighter;
+                color:#393a3a;
+            }
+            
+            .itemHeader{
+                font-size:1.2rem;
+            }
+            
+            h3{
                
-                margin-top:39vh !important;
-                margin-left:23vw;
-                font-size:1rem;
-                color:#f2f2f2;
-                background-color: #78797a;
+                width:100%;
+            
             }
             
-            #aboutContent{
+            h4{
+                margin-top:-4vh !important;
+                margin-left:10vw !important;
+                font-size:1.6rem;
+                font-family: 'Italianno', cursive;
+                color:#535353;
+                font-weight: lighter;
+                padding:3%;
+            
+            }
+            
+            #dynamic{
                 margin-top:2vh !important;
                 margin-left:11vw !important;
-                width:80% !important;
-                color:#5e5c5c;
-            }
-
-            .text{
-                margin-left:-3vw;
-            }
-
-            #pricing{
-                margin-top:4vh;
-            }
-
-            .itemContent{
-                margin-left:10vw;
-                width:80vw;
-            }
-               h3{
-                margin-left:33vw;
-                font-size: 2rem;
-                    color:rgb(110, 110, 110);
-                    font-family: 'Italianno', cursive;
-                    font-weight:lighter;
-            
-               }
-            
-               h4{
-                font-size: 2rem;
-                    color:rgb(110, 110, 110);
-                    font-family: 'Italianno', cursive;
-                    font-weight:lighter;
-            
-               }
-                
-           
-            
-            
-            footer{
-                width:100%;
-                background-color: rgb(71, 71, 71);
-            }
-}
-
-
-
-
-@media screen and (min-width:351px) and (max-width:420px){
-
- 
-   
-    header{
-        height:36vh;
-       background-image: url("img/smoke-show2.png");
-       background-repeat: no-repeat;
-       background-position: center;
-       background-size: cover;
-    }
-    .topnav {
-    overflow: hidden;
-    background-color: #e6e3e362;
-    position: relative;
-  }
-  
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  .topnav a {
-    float: left;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a.icon {
-    float: right;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-    color: white;
-  }
-    
-    
-            h1{
-                position: absolute;
-                margin-top:11vh !important;
-               margin-left:20vw !important;
-               font-family: 'Italianno', cursive;
-                color:rgb(53, 52, 52);
-                font-size:2.6rem !important;
-                font-weight: lighter !important;
-               
+                width:70vw;
+                font-size:.80rem;
             
             }
-
-            #desktopTitle{
-                display:none;
-            }
             
-            #websites{
-                margin-top:3%;
-            }
-            
-            
-            
-            
-            .websiteSample{
-                position: absolute;
-                margin-top:2%;
-               
-               
-            }
-            
-            .slogan{
-                margin-left:-3%;
-                font-size: 2rem;
-            }
-            
-            .sampleImg{
-                width:60%;
-                height:40%;
-            }
-            
-            
-            
-            #img1{
-                position: absolute;
-                margin-top:-2%;
-                margin-left:22vw;
-                height:12vh;
-                width:54vw;
-                z-index:-1;
-            }
-            
-            #img2{
-                position: absolute;
-                margin-top:20%;
-                margin-left:3vw !important;
-               
-                height:14vh;
-                width:46vw;
-                z-index:-1;
-            }
-            
-            #img3{
-                margin-top:20%;
-                margin-left:50vw !important;
-                height:14vh;
-                width:46vw;
-                z-index:-1;
-            }
-            
-            h2{
-                position: absolute;
-                margin-top:36%;
-                margin-left:31%;
-                font-size: 2rem;
-                color:rgb(110, 110, 110);
-                font-family: 'Italianno', cursive;
-                font-weight:lighter;
-            }
-
-            #contact{
-                margin-top:30vh !important;
-                margin-left:26vw;
-                font-size:1rem;
-                background-color: #78797a;
-                color:#f3f3f3;
-            }
-            
-            
-          
-            
-            #about{
-                margin-top:14% !important;
-                margin-left:5% !important;
-                padding:3% 5% 3% 7% !important;
-                width:77%;
-                
-                color:antiquewhite;
-                font-weight: light;
-            }
-
-           
-
-            #details{
-                position: absolute;
-                margin-top:-10vh !important;
-                margin-left:-7vw;
-                width:80vw !important;
-                color:#3b3b3b;
-            }
-
-            #aboutHeader{
-                margin-top:-2vh !important;
-                margin-left:-3vw !important;
-                width:87vw !important;
-                color:#5f5f5f;
-            }
-
-            #explore{
-                margin-top:12vh !important;
-            }
-
-            p{
-                width:80vw;
-            }
-            
-            #contact{
-               
-                margin-top:37vh !important;
-                margin-left:26vw;
-                font-size:1rem;
-                color:#f2f2f2;
-                background-color: #78797a;
-            }
-            
-            #aboutContent{
+            #comingSoon{
                 margin-top:2vh !important;
-                margin-left:13vw !important;
-                width:80vw !important;
-                color:#5e5c5c;
-            }
-
-            #pricing{
-                margin-top:4vh;
-                margin-left:10vw;
-            }
-
-            #pricingHeader{
-                margin-top:-2vh;
-                margin-left:25vw;
-                padding:2%;
-                font-size:2.7rem;
-            }
-
-            #templates{
-                margin-top:5vh;
-                margin-left:26vw;
-            }
-
-
-            #dynamic{
-                margin-top:5vh;
-                margin-left:20vw;
-            }
-
-            #custom
-                {
-                    margin-top:5vh;
-                    margin-left:20vw;
-                }
-
-                #other{
-                    margin-top:5vh;
-                    margin-left:26vw;
-                }
-
-                #branding{
-                    
-                        margin-top:5vh;
-                        margin-left:26vw;
-                    
-                }
-
-                .extraitemContent{
-                   margin-left:20vw;
-                }
             
-               h3{
-                margin-left:17vw;
-                font-size: 2rem;
-                    color:rgb(110, 110, 110);
-                    font-family: 'Italianno', cursive;
-                    font-weight:lighter;
+            }
             
-               }
-            
-               h4{
-                margin-left:4vw;
-                font-size: 2rem;
-                    color:rgb(110, 110, 110);
-                    font-family: 'Italianno', cursive;
-                    font-weight:lighter;
-            
-               }
-                
-           
-            
+            .extraitemContent{
+                margin-top:2vh;
+                margin-left:7vw;
+                font-size:.80rem;
+            }
             
             footer{
-                width:100%;
-                background-color: rgb(71, 71, 71);
+                margin-top:8vh !important;
             }
-}
-
- @media screen and (min-width:421px) and (max-width:536px)
-{
-    body {
-      
-        font-family: 'Cormorant Garamond', serif;
-        
-       font-weight:light ;
-
-    }
-  header{
-    height:36vh;
-   background-image: url("img/smoke-show2.png");
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-}
-
-.topnav {
-    overflow: hidden;
-    background-color: #e6e3e362;
-    position: relative;
-  }
-  
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  .topnav a {
-    float: left;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a.icon {
-    float: right;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-    color: white;
-  }
-
-#nav-logo-desktop{
-    display:none;
-}
-        #alchBrand{
-            margin-top: -59% !important;
-            margin-left:-9% !important;
-            width:10% !important;
-            height:10% !important;
-           }
-
-        #homeLink{
-            position: absolute;
-            margin-top:-20vh;
-            margin-left:-7% !important;
-            color:rgb(100, 100, 100);
-        }
-
-    
-
-        #aboutLink{
-            position: absolute;
-            margin-top:-60% !important;
-            margin-left:-7% !important;
-            color:rgb(71, 71, 71);
-
-        }
-
-        #bookLink{
-            margin-top:-50vh !important;
-            margin-left:-17%;
-            background-color: #3b3b3b;
-            color:#fff;
-        }
-
-        #contactLink{
-            margin-left:-8%;
-            margin-top:-41vh !important;
-            color:rgb(78, 78, 78);
-
-        }
-
-        span{
-            color:#475569;
-        }
-
-
-h1{
-    position: absolute;
-    margin-top:11vh !important;
-   margin-left:13vw !important;
-   font-family: 'Italianno', cursive;
-   font-weight: lighter;
-    color:rgb(53, 53, 53);
-    font-size:3.3rem !important;
-    
-
-}
-
-#desktopTitle{
-    display:none;
-}
-
-#websites{
-    margin-top:3%;
-}
-
-
-
-
-.websiteSample{
-    position: absolute;
-    margin-top:2%;
-   
-   
-}
-
-.slogan{
-    margin-left:-3%;
-    font-size: 2rem;
-}
-
-.sampleImg{
-    width:40%;
-    height:10%;
-}
-
-
-
-#img1{
-    position: absolute;
-    margin-top:-2%;
-    margin-left:27vw;
-    width:47vw;
-    height:12vh;
-    z-index:-1;
-}
-
-#img2{
-    position: absolute;
-    margin-top:11vh;
-    margin-left:6vw;
-    height:90px;
-    width:47vw;
-    height:10vh;
-    z-index:-1;
-}
-
-#img3{
-    margin-top:11vh;
-    margin-left:48vw;
-    width:47vw;
-    height:10vh;
-    z-index:-1;
-}
-
-h2{
-    position: absolute;
-    margin-top:36%;
-    margin-left:26%;
-    font-size: 5rem;
-    color:rgb(110, 110, 110);
-    font-family: 'Italianno', cursive;
-    font-weight:lighter;
-}
-
-
-
-#about{
-    margin-top:12%;
-    margin-left:9% !important;
-    padding:3% 5% 3% 5%;
-    width:70%;
-    
-    color:antiquewhite;
-    font-weight: light;
-}
-
-h2{
-    position: absolute;
-    margin-top:36%;
-    margin-left:31%;
-    font-size: 2rem;
-    color:rgb(110, 110, 110);
-    font-family: 'Italianno', cursive;
-    font-weight:lighter;
-}
-
-#contact{
-    margin-top:30vh !important;
-    margin-left:26vw;
-    font-size:1rem;
-    background-color: #78797a;
-    color:#f3f3f3;
-}
-
-
-
-
-#about{
-    margin-top:14% !important;
-    margin-left:5% !important;
-    padding:3% 5% 3% 7% !important;
-    width:77%;
-    
-    color:antiquewhite;
-    font-weight: light;
-}
-
-
-
-#details{
-    position: absolute;
-    margin-top:-10vh !important;
-    margin-left:-7vw;
-    width:80vw !important;
-    color:#3b3b3b;
-}
-
-#aboutHeader{
-    margin-top:-2vh !important;
-    margin-left:-3vw !important;
-    width:87vw !important;
-    color:#5f5f5f;
-}
-
-#explore{
-    margin-top:12vh !important;
-}
-
-p{
-    width:80vw;
-}
-
-#contact{
-   
-    margin-top:37vh !important;
-    margin-left:29vw;
-    font-size:1rem;
-    color:#f2f2f2;
-    background-color: #78797a;
-}
-
-#aboutContent{
-    margin-top:2vh !important;
-    margin-left:13vw !important;
-    width:80vw !important;
-    color:#5e5c5c;
-}
-
-#pricing{
-    margin-top:4vh;
-    margin-left:10vw;
-}
-
-
-#impact{
-    margin-left:5vw;
-}
-#pricingHeader{
-    margin-top:-2vh;
-    margin-left:25vw;
-    padding:2%;
-    font-size:2.7rem;
-}
-
-#templates{
-    margin-top:3vh;
-    margin-left:27vw;
-}
-
-
-#dynamic{
-    margin-top:2vh;
-    margin-left:20vw;
-}
-
-#custom{
-    margin-top:2vh;
-    margin-left:24vw;
-}
-
-#other{
-    margin-top:2vh;
-    margin-left:25vw;
-}
-
-#branding{
-    margin-top:2vh;
-    margin-left:20vw;
-}
-   h3{
-    margin-left:17vw;
-    font-size: 2rem;
-        color:rgb(110, 110, 110);
-        font-family: 'Italianno', cursive;
-        font-weight:lighter;
-
-   }
-
-   h4{
-    margin-left:4vw;
-    font-size: 2rem;
-        color:rgb(110, 110, 110);
-        font-family: 'Italianno', cursive;
-        font-weight:lighter;
-
-   }
-
-  .extraitemContent{
-    margin-left:20vw;
-  }
-
-
-
-
-
-
-
-footer{
-    height:14vh;
-    width:100%;
-    background-color: rgb(71, 71, 71);
-    color:#fff;
-}
-
-.footerLink{
-padding:10%;
-
-}
-
-.footerLinkBtm{
-    margin-top:10% !important;
-    
-    }
-
-    #footerContentRight{
-        padding:30% !important;
-    }
-
-.footerLogo{
-    margin-left:32% !important;
-    font-family: 'Italianno', cursive;
-}
-}
-
-@media screen and (min-width:536px) and (max-width:700px){
-    
-
-    header{
-        height:36vh;
-       background-image: url("img/smoke-show2.png");
-       background-repeat: no-repeat;
-       background-position: center;
-       background-size: cover;
-    }
-    
-    nav{
-        height:10%;
-        background-color: rgba(233, 233, 233, 0.199);
-    }
-    
-    .nav-logo-mobile{
-        height: 10vh !important;
-    }
-    
-    .navbar{
-        background-color: #e4e4e441;
-    }
-            .nav-menu {
-                position: fixed;
-                left: -100%;
-                top: 3rem;
-                flex-direction: column;
-                background-color: #ffffff;
-                height:100vh !important;
-                width: 100%;
-                border-radius: 10px;
-                text-align: center;
-                transition: 0.3s;
-                box-shadow:
-                    0 10px 27px rgba(0, 0, 0, 0.05);
-                    z-index:1 !important;
-            }
-        
-            .nav-menu.active {
-                left: 0;
-            }
-    
-            .nav-item {
-                margin: 2.5rem 0;
-                color:#356ab4 !important;
-                
-            }
-        
-            .hamburger {
-                display: block;
-                cursor: pointer;
-            }
-    .bar{
-        background-color: #3b3b3b;
-    }
-            .hamburger.active .bar:nth-child(2) {
-                opacity: 0;
-            }
-        
-            .hamburger.active .bar:nth-child(1) {
-                transform: translateY(8px) rotate(45deg);
-            }
-        
-            .hamburger.active .bar:nth-child(3) {
-                transform: translateY(-8px) rotate(-45deg);
-            }
-    .nav-logo-mobile{
-        margin-left:39% !important;
-    }
-    
-    .nav-logo-mobile{
-        height: 50vh !important;
-    }
-    
-    #nav-logo-desktop{
-        display:none;
-    }
-            #alchBrand{
-                margin-top: -59% !important;
-                margin-left:-9% !important;
-                width:10% !important;
-                height:10% !important;
-               }
-    
-            #homeLink{
-                position: absolute;
-                margin-left:-7% !important;
-                color:rgb(100, 100, 100);
-            }
-    
-        
-    
-            #aboutLink{
-                position: absolute;
-                margin-top:-50% !important;
-                margin-left:-7% !important;
-                color:rgb(71, 71, 71);
-    
-            }
-    
-            #bookLink{
-                margin-top:-50vh !important;
-                margin-left:-14%;
-                background-color: #3b3b3b;
-                color:#fff;
-            }
-    
-            #contactLink{
-                margin-left:-8%;
-                margin-top:-41vh !important;
-                color:rgb(78, 78, 78);
-    
-            }
-    
-            span{
-                color:#475569;
-            }
-    
-    
-    h1{
-        position: absolute;
-        margin-top:20%;
-       margin-left:26%;
-       font-family: 'Italianno', cursive;
-       font-weight: lighter;
-        color:rgb(53, 53, 53);
-        font-size:3rem !important;
-        
-    
-    }
-
-    #desktopTitle{
-        display:none;
-    }
-    
-    .sampleImg{
-        width:36%;
-        height:8%;
-    }
-    
-    #img1{
-        position: absolute;
-        margin-top:-2%;
-        margin-left:30%;
-        height:12%;
-        z-index:-1;
-    }
-    
-    #img2{
-        position: absolute;
-        margin-top:11% !important;
-        margin-left:9%;
-        height:90px;
-        z-index:-1;
-        height:100px !important;
-    }
-    
-    #img3{
-        margin-top:11% !important;
-        margin-left:54% !important;
-        height: 100px !important;
-        z-index:-1;
-    }
-    
-    h2{
-        position: absolute;
-        margin-top:34%;
-        margin-left:35%;
-        font-size: 5rem;
-        color:rgb(110, 110, 110);
-        font-family: 'Italianno', cursive;
-        font-weight:lighter;
-    }
-    
-    
-    #img4{
-        
-        margin-top:23%;
-        margin-left:14%;
-        height:11%;
-        z-index:-1;
-        
-    }
-    
-    #img5{
-        position: absolute;
-        margin-top:26%;
-        margin-left:-2%;
-        height:11%;
-    }
-    
-
-}
-
-@media screen and (min-width:452px) and (max-width: 542px){
-    #about{
-        width:69%;
-        margin-left:10vw;
-    }
-}
-
-
-
-@media screen and (min-width:600px) and (max-width:688px){
-
-    header{
-        background-image: url ("img/smoke-show2.png");
-    }
-  
-    nav{
-        height:10%;
-        background-color: rgba(233, 233, 233, 0.199);
-    }
-    
-    .nav-logo-mobile{
-        height: 10vh !important;
-    }
-    
-    .navbar{
-        background-color: #e4e4e441;
-    }
-            .nav-menu {
-                position: fixed;
-                left: -100%;
-                top: 3rem;
-                flex-direction: column;
-                background-color: #ffffff;
-                height:100vh !important;
-                width: 100%;
-                border-radius: 10px;
-                text-align: center;
-                transition: 0.3s;
-                box-shadow:
-                    0 10px 27px rgba(0, 0, 0, 0.05);
-                    z-index:1 !important;
-            }
-        
-            .nav-menu.active {
-                left: 0;
-            }
-    
-            .nav-item {
-                margin: 2.5rem 0;
-                color:#356ab4 !important;
-                
-            }
-        
-            .hamburger {
-                display: block;
-                cursor: pointer;
-            }
-    .bar{
-        background-color: #3b3b3b;
-    }
-            .hamburger.active .bar:nth-child(2) {
-                opacity: 0;
-            }
-        
-            .hamburger.active .bar:nth-child(1) {
-                transform: translateY(8px) rotate(45deg);
-            }
-        
-            .hamburger.active .bar:nth-child(3) {
-                transform: translateY(-8px) rotate(-45deg);
-            }
-    .nav-logo-mobile{
-        margin-left:39% !important;
-    }
-    
-    .nav-logo-mobile{
-        height: 50vh !important;
-    }
-    
-    #nav-logo-desktop{
-        display:none;
-    }
-            #alchBrand{
-                margin-top: -59% !important;
-                margin-left:-9% !important;
-                width:10% !important;
-                height:10% !important;
-               }
-    
-            #homeLink{
-                position: absolute;
-                margin-top:-20vh;
-                margin-left:-7% !important;
-                color:rgb(100, 100, 100);
-            }
-    
-        
-    
-            #aboutLink{
-                position: absolute;
-                margin-top:-45% !important;
-                margin-left:-7% !important;
-                color:rgb(71, 71, 71);
-    
-            }
-    
-            #bookLink{
-                margin-top:-50vh !important;
-                margin-left:-15% !important;
-                background-color: #3b3b3b;
-                color:#fff;
-            }
-    
-            #contactLink{
-                margin-left:-8%;
-                margin-top:-41vh !important;
-                color:rgb(78, 78, 78);
-    
-            }
-    
-            span{
-                color:#475569;
-            }
-    
-
-    header{
-        height:36vh;
-       background-image: url("img/smoke-show-2.jpg");
-       background-repeat: no-repeat;
-       background-position: center;
-       background-size: cover;
-    }
-
-
-    h1{
-        position: absolute;
-        margin-top:16% !important;
-       margin-left:20%;
-       font-family: 'Italianno', cursive;
-       font-weight: lighter;
-        color:rgb(53, 53, 53);
-        font-size:4rem !important;
-        
-    
-    }
-
-    #desktopTitle{
-        display:none;
-    }
-    
-    .sampleImg{
-        width:36%;
-        height:8%;
-    }
-    
-    #img1{
-        position: absolute;
-        margin-top:5%;
-        margin-left:30%;
-        z-index:-1;
-    }
-    
-    #img2{
-        position: absolute;
-        margin-top:16% !important;
-        margin-left:9%;
-        height:90px;
-        z-index:-1;
-    }
-    
-    #img3{
-        margin-top:16% !important;
-        margin-left:54%;
-        z-index:-1;
-    }
-    
-    h2{
-        position: absolute;
-        margin-top:40%;
-        margin-left:32%;
-        font-size: 5rem;
-        color:rgb(110, 110, 110);
-        font-family: 'Italianno', cursive;
-        font-weight:lighter;
-    }
-    
-    
-    #img4{
-        
-        margin-top:23%;
-        margin-left:14%;
-        height:100px;
-        z-index:-1;
-        
-    }
-    
-    #img5{
-        position: absolute;
-        margin-top:26%;
-        margin-left:-2%;
-        height:12vh;
-    }
-
-    #about{
-        margin-top:12%;
-        margin-left:9% !important;
-        padding:3% 5% 3% 5%;
-        width:70%;
-        
-        color:antiquewhite;
-        font-weight: light;
-    }
-    
-    #blog{
-        margin-top:10%;
-    }
-    
-    #blogInfo{
-        padding:5%;
-        margin-left:20%;
-        color:#4d4d4d;
-    }
-    
-    .post{
-        width:80%;
-        margin-left:7%;
-        padding:6%;
-    }
-    
-    .readMore{
-        
-        padding:3%;
-        color:#313131;
-        margin-left:30% 
-        !important;
-    }
-    
-    
-    footer{
-        height:14vh;
-        width:100%;
-        background-color: rgb(71, 71, 71);
-        color:#fff;
-    }
-    
-    .footerLink{
-    padding:10%;
-    
-    }
-    
-    .footerLinkBtm{
-        margin-top:10% !important;
-        
-        }
-    
-        #footerContentRight{
-            padding:30% !important;
-        }
-    
-    .footerLogo{
-        margin-left:32% !important;
-        font-family: 'Italianno', cursive;
-    }
-    
-
-}
-
-
-@media screen and (min-width:692px) and (max-width:759px){
-
-       header{
-        background-image: url ("img/smoke-show2.png");
-    }
- 
-
-  nav{
-    height:10%;
-    background-color: rgba(233, 233, 233, 0.199);
-}
-
-.nav-logo-mobile{
-    height: 10vh !important;
-}
-
-.navbar{
-    background-color: #e4e4e441;
-}
-        .nav-menu {
-            position: fixed;
-            left: -100%;
-            top: 3rem;
-            flex-direction: column;
-            background-color: #ffffff;
-            height:100vh !important;
-            width: 100%;
-            border-radius: 10px;
-            text-align: center;
-            transition: 0.3s;
-            box-shadow:
-                0 10px 27px rgba(0, 0, 0, 0.05);
-                z-index:1 !important;
-        }
-    
-        .nav-menu.active {
-            left: 0;
-        }
-
-        .nav-item {
-            margin: 2.5rem 0;
-            color:#356ab4 !important;
             
-        }
-    
-        .hamburger {
-            display: block;
-            cursor: pointer;
-        }
-.bar{
-    background-color: #3b3b3b;
-}
-        .hamburger.active .bar:nth-child(2) {
-            opacity: 0;
-        }
-    
-        .hamburger.active .bar:nth-child(1) {
-            transform: translateY(8px) rotate(45deg);
-        }
-    
-        .hamburger.active .bar:nth-child(3) {
-            transform: translateY(-8px) rotate(-45deg);
-        }
-.nav-logo-mobile{
-    margin-left:39% !important;
-}
-
-.nav-logo-mobile{
-    height: 50vh !important;
-}
-
-#nav-logo-desktop{
-    display:none;
-}
-        #alchBrand{
-            margin-top: -59% !important;
-            margin-left:-9% !important;
-            width:10% !important;
-            height:10% !important;
-           }
-
-        #homeLink{
-            position: absolute;
-            margin-top:-20vh;
-            margin-left:-6% !important;
-            color:rgb(100, 100, 100);
-        }
-
-    
-
-        #aboutLink{
-            position: absolute;
-            margin-top:-40% !important;
-            margin-left:-7% !important;
-            color:rgb(71, 71, 71);
-
-        }
-
-        #bookLink{
-            margin-top:-50vh !important;
-            margin-left:-13%;
-            background-color: #3b3b3b;
-            color:#fff;
-        }
-
-        #contactLink{
-            margin-left:-8%;
-            margin-top:-41vh !important;
-            color:rgb(78, 78, 78);
-
-        }
-
-        span{
-            color:#475569;
-        }
-
-
-  header{
-    height:36vh;
-   background-image: url("img/smoke-show-2.jpg");
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-}
-
-
-h1{
-    position: absolute;
-    margin-top:13%;
-   margin-left:17%;
-   font-family: 'Italianno', cursive;
-   font-weight: lighter;
-    color:rgb(53, 53, 53);
-    font-size:5rem !important;
-    
-
-}
-
-#desktopTitle{
-    display:none;
-}
-
-    .sampleImg{
-        width:36%;
-        height:12%;
-    }
-    
-    #img1{
-        position: absolute;
-        margin-top:6%;
-        margin-left:30%;
-        z-index:-1;
-    }
-    
-    #img2{
-        position: absolute;
-        margin-top:15% !important;
-        margin-left:9%;
-        height:122px !important;
-        z-index:-1;
-    }
-    
-    #img3{
-        margin-top:15% !important;
-        margin-left:54%;
-        height:115px !important;
-        z-index:-1;
-    }
-    
-    h2{
-        position: absolute;
-        margin-top:36%;
-        margin-left:32%;
-        font-size: 5rem;
-        color:rgb(110, 110, 110);
-        font-family: 'Italianno', cursive;
-        font-weight:lighter;
-    }
-    
-    
-    #img4{
-        
-        margin-top:23%;
-        margin-left:14%;
-        height:115px !important;
-        z-index:-1;
-        
-    }
-    
-    #img5{
-        position: absolute;
-        margin-top:26%;
-        margin-left:-2%;
-        height:115px !important;
-    }
-
-    #about{
-        margin-top:12%;
-        margin-left:9% !important;
-        padding:3% 5% 3% 5%;
-        width:70%;
-        background-color:rgb(87, 86, 85);
-        color:antiquewhite;
-        font-weight: light;
-    }
-    
-    #blog{
-        margin-top:10%;
-    }
-    
-    #blogInfo{
-        padding:5%;
-        margin-left:20%;
-        color:#4d4d4d;
-    }
-    
-    .post{
-        width:80%;
-        margin-left:7%;
-        padding:6%;
-    }
-    
-    .readMore{
-        
-        padding:3%;
-        color:#313131;
-        margin-left:30% 
-        !important;
-    }
-    
-    
-    footer{
-        height:22vh;
-        width:100%;
-        background-color: rgb(71, 71, 71);
-        color:#fff;
-    }
-    
-    .footerLink{
-    padding:9%;
-    
-    }
-
-    .footerContentLeft{
-        margin-left:20%;
-    }
-
-    .footerContentRight{
-        margin-top: 8%;
-        margin-left:17%;
-    }
-    
-    .footerLinkBtm{
-        margin-top:2% !important;
-        padding:9%;
-        
-        }
-    
-        #footerContentRight{
-            padding:30% !important;
-        }
-    
-    .footerLogo{
-        margin-left:32% !important;
-        margin-top:5%;
-        font-family: 'Italianno', cursive;
-        font-size:2rem;
-    }
-
-}
-
-
-
-
-
-@media screen and (min-width:760px) and (max-width:780px){
-
-body{
-   
-    font-family: 'Tsukimi Rounded', sans-serif;
-
-
-}
-header{
-    height:50vh;
-    
-        background-image: url ("img/smoke-show2.png");
-        
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-}
-
-
-li{
-    list-style-type:none;
-    }
-
-    a{
-        text-decoration: none;
-    }
-
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem 1.5rem;
-        background-color: #dadadaad;
-        font-size:2rem;
-    } 
-.nav-logo-mobile{
-    display:none;
-}
-    #contactLink{
-        position: absolute;
-        margin-left:10vw;
-        margin-top:-1%;
-    }
-
-    #bookLink{
-        position: absolute;
-        margin-left:-19%;
-        margin-top:50%;
-        background-color: #fff;
-        padding: 1% 1% 1% 1%;
-        font-size:1rem;
-       
-    }
-    #nav-logo-desktop{
-        position: absolute;
-        margin-left:39%;
-        font-size: 6rem;
-        font-weight: 500;
-       color:#ffffff;
-       font-weight: lighter;
-       font-family: 'Italianno', cursive;
-
-    }
-
-    
-
-    .hamburger {
-        display: none;
-    }
-
-    .bar {
-        display: block;
-        width: 25px;
-        height: 3px;
-        margin: 5px auto;
-        -webkit-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-        background-color: #101010;
-    }
-
-
-    .nav-menu {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .nav-item {
-        margin-left: 5rem;
-    }
-    
-    .nav-link{
-        font-size: 20px;
-        font-weight: 400;
-        color: #535353;
-    }
-    
-    .nav-link:hover{
-        color: #ffffff;
-    }
-    
-    
-
-    #homeLink{
-        
-        margin-top:-2%;
-        margin-left:-18vw;
-    }
-
-    #projectLink{
-        margin-left:-50%;
-    }
-
-    #aboutLink{
-        margin-left:-16vw;
-    }
-
-    #contactLink{
-        margin-top:-2%;
-        margin-left:36vw;
-    }
-
-
-
-#nav-logo-desktop{
-    position: absolute;
-    margin-top:-3%;
-    margin-left:21%;
-    font-size: 3rem;
-    font-weight: 500;
-   color:#ffffff;
-   font-weight: lighter;
-   font-family: 'Italianno', cursive;
-
-}
-
-
-
-h1{
-position: absolute;
-    margin-top:30% !important;
-    margin-left:19%;
-    font-family: 'Italianno', cursive;
-    color:rgb(71, 71, 71);
-    font-size:5rem;
-    font-weight: lighter;
-    
-}
-
-#mobileTitle{
-    display:none;
-}
-
-
-
-h2{
-    margin-left:37%;
-    font-size: 4rem;
-    font-family: 'Italianno', cursive;
-    color:rgb(110, 110, 110);
-}
-
-
-
-.slogan{
-    margin-left:-3%;
-    font-size: 2rem;
-}
-
-.sampleImg{
-    width:20rem;
-    height: 20rem;
-}
-
-
-
-#img1{
-    position: absolute;
-    margin-top:6%;
-    margin-left:30%;
-    height:16vh;
-    z-index:-1;
-}
-
-#img2{
-    position: absolute;
-    margin-top:15%;
-    margin-left:9%;
-    height:16vh;
-    z-index:-1;
-}
-
-#img3{
-    margin-top:16%;
-    margin-left:56%;
-    height:16vh;
-    z-index:-1;
-}
-
-h2{
-    position: absolute;
-    margin-top:41%;
-    margin-left:36%;
-    font-size: 5rem;
-    color:rgb(110, 110, 110);
-    font-family: 'Italianno', cursive;
-    font-weight:lighter;
-}
-
-
-#img4{
-    
-    margin-top:23%;
-    margin-left:14%;
-    height:16vh;
-    z-index:-1;
-    
-}
-
-#img5{
-    position: absolute;
-    margin-top:26%;
-    margin-left:-2%;
-    height:16vh;
-}
-
-#about{
-    margin-top:12%;
-    margin-left:10%;
-    padding:10%;
-    width:60%;
-   
-    color:antiquewhite;
-    font-weight: light;
-}
-
-
-
-
-.post{
-    margin-top:10%;
-    width:40%;
-    padding:5%;
-}
-
-
-#aboutContent{
-    margin-top:10%;
-    padding:5%;
-}
-
-#blogContent{
-    margin-top:-46vh;
-    margin-left:52vw;
-}
-
-
-h3{
-    margin-top:45%;
-    margin-left:10%;
-    width:100%;
-    font-size: 2rem;
-    font-family: 'Italianno', cursive;
-    color:rgb(110, 110, 110);
-    
-}
-
-footer{
-    background-color: #101010;
-    height:25vh;
-    color:white;
-}
-
-.footerLogo{
-    margin-top:5%;
-    margin-left:40vw;
-    font-weight: lighter;
-
-}
-.footerLinkBtm{
-    padding:10%;
-}
-
-.footerLink{
-    margin-left:14vw;
-    padding:5%;
-}
-.footerContentRight{
-    margin-left:10%;
-    padding:4%;
-}
-
-}
-
-@media screen and (min-width:780px){
-
-    body{
-      
-        font-family: 'Tsukimi Rounded', sans-serif;
-    
-    
-    }
-    header{
-        height:70vh !important;
-       
-        background-image: url ("img/smoke-show2.png");
-
-       background-repeat: no-repeat;
-       background-position: center;
-       background-size: cover;
-    }
-    
-    
-    li{
-        list-style-type:none;
-        }
-    
-        a{
-            text-decoration: none;
-        }
-    
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem 1.5rem;
-            background-color: #dadada69;
-            font-size:2rem;
-        } 
-    .nav-logo-mobile{
-        display:none;
-    }
-        #contactLink{
-            position: absolute;
-            margin-left:30vw;
-            margin-top:-1%;
-        }
-    
-        #bookLink{
-            position: absolute;
-            margin-left:35%;
-            margin-top:-2%;
             
-            background-color: #ffffff;
             
-            font-size:1rem;
-            color:#313131;
-           
-        }
-        #nav-logo-desktop{
-            position: absolute;
-            margin-top:-3%;
-            margin-left:36%;
-            font-size: 3rem !important;
-            font-weight: 500;
-           color:#ffffff;
-           font-weight: lighter;
-           font-family: 'Italianno', cursive;
-    
-        }
-    
-        
-    
-        .hamburger {
-            display: none;
-        }
-    
-        .bar {
-            display: block;
-            width: 25px;
-            height: 3px;
-            margin: 5px auto;
-            -webkit-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;
-            background-color: #101010;
-        }
-    
-    
-        .nav-menu {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .nav-item {
-            margin-left: 5rem;
-        }
-        
-        .nav-link{
-            font-size: 20px;
-            font-weight: 400;
-            color: #535353;
-        }
-        
-        .nav-link:hover{
-            color: #ffffff;
-        }
-        
-        
-    
-        #homeLink{
-            
-            margin-top:-20% !important;
-           
-            
-        }
-    
-        #projectLink{
-            margin-left:-50%;
-        }
-    
-        #aboutLink{
-            margin-left:-90%;
-        }
-    
-        #contactLink{
-            margin-top:-1%;
-            margin-left:30%;
-        }
-    
-    
-    
-    #nav-logo-desktop{
-        position: absolute;
-        margin-left:25%;
-        font-size: 4rem !important;
-        font-weight: 500;
-       color:#ffffff;
-       font-weight: lighter;
-       font-family: 'Italianno', cursive;
-    
-    }
-    
-    
-    
-    h1{
-    position: absolute;
-        margin-top:22% !important;
-        margin-left:10% !important;
-        font-family: 'Italianno', cursive;
-        color:rgb(71, 71, 71);
-        font-size:8rem;
-        font-weight: lighter;
-        
-    }
-
-    #mobileTitle{
-        display:none;
-    }
-    
-    
-    
-    h2{
-        margin-left:37%;
-        font-size: 4rem;
-        font-family: 'Italianno', cursive;
-        color:rgb(110, 110, 110);
-    }
-    
-    
-    
-    .slogan{
-        margin-left:-3%;
-        font-size: 2rem;
-    }
-    
-    .sampleImg{
-        width:40vw;
-        height: 30vh !important;
-    }
-    
-    
-    
-    #img1{
-        position: absolute;
-        margin-top:6%;
-        margin-left:30%;
-        height:35vh !important;
-        z-index:-1;
-    }
-    
-    #img2{
-        position: absolute;
-        margin-top:15%;
-        margin-left:3%;
-        height:35vh !important;
-        z-index:-1;
-    }
-    
-    #img3{
-        margin-top:16%;
-        margin-left:56%;
-        height:35vh !important;
-        z-index:-1;
-    }
-    
-    h2{
-        position: absolute;
-        margin-top:41%;
-        margin-left:36%;
-        font-size: 8rem;
-        color:rgb(110, 110, 110);
-        font-family: 'Italianno', cursive;
-        font-weight:lighter;
-    }
-    
-    
-    #img4{
-        
-        margin-top:23%;
-        margin-left:14%;
-        height:35vh !important;
-        z-index:-1;
-        
-    }
-    
-    #img5{
-        position: absolute;
-        margin-top:26%;
-        margin-left:-2%;
-        height:35vh !important;
-    }
-    
-    #about{
-        margin-top:17%;
-        margin-left:25%;
-        padding:2%;
-        width:50%;
-       
-        font-size:30px;
-        color:antiquewhite;
-        font-weight: light;
-    }
-    
-    
-    
-    
-    .post{
-        margin-top:17%;
-       width:40%;
-       padding:5%;
-       font-size:23px;
-    }
-
-    
-    
-    h3{
-        margin-top:26%;
-        margin-left:-50%;
-        font-size: 4rem;
-        width:100%;
-        font-family: 'Italianno', cursive;
-        color:rgb(110, 110, 110);
-        
-    }
-
-    #blogContent{
-        margin-top:-26.5%;
-        margin-left:50%;
-    }
-
-    #blogInfo{
-        margin-left:-80%;
-        font-family: 'Italianno', cursive;
-        font-weight: lighter;
-        width:100vw;
-    }
-    footer{
-        height:300px;
-        width:100%;
-        background-color: rgb(71, 71, 71);
-        color:#fff;
-    }
-    
-    .footerLink{
-        margin-left:5%;
-    padding:10%;
-    
-    }
-    
-    #footerContentLeft{
-        margin-left:30vw !important;
-    }
-    
-    
-      
-
-        .footerLinkBtm{
-            margin-left:10%;
-            padding:6%;
-        }
-    
-    .footerLogo{
-       
-        margin-top:10vh;
-        margin-left:32% !important;
-        font-family: 'Italianno', cursive;
-        font-weight: lighter;
-        color:whitesmoke;
-    }
+            }
 
 
-}
+
+
 
 
 
