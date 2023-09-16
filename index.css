@@ -1716,7 +1716,7 @@ li{
             @media screen and (min-width:300px) and (max-width:400px){
         #header{
             height:40vh;
-        background-image: url("img/smoke-show.png");
+        background-image: url("img/smoke-show2.png");
         background-size: cover;
         background-repeat: no-repeat;
         }
@@ -1728,7 +1728,7 @@ li{
         #mainNav{
             background-color: #ffffffb0;
             width:100vw;
-            height:15vh;
+            height:20vh;
         }
               a{
                 color:#313131;
@@ -1759,7 +1759,7 @@ li{
             
             h1{
                 position: absolute;
-                margin-top:-10vh !important;
+                margin-top:-6vh !important;
                 margin-left:21vw !important;
                 font-size:2rem;
                 font-weight: lighter;
@@ -1786,17 +1786,17 @@ li{
               }
 
               #subTitle{
-               margin-top:4vh;
+               margin-top:1vh;
                margin-left:24vw;
-                color:#fff !important;
+                color:#525050 !important;
               }
 
               #aboutHeader{
                 position: absolute;
                 margin-top:2vh !important;
-                margin-left:11vw !important;
+                margin-left:7vw !important;
                 width:80vw;
-                font-size:2rem;
+                font-size:2.5rem;
                 font-weight: lighter;
                font-family: 'Italianno', cursive;
                 color:rgb(94, 92, 92);
@@ -1857,7 +1857,7 @@ li{
             }
 
             #explore{
-                margin-top:16vh;
+                margin-top:28vh;
             }
             
             .sampleImg{
@@ -1871,7 +1871,7 @@ li{
             .prev, .next {
                 cursor: pointer;
                 position: absolute;
-                top: 75vh;
+                top: 87vh;
                 width: auto;
                 margin-top: -22px;
                 padding: 5px;
@@ -1918,6 +1918,7 @@ li{
               
               /* The dots/bullets/indicators */
               .dot {
+                display:none !important;
                 cursor: pointer;
                 height: 15px;
                 width: 15px;
@@ -1944,13 +1945,14 @@ li{
               }
             
               #bodycontact{
-                margin-left:30vw;
+                margin-left:36vw;
               }
                     
 
             .pricingHeader{
-                margin-top:-4vh !important;
+                margin-top:10vh !important;
                 margin-left:17vw !important;
+                
                 font-size:1.6rem;
                 font-family: 'Italianno', cursive;
                 color:#535353;
