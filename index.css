@@ -114,7 +114,393 @@ li{
         margin-left:20%;
     }
 
-    @media screen and (min-width:50px) and (max-width:199px){
+
+
+
+    @media screen and (min-width:50px) and (max-width:116px){
+       
+        
+         #header{
+             height:20vh;
+        background-image: url("img/smoke-show2.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+             
+         }
+     
+         nav{
+             height:1vh;
+             background-color: rgba(233, 233, 233, 0.534);
+         }
+         .navbar{
+             background-color: #e4e4e493;
+         }
+                 .nav-menu {
+                     position: fixed;
+                     left: -100%;
+                     top: 3rem;
+                     flex-direction: column;
+                     background-color: #fff;
+                     height:40vh !important;
+                     width: 100%;
+                     border-radius: 10px;
+                     text-align: center;
+                     transition: 0.3s;
+                     box-shadow:
+                         0 10px 27px rgba(0, 0, 0, 0.05);
+                         z-index:1 !important;
+                         font-weight: lighter;
+                 }
+             
+                 .nav-menu.active {
+                     left: 0;
+                 }
+         
+                 .nav-item {
+                     margin: 2.5rem 0;
+                     font-size: 0.50rem;;
+                     font-weight: lighter !important;
+                 }
+             
+                 .hamburger {
+                     display: block;
+                     cursor: pointer;
+                 }
+         .bar{
+             background-color: #3b3b3b;
+         }
+                 .hamburger.active .bar:nth-child(2) {
+                     opacity: 0;
+                 }
+             
+                 .hamburger.active .bar:nth-child(1) {
+                     transform: translateY(8px) rotate(45deg);
+                 }
+             
+                 .hamburger.active .bar:nth-child(3) {
+                     transform: translateY(-8px) rotate(-45deg);
+                 }
+         .nav-logo-mobile{
+             margin-left:39% !important;
+         }
+         
+         .nav-logo-mobile{
+             height: 50vh !important;
+         }
+         
+         #nav-logo-desktop{
+             display:none;
+         }
+                 #alchBrand{
+                     margin-top: -59% !important;
+                     margin-left:-9% !important;
+                     width:10% !important;
+                     height:10% !important;
+                    }
+ 
+                    #bodycontact{
+                     margin-left:26vw;
+                    }
+         
+                 #homeLink{
+                     position: absolute;
+                     margin-top:-15vh;
+                     margin-left:-26vw !important;
+                     font-size: 1rem;
+                     font-weight: lighter;
+                     color:rgb(255, 255, 255);
+                 }
+         
+                 #aboutLink{
+                     position: absolute;
+                     margin-top:-17vh;
+                     margin-left:-26vw !important;
+                     font-size: 1rem;
+                     font-weight: lighter;
+                     color:rgb(255, 255, 255);
+                 }
+         
+                 #missionLink{
+                     position: absolute;
+                     margin-top:-18vh;
+                     margin-left:-28vw !important;
+                     font-size: 1rem;
+                     font-weight: lighter;
+                     color:rgb(255, 255, 255);
+                 }
+         
+                 #bookLink{
+                     margin-top:-18vh;
+                     margin-left:-35vw;
+                     background-color: #3b3b3b;
+                     font-size: 0.70rem;
+                     font-weight: lighter;
+                     color:rgb(255, 255, 255);
+                 }
+         
+                 #contactLink{
+                    display:none;
+         
+                 }
+         
+                 span{
+                     color:#475569;
+                 }
+         
+             #alchDesignLogo{
+                 margin-top:-12vh !important;
+             }
+     
+         .nav-logo-mobile{
+             height: 50vh !important;
+         }
+         
+         #mainNav{
+             display:none;
+         }
+     
+        
+         
+     
+         h1{
+          
+             position: absolute;
+             margin-top:13vh !important;
+             margin-left:7vw !important;
+             font-size:1.5rem;
+             font-weight: lighter;
+            font-family: 'Italianno', cursive;
+             color:rgb(26, 25, 25);
+            
+         }
+ 
+         #mobileTitle{
+             display:none;
+         }
+ 
+         #miniTitle{
+            
+             position: absolute;
+             margin-top:3vh !important;
+             margin-left:3vw !important;
+             font-size:1rem;
+             font-weight: lighter;
+            font-family: 'Italianno', cursive;
+             color:rgb(26, 25, 25);
+            
+         }
+ 
+         #websites{
+             display:none;
+         }
+ 
+          #subTitle{
+             display:none;
+         }
+     
+       .sampleImg{
+     
+         display:flex;
+         padding:4%;
+         width:90%;
+         height:120px;
+     }
+ 
+     #explore{
+         margin-top:1vh !important;
+     }
+     
+     .prev, .next {
+         cursor: pointer;
+         position: absolute;
+         top: -22vh;
+         width: auto;
+         margin-top: 50vh;
+         padding: 5px;
+         color: rgb(94, 94, 94);
+         font-weight: bold;
+         font-size: 18px;
+         transition: 0.6s ease;
+         border-radius: 0 3px 3px 0;
+         user-select: none;
+         z-index:1;
+       }
+       
+       /* Position the "next button" to the right */
+       .next {
+         right: 0;
+         border-radius: 3px 0 0 3px;
+       }
+       
+       /* On hover, add a black background color with a little bit see-through */
+       .prev:hover, .next:hover {
+         background-color: rgba(0,0,0,0.8);
+       }
+       
+       /* Caption text */
+       .text {
+         display:none;
+         color: #f2f2f2;
+         font-size: 15px;
+         padding: 8px 12px;
+         position: absolute;
+         bottom: 8px;
+         width: 100%;
+         text-align: center;
+       }
+       
+       /* Number text (1/3 etc) */
+       .numbertext {
+         display:none;
+         color: #f2f2f2;
+         font-size: 12px;
+         padding: 8px 12px;
+         position: absolute;
+         top: 0;
+       }
+       
+       /* The dots/bullets/indicators */
+       .dot {
+         display: none !important;
+         cursor: pointer;
+         height: 15px;
+         width: 15px;
+         margin: 0 2px;
+         background-color: #bbb;
+         border-radius: 50%;
+         display: inline-block;
+         transition: background-color 0.6s ease;
+       }
+       
+       .active, .dot:hover {
+         background-color: #717171;
+       }
+       
+       /* Fading animation */
+       .fade {
+         animation-name: fade;
+         animation-duration: 1.5s;
+       }
+       
+       @keyframes fade {
+         from {opacity: .4}
+         to {opacity: 1}
+       }
+ 
+       #bodycontact{
+        margin-top:500px !important;
+         margin-left:20vw;
+         font-size:.80rem;
+         background-color: #3d3d3d;
+         color:#fff;
+         font-family: 'Italianno', cursive;
+         padding:7% 5% 7% 5%;
+       }
+     
+     #aboutHeader{
+         position:absolute;
+         margin-top:30vh !important;
+         margin-left:15vw !important;
+         font-size:1rem;
+         width:80vw;
+         font-family: 'Italianno', cursive;
+         color:#464646;
+     }
+ 
+     .pricingHeader{
+         margin-top:-4vh !important;
+         margin-left:17vw !important;
+         font-size:1.6rem;
+         font-family: 'Italianno', cursive;
+         color:#535353;
+         font-weight: lighter;
+         padding:3%;
+     
+     }
+ 
+   
+     
+     .itemContent{
+         margin-left:6vw;
+         padding:2%;
+         font-size:10px;
+         width:84vw;
+         
+     }
+     
+     #impact{
+         margin-left:9vw;
+         width:82vw;
+         font-size:.70rem;
+         font-weight: lighter;
+         color:#393a3a;
+     }
+     
+     .itemHeader{
+         margin-left:8vw;
+         font-size:1.2rem;
+     }
+     
+     h3{
+        margin-left:30vw !important;
+        color:#535353;
+         width:100%;
+     
+     }
+     
+     h4{
+         margin-top:-4vh !important;
+         margin-left:10vw !important;
+         font-size:1.6rem;
+         font-family: 'Italianno', cursive;
+         color:#535353;
+         font-weight: lighter;
+         padding:3%;
+     
+     }
+     
+     #dynamic{
+         margin-top:2vh !important;
+         margin-left:11vw !important;
+         width:70vw;
+         font-size:.80rem;
+     
+     }
+     
+     #comingSoon{
+         margin-top:2vh !important;
+     
+     }
+     
+     .extraitemContent{
+         margin-top:2vh;
+         margin-left:7vw;
+         font-size:.80rem;
+     }
+     
+     footer{
+         margin-top:30vh;
+         display:flex;
+         flex-direction:column;
+         height:30vh;
+         width:100vw;
+         background-color: #3d3d3d;
+         color:#fff;
+         display:inline-block;
+       
+         font-size:0.6rem;
+ 
+     }
+ 
+ #projectLink{
+     display:flex;
+     flex-direction:column;
+     margin-top:40vh;
+ }}
+
+    @media screen and (min-width:117px) and (max-width:136px){
+       
        
         #header{
             height:20vh;
@@ -146,6 +532,7 @@ li{
                     box-shadow:
                         0 10px 27px rgba(0, 0, 0, 0.05);
                         z-index:1 !important;
+                        font-weight: lighter;
                 }
             
                 .nav-menu.active {
@@ -154,7 +541,8 @@ li{
         
                 .nav-item {
                     margin: 2.5rem 0;
-                    
+                    font-size: 0.50rem;;
+                    font-weight: lighter !important;
                 }
             
                 .hamburger {
@@ -199,30 +587,38 @@ li{
         
                 #homeLink{
                     position: absolute;
-                    margin-top:-30%;
-                    margin-left:-15% !important;
-                    color:rgb(255, 255, 255);
-                }
-        
-                #projectLink{
-                    position: absolute;
-                    margin-top:-5%;
-                    margin-left:-15% !important;
+                    margin-top:-15vh;
+                    margin-left:-26vw !important;
+                    font-size: 1rem;
+                    font-weight: lighter;
                     color:rgb(255, 255, 255);
                 }
         
                 #aboutLink{
                     position: absolute;
-                    margin-top:-20%;
-                    margin-left:-15% !important;
+                    margin-top:-17vh;
+                    margin-left:-26vw !important;
+                    font-size: 1rem;
+                    font-weight: lighter;
+                    color:rgb(255, 255, 255);
+                }
+        
+                #missionLink{
+                    position: absolute;
+                    margin-top:-18vh;
+                    margin-left:-28vw !important;
+                    font-size: 1rem;
+                    font-weight: lighter;
                     color:rgb(255, 255, 255);
                 }
         
                 #bookLink{
-                    margin-top:-5vh;
-                    margin-left:-32%;
+                    margin-top:-18vh;
+                    margin-left:-35vw;
                     background-color: #3b3b3b;
-                    color:#fff;
+                    font-size: 0.70rem;
+                    font-weight: lighter;
+                    color:rgb(255, 255, 255);
                 }
         
                 #contactLink{
@@ -250,88 +646,42 @@ li{
         
     
         h1{
+         
+            position: absolute;
+            margin-top:13vh !important;
+            margin-left:7vw !important;
+            font-size:1.5rem;
+            font-weight: lighter;
+           font-family: 'Italianno', cursive;
+            color:rgb(26, 25, 25);
+           
+        }
+
+        #mobileTitle{
             display:none;
+        }
+
+        #miniTitle{
+           
             position: absolute;
             margin-top:3vh !important;
-            margin-left:10vw !important;
-            font-size:.9rem;
+            margin-left:3vw !important;
+            font-size:1.5rem;
+            font-weight: lighter;
            font-family: 'Italianno', cursive;
-            color:rgb(49, 49, 49);
+            color:rgb(26, 25, 25);
            
         }
 
-        #subTitle{
-            display:none;
-        }
-    
         #websites{
             display:none;
-            margin-top:3%;
         }
-        
-        #explore{
-            margin-top:70vh;
-        }
-        
-        
-        .websiteSample{
-            position: absolute;
-            margin-top:2%;
-           
-           
-        }
-        
-        .slogan{
-            margin-left:-3%;
-            font-size: 2rem;
-        }
-        
-        .sampleImg{
-            width:40%;
-            height:10%;
-        }
-        
-        
-        
-        #img1{
-            position: absolute;
-            margin-top:5%;
-            margin-left:26vw;
-            height:8vh;
-            width:50vw;
-            z-index:-1;
-        }
-        
-        #img2{
-            position: absolute;
-            margin-top:9vh;
-            height:8vh;
-            width:50vw;
-            z-index:-1;
-        }
-        
-        #img3{
-            position: absolute;
-            margin-top:9vh;
-            margin-left:50vw;
-            height:8vh;
-            width:50vw;
-            z-index:-1;
+
+         #subTitle{
+            display:none;
         }
     
-    h2{
-        position: absolute;
-                margin-top:17vh !important;
-                margin-left:7vw !important;
-                font-size:2rem;
-                font-weight: lighter;
-               font-family: 'Italianno', cursive;
-                color:rgb(94, 92, 92);
-               
-    }
-
-
-    .sampleImg{
+      .sampleImg{
     
         display:flex;
         padding:4%;
@@ -340,15 +690,15 @@ li{
     }
 
     #explore{
-        margin-top:10vh;
+        margin-top:1vh !important;
     }
     
     .prev, .next {
         cursor: pointer;
         position: absolute;
-        top: 37vh;;
+        top: -22vh;
         width: auto;
-        margin-top: -22px;
+        margin-top: 50vh;
         padding: 5px;
         color: rgb(94, 94, 94);
         font-weight: bold;
@@ -384,6 +734,7 @@ li{
       
       /* Number text (1/3 etc) */
       .numbertext {
+        display:none;
         color: #f2f2f2;
         font-size: 12px;
         padding: 8px 12px;
@@ -393,6 +744,7 @@ li{
       
       /* The dots/bullets/indicators */
       .dot {
+        display: none !important;
         cursor: pointer;
         height: 15px;
         width: 15px;
@@ -419,14 +771,22 @@ li{
       }
 
       #bodycontact{
-        font-size:1rem;
+       margin-top:500px !important;
+        margin-left:26vw;
+        font-size:.80rem;
+        background-color: #3d3d3d;
+        color:#fff;
+        font-family: 'Italianno', cursive;
+        padding:7% 5% 7% 5%;
       }
     
     #aboutHeader{
-        margin-top:1vh !important;
-        margin-left:11vw !important;
+        position:absolute;
+        margin-top:33vh !important;
+        margin-left:15vw !important;
         font-size:1rem;
         width:80vw;
+        font-family: 'Italianno', cursive;
         color:#464646;
     }
 
@@ -502,8 +862,720 @@ li{
     }
     
     footer{
-        margin-top:8vh !important;
-    }}
+        margin-top:30vh;
+        display:flex;
+        flex-direction:column;
+        height:30vh;
+        width:100vw;
+        background-color: #3d3d3d;
+        color:#fff;
+        display:inline-block;
+      
+        font-size:0.6rem;
+
+    }
+
+#projectLink{
+    display:flex;
+    flex-direction:column;
+    margin-top:40vh;
+}}
+
+@media screen and (min-width:137px) and (max-width:150px){
+
+   
+    #header{
+        height:40vh;
+   background-image: url("img/smoke-show2.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+        
+    }
+
+    nav{
+        height:1vh;
+        background-color: rgba(233, 233, 233, 0.534);
+    }
+    .navbar{
+        background-color: #e4e4e493;
+    }
+            .nav-menu {
+                position: fixed;
+                left: -100%;
+                top: 3rem;
+                flex-direction: column;
+                background-color: #fff;
+                height:40vh !important;
+                width: 100%;
+                border-radius: 10px;
+                text-align: center;
+                transition: 0.3s;
+                box-shadow:
+                    0 10px 27px rgba(0, 0, 0, 0.05);
+                    z-index:1 !important;
+                    font-weight: lighter;
+            }
+        
+            .nav-menu.active {
+                left: 0;
+            }
+    
+            .nav-item {
+                margin: 2.5rem 0;
+                font-size: 0.50rem;;
+                font-weight: lighter !important;
+            }
+        
+            .hamburger {
+                display: block;
+                cursor: pointer;
+            }
+    .bar{
+        background-color: #3b3b3b;
+    }
+            .hamburger.active .bar:nth-child(2) {
+                opacity: 0;
+            }
+        
+            .hamburger.active .bar:nth-child(1) {
+                transform: translateY(8px) rotate(45deg);
+            }
+        
+            .hamburger.active .bar:nth-child(3) {
+                transform: translateY(-8px) rotate(-45deg);
+            }
+    .nav-logo-mobile{
+        margin-left:39% !important;
+    }
+    
+    .nav-logo-mobile{
+        height: 50vh !important;
+    }
+    
+    #nav-logo-desktop{
+        display:none;
+    }
+            #alchBrand{
+                margin-top: -59% !important;
+                margin-left:-9% !important;
+                width:10% !important;
+                height:10% !important;
+               }
+
+               #bodycontact{
+                margin-left:26vw;
+               }
+    
+            #homeLink{
+                position: absolute;
+                margin-top:-15vh;
+                margin-left:-15% !important;
+                font-size: 1rem;
+                font-weight: lighter;
+                color:rgb(255, 255, 255);
+            }
+    
+            #aboutLink{
+                position: absolute;
+                margin-top:-18vh;
+                margin-left:-15% !important;
+                font-size: 1rem;
+                font-weight: lighter;
+                color:rgb(255, 255, 255);
+            }
+    
+            #missionLink{
+                position: absolute;
+                margin-top:-20vh;
+                margin-left:-15% !important;
+                font-size: 1rem;
+                font-weight: lighter;
+                color:rgb(255, 255, 255);
+            }
+    
+            #bookLink{
+                margin-top:-24vh;
+                margin-left:-27vw;
+                background-color: #3b3b3b;
+                font-size: 1rem;
+                font-weight: lighter;
+                color:rgb(255, 255, 255);
+            }
+    
+            #contactLink{
+               display:none;
+    
+            }
+    
+            span{
+                color:#475569;
+            }
+    
+        #alchDesignLogo{
+            margin-top:-12vh !important;
+        }
+
+    .nav-logo-mobile{
+        height: 50vh !important;
+    }
+    
+    #mainNav{
+        display:none;
+    }
+
+   
+    
+
+    h1{
+       
+        position: absolute;
+        margin-top:13vh !important;
+        margin-left:2vw !important;
+        font-size:1.5rem;
+        font-weight: lighter;
+       font-family: 'Italianno', cursive;
+        color:rgb(43, 42, 42);
+       
+    }
+
+    .typewriter h1 {
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid rgba(230, 230, 230, 0); /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+       /* Adjust as needed */
+        animation: 
+          typing 3.5s steps(40, end),
+          blink-caret .75s step-end infinite;
+      }
+      
+      /* The typing effect */
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+
+
+    #websites{
+        display:none;
+    }
+
+     #subTitle{
+        display:none;
+    }
+
+  .sampleImg{
+
+    display:flex;
+    padding:4%;
+    width:90%;
+    height:120px;
+}
+
+#explore{
+    margin-top:3vh !important;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 2vh;
+    width: auto;
+    margin-top: 50vh;
+    padding: 5px;
+    color: rgb(94, 94, 94);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    z-index:1;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    display:none;
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    display:none;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    display: none !important;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  #bodycontact{
+   margin-top:-30vh !important;
+    margin-left:32vw !important;
+    font-size:.80rem;
+    background-color: #3d3d3d;
+    color:#fff;
+    font-family: 'Italianno', cursive;
+    padding:7% 5% 7% 5%;
+  }
+
+#aboutHeader{
+    position: absolute;
+    margin-top:40vh !important;
+    margin-left:7vw !important;
+    font-size:1.7rem;
+    font-weight: lighter;
+    width:90vw;
+    font-family: 'Italianno', cursive;
+    color:#464646;
+}
+
+
+
+
+h3{
+   margin-left:30vw !important;
+   color:#535353;
+    width:100%;
+
+}
+
+h4{
+    margin-top:-4vh !important;
+    margin-left:10vw !important;
+    font-size:1.6rem;
+    font-family: 'Italianno', cursive;
+    color:#535353;
+    font-weight: lighter;
+    padding:3%;
+
+}
+
+
+
+.extraitemContent{
+    margin-top:2vh;
+    margin-left:7vw;
+    font-size:.80rem;
+}
+
+footer{
+   
+    margin-top:-130vh !important;
+    height:40vh;
+    width:100vw;
+    background-color: #3d3d3d;
+    display:inline-block;
+    margin-top:50vh !important;
+    font-size:0.6rem;
+
+}
+
+#projectLink{
+margin-top:40vh;
+}
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:151px) and (max-width:199px){
+
+   
+    #header{
+        height:40vh;
+   background-image: url("img/smoke-show2.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+        
+    }
+
+    nav{
+        height:1vh;
+        background-color: rgba(233, 233, 233, 0.534);
+    }
+    .navbar{
+        background-color: #e4e4e493;
+    }
+            .nav-menu {
+                position: fixed;
+                left: -100%;
+                top: 3rem;
+                flex-direction: column;
+                background-color: #fff;
+                height:40vh !important;
+                width: 100%;
+                border-radius: 10px;
+                text-align: center;
+                transition: 0.3s;
+                box-shadow:
+                    0 10px 27px rgba(0, 0, 0, 0.05);
+                    z-index:1 !important;
+                    font-weight: lighter;
+            }
+        
+            .nav-menu.active {
+                left: 0;
+            }
+    
+            .nav-item {
+                margin: 2.5rem 0;
+                font-size: 0.50rem;;
+                font-weight: lighter !important;
+            }
+        
+            .hamburger {
+                display: block;
+                cursor: pointer;
+            }
+    .bar{
+        background-color: #3b3b3b;
+    }
+            .hamburger.active .bar:nth-child(2) {
+                opacity: 0;
+            }
+        
+            .hamburger.active .bar:nth-child(1) {
+                transform: translateY(8px) rotate(45deg);
+            }
+        
+            .hamburger.active .bar:nth-child(3) {
+                transform: translateY(-8px) rotate(-45deg);
+            }
+    .nav-logo-mobile{
+        margin-left:39% !important;
+    }
+    
+    .nav-logo-mobile{
+        height: 50vh !important;
+    }
+    
+    #nav-logo-desktop{
+        display:none;
+    }
+            #alchBrand{
+                margin-top: -59% !important;
+                margin-left:-9% !important;
+                width:10% !important;
+                height:10% !important;
+               }
+
+               #bodycontact{
+                margin-left:26vw;
+               }
+    
+            #homeLink{
+                position: absolute;
+                margin-top:-15vh;
+                margin-left:-15% !important;
+                font-size: 1rem;
+                font-weight: lighter;
+                color:rgb(255, 255, 255);
+            }
+    
+            #aboutLink{
+                position: absolute;
+                margin-top:-18vh;
+                margin-left:-15% !important;
+                font-size: 1rem;
+                font-weight: lighter;
+                color:rgb(255, 255, 255);
+            }
+    
+            #missionLink{
+                position: absolute;
+                margin-top:-20vh;
+                margin-left:-15% !important;
+                font-size: 1rem;
+                font-weight: lighter;
+                color:rgb(255, 255, 255);
+            }
+    
+            #bookLink{
+                margin-top:-24vh;
+                margin-left:-24vw;
+                background-color: #3b3b3b;
+                font-size: 1rem;
+                font-weight: lighter;
+                color:rgb(255, 255, 255);
+            }
+    
+            #contactLink{
+               display:none;
+    
+            }
+    
+            span{
+                color:#475569;
+            }
+    
+        #alchDesignLogo{
+            margin-top:-12vh !important;
+        }
+
+    .nav-logo-mobile{
+        height: 50vh !important;
+    }
+    
+    #mainNav{
+        display:none;
+    }
+
+   
+    
+
+    h1{
+       
+        position: absolute;
+        margin-top:13.7vh !important;
+        margin-left:8vw !important;
+        font-size:1.5rem;
+        font-weight: lighter;
+       font-family: 'Italianno', cursive;
+        color:rgb(43, 42, 42);
+       
+    }
+
+    .typewriter h1 {
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid rgba(230, 230, 230, 0); /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+       /* Adjust as needed */
+        animation: 
+          typing 3.5s steps(40, end),
+          blink-caret .75s step-end infinite;
+      }
+      
+      /* The typing effect */
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+
+
+    #websites{
+        display:none;
+    }
+
+     #subTitle{
+        display:none;
+    }
+
+  .sampleImg{
+
+    display:flex;
+    padding:4%;
+    width:90%;
+    height:120px;
+}
+
+#explore{
+    margin-top:3vh !important;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 2vh;
+    width: auto;
+    margin-top: 50vh;
+    padding: 5px;
+    color: rgb(94, 94, 94);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    z-index:1;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    display:none;
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    display:none;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    display: none !important;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  #bodycontact{
+   margin-top:-30vh !important;
+    margin-left:32vw !important;
+    font-size:.80rem;
+    background-color: #3d3d3d;
+    color:#fff;
+    font-family: 'Italianno', cursive;
+    padding:7% 5% 7% 5%;
+  }
+
+#aboutHeader{
+    position: absolute;
+    margin-top:48vh !important;
+    margin-left:7vw !important;
+    font-size:1.7rem;
+    font-weight: lighter;
+    width:90vw;
+    font-family: 'Italianno', cursive;
+    color:#464646;
+}
+
+
+
+
+h3{
+   margin-left:30vw !important;
+   color:#535353;
+    width:100%;
+
+}
+
+h4{
+    margin-top:-4vh !important;
+    margin-left:10vw !important;
+    font-size:1.6rem;
+    font-family: 'Italianno', cursive;
+    color:#535353;
+    font-weight: lighter;
+    padding:3%;
+
+}
+
+
+
+.extraitemContent{
+    margin-top:2vh;
+    margin-left:7vw;
+    font-size:.80rem;
+}
+
+footer{
+   
+    margin-top:-130vh !important;
+    height:40vh;
+    width:100vw;
+    background-color: #3d3d3d;
+    display:inline-block;
+    margin-top:50vh !important;
+    font-size:0.6rem;
+
+}
+
+#projectLink{
+margin-top:40vh;
+}
+}
+
+
+
+
+
+
+
+
+
 
         @media screen and (min-width:200px) and (max-width:220px){
 
@@ -589,29 +1661,45 @@ li{
                     #homeLink{
                         position: absolute;
                         margin-top:-30%;
-                        margin-left:-15% !important;
-                        color:rgb(252, 249, 249);
-                    }
-            
-                    #projectLink{
-                        position: absolute;
-                        margin-top:-5%;
-                        margin-left:-15% !important;
-                        color:rgb(255, 255, 255);
+                        margin-left:-26vw !important;
+                        color:rgba(224, 222, 222, 0.808);
+                        font-size:1.6rem;
+                        font-family: 'Italianno', cursive;
+                        font-weight: lighter;
                     }
             
                     #aboutLink{
                         position: absolute;
-                        margin-top:-20%;
-                        margin-left:-15% !important;
-                        color:rgb(253, 251, 251);
+                        margin-top:-10vh;
+                        margin-left:-29vw !important;
+                        
+                        color:rgba(224, 222, 222, 0.808);
+                        font-size:1.6rem;
+                        font-family: 'Italianno', cursive;
+                        font-weight: lighter;
+                    }
+            
+                    #missionLink{
+                        position: absolute;
+                        margin-top:-10vh;
+                        margin-left:-29vw !important;
+                       
+                        color:rgba(224, 222, 222, 0.808);
+                        font-size:1.6rem;
+                        font-family: 'Italianno', cursive;
+                        font-weight: lighter;
                     }
             
                     #bookLink{
-                        margin-top:-20%;
-                        margin-left:-26%;
+                        margin-top:-14vh;
+                        margin-left:-32vw !important;
                         background-color: #3b3b3b;
-                        color:#fff;
+                        
+                        padding:4% 7% 4% 7%;
+                        color:rgba(224, 222, 222, 0.808);
+                        font-size:1rem;
+                        font-family: 'Italianno', cursive;
+                        font-weight: lighter;
                     }
             
                     #contactLink{
@@ -639,12 +1727,12 @@ li{
         
             h1{
                 position: absolute;
-                margin-top:11vh !important;
-                margin-left:7vw !important;
-                font-size:2rem;
+                margin-top:9vh !important;
+                margin-left:9vw !important;
+                font-size:1.6rem;
                 font-weight: lighter;
                font-family: 'Italianno', cursive;
-                color:rgb(37, 37, 37);
+                color:rgb(54, 54, 54);
                
             }
 
@@ -668,23 +1756,23 @@ li{
 
             #aboutHeader{
                 position: absolute;
-                margin-top:2vh !important;
-                margin-left:13vw !important;
-                font-size:1.5rem;
+                margin-top:23vh !important;
+                margin-left:5vw !important;
+                font-size:1.8rem;
                 font-weight: lighter;
                font-family: 'Italianno', cursive;
-                color:rgb(37, 37, 37);
+                color:rgb(92, 91, 91);
+                width:90vw;
             }
 
             #subTitle{
+                display:none;
                 margin-top:140vh;
             }
-#websites{
-    display:none;
-}
+
             
 #explore{
-    margin-top:16vh;
+    margin-top:46vh;
 }
 
 .sampleImg{
@@ -698,7 +1786,7 @@ li{
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 65vh;
+    top: 95vh;
     width: auto;
     margin-top: -22px;
     padding: 5px;
@@ -745,6 +1833,7 @@ li{
   
   /* The dots/bullets/indicators */
   .dot {
+    display:none !important;
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -771,12 +1860,1639 @@ li{
   }
 
   #bodycontact{
-    margin-left:30vw;
+    margin-top:500px !important;
+    margin-left:25vw;
+    font-size:1.3rem;
+    padding: 3% 10% 3% 10%;
+    width:70vw;
+    background-color: #3d3d3d;
+    color:#fff;
+    font-family: 'Italianno', cursive;
+    padding:7% 5% 7% 5%;
   }
         
-            #websites{
-                margin-top:3%;
+            
+            
+            
+            
+            
+            .websiteSample{
+                position: absolute;
+                margin-top:2%;
+               
+               
             }
+            
+            .slogan{
+                margin-left:-3%;
+                font-size: 2rem;
+            }
+            
+            .sampleImg{
+                width:40%;
+                height:10%;
+            }
+            
+            
+            
+            #img1{
+                position: absolute;
+                margin-top:5%;
+                margin-left:26vw;
+                height:8vh;
+                width:50vw;
+                z-index:-1;
+            }
+            
+            #img2{
+                position: absolute;
+                margin-top:10vh;
+                margin-left:-4vw;
+                height:8vh;
+                width:50vw;
+                z-index:-1;
+            }
+            
+            #img3{
+                position: absolute;
+                margin-top:10vh;
+                margin-left:46vw;
+                height:8vh;
+                width:50vw;
+                z-index:-1;
+            }
+
+
+          
+            
+            h3{
+               
+                width:100%;
+            
+            }
+            
+            h4{
+                margin-top:-4vh !important;
+                margin-left:10vw !important;
+                font-size:1.6rem;
+                font-family: 'Italianno', cursive;
+                color:#535353;
+                font-weight: lighter;
+                padding:3%;
+            
+            }
+            
+            #dynamic{
+                margin-top:2vh !important;
+                margin-left:2vw !important;
+                width:70vw;
+                font-size:.80rem;
+            
+            }
+            
+            #comingSoon{
+                margin-top:2vh !important;
+                margin-left:4vw !important;
+                font-size:1rem;
+            
+            }
+            
+            .extraitemContent{
+                margin-top:2vh;
+                margin-left:7vw;
+                font-size:.80rem;
+            }
+            
+            footer{
+                height:30vh;
+                background-color: #3d3d3d;
+                color:#fff;
+                margin-top:8vh !important;
+            }
+            }
+
+
+            @media screen and (min-width:221px) and (max-width:270px){
+
+         
+               
+            #header{
+                height:36vh;
+           background-image: url("img/smoke-show2.png");
+           background-repeat: no-repeat;
+           background-position: center;
+           background-size: cover;
+                
+            }
+        
+            nav{
+                height:10%;
+                background-color: rgba(233, 233, 233, 0.199);
+            }
+            .navbar{
+                background-color: #e4e4e441;
+            }
+                    .nav-menu {
+                        position: fixed;
+                        left: -100%;
+                        top: 3rem;
+                        flex-direction: column;
+                        background-color: #fff;
+                        width: 100%;
+                        height:30vh;
+                        border-radius: 10px;
+                        text-align: center;
+                        transition: 0.3s;
+                        box-shadow:
+                            0 10px 27px rgba(0, 0, 0, 0.05);
+                            z-index:1 !important;
+                    }
+                
+                    .nav-menu.active {
+                        left: 0;
+                    }
+            
+                    .nav-item {
+                        font-weight: lighter;
+                        margin: 2.5rem 0;
+                        
+                    }
+                
+                    .hamburger {
+                        display: block;
+                        cursor: pointer;
+                    }
+            .bar{
+                background-color: #3b3b3b;
+            }
+                    .hamburger.active .bar:nth-child(2) {
+                        opacity: 0;
+                    }
+                
+                    .hamburger.active .bar:nth-child(1) {
+                        transform: translateY(8px) rotate(45deg);
+                    }
+                
+                    .hamburger.active .bar:nth-child(3) {
+                        transform: translateY(-8px) rotate(-45deg);
+                    }
+            .nav-logo-mobile{
+                margin-left:39% !important;
+            }
+            
+            .nav-logo-mobile{
+                height: 50vh !important;
+            }
+            
+            #nav-logo-desktop{
+                display:none;
+            }
+                    #alchBrand{
+                        margin-top: -59% !important;
+                        margin-left:-9% !important;
+                        width:10% !important;
+                        height:10% !important;
+                       }
+            
+                    #homeLink{
+                        position: absolute;
+                        margin-top:-50vw !important;
+                       margin-left:-26vw;
+                        color:rgba(224, 222, 222, 0.808);
+                        font-size:1.6rem;
+                        font-family: 'Italianno', cursive;
+                        font-weight: lighter;
+                    }
+            
+                    #aboutLink{
+                        position: absolute;
+                        margin-top:-21vh;
+                        margin-left:-28vw !important;
+                       
+                        color:rgba(224, 222, 222, 0.808);
+                        font-size:1.6rem;
+                        font-family: 'Italianno', cursive;
+                        font-weight: lighter;
+                    }
+            
+                    #missionLink{
+                        position: absolute;
+                        margin-top:-24vh;
+                        margin-left:-29vw !important;
+                      
+                        color:rgba(224, 222, 222, 0.808);
+                        font-size:1.6rem;
+                        font-family: 'Italianno', cursive;
+                        font-weight: lighter;
+                    }
+            
+                    #bookLink{
+                        margin-top:-29vh;
+                        margin-left:-27vw !important;
+                        background-color: #3b3b3b;
+                       
+                        color:rgba(224, 222, 222, 0.808);
+                        font-size:1rem;
+                        font-family: 'Italianno', cursive;
+                        font-weight: lighter;
+                    }
+            
+                    #contactLink{
+                        margin-left:-15%;
+                        margin-top:-6%;
+                        color:rgb(126, 126, 126);
+            
+                    }
+            
+                    span{
+                        color:#475569;
+                    }
+            
+                #alchDesignLogo{
+                    margin-top:-12vh !important;
+                }
+        
+            .nav-logo-mobile{
+                height: 50vh !important;
+            }
+            
+            #mainNav{
+                display:none;
+            }
+        
+            h1{
+                position: absolute;
+                margin-top:9vh !important;
+                margin-left:14vw !important;
+                font-size:1.6rem;
+                font-weight: lighter;
+               font-family: 'Italianno', cursive;
+                color:rgb(54, 54, 54);
+               
+            }
+
+            .typewriter h1 {
+                overflow: hidden; /* Ensures the content is not revealed until the animation */
+                border-right: .15em solid rgba(230, 230, 230, 0); /* The typwriter cursor */
+                white-space: nowrap; /* Keeps the content on a single line */
+                margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+               /* Adjust as needed */
+                animation: 
+                  typing 3.5s steps(40, end),
+                  blink-caret .75s step-end infinite;
+              }
+              
+              /* The typing effect */
+              @keyframes typing {
+                from { width: 0 }
+                to { width: 100% }
+              }
+
+
+            #aboutHeader{
+                position: absolute;
+                margin-top:23vh !important;
+                margin-left:5vw !important;
+                font-size:1rem;
+                font-weight: lighter;
+               font-family: 'Italianno', cursive;
+                color:rgb(92, 91, 91);
+            }
+
+            #subTitle{
+                display:none;
+                margin-top:140vh;
+            }
+
+            
+#explore{
+    margin-top:46vh;
+}
+
+.sampleImg{
+    
+    display:flex;
+    padding:4%;
+    width:90%;
+    height:120px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 95vh;
+    width: auto;
+    margin-top: -22px;
+    padding: 5px;
+    color: rgb(56, 55, 55);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    z-index:1;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    display:none;
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    display:none !important;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  #bodycontact{
+    margin-top:500px !important;
+    margin-left:33vw;
+    font-size:1.2rem;
+    background-color: #3d3d3d;
+    color:#fff;
+    font-family: 'Italianno', cursive;
+    padding:2% 5% 2% 5%;
+  }
+        
+            
+            
+            
+            
+            
+            .websiteSample{
+                position: absolute;
+                margin-top:2%;
+               
+               
+            }
+            
+            .slogan{
+                margin-left:-3%;
+                font-size: 2rem;
+            }
+            
+            .sampleImg{
+                width:40%;
+                height:10%;
+            }
+            
+            
+            
+            #img1{
+                position: absolute;
+                margin-top:1vh;
+                margin-left:22vw;
+                height:8vh;
+                width:50vw;
+                z-index:-1;
+            }
+            
+            #img2{
+                position: absolute;
+                margin-top:9vh;
+                margin-left:-6vw;
+                height:8vh;
+                width:50vw;
+                z-index:-1;
+            }
+            
+            #img3{
+                position: absolute;
+                margin-top:9vh;
+                margin-left:44vw;
+                height:8vh;
+                width:50vw;
+                z-index:-1;
+            }
+
+
+            #img4{
+                position: absolute;
+                margin-top:29vh;
+                margin-left:10vw;
+                height:8vh;
+                width:50vw;
+                z-index:-1;
+            }
+
+            #img5{
+                position: absolute;
+                margin-top:25vh;
+                margin-left:44vw;
+                height:8vh;
+                width:50vw;
+                z-index:-1;
+            }
+            
+            
+            h3{
+               
+                width:100%;
+            
+            }
+            
+            h4{
+                margin-top:-4vh !important;
+                margin-left:10vw !important;
+                font-size:1.6rem;
+                font-family: 'Italianno', cursive;
+                color:#535353;
+                font-weight: lighter;
+                padding:3%;
+            
+            }
+            
+            #dynamic{
+                margin-top:2vh !important;
+                margin-left:2vw !important;
+                width:70vw;
+                font-size:.80rem;
+            
+            }
+            
+            #comingSoon{
+                margin-top:2vh !important;
+                margin-left:4vw !important;
+                font-size:1rem;
+            
+            }
+            
+            .extraitemContent{
+                margin-top:2vh;
+                margin-left:7vw;
+                font-size:.80rem;
+            }
+            
+            footer{
+                height:30vh;
+                background-color: #3d3d3d;
+                color:#fff;
+                margin-top:8vh !important;
+            }
+                }
+    
+                @media screen and (min-width:271px) and (max-width:310px){
+
+         
+               
+                    #header{
+                        height:36vh;
+                   background-image: url("img/smoke-show2.png");
+                   background-repeat: no-repeat;
+                   background-position: center;
+                   background-size: cover;
+                        
+                    }
+                
+                    nav{
+                        height:10%;
+                        background-color: rgba(233, 233, 233, 0.199);
+                    }
+                    .navbar{
+                        background-color: #e4e4e441;
+                    }
+                            .nav-menu {
+                                position: fixed;
+                                left: -100%;
+                                top: 3rem;
+                                flex-direction: column;
+                                background-color: #fff;
+                                width: 100%;
+                                height:30vh;
+                                border-radius: 10px;
+                                text-align: center;
+                                transition: 0.3s;
+                                box-shadow:
+                                    0 10px 27px rgba(0, 0, 0, 0.05);
+                                    z-index:1 !important;
+                            }
+                        
+                            .nav-menu.active {
+                                left: 0;
+                            }
+                    
+                            .nav-item {
+                                font-weight: lighter;
+                                margin: 2.5rem 0;
+                                
+                            }
+                        
+                            .hamburger {
+                                display: block;
+                                cursor: pointer;
+                            }
+                    .bar{
+                        background-color: #3b3b3b;
+                    }
+                            .hamburger.active .bar:nth-child(2) {
+                                opacity: 0;
+                            }
+                        
+                            .hamburger.active .bar:nth-child(1) {
+                                transform: translateY(8px) rotate(45deg);
+                            }
+                        
+                            .hamburger.active .bar:nth-child(3) {
+                                transform: translateY(-8px) rotate(-45deg);
+                            }
+                    .nav-logo-mobile{
+                        margin-left:39% !important;
+                    }
+                    
+                    .nav-logo-mobile{
+                        height: 50vh !important;
+                    }
+                    
+                    #nav-logo-desktop{
+                        display:none;
+                    }
+                            #alchBrand{
+                                margin-top: -59% !important;
+                                margin-left:-9% !important;
+                                width:10% !important;
+                                height:10% !important;
+                               }
+                    
+                            #homeLink{
+                                position: absolute;
+                                margin-top:-50vw !important;
+                               margin-left:-26vw;
+                                color:rgba(224, 222, 222, 0.808);
+                                font-size:1.6rem;
+                                font-family: 'Italianno', cursive;
+                                font-weight: lighter;
+                            }
+                    
+                            #aboutLink{
+                                position: absolute;
+                                margin-top:-21vh;
+                                margin-left:-28vw !important;
+                               
+                                color:rgba(224, 222, 222, 0.808);
+                                font-size:1.6rem;
+                                font-family: 'Italianno', cursive;
+                                font-weight: lighter;
+                            }
+                    
+                            #missionLink{
+                                position: absolute;
+                                margin-top:-24vh;
+                                margin-left:-29vw !important;
+                              
+                                color:rgba(224, 222, 222, 0.808);
+                                font-size:1.6rem;
+                                font-family: 'Italianno', cursive;
+                                font-weight: lighter;
+                            }
+                    
+                            #bookLink{
+                                margin-top:-29vh;
+                                margin-left:-27vw !important;
+                                background-color: #3b3b3b;
+                               
+                                color:rgba(224, 222, 222, 0.808);
+                                font-size:1rem;
+                                font-family: 'Italianno', cursive;
+                                font-weight: lighter;
+                            }
+                    
+                            #contactLink{
+                                margin-left:-15%;
+                                margin-top:-6%;
+                                color:rgb(126, 126, 126);
+                    
+                            }
+                    
+                            span{
+                                color:#475569;
+                            }
+                    
+                        #alchDesignLogo{
+                            margin-top:-12vh !important;
+                        }
+                
+                    .nav-logo-mobile{
+                        height: 50vh !important;
+                    }
+                    
+                    #mainNav{
+                        display:none;
+                    }
+                
+                    h1{
+                        position: absolute;
+                        margin-top:9vh !important;
+                        margin-left:14vw !important;
+                        font-size:1.6rem;
+                        font-weight: lighter;
+                       font-family: 'Italianno', cursive;
+                        color:rgb(54, 54, 54);
+                       
+                    }
+        
+                    .typewriter h1 {
+                        overflow: hidden; /* Ensures the content is not revealed until the animation */
+                        border-right: .15em solid rgba(230, 230, 230, 0); /* The typwriter cursor */
+                        white-space: nowrap; /* Keeps the content on a single line */
+                        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+                       /* Adjust as needed */
+                        animation: 
+                          typing 3.5s steps(40, end),
+                          blink-caret .75s step-end infinite;
+                      }
+                      
+                      /* The typing effect */
+                      @keyframes typing {
+                        from { width: 0 }
+                        to { width: 100% }
+                      }
+        
+        
+                    #aboutHeader{
+                        position: absolute;
+                        margin-top:23vh !important;
+                        margin-left:5vw !important;
+                        font-size:1rem;
+                        font-weight: lighter;
+                       font-family: 'Italianno', cursive;
+                        color:rgb(92, 91, 91);
+                    }
+        
+                    #subTitle{
+                        display:none;
+                        margin-top:140vh;
+                    }
+        
+                    
+        #explore{
+            margin-top:46vh;
+        }
+        
+        .sampleImg{
+            
+            display:flex;
+            padding:4%;
+            width:90%;
+            height:120px;
+        }
+        
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 95vh;
+            width: auto;
+            margin-top: -22px;
+            padding: 5px;
+            color: rgb(56, 55, 55);
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            z-index:1;
+          }
+          
+          /* Position the "next button" to the right */
+          .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+          }
+          
+          /* On hover, add a black background color with a little bit see-through */
+          .prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+          }
+          
+          /* Caption text */
+          .text {
+            display:none;
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+          }
+          
+          /* Number text (1/3 etc) */
+          .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+          }
+          
+          /* The dots/bullets/indicators */
+          .dot {
+            display:none !important;
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+          }
+          
+          .active, .dot:hover {
+            background-color: #717171;
+          }
+          
+          /* Fading animation */
+          .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+          }
+          
+          @keyframes fade {
+            from {opacity: .4}
+            to {opacity: 1}
+          }
+        
+          #bodycontact{
+            margin-top:500px !important;
+            margin-left:33vw;
+            font-size:1.2rem;
+            background-color: #3d3d3d;
+            color:#fff;
+            font-family: 'Italianno', cursive;
+            padding:2% 5% 2% 5%;
+          }
+                
+                    
+                    
+                    
+                    
+                    
+                    .websiteSample{
+                        position: absolute;
+                        margin-top:2%;
+                       
+                       
+                    }
+                    
+                    .slogan{
+                        margin-left:-3%;
+                        font-size: 2rem;
+                    }
+                    
+                    .sampleImg{
+                        width:40%;
+                        height:10%;
+                    }
+                    
+                    
+                    
+                    #img1{
+                        position: absolute;
+                        margin-top:1vh;
+                        margin-left:22vw;
+                        height:8vh;
+                        width:50vw;
+                        z-index:-1;
+                    }
+                    
+                    #img2{
+                        position: absolute;
+                        margin-top:9vh;
+                        margin-left:-6vw;
+                        height:8vh;
+                        width:50vw;
+                        z-index:-1;
+                    }
+                    
+                    #img3{
+                        position: absolute;
+                        margin-top:9vh;
+                        margin-left:44vw;
+                        height:8vh;
+                        width:50vw;
+                        z-index:-1;
+                    }
+        
+        
+                    #img4{
+                        position: absolute;
+                        margin-top:29vh;
+                        margin-left:10vw;
+                        height:8vh;
+                        width:50vw;
+                        z-index:-1;
+                    }
+        
+                    #img5{
+                        position: absolute;
+                        margin-top:25vh;
+                        margin-left:44vw;
+                        height:8vh;
+                        width:50vw;
+                        z-index:-1;
+                    }
+                    
+                    
+                    h3{
+                       
+                        width:100%;
+                    
+                    }
+                    
+                    h4{
+                        margin-top:-4vh !important;
+                        margin-left:10vw !important;
+                        font-size:1.6rem;
+                        font-family: 'Italianno', cursive;
+                        color:#535353;
+                        font-weight: lighter;
+                        padding:3%;
+                    
+                    }
+                    
+                    #dynamic{
+                        margin-top:2vh !important;
+                        margin-left:2vw !important;
+                        width:70vw;
+                        font-size:.80rem;
+                    
+                    }
+                    
+                    #comingSoon{
+                        margin-top:2vh !important;
+                        margin-left:4vw !important;
+                        font-size:1rem;
+                    
+                    }
+                    
+                    .extraitemContent{
+                        margin-top:2vh;
+                        margin-left:7vw;
+                        font-size:.80rem;
+                    }
+                    
+                    footer{
+                        height:30vh;
+                        background-color: #3d3d3d;
+                        color:#fff;
+                        margin-top:8vh !important;
+                    }
+                        }
+            
+        
+        
+
+                        @media screen and (min-width:311px) and (max-width:399px){
+
+         
+               
+                            #header{
+                                height:36vh;
+                           background-image: url("img/smoke-show2.png");
+                           background-repeat: no-repeat;
+                           background-position: center;
+                           background-size: cover;
+                                
+                            }
+                        
+                            nav{
+                                height:10%;
+                                background-color: rgba(233, 233, 233, 0.199);
+                            }
+                            .navbar{
+                                background-color: #e4e4e441;
+                            }
+                                    .nav-menu {
+                                        position: fixed;
+                                        left: -100%;
+                                        top: 3rem;
+                                        flex-direction: column;
+                                        background-color: #fff;
+                                        width: 100%;
+                                        height:30vh;
+                                        border-radius: 10px;
+                                        text-align: center;
+                                        transition: 0.3s;
+                                        box-shadow:
+                                            0 10px 27px rgba(0, 0, 0, 0.05);
+                                            z-index:1 !important;
+                                    }
+                                
+                                    .nav-menu.active {
+                                        left: 0;
+                                    }
+                            
+                                    .nav-item {
+                                        font-weight: lighter;
+                                        margin: 2.5rem 0;
+                                        
+                                    }
+                                
+                                    .hamburger {
+                                        display: block;
+                                        cursor: pointer;
+                                    }
+                            .bar{
+                                background-color: #3b3b3b;
+                            }
+                                    .hamburger.active .bar:nth-child(2) {
+                                        opacity: 0;
+                                    }
+                                
+                                    .hamburger.active .bar:nth-child(1) {
+                                        transform: translateY(8px) rotate(45deg);
+                                    }
+                                
+                                    .hamburger.active .bar:nth-child(3) {
+                                        transform: translateY(-8px) rotate(-45deg);
+                                    }
+                            .nav-logo-mobile{
+                                margin-left:39% !important;
+                            }
+                            
+                            .nav-logo-mobile{
+                                height: 50vh !important;
+                            }
+                            
+                            #nav-logo-desktop{
+                                display:none;
+                            }
+                                    #alchBrand{
+                                        margin-top: -59% !important;
+                                        margin-left:-9% !important;
+                                        width:10% !important;
+                                        height:10% !important;
+                                       }
+                            
+                                    #homeLink{
+                                        position: absolute;
+                                        margin-top:-50vw !important;
+                                       margin-left:-26vw;
+                                        color:rgba(224, 222, 222, 0.808);
+                                        font-size:1.6rem;
+                                        font-family: 'Italianno', cursive;
+                                        font-weight: lighter;
+                                    }
+                            
+                                    #aboutLink{
+                                        position: absolute;
+                                        margin-top:-21vh;
+                                        margin-left:-28vw !important;
+                                       
+                                        color:rgba(224, 222, 222, 0.808);
+                                        font-size:1.6rem;
+                                        font-family: 'Italianno', cursive;
+                                        font-weight: lighter;
+                                    }
+                            
+                                    #missionLink{
+                                        position: absolute;
+                                        margin-top:-24vh;
+                                        margin-left:-29vw !important;
+                                      
+                                        color:rgba(224, 222, 222, 0.808);
+                                        font-size:1.6rem;
+                                        font-family: 'Italianno', cursive;
+                                        font-weight: lighter;
+                                    }
+                            
+                                    #bookLink{
+                                        margin-top:-29vh;
+                                        margin-left:-27vw !important;
+                                        background-color: #3b3b3b;
+                                       
+                                        color:rgba(224, 222, 222, 0.808);
+                                        font-size:1rem;
+                                        font-family: 'Italianno', cursive;
+                                        font-weight: lighter;
+                                    }
+                            
+                                    #contactLink{
+                                        margin-left:-15%;
+                                        margin-top:-6%;
+                                        color:rgb(126, 126, 126);
+                            
+                                    }
+                            
+                                    span{
+                                        color:#475569;
+                                    }
+                            
+                                #alchDesignLogo{
+                                    margin-top:-12vh !important;
+                                }
+                        
+                            .nav-logo-mobile{
+                                height: 50vh !important;
+                            }
+                            
+                            #mainNav{
+                                display:none;
+                            }
+                        
+                            h1{
+                                position: absolute;
+                                margin-top:9vh !important;
+                                margin-left:14vw !important;
+                                font-size:1.6rem;
+                                font-weight: lighter;
+                               font-family: 'Italianno', cursive;
+                                color:rgb(54, 54, 54);
+                               
+                            }
+                
+                            .typewriter h1 {
+                                overflow: hidden; /* Ensures the content is not revealed until the animation */
+                                border-right: .15em solid rgba(230, 230, 230, 0); /* The typwriter cursor */
+                                white-space: nowrap; /* Keeps the content on a single line */
+                                margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+                               /* Adjust as needed */
+                                animation: 
+                                  typing 3.5s steps(40, end),
+                                  blink-caret .75s step-end infinite;
+                              }
+                              
+                              /* The typing effect */
+                              @keyframes typing {
+                                from { width: 0 }
+                                to { width: 100% }
+                              }
+                
+                
+                            #aboutHeader{
+                                position: absolute;
+                                margin-top:23vh !important;
+                                margin-left:5vw !important;
+                                font-size:1rem;
+                                font-weight: lighter;
+                               font-family: 'Italianno', cursive;
+                                color:rgb(92, 91, 91);
+                            }
+                
+                            #subTitle{
+                                display:none;
+                                margin-top:140vh;
+                            }
+                
+                            
+                #explore{
+                    margin-top:46vh;
+                }
+                
+                .sampleImg{
+                    
+                    display:flex;
+                    padding:4%;
+                    width:90%;
+                    height:120px;
+                }
+                
+                .prev, .next {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 95vh;
+                    width: auto;
+                    margin-top: -22px;
+                    padding: 5px;
+                    color: rgb(56, 55, 55);
+                    font-weight: bold;
+                    font-size: 18px;
+                    transition: 0.6s ease;
+                    border-radius: 0 3px 3px 0;
+                    user-select: none;
+                    z-index:1;
+                  }
+                  
+                  /* Position the "next button" to the right */
+                  .next {
+                    right: 0;
+                    border-radius: 3px 0 0 3px;
+                  }
+                  
+                  /* On hover, add a black background color with a little bit see-through */
+                  .prev:hover, .next:hover {
+                    background-color: rgba(0,0,0,0.8);
+                  }
+                  
+                  /* Caption text */
+                  .text {
+                    display:none;
+                    color: #f2f2f2;
+                    font-size: 15px;
+                    padding: 8px 12px;
+                    position: absolute;
+                    bottom: 8px;
+                    width: 100%;
+                    text-align: center;
+                  }
+                  
+                  /* Number text (1/3 etc) */
+                  .numbertext {
+                    color: #f2f2f2;
+                    font-size: 12px;
+                    padding: 8px 12px;
+                    position: absolute;
+                    top: 0;
+                  }
+                  
+                  /* The dots/bullets/indicators */
+                  .dot {
+                    display:none !important;
+                    cursor: pointer;
+                    height: 15px;
+                    width: 15px;
+                    margin: 0 2px;
+                    background-color: #bbb;
+                    border-radius: 50%;
+                    display: inline-block;
+                    transition: background-color 0.6s ease;
+                  }
+                  
+                  .active, .dot:hover {
+                    background-color: #717171;
+                  }
+                  
+                  /* Fading animation */
+                  .fade {
+                    animation-name: fade;
+                    animation-duration: 1.5s;
+                  }
+                  
+                  @keyframes fade {
+                    from {opacity: .4}
+                    to {opacity: 1}
+                  }
+                
+                  #bodycontact{
+                    margin-top:500px !important;
+                    margin-left:33vw;
+                    font-size:1.2rem;
+                    background-color: #3d3d3d;
+                    color:#fff;
+                    font-family: 'Italianno', cursive;
+                    padding:2% 5% 2% 5%;
+                  }
+                        
+                            
+                            
+                            
+                            
+                            
+                            .websiteSample{
+                                position: absolute;
+                                margin-top:2%;
+                               
+                               
+                            }
+                            
+                            .slogan{
+                                margin-left:-3%;
+                                font-size: 2rem;
+                            }
+                            
+                            .sampleImg{
+                                width:40%;
+                                height:10%;
+                            }
+                            
+                            
+                            
+                            #img1{
+                                position: absolute;
+                                margin-top:1vh;
+                                margin-left:22vw;
+                                height:8vh;
+                                width:50vw;
+                                z-index:-1;
+                            }
+                            
+                            #img2{
+                                position: absolute;
+                                margin-top:9vh;
+                                margin-left:-6vw;
+                                height:8vh;
+                                width:50vw;
+                                z-index:-1;
+                            }
+                            
+                            #img3{
+                                position: absolute;
+                                margin-top:9vh;
+                                margin-left:44vw;
+                                height:8vh;
+                                width:50vw;
+                                z-index:-1;
+                            }
+                
+                
+                            #img4{
+                                position: absolute;
+                                margin-top:29vh;
+                                margin-left:10vw;
+                                height:8vh;
+                                width:50vw;
+                                z-index:-1;
+                            }
+                
+                            #img5{
+                                position: absolute;
+                                margin-top:25vh;
+                                margin-left:44vw;
+                                height:8vh;
+                                width:50vw;
+                                z-index:-1;
+                            }
+                            
+                            
+                            h3{
+                               
+                                width:100%;
+                            
+                            }
+                            
+                            h4{
+                                margin-top:-4vh !important;
+                                margin-left:10vw !important;
+                                font-size:1.6rem;
+                                font-family: 'Italianno', cursive;
+                                color:#535353;
+                                font-weight: lighter;
+                                padding:3%;
+                            
+                            }
+                            
+                            #dynamic{
+                                margin-top:2vh !important;
+                                margin-left:2vw !important;
+                                width:70vw;
+                                font-size:.80rem;
+                            
+                            }
+                            
+                            #comingSoon{
+                                margin-top:2vh !important;
+                                margin-left:4vw !important;
+                                font-size:1rem;
+                            
+                            }
+                            
+                            .extraitemContent{
+                                margin-top:2vh;
+                                margin-left:7vw;
+                                font-size:.80rem;
+                            }
+                            
+                            footer{
+                                height:30vh;
+                                background-color: #3d3d3d;
+                                color:#fff;
+                                margin-top:8vh !important;
+                            }
+                                }
+                    
+
+
+
+
+            @media screen and (min-width:351px) and (max-width:384px){
+               
+                
+            #header{
+                height:36vh;
+           background-image: url("img/smoke-show2.png");
+           background-repeat: no-repeat;
+           background-position: center;
+           background-size: cover;
+                
+            }
+        
+            nav{
+                height:10%;
+                background-color: rgba(233, 233, 233, 0.199);
+            }
+            .navbar{
+                background-color: #e4e4e441;
+            }
+                    .nav-menu {
+                        position: fixed;
+                        left: -100%;
+                        top: 3rem;
+                        flex-direction: column;
+                        background-color: #fff;
+                        width: 100%;
+                        border-radius: 10px;
+                        text-align: center;
+                        transition: 0.3s;
+                        box-shadow:
+                            0 10px 27px rgba(0, 0, 0, 0.05);
+                            z-index:1 !important;
+                    }
+                
+                    .nav-menu.active {
+                        left: 0;
+                    }
+            
+                    .nav-item {
+                        font-weight: lighter;
+                        margin: 2.5rem 0;
+                        
+                    }
+                
+                    .hamburger {
+                        display: block;
+                        cursor: pointer;
+                    }
+            .bar{
+                background-color: #3b3b3b;
+            }
+                    .hamburger.active .bar:nth-child(2) {
+                        opacity: 0;
+                    }
+                
+                    .hamburger.active .bar:nth-child(1) {
+                        transform: translateY(8px) rotate(45deg);
+                    }
+                
+                    .hamburger.active .bar:nth-child(3) {
+                        transform: translateY(-8px) rotate(-45deg);
+                    }
+            .nav-logo-mobile{
+                margin-left:39% !important;
+            }
+            
+            .nav-logo-mobile{
+                height: 50vh !important;
+            }
+            
+            #nav-logo-desktop{
+                display:none;
+            }
+                    #alchBrand{
+                        margin-top: -59% !important;
+                        margin-left:-9% !important;
+                        width:10% !important;
+                        height:10% !important;
+                       }
+            
+                    #homeLink{
+                        position: absolute;
+                        margin-top:-30%;
+                        margin-left:-15% !important;
+                        color:rgba(224, 222, 222, 0.808);
+                        font-size:1.6rem;
+                        font-family: 'Italianno', cursive;
+                        font-weight: lighter;
+                    }
+            
+                    #projectLink{
+                        position: absolute;
+                        margin-top:-5%;
+                        margin-left:-15% !important;
+                        margin-left:-15% !important;
+                        color:rgba(224, 222, 222, 0.808);
+                        font-size:1.6rem;
+                        font-family: 'Italianno', cursive;
+                        font-weight: lighter;
+                    }
+            
+                    #aboutLink{
+                        position: absolute;
+                        margin-top:-20%;
+                        margin-left:-15% !important;
+                        margin-left:-15% !important;
+                        color:rgba(224, 222, 222, 0.808);
+                        font-size:1.6rem;
+                        font-family: 'Italianno', cursive;
+                        font-weight: lighter;
+                    }
+            
+                    #bookLink{
+                        margin-top:-20%;
+                        margin-left:-50vw !important;
+                        background-color: #3b3b3b;
+                        margin-left:-15% !important;
+                        color:rgba(224, 222, 222, 0.808);
+                        font-size:1rem;
+                        font-family: 'Italianno', cursive;
+                        font-weight: lighter;
+                    }
+            
+                    #contactLink{
+                        margin-left:-15%;
+                        margin-top:-6%;
+                        color:rgb(126, 126, 126);
+            
+                    }
+            
+                    span{
+                        color:#475569;
+                    }
+            
+                #alchDesignLogo{
+                    margin-top:-12vh !important;
+                }
+        
+            .nav-logo-mobile{
+                height: 50vh !important;
+            }
+            
+            #mainNav{
+                display:none;
+            }
+        
+            h1{
+                position: absolute;
+                margin-top:9vh !important;
+                margin-left:7vw !important;
+                font-size:1.6rem;
+                font-weight: lighter;
+               font-family: 'Italianno', cursive;
+                color:rgb(54, 54, 54);
+               
+            }
+
+            .typewriter h1 {
+                overflow: hidden; /* Ensures the content is not revealed until the animation */
+                border-right: .15em solid rgba(230, 230, 230, 0); /* The typwriter cursor */
+                white-space: nowrap; /* Keeps the content on a single line */
+                margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+               /* Adjust as needed */
+                animation: 
+                  typing 3.5s steps(40, end),
+                  blink-caret .75s step-end infinite;
+              }
+              
+              /* The typing effect */
+              @keyframes typing {
+                from { width: 0 }
+                to { width: 100% }
+              }
+
+
+            #aboutHeader{
+                position: absolute;
+                margin-top:23vh !important;
+                margin-left:5vw !important;
+                font-size:1rem;
+                font-weight: lighter;
+               font-family: 'Italianno', cursive;
+                color:rgb(92, 91, 91);
+            }
+
+            #subTitle{
+                display:none;
+                margin-top:140vh;
+            }
+
+            
+#explore{
+    margin-top:36vh;
+}
+
+.sampleImg{
+    
+    display:flex;
+    padding:4%;
+    width:90%;
+    height:120px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 85vh;
+    width: auto;
+    margin-top: -22px;
+    padding: 5px;
+    color: rgb(56, 55, 55);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    z-index:1;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    display:none;
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    display:none !important;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  #bodycontact{
+    margin-top:500px !important;
+    margin-left:25vw;
+    font-size:.80rem;
+    background-color: #3d3d3d;
+    color:#fff;
+    font-family: 'Italianno', cursive;
+    padding:7% 5% 7% 5%;
+  }
+        
+            
             
             
             
@@ -903,1453 +3619,11 @@ li{
             }
             
             footer{
-                margin-top:8vh !important;
-            }
-            }
-
-
-            @media screen and (min-width:221px) and (max-width:270px){
-
-           
-                #header{
-                    height:36vh;
-               background-image: url("img/smoke-show2.png");
-               background-repeat: no-repeat;
-               background-position: center;
-               background-size: cover;
-                    
-                }
-            
-                nav{
-                    height:10%;
-                    background-color: rgba(233, 233, 233, 0.199);
-                }
-                .navbar{
-                    background-color: #e4e4e441;
-                }
-                        .nav-menu {
-                            position: fixed;
-                            left: -100%;
-                            top: 3rem;
-                            flex-direction: column;
-                            background-color: #fff;
-                            width: 100%;
-                            border-radius: 10px;
-                            text-align: center;
-                            transition: 0.3s;
-                            box-shadow:
-                                0 10px 27px rgba(0, 0, 0, 0.05);
-                                z-index:1 !important;
-                        }
-                    
-                        .nav-menu.active {
-                            left: 0;
-                        }
-                
-                        .nav-item {
-                            font-weight: lighter;
-                            margin: 2.5rem 0;
-                            
-                        }
-                    
-                        .hamburger {
-                            display: block;
-                            cursor: pointer;
-                        }
-                .bar{
-                    background-color: #3b3b3b;
-                }
-                        .hamburger.active .bar:nth-child(2) {
-                            opacity: 0;
-                        }
-                    
-                        .hamburger.active .bar:nth-child(1) {
-                            transform: translateY(8px) rotate(45deg);
-                        }
-                    
-                        .hamburger.active .bar:nth-child(3) {
-                            transform: translateY(-8px) rotate(-45deg);
-                        }
-                .nav-logo-mobile{
-                    margin-left:39% !important;
-                }
-                
-                .nav-logo-mobile{
-                    height: 50vh !important;
-                }
-                
-                #nav-logo-desktop{
-                    display:none;
-                }
-                        #alchBrand{
-                            margin-top: -59% !important;
-                            margin-left:-9% !important;
-                            width:10% !important;
-                            height:10% !important;
-                           }
-                
-                        #homeLink{
-                            position: absolute;
-                            margin-top:-30%;
-                            margin-left:-15% !important;
-                            color:rgb(252, 249, 249);
-                        }
-                
-                        #projectLink{
-                            position: absolute;
-                            margin-top:-5%;
-                            margin-left:-15% !important;
-                            color:rgb(255, 255, 255);
-                        }
-                
-                        #aboutLink{
-                            position: absolute;
-                            margin-top:-20%;
-                            margin-left:-15% !important;
-                            color:rgb(253, 251, 251);
-                        }
-                
-                        #bookLink{
-                            margin-top:-20%;
-                            margin-left:-26%;
-                            background-color: #3b3b3b;
-                            color:#fff;
-                        }
-                
-                        #contactLink{
-                            margin-left:-15%;
-                            margin-top:-6%;
-                            color:rgb(126, 126, 126);
-                
-                        }
-                
-                        span{
-                            color:#475569;
-                        }
-                
-                    #alchDesignLogo{
-                        margin-top:-12vh !important;
-                    }
-            
-                .nav-logo-mobile{
-                    height: 50vh !important;
-                }
-                
-                #mainNav{
-                    display:none;
-                }
-            
-                h1{
-                    position: absolute;
-                    margin-top:10vh !important;
-                    margin-left:10vw !important;
-                    font-size:2rem;
-                    font-weight: lighter;
-                   font-family: 'Italianno', cursive;
-                    color:rgb(37, 37, 37);
-                   
-                }
-
-                .typewriter h1 {
-                    overflow: hidden; /* Ensures the content is not revealed until the animation */
-                    border-right: .15em solid rgba(230, 230, 230, 0); /* The typwriter cursor */
-                    white-space: nowrap; /* Keeps the content on a single line */
-                    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-                   /* Adjust as needed */
-                    animation: 
-                      typing 3.5s steps(40, end),
-                      blink-caret .75s step-end infinite;
-                  }
-                  
-                  /* The typing effect */
-                  @keyframes typing {
-                    from { width: 0 }
-                    to { width: 100% }
-                  }
-    
-
-
-    
-                #aboutHeader{
-                    position: absolute;
-                    margin-top:2vh !important;
-                    margin-left:10vw !important;
-                    width:90vw;
-                    font-size:2rem;
-                    font-weight: lighter;
-                   font-family: 'Italianno', cursive;
-                    color:rgb(37, 37, 37);
-                }
-    
-                #subTitle{
-                    margin-top:140vh;
-                }
-    #websites{
-        display:none;
-    }
-                
-    #explore{
-        margin-top:16vh;
-    }
-    
-    .sampleImg{
-        
-        display:flex;
-        padding:4%;
-        width:90%;
-        height:120px;
-    }
-    
-    .prev, .next {
-        cursor: pointer;
-        position: absolute;
-        top: 62vh;
-        width: auto;
-        margin-top: -22px;
-        padding: 5px;
-        color: rgb(56, 55, 55);
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
-        z-index:1;
-      }
-      
-      /* Position the "next button" to the right */
-      .next {
-        right: 0;
-        border-radius: 3px 0 0 3px;
-      }
-      
-      /* On hover, add a black background color with a little bit see-through */
-      .prev:hover, .next:hover {
-        background-color: rgba(0,0,0,0.8);
-      }
-      
-      /* Caption text */
-      .text {
-        display:none;
-        color: #f2f2f2;
-        font-size: 15px;
-        padding: 8px 12px;
-        position: absolute;
-        bottom: 8px;
-        width: 100%;
-        text-align: center;
-      }
-      
-      /* Number text (1/3 etc) */
-      .numbertext {
-        color: #f2f2f2;
-        font-size: 12px;
-        padding: 8px 12px;
-        position: absolute;
-        top: 0;
-      }
-      
-      /* The dots/bullets/indicators */
-      .dot {
-        cursor: pointer;
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
-      }
-      
-      .active, .dot:hover {
-        background-color: #717171;
-      }
-      
-      /* Fading animation */
-      .fade {
-        animation-name: fade;
-        animation-duration: 1.5s;
-      }
-      
-      @keyframes fade {
-        from {opacity: .4}
-        to {opacity: 1}
-      }
-    
-      #bodycontact{
-        margin-left:30vw;
-      }
-            
-                #websites{
-                    margin-top:3%;
-                }
-                
-                
-                
-                
-                .websiteSample{
-                    position: absolute;
-                    margin-top:2%;
-                   
-                   
-                }
-                
-                .slogan{
-                    margin-left:-3%;
-                    font-size: 2rem;
-                }
-                
-                .sampleImg{
-                    width:40%;
-                    height:10%;
-                }
-                
-                
-                
-                #img1{
-                    position: absolute;
-                    margin-top:5%;
-                    margin-left:26vw;
-                    height:8vh;
-                    width:50vw;
-                    z-index:-1;
-                }
-                
-                #img2{
-                    position: absolute;
-                    margin-top:9vh;
-                    height:8vh;
-                    width:50vw;
-                    z-index:-1;
-                }
-                
-                #img3{
-                    position: absolute;
-                    margin-top:9vh;
-                    margin-left:50vw;
-                    height:8vh;
-                    width:50vw;
-                    z-index:-1;
-                }
-    
-    
-                .pricingHeader{
-                    margin-top:-4vh !important;
-                    margin-left:17vw !important;
-                    font-size:1.6rem;
-                    font-family: 'Italianno', cursive;
-                    color:#535353;
-                    font-weight: lighter;
-                    padding:3%;
-                
-                }
-                
-                .itemContent{
-                    margin-left:3vw;
-                    padding:2%;
-                    font-size:10px;
-                    width:84vw;
-                    
-                }
-                
-                #impact{
-                    margin-left:9vw;
-                    width:82vw;
-                    font-size:.70rem;
-                    font-weight: lighter;
-                    color:#393a3a;
-                }
-                
-                .itemHeader{
-                    font-size:2rem;
-                    
-                }
-                
-                h3{
-                   margin-left:35vw;
-                    width:100%;
-                    font-size:2rem;
-                    font-family: 'Italianno', cursive;
-                    color:#535353;
-                    font-weight: lighter;
-                    
-                
-                }
-                
-                h4{
-                    margin-top:-4vh !important;
-                    margin-left:10vw !important;
-                    font-size:2rem;
-                    font-family: 'Italianno', cursive;
-                    color:#535353;
-                    font-weight: lighter;
-                    padding:3%;
-                
-                }
-                
-                #dynamic{
-                    margin-top:2vh !important;
-                    margin-left:11vw !important;
-                    width:70vw;
-                    font-size:.80rem;
-                
-                }
-                
-                #comingSoon{
-                    margin-top:2vh !important;
-                
-                }
-                
-                .extraitemContent{
-                    margin-top:2vh;
-                    margin-left:7vw;
-                    font-size:.80rem;
-                }
-                
-                footer{
-                    margin-top:8vh !important;
-                }
-                }
-    
-    
-                @media screen and (min-width:270px) and (max-width:299px){
-
-          
-                    #header{
-                        height:36vh;
-                   background-image: url("img/smoke-show2.png");
-                   background-repeat: no-repeat;
-                   background-position: center;
-                   background-size: cover;
-                        
-                    }
-                
-                    nav{
-                        height:10%;
-                        background-color: rgba(233, 233, 233, 0.199);
-                    }
-                    .navbar{
-                        background-color: #e4e4e441;
-                    }
-                            .nav-menu {
-                                position: fixed;
-                                left: -100%;
-                                top: 3rem;
-                                flex-direction: column;
-                                background-color: #fff;
-                                width: 100%;
-                                border-radius: 10px;
-                                text-align: center;
-                                transition: 0.3s;
-                                box-shadow:
-                                    0 10px 27px rgba(0, 0, 0, 0.05);
-                                    z-index:1 !important;
-                            }
-                        
-                            .nav-menu.active {
-                                left: 0;
-                            }
-                    
-                            .nav-item {
-                                font-weight: lighter;
-                                margin: 2.5rem 0;
-                                
-                            }
-                        
-                            .hamburger {
-                                display: block;
-                                cursor: pointer;
-                            }
-                    .bar{
-                        background-color: #3b3b3b;
-                    }
-                            .hamburger.active .bar:nth-child(2) {
-                                opacity: 0;
-                            }
-                        
-                            .hamburger.active .bar:nth-child(1) {
-                                transform: translateY(8px) rotate(45deg);
-                            }
-                        
-                            .hamburger.active .bar:nth-child(3) {
-                                transform: translateY(-8px) rotate(-45deg);
-                            }
-                    .nav-logo-mobile{
-                        margin-left:39% !important;
-                    }
-                    
-                    .nav-logo-mobile{
-                        height: 50vh !important;
-                    }
-                    
-                    #nav-logo-desktop{
-                        display:none;
-                    }
-                            #alchBrand{
-                                margin-top: -59% !important;
-                                margin-left:-9% !important;
-                                width:10% !important;
-                                height:10% !important;
-                               }
-                    
-                            #homeLink{
-                                position: absolute;
-                                margin-top:-30%;
-                                margin-left:-15% !important;
-                                color:rgb(252, 249, 249);
-                            }
-                    
-                            #projectLink{
-                                position: absolute;
-                                margin-top:-5%;
-                                margin-left:-15% !important;
-                                color:rgb(255, 255, 255);
-                            }
-                    
-                            #aboutLink{
-                                position: absolute;
-                                margin-top:-20%;
-                                margin-left:-15% !important;
-                                color:rgb(253, 251, 251);
-                            }
-                    
-                            #bookLink{
-                                margin-top:-20%;
-                                margin-left:-26%;
-                                background-color: #3b3b3b;
-                                color:#fff;
-                            }
-                    
-                            #contactLink{
-                                margin-left:-15%;
-                                margin-top:-6%;
-                                color:rgb(126, 126, 126);
-                    
-                            }
-                    
-                            span{
-                                color:#475569;
-                            }
-                    
-                        #alchDesignLogo{
-                            margin-top:-12vh !important;
-                        }
-                
-                    .nav-logo-mobile{
-                        height: 50vh !important;
-                    }
-                    
-                    #mainNav{
-                        display:none;
-                    }
-                
-                    h1{
-                        position: absolute;
-                        margin-top:10vh !important;
-                        margin-left:16vw !important;
-                        font-size:2rem;
-                        font-weight: lighter;
-                       font-family: 'Italianno', cursive;
-                        color:rgb(37, 37, 37);
-                       
-                    }
-
-                    .typewriter h1 {
-                        overflow: hidden; /* Ensures the content is not revealed until the animation */
-                        border-right: .15em solid rgba(230, 230, 230, 0); /* The typwriter cursor */
-                        white-space: nowrap; /* Keeps the content on a single line */
-                        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-                       /* Adjust as needed */
-                        animation: 
-                          typing 3.5s steps(40, end),
-                          blink-caret .75s step-end infinite;
-                      }
-                      
-                      /* The typing effect */
-                      @keyframes typing {
-                        from { width: 0 }
-                        to { width: 100% }
-                      }
-        
-                    #aboutHeader{
-                        position: absolute;
-                        margin-top:2vh !important;
-                        margin-left:9vw !important;
-                        width:80vw;
-                        font-size:1.5rem;
-                        font-weight: lighter;
-                       font-family: 'Italianno', cursive;
-                        color:rgb(37, 37, 37);
-                    }
-        
-                    #subTitle{
-                        margin-top:140vh;
-                    }
-        #websites{
-            display:none;
-        }
-                    
-        #explore{
-            margin-top:16vh;
-        }
-        
-        .sampleImg{
-            
-            display:flex;
-            padding:4%;
-            width:90%;
-            height:120px;
-        }
-        
-        .prev, .next {
-            cursor: pointer;
-            position: absolute;
-            top: 65vh;
-            width: auto;
-            margin-top: -22px;
-            padding: 5px;
-            color: rgb(56, 55, 55);
-            font-weight: bold;
-            font-size: 18px;
-            transition: 0.6s ease;
-            border-radius: 0 3px 3px 0;
-            user-select: none;
-            z-index:1;
-          }
-          
-          /* Position the "next button" to the right */
-          .next {
-            right: 0;
-            border-radius: 3px 0 0 3px;
-          }
-          
-          /* On hover, add a black background color with a little bit see-through */
-          .prev:hover, .next:hover {
-            background-color: rgba(0,0,0,0.8);
-          }
-          
-          /* Caption text */
-          .text {
-            display:none;
-            color: #f2f2f2;
-            font-size: 15px;
-            padding: 8px 12px;
-            position: absolute;
-            bottom: 8px;
-            width: 100%;
-            text-align: center;
-          }
-          
-          /* Number text (1/3 etc) */
-          .numbertext {
-            color: #f2f2f2;
-            font-size: 12px;
-            padding: 8px 12px;
-            position: absolute;
-            top: 0;
-          }
-          
-          /* The dots/bullets/indicators */
-          .dot {
-            cursor: pointer;
-            height: 15px;
-            width: 15px;
-            margin: 0 2px;
-            background-color: #bbb;
-            border-radius: 50%;
-            display: inline-block;
-            transition: background-color 0.6s ease;
-          }
-          
-          .active, .dot:hover {
-            background-color: #717171;
-          }
-          
-          /* Fading animation */
-          .fade {
-            animation-name: fade;
-            animation-duration: 1.5s;
-          }
-          
-          @keyframes fade {
-            from {opacity: .4}
-            to {opacity: 1}
-          }
-        
-          #bodycontact{
-            margin-left:30vw;
-          }
-                
-                    #websites{
-                        margin-top:3%;
-                    }
-                    
-                    
-                    
-                    
-                    .websiteSample{
-                        position: absolute;
-                        margin-top:2%;
-                       
-                       
-                    }
-                    
-                    .slogan{
-                        margin-left:-3%;
-                        font-size: 2rem;
-                    }
-                    
-                    .sampleImg{
-                        width:40%;
-                        height:10%;
-                    }
-                    
-                    
-                    
-                    #img1{
-                        position: absolute;
-                        margin-top:5%;
-                        margin-left:26vw;
-                        height:8vh;
-                        width:50vw;
-                        z-index:-1;
-                    }
-                    
-                    #img2{
-                        position: absolute;
-                        margin-top:9vh;
-                        height:8vh;
-                        width:50vw;
-                        z-index:-1;
-                    }
-                    
-                    #img3{
-                        position: absolute;
-                        margin-top:9vh;
-                        margin-left:50vw;
-                        height:8vh;
-                        width:50vw;
-                        z-index:-1;
-                    }
-        
-        
-                    .pricingHeader{
-                        margin-top:-4vh !important;
-                        margin-left:17vw !important;
-                        font-size:1.6rem;
-                        font-family: 'Italianno', cursive;
-                        color:#535353;
-                        font-weight: lighter;
-                        padding:3%;
-                    
-                    }
-                    
-                    .itemContent{
-                        margin-left:3vw;
-                        padding:2%;
-                        font-size:10px;
-                        width:84vw;
-                        
-                    }
-                    
-                    #impact{
-                        margin-left:9vw;
-                        width:82vw;
-                        font-size:.70rem;
-                        font-weight: lighter;
-                        color:#393a3a;
-                    }
-                    
-                    .itemHeader{
-                        font-size:2rem;
-                        
-                    }
-                    
-                    h3{
-                       margin-left:35vw;
-                        width:100%;
-                        font-size:2rem;
-                        font-family: 'Italianno', cursive;
-                        color:#535353;
-                        font-weight: lighter;
-                        
-                    
-                    }
-                    
-                    h4{
-                        margin-top:-4vh !important;
-                        margin-left:10vw !important;
-                        font-size:2rem;
-                        font-family: 'Italianno', cursive;
-                        color:#535353;
-                        font-weight: lighter;
-                        padding:3%;
-                    
-                    }
-                    
-                    #dynamic{
-                        margin-top:2vh !important;
-                        margin-left:11vw !important;
-                        width:70vw;
-                        font-size:.80rem;
-                    
-                    }
-                    
-                    #comingSoon{
-                        margin-top:2vh !important;
-                    
-                    }
-                    
-                    .extraitemContent{
-                        margin-top:2vh;
-                        margin-left:7vw;
-                        font-size:.80rem;
-                    }
-                    
-                    footer{
-                        margin-top:8vh !important;
-                    }
-                    }
-        
-        
-
-            @media screen and (min-width:300px) and (max-width:350px){
-        #header{
-            height:40vh;
-        background-image: url("img/smoke-show2.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        }
-
-        .navBlock{
-            background-color: #9e5b5b;
-        }
-
-        #mainNav{
-            background-color: #ffffffb0;
-            width:100vw;
-            height:21vh;
-        }
-              a{
-                color:#313131;
-                font-weight: lighter;
-              }
-
-              .nav-link{
-                margin-left:7vw;
-                padding:4%;
-                color:#242424;
-                font-size:1.40rem;
-                font-weight: lighter;
-
-              }
-
-              #miniNav{
-                display:none;
-              }
-
-              #mainNav{
-                display:inline-block;
-                font-size:0.50rem;
+                height:30vh;
+                background-color: #3d3d3d;
                 color:#fff;
-              }
-            #mobileTitle{
-                margin-top:-10vh;
-            }
-            
-            h1{
-                position: absolute;
-                margin-top:-9vh !important;
-                margin-left:10vw !important;
-                font-size:2.6rem;
-                font-weight: lighter;
-               font-family: 'Italianno', cursive;
-                color:rgb(94, 92, 92);
-               
-            }
-
-            .typewriter h1 {
-                overflow: hidden; /* Ensures the content is not revealed until the animation */
-                border-right: .15em solid rgba(230, 230, 230, 0); /* The typwriter cursor */
-                white-space: nowrap; /* Keeps the content on a single line */
-                margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-               /* Adjust as needed */
-                animation: 
-                  typing 3.5s steps(40, end),
-                  blink-caret .75s step-end infinite;
-              }
-              
-              /* The typing effect */
-              @keyframes typing {
-                from { width: 0 }
-                to { width: 100% }
-              }
-
-              #subTitle{
-               margin-top:1vh;
-               margin-left:20vw;
-                color:#525050 !important;
-              }
-
-              #aboutHeader{
-                position: absolute;
-                margin-top:2vh !important;
-                margin-left:4vw !important;
-                width:95vw;
-                font-size:2.3rem;
-                font-weight: lighter;
-               font-family: 'Italianno', cursive;
-                color:rgb(94, 92, 92);
-               
-              }
-              #websites{
-                display:none;
-                position: absolute;
-                margin-top:36vh;
-            }
-            
-            
-            
-            
-            .websiteSample{
-                position: absolute;
-                margin-top:2%;
-               
-               
-            }
-            
-            .slogan{
-                margin-left:-3%;
-                font-size: 2rem;
-            }
-            
-            .sampleImg{
-                width:40%;
-                height:10%;
-            }
-            
-            
-            
-            #img1{
-                position: absolute;
-                margin-top:5%;
-                margin-left:26vw;
-                height:8vh;
-                width:50vw;
-                z-index:-1;
-            }
-            
-            #img2{
-                position: absolute;
-                margin-top:9vh;
-                height:8vh;
-                width:50vw;
-                z-index:-1;
-            }
-            
-            #img3{
-                position: absolute;
-                margin-top:9vh;
-                margin-left:50vw;
-                height:8vh;
-                width:50vw;
-                z-index:-1;
-            }
-
-            #explore{
-                margin-top:28vh;
-            }
-            
-            .sampleImg{
-                
-                display:flex;
-                padding:4%;
-                width:90%;
-                height:120px;
-            }
-            
-            .prev, .next {
-                cursor: pointer;
-                position: absolute;
-                top: 87vh;
-                width: auto;
-                margin-top: -22px;
-                padding: 5px;
-                color: rgb(56, 55, 55);
-                font-weight: bold;
-                font-size: 18px;
-                transition: 0.6s ease;
-                border-radius: 0 3px 3px 0;
-                user-select: none;
-                z-index:1;
-              }
-              
-              /* Position the "next button" to the right */
-              .next {
-                right: 0;
-                border-radius: 3px 0 0 3px;
-              }
-              
-              /* On hover, add a black background color with a little bit see-through */
-              .prev:hover, .next:hover {
-                background-color: rgba(0,0,0,0.8);
-              }
-              
-              /* Caption text */
-              .text {
-                display:none;
-                color: #f2f2f2;
-                font-size: 15px;
-                padding: 8px 12px;
-                position: absolute;
-                bottom: 8px;
-                width: 100%;
-                text-align: center;
-              }
-              
-              /* Number text (1/3 etc) */
-              .numbertext {
-                color: #f2f2f2;
-                font-size: 12px;
-                padding: 8px 12px;
-                position: absolute;
-                top: 0;
-              }
-              
-              /* The dots/bullets/indicators */
-              .dot {
-                display:none !important;
-                cursor: pointer;
-                height: 15px;
-                width: 15px;
-                margin: 0 2px;
-                background-color: #bbb;
-                border-radius: 50%;
-                display: inline-block;
-                transition: background-color 0.6s ease;
-              }
-              
-              .active, .dot:hover {
-                background-color: #717171;
-              }
-              
-              /* Fading animation */
-              .fade {
-                animation-name: fade;
-                animation-duration: 1.5s;
-              }
-              
-              @keyframes fade {
-                from {opacity: .4}
-                to {opacity: 1}
-              }
-            
-              #bodycontact{
-                margin-top:10vh;
-                margin-left:36vw;
-              }
-                    
-
-            #pricingHeader{
-                margin-top:2vh !important;
-                margin-left:33vw !important;
-                
-                font-size:2rem;
-                font-family: 'Italianno', cursive;
-                color:#535353;
-                font-weight: lighter;
-                padding:3%;
-            
-            }
-            
-            .itemContent{
-                margin-left:3vw;
-                padding:2%;
-                font-size:16px;
-                width:84vw;
-                
-            }
-            
-            #impact{
-                margin-left:9vw;
-                width:82vw;
-                font-size:16px;
-                font-weight: lighter;
-                color:#393a3a;
-            }
-            
-            .itemHeader{
-                font-size:2rem;
-            }
-            
-            h3{
-                margin-left:30vw;
-                font-size:2rem;
-
-                font-weight: lighter;
-                font-family: 'Italianno', cursive;
-                 color:rgb(94, 92, 92);
-                width:100%;
-            
-            }
-            
-            h4{
-                margin-top:-4vh !important;
-                margin-left:10vw !important;
-                font-size:2rem;
-                font-family: 'Italianno', cursive;
-                color:#535353;
-                font-weight: lighter;
-                padding:3%;
-            
-            }
-            
-            #dynamic{
-                margin-top:2vh !important;
-                margin-left:5vw !important;
-                width:90vw;
-                font-size:1.5rem;
-            
-            }
-            
-            #comingSoon{
-                margin-top:2vh !important;
-            
-            }
-            
-            .extraitemContent{
-                margin-top:2vh;
-                margin-left:7vw;
-                font-size:20px;
-            }
-            
-            footer{
                 margin-top:8vh !important;
             }
-            
-            
-            
-            }
-
-
-
-
-
-            @media screen and (min-width:351px) and (max-width:384px){
-               
-                #header{
-                    height:40vh;
-                background-image: url("img/smoke-show2.png");
-                background-size: cover;
-                background-repeat: no-repeat;
-                }
-        
-                .navBlock{
-                    background-color: #9e5b5b;
-                }
-        
-                #mainNav{
-                    background-color: #ffffffb0;
-                    width:100vw;
-                    height:15vh;
-                }
-                      a{
-                        color:#313131;
-                        font-weight: lighter;
-                      }
-        
-                      .nav-link{
-                        margin-left:7vw;
-                        padding:4%;
-                        color:#242424;
-                        font-size:1.40rem;
-                        font-weight: lighter;
-        
-                      }
-        
-                      #miniNav{
-                        display:none;
-                      }
-        
-                      #mainNav{
-                        display:inline-block;
-                        font-size:0.50rem;
-                        color:#fff;
-                      }
-                    #mobileTitle{
-                        margin-top:-10vh;
-                    }
-                    
-                    h1{
-                        position: absolute;
-                        margin-top:-10vh !important;
-                        margin-left:21vw !important;
-                        font-size:2rem;
-                        font-weight: lighter;
-                       font-family: 'Italianno', cursive;
-                        color:rgb(94, 92, 92);
-                       
-                    }
-        
-                    .typewriter h1 {
-                        overflow: hidden; /* Ensures the content is not revealed until the animation */
-                        border-right: .15em solid rgba(230, 230, 230, 0); /* The typwriter cursor */
-                        white-space: nowrap; /* Keeps the content on a single line */
-                        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-                       /* Adjust as needed */
-                        animation: 
-                          typing 3.5s steps(40, end),
-                          blink-caret .75s step-end infinite;
-                      }
-                      
-                      /* The typing effect */
-                      @keyframes typing {
-                        from { width: 0 }
-                        to { width: 100% }
-                      }
-        
-                      #subTitle{
-                       margin-top:8vh;
-                       margin-left:24vw;
-                        color:#3d3d3d !important;
-                      }
-        
-                      #aboutHeader{
-                        position: absolute;
-                        margin-top:2vh !important;
-                        margin-left:11vw !important;
-                        width:80vw;
-                        font-size:2rem;
-                        font-weight: lighter;
-                       font-family: 'Italianno', cursive;
-                        color:rgb(94, 92, 92);
-                       
-                      }
-                      #websites{
-                        display:none;
-                        position: absolute;
-                        margin-top:36vh;
-                    }
-                    
-                    
-                    
-                    
-                    .websiteSample{
-                        position: absolute;
-                        margin-top:2%;
-                       
-                       
-                    }
-                    
-                    .slogan{
-                        margin-left:-3%;
-                        font-size: 2rem;
-                    }
-                    
-                    .sampleImg{
-                        width:40%;
-                        height:10%;
-                    }
-                    
-                    
-                    
-                    #img1{
-                        position: absolute;
-                        margin-top:5%;
-                        margin-left:26vw;
-                        height:8vh;
-                        width:50vw;
-                        z-index:-1;
-                    }
-                    
-                    #img2{
-                        position: absolute;
-                        margin-top:9vh;
-                        height:8vh;
-                        width:50vw;
-                        z-index:-1;
-                    }
-                    
-                    #img3{
-                        position: absolute;
-                        margin-top:9vh;
-                        margin-left:50vw;
-                        height:8vh;
-                        width:50vw;
-                        z-index:-1;
-                    }
-        
-                    #explore{
-                        margin-top:25vh;
-                    }
-                    
-                    .sampleImg{
-                        
-                        display:flex;
-                        padding:4%;
-                        width:90%;
-                        height:120px;
-                    }
-                    
-                    .prev, .next {
-                        cursor: pointer;
-                        position: absolute;
-                        top: 85vh;
-                        width: auto;
-                        margin-top: -22px;
-                        padding: 5px;
-                        color: rgb(56, 55, 55);
-                        font-weight: bold;
-                        font-size: 18px;
-                        transition: 0.6s ease;
-                        border-radius: 0 3px 3px 0;
-                        user-select: none;
-                        z-index:1;
-                      }
-                      
-                      /* Position the "next button" to the right */
-                      .next {
-                        right: 0;
-                        border-radius: 3px 0 0 3px;
-                      }
-                      
-                      /* On hover, add a black background color with a little bit see-through */
-                      .prev:hover, .next:hover {
-                        background-color: rgba(0,0,0,0.8);
-                      }
-                      
-                      /* Caption text */
-                      .text {
-                        display:none;
-                        color: #f2f2f2;
-                        font-size: 15px;
-                        padding: 8px 12px;
-                        position: absolute;
-                        bottom: 8px;
-                        width: 100%;
-                        text-align: center;
-                      }
-                      
-                      /* Number text (1/3 etc) */
-                      .numbertext {
-                        color: #f2f2f2;
-                        font-size: 12px;
-                        padding: 8px 12px;
-                        position: absolute;
-                        top: 0;
-                      }
-                      
-                      /* The dots/bullets/indicators */
-                      .dot {
-                        display:none !important;
-                        cursor: pointer;
-                        height: 15px;
-                        width: 15px;
-                        margin: 0 2px;
-                        background-color: #bbb;
-                        border-radius: 50%;
-                        display: inline-block;
-                        transition: background-color 0.6s ease;
-                      }
-                      
-                      .active, .dot:hover {
-                        background-color: #717171;
-                      }
-                      
-                      /* Fading animation */
-                      .fade {
-                        animation-name: fade;
-                        animation-duration: 1.5s;
-                      }
-                      
-                      @keyframes fade {
-                        from {opacity: .4}
-                        to {opacity: 1}
-                      }
-                    
-                      #bodycontact{
-                        margin-top:20vh !important;
-                        margin-left:35vw;
-                      }
-                            
-        
-                    #pricingHeader{
-                        margin-top:2vh !important;
-                        margin-left:34vw !important;
-                        font-size:2.3rem;
-                        font-family: 'Italianno', cursive;
-                        color:#535353;
-                        font-weight: lighter;
-                        padding:3%;
-                    
-                    }
-                    
-                    .itemContent{
-                        margin-left:3vw;
-                        padding:2%;
-                        font-size:14px;
-                        width:84vw;
-                        
-                    }
-                    
-                    #impact{
-                        margin-left:9vw;
-                        width:82vw;
-                        font-size:14px;
-                        font-weight: lighter;
-                        color:#393a3a;
-                    }
-                    
-                    .itemHeader{
-                        font-size:2rem;
-
-                    }
-                    
-                    h3{
-                        margin-left:34vw;
-                        font-size:1.7rem;
-        
-                        font-weight: lighter;
-                        font-family: 'Italianno', cursive;
-                         color:rgb(94, 92, 92);
-                        width:100%;
-                    
-                    }
-                    
-                    h4{
-                        margin-top:-4vh !important;
-                        margin-left:10vw !important;
-                        font-size:1.6rem;
-                        font-family: 'Italianno', cursive;
-                        color:#535353;
-                        font-weight: lighter;
-                        padding:3%;
-                    
-                    }
-                    
-                    #dynamic{
-                        margin-top:2vh !important;
-                        margin-left:3vw !important;
-                        width:90vw;
-                        font-size:19px;
-                    
-                    }
-                    
-                    #comingSoon{
-                        margin-top:2vh !important;
-                        font-size:26px;
-                    
-                    }
-                    
-                    .extraitemContent{
-                        margin-top:2vh;
-                        margin-left:10vw;
-                        font-size:.80rem;
-                    }
-                    
-                    footer{
-                        margin-top:8vh !important;
-                    }
-                    
                     
                     
                     }
@@ -2444,11 +3718,7 @@ li{
                                 color:rgb(94, 92, 92);
                                
                               }
-                              #websites{
-                                display:none;
-                                position: absolute;
-                                margin-top:36vh;
-                            }
+                             
                             
                             
                             
@@ -2765,12 +4035,7 @@ li{
                                         color:rgb(94, 92, 92);
                                        
                                       }
-                                      #websites{
-                                        display:none;
-                                        position: absolute;
-                                        margin-top:36vh;
-                                    }
-                                    
+                                     
                                     
                                     
                                     
@@ -3085,12 +4350,7 @@ li{
                                                 color:rgb(94, 92, 92);
                                                
                                               }
-                                              #websites{
-                                                display:none;
-                                                position: absolute;
-                                                margin-top:36vh;
-                                            }
-                                            
+                                             
                                             
                                             
                                             
