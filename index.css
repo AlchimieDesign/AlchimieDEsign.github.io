@@ -3312,48 +3312,49 @@ margin-top:40vh;
                                                 height:10% !important;
                                                }
                                     
-                                               #homeLink{
-                                                position: absolute;
-                                                margin-top:-33vw !important;
-                                               margin-left:-15vw;
-                                                color:rgba(224, 222, 222, 0.808);
-                                                font-size:1.8rem;
                                                
-                                                font-weight: lighter;
-                                            }
-                                    
-                                            #aboutLink{
-                                                position: absolute;
-                                                margin-top:-17vh;
-                                                margin-left:-15vw !important;
-                                               
-                                                color:rgba(224, 222, 222, 0.808);
-                                                font-size:1.6rem;
-                                               
-                                                font-weight: lighter;
-                                            }
-                                    
-                                            #missionLink{
-                                                position: absolute;
-                                                margin-top:-20vh;
-                                                margin-left:-17vw !important;
-                                              
-                                                color:rgba(224, 222, 222, 0.808);
-                                                font-size:1.8rem;
-                                               
-                                                font-weight: lighter;
-                                            }
-                                    
-                                            #bookLink{
-                                                margin-top:-23vh;
-                                                margin-left:-28vw !important;
-                                                background-color: #3b3b3b;
-                                               
-                                                color:rgba(224, 222, 222, 0.808);
-                                                font-size:1.6rem;
-                                                font-family: 'Italianno', cursive;
-                                                font-weight: lighter;
-                                            }
+                                                #homeLink{
+                                position: absolute;
+                                margin-top:-37vw !important;
+                               margin-left:-15vw;
+                                color:rgba(224, 222, 222, 0.808);
+                                font-size:1.8rem;
+                               
+                                font-weight: lighter;
+                            }
+                    
+                            #aboutLink{
+                                position: absolute;
+                                margin-top:-17vh;
+                                margin-left:-15vw !important;
+                               
+                                color:rgba(224, 222, 222, 0.808);
+                                font-size:1.6rem;
+                               
+                                font-weight: lighter;
+                            }
+                    
+                            #missionLink{
+                                position: absolute;
+                                margin-top:-20vh;
+                                margin-left:-17vw !important;
+                              
+                                color:rgba(224, 222, 222, 0.808);
+                                font-size:1.8rem;
+                               
+                                font-weight: lighter;
+                            }
+                    
+                            #bookLink{
+                                margin-top:-23vh;
+                                margin-left:-28vw !important;
+                                background-color: #3b3b3b;
+                               
+                                color:rgba(224, 222, 222, 0.808);
+                                font-size:1.6rem;
+                                font-family: 'Italianno', cursive;
+                                font-weight: lighter;
+                            }
                                     
                                             #contactLink{
                                                 margin-left:-15%;
