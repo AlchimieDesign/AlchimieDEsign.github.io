@@ -118,7 +118,8 @@ li{
 
 
     @media screen and (min-width:50px) and (max-width:116px){
-       
+       body{
+           background-color:red;}
       
          #header{
              height:20vh;
@@ -500,7 +501,8 @@ li{
  }}
 
     @media screen and (min-width:117px) and (max-width:136px){
-       
+        body{
+           background-color:blue;}
        
         #header{
             height:20vh;
@@ -882,7 +884,8 @@ li{
 }}
 
 @media screen and (min-width:137px) and (max-width:150px){
-
+ body{
+           background-color:tan;}
    
     #header{
         height:40vh;
@@ -1229,7 +1232,8 @@ margin-top:40vh;
 
 
 @media screen and (min-width:151px) and (max-width:199px){
-
+ body{
+           background-color:green;}
    
     #header{
         height:40vh;
@@ -1579,7 +1583,8 @@ margin-top:40vh;
 
         @media screen and (min-width:200px) and (max-width:220px){
 
-            
+             body{
+           background-color:yellow;}
         
             #header{
                 height:36vh;
@@ -1992,7 +1997,8 @@ margin-top:40vh;
 
 
             @media screen and (min-width:221px) and (max-width:259px){
-
+ body{
+           background-color:aqua;}
         
                
             #header{
@@ -2402,7 +2408,8 @@ margin-top:40vh;
     
                 @media screen and (min-width:260px) and (max-width:296px){
 
-         
+          body{
+           background-color:red;}
                
                     #header{
                         height:36vh;
@@ -2814,7 +2821,8 @@ margin-top:40vh;
         
 
                         @media screen and (min-width:297px) and (max-width:326px){
-
+ body{
+           background-color:burlywood;}
          
                             #header{
                                 height:36vh;
@@ -3224,7 +3232,8 @@ margin-top:40vh;
                                 }
                                 @media screen and (min-width:326px) and (max-width:350px){
 
-         
+                                    body{
+           background-color:#00FFFF;}
                                     #header{
                                         height:36vh;
                                    background-image: url("img/smoke-show2.png");
@@ -3638,7 +3647,8 @@ margin-top:40vh;
 
             @media screen and (min-width:351px) and (max-width:404px){
                
-                
+                body{
+                    background-color:#4B0082;}
            
                 #header{
                     height:36vh;
@@ -4050,6 +4060,9 @@ margin-top:40vh;
                     }
 
                     @media screen and (min-width:405px) and (max-width:450px) {
+
+                        body{
+                            background-color:#800000;}
                
                         #header{
                             height:36vh;
