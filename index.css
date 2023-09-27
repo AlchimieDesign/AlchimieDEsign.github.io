@@ -3232,8 +3232,7 @@ margin-top:40vh;
                                 }
                                 @media screen and (min-width:326px) and (max-width:350px){
 
-                                    body{
-           background-color:#00FFFF;}
+                                   
                                     #header{
                                         height:36vh;
                                    background-image: url("img/smoke-show2.png");
