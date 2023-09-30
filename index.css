@@ -3647,7 +3647,7 @@ margin-top:40vh;
 
             @media screen and (min-width:351px) and (max-width:404px){
                
-               
+               body{ background-color: red;}
            
                 #header{
                     height:36vh;
