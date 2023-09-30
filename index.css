@@ -2816,8 +2816,7 @@ margin-top:40vh;
         
 
                         @media screen and (min-width:297px) and (max-width:326px){
- body{
-           background-color:burlywood;}
+ 
          
                             #header{
                                 height:36vh;
@@ -3642,7 +3641,7 @@ margin-top:40vh;
 
             @media screen and (min-width:351px) and (max-width:404px){
                
-               body{ background-color: blue;}
+               
            
                 #header{
                     height:36vh;
@@ -3795,7 +3794,7 @@ margin-top:40vh;
                 h1{
                     position: absolute;
                     margin-top:8vh !important;
-                    margin-left:17vw !important;
+                    margin-left:19vw !important;
                     font-size:2.4rem;
                     font-weight: lighter;
                    font-family: 'Italianno', cursive;
