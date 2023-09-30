@@ -2409,7 +2409,7 @@ margin-top:40vh;
                 @media screen and (min-width:260px) and (max-width:296px){
 
           body{
-           background-color:red;}
+           background-color:blue;}
                
                     #header{
                         height:36vh;
@@ -2558,7 +2558,7 @@ margin-top:40vh;
                     h1{
                         position: absolute;
                         margin-top:9vh !important;
-                        margin-left:16vw !important;
+                        margin-left:18vw !important;
                         font-size:1.9rem;
                         font-weight: lighter;
                        font-family: 'Italianno', cursive;
