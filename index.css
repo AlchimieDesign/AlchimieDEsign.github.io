@@ -118,9 +118,7 @@ li{
 
 
     @media screen and (min-width:50px) and (max-width:116px){
-       body{
-           background-color:red;}
-      
+       
          #header{
              height:20vh;
         background-image: url("img/smoke-show2.jpg");
@@ -1583,8 +1581,7 @@ margin-top:40vh;
 
         @media screen and (min-width:200px) and (max-width:220px){
 
-             body{
-           background-color:yellow;}
+             
         
             #header{
                 height:36vh;
@@ -1997,8 +1994,7 @@ margin-top:40vh;
 
 
             @media screen and (min-width:221px) and (max-width:259px){
- body{
-           background-color:aqua;}
+ 
         
                
             #header{
@@ -2408,8 +2404,7 @@ margin-top:40vh;
     
                 @media screen and (min-width:260px) and (max-width:296px){
 
-          body{
-           background-color:blue;}
+          
                
                     #header{
                         height:36vh;
@@ -3647,7 +3642,7 @@ margin-top:40vh;
 
             @media screen and (min-width:351px) and (max-width:404px){
                
-               body{ background-color: red;}
+               body{ background-color: blue;}
            
                 #header{
                     height:36vh;
@@ -3733,7 +3728,7 @@ margin-top:40vh;
                 
                        #homeLink{
                                 position: absolute;
-                                margin-top:-34vw !important;
+                                margin-top:-30vw !important;
                                margin-left:-15vw;
                                 color:rgba(224, 222, 222, 0.808);
                                 font-size:1.8rem;
