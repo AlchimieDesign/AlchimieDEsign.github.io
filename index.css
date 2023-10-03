@@ -121,7 +121,7 @@ li{
        
          #header{
              height:20vh;
-        background-image: url("img/smoke-show2.jpg");
+        background-image: url("img/smoke-show2.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -568,7 +568,7 @@ li{
    
     #header{
         height:30vh;
-   background-image: url("img/smoke-show2.jpg");
+   background-image: url("img/smoke-show2.png");
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -3818,9 +3818,7 @@ margin-top:40vh;
 
                            
                                     @media screen and (min-width:455px) {
-               body{
-                background-color: #313131;
-               }
+            
                                         #header{
                                             height:50vh;
                                         background-image: url("img/smoke-show2.png");
