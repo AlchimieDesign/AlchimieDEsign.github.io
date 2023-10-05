@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Imbue:opsz,wght@10..100,100&family=Italianno&amily=Tsukimi+Rounded:wght@300&display=swap');
 
-body{
-    background-color:red;}
+
 
 *{
     margin:0;
@@ -119,7 +118,9 @@ li{
 
 
     @media screen and (min-width:50px) and (max-width:130px){
-       
+        #addText{
+            display:none;
+         }
          #header{
              height:20vh;
         background-image: url("img/smoke-show2.jpg");
@@ -287,6 +288,10 @@ li{
           #subTitle{
              display:none;
          }
+
+         #addText{
+            display:none;
+         }
      
        .sampleImg{
      
@@ -449,7 +454,7 @@ li{
      
     
      
-     footer{
+     #footer{
          margin-top:37vh;
          display:flex;
          flex-direction:column;
@@ -484,7 +489,9 @@ li{
 
  @media screen and (min-width:131px) and (max-width:140px){
 
-     
+    #addText{
+        display:none;
+     }
     #mobileTitle{
         display:none;
     }
@@ -538,7 +545,9 @@ li{
  }
 
 @media screen and (min-width:131px) and (max-width:189px){
- 
+    #addText{
+        display:none;
+     }
    
     #header{
         height:30vh;
@@ -863,7 +872,7 @@ h4{
     font-size:.80rem;
 }
 
-footer{
+#footer{
    
     margin-top:-130vh !important;
     height:25vh;
@@ -901,6 +910,10 @@ footer{
 @media screen and (min-width:190px) and (max-width:220px){
 
     #smallText{
+        display:none;
+     }
+
+     #addText{
         display:none;
      }
         
@@ -1302,7 +1315,7 @@ footer{
                 font-size:.80rem;
             }
             
-            footer{
+            #footer{
                 height:30vh;
                 background-color: #3d3d3d;
                 color:#fff;
@@ -1333,6 +1346,10 @@ footer{
             @media screen and (min-width:221px) and (max-width:259px){
  
                 #smallText{
+                    display:none;
+                 }
+
+                 #addText{
                     display:none;
                  }
                
@@ -1733,7 +1750,7 @@ footer{
                 font-size:.80rem;
             }
             
-            footer{
+            #footer{
                 height:30vh;
                 background-color: #3d3d3d;
                 color:#fff;
@@ -1765,6 +1782,10 @@ footer{
                 @media screen and (min-width:224px) and (max-width:260px){
 
                     #smallText{
+                        display:none;
+                     }
+
+                     #addText{
                         display:none;
                      }
                     #homeLink{
@@ -1815,6 +1836,10 @@ footer{
                 @media screen and (min-width:260px) and (max-width:296px){
 
                     #smallText{
+                        display:none;
+                     }
+
+                     #addText{
                         display:none;
                      }
                
@@ -2216,7 +2241,7 @@ footer{
                         font-size:.80rem;
                     }
                     
-                    footer{
+                    #footer{
                        
                         height:30vh;
                         background-color: #3d3d3d;
@@ -2250,6 +2275,10 @@ footer{
 
                         @media screen and (min-width:297px) and (max-width:326px){
                             #smallText{
+                                display:none;
+                             }
+
+                             #addText{
                                 display:none;
                              }
          
@@ -2652,7 +2681,7 @@ footer{
                                 font-size:.80rem;
                             }
                             
-                            footer{
+                            #footer{
                                 height:30vh;
                                 background-color: #3d3d3d;
                                 color:#fff;
@@ -2681,6 +2710,10 @@ footer{
                                 }
                                 @media screen and (min-width:326px) and (max-width:350px){
                                     #smallText{
+                                        display:none;
+                                     }
+
+                                     #addText{
                                         display:none;
                                      }
                                    
@@ -3064,7 +3097,7 @@ footer{
                                     }
                                     
                                  
-                                    footer{
+                                    #footer{
                                         height:30vh;
                                         background-color: #3d3d3d;
                                         color:#fff;
@@ -3099,6 +3132,10 @@ footer{
             @media screen and (min-width:351px) and (max-width:404px){
                
                 #smallText{
+                    display:none;
+                 }
+
+                 #addText{
                     display:none;
                  }
            
@@ -3506,7 +3543,7 @@ footer{
                     font-size:.80rem;
                 }
                 
-                footer{
+                #footer{
                     height:30vh;
                     background-color: #3d3d3d;
                     color:#fff;
@@ -3541,6 +3578,10 @@ footer{
                     @media screen and (min-width:405px) and (max-width:500px) {
 
                         #smallText{
+                            display:none;
+                         }
+
+                         #addText{
                             display:none;
                          }
                
@@ -3945,7 +3986,7 @@ footer{
                             font-size:.80rem;
                         }
                         
-                        footer{
+                        #footer{
                           
                             margin-top:600px !important;
                             height:24vh;
