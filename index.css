@@ -4021,8 +4021,7 @@ h4{
                             }
 
 
-                           
-                                    @media screen and (min-width:501px) {
+                            @media screen and (min-width:501px) {
                                 #header{
                                             height:70vh;
                                         background-image: url("img/smoke-show2.png");
@@ -4197,7 +4196,7 @@ h4{
                                   position:absolute;
                                                 height:50vh;
                                                 width:30vw;
-                                                margin-top:1300px;
+                                                margin-top:1900px;
                                                 margin-left:39vw;
                                             }
 
@@ -4216,7 +4215,7 @@ h4{
                                             .prev, .next {
                                                 cursor: pointer;
                                                 position: absolute;
-                                                top: 85vh;
+                                                top: 65vh;
                                                 width: auto;
                                                 margin-top: -50vh;
                                                 padding: 5px;
@@ -4331,7 +4330,7 @@ h4{
                                             }
                                             
                                             #addText{
-                                                margin-top:1840px;
+                                                margin-top:2640px;
                                                 margin-left:27vw;
                                                 width:60vw;
                                                 font-size:2rem;
