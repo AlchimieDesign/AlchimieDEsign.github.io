@@ -891,7 +891,7 @@ footer{
 
 @media screen and (min-width:190px) and (max-width:220px){
 
-             body{ background-color: blue; }
+           
         
             #header{
                 height:36vh;
@@ -1321,7 +1321,7 @@ footer{
 
             @media screen and (min-width:221px) and (max-width:259px){
  
-        body{ background-color: red;}
+       
                
             #header{
                 height:36vh;
@@ -1751,7 +1751,7 @@ footer{
 
                 @media screen and (min-width:224px) and (max-width:260px){
                    
-                    body{ background-color: black; } 
+                   
                     
                     #homeLink{
                         position: absolute;
@@ -1800,7 +1800,7 @@ footer{
     
                 @media screen and (min-width:260px) and (max-width:296px){
 
-          body{ background-color: green;} 
+         
                
                     #header{
                         height:36vh;
@@ -2662,7 +2662,7 @@ footer{
                                }
                                 }
                                 @media screen and (min-width:326px) and (max-width:350px){
-                                    body{ background-color: red;}
+                                  
                                    
                                     #header{
                                         height:36vh;
@@ -3078,7 +3078,7 @@ footer{
 
             @media screen and (min-width:351px) and (max-width:404px){
                
-               body{ background-color: blue;} 
+              
            
                 #header{
                     height:36vh;
@@ -3509,7 +3509,7 @@ footer{
                      font-size:45px;
                       font-family: 'Italianno', cursive;
                       font-weight: lighter;
-                      color:red;
+                      color:white;
                   
                    }
                     
