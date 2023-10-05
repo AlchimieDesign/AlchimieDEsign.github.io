@@ -448,10 +448,10 @@ li{
     
      
      footer{
-         margin-top:37vh;
+         margin-top:42vh;
          display:flex;
          flex-direction:column;
-         height:25vh;
+         height:29vh;
          width:100vw;
          background-color: #3d3d3d;
          color:#fff;
