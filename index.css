@@ -4021,7 +4021,8 @@ h4{
                             }
 
 
-                            @media screen and (min-width:501px) {
+                           
+                                    @media screen and (min-width:501px) {
                                 #header{
                                             height:70vh;
                                         background-image: url("img/smoke-show2.png");
@@ -4045,7 +4046,7 @@ h4{
                                 
                                               .nav-link{
                                                
-                                                margin-left:7vw;
+                                                margin-left:10vw;
                                                padding:20% 4% 0% 4%;
                                                 color:#242424;
                                                 font-size:1.40rem;
@@ -4099,10 +4100,10 @@ h4{
                                               }
                                 
                                               #subTitle{
-                                               margin-top:40vh;
+                                               margin-top:36vh;
                                                margin-left:39vw;
-                                               font-size:2rem;
-                                                color:#cac5c5 !important;
+                                               font-size:3rem;
+                                                color:#616060 !important;
                                               }
                                 
                                               #aboutHeader{
@@ -4364,8 +4365,8 @@ h4{
                                                #footerLogo{
                                                   position: absolute;
                                                   margin-top:5vh;
-                                                  margin-left:44vw !important;
-                                                 font-size:45px;
+                                                  margin-left:39vw !important;
+                                                 font-size:60px;
                                                   font-family: 'Italianno', cursive;
                                                   font-weight: lighter;
                                                   color:white;
@@ -4377,3 +4378,4 @@ h4{
                                             
                                             
                                             }
+
