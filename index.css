@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Imbue:opsz,wght@10..100,100&family=Italianno&amily=Tsukimi+Rounded:wght@300&display=swap');
 
-
+body{
+    background-color:red;}
 
 *{
     margin:0;
