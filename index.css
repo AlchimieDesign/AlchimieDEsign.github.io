@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Imbue:opsz,wght@10..100,100&family=Italianno&amily=Tsukimi+Rounded:wght@300&display=swap');
 
-body{
-    background-color:#475569;
-}
+
 
 *{
     margin:0;
@@ -120,7 +118,7 @@ li{
 
 
     @media screen and (min-width:50px) and (max-width:130px){
-       
+        
          #header{
              height:20vh;
         background-image: url("img/smoke-show2.jpg");
@@ -1320,7 +1318,7 @@ footer{
 
             @media screen and (min-width:221px) and (max-width:259px){
  
-        
+        body{ background-color: red;}
                
             #header{
                 height:36vh;
