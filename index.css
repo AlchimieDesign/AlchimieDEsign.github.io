@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Imbue:opsz,wght@10..100,100&family=Italianno&amily=Tsukimi+Rounded:wght@300&display=swap');
 
-
+body{
+    background-color:#475569;
+}
 
 *{
     margin:0;
@@ -17,9 +19,7 @@ li{
         text-decoration: none;
     }
 
-   #footerLogo{
-        font-family: 'Italianno', cursive;
-   }
+   
 
     .navbar {
         display: flex;
@@ -120,7 +120,7 @@ li{
 
 
     @media screen and (min-width:50px) and (max-width:130px){
-        
+       
          #header{
              height:20vh;
         background-image: url("img/smoke-show2.jpg");
@@ -448,10 +448,10 @@ li{
     
      
      footer{
-         margin-top:42vh;
+         margin-top:37vh;
          display:flex;
          flex-direction:column;
-         height:29vh;
+         height:25vh;
          width:100vw;
          background-color: #3d3d3d;
          color:#fff;
@@ -475,7 +475,6 @@ li{
         font-size: 17px;
         font-family: 'Italianno', cursive;
         font-weight: lighter;
-         color:red;
 
      }
  
@@ -891,7 +890,7 @@ footer{
 
 @media screen and (min-width:190px) and (max-width:220px){
 
-           
+             
         
             #header{
                 height:36vh;
@@ -1321,7 +1320,7 @@ footer{
 
             @media screen and (min-width:221px) and (max-width:259px){
  
-       
+        
                
             #header{
                 height:36vh;
@@ -1750,9 +1749,6 @@ footer{
                 }
 
                 @media screen and (min-width:224px) and (max-width:260px){
-                   
-                   
-                    
                     #homeLink{
                         position: absolute;
                         margin-top:-43vw !important;
@@ -1800,7 +1796,7 @@ footer{
     
                 @media screen and (min-width:260px) and (max-width:296px){
 
-         
+          
                
                     #header{
                         height:36vh;
@@ -2662,7 +2658,7 @@ footer{
                                }
                                 }
                                 @media screen and (min-width:326px) and (max-width:350px){
-                                  
+
                                    
                                     #header{
                                         height:36vh;
@@ -3078,7 +3074,7 @@ footer{
 
             @media screen and (min-width:351px) and (max-width:404px){
                
-              
+               
            
                 #header{
                     height:36vh;
@@ -3103,7 +3099,7 @@ footer{
                             flex-direction: column;
                             background-color: #fff;
                             width: 100%;
-                            height:35vh;
+                            height:30vh;
                             border-radius: 10px;
                             text-align: center;
                             transition: 0.3s;
@@ -3962,7 +3958,7 @@ footer{
                 background-color:#475569;
             }
                                         #header{
-                                            height:50vh;
+                                            height:70vh;
                                         background-image: url("img/smoke-show2.png");
                                         background-position: center;
                                         background-size: cover;
@@ -3971,15 +3967,11 @@ footer{
                                 #dskNav{
                                     margin-left:-5vw !important;
                                 }
-                                        .navBlock{
-                                           
-                                            background-color: #9e2929;
-                                        }
-                                
+                                        
                                         #mainNav{
-                                            background-color: #ffffffb0;
+                                            background-color: #ffffff7e;
                                             width:100vw;
-                                            height:5vh;
+                                            height:10vh;
                                         }
                                               a{
                                                 color:#313131;
@@ -3987,12 +3979,17 @@ footer{
                                               }
                                 
                                               .nav-link{
+                                               
                                                 margin-left:7vw;
-                                                padding:4%;
+                                               padding:20% 4% 0% 4%;
                                                 color:#242424;
                                                 font-size:1.40rem;
                                                 font-weight: lighter;
                                 
+                                              }
+
+                                              #linkOne{
+                                                margin-top:200px !important;
                                               }
                                 
                                               #miniNav{
@@ -4011,8 +4008,8 @@ footer{
                                             h1{
                                                 position: absolute;
                                                 margin-top:19vh !important;
-                                                margin-left:10vw !important;
-                                                font-size:6rem;
+                                                margin-left:20vw !important;
+                                                font-size:8rem;
                                                 font-weight: lighter;
                                                font-family: 'Italianno', cursive;
                                                 color:rgb(70, 70, 70);
@@ -4037,17 +4034,18 @@ footer{
                                               }
                                 
                                               #subTitle{
-                                               margin-top:30vh;
-                                               margin-left:36vw;
-                                                color:#3d3d3d5e !important;
+                                               margin-top:40vh;
+                                               margin-left:39vw;
+                                               font-size:2rem;
+                                                color:#cac5c5 !important;
                                               }
                                 
                                               #aboutHeader{
                                                 position: absolute;
-                                                margin-top:2vh !important;
-                                                margin-left:11vw !important;
-                                                width:80vw;
-                                                font-size:2rem;
+                                                margin-top:89vh !important;
+                                                margin-left:30vw !important;
+                                                width:47vw;
+                                                font-size:4rem;
                                                 font-weight: lighter;
                                                font-family: 'Italianno', cursive;
                                                 color:rgb(94, 92, 92);
@@ -4075,39 +4073,65 @@ footer{
                                             
                                             #img1{
                                                 position: absolute;
-                                                margin-top:20vh;
+                                                margin-top:-2vh;
                                                 margin-left:26vw;
                                                 height:40vh !important;
-                                                width:20vw !important;
+                                                width:40vw !important;
                                                 z-index:-1;
                                             }
                                             
                                             #img2{
                                                 position: absolute;
-                                                margin-top:9vh;
-                                                height:8vh;
-                                                width:50vw;
+                                                margin-top:40vh;
+                                                margin-left:4vw;
+                                                height:40vh !important;
+                                                width:40vw !important;
                                                 z-index:-1;
                                             }
                                             
                                             #img3{
                                                 position: absolute;
-                                                margin-top:9vh;
+                                                margin-top:40vh;
                                                 margin-left:50vw;
-                                                height:8vh;
-                                                width:50vw;
+                                                height:40vh !important;
+                                                width:40vw !important;
+                                                z-index:-1;
+                                            }
+
+                                            #img4{
+                                                position: absolute;
+                                                margin-top:110vh;
+                                                margin-left:10vw;
+                                                height:40vh !important;
+                                                width:40vw !important;
+                                                z-index:-1;
+                                            }
+
+                                            #img5{
+                                                position: absolute;
+                                                margin-top:120vh;
+                                                margin-left:40vw;
+                                                height:40vh !important;
+                                                width:40vw !important;
                                                 z-index:-1;
                                             }
                                 
                                             #explore{
-                                                margin-top:25vh;
+                                  
+                                                height:30vh;
+                                                width:30vw;
+                                                margin-top:1200px;
+                                            }
+
+                                            .mySlides{
+                                                height:5vh;
                                             }
                                             
                                             .sampleImg{
                                                 
                                                 display:flex;
                                                 padding:4%;
-                                                width:90%;
+                                                width:10vw;
                                                 height:120px;
                                             }
                                             
@@ -4188,42 +4212,13 @@ footer{
                                               }
                                             
                                               #bodycontact{
-                                                margin-top:20vh !important;
+                                                position: absolute;
+                                                margin-top:-60vh !important;
                                                 margin-left:35vw;
                                               }
                                                     
                                 
-                                            #pricingHeader{
-                                                margin-top:2vh !important;
-                                                margin-left:34vw !important;
-                                                font-size:2.3rem;
-                                                font-family: 'Italianno', cursive;
-                                                color:#535353;
-                                                font-weight: lighter;
-                                                padding:3%;
-                                            
-                                            }
-                                            
-                                            .itemContent{
-                                                margin-left:3vw;
-                                                padding:2%;
-                                                font-size:14px;
-                                                width:84vw;
-                                                
-                                            }
-                                            
-                                            #impact{
-                                                margin-left:9vw;
-                                                width:82vw;
-                                                font-size:14px;
-                                                font-weight: lighter;
-                                                color:#393a3a;
-                                            }
-                                            
-                                            .itemHeader{
-                                                font-size:2rem;
-                        
-                                            }
+                                           
                                             
                                             h3{
                                                 margin-left:34vw;
@@ -4247,31 +4242,14 @@ footer{
                                             
                                             }
                                             
-                                            #dynamic{
-                                                margin-top:2vh !important;
-                                                margin-left:3vw !important;
-                                                width:90vw;
-                                                font-size:19px;
+                                           
                                             
-                                            }
-                                            
-                                            #comingSoon{
-                                                margin-top:2vh !important;
-                                                font-size:26px;
-                                            
-                                            }
-                                            
-                                            .extraitemContent{
-                                                margin-top:2vh;
-                                                margin-left:10vw;
-                                                font-size:.80rem;
-                                            }
-                                            
-                                            footer{
-                          
-                                                margin-top:600px !important;
-                                                height:24vh;
-                                                background-color: #3d3d3d;
+                                            #footer{
+                                                position: absolute;
+                                              
+                            margin-bottom:-50vh !important;
+                                                height:10vh;
+                                                background-color: #3a3a3a;
                                                 color:#fff;
                                                 margin-top:8vh !important;
                                             }
