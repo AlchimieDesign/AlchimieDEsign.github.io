@@ -1748,7 +1748,7 @@ footer{
 
                 @media screen and (min-width:224px) and (max-width:260px){
                    
-                    body{ background-color: pink; } 
+                    body{ background-color: black; } 
                     
                     #homeLink{
                         position: absolute;
@@ -2659,7 +2659,7 @@ footer{
                                }
                                 }
                                 @media screen and (min-width:326px) and (max-width:350px){
-
+                                    body{ background-color: red;}
                                    
                                     #header{
                                         height:36vh;
