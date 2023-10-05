@@ -888,7 +888,7 @@ footer{
 
 @media screen and (min-width:190px) and (max-width:220px){
 
-             
+             body{ background-color: blue; }
         
             #header{
                 height:36vh;
@@ -1747,6 +1747,9 @@ footer{
                 }
 
                 @media screen and (min-width:224px) and (max-width:260px){
+                   
+                    body{ background-color: pink; } 
+                    
                     #homeLink{
                         position: absolute;
                         margin-top:-43vw !important;
@@ -1794,7 +1797,7 @@ footer{
     
                 @media screen and (min-width:260px) and (max-width:296px){
 
-          
+          body{ background-color: green;} 
                
                     #header{
                         height:36vh;
