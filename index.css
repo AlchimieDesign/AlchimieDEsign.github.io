@@ -294,6 +294,9 @@ li{
          width:90%;
          height:120px;
      }
+     #smallText{
+        display:none;
+     }
  
      #explore{
          margin-top:1vh !important;
@@ -526,6 +529,10 @@ li{
         color:#464646;
     }
     
+
+    #smallText{
+        display:none;
+     }
     
  }
 
@@ -800,6 +807,10 @@ li{
     to {opacity: 1}
   }
 
+  #smallText{
+    display:none;
+ }
+
   #bodycontact{
     position: absolute;
    margin-top:27vh !important;
@@ -888,7 +899,9 @@ footer{
 
 @media screen and (min-width:190px) and (max-width:220px){
 
-             
+    #smallText{
+        display:none;
+     }
         
             #header{
                 height:36vh;
@@ -1318,7 +1331,9 @@ footer{
 
             @media screen and (min-width:221px) and (max-width:259px){
  
-        
+                #smallText{
+                    display:none;
+                 }
                
             #header{
                 height:36vh;
@@ -1747,6 +1762,10 @@ footer{
                 }
 
                 @media screen and (min-width:224px) and (max-width:260px){
+
+                    #smallText{
+                        display:none;
+                     }
                     #homeLink{
                         position: absolute;
                         margin-top:-43vw !important;
@@ -1794,7 +1813,9 @@ footer{
     
                 @media screen and (min-width:260px) and (max-width:296px){
 
-          
+                    #smallText{
+                        display:none;
+                     }
                
                     #header{
                         height:36vh;
@@ -2227,7 +2248,9 @@ footer{
         
 
                         @media screen and (min-width:297px) and (max-width:326px){
- 
+                            #smallText{
+                                display:none;
+                             }
          
                             #header{
                                 height:36vh;
@@ -2656,7 +2679,9 @@ footer{
                                }
                                 }
                                 @media screen and (min-width:326px) and (max-width:350px){
-
+                                    #smallText{
+                                        display:none;
+                                     }
                                    
                                     #header{
                                         height:36vh;
@@ -2681,7 +2706,7 @@ footer{
                                                 flex-direction: column;
                                                 background-color: #fff;
                                                 width: 100%;
-                                                height:37vh;
+                                                height:30vh;
                                                 border-radius: 10px;
                                                 text-align: center;
                                                 transition: 0.3s;
@@ -3072,7 +3097,9 @@ footer{
 
             @media screen and (min-width:351px) and (max-width:404px){
                
-               
+                #smallText{
+                    display:none;
+                 }
            
                 #header{
                     height:36vh;
@@ -3512,7 +3539,9 @@ footer{
 
                     @media screen and (min-width:405px) and (max-width:500px) {
 
-                       
+                        #smallText{
+                            display:none;
+                         }
                
                         #header{
                             height:36vh;
@@ -3952,10 +3981,7 @@ footer{
 
                            
                                     @media screen and (min-width:501px) {
-            body{
-                background-color:#475569;
-            }
-                                        #header{
+                                #header{
                                             height:70vh;
                                         background-image: url("img/smoke-show2.png");
                                         background-position: center;
@@ -4040,10 +4066,10 @@ footer{
                                 
                                               #aboutHeader{
                                                 position: absolute;
-                                                margin-top:89vh !important;
-                                                margin-left:30vw !important;
-                                                width:47vw;
-                                                font-size:4rem;
+                                                margin-top:99vh !important;
+                                                margin-left:25vw !important;
+                                                width:60vw;
+                                                font-size:5rem;
                                                 font-weight: lighter;
                                                font-family: 'Italianno', cursive;
                                                 color:rgb(94, 92, 92);
@@ -4083,22 +4109,22 @@ footer{
                                                 margin-top:40vh;
                                                 margin-left:4vw;
                                                 height:40vh !important;
-                                                width:40vw !important;
+                                                width:43vw !important;
                                                 z-index:-1;
                                             }
                                             
                                             #img3{
                                                 position: absolute;
                                                 margin-top:40vh;
-                                                margin-left:50vw;
+                                                margin-left:48vw;
                                                 height:40vh !important;
-                                                width:40vw !important;
+                                                width:43vw !important;
                                                 z-index:-1;
                                             }
 
                                             #img4{
                                                 position: absolute;
-                                                margin-top:110vh;
+                                                margin-top:135vh;
                                                 margin-left:10vw;
                                                 height:40vh !important;
                                                 width:40vw !important;
@@ -4107,18 +4133,30 @@ footer{
 
                                             #img5{
                                                 position: absolute;
-                                                margin-top:120vh;
+                                                margin-top:140vh;
                                                 margin-left:40vw;
                                                 height:40vh !important;
                                                 width:40vw !important;
                                                 z-index:-1;
                                             }
+
+                                            #smallText{
+                                                position: absolute;
+                                                margin-top:190vh;
+                                                margin-left:35vw;
+                                                font-weight: lighter;
+                                                font-size:20px;
+                                               
+                                                color:rgb(94, 92, 92);
+                                               
+                                             }
                                 
                                             #explore{
-                                  
-                                                height:30vh;
+                                  position:absolute;
+                                                height:50vh;
                                                 width:30vw;
-                                                margin-top:1200px;
+                                                margin-top:1300px;
+                                                margin-left:39vw;
                                             }
 
                                             .mySlides{
@@ -4138,7 +4176,7 @@ footer{
                                                 position: absolute;
                                                 top: 85vh;
                                                 width: auto;
-                                                margin-top: -22px;
+                                                margin-top: -50vh;
                                                 padding: 5px;
                                                 color: rgb(56, 55, 55);
                                                 font-weight: bold;
@@ -4151,10 +4189,17 @@ footer{
                                               
                                               /* Position the "next button" to the right */
                                               .next {
-                                                right: 0;
-                                                border-radius: 3px 0 0 3px;
+                                                background-color:#f2f2f2;
+                                                right: -4vw;
+                                                border-radius: 100%;
+
+                                               
                                               }
-                                              
+                                              .prev{
+                                                background-color:#f2f2f2;
+                                                left: -4vw;
+                                                border-radius: 100%;
+                                              }
                                               /* On hover, add a black background color with a little bit see-through */
                                               .prev:hover, .next:hover {
                                                 background-color: rgba(0,0,0,0.8);
@@ -4211,8 +4256,11 @@ footer{
                                             
                                               #bodycontact{
                                                 position: absolute;
-                                                margin-top:-60vh !important;
-                                                margin-left:35vw;
+                                                margin-top:260vh !important;
+                                                margin-left:45vw;
+                                                padding:2% 8% 2% 8%;
+                                                background-color: #535353;
+                                                color:white;
                                               }
                                                     
                                 
@@ -4240,13 +4288,22 @@ footer{
                                             
                                             }
                                             
+                                            #addText{
+                                                margin-top:1840px;
+                                                margin-left:27vw;
+                                                width:60vw;
+                                                font-size:2rem;
+                                                font-weight: lighter;
+                                               font-family: 'Italianno', cursive;
+                                                color:rgb(94, 92, 92);
+                                            }
                                            
                                             
                                             #footer{
-                                                position: absolute;
-                                              
-                            margin-bottom:-50vh !important;
-                                                height:10vh;
+                                                position: relative;
+                                              margin-top:2000px;
+                          
+                                                height:20vh;
                                                 background-color: #3a3a3a;
                                                 color:#fff;
                                                 margin-top:8vh !important;
@@ -4256,7 +4313,7 @@ footer{
                                                 display:inline-block;
                                                 padding:0% 4% 0% 4%;
                                                 margin-top:2vh;
-                                                margin-left:10vw;
+                                                margin-left:17vw;
                                                  
                                                   font-size:23px;
                                                   color:rgb(212, 212, 212);
@@ -4266,7 +4323,7 @@ footer{
                                                #footerLogo{
                                                   position: absolute;
                                                   margin-top:5vh;
-                                                  margin-left:16vw !important;
+                                                  margin-left:44vw !important;
                                                  font-size:45px;
                                                   font-family: 'Italianno', cursive;
                                                   font-weight: lighter;
