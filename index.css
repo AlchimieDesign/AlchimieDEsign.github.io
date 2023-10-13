@@ -2313,6 +2313,8 @@ h4{
         
 
                         @media screen and (min-width:262px) and (max-width:326px){
+                            body{
+                                backgroound-color:red;}
                             #smallText{
                                 display:none;
                              }
@@ -2745,6 +2747,8 @@ h4{
                                     
                                 }
                                 @media screen and (min-width:326px) and (max-width:350px){
+                                    body{
+                                        background-color:blue;}
                                     #smallText{
                                         display:none;
                                      }
@@ -3182,6 +3186,8 @@ h4{
 
 
             @media screen and (min-width:351px) and (max-width:404px){
+                body{
+                    background-color:burlywood;}
                
                 #smallText{
                     display:none;
@@ -3617,6 +3623,8 @@ h4{
                     }
 
                     @media screen and (min-width:405px) and (max-width:855px) {
+                        body{
+                            background-color:red;}
 
                         #smallText{
                             display:none;
