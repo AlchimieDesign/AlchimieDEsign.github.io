@@ -3471,7 +3471,7 @@ h4{
                         
                         #img2{
                             position: absolute;
-                            margin-top:9vh;
+                            margin-top:10vh;
                             margin-left:-4vw;
                             height:12vh;
                             width:50vw;
@@ -3480,7 +3480,7 @@ h4{
                         
                         #img3{
                             position: absolute;
-                            margin-top:9vh;
+                            margin-top:10vh;
                             margin-left:46vw;
                             height:12vh;
                             width:50vw;
@@ -3554,7 +3554,7 @@ h4{
               
               /* Position the "next button" to the right */
               .next {
-                right: 0;
+                right: 3%;
                 border-radius: 3px 0 0 3px;
               }
               
@@ -3671,7 +3671,7 @@ h4{
                        
                         
                         #footer{
-                            height:30vh;
+                            height:33vh;
                             background-color: #3d3d3d;
                             color:#fff;
                             margin-top:8vh !important;
