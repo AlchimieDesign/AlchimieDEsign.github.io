@@ -17,7 +17,9 @@ li{
         text-decoration: none;
     }
 
-   
+   h1{
+    font-weight: lighter;
+   }
 
     .navbar {
         display: flex;
@@ -160,7 +162,8 @@ li{
          
                  .nav-item {
                      margin: 2.5rem 0;
-                     font-size: 0.50rem;;
+                     margin-left:-4vw;
+                     font-size: 0.50rem;
                      font-weight: lighter !important;
                  }
              
@@ -206,7 +209,7 @@ li{
          
                  #homeLink{
                      position: absolute;
-                     margin-top:-13vh;
+                     margin-top:-11vh;
                      margin-left:-26vw !important;
                      font-size: 1rem;
                      font-weight: lighter;
@@ -215,7 +218,7 @@ li{
          
                  #aboutLink{
                      position: absolute;
-                     margin-top:-17vh;
+                     margin-top:-16vh;
                      margin-left:-26vw !important;
                      font-size: 1rem;
                      font-weight: lighter;
@@ -232,8 +235,8 @@ li{
                  }
          
                  #bookLink{
-                     margin-top:-23vh;
-                     margin-left:-32vw;
+                     margin-top:-25vh;
+                     margin-left:-37vw;
                      background-color: #3b3b3b;
                      font-size: 0.70rem;
                      font-weight: lighter;
@@ -270,7 +273,7 @@ li{
          }
  
          #miniTitle{
-            
+            display:none;
              position: absolute;
              margin-top:5vh !important;
              margin-left:8vw !important;
@@ -412,18 +415,24 @@ li{
        #bodycontact{
         position: absolute;
         margin-top:-3vh !important;
-         margin-left:25vw;
-         padding:3% 8% 3% 8%;
-         font-size:.80rem;
-         background-color: #3d3d3d;
-         color:#fff;
+         margin-left:13vw;
+       font-size:1rem;
+        padding:4% 20% 4% 20%;
+         border-width: 1px;
+         border-color:#636161;
+         border-style:solid;
          font-family: 'Italianno', cursive;
         
+       }
+
+       #bodycontact:hover{
+        background-color: #3d3d3d;
+        color:white;
        }
      
      #aboutHeader{
          position:absolute;
-         margin-top:28vh !important;
+         margin-top:20vh !important;
          margin-left:13vw !important;
          font-weight: lighter;
          font-size:1.3rem;
@@ -458,7 +467,7 @@ li{
          margin-top:37vh;
          display:flex;
          flex-direction:column;
-         height:25vh;
+         height:30vh;
          width:100vw;
          background-color: #3d3d3d;
          color:#fff;
@@ -470,16 +479,17 @@ li{
 
      .footerNav{
         display:block;
-        margin-left:25vw;
+        margin-left:20vw;
         padding:3% 5% 2% 5%;
         font-size:24px;
         color:white;
      }
      #footerLogo{
+       
         position: absolute;
         margin-top:5vh;
         margin-left:6vw;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Italianno', cursive;
         font-weight: lighter;
 
@@ -2042,8 +2052,8 @@ h4{
                         position: absolute;
                         margin-top:13vh;
                         margin-left:44vw;
-                        height:8vh;
-                        width:45vw;
+                        height:10vh;
+                        width:50vw;
                         z-index:-1;
                     }
         
@@ -2061,8 +2071,8 @@ h4{
                         position: absolute;
                         margin-top:45vh;
                         margin-left:44vw;
-                        height:8vh;
-                        width:45vw;
+                        height:10vh;
+                        width:50vw;
                         z-index:-1;
                     }
                     
@@ -2917,8 +2927,8 @@ h4{
                                         position: absolute;
                                         margin-top:10vh;
                                         margin-left:46vw;
-                                        height:10vh;
-                                        width:45vw;
+                                        height:12vh;
+                                        width:48vw;
                                         z-index:-1;
                                     }
                         
@@ -3786,7 +3796,7 @@ h4{
                             margin-top:13vh;
                             margin-left:46vw;
                             height:10vh;
-                            width:45vw;
+                            width:48vw;
                             z-index:-1;
                         }
             
@@ -4078,7 +4088,7 @@ h4{
                                                 font-size:8rem;
                                                 font-weight: lighter;
                                                font-family: 'Italianno', cursive;
-                                                color:rgb(70, 70, 70);
+                                                color:rgb(78, 71, 71);
                                                
                                             }
                                 
@@ -4104,6 +4114,7 @@ h4{
                                                margin-left:39vw;
                                                font-size:3rem;
                                                 color:#616060 !important;
+                                                font-weight: lighter;
                                               }
                                 
                                               #aboutHeader{
@@ -4159,7 +4170,7 @@ h4{
                                                 position: absolute;
                                                 margin-top:40vh;
                                                 margin-left:48vw;
-                                                height:37vh !important;
+                                                height:40vh !important;
                                                 width:43vw !important;
                                                 z-index:-1;
                                             }
