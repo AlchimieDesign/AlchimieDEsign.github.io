@@ -166,7 +166,7 @@ li{
          
                  .nav-item {
                      margin: 2.5rem 0;
-                     margin-left:-4vw;
+                     margin-left:15vw;
                      font-size: 0.50rem;
                      font-weight: lighter !important;
                  }
@@ -176,7 +176,7 @@ li{
                      cursor: pointer;
                  }
          .bar{
-             background-color: #3b3b3b;
+             background-color: #868686a8;
          }
                  .hamburger.active .bar:nth-child(2) {
                      opacity: 0;
@@ -214,7 +214,7 @@ li{
                  #homeLink{
                      position: absolute;
                      margin-top:-11vh;
-                     margin-left:-26vw !important;
+                     margin-left:-37vw !important;
                      font-size: 1rem;
                      font-weight: lighter;
                      color:rgb(68, 68, 68);
@@ -223,7 +223,7 @@ li{
                  #aboutLink{
                      position: absolute;
                      margin-top:-16vh;
-                     margin-left:-26vw !important;
+                     margin-left:-37vw !important;
                      font-size: 1rem;
                      font-weight: lighter;
                      color:rgb(68, 68, 68);
@@ -232,7 +232,7 @@ li{
                  #missionLink{
                      position: absolute;
                      margin-top:-20vh;
-                     margin-left:-28vw !important;
+                     margin-left:-37vw !important;
                      font-size: 1rem;
                      font-weight: lighter;
                      color:rgb(68, 68, 68);
@@ -240,7 +240,7 @@ li{
          
                  #bookLink{
                      margin-top:-25vh;
-                     margin-left:-45vw;
+                     margin-left:-53vw !important;
                      font-size:.70rem;
                       padding:2% 10% 2% 10%;
                        border-width: 1px;
@@ -425,7 +425,7 @@ li{
        #exploreLink{
         position: absolute;
         margin-top:-3vh !important;
-         margin-left:25vw;
+         margin-left:20vw;
          font-size:1rem;
         
             padding:2% 9% 2% 9%;          
@@ -522,7 +522,7 @@ li{
         position: absolute;
         margin-top:5vh;
         margin-left:6vw;
-        font-size: 13px;
+        font-size: 18px;
         font-family: 'Italianno', cursive;
         font-weight: lighter;
 
@@ -600,6 +600,7 @@ li{
 
 @media screen and (min-width:131px) and (max-width:178px){
 
+   
   
     #addText{
         display:none;
@@ -644,7 +645,7 @@ li{
 
     .nav-item {
         margin: 2.5rem 0;
-        margin-left:-4vw;
+        margin-left:12vw;
         font-size: 0.50rem;
         font-weight: lighter !important;
     }
@@ -691,8 +692,8 @@ display:none;
 
     #homeLink{
         position: absolute;
-        margin-top:-11vh;
-        margin-left:-26vw !important;
+        margin-top:-12vh;
+        margin-left:-25vw !important;
         font-size: 1rem;
         font-weight: lighter;
         color:rgb(68, 68, 68);
@@ -717,7 +718,7 @@ display:none;
     }
 
     #bookLink{
-        margin-top:-25vh;
+        margin-top:-22vh;
         margin-left:-45vw;
         font-size:.70rem;
          padding:2% 10% 2% 10%;
@@ -759,9 +760,9 @@ display:none;
         font-size:1.45rem;
         font-weight: lighter;
        font-family: 'Italianno', cursive;
-        color:rgb(6, 61, 75) !important;
-        -webkit-text-stroke-width: 0.10px;
-        -webkit-text-stroke-color: rgb(255, 255, 255);
+        color:rgb(255, 255, 255) !important;
+        -webkit-text-stroke-width: 0.13px;
+        -webkit-text-stroke-color: rgb(85, 85, 85);
        
     }
 
@@ -1045,7 +1046,7 @@ h4{
     
             .nav-item {
                 margin: 2.5rem 0;
-                margin-left:-4vw;
+                margin-left:20vw;
                 font-size: 0.50rem;
                 font-weight: lighter !important;
             }
@@ -1119,7 +1120,7 @@ h4{
     
             #bookLink{
                 margin-top:-25vh;
-                margin-left:-45vw;
+                margin-left:-42vw;
                 font-size:.70rem;
                  padding:2% 10% 2% 10%;
                   border-width: 1px;
@@ -1158,7 +1159,7 @@ h4{
             h1{
                 position: absolute;
                 margin-top:7vh !important;
-                margin-left:5vw !important;
+                margin-left:3vw !important;
                 font-size:1.9rem;
                 font-weight: lighter;
                font-family: 'Italianno', cursive;
@@ -1498,8 +1499,8 @@ h4{
                 
                         .nav-item {
                             margin: 2.5rem 0;
-                            margin-left:-4vw;
-                            font-size: 0.50rem;
+                            margin-left:26vw !important;
+                            font-size: 0.80rem;
                             font-weight: lighter !important;
                         }
                     
@@ -1546,7 +1547,7 @@ h4{
                         #homeLink{
                             position: absolute;
                             margin-top:-11vh;
-                            margin-left:-26vw !important;
+                            margin-left:50vw !important;
                             font-size: 1rem;
                             font-weight: lighter;
                             color:rgb(68, 68, 68);
@@ -1573,7 +1574,7 @@ h4{
                         #bookLink{
                             margin-top:-25vh;
                             margin-left:-45vw;
-                            font-size:.70rem;
+                            font-size:.80rem !important;
                              padding:2% 10% 2% 10%;
                               border-width: 1px;
                               border-color:#636161;
@@ -1950,9 +1951,10 @@ h4{
                     
                             .nav-item {
                                 margin: 2.5rem 0;
-                                margin-left:-4vw;
-                                font-size: 0.50rem;
+                                margin-left:45vw !important;
+                                font-size: 2rem;
                                 font-weight: lighter !important;
+                                color:#535353;
                             }
                         
                             .hamburger {
@@ -1998,34 +2000,34 @@ h4{
                             #homeLink{
                                 position: absolute;
                                 margin-top:-11vh;
-                                margin-left:-26vw !important;
-                                font-size: 1rem;
+                                margin-left:-44vw !important;
+                                font-size: 1.40rem;
                                 font-weight: lighter;
                                 color:rgb(68, 68, 68);
                             }
                     
                             #aboutLink{
                                 position: absolute;
-                                margin-top:-16vh;
-                                margin-left:-26vw !important;
-                                font-size: 1rem;
+                                margin-top:-16.20vh;
+                                margin-left:-44vw !important;
+                                font-size: 1.40rem;
                                 font-weight: lighter;
                                 color:rgb(68, 68, 68);
                             }
                     
                             #missionLink{
                                 position: absolute;
-                                margin-top:-20vh;
-                                margin-left:-28vw !important;
-                                font-size: 1rem;
+                                margin-top:-21vh;
+                                margin-left:-44vw !important;
+                                font-size: 1.40rem;
                                 font-weight: lighter;
                                 color:rgb(68, 68, 68);
                             }
                     
                             #bookLink{
-                                margin-top:-25vh;
-                                margin-left:-45vw;
-                                font-size:.70rem;
+                                margin-top:-24vh;
+                                margin-left:-59vw !important;
+                                font-size: 1rem !important;
                                  padding:2% 10% 2% 10%;
                                   border-width: 1px;
                                   border-color:#636161;
@@ -2063,7 +2065,7 @@ h4{
                             h1{
                                 position: absolute;
                                 margin-top:7vh !important;
-                                margin-left:1.7vw !important;
+                                margin-left:3vw !important;
                                 font-size:2.5rem;
                                 font-weight: lighter;
                                font-family: 'Italianno', cursive;
@@ -2397,7 +2399,7 @@ h4{
                             
                                     .nav-item {
                                         margin: 2.5rem 0;
-                                        margin-left:-4vw;
+                                        margin-left:48vw;
                                         font-size: 0.50rem;
                                         font-weight: lighter !important;
                                     }
@@ -2442,37 +2444,37 @@ h4{
                                         margin-left:26vw;
                                        }
                             
-                                    #homeLink{
+                                       #homeLink{
                                         position: absolute;
                                         margin-top:-11vh;
-                                        margin-left:-26vw !important;
-                                        font-size: 1rem;
+                                        margin-left:-44vw !important;
+                                        font-size: 1.40rem;
                                         font-weight: lighter;
                                         color:rgb(68, 68, 68);
                                     }
                             
                                     #aboutLink{
                                         position: absolute;
-                                        margin-top:-16vh;
-                                        margin-left:-26vw !important;
-                                        font-size: 1rem;
+                                        margin-top:-16.20vh;
+                                        margin-left:-44vw !important;
+                                        font-size: 1.40rem;
                                         font-weight: lighter;
                                         color:rgb(68, 68, 68);
                                     }
                             
                                     #missionLink{
                                         position: absolute;
-                                        margin-top:-20vh;
-                                        margin-left:-28vw !important;
-                                        font-size: 1rem;
+                                        margin-top:-21vh;
+                                        margin-left:-44vw !important;
+                                        font-size: 1.40rem;
                                         font-weight: lighter;
                                         color:rgb(68, 68, 68);
                                     }
                             
                                     #bookLink{
-                                        margin-top:-25vh;
-                                        margin-left:-45vw;
-                                        font-size:.70rem;
+                                        margin-top:-24vh;
+                                        margin-left:-59vw !important;
+                                        font-size: 1rem !important;
                                          padding:2% 10% 2% 10%;
                                           border-width: 1px;
                                           border-color:#636161;
@@ -2483,6 +2485,7 @@ h4{
                                         }
                                  
                                        
+                                    
                                     
                                             #contactLink{
                                                 margin-left:-15%;
@@ -2510,8 +2513,8 @@ h4{
                                     h1{
                                         position: absolute;
                                         margin-top:7vh !important;
-                                        margin-left:2vw !important;
-                                        font-size:2.9rem;
+                                        margin-left:6vw !important;
+                                        font-size:2.6rem;
                                         font-weight: lighter;
                                        font-family: 'Italianno', cursive;
                                         color:rgb(99, 98, 98);
@@ -2783,7 +2786,7 @@ h4{
                                      #footerLogo{
                                         position: absolute;
                                         margin-top:4vh;
-                                        margin-left:12vw;
+                                        margin-left:6vw;
                                         font-size: 2.5rem;
                                         font-family: 'Italianno', cursive;
                                         font-weight: lighter;
@@ -2845,8 +2848,8 @@ h4{
                                     
                                             .nav-item {
                                                 margin: 2.5rem 0;
-                                                margin-left:-4vw;
-                                                font-size: 0.80rem;
+                                                margin-left:57vw;
+                                                font-size: 0.50rem;
                                                 font-weight: lighter !important;
                                             }
                                         
@@ -2890,37 +2893,37 @@ h4{
                                                 margin-left:26vw;
                                                }
                                     
-                                            #homeLink{
+                                               #homeLink{
                                                 position: absolute;
                                                 margin-top:-11vh;
-                                                margin-left:-26vw !important;
-                                                font-size: 1rem;
+                                                margin-left:-44vw !important;
+                                                font-size: 1.40rem;
                                                 font-weight: lighter;
                                                 color:rgb(68, 68, 68);
                                             }
                                     
                                             #aboutLink{
                                                 position: absolute;
-                                                margin-top:-16vh;
-                                                margin-left:-26vw !important;
-                                                font-size: 1rem;
+                                                margin-top:-16.20vh;
+                                                margin-left:-44vw !important;
+                                                font-size: 1.40rem;
                                                 font-weight: lighter;
                                                 color:rgb(68, 68, 68);
                                             }
                                     
                                             #missionLink{
                                                 position: absolute;
-                                                margin-top:-20vh;
-                                                margin-left:-28vw !important;
-                                                font-size: 1rem;
+                                                margin-top:-21vh;
+                                                margin-left:-44vw !important;
+                                                font-size: 1.40rem;
                                                 font-weight: lighter;
                                                 color:rgb(68, 68, 68);
                                             }
                                     
                                             #bookLink{
-                                                margin-top:-25vh;
-                                                margin-left:-45vw;
-                                                font-size:.70rem;
+                                                margin-top:-24vh;
+                                                margin-left:-59vw !important;
+                                                font-size: 1rem !important;
                                                  padding:2% 10% 2% 10%;
                                                   border-width: 1px;
                                                   border-color:#636161;
@@ -2930,8 +2933,6 @@ h4{
                                                  
                                                 }
                                          
-                                               
-                                            
                                                     #contactLink{
                                                         margin-left:-15%;
                                                         margin-top:-6%;
@@ -3281,7 +3282,7 @@ h4{
                             left: -100%;
                             top: 3rem;
                             flex-direction: column;
-                            background-color: #fff !important;
+                            background-color: #ffffffce !important;
                             height:20vh !important;
                             width: 100%;
                             border-radius: 10px;
@@ -3299,7 +3300,7 @@ h4{
                 
                         .nav-item {
                             margin: 2.5rem 0;
-                            margin-left:-4vw;
+                            margin-left:56vw;
                             font-size: 0.50rem;
                             font-weight: lighter !important;
                         }
@@ -3344,37 +3345,37 @@ h4{
                             margin-left:26vw;
                            }
                 
-                        #homeLink{
+                           #homeLink{
                             position: absolute;
                             margin-top:-11vh;
-                            margin-left:-26vw !important;
-                            font-size: 1rem;
+                            margin-left:-44vw !important;
+                            font-size: 1.40rem;
                             font-weight: lighter;
                             color:rgb(68, 68, 68);
                         }
                 
                         #aboutLink{
                             position: absolute;
-                            margin-top:-16vh;
-                            margin-left:-26vw !important;
-                            font-size: 1rem;
+                            margin-top:-16.20vh;
+                            margin-left:-44vw !important;
+                            font-size: 1.40rem;
                             font-weight: lighter;
                             color:rgb(68, 68, 68);
                         }
                 
                         #missionLink{
                             position: absolute;
-                            margin-top:-20vh;
-                            margin-left:-28vw !important;
-                            font-size: 1rem;
+                            margin-top:-21vh;
+                            margin-left:-44vw !important;
+                            font-size: 1.40rem;
                             font-weight: lighter;
                             color:rgb(68, 68, 68);
                         }
                 
                         #bookLink{
-                            margin-top:-25vh;
-                            margin-left:-45vw;
-                            font-size:.70rem;
+                            margin-top:-24vh;
+                            margin-left:-59vw !important;
+                            font-size: 1rem !important;
                              padding:2% 10% 2% 10%;
                               border-width: 1px;
                               border-color:#636161;
@@ -3383,6 +3384,7 @@ h4{
                               color:#3d3d3d !important;
                              
                             }
+                     
                      
                            
                         
@@ -3488,7 +3490,7 @@ h4{
                          
                         #img4{
                             position: absolute;
-                            margin-top:39vh;
+                            margin-top:45vh;
                             margin-left:3vw;
                             height:10vh;
                             width:53vw;
@@ -3497,7 +3499,7 @@ h4{
             
                         #img5{
                             position: absolute;
-                            margin-top:45vh;
+                            margin-top:56vh;
                             margin-left:36vw;
                             height:8vh;
                             width:50vw;
@@ -3507,7 +3509,7 @@ h4{
             
                         #aboutHeader{
                             position: absolute;
-                            margin-top:22vh !important;
+                            margin-top:25vh !important;
                             margin-left:10vw !important;
                             font-size:2.3rem;
                             font-weight: lighter;
@@ -3523,7 +3525,7 @@ h4{
             
                         
             #explore{
-                margin-top:58vh;
+                margin-top:74vh;
             }
             
             .sampleImg{
@@ -3537,7 +3539,7 @@ h4{
             .prev, .next {
                 cursor: pointer;
                 position: absolute;
-                top: 96vh;
+                top: 120vh;
                 width: auto;
                 margin-top: -22px;
                 padding: 5px;
@@ -3685,7 +3687,7 @@ h4{
                          #footerLogo{
                             position: absolute;
                             margin-top:4vh;
-                            margin-left:12vw;
+                            margin-left:15vw;
                             font-size: 2.5rem;
                             font-family: 'Italianno', cursive;
                             font-weight: lighter;
@@ -3726,7 +3728,7 @@ h4{
                             left: -100%;
                             top: 3rem;
                             flex-direction: column;
-                            background-color: #fff !important;
+                            background-color: #ffffffce !important;
                             height:20vh !important;
                             width: 100%;
                             border-radius: 10px;
@@ -3738,13 +3740,14 @@ h4{
                                 font-weight: lighter;
                         }
                     
+                    
                         .nav-menu.active {
                             left: 0;
                         }
                 
                         .nav-item {
                             margin: 2.5rem 0;
-                            margin-left:-4vw;
+                            margin-left:50vw;
                             font-size: 0.50rem;
                             font-weight: lighter !important;
                         }
@@ -3789,37 +3792,37 @@ h4{
                             margin-left:26vw;
                            }
                 
-                        #homeLink{
+                           #homeLink{
                             position: absolute;
                             margin-top:-11vh;
-                            margin-left:-26vw !important;
-                            font-size: 1rem;
+                            margin-left:-34vw !important;
+                            font-size: 1.40rem;
                             font-weight: lighter;
                             color:rgb(68, 68, 68);
                         }
                 
                         #aboutLink{
                             position: absolute;
-                            margin-top:-16vh;
-                            margin-left:-26vw !important;
-                            font-size: 1rem;
+                            margin-top:-16.20vh;
+                            margin-left:-34vw !important;
+                            font-size: 1.40rem;
                             font-weight: lighter;
                             color:rgb(68, 68, 68);
                         }
                 
                         #missionLink{
                             position: absolute;
-                            margin-top:-20vh;
-                            margin-left:-28vw !important;
-                            font-size: 1rem;
+                            margin-top:-21vh;
+                            margin-left:-34vw !important;
+                            font-size: 1.40rem;
                             font-weight: lighter;
                             color:rgb(68, 68, 68);
                         }
                 
                         #bookLink{
-                            margin-top:-25vh;
-                            margin-left:-45vw;
-                            font-size:.70rem;
+                            margin-top:-24vh;
+                            margin-left:-47vw !important;
+                            font-size: 1rem !important;
                              padding:2% 10% 2% 10%;
                               border-width: 1px;
                               border-color:#636161;
@@ -3828,6 +3831,7 @@ h4{
                               color:#3d3d3d !important;
                              
                             }
+                     
                      
                            
                         
@@ -3857,7 +3861,7 @@ h4{
                         h1{
                             position: absolute;
                             margin-top:20vh !important;
-                            margin-left:4vw !important;
+                            margin-left:5vw !important;
                             font-size:4rem;
                             font-weight: lighter;
                            font-family: 'Italianno', cursive;
@@ -3893,7 +3897,7 @@ h4{
                     
                                   #aboutHeader{
                                     position: absolute;
-                                    margin-top:45vh !important;
+                                    margin-top:37vh !important;
                                     margin-left:15vw !important;
                                     width:76vw;
                                     font-size:3rem;
@@ -3925,54 +3929,54 @@ h4{
                                 #img1{
                                     position: absolute;
                                     margin-top:1vh;
-                                    margin-left:23vw;
-                                    height:16vh !important;
-                                    width:50vw !important;
+                                    margin-left:16vw;
+                                    height:14vh !important;
+                                    width:60vw !important;
                                     z-index:-1;
                                 }
                                 
                                 #img2{
                                     position: absolute;
-                                    margin-top:17vh;
-                                    margin-left:-2vw;
-                                    height:16vh !important;
-                                    width:50vw !important;
+                                    margin-top:15vh;
+                                    margin-left:6vw;
+                                    height:13vh !important;
+                                    width:45vw !important;
                                     z-index:-1;
                                 }
                                 
                                 #img3{
                                     position: absolute;
-                                    margin-top:20vh;
+                                    margin-top:15vh;
                                     margin-left:48vw;
-                                    height:16vh !important;
-                                    width:50vw !important;
+                                    height:13vh !important;
+                                    width:45vw !important;
                                     z-index:-1;
                                 }
 
                                 #img4{
                                     position: absolute;
-                                    margin-top:70vh;
+                                    margin-top:60vh;
                                     margin-left:5vw;
-                                    height:20vh !important;
-                                    width:55vw !important;
+                                    height:13vh !important;
+                                    width:45vw !important;
                                     z-index:-1;
                                 }
 
                                 #img5{
                                     position: absolute;
-                                    margin-top:80vh;
+                                    margin-top:65vh;
                                     margin-left:40vw;
-                                    height:20vh !important;
-                                    width:55vw !important;
+                                    height:13vh !important;
+                                    width:45vw !important;
                                     z-index:-1;
                                 }
 
                                 #smallText{
                                     position: absolute;
-                                    margin-top:106vh;
-                                    margin-left:10vw;
+                                    margin-top:83vh;
+                                    margin-left:12vw;
                                     font-weight: lighter;
-                                    font-size:20px;
+                                    font-size:15px;
                                    
                                     color:rgb(94, 92, 92);
                                    
@@ -3982,7 +3986,7 @@ h4{
                       position:absolute;
                                     height:20vh;
                                     width:50vw;
-                                    margin-top:120vh;
+                                    margin-top:110vh;
                                     margin-left:28vw;
                                 }
 
@@ -4092,7 +4096,7 @@ h4{
 
                                   #exploreLink{
                                     position: absolute;
-                                    margin-top:109vh !important;
+                                    margin-top:90vh !important;
                                      margin-left:35vw;
                                      font-size:2rem;
                                     
@@ -4141,7 +4145,7 @@ h4{
                                 }
                                 
                                 #addText{
-                                    margin-top:146vh;
+                                    margin-top:134vh;
                                     margin-left:10vw;
                                     width:90vw;
                                     font-size:2rem;
@@ -4155,7 +4159,7 @@ h4{
                                     position: relative;
                                   margin-top:80vh;
               
-                                    height:40vh;
+                                    height:30vh;
                                     background-color: #3a3a3a;
                                     color:#fff;
                                     margin-top:8vh !important;
