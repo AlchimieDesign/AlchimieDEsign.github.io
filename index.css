@@ -139,7 +139,7 @@ li{
              background-color: rgba(233, 233, 233, 0.534);
          }
          .navbar{
-             background-color: #e4e4e493;
+             background-color: #ffffff;
          }
 
         
@@ -148,7 +148,7 @@ li{
                      left: -100%;
                      top: 3rem;
                      flex-direction: column;
-                     background-color: #fff;
+                     background-color: #fff !important;
                      height:20vh !important;
                      width: 100%;
                      border-radius: 10px;
@@ -217,7 +217,7 @@ li{
                      margin-left:-26vw !important;
                      font-size: 1rem;
                      font-weight: lighter;
-                     color:rgb(255, 255, 255);
+                     color:rgb(68, 68, 68);
                  }
          
                  #aboutLink{
@@ -226,7 +226,7 @@ li{
                      margin-left:-26vw !important;
                      font-size: 1rem;
                      font-weight: lighter;
-                     color:rgb(255, 255, 255);
+                     color:rgb(68, 68, 68);
                  }
          
                  #missionLink{
@@ -235,7 +235,7 @@ li{
                      margin-left:-28vw !important;
                      font-size: 1rem;
                      font-weight: lighter;
-                     color:rgb(255, 255, 255);
+                     color:rgb(68, 68, 68);
                  }
          
                  #bookLink{
@@ -467,6 +467,7 @@ li{
       }
 
       #contactBodyLink:hover{
+        display:none;
        background-color: #505050;
        color:white;
       }
@@ -620,111 +621,115 @@ li{
     .navbar{
         background-color: #e4e4e493;
     }
-            .nav-menu {
-                position: fixed;
-                left: -100%;
-                top: 3rem;
-               
-                flex-direction: column;
-                background-color: #fff;
-                height:20vh !important;
-                width: 100%;
-                border-radius: 10px;
-                text-align: center;
-                transition: 0.3s;
-                box-shadow:
-                    0 10px 27px rgba(0, 0, 0, 0.05);
-                    z-index:1 !important;
-                    font-weight: lighter;
-            }
-        
-            .nav-menu.active {
-                left: 0;
-            }
-    
-            .nav-item {
-                margin: 2.5rem 0;
-                font-size: 0.30rem;;
-                font-weight: lighter !important;
-            }
-        
-            .hamburger {
-                display: block;
-                cursor: pointer;
-            }
-    .bar{
-        background-color: #636262;
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 3rem;
+        flex-direction: column;
+        background-color: #fff !important;
+        height:20vh !important;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+            z-index:1 !important;
+            font-weight: lighter;
     }
-            .hamburger.active .bar:nth-child(2) {
-                opacity: 0;
-            }
-        
-            .hamburger.active .bar:nth-child(1) {
-                transform: translateY(8px) rotate(45deg);
-            }
-        
-            .hamburger.active .bar:nth-child(3) {
-                transform: translateY(-8px) rotate(-45deg);
-            }
-    .nav-logo-mobile{
-        margin-left:39% !important;
-    }
-    
-    .nav-logo-mobile{
-        height: 50vh !important;
-    }
-    
-    #nav-logo-desktop{
-        display:none;
-    }
-            #alchBrand{
-                margin-top: -59% !important;
-                margin-left:-9% !important;
-                width:10% !important;
-                height:10% !important;
-               }
 
-               #bodycontact{
-                margin-left:26vw;
-               }
-    
-            #homeLink{
-                position: absolute;
-                margin-top:-13vh;
-                margin-left:-29vw !important;
-                font-size: 1.5rem;
-                font-weight: lighter;
-                color:rgb(255, 255, 255);
-            }
-    
-            #aboutLink{
-                position: absolute;
-                margin-top:-17vh;
-                margin-left:-29vw !important;
-                font-size: 1.5rem;
-                font-weight: lighter;
-                color:rgb(255, 255, 255);
-            }
-    
-            #missionLink{
-                position: absolute;
-                margin-top:-20vh;
-                margin-left:-29vw !important;
-                font-size: 1.5rem;
-                font-weight: lighter;
-                color:rgb(255, 255, 255);
-            }
-    
-            #bookLink{
-                margin-top:-24vh;
-                margin-left:-37vw;
-                padding:3% 6% 3% 6%;
-                background-color: #3b3b3b;
-                font-size: 1rem;
-                font-weight: lighter;
-                color:rgb(255, 255, 255);
-            }
-    
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+        margin-left:-4vw;
+        font-size: 0.50rem;
+        font-weight: lighter !important;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+.bar{
+background-color: #3b3b3b;
+}
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+.nav-logo-mobile{
+margin-left:39% !important;
+}
+
+.nav-logo-mobile{
+height: 50vh !important;
+}
+
+#nav-logo-desktop{
+display:none;
+}
+    #alchBrand{
+        margin-top: -59% !important;
+        margin-left:-9% !important;
+        width:10% !important;
+        height:10% !important;
+       }
+
+       #bodycontact{
+        margin-left:26vw;
+       }
+
+    #homeLink{
+        position: absolute;
+        margin-top:-11vh;
+        margin-left:-26vw !important;
+        font-size: 1rem;
+        font-weight: lighter;
+        color:rgb(68, 68, 68);
+    }
+
+    #aboutLink{
+        position: absolute;
+        margin-top:-16vh;
+        margin-left:-26vw !important;
+        font-size: 1rem;
+        font-weight: lighter;
+        color:rgb(68, 68, 68);
+    }
+
+    #missionLink{
+        position: absolute;
+        margin-top:-20vh;
+        margin-left:-28vw !important;
+        font-size: 1rem;
+        font-weight: lighter;
+        color:rgb(68, 68, 68);
+    }
+
+    #bookLink{
+        margin-top:-25vh;
+        margin-left:-45vw;
+        font-size:.70rem;
+         padding:2% 10% 2% 10%;
+          border-width: 1px;
+          border-color:#636161;
+          border-style:solid;
+          font-family: 'Italianno', cursive;
+          color:#3d3d3d !important;
+         
+        }
+ 
+       
            
     
             span{
@@ -750,7 +755,7 @@ li{
        
         position: absolute;
         margin-top:4.20vh !important;
-        margin-left:2vw !important;
+        margin-left:6vw !important;
         font-size:1.45rem;
         font-weight: lighter;
        font-family: 'Italianno', cursive;
@@ -1017,104 +1022,115 @@ h4{
             .navbar{
                 background-color: #e4e4e441;
             }
-                    .nav-menu {
-                        position: fixed;
-                        left: -100%;
-                        top: 3rem;
-                        flex-direction: column;
-                        background-color: #fff;
-                        height:30vh;
-                        width: 100%;
-                        border-radius: 10px;
-                        text-align: center;
-                        transition: 0.3s;
-                        box-shadow:
-                            0 10px 27px rgba(0, 0, 0, 0.05);
-                            z-index:1 !important;
-                    }
-                
-                    .nav-menu.active {
-                        left: 0;
-                    }
-            
-                    .nav-item {
-                        font-weight: lighter;
-                        margin: 2.5rem 0;
-                        
-                    }
-                
-                    .hamburger {
-                        display: block;
-                        cursor: pointer;
-                    }
-            .bar{
-                background-color: #3b3b3b;
+            .nav-menu {
+                position: fixed;
+                left: -100%;
+                top: 3rem;
+                flex-direction: column;
+                background-color: #fff !important;
+                height:20vh !important;
+                width: 100%;
+                border-radius: 10px;
+                text-align: center;
+                transition: 0.3s;
+                box-shadow:
+                    0 10px 27px rgba(0, 0, 0, 0.05);
+                    z-index:1 !important;
+                    font-weight: lighter;
             }
-                    .hamburger.active .bar:nth-child(2) {
-                        opacity: 0;
-                    }
-                
-                    .hamburger.active .bar:nth-child(1) {
-                        transform: translateY(8px) rotate(45deg);
-                    }
-                
-                    .hamburger.active .bar:nth-child(3) {
-                        transform: translateY(-8px) rotate(-45deg);
-                    }
-            .nav-logo-mobile{
-                margin-left:39% !important;
+        
+            .nav-menu.active {
+                left: 0;
             }
-            
-            .nav-logo-mobile{
-                height: 50vh !important;
+    
+            .nav-item {
+                margin: 2.5rem 0;
+                margin-left:-4vw;
+                font-size: 0.50rem;
+                font-weight: lighter !important;
             }
-            
-            #nav-logo-desktop{
-                display:none;
+        
+            .hamburger {
+                display: block;
+                cursor: pointer;
             }
-                    #alchBrand{
-                        margin-top: -59% !important;
-                        margin-left:-9% !important;
-                        width:10% !important;
-                        height:10% !important;
-                       }
-                       #homeLink{
-                        position: absolute;
-                        margin-top:-11vh;
-                        margin-left:-20vw !important;
-                        font-size: 1.5rem;
-                        font-weight: lighter;
-                        color:rgb(255, 255, 255);
-                    }
-            
-                    #aboutLink{
-                        position: absolute;
-                        margin-top:-13vh;
-                        margin-left:-20vw !important;
-                        font-size: 1.5rem;
-                        font-weight: lighter;
-                        color:rgb(255, 255, 255);
-                    }
-            
-                    #missionLink{
-                        position: absolute;
-                        margin-top:-15vh;
-                        margin-left:-20vw !important;
-                        font-size: 1.5rem;
-                        font-weight: lighter;
-                        color:rgb(255, 255, 255);
-                    }
-            
-                    #bookLink{
-                        margin-top:-16vh;
-                        margin-left:-24vw;
-                        padding:3% 6% 3% 6%;
-                        background-color: #3b3b3b;
-                        font-size: 1rem;
-                        font-weight: lighter;
-                        color:rgb(255, 255, 255);
-                    }
-            
+    .bar{
+        background-color: #3b3b3b;
+    }
+            .hamburger.active .bar:nth-child(2) {
+                opacity: 0;
+            }
+        
+            .hamburger.active .bar:nth-child(1) {
+                transform: translateY(8px) rotate(45deg);
+            }
+        
+            .hamburger.active .bar:nth-child(3) {
+                transform: translateY(-8px) rotate(-45deg);
+            }
+    .nav-logo-mobile{
+        margin-left:39% !important;
+    }
+    
+    .nav-logo-mobile{
+        height: 50vh !important;
+    }
+    
+    #nav-logo-desktop{
+        display:none;
+    }
+            #alchBrand{
+                margin-top: -59% !important;
+                margin-left:-9% !important;
+                width:10% !important;
+                height:10% !important;
+               }
+
+               #bodycontact{
+                margin-left:26vw;
+               }
+    
+            #homeLink{
+                position: absolute;
+                margin-top:-11vh;
+                margin-left:-26vw !important;
+                font-size: 1rem;
+                font-weight: lighter;
+                color:rgb(68, 68, 68);
+            }
+    
+            #aboutLink{
+                position: absolute;
+                margin-top:-16vh;
+                margin-left:-26vw !important;
+                font-size: 1rem;
+                font-weight: lighter;
+                color:rgb(68, 68, 68);
+            }
+    
+            #missionLink{
+                position: absolute;
+                margin-top:-20vh;
+                margin-left:-28vw !important;
+                font-size: 1rem;
+                font-weight: lighter;
+                color:rgb(68, 68, 68);
+            }
+    
+            #bookLink{
+                margin-top:-25vh;
+                margin-left:-45vw;
+                font-size:.70rem;
+                 padding:2% 10% 2% 10%;
+                  border-width: 1px;
+                  border-color:#636161;
+                  border-style:solid;
+                  font-family: 'Italianno', cursive;
+                  color:#3d3d3d !important;
+                 
+                }
+         
+               
             
                     #contactLink{
                         margin-left:-15%;
@@ -1459,105 +1475,115 @@ h4{
                         .navbar{
                             background-color: #e4e4e441;
                         }
-                                .nav-menu {
-                                    position: fixed;
-                                    left: -100%;
-                                    top: 3rem;
-                                    flex-direction: column;
-                                    background-color: #fff;
-                                    height:30vh;
-                                    width: 100%;
-                                    border-radius: 10px;
-                                    text-align: center;
-                                    transition: 0.3s;
-                                    box-shadow:
-                                        0 10px 27px rgba(0, 0, 0, 0.05);
-                                        z-index:1 !important;
-                                }
-                            
-                                .nav-menu.active {
-                                    left: 0;
-                                }
-                        
-                                .nav-item {
-                                    font-weight: lighter;
-                                    margin: 2.5rem 0;
-                                    
-                                }
-                            
-                                .hamburger {
-                                    display: block;
-                                    cursor: pointer;
-                                }
-                        .bar{
-                            background-color: #3b3b3b;
+                        .nav-menu {
+                            position: fixed;
+                            left: -100%;
+                            top: 3rem;
+                            flex-direction: column;
+                            background-color: #fff !important;
+                            height:20vh !important;
+                            width: 100%;
+                            border-radius: 10px;
+                            text-align: center;
+                            transition: 0.3s;
+                            box-shadow:
+                                0 10px 27px rgba(0, 0, 0, 0.05);
+                                z-index:1 !important;
+                                font-weight: lighter;
                         }
-                                .hamburger.active .bar:nth-child(2) {
-                                    opacity: 0;
-                                }
-                            
-                                .hamburger.active .bar:nth-child(1) {
-                                    transform: translateY(8px) rotate(45deg);
-                                }
-                            
-                                .hamburger.active .bar:nth-child(3) {
-                                    transform: translateY(-8px) rotate(-45deg);
-                                }
-                        .nav-logo-mobile{
-                            margin-left:39% !important;
+                    
+                        .nav-menu.active {
+                            left: 0;
                         }
-                        
-                        .nav-logo-mobile{
-                            height: 50vh !important;
+                
+                        .nav-item {
+                            margin: 2.5rem 0;
+                            margin-left:-4vw;
+                            font-size: 0.50rem;
+                            font-weight: lighter !important;
                         }
-                        
-                        #nav-logo-desktop{
-                            display:none;
+                    
+                        .hamburger {
+                            display: block;
+                            cursor: pointer;
                         }
-                                #alchBrand{
-                                    margin-top: -59% !important;
-                                    margin-left:-9% !important;
-                                    width:10% !important;
-                                    height:10% !important;
-                                   }
-                                   #homeLink{
-                                    position: absolute;
-                                    margin-top:-11vh;
-                                    margin-left:-20vw !important;
-                                    font-size: 1.5rem;
-                                    font-weight: lighter;
-                                    color:rgb(255, 255, 255);
-                                }
-                        
-                                #aboutLink{
-                                    position: absolute;
-                                    margin-top:-13vh;
-                                    margin-left:-20vw !important;
-                                    font-size: 1.5rem;
-                                    font-weight: lighter;
-                                    color:rgb(255, 255, 255);
-                                }
-                        
-                                #missionLink{
-                                    position: absolute;
-                                    margin-top:-15vh;
-                                    margin-left:-20vw !important;
-                                    font-size: 1.5rem;
-                                    font-weight: lighter;
-                                    color:rgb(255, 255, 255);
-                                }
-                        
-                                #bookLink{
-                                    margin-top:-16vh;
-                                    margin-left:-24vw;
-                                    padding:3% 6% 3% 6%;
-                                    background-color: #3b3b3b;
-                                    font-size: 1rem;
-                                    font-weight: lighter;
-                                    color:rgb(255, 255, 255);
-                                }
-                        
-                        
+                .bar{
+                    background-color: #3b3b3b;
+                }
+                        .hamburger.active .bar:nth-child(2) {
+                            opacity: 0;
+                        }
+                    
+                        .hamburger.active .bar:nth-child(1) {
+                            transform: translateY(8px) rotate(45deg);
+                        }
+                    
+                        .hamburger.active .bar:nth-child(3) {
+                            transform: translateY(-8px) rotate(-45deg);
+                        }
+                .nav-logo-mobile{
+                    margin-left:39% !important;
+                }
+                
+                .nav-logo-mobile{
+                    height: 50vh !important;
+                }
+                
+                #nav-logo-desktop{
+                    display:none;
+                }
+                        #alchBrand{
+                            margin-top: -59% !important;
+                            margin-left:-9% !important;
+                            width:10% !important;
+                            height:10% !important;
+                           }
+        
+                           #bodycontact{
+                            margin-left:26vw;
+                           }
+                
+                        #homeLink{
+                            position: absolute;
+                            margin-top:-11vh;
+                            margin-left:-26vw !important;
+                            font-size: 1rem;
+                            font-weight: lighter;
+                            color:rgb(68, 68, 68);
+                        }
+                
+                        #aboutLink{
+                            position: absolute;
+                            margin-top:-16vh;
+                            margin-left:-26vw !important;
+                            font-size: 1rem;
+                            font-weight: lighter;
+                            color:rgb(68, 68, 68);
+                        }
+                
+                        #missionLink{
+                            position: absolute;
+                            margin-top:-20vh;
+                            margin-left:-28vw !important;
+                            font-size: 1rem;
+                            font-weight: lighter;
+                            color:rgb(68, 68, 68);
+                        }
+                
+                        #bookLink{
+                            margin-top:-25vh;
+                            margin-left:-45vw;
+                            font-size:.70rem;
+                             padding:2% 10% 2% 10%;
+                              border-width: 1px;
+                              border-color:#636161;
+                              border-style:solid;
+                              font-family: 'Italianno', cursive;
+                              color:#3d3d3d !important;
+                             
+                            }
+                     
+                           
                                 #contactLink{
                                     margin-left:-15%;
                                     margin-top:-6%;
@@ -1901,104 +1927,115 @@ h4{
                             .navbar{
                                 background-color: #e4e4e441;
                             }
-                                    .nav-menu {
-                                        position: fixed;
-                                        left: -100%;
-                                        top: 3rem;
-                                        flex-direction: column;
-                                        background-color: #fff;
-                                        height:30vh;
-                                        width: 100%;
-                                        border-radius: 10px;
-                                        text-align: center;
-                                        transition: 0.3s;
-                                        box-shadow:
-                                            0 10px 27px rgba(0, 0, 0, 0.05);
-                                            z-index:1 !important;
-                                    }
-                                
-                                    .nav-menu.active {
-                                        left: 0;
-                                    }
-                            
-                                    .nav-item {
-                                        font-weight: lighter;
-                                        margin: 2.5rem 0;
-                                        
-                                    }
-                                
-                                    .hamburger {
-                                        display: block;
-                                        cursor: pointer;
-                                    }
-                            .bar{
-                                background-color: #3b3b3b;
+                            .nav-menu {
+                                position: fixed;
+                                left: -100%;
+                                top: 3rem;
+                                flex-direction: column;
+                                background-color: #fff !important;
+                                height:20vh !important;
+                                width: 100%;
+                                border-radius: 10px;
+                                text-align: center;
+                                transition: 0.3s;
+                                box-shadow:
+                                    0 10px 27px rgba(0, 0, 0, 0.05);
+                                    z-index:1 !important;
+                                    font-weight: lighter;
                             }
-                                    .hamburger.active .bar:nth-child(2) {
-                                        opacity: 0;
-                                    }
-                                
-                                    .hamburger.active .bar:nth-child(1) {
-                                        transform: translateY(8px) rotate(45deg);
-                                    }
-                                
-                                    .hamburger.active .bar:nth-child(3) {
-                                        transform: translateY(-8px) rotate(-45deg);
-                                    }
-                            .nav-logo-mobile{
-                                margin-left:39% !important;
+                        
+                            .nav-menu.active {
+                                left: 0;
                             }
-                            
-                            .nav-logo-mobile{
-                                height: 50vh !important;
+                    
+                            .nav-item {
+                                margin: 2.5rem 0;
+                                margin-left:-4vw;
+                                font-size: 0.50rem;
+                                font-weight: lighter !important;
                             }
-                            
-                            #nav-logo-desktop{
-                                display:none;
+                        
+                            .hamburger {
+                                display: block;
+                                cursor: pointer;
                             }
-                                    #alchBrand{
-                                        margin-top: -59% !important;
-                                        margin-left:-9% !important;
-                                        width:10% !important;
-                                        height:10% !important;
-                                       }
-                                       #homeLink{
-                                        position: absolute;
-                                        margin-top:-11vh;
-                                        margin-left:-20vw !important;
-                                        font-size: 1.5rem;
-                                        font-weight: lighter;
-                                        color:rgb(255, 255, 255);
-                                    }
-                            
-                                    #aboutLink{
-                                        position: absolute;
-                                        margin-top:-13vh;
-                                        margin-left:-20vw !important;
-                                        font-size: 1.5rem;
-                                        font-weight: lighter;
-                                        color:rgb(255, 255, 255);
-                                    }
-                            
-                                    #missionLink{
-                                        position: absolute;
-                                        margin-top:-15vh;
-                                        margin-left:-20vw !important;
-                                        font-size: 1.5rem;
-                                        font-weight: lighter;
-                                        color:rgb(255, 255, 255);
-                                    }
-                            
-                                    #bookLink{
-                                        margin-top:-16vh;
-                                        margin-left:-24vw;
-                                        padding:3% 6% 3% 6%;
-                                        background-color: #3b3b3b;
-                                        font-size: 1rem;
-                                        font-weight: lighter;
-                                        color:rgb(255, 255, 255);
-                                    }
-                            
+                    .bar{
+                        background-color: #3b3b3b;
+                    }
+                            .hamburger.active .bar:nth-child(2) {
+                                opacity: 0;
+                            }
+                        
+                            .hamburger.active .bar:nth-child(1) {
+                                transform: translateY(8px) rotate(45deg);
+                            }
+                        
+                            .hamburger.active .bar:nth-child(3) {
+                                transform: translateY(-8px) rotate(-45deg);
+                            }
+                    .nav-logo-mobile{
+                        margin-left:39% !important;
+                    }
+                    
+                    .nav-logo-mobile{
+                        height: 50vh !important;
+                    }
+                    
+                    #nav-logo-desktop{
+                        display:none;
+                    }
+                            #alchBrand{
+                                margin-top: -59% !important;
+                                margin-left:-9% !important;
+                                width:10% !important;
+                                height:10% !important;
+                               }
+            
+                               #bodycontact{
+                                margin-left:26vw;
+                               }
+                    
+                            #homeLink{
+                                position: absolute;
+                                margin-top:-11vh;
+                                margin-left:-26vw !important;
+                                font-size: 1rem;
+                                font-weight: lighter;
+                                color:rgb(68, 68, 68);
+                            }
+                    
+                            #aboutLink{
+                                position: absolute;
+                                margin-top:-16vh;
+                                margin-left:-26vw !important;
+                                font-size: 1rem;
+                                font-weight: lighter;
+                                color:rgb(68, 68, 68);
+                            }
+                    
+                            #missionLink{
+                                position: absolute;
+                                margin-top:-20vh;
+                                margin-left:-28vw !important;
+                                font-size: 1rem;
+                                font-weight: lighter;
+                                color:rgb(68, 68, 68);
+                            }
+                    
+                            #bookLink{
+                                margin-top:-25vh;
+                                margin-left:-45vw;
+                                font-size:.70rem;
+                                 padding:2% 10% 2% 10%;
+                                  border-width: 1px;
+                                  border-color:#636161;
+                                  border-style:solid;
+                                  font-family: 'Italianno', cursive;
+                                  color:#3d3d3d !important;
+                                 
+                                }
+                         
+                               
                             
                                     #contactLink{
                                         margin-left:-15%;
@@ -2313,8 +2350,6 @@ h4{
         
 
                         @media screen and (min-width:262px) and (max-width:326px){
-                            body{
-                                backgroound-color:red;}
                             #smallText{
                                 display:none;
                              }
@@ -2339,104 +2374,115 @@ h4{
                                     .navbar{
                                         background-color: #e4e4e441;
                                     }
-                                            .nav-menu {
-                                                position: fixed;
-                                                left: -100%;
-                                                top: 3rem;
-                                                flex-direction: column;
-                                                background-color: #fff;
-                                                height:30vh;
-                                                width: 100%;
-                                                border-radius: 10px;
-                                                text-align: center;
-                                                transition: 0.3s;
-                                                box-shadow:
-                                                    0 10px 27px rgba(0, 0, 0, 0.05);
-                                                    z-index:1 !important;
-                                            }
-                                        
-                                            .nav-menu.active {
-                                                left: 0;
-                                            }
-                                    
-                                            .nav-item {
-                                                font-weight: lighter;
-                                                margin: 2.5rem 0;
-                                                
-                                            }
-                                        
-                                            .hamburger {
-                                                display: block;
-                                                cursor: pointer;
-                                            }
-                                    .bar{
-                                        background-color: #3b3b3b;
+                                    .nav-menu {
+                                        position: fixed;
+                                        left: -100%;
+                                        top: 3rem;
+                                        flex-direction: column;
+                                        background-color: #fff !important;
+                                        height:20vh !important;
+                                        width: 100%;
+                                        border-radius: 10px;
+                                        text-align: center;
+                                        transition: 0.3s;
+                                        box-shadow:
+                                            0 10px 27px rgba(0, 0, 0, 0.05);
+                                            z-index:1 !important;
+                                            font-weight: lighter;
                                     }
-                                            .hamburger.active .bar:nth-child(2) {
-                                                opacity: 0;
-                                            }
-                                        
-                                            .hamburger.active .bar:nth-child(1) {
-                                                transform: translateY(8px) rotate(45deg);
-                                            }
-                                        
-                                            .hamburger.active .bar:nth-child(3) {
-                                                transform: translateY(-8px) rotate(-45deg);
-                                            }
-                                    .nav-logo-mobile{
-                                        margin-left:39% !important;
+                                
+                                    .nav-menu.active {
+                                        left: 0;
                                     }
-                                    
-                                    .nav-logo-mobile{
-                                        height: 50vh !important;
+                            
+                                    .nav-item {
+                                        margin: 2.5rem 0;
+                                        margin-left:-4vw;
+                                        font-size: 0.50rem;
+                                        font-weight: lighter !important;
                                     }
-                                    
-                                    #nav-logo-desktop{
-                                        display:none;
+                                
+                                    .hamburger {
+                                        display: block;
+                                        cursor: pointer;
                                     }
-                                            #alchBrand{
-                                                margin-top: -59% !important;
-                                                margin-left:-9% !important;
-                                                width:10% !important;
-                                                height:10% !important;
-                                               }
-                                               #homeLink{
-                                                position: absolute;
-                                                margin-top:-11vh;
-                                                margin-left:-20vw !important;
-                                                font-size: 1.5rem;
-                                                font-weight: lighter;
-                                                color:rgb(255, 255, 255);
-                                            }
-                                    
-                                            #aboutLink{
-                                                position: absolute;
-                                                margin-top:-13vh;
-                                                margin-left:-20vw !important;
-                                                font-size: 1.5rem;
-                                                font-weight: lighter;
-                                                color:rgb(255, 255, 255);
-                                            }
-                                    
-                                            #missionLink{
-                                                position: absolute;
-                                                margin-top:-15vh;
-                                                margin-left:-20vw !important;
-                                                font-size: 1.5rem;
-                                                font-weight: lighter;
-                                                color:rgb(255, 255, 255);
-                                            }
-                                    
-                                            #bookLink{
-                                                margin-top:-16vh;
-                                                margin-left:-24vw;
-                                                padding:3% 6% 3% 6%;
-                                                background-color: #3b3b3b;
-                                                font-size: 1rem;
-                                                font-weight: lighter;
-                                                color:rgb(255, 255, 255);
-                                            }
-                                    
+                            .bar{
+                                background-color: #3b3b3b;
+                            }
+                                    .hamburger.active .bar:nth-child(2) {
+                                        opacity: 0;
+                                    }
+                                
+                                    .hamburger.active .bar:nth-child(1) {
+                                        transform: translateY(8px) rotate(45deg);
+                                    }
+                                
+                                    .hamburger.active .bar:nth-child(3) {
+                                        transform: translateY(-8px) rotate(-45deg);
+                                    }
+                            .nav-logo-mobile{
+                                margin-left:39% !important;
+                            }
+                            
+                            .nav-logo-mobile{
+                                height: 50vh !important;
+                            }
+                            
+                            #nav-logo-desktop{
+                                display:none;
+                            }
+                                    #alchBrand{
+                                        margin-top: -59% !important;
+                                        margin-left:-9% !important;
+                                        width:10% !important;
+                                        height:10% !important;
+                                       }
+                    
+                                       #bodycontact{
+                                        margin-left:26vw;
+                                       }
+                            
+                                    #homeLink{
+                                        position: absolute;
+                                        margin-top:-11vh;
+                                        margin-left:-26vw !important;
+                                        font-size: 1rem;
+                                        font-weight: lighter;
+                                        color:rgb(68, 68, 68);
+                                    }
+                            
+                                    #aboutLink{
+                                        position: absolute;
+                                        margin-top:-16vh;
+                                        margin-left:-26vw !important;
+                                        font-size: 1rem;
+                                        font-weight: lighter;
+                                        color:rgb(68, 68, 68);
+                                    }
+                            
+                                    #missionLink{
+                                        position: absolute;
+                                        margin-top:-20vh;
+                                        margin-left:-28vw !important;
+                                        font-size: 1rem;
+                                        font-weight: lighter;
+                                        color:rgb(68, 68, 68);
+                                    }
+                            
+                                    #bookLink{
+                                        margin-top:-25vh;
+                                        margin-left:-45vw;
+                                        font-size:.70rem;
+                                         padding:2% 10% 2% 10%;
+                                          border-width: 1px;
+                                          border-color:#636161;
+                                          border-style:solid;
+                                          font-family: 'Italianno', cursive;
+                                          color:#3d3d3d !important;
+                                         
+                                        }
+                                 
+                                       
                                     
                                             #contactLink{
                                                 margin-left:-15%;
@@ -2464,7 +2510,7 @@ h4{
                                     h1{
                                         position: absolute;
                                         margin-top:7vh !important;
-                                        margin-left:7vw !important;
+                                        margin-left:2vw !important;
                                         font-size:2.9rem;
                                         font-weight: lighter;
                                        font-family: 'Italianno', cursive;
@@ -2748,7 +2794,8 @@ h4{
                                 }
                                 @media screen and (min-width:326px) and (max-width:350px){
                                     body{
-                                        background-color:blue;}
+                                        background-color:red;
+                                    }
                                     #smallText{
                                         display:none;
                                      }
@@ -2771,106 +2818,121 @@ h4{
                                                 background-color: rgba(233, 233, 233, 0.199);
                                             }
                                             .navbar{
-                                                background-color: #e4e4e441;
+                                                background-color: #ffffffde;
                                             }
-                                                    .nav-menu {
-                                                        position: fixed;
-                                                        left: -100%;
-                                                        top: 3rem;
-                                                        flex-direction: column;
-                                                        background-color: #fff;
-                                                        height:30vh;
-                                                        width: 100%;
-                                                        border-radius: 10px;
-                                                        text-align: center;
-                                                        transition: 0.3s;
-                                                        box-shadow:
-                                                            0 10px 27px rgba(0, 0, 0, 0.05);
-                                                            z-index:1 !important;
-                                                    }
-                                                
-                                                    .nav-menu.active {
-                                                        left: 0;
-                                                    }
-                                            
-                                                    .nav-item {
-                                                        font-weight: lighter;
-                                                        margin: 2.5rem 0;
-                                                        
-                                                    }
-                                                
-                                                    .hamburger {
-                                                        display: block;
-                                                        cursor: pointer;
-                                                    }
-                                            .bar{
-                                                background-color: #3b3b3b;
+
+                                            .navbBlock{
+                                                background-color: #ffffffde;
                                             }
-                                                    .hamburger.active .bar:nth-child(2) {
-                                                        opacity: 0;
-                                                    }
-                                                
-                                                    .hamburger.active .bar:nth-child(1) {
-                                                        transform: translateY(8px) rotate(45deg);
-                                                    }
-                                                
-                                                    .hamburger.active .bar:nth-child(3) {
-                                                        transform: translateY(-8px) rotate(-45deg);
-                                                    }
-                                            .nav-logo-mobile{
-                                                margin-left:39% !important;
+                                            .nav-menu {
+                                                position: fixed;
+                                                left: -100%;
+                                                top: 3rem;
+                                                flex-direction: column;
+                                                background-color: #fff !important;
+                                                height:20vh !important;
+                                                width: 100%;
+                                                border-radius: 10px;
+                                                text-align: center;
+                                                transition: 0.3s;
+                                                box-shadow:
+                                                    0 10px 27px rgba(0, 0, 0, 0.05);
+                                                    z-index:1 !important;
+                                                    font-weight: lighter;
                                             }
-                                            
-                                            .nav-logo-mobile{
-                                                height: 50vh !important;
+                                        
+                                            .nav-menu.active {
+                                                left: 0;
                                             }
-                                            
-                                            #nav-logo-desktop{
-                                                display:none;
+                                    
+                                            .nav-item {
+                                                margin: 2.5rem 0;
+                                                margin-left:-4vw;
+                                                font-size: 0.50rem;
+                                                font-weight: lighter !important;
                                             }
-                                                    #alchBrand{
-                                                        margin-top: -59% !important;
-                                                        margin-left:-9% !important;
-                                                        width:10% !important;
-                                                        height:10% !important;
-                                                       }
-                                                       #homeLink{
-                                                        position: absolute;
-                                                        margin-top:-11vh;
-                                                        margin-left:-20vw !important;
-                                                        font-size: 1.5rem;
-                                                        font-weight: lighter;
-                                                        color:rgb(255, 255, 255);
-                                                    }
-                                            
-                                                    #aboutLink{
-                                                        position: absolute;
-                                                        margin-top:-13vh;
-                                                        margin-left:-20vw !important;
-                                                        font-size: 1.5rem;
-                                                        font-weight: lighter;
-                                                        color:rgb(255, 255, 255);
-                                                    }
-                                            
-                                                    #missionLink{
-                                                        position: absolute;
-                                                        margin-top:-15vh;
-                                                        margin-left:-20vw !important;
-                                                        font-size: 1.5rem;
-                                                        font-weight: lighter;
-                                                        color:rgb(255, 255, 255);
-                                                    }
-                                            
-                                                    #bookLink{
-                                                        margin-top:-16vh;
-                                                        margin-left:-24vw;
-                                                        padding:3% 6% 3% 6%;
-                                                        background-color: #3b3b3b;
-                                                        font-size: 1rem;
-                                                        font-weight: lighter;
-                                                        color:rgb(255, 255, 255);
-                                                    }
-                                            
+                                        
+                                            .hamburger {
+                                                display: block;
+                                                cursor: pointer;
+                                            }
+                                    .bar{
+                                        background-color: #3b3b3b;
+                                    }
+                                            .hamburger.active .bar:nth-child(2) {
+                                                opacity: 0;
+                                            }
+                                        
+                                            .hamburger.active .bar:nth-child(1) {
+                                                transform: translateY(8px) rotate(45deg);
+                                            }
+                                        
+                                            .hamburger.active .bar:nth-child(3) {
+                                                transform: translateY(-8px) rotate(-45deg);
+                                            }
+                                    .nav-logo-mobile{
+                                        margin-left:39% !important;
+                                    }
+                                    
+                                    .nav-logo-mobile{
+                                        height: 50vh !important;
+                                    }
+                                    
+                                    #nav-logo-desktop{
+                                        display:none;
+                                    }
+                                            #alchBrand{
+                                                margin-top: -59% !important;
+                                                margin-left:-9% !important;
+                                                width:10% !important;
+                                                height:10% !important;
+                                               }
+                            
+                                               #bodycontact{
+                                                margin-left:26vw;
+                                               }
+                                    
+                                            #homeLink{
+                                                position: absolute;
+                                                margin-top:-11vh;
+                                                margin-left:-26vw !important;
+                                                font-size: 1rem;
+                                                font-weight: lighter;
+                                                color:rgb(68, 68, 68);
+                                            }
+                                    
+                                            #aboutLink{
+                                                position: absolute;
+                                                margin-top:-16vh;
+                                                margin-left:-26vw !important;
+                                                font-size: 1rem;
+                                                font-weight: lighter;
+                                                color:rgb(68, 68, 68);
+                                            }
+                                    
+                                            #missionLink{
+                                                position: absolute;
+                                                margin-top:-20vh;
+                                                margin-left:-28vw !important;
+                                                font-size: 1rem;
+                                                font-weight: lighter;
+                                                color:rgb(68, 68, 68);
+                                            }
+                                    
+                                            #bookLink{
+                                                margin-top:-25vh;
+                                                margin-left:-45vw;
+                                                font-size:.70rem;
+                                                 padding:2% 10% 2% 10%;
+                                                  border-width: 1px;
+                                                  border-color:#636161;
+                                                  border-style:solid;
+                                                  font-family: 'Italianno', cursive;
+                                                  color:#3d3d3d !important;
+                                                 
+                                                }
+                                         
+                                               
                                             
                                                     #contactLink{
                                                         margin-left:-15%;
@@ -3187,7 +3249,8 @@ h4{
 
             @media screen and (min-width:351px) and (max-width:404px){
                 body{
-                    background-color:burlywood;}
+                    background-color:#3b3b3b;
+                }
                
                 #smallText{
                     display:none;
@@ -3211,106 +3274,121 @@ h4{
                             background-color: rgba(233, 233, 233, 0.199);
                         }
                         .navbar{
-                            background-color: #e4e4e441;
+                            background-color: #ffffffde;
                         }
-                                .nav-menu {
-                                    position: fixed;
-                                    left: -100%;
-                                    top: 3rem;
-                                    flex-direction: column;
-                                    background-color: #fff;
-                                    height:30vh;
-                                    width: 100%;
-                                    border-radius: 10px;
-                                    text-align: center;
-                                    transition: 0.3s;
-                                    box-shadow:
-                                        0 10px 27px rgba(0, 0, 0, 0.05);
-                                        z-index:1 !important;
-                                }
-                            
-                                .nav-menu.active {
-                                    left: 0;
-                                }
-                        
-                                .nav-item {
-                                    font-weight: lighter;
-                                    margin: 2.5rem 0;
-                                    
-                                }
-                            
-                                .hamburger {
-                                    display: block;
-                                    cursor: pointer;
-                                }
-                        .bar{
-                            background-color: #3b3b3b;
+
+                        .navbBlock{
+                            background-color: #ffffffde;
                         }
-                                .hamburger.active .bar:nth-child(2) {
-                                    opacity: 0;
-                                }
-                            
-                                .hamburger.active .bar:nth-child(1) {
-                                    transform: translateY(8px) rotate(45deg);
-                                }
-                            
-                                .hamburger.active .bar:nth-child(3) {
-                                    transform: translateY(-8px) rotate(-45deg);
-                                }
-                        .nav-logo-mobile{
-                            margin-left:39% !important;
+                        .nav-menu {
+                            position: fixed;
+                            left: -100%;
+                            top: 3rem;
+                            flex-direction: column;
+                            background-color: #fff !important;
+                            height:20vh !important;
+                            width: 100%;
+                            border-radius: 10px;
+                            text-align: center;
+                            transition: 0.3s;
+                            box-shadow:
+                                0 10px 27px rgba(0, 0, 0, 0.05);
+                                z-index:1 !important;
+                                font-weight: lighter;
                         }
-                        
-                        .nav-logo-mobile{
-                            height: 50vh !important;
+                    
+                        .nav-menu.active {
+                            left: 0;
                         }
-                        
-                        #nav-logo-desktop{
-                            display:none;
+                
+                        .nav-item {
+                            margin: 2.5rem 0;
+                            margin-left:-4vw;
+                            font-size: 0.50rem;
+                            font-weight: lighter !important;
                         }
-                                #alchBrand{
-                                    margin-top: -59% !important;
-                                    margin-left:-9% !important;
-                                    width:10% !important;
-                                    height:10% !important;
-                                   }
-                                   #homeLink{
-                                    position: absolute;
-                                    margin-top:-11vh;
-                                    margin-left:-20vw !important;
-                                    font-size: 1.5rem;
-                                    font-weight: lighter;
-                                    color:rgb(255, 255, 255);
-                                }
-                        
-                                #aboutLink{
-                                    position: absolute;
-                                    margin-top:-13vh;
-                                    margin-left:-20vw !important;
-                                    font-size: 1.5rem;
-                                    font-weight: lighter;
-                                    color:rgb(255, 255, 255);
-                                }
-                        
-                                #missionLink{
-                                    position: absolute;
-                                    margin-top:-15vh;
-                                    margin-left:-20vw !important;
-                                    font-size: 1.5rem;
-                                    font-weight: lighter;
-                                    color:rgb(255, 255, 255);
-                                }
-                        
-                                #bookLink{
-                                    margin-top:-16vh;
-                                    margin-left:-24vw;
-                                    padding:3% 6% 3% 6%;
-                                    background-color: #3b3b3b;
-                                    font-size: 1rem;
-                                    font-weight: lighter;
-                                    color:rgb(255, 255, 255);
-                                }
-                        
+                    
+                        .hamburger {
+                            display: block;
+                            cursor: pointer;
+                        }
+                .bar{
+                    background-color: #3b3b3b;
+                }
+                        .hamburger.active .bar:nth-child(2) {
+                            opacity: 0;
+                        }
+                    
+                        .hamburger.active .bar:nth-child(1) {
+                            transform: translateY(8px) rotate(45deg);
+                        }
+                    
+                        .hamburger.active .bar:nth-child(3) {
+                            transform: translateY(-8px) rotate(-45deg);
+                        }
+                .nav-logo-mobile{
+                    margin-left:39% !important;
+                }
+                
+                .nav-logo-mobile{
+                    height: 50vh !important;
+                }
+                
+                #nav-logo-desktop{
+                    display:none;
+                }
+                        #alchBrand{
+                            margin-top: -59% !important;
+                            margin-left:-9% !important;
+                            width:10% !important;
+                            height:10% !important;
+                           }
+        
+                           #bodycontact{
+                            margin-left:26vw;
+                           }
+                
+                        #homeLink{
+                            position: absolute;
+                            margin-top:-11vh;
+                            margin-left:-26vw !important;
+                            font-size: 1rem;
+                            font-weight: lighter;
+                            color:rgb(68, 68, 68);
+                        }
+                
+                        #aboutLink{
+                            position: absolute;
+                            margin-top:-16vh;
+                            margin-left:-26vw !important;
+                            font-size: 1rem;
+                            font-weight: lighter;
+                            color:rgb(68, 68, 68);
+                        }
+                
+                        #missionLink{
+                            position: absolute;
+                            margin-top:-20vh;
+                            margin-left:-28vw !important;
+                            font-size: 1rem;
+                            font-weight: lighter;
+                            color:rgb(68, 68, 68);
+                        }
+                
+                        #bookLink{
+                            margin-top:-25vh;
+                            margin-left:-45vw;
+                            font-size:.70rem;
+                             padding:2% 10% 2% 10%;
+                              border-width: 1px;
+                              border-color:#636161;
+                              border-style:solid;
+                              font-family: 'Italianno', cursive;
+                              color:#3d3d3d !important;
+                             
+                            }
+                     
+                           
                         
                                 #contactLink{
                                     margin-left:-15%;
@@ -3619,190 +3697,220 @@ h4{
                         
                          }
                         
-                    
                     }
 
                     @media screen and (min-width:405px) and (max-width:855px) {
-                        body{
-                            background-color:red;}
 
-                        #smallText{
-                            display:none;
-                         }
+                          
+                        #header{
+                            height:58vh !important;
+                       background-image: url("img/smoke-show2.png");
+                       background-repeat: no-repeat;
+                       background-position: center;
+                       background-size: cover;
+                            
+                        }
                     
-                         #addText{
+                      
+                    
+                                
+                        nav{
+                            height:10%;
+                            background-color: rgba(233, 233, 233, 0.199);
+                        }
+                        .navbar{
+                            background-color: #ffffffde;
+                        }
+
+                        .navbBlock{
+                            background-color: #ffffffde;
+                        }
+                        .nav-menu {
+                            position: fixed;
+                            left: -100%;
+                            top: 3rem;
+                            flex-direction: column;
+                            background-color: #fff !important;
+                            height:20vh !important;
+                            width: 100%;
+                            border-radius: 10px;
+                            text-align: center;
+                            transition: 0.3s;
+                            box-shadow:
+                                0 10px 27px rgba(0, 0, 0, 0.05);
+                                z-index:1 !important;
+                                font-weight: lighter;
+                        }
+                    
+                        .nav-menu.active {
+                            left: 0;
+                        }
+                
+                        .nav-item {
+                            margin: 2.5rem 0;
+                            margin-left:-4vw;
+                            font-size: 0.50rem;
+                            font-weight: lighter !important;
+                        }
+                    
+                        .hamburger {
+                            display: block;
+                            cursor: pointer;
+                        }
+                .bar{
+                    background-color: #3b3b3b;
+                }
+                        .hamburger.active .bar:nth-child(2) {
+                            opacity: 0;
+                        }
+                    
+                        .hamburger.active .bar:nth-child(1) {
+                            transform: translateY(8px) rotate(45deg);
+                        }
+                    
+                        .hamburger.active .bar:nth-child(3) {
+                            transform: translateY(-8px) rotate(-45deg);
+                        }
+                .nav-logo-mobile{
+                    margin-left:39% !important;
+                }
+                
+                .nav-logo-mobile{
+                    height: 50vh !important;
+                }
+                
+                #nav-logo-desktop{
+                    display:none;
+                }
+                        #alchBrand{
+                            margin-top: -59% !important;
+                            margin-left:-9% !important;
+                            width:10% !important;
+                            height:10% !important;
+                           }
+        
+                           #bodycontact{
+                            margin-left:26vw;
+                           }
+                
+                        #homeLink{
+                            position: absolute;
+                            margin-top:-11vh;
+                            margin-left:-26vw !important;
+                            font-size: 1rem;
+                            font-weight: lighter;
+                            color:rgb(68, 68, 68);
+                        }
+                
+                        #aboutLink{
+                            position: absolute;
+                            margin-top:-16vh;
+                            margin-left:-26vw !important;
+                            font-size: 1rem;
+                            font-weight: lighter;
+                            color:rgb(68, 68, 68);
+                        }
+                
+                        #missionLink{
+                            position: absolute;
+                            margin-top:-20vh;
+                            margin-left:-28vw !important;
+                            font-size: 1rem;
+                            font-weight: lighter;
+                            color:rgb(68, 68, 68);
+                        }
+                
+                        #bookLink{
+                            margin-top:-25vh;
+                            margin-left:-45vw;
+                            font-size:.70rem;
+                             padding:2% 10% 2% 10%;
+                              border-width: 1px;
+                              border-color:#636161;
+                              border-style:solid;
+                              font-family: 'Italianno', cursive;
+                              color:#3d3d3d !important;
+                             
+                            }
+                     
+                           
+                        
+                                #contactLink{
+                                    margin-left:-15%;
+                                    margin-top:-6%;
+                                    color:rgb(126, 126, 126);
+                        
+                                }
+                        
+                                span{
+                                    color:#475569;
+                                }
+                        
+                            #alchDesignLogo{
+                                margin-top:-12vh !important;
+                            }
+                    
+                        .nav-logo-mobile{
+                            height: 50vh !important;
+                        }
+                        
+                        #mainNav{
                             display:none;
-                         }
-                            
-                                #header{
-                                    height:28vh;
-                               background-image: url("img/smoke-show2.png");
-                               background-repeat: no-repeat;
-                               background-position: center;
-                               background-size: cover;
-                                    
-                                }
-                            
-                                nav{
-                                    height:10%;
-                                    background-color: rgba(233, 233, 233, 0.199);
-                                }
-                                .navbar{
-                                    background-color: #e4e4e441;
-                                }
-                                        .nav-menu {
-                                            position: fixed;
-                                            left: -100%;
-                                            top: 3rem;
-                                            flex-direction: column;
-                                            background-color: #fff;
-                                            height:30vh;
-                                            width: 100%;
-                                            border-radius: 10px;
-                                            text-align: center;
-                                            transition: 0.3s;
-                                            box-shadow:
-                                                0 10px 27px rgba(0, 0, 0, 0.05);
-                                                z-index:1 !important;
-                                        }
-                                    
-                                        .nav-menu.active {
-                                            left: 0;
-                                        }
-                                
-                                        .nav-item {
-                                            font-weight: lighter;
-                                            margin: 2.5rem 0;
-                                            
-                                        }
-                                    
-                                        .hamburger {
-                                            display: block;
-                                            cursor: pointer;
-                                        }
-                                .bar{
-                                    background-color: #3b3b3b;
-                                }
-                                        .hamburger.active .bar:nth-child(2) {
-                                            opacity: 0;
-                                        }
-                                    
-                                        .hamburger.active .bar:nth-child(1) {
-                                            transform: translateY(8px) rotate(45deg);
-                                        }
-                                    
-                                        .hamburger.active .bar:nth-child(3) {
-                                            transform: translateY(-8px) rotate(-45deg);
-                                        }
-                                .nav-logo-mobile{
-                                    margin-left:39% !important;
-                                }
-                                
-                                .nav-logo-mobile{
-                                    height: 50vh !important;
-                                }
-                                
-                                #nav-logo-desktop{
-                                    display:none;
-                                }
-                                        #alchBrand{
-                                            margin-top: -59% !important;
-                                            margin-left:-9% !important;
-                                            width:10% !important;
-                                            height:10% !important;
-                                           }
-                                           #homeLink{
-                                            position: absolute;
-                                            margin-top:-11vh;
-                                            margin-left:-20vw !important;
-                                            font-size: 1.5rem;
-                                            font-weight: lighter;
-                                            color:rgb(255, 255, 255);
-                                        }
-                                
-                                        #aboutLink{
-                                            position: absolute;
-                                            margin-top:-13vh;
-                                            margin-left:-20vw !important;
-                                            font-size: 1.5rem;
-                                            font-weight: lighter;
-                                            color:rgb(255, 255, 255);
-                                        }
-                                
-                                        #missionLink{
-                                            position: absolute;
-                                            margin-top:-15vh;
-                                            margin-left:-20vw !important;
-                                            font-size: 1.5rem;
-                                            font-weight: lighter;
-                                            color:rgb(255, 255, 255);
-                                        }
-                                
-                                        #bookLink{
-                                            margin-top:-16vh;
-                                            margin-left:-24vw;
-                                            padding:3% 6% 3% 6%;
-                                            background-color: #3b3b3b;
-                                            font-size: 1rem;
-                                            font-weight: lighter;
-                                            color:rgb(255, 255, 255);
-                                        }
-                                
-                                
-                                        #contactLink{
-                                            margin-left:-15%;
-                                            margin-top:-6%;
-                                            color:rgb(126, 126, 126);
-                                
-                                        }
-                                
-                                        span{
-                                            color:#475569;
-                                        }
-                                
-                                    #alchDesignLogo{
-                                        margin-top:-12vh !important;
-                                    }
-                            
-                                .nav-logo-mobile{
-                                    height: 50vh !important;
-                                }
-                                
-                                #mainNav{
-                                    display:none;
-                                }
-                            
-                                h1{
+                        }
+                    
+                        h1{
+                            position: absolute;
+                            margin-top:20vh !important;
+                            margin-left:7vw !important;
+                            font-size:5rem;
+                            font-weight: lighter;
+                           font-family: 'Italianno', cursive;
+                            color:rgb(99, 98, 98);
+                            -webkit-text-stroke-width: 0.24px;
+                -webkit-text-stroke-color: rgb(250, 250, 250);
+                           
+                        }
+            
+                        .typewriter h1 {
+                            overflow: hidden; /* Ensures the content is not revealed until the animation */
+                            border-right: .15em solid rgba(230, 230, 230, 0); /* The typwriter cursor */
+                            white-space: nowrap; /* Keeps the content on a single line */
+                            margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+                           /* Adjust as needed */
+                            animation: 
+                              typing 3.5s steps(40, end),
+                              blink-caret .75s step-end infinite;
+                          }
+                          
+                          /* The typing effect */
+                          @keyframes typing {
+                            from { width: 0 }
+                            to { width: 100% }
+                          }
+                                  #subTitle{
+                                   margin-top:28vh;
+                                   margin-left:27vw;
+                                   font-size:2rem;
+                                    color:#616060 !important;
+                                    font-weight: lighter;
+                                  }
+                    
+                                  #aboutHeader{
                                     position: absolute;
-                                    margin-top:7vh !important;
-                                    margin-left:7vw !important;
-                                    font-size:2.9rem;
+                                    margin-top:45vh !important;
+                                    margin-left:15vw !important;
+                                    width:76vw;
+                                    font-size:3rem;
                                     font-weight: lighter;
                                    font-family: 'Italianno', cursive;
-                                    color:rgb(99, 98, 98);
-                                    -webkit-text-stroke-width: 0.24px;
-                        -webkit-text-stroke-color: rgb(250, 250, 250);
+                                    color:rgb(94, 92, 92);
                                    
-                                }
-                    
-                                .typewriter h1 {
-                                    overflow: hidden; /* Ensures the content is not revealed until the animation */
-                                    border-right: .15em solid rgba(230, 230, 230, 0); /* The typwriter cursor */
-                                    white-space: nowrap; /* Keeps the content on a single line */
-                                    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-                                   /* Adjust as needed */
-                                    animation: 
-                                      typing 3.5s steps(40, end),
-                                      blink-caret .75s step-end infinite;
                                   }
-                                  
-                                  /* The typing effect */
-                                  @keyframes typing {
-                                    from { width: 0 }
-                                    to { width: 100% }
-                                  }
-    
-                                  .websiteSample{
+                                 
+                                
+                                
+                                
+                                .websiteSample{
                                     position: absolute;
                                     margin-top:2%;
                                    
@@ -3814,206 +3922,213 @@ h4{
                                     font-size: 2rem;
                                 }
                                 
-                                .sampleImg{
-                                    width:40%;
-                                    height:10%;
-                                }
+                                
                                 
                                 
                                 
                                 #img1{
                                     position: absolute;
-                                    margin-top:5%;
-                                    margin-left:20vw;
-                                    height:7vh;
-                                    width:53vw;
+                                    margin-top:-2vh;
+                                    margin-left:23vw;
+                                    height:20vh !important;
+                                    width:55vw !important;
                                     z-index:-1;
                                 }
                                 
                                 #img2{
                                     position: absolute;
-                                    margin-top:9vh;
-                                    margin-left:-4vw;
-                                    height:8vh;
-                                    width:50vw;
+                                    margin-top:20vh;
+                                    margin-left:-2vw;
+                                    height:20vh !important;
+                                    width:55vw !important;
                                     z-index:-1;
                                 }
                                 
                                 #img3{
                                     position: absolute;
-                                    margin-top:9vh;
-                                    margin-left:46vw;
-                                    height:7vh;
-                                    width:50vw;
+                                    margin-top:20vh;
+                                    margin-left:48vw;
+                                    height:20vh !important;
+                                    width:55vw !important;
                                     z-index:-1;
                                 }
-                    
-                                 
+
                                 #img4{
                                     position: absolute;
-                                    margin-top:34vh;
-                                    margin-left:3vw;
-                                    height:10vh;
-                                    width:53vw;
+                                    margin-top:70vh;
+                                    margin-left:10vw;
+                                    height:20vh !important;
+                                    width:55vw !important;
                                     z-index:-1;
                                 }
-                    
+
                                 #img5{
                                     position: absolute;
-                                    margin-top:40vh;
-                                    margin-left:36vw;
-                                    height:8vh;
-                                    width:50vw;
+                                    margin-top:80vh;
+                                    margin-left:40vw;
+                                    height:20vh !important;
+                                    width:55vw !important;
                                     z-index:-1;
                                 }
-                    
-                    
-                                #aboutHeader{
+
+                                #smallText{
                                     position: absolute;
-                                    margin-top:20vh !important;
-                                    margin-left:10vw !important;
-                                    font-size:2rem;
+                                    margin-top:106vh;
+                                    margin-left:10vw;
                                     font-weight: lighter;
-                                   font-family: 'Italianno', cursive;
-                                    color:rgb(87, 86, 86);
-                                    width:80vw;
-                                }
-                    
-                                #subTitle{
-                                    display:none;
-                                    margin-top:140vh;
-                                }
-                    
-                                
-                    #explore{
-                        margin-top:54vh;
-                    }
-                    
-                    .sampleImg{
-                        
-                        display:flex;
-                        padding:4%;
-                        width:90%;
-                        height:120px;
-                    }
-                    
-                    .prev, .next {
-                        cursor: pointer;
-                        position: absolute;
-                        top: 96vh;
-                        width: auto;
-                        margin-top: -22px;
-                        padding: 5px;
-                        color: rgb(56, 55, 55);
-                        font-weight: bold;
-                        font-size: 18px;
-                        transition: 0.6s ease;
-                        border-radius: 0 3px 3px 0;
-                        user-select: none;
-                        z-index:1;
-                      }
-                      
-                      /* Position the "next button" to the right */
-                      .next {
-                        right: 0;
-                        border-radius: 3px 0 0 3px;
-                      }
-                      
-                      /* On hover, add a black background color with a little bit see-through */
-                      .prev:hover, .next:hover {
-                        background-color: rgba(0,0,0,0.8);
-                      }
-                      
-                      /* Caption text */
-                      .text {
-                        display:none;
-                        color: #f2f2f2;
-                        font-size: 15px;
-                        padding: 8px 12px;
-                        position: absolute;
-                        bottom: 8px;
-                        width: 100%;
-                        text-align: center;
-                      }
-                      
-                      /* Number text (1/3 etc) */
-                      .numbertext {
-                        color: #f2f2f2;
-                        font-size: 12px;
-                        padding: 8px 12px;
-                        position: absolute;
-                        top: 0;
-                      }
-                      
-                      /* The dots/bullets/indicators */
-                      .dot {
-                        display:none !important;
-                        cursor: pointer;
-                        height: 15px;
-                        width: 15px;
-                        margin: 0 2px;
-                        background-color: #bbb;
-                        border-radius: 50%;
-                        display: inline-block;
-                        transition: background-color 0.6s ease;
-                      }
-                      
-                      .active, .dot:hover {
-                        background-color: #717171;
-                      }
-                      
-                      /* Fading animation */
-                      .fade {
-                        animation-name: fade;
-                        animation-duration: 1.5s;
-                      }
-                      
-                      @keyframes fade {
-                        from {opacity: .4}
-                        to {opacity: 1}
-                      }
-                    
-                      #bodycontact{
-                        position: absolute;
-                        margin-top:-300px !important;
-                        margin-left:23vw;
-                        padding:2% 8% 2% 8%;
-                        font-size:1.3rem;
-                        border-radius: 60%;
-                        
-                       
-                        background-color: #444343;
-                        color:#fff;
-                        font-family: 'Italianno', cursive;
-                        
-                      }
-                    
-                      #exploreLink{
-                        position: absolute;
-                        margin-top:-3vh !important;
-                         margin-left:34vw;
-                         font-size:1rem;
-                        
-                            padding:2% 9% 2% 9%;          
-                         border-width: 1px;
-                         border-color:#636161;
-                         border-style:solid;
-                         font-family: 'Italianno', cursive;
-                         color:#3d3d3d !important;
-                        
-                       }
-                    
-                       #exploreLink:hover{
-                        background-color: #505050;
-                        color:white;
-                       }
-                    #contactBodyLink{
-                        display:none;
-                    }
-                            
-                                
-                      h3{
+                                    font-size:20px;
                                    
+                                    color:rgb(94, 92, 92);
+                                   
+                                 }
+                    
+                                #explore{
+                      position:absolute;
+                                    height:20vh;
+                                    width:50vw;
+                                    margin-top:120vh;
+                                    margin-left:28vw;
+                                }
+
+                                .mySlides{
+                                    height:5vh;
+                                }
+                                
+                                .sampleImg{
+                                    
+                                    display:flex;
+                                    padding:4%;
+                                    width:10vw;
+                                    height:120px;
+                                }
+                                
+                                .prev, .next {
+                                    cursor: pointer;
+                                    position: absolute;
+                                    top: 65vh;
+                                    width: auto;
+                                    margin-top: -50vh;
+                                    padding: 5px;
+                                    color: rgb(56, 55, 55);
+                                    font-weight: bold;
+                                    font-size: 18px;
+                                    transition: 0.6s ease;
+                                    border-radius: 0 3px 3px 0;
+                                    user-select: none;
+                                    z-index:1;
+                                  }
+                                  
+                                  /* Position the "next button" to the right */
+                                  .next {
+                                    background-color:#f2f2f2;
+                                    right: -4vw;
+                                    border-radius: 100%;
+
+                                   
+                                  }
+                                  .prev{
+                                    background-color:#f2f2f2;
+                                    left: -4vw;
+                                    border-radius: 100%;
+                                  }
+                                  /* On hover, add a black background color with a little bit see-through */
+                                  .prev:hover, .next:hover {
+                                    background-color: rgba(0,0,0,0.8);
+                                  }
+                                  
+                                  /* Caption text */
+                                  .text {
+                                    display:none;
+                                    color: #f2f2f2;
+                                    font-size: 15px;
+                                    padding: 8px 12px;
+                                    position: absolute;
+                                    bottom: 8px;
+                                    width: 100%;
+                                    text-align: center;
+                                  }
+                                  
+                                  /* Number text (1/3 etc) */
+                                  .numbertext {
+                                    color: #f2f2f2;
+                                    font-size: 12px;
+                                    padding: 8px 12px;
+                                    position: absolute;
+                                    top: 0;
+                                  }
+                                  
+                                  /* The dots/bullets/indicators */
+                                  .dot {
+                                    display:none !important;
+                                    cursor: pointer;
+                                    height: 15px;
+                                    width: 15px;
+                                    margin: 0 2px;
+                                    background-color: #bbb;
+                                    border-radius: 50%;
+                                    display: inline-block;
+                                    transition: background-color 0.6s ease;
+                                  }
+                                  
+                                  .active, .dot:hover {
+                                    background-color: #717171;
+                                  }
+                                  
+                                  /* Fading animation */
+                                  .fade {
+                                    animation-name: fade;
+                                    animation-duration: 1.5s;
+                                  }
+                                  
+                                  @keyframes fade {
+                                    from {opacity: .4}
+                                    to {opacity: 1}
+                                  }
+                                
+                                  #bodycontact{
+                                    position: absolute;
+                                    margin-top:260vh !important;
+                                    margin-left:45vw;
+                                    padding:2% 8% 2% 8%;
+                                    background-color: #535353;
+                                    color:white;
+                                  }
+
+                                  #exploreLink{
+                                    position: absolute;
+                                    margin-top:109vh !important;
+                                     margin-left:35vw;
+                                     font-size:2rem;
+                                    
+                                        padding:0% 9% 0% 9%;          
+                                     border-width: 1px;
+                                     border-color:#636161;
+                                     border-style:solid;
+                                     font-family: 'Italianno', cursive;
+                                     
+                                     color:#5c5c5c !important;
+                                    
+                                   }
+                                
+                                   #exploreLink:hover{
+                                    background-color: #446b65;
+                                    color:white;
+                                   }
+                                #contactBodyLink{
+                                    display:none;
+                                }
+                                        
+                                        
+                    
+                               
+                                
+                                h3{
+                                    margin-left:34vw;
+                                    font-size:1.7rem;
+                    
+                                    font-weight: lighter;
+                                    font-family: 'Italianno', cursive;
+                                     color:rgb(94, 92, 92);
                                     width:100%;
                                 
                                 }
@@ -4029,33 +4144,51 @@ h4{
                                 
                                 }
                                 
+                                #addText{
+                                    margin-top:150vh;
+                                    margin-left:10vw;
+                                    width:80vw;
+                                    font-size:2rem;
+                                    font-weight: lighter;
+                                   font-family: 'Italianno', cursive;
+                                    color:rgb(94, 92, 92);
+                                }
                                
                                 
                                 #footer{
-                                    height:30vh;
-                                    background-color: #3d3d3d;
+                                    position: relative;
+                                  margin-top:80vh;
+              
+                                    height:40vh;
+                                    background-color: #3a3a3a;
                                     color:#fff;
                                     margin-top:8vh !important;
                                 }
-                    
+        
                                 .footerNav{
-                                    display:block;
-                                    margin-left:33vw;
-                                    padding:3% 5% 2% 5%;
-                                    font-size:29px;
-                                    color:white;
-                                 }
-                                 #footerLogo{
-                                    position: absolute;
-                                    margin-top:4vh;
-                                    margin-left:12vw;
-                                    font-size: 2.5rem;
-                                    font-family: 'Italianno', cursive;
-                                    font-weight: lighter;
-                                    color:white;
-                                
-                                 }
-                                
+                                    display:inline-block;
+                                    padding:0% 4% 0% 4%;
+                                    margin-top:2vh;
+                                    margin-left:10vw;
+                                     
+                                      font-size:23px;
+                                      color:rgb(212, 212, 212);
+                                   }
+                      
+                                  
+                                   #footerLogo{
+                                      position: absolute;
+                                      margin-top:5vh;
+                                      margin-left:26vw !important;
+                                     font-size:47px;
+                                      font-family: 'Italianno', cursive;
+                                      font-weight: lighter;
+                                      color:white;
+                                  
+                                   }
+                                    
+                     
+                           
                             
                             }
 
