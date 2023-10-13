@@ -3283,7 +3283,7 @@ h4{
                             top: 3rem;
                             flex-direction: column;
                             background-color: #ffffffce !important;
-                            height:20vh !important;
+                            height:30vh !important;
                             width: 100%;
                             border-radius: 10px;
                             text-align: center;
@@ -3373,8 +3373,8 @@ h4{
                         }
                 
                         #bookLink{
-                            margin-top:-24vh;
-                            margin-left:-59vw !important;
+                            margin-top:-26vh;
+                            margin-left:-56vw !important;
                             font-size: 1rem !important;
                              padding:2% 10% 2% 10%;
                               border-width: 1px;
@@ -3464,7 +3464,7 @@ h4{
                             position: absolute;
                             margin-top:5%;
                             margin-left:20vw;
-                            height:7vh;
+                            height:10vh;
                             width:53vw;
                             z-index:-1;
                         }
@@ -3473,7 +3473,7 @@ h4{
                             position: absolute;
                             margin-top:9vh;
                             margin-left:-4vw;
-                            height:10vh;
+                            height:12vh;
                             width:50vw;
                             z-index:-1;
                         }
@@ -3482,7 +3482,7 @@ h4{
                             position: absolute;
                             margin-top:9vh;
                             margin-left:46vw;
-                            height:10vh;
+                            height:12vh;
                             width:50vw;
                             z-index:-1;
                         }
@@ -3492,7 +3492,7 @@ h4{
                             position: absolute;
                             margin-top:45vh;
                             margin-left:3vw;
-                            height:10vh;
+                            height:12vh;
                             width:53vw;
                             z-index:-1;
                         }
@@ -3501,7 +3501,7 @@ h4{
                             position: absolute;
                             margin-top:56vh;
                             margin-left:36vw;
-                            height:8vh;
+                            height:12vh;
                             width:50vw;
                             z-index:-1;
                         }
@@ -4576,4 +4576,3 @@ h4{
                                             
                                             
                                             }
-
