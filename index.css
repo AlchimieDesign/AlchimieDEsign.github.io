@@ -4479,19 +4479,25 @@ h4{
                                               }
 
                                               #exploreLink{
-                                                position: absolute;
-                                                margin-top:197vh !important;
-                                                 margin-left:47vw;
-                                                 font-size:2rem;
-                                                
-                                                    padding:1% 6% 1% 6%;          
-                                                 border-width: 1px;
-                                                 border-color:#636161;
-                                                 border-style:solid;
-                                                 font-family: 'Italianno', cursive;
-                                                 background-color: #313131;
-                                                 color:#ffffff !important;
-                                                
+                                                 #exploreLink{
+        position: absolute;
+        margin-top:-3vh !important;
+         margin-left:20vw;
+         font-size:1rem;
+        
+            padding:2% 9% 2% 9%;          
+         border-width: 1px;
+         border-color:#636161;
+         border-style:solid;
+         font-family: 'Italianno', cursive;
+         color:#3d3d3d !important;
+        
+       }
+
+       #exploreLink:hover{
+        background-color: #505050;
+        color:white;
+       }
                                                }
                                             
                                                #exploreLink:hover{
