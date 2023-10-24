@@ -2802,6 +2802,9 @@ h3{
 
 
             @media screen and (min-width:326px) and (max-width:350px){
+
+                body{
+                    background-color:red;}
                                   
                 #smallText{
                     display:none;
@@ -3250,7 +3253,8 @@ h3{
                     }
         
 @media screen and (min-width:351px) and (max-width:404px){
-              
+              body{
+                  background-color:blue;}
  
     #smallText{
         display:none;
