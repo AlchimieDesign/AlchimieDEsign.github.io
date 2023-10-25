@@ -8938,7 +8938,7 @@ h4{
                                                                                                   position:absolute;
                                                                                                                 height:20vh;
                                                                                                                 width:50vw;
-                                                                                                                margin-top:1100px;
+                                                                                                                margin-top:1100px !important;
                                                                                                                 margin-left:28vw;
                                                                                                             }
                                                                 
@@ -9097,7 +9097,7 @@ h4{
                                                                                                             }
                                                                                                             
                                                                                                             #addText{
-                                                                                                                margin-top:279vh;
+                                                                                                                margin-top:290vh !important;
                                                                                                                 margin-left:20vw;
                                                                                                                 width:70vw;
                                                                                                                 font-size:3rem;
@@ -9111,7 +9111,7 @@ h4{
                                                                                                                 position: relative;
                                                                                                               margin-top:2000px;
                                                                                           
-                                                                                                                height:25vh;
+                                                                                                                height:27vh;
                                                                                                                 background-color: #3a3a3a;
                                                                                                                 color:#fff;
                                                                                                                 margin-top:8vh !important;
