@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Imbue:opsz,wght@10..100,100&family=Italianno&amily=Tsukimi+Rounded:wght@300&display=swap');
 
-body{ background-color:red;}
+
 
 *{
     margin:0;
@@ -8934,9 +8934,9 @@ h4{
                                                                                                 
                                                                                                             #explore{
                                                                                                   position:absolute;
-                                                                                                                height:15vh;
+                                                                                                                height:20vh;
                                                                                                                 width:50vw;
-                                                                                                                margin-top:1300px;
+                                                                                                                margin-top:1100px;
                                                                                                                 margin-left:28vw;
                                                                                                             }
                                                                 
@@ -9095,7 +9095,7 @@ h4{
                                                                                                             }
                                                                                                             
                                                                                                             #addText{
-                                                                                                                margin-top:250vh;
+                                                                                                                margin-top:300vh;
                                                                                                                 margin-left:27vw;
                                                                                                                 width:60vw;
                                                                                                                 font-size:3rem;
