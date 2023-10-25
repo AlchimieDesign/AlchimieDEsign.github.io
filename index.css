@@ -1159,7 +1159,7 @@ h4{
             h1{
                 position: absolute;
                 margin-top:7vh !important;
-                margin-left:7vw !important;
+                margin-left:3vw !important;
                 font-size:1.9rem;
                 font-weight: lighter;
                font-family: 'Italianno', cursive;
@@ -1385,16 +1385,16 @@ h4{
             #img4{
                 position: absolute;
                 margin-top:34vh;
-                margin-left:3vw;
-                height:10vh;
+                margin-left:0vw;
+                height:8vh;
                 width:53vw;
                 z-index:-1;
             }
 
             #img5{
                 position: absolute;
-                margin-top:43vh;
-                margin-left:36vw;
+                margin-top:40vh;
+                margin-left:39vw;
                 height:8vh;
                 width:50vw;
                 z-index:-1;
@@ -1451,6 +1451,8 @@ h4{
 
 
             @media screen and (min-width:221px) and (max-width:259px){
+
+              
  
                 #smallText{
                     display:none;
@@ -1845,7 +1847,7 @@ h4{
             
                         #img5{
                             position: absolute;
-                            margin-top:43vh;
+                            margin-top:38vh !important;
                             margin-left:36vw;
                             height:8vh;
                             width:50vw;
@@ -2143,14 +2145,14 @@ h4{
                                 position: absolute;
                                 margin-top:30vh;
                                 margin-left:3vw;
-                                height:10vh;
+                                height:8vh;
                                 width:59vw;
                                 z-index:-1;
                             }
                 
                             #img5{
                                 position: absolute;
-                                margin-top:40vh;
+                                margin-top:38vh !important;
                                 margin-left:33vw;
                                 height:8vh;
                                 width:59vw;
@@ -2591,14 +2593,14 @@ h4{
                                         position: absolute;
                                         margin-top:34vh;
                                         margin-left:3vw;
-                                        height:10vh;
+                                        height:8vh;
                                         width:53vw;
                                         z-index:-1;
                                     }
                         
                                     #img5{
                                         position: absolute;
-                                        margin-top:40vh;
+                                        margin-top:42vh !important;
                                         margin-left:36vw;
                                         height:8vh;
                                         width:50vw;
@@ -3044,7 +3046,7 @@ h4{
                                 
                                             #img5{
                                                 position: absolute;
-                                                margin-top:43vh;
+                                                margin-top:50vh !important;
                                                 margin-left:36vw;
                                                 height:12vh;
                                                 width:50vw;
@@ -3070,7 +3072,7 @@ h4{
                                 
                                             
                                 #explore{
-                                    margin-top:54vh;
+                                    margin-top:70vh;
                                 }
                                 
                                 .sampleImg{
@@ -3084,7 +3086,7 @@ h4{
                                 .prev, .next {
                                     cursor: pointer;
                                     position: absolute;
-                                    top: 96vh;
+                                    top: 120vh;
                                     width: auto;
                                     margin-top: -22px;
                                     padding: 5px;
@@ -3481,7 +3483,7 @@ h4{
                         #img3{
                             position: absolute;
                             margin-top:13vh;
-                            margin-left:46vw;
+                            margin-left:44vw;
                             height:12vh;
                             width:50vw;
                             z-index:-1;
@@ -3499,7 +3501,7 @@ h4{
             
                         #img5{
                             position: absolute;
-                            margin-top:56vh;
+                            margin-top:57vh !important;
                             margin-left:36vw;
                             height:12vh;
                             width:50vw;
@@ -3947,7 +3949,7 @@ h4{
                                 #img3{
                                     position: absolute;
                                     margin-top:15vh;
-                                    margin-left:48vw;
+                                    margin-left:46vw;
                                     height:13vh !important;
                                     width:45vw !important;
                                     z-index:-1;
@@ -3964,7 +3966,7 @@ h4{
 
                                 #img5{
                                     position: absolute;
-                                    margin-top:65vh;
+                                    margin-top:63vh;
                                     margin-left:40vw;
                                     height:13vh !important;
                                     width:45vw !important;
@@ -8936,7 +8938,7 @@ h4{
                                                                                                   position:absolute;
                                                                                                                 height:20vh;
                                                                                                                 width:50vw;
-                                                                                                                margin-top:1100px;
+                                                                                                                margin-top:1500px;
                                                                                                                 margin-left:28vw;
                                                                                                             }
                                                                 
@@ -8955,7 +8957,7 @@ h4{
                                                                                                             .prev, .next {
                                                                                                                 cursor: pointer;
                                                                                                                 position: absolute;
-                                                                                                                top: 45vh;
+                                                                                                                top: 43vh;
                                                                                                                 width: auto;
                                                                                                                 margin-top: -20vh;
                                                                                                                 padding: 5px;
@@ -9095,9 +9097,9 @@ h4{
                                                                                                             }
                                                                                                             
                                                                                                             #addText{
-                                                                                                                margin-top:300vh;
-                                                                                                                margin-left:27vw;
-                                                                                                                width:60vw;
+                                                                                                                margin-top:249vh;
+                                                                                                                margin-left:20vw;
+                                                                                                                width:70vw;
                                                                                                                 font-size:3rem;
                                                                                                                 font-weight: lighter;
                                                                                                                font-family: 'Italianno', cursive;
