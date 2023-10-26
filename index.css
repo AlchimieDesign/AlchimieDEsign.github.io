@@ -2,124 +2,127 @@
 
 
 
-*{
-    margin:0;
-    padding:0;
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
 }
+
+
 body{
-    font-family: 'Imbue', serif;}
+  font-family: 'Imbue', serif;}
 
 li{
-    list-style-type:none;
-    }
+  list-style-type:none;
+  }
 
-    a{
-        text-decoration: none;
-    }
+  a{
+      text-decoration: none;
+  }
 
-   h1{
-    font-weight: lighter;
-    -webkit-text-stroke-width: 0.40px;
-    -webkit-text-stroke-color: rgb(44, 46, 46);
-   }
+ h1{
+  font-weight: lighter;
+  -webkit-text-stroke-width: 0.40px;
+  -webkit-text-stroke-color: rgb(44, 46, 46);
+ }
 
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem 1.5rem;
-        background-color: #b61c1c;
-        font-size:2rem;
-    } 
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 1.5rem;
+      background-color: #b61c1c;
+      font-size:2rem;
+  } 
 .nav-logo-mobile{
-    display:none;
+  display:none;
 }
-    #contactLink{
-        position: absolute;
-        margin-left:10vw;
-        margin-top:-1%;
-    }
+  #contactLink{
+      position: absolute;
+      margin-left:10vw;
+      margin-top:-1%;
+  }
 
-    #bookLink{
-        position: absolute;
-        margin-left:27%;
-        margin-top:-3%;
-        background-color: #fff;
-        padding: 1% 1% 1% 1%;
-        font-size:1rem;
-       
-    }
-    #nav-logo-desktop{
-        position: absolute;
-        margin-left:36%;
-        font-size: 6rem;
-        font-weight: 500;
-       color:#ffffff;
-       font-weight: lighter;
-       font-family: 'Italianno', cursive;
+  #bookLink{
+      position: absolute;
+      margin-left:27%;
+      margin-top:-3%;
+      background-color: #fff;
+      padding: 1% 1% 1% 1%;
+      font-size:1rem;
+     
+  }
+  #nav-logo-desktop{
+      position: absolute;
+      margin-left:36%;
+      font-size: 6rem;
+      font-weight: 500;
+     color:#ffffff;
+     font-weight: lighter;
+     font-family: 'Italianno', cursive;
 
-    }
+  }
 
-    
+  
 
-    .hamburger {
-        display: none;
-    }
+  .hamburger {
+      display: none;
+  }
 
-    .bar {
-        display: block;
-        width: 25px;
-        height: 3px;
-        margin: 5px auto;
-        -webkit-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-        background-color: #101010;
-    }
-
-
-    .nav-menu {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .nav-item {
-        margin-left: 5rem;
-    }
-    
-    .nav-link{
-        font-size: 1.6rem;
-        font-weight: 400;
-        color: #475569;
-    }
-    
-    .nav-link:hover{
-        color: #588d8f;
-    }
-    
-    
-
-    #homeLink{
-        
-        margin-top:-2%;
-        margin-left:-60%;
-    }
-
-    #projectLink{
-        margin-left:-50%;
-    }
-
-    #aboutLink{
-        margin-left:-90%;
-    }
-
-    #contactLink{
-        margin-top:-2%;
-        margin-left:20%;
-    }
+  .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      background-color: #101010;
+  }
 
 
+  .nav-menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .nav-item {
+      margin-left: 5rem;
+  }
+  
+  .nav-link{
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: #475569;
+  }
+  
+  .nav-link:hover{
+      color: #588d8f;
+  }
+  
+  
 
+  #homeLink{
+      
+      margin-top:-2%;
+      margin-left:-60%;
+  }
+
+  #projectLink{
+      margin-left:-50%;
+  }
+
+  #aboutLink{
+      margin-left:-90%;
+  }
+
+  #contactLink{
+      margin-top:-2%;
+      margin-left:20%;
+  }
+
+
+         
 
     @media screen and (min-width:50px) and (max-width:130px){
         #addText{
@@ -6623,7 +6626,7 @@ h4{
                                                         #mainNav{
                                                             background-color: #ffffff9f;
                                                             width:100vw;
-                                                            height:7vh;
+                                                            height:9vh;
                                                         }
                                                               a{
                                                                 color:#313131;
@@ -7883,108 +7886,7 @@ h4{
                                                                                                         background-size: cover;
                                                                                                         background-repeat: no-repeat;
                                                                                                         }
-                                                                                                #dskNav{
-                                                                                                    margin-left:-5vw !important;
-                                                                                                    height:200px;
-                                                                                                }
-                                                                                                        
-                                                                                                        #mainNav{
-                                                                                                            background-color: #ffffff9f;
-                                                                                                            width:100vw;
-                                                                                                            height:9vh;
-                                                                                                        }
-                                                                                                              a{
-                                                                                                                color:#313131;
-                                                                                                                font-weight: lighter;
-                                                                                                               padding:0%;
-                                                                                                              }
-                                                                                                
-                                                                                                              .nav-link{
-                                                                                                               margin-top:5px;
-                                                                                                                margin-left:10vw;
-                                                                                                               padding:0% 4% 0% 4%;
-                                                                                                                color:#242424;
-                                                                                                                font-size:1.50rem;
-                                                                                                                font-weight: lighter;
-                                                                                                
-                                                                                                              }
-                                                                
-                                                                                                              #linkOne{
-                                                                                                                position: absolute;
-                                                                                                                margin-top:10px !important;
-                                                                                                                margin-left:8vw;
-                                                                                                               
-                                                                                                               
-                                                                                                              }
-                                                                
-                                                                                                              #linkTwo{
-                                                                                                                position: absolute;
-                                                                                                                margin-top:10px !important;
-                                                                                                                margin-left:20vw;
-                                                                                                               
-                                                                                                              }
-                                                                
-                                                                                                              #linkThree{
-                                                                                                                position: absolute;
-                                                                                                                margin-top:10px !important;
-                                                                                                                margin-left:69vw;
-                                                                                                               
-                                                                                                              }
-                                                                
-                                                                                                              #booking{
-                                                                                                                position: absolute;
-                                                                                                                margin-top:15px !important;
-                                                                                                                margin-left:85vw;
-                                                                                                                font-size:1rem;
-                                                                                                                border-width:1px;
-                                                                                                                border-style: groove;
-                                                                                                                border-color: #918f8f;
-                                                                                                                border-radius: 25px
-                                                                                                                ;
-                                                                                                               
-                                                                                                              }
-                                                                                                
-                                                                                                
-                                                                                                              #miniNav{
-                                                                                                                display:none;
-                                                                                                              }
-                                                                                                
-                                                                                                              #mainNav{
-                                                                                                                display:inline-block;
-                                                                                                                font-size:0.50rem;
-                                                                                                                color:#302e2e;
-                                                                                                              }
-                                                                                                            #mobileTitle{
-                                                                                                                margin-top:30vh;
-                                                                                                            }
-                                                                                                            
-                                                                                                            h1{
-                                                                                                                position: absolute;
-                                                                                                                margin-top:-9vh !important;
-                                                                                                                margin-left:37vw !important;
-                                                                                                                font-size:3rem;
-                                                                                                                 font-weight: lighter;
-                                                                                                                 font-family: 'Italianno', cursive;
-                                                                                                             color:rgba(255, 255, 255, 0.911) !important;
-                                                                                                             
-                                                                                                            }
-                                                                                                
-                                                                                                            .typewriter h1 {
-                                                                                                                overflow: hidden; /* Ensures the content is not revealed until the animation */
-                                                                                                                border-right: .15em solid rgba(230, 230, 230, 0); /* The typwriter cursor */
-                                                                                                                white-space: nowrap; /* Keeps the content on a single line */
-                                                                                                                margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-                                                                                                               /* Adjust as needed */
-                                                                                                                animation: 
-                                                                                                                  typing 3.5s steps(40, end),
-                                                                                                                  blink-caret .75s step-end infinite;
-                                                                                                              }
-                                                                                                              
-                                                                                                              /* The typing effect */
-                                                                                                              @keyframes typing {
-                                                                                                                from { width: 0 }
-                                                                                                                to { width: 100% }
-                                                                                                              }
+                                                                                              
                                                                                                 
                                                                                                               #subTitle{
                                                                                                                margin-top:26vh;
@@ -8727,7 +8629,7 @@ h4{
                                                                                           
                                                         
                                                                                                 #header{
-                                                                                                            height:70vh;
+                                                                                                            height:90vh;
                                                                                                         background-image: url("img/smoke-show2.png");
                                                                                                         background-position: center;
                                                                                                         background-size: cover;
@@ -8837,7 +8739,7 @@ h4{
                                                                                                               }
                                                                                                 
                                                                                                               #subTitle{
-                                                                                                               margin-top:26vh;
+                                                                                                               margin-top:29vh;
                                                                                                                margin-left:13vw;
                                                                                                                font-size:7rem;
                                                                                                                  font-weight: lighter;
@@ -8849,10 +8751,10 @@ h4{
                                                                                                 
                                                                                                               #aboutHeader{
                                                                                                                 position: absolute;
-                                                                                                                margin-top:63vh !important;
+                                                                                                                margin-top:73vh !important;
                                                                                                                 margin-left:25vw !important;
                                                                                                                 width:60vw;
-                                                                                                                font-size:5rem;
+                                                                                                                font-size:4.5rem;
                                                                                                                 font-weight: lighter;
                                                                                                                font-family: 'Italianno', cursive;
                                                                                                                 color:rgb(94, 92, 92);
@@ -8882,45 +8784,47 @@ h4{
                                                                                                                 position: absolute;
                                                                                                                 margin-top:-2vh;
                                                                                                                 margin-left:26vw;
-                                                                                                                height:30vh !important;
-                                                                                                                width:40vw !important;
+                                                                                                                height:50vh !important;
+                                                                                                                width:55vw !important;
                                                                                                                 z-index:-1;
                                                                                                             }
                                                                                                             
                                                                                                             #img2{
                                                                                                                 position: absolute;
-                                                                                                                margin-top:27vh;
-                                                                                                                margin-left:2vw;
-                                                                                                                height:28vh !important;
-                                                                                                                width:43vw !important;
+                                                                                                                margin-top:29vh;
+                                                                                                                margin-left:-3vw;
+                                                                                                                height:50vh !important;
+                                                                                                                width:55vw !important;
                                                                                                                 z-index:-1;
                                                                                                             }
                                                                                                             
                                                                                                             #img3{
                                                                                                                 position: absolute;
-                                                                                                                margin-top:27vh;
-                                                                                                                margin-left:48vw;
-                                                                                                                height:28vh !important;
-                                                                                                                width:43vw !important;
+                                                                                                                margin-top:29vh;
+                                                                                                                margin-left:46vw;
+                                                                                                                height:50vh !important;
+                                                                                                                width:55vw !important;
                                                                                                                 z-index:-1;
                                                                                                             }
                                                                 
                                                                                                             #img4{
                                                                                                                 position: absolute;
-                                                                                                                margin-top:90vh;
-                                                                                                                margin-left:-2vw;
-                                                                                                                height:43vh !important;
-                                                                                                                width:50vw !important;
-                                                                                                                z-index:-1;
+                                                                                                                margin-top:95vh;
+                                                                                                                margin-left:4vw;
+                                                                                                                height:50vh !important;
+                                                                                                                width:51vw !important;
+                                                                                                                z-index:1;
+                                                                                                               
                                                                                                             }
                                                                 
                                                                                                             #img5{
                                                                                                                 position: absolute;
-                                                                                                                margin-top:100vh;
+                                                                                                                margin-top:110vh;
                                                                                                                 margin-left:45vw;
-                                                                                                                height:43vh !important;
-                                                                                                                width:48vw !important;
+                                                                                                                height:50vh !important;
+                                                                                                                width:51vw !important;
                                                                                                                 z-index:-1;
+                                                                                                                
                                                                                                             }
                                                                 
                                                                                                             #smallText{
