@@ -349,7 +349,7 @@ li{
 
                 position: absolute;
                 margin-top:16vh !important;
-                margin-left:30vw !important;
+                margin-left:36vw !important;
                 font-size:5rem;
                 font-weight: lighter;
                font-family: 'Italianno', cursive;
@@ -424,9 +424,31 @@ margin-left:20vw;
 .itemText{
 margin-top:17vh;
 margin-left:10vw;
-width:30vw;
+width:40vw;
 font-size:25px;
 
+}
+
+#itemTextOne{
+    margin-top:16vh;
+    margin-left:5vw;
+}
+
+#itemTextTwo{
+    margin-top:9vh;
+    margin-left:11vw;
+}
+
+#itemTextThree{
+    margin-top:9vh;
+    margin-left:15vw;
+    
+}
+
+#itemTextFour{
+    margin-top:9vh;
+    margin-left:10vw;
+    
 }
 
 
