@@ -42,7 +42,7 @@ li{
 
     #bookLink{
         position: absolute;
-        margin-left:27%;
+        margin-left:60vw !important;
         margin-top:-3%;
         background-color: #fff;
         padding: 1% 1% 1% 1%;
@@ -161,7 +161,28 @@ li{
                   }
 
                   #linkOne{
-                    margin-top:200px !important;
+                    position: absolute;
+                    margin-top:-42vh;
+                    margin-left:3vw;
+                   
+                  }
+
+                  #booking{
+                    position: absolute;
+                    margin-top:0vh;
+                    margin-left:50vw;
+                 
+                     font-size:1.5rem;
+                    
+                        padding:0% 3% 0% 3%;          
+                     border-width: 1px;
+                     border-color:#636161;
+                     border-style:solid;
+                     border-radius: 25px;
+                     font-family: 'Italianno', cursive;
+                    
+                     color:#535252 !important;
+                    
                   }
     
                   #miniNav{
@@ -173,12 +194,24 @@ li{
                     font-size:0.50rem;
                     color:#302e2e;
                   }
+
+                  h1{
+                    position: absolute;
+                    margin-top:-9vh !important;
+                    margin-left:30vw !important;
+                    font-size:6rem;
+                    font-weight: lighter;
+                   font-family: 'Italianno', cursive;
+                    color:rgb(105, 103, 103);
+                   
+                }
                 #mobileTitle{
                     margin-top:30vh;
                 }
 
                 .sliderContainer{
-                    margin-top:6vh;
+                   position: relative;
+                    margin-top:10vh;
                     
                     height:100vh;
                         width:100vw;
@@ -208,7 +241,7 @@ li{
                     .prev, .next {
                         cursor: pointer;
                         position: absolute;
-                        top: 120vh;
+                        top: 100vh;
                         width: 20px;
                         margin-top: -50vh;
                         padding: 1% 1% 1% 1%;
@@ -224,7 +257,7 @@ li{
                       /* Position the "next button" to the right */
                       .next {
                         background-color:#363434;
-                        right:1vw;
+                        right:6vw;
                         border-radius: 100%;
 
                        
@@ -232,7 +265,7 @@ li{
                       .prev{
                         background-color:#363434;
                         
-                        left: 7vw;
+                        left: 5vw;
                         border-radius: 100%;
                       }
                       /* On hover, add a black background color with a little bit see-through */
@@ -255,48 +288,18 @@ li{
 
                
                 
-                      h1{
-                        position: absolute;
-                        margin-top:12vh !important;
-                        margin-left:40vw !important;
-                        font-size:5rem;
-                        font-weight: lighter;
-                       font-family: 'Italianno', cursive;
-                        color:rgb(78, 71, 71);
-                       
-                    }
+                     
 
-                    h2{
+                 
 
-                        position: absolute;
-                        margin-top:16vh !important;
-                        margin-left:44vw !important;
-                        font-size:5rem;
-                        font-weight: lighter;
-                       font-family: 'Italianno', cursive;
-                        color:rgb(78, 71, 71);
 
-                    }
-
-                    
-
-                    .sectionText{
-                        width:60vw;
-                    }
-
-                    #about1{
-                        position: absolute;
-                        margin-top:30vh;
-                        margin-left:30vw;
-                        font-size:25px;
-                    }
         .sliderContainer{
-            margin-top:26vh;
+            margin-top:5vh;
         }
 
 
                
-            .lg-color{
+            .lgImg{
                 position: absolute;
                 margin-top:17vh;
                 margin-left:17vw;
@@ -305,7 +308,7 @@ li{
                
             }
 
-            .sm-color{
+            .smImg{
                 position: absolute;
                 margin-top:18vh;
                 margin-left:70vw;
@@ -316,14 +319,14 @@ li{
             }
 
             #img1{
-                margin-left:10vw;
+                margin-left:3vw;
                 height:57vh;
                 width:44vw;
                
             }
 
             #img2{
-                margin-left:4vw;
+                margin-left:-2vw;
                 height:55vh;
                 width:13vw;
             }
@@ -334,14 +337,131 @@ li{
 
             #sliderColor{
                 margin-top:-80vh;
-                margin-left:22vw;
+                margin-left:15vw;
                 height:65vh;
                 width:70vw;
                 background-color: #d6d6d6;
                 border-radius: 25px;
 
             }
+
+            h2{
+
+                position: absolute;
+                margin-top:16vh !important;
+                margin-left:30vw !important;
+                font-size:5rem;
+                font-weight: lighter;
+               font-family: 'Italianno', cursive;
+                color:rgb(78, 71, 71);
+
+            }
+
+            
+
+            .sectionText{
+                width:60vw;
+                font-size:25px;
+            }
+
+            #about1{
+                position: absolute;
+                margin-top:33vh;
+                margin-left:23vw;
+                font-size:25px;
+            }
+
+
+            #about2{
+                position: absolute;
+                margin-top:43vh;
+                margin-left:23vw;
+                font-size:25px;
+            }
+
+            #contact{
+                position: absolute;
+                margin-top:58vh !important;
+                margin-left:43vw;
+                font-size:1rem;
+
+                padding:0% 4% 0% 4%; 
+                border-radius: 25px;         
+             border-width: 1px;
+             border-color:#636161;
+             border-style:solid;
+             font-family: 'Italianno', cursive;
+             color:#3d3d3d !important;
+            }
+
+            #offers{
+
+                margin-top:60vh;
+                margin-left:25vw;
+                width:50vw;
+              
+            }
+
+           
+           
+
+h3{
+position: absolute;
+margin-top:5vh !important;
+margin-left:18vw !important;
+font-size:5rem;
+font-weight: lighter;
+font-family: 'Italianno', cursive;
+color:rgb(78, 71, 71);
+}
+
+.itemHeader{
+margin-top:90vh;
+margin-left:20vw;
+
+}
+
+.itemText{
+margin-top:17vh;
+margin-left:10vw;
+width:30vw;
+font-size:25px;
+
+}
+
+
+            #footer{
+                position: relative;
+              margin-top:2000px;
+
+                height:27vh;
+                background-color: #3a3a3a;
+                color:#fff;
+                margin-top:8vh !important;
+            }
+
+            .footerNav{
+                display:inline-block;
+                padding:0% 4% 0% 4%;
+                margin-top:2vh;
+                margin-left:17vw;
+                 
+                  font-size:23px;
+                  color:rgb(212, 212, 212);
+               }
+  
+              
+               #footerLogo{
+                  position: absolute;
+                  margin-top:5vh;
+                  margin-left:35vw !important;
+                 font-size:65px;
+                  font-family: 'Italianno', cursive;
+                  font-weight: lighter;
+                  color:white;
+              
+               }
+                
+                
             
             }
-                                             
-    
