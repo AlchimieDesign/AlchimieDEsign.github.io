@@ -2357,6 +2357,8 @@ h4{
         
 
                         @media screen and (min-width:263px) and (max-width:326px){
+                           body{ background-color: red;}
+                            
                             #smallText{
                                 display:none;
                              }
@@ -2801,7 +2803,7 @@ h4{
                                     
                                 }
                                 @media screen and (min-width:326px) and (max-width:350px){
-                                  
+                                  body{background-color:blue;}
                                     #smallText{
                                         display:none;
                                      }
@@ -3253,7 +3255,7 @@ h4{
 
             @media screen and (min-width:351px) and (max-width:402px){
              
-               
+               body{background-color:pink;}
                 #smallText{
                     display:none;
                  }
