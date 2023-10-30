@@ -3471,7 +3471,7 @@ h4{
                             position: absolute;
                             margin-top:2%;
                             margin-left:20vw;
-                            height:12vh;
+                            height:15vh;
                             width:53vw;
                             z-index:-1;
                         }
@@ -3480,7 +3480,7 @@ h4{
                             position: absolute;
                             margin-top:13vh;
                             margin-left:-4vw;
-                            height:12vh;
+                            height:15vh;
                             width:50vw;
                             z-index:-1;
                         }
@@ -3489,7 +3489,7 @@ h4{
                             position: absolute;
                             margin-top:13vh;
                             margin-left:44vw;
-                            height:12vh;
+                            height:15vh;
                             width:50vw;
                             z-index:-1;
                         }
@@ -3499,7 +3499,7 @@ h4{
                             position: absolute;
                             margin-top:45vh;
                             margin-left:3vw;
-                            height:12vh;
+                            height:15vh;
                             width:53vw;
                             z-index:-1;
                         }
@@ -3508,7 +3508,7 @@ h4{
                             position: absolute;
                             margin-top:57vh !important;
                             margin-left:36vw;
-                            height:12vh;
+                            height:15vh;
                             width:50vw;
                             z-index:-1;
                         }
@@ -3693,7 +3693,7 @@ h4{
                          }
                          #footerLogo{
                             position: absolute;
-                            margin-top:4vh;
+                            margin-top:2vh;
                             margin-left:15vw;
                             font-size: 2.5rem;
                             font-family: 'Italianno', cursive;
