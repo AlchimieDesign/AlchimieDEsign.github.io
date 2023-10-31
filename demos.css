@@ -866,7 +866,7 @@ li{
                   .nav-link{
                    
                     margin-left:10vw;
-                   padding:20% 4% 0% 4%;
+                   padding:0% 4% 0% 4%;
                     color:#242424;
                     font-size:1.40rem;
                     font-weight: lighter;
@@ -875,15 +875,22 @@ li{
 
                   #linkOne{
                     position: absolute;
-                    margin-top:-42vh;
+                    margin-top:-5vh !important;
                     margin-left:3vw;
+                   
+                  }
+
+                  #linkTwo{
+                    position: absolute;
+                    margin-top:-5vh !important;
+                    margin-left:15vw;
                    
                   }
 
                   #booking{
                     position: absolute;
-                    margin-top:0vh;
-                    margin-left:50vw;
+                    margin-top:-5vh;
+                    margin-left:80vw;
                  
                      font-size:1.5rem;
                     
@@ -896,6 +903,10 @@ li{
                     
                      color:#535252 !important;
                     
+                  }
+
+                  #mobileLogo{
+                    display:none;
                   }
     
                   #miniNav{
@@ -910,7 +921,7 @@ li{
 
                   h1{
                     position: absolute;
-                    margin-top:-9vh !important;
+                    margin-top:-4vh !important;
                     margin-left:30vw !important;
                     font-size:4rem;
                     font-weight: lighter;
@@ -1090,6 +1101,10 @@ li{
                 margin-top:43vh;
                 margin-left:23vw;
                 font-size:25px;
+            }
+
+            #mobile{
+                display:none;
             }
 
             #contact{
