@@ -2910,9 +2910,7 @@ font-size: 15px !important;
 /* Staring with 700 desktop first , place mobile above it*/
 
     @media screen and (min-width:621px) and (max-width:730px){
-        body{
-            background-color: #588d8f;
-        }
+       
        
         #dskNav{
          
@@ -2921,7 +2919,7 @@ font-size: 15px !important;
                 
                 #mainNav{
                     position: absolute;
-                    margin-top:-2vh;
+                    margin-top:-5vh;
                     padding:2%;
                     background-color: #ffffff7e;
                     width:100vw;
@@ -2947,22 +2945,22 @@ font-size: 15px !important;
 
                   #linkOne{
                     position: absolute;
-                    margin-top:-5vh !important;
-                    margin-left:3vw;
+                    margin-top:1vh !important;
+                    margin-left:-4vw;
                    
                   }
 
                   #linkTwo{
                     position: absolute;
-                    margin-top:-5vh !important;
-                    margin-left:15vw;
+                    margin-top:1vh !important;
+                    margin-left:7vw;
                    
                   }
 
                   #booking{
                     position: absolute;
-                    margin-top:-5vh;
-                    margin-left:70vw;
+                    margin-top:1vh;
+                    margin-left:62vw;
                  
                      font-size:1.5rem;
                     
@@ -2970,7 +2968,7 @@ font-size: 15px !important;
                      border-width: 1px;
                      border-color:#636161;
                      border-style:solid;
-                     border-radius: 25px;
+                     border-radius: 22px;
                      font-family: 'Italianno', cursive;
                     
                      color:#535252 !important;
@@ -2993,9 +2991,9 @@ font-size: 15px !important;
 
                   h1{
                     position: absolute;
-                    margin-top:-4vh !important;
-                    margin-left:30vw !important;
-                    font-size:4rem;
+                    margin-top:-2vh !important;
+                    margin-left:35vw !important;
+                    font-size:1.6rem;
                     font-weight: lighter;
                    font-family: 'Italianno', cursive;
                     color:rgb(105, 103, 103);
@@ -3037,13 +3035,13 @@ font-size: 15px !important;
                     .prev, .next {
                         cursor: pointer;
                         position: absolute;
-                        top: 100vh;
+                        top: 70vh;
                         width: 20px;
                         margin-top: -50vh;
-                        padding: 1% 1% 1% 1%;
+                        padding: 1% 1% 1% 3%;
                         color: rgb(248, 246, 246);
                         font-weight: bold;
-                        font-size: 30px;
+                        font-size: 10px;
                         transition: 0.6s ease;
                         border-radius: 0 3px 3px 0;
                         user-select: none;
@@ -3053,7 +3051,7 @@ font-size: 15px !important;
                       /* Position the "next button" to the right */
                       .next {
                         background-color:#363434;
-                        right:6vw;
+                        right:1vw;
                         border-radius: 100%;
 
                        
@@ -3061,7 +3059,7 @@ font-size: 15px !important;
                       .prev{
                         background-color:#363434;
                         
-                        left: 5vw;
+                        left: 1vw;
                         border-radius: 100%;
                       }
                       /* On hover, add a black background color with a little bit see-through */
@@ -3097,45 +3095,34 @@ font-size: 15px !important;
                
             .lgImg{
                 position: absolute;
-                margin-top:23vh;
-                margin-left:17vw;
-                height:57vh;
-                width:44vw;
+                margin-top:17vh;
+                margin-left:13vw;
+                height:20vh;
+                width:50vw;
                
             }
 
             .smImg{
                 position: absolute;
-                margin-top:23vh;
-                margin-left:70vw;
-                height:20vh;
-                width:6vw;
+                margin-top:12vh;
+                margin-left:68vw;
+                height:30vh;
+                width:16vw;
                 
 
             }
 
-            #img1{
-                margin-left:20vw;
-                height:57vh;
-                width:44vw;
-               
-            }
-
-            #img2{
-                margin-left:70vw;
-                height:55vh;
-                width:13vw;
-            }
+           
             .underlay{
                 height:20vh;
                 width:40vw;
             }
 
             #sliderColor{
-                margin-top:-80vh;
-                margin-left:15vw;
-                height:65vh;
-                width:70vw;
+                margin-top:-90vh;
+                margin-left:10vw;
+                height:35vh;
+                width:80vw;
                 background-color: #d6d6d6;
                 border-radius: 25px;
 
@@ -3144,8 +3131,8 @@ font-size: 15px !important;
             h2{
 
                 position: absolute;
-                margin-top:16vh !important;
-                margin-left:36vw !important;
+                margin-top:3vh !important;
+                margin-left:25vw !important;
                 font-size:5rem;
                 font-weight: lighter;
                font-family: 'Italianno', cursive;
@@ -3156,22 +3143,22 @@ font-size: 15px !important;
             
 
             .sectionText{
-                width:60vw;
+                width:80vw;
                 font-size:25px;
             }
 
             #about1{
                 position: absolute;
-                margin-top:33vh;
-                margin-left:23vw;
+                margin-top:17vh;
+                margin-left:10vw;
                 font-size:25px;
             }
 
 
             #about2{
                 position: absolute;
-                margin-top:43vh;
-                margin-left:23vw;
+                margin-top:28vh;
+                margin-left:10vw;
                 font-size:25px;
             }
 
@@ -3181,11 +3168,11 @@ font-size: 15px !important;
 
             #contact{
                 position: absolute;
-                margin-top:54vh !important;
-                margin-left:43vw;
+                margin-top:41vh !important;
+                margin-left:32vw;
                 font-size:1rem;
 
-                padding:0% 4% 0% 4%; 
+                padding:1% 9% 1% 9%; 
                 border-radius: 25px;         
              border-width: 1px;
              border-color:#636161;
@@ -3196,8 +3183,8 @@ font-size: 15px !important;
 
             #offers{
 
-                margin-top:40vh;
-                margin-left:25vw;
+                margin-top:30vh;
+                margin-left:24vw;
                 width:50vw;
               
             }
@@ -3207,9 +3194,9 @@ font-size: 15px !important;
 
 h3{
 position: absolute;
-margin-top:5vh !important;
+margin-top:-10vh !important;
 margin-left:18vw !important;
-font-size:5rem;
+font-size:4rem;
 font-weight: lighter;
 font-family: 'Italianno', cursive;
 color:rgb(78, 71, 71);
@@ -3217,45 +3204,42 @@ color:rgb(78, 71, 71);
 
 .itemHeader{
 margin-top:100vh;
-margin-left:20vw;
+margin-left:10vw;
 
 }
 
 .itemText{
     
     margin-left:10vw;
-    width:40vw;
+    width:70vw;
     font-size:25px;
     
     }
 
     #offerHeader{
         position:relative;
-        margin-top:600px !important;
+        margin-top:50vh !important;
+        margin-left:14vw !important;
     }
     
     #itemTextOne{
         
-        margin-top:6vh !important;
-        margin-left:5vw;
+        margin-top:2vh !important;
+        margin-left:-10vw;
     }
     
     #itemTextTwo{
-        margin-top:9vh;
-        margin-left:11vw;
+        margin-top:4vh;
+        margin-left:-4vw;
     }
     
     #itemTextThree{
-        margin-top:9vh;
-        margin-left:15vw;
+        margin-top:4vh;
+        margin-left:4vw;
         
     }
     
-    #itemTextFour{
-        margin-top:9vh;
-        margin-left:10vw;
-        
-    }
+   
     
 
             #footer{
@@ -3282,7 +3266,7 @@ margin-left:20vw;
                #footerLogo{
                   position: absolute;
                   margin-top:5vh;
-                  margin-left:35vw !important;
+                  margin-left:23vw !important;
                  font-size:65px;
                   font-family: 'Italianno', cursive;
                   font-weight: lighter;
@@ -3294,9 +3278,10 @@ margin-left:20vw;
             
             }
 
-            @media screen and (min-width:731px){
-              
-               
+
+            @media screen and (min-width:731px) and (max-width:800px){
+       
+       
                 #dskNav{
                  
                     margin-left:0vw !important;
@@ -3304,7 +3289,7 @@ margin-left:20vw;
                         
                         #mainNav{
                             position: absolute;
-                            margin-top:-2vh;
+                            margin-top:-5vh;
                             padding:2%;
                             background-color: #ffffff7e;
                             width:100vw;
@@ -3330,21 +3315,394 @@ margin-left:20vw;
         
                           #linkOne{
                             position: absolute;
-                            margin-top:-5vh !important;
-                            margin-left:3vw;
+                            margin-top:1vh !important;
+                            margin-left:-4vw;
                            
                           }
         
                           #linkTwo{
                             position: absolute;
-                            margin-top:-5vh !important;
-                            margin-left:15vw;
+                            margin-top:1vh !important;
+                            margin-left:7vw;
                            
                           }
         
                           #booking{
                             position: absolute;
-                            margin-top:-5vh;
+                            margin-top:1vh;
+                            margin-left:67vw;
+                         
+                             font-size:1.5rem;
+                            
+                                padding:0% 3% 0% 3%;          
+                             border-width: 1px;
+                             border-color:#636161;
+                             border-style:solid;
+                             border-radius: 22px;
+                             font-family: 'Italianno', cursive;
+                            
+                             color:#535252 !important;
+                            
+                          }
+        
+                          #mobileLogo{
+                            display:none;
+                          }
+            
+                          #miniNav{
+                            display:none;
+                          }
+            
+                          #mainNav{
+                            display:inline-block;
+                            font-size:0.50rem;
+                            color:#302e2e;
+                          }
+        
+                          h1{
+                            position: absolute;
+                            margin-top:-4vh !important;
+                            margin-left:30vw !important;
+                            font-size:3rem;
+                            font-weight: lighter;
+                           font-family: 'Italianno', cursive;
+                            color:rgb(105, 103, 103);
+                           
+                        }
+                        #mobileTitle{
+                            margin-top:30vh;
+                        }
+        
+                        .sliderContainer{
+                           position: relative;
+                            margin-top:10vh;
+                            
+                            height:100vh;
+                                width:100vw;
+                                height:100vh;
+                               
+                        }
+            
+                            .contentContainer{
+                              
+                                width:20vw;
+                                height:10vh;
+                            
+                            }
+        
+                            .mySlides{
+                                height:5vh;
+                            }
+                            
+                            .sampleImg{
+                                
+                                display:flex;
+                                padding:4%;
+                                width:10vw;
+                                height:120px;
+                            }
+                            
+                            .prev, .next {
+                                cursor: pointer;
+                                position: absolute;
+                                top: 70vh;
+                                width: 20px;
+                                margin-top: -50vh;
+                                padding: 1% 1% 1% 3%;
+                                color: rgb(248, 246, 246);
+                                font-weight: bold;
+                                font-size: 10px;
+                                transition: 0.6s ease;
+                                border-radius: 0 3px 3px 0;
+                                user-select: none;
+                                z-index:1;
+                              }
+                              
+                              /* Position the "next button" to the right */
+                              .next {
+                                background-color:#363434;
+                                right:1vw;
+                                border-radius: 100%;
+        
+                               
+                              }
+                              .prev{
+                                background-color:#363434;
+                                
+                                left: 1vw;
+                                border-radius: 100%;
+                              }
+                              /* On hover, add a black background color with a little bit see-through */
+                              .prev:hover, .next:hover {
+                                background-color: rgba(0,0,0,0.8);
+                              }
+                              
+                              
+                              /* Fading animation */
+                              .fade {
+                                animation-name: fade;
+                                animation-duration: 1.5s;
+                              }
+                              
+                              @keyframes fade {
+                                from {opacity: .4}
+                                to {opacity: 1}
+                              }
+                            
+        
+                       
+                        
+                             
+        
+                         
+        
+        
+                .sliderContainer{
+                    margin-top:5vh;
+                }
+        
+        
+                       
+                    .lgImg{
+                        position: absolute;
+                        margin-top:17vh;
+                        margin-left:13vw;
+                        height:20vh;
+                        width:50vw;
+                       
+                    }
+        
+                    .smImg{
+                        position: absolute;
+                        margin-top:12vh;
+                        margin-left:68vw;
+                        height:30vh;
+                        width:16vw;
+                        
+        
+                    }
+        
+                   
+                    .underlay{
+                        height:20vh;
+                        width:40vw;
+                    }
+        
+                    #sliderColor{
+                        margin-top:-90vh;
+                        margin-left:10vw;
+                        height:35vh;
+                        width:80vw;
+                        background-color: #d6d6d6;
+                        border-radius: 25px;
+        
+                    }
+        
+                    h2{
+        
+                        position: absolute;
+                        margin-top:3vh !important;
+                        margin-left:25vw !important;
+                        font-size:5rem;
+                        font-weight: lighter;
+                       font-family: 'Italianno', cursive;
+                        color:rgb(78, 71, 71);
+        
+                    }
+        
+                    
+        
+                    .sectionText{
+                        width:80vw;
+                        font-size:25px;
+                    }
+        
+                    #about1{
+                        position: absolute;
+                        margin-top:17vh;
+                        margin-left:10vw;
+                        font-size:25px;
+                    }
+        
+        
+                    #about2{
+                        position: absolute;
+                        margin-top:28vh;
+                        margin-left:10vw;
+                        font-size:25px;
+                    }
+        
+                    #mobile{
+                        display:none;
+                    }
+        
+                    #contact{
+                        position: absolute;
+                        margin-top:41vh !important;
+                        margin-left:32vw;
+                        font-size:1rem;
+        
+                        padding:1% 9% 1% 9%; 
+                        border-radius: 25px;         
+                     border-width: 1px;
+                     border-color:#636161;
+                     border-style:solid;
+                     font-family: 'Italianno', cursive;
+                     color:#3d3d3d !important;
+                    }
+        
+                    #offers{
+        
+                        margin-top:30vh;
+                        margin-left:24vw;
+                        width:50vw;
+                      
+                    }
+        
+                   
+                   
+        
+        h3{
+        position: absolute;
+        margin-top:-10vh !important;
+        margin-left:18vw !important;
+        font-size:4rem;
+        font-weight: lighter;
+        font-family: 'Italianno', cursive;
+        color:rgb(78, 71, 71);
+        }
+        
+        .itemHeader{
+        margin-top:100vh;
+        margin-left:10vw;
+        
+        }
+        
+        .itemText{
+            
+            margin-left:10vw;
+            width:70vw;
+            font-size:25px;
+            
+            }
+        
+            #offerHeader{
+                position:relative;
+                margin-top:50vh !important;
+                margin-left:12vw !important;
+            }
+            
+            #itemTextOne{
+                
+                margin-top:2vh !important;
+                margin-left:-10vw;
+            }
+            
+            #itemTextTwo{
+                margin-top:4vh;
+                margin-left:-2vw;
+            }
+            
+            #itemTextThree{
+                margin-top:4vh;
+                margin-left:5vw;
+                
+            }
+            
+            #itemTextFour{
+                margin-top:9vh;
+                margin-left:10vw;
+                
+            }
+            
+        
+                    #footer{
+                        position: relative;
+                      margin-top:2000px;
+        
+                        height:27vh;
+                        background-color: #3a3a3a;
+                        color:#fff;
+                        margin-top:8vh !important;
+                    }
+        
+                    .footerNav{
+                        display:inline-block;
+                        padding:0% 4% 0% 4%;
+                        margin-top:2vh;
+                        margin-left:17vw;
+                         
+                          font-size:23px;
+                          color:rgb(212, 212, 212);
+                       }
+          
+                      
+                       #footerLogo{
+                          position: absolute;
+                          margin-top:5vh;
+                          margin-left:23vw !important;
+                         font-size:65px;
+                          font-family: 'Italianno', cursive;
+                          font-weight: lighter;
+                          color:white;
+                      
+                       }
+                        
+                        
+                    
+                    }
+
+            @media screen and (min-width:801px) and (max-width:900px){
+              
+               
+                #dskNav{
+                 
+                    margin-left:0vw !important;
+                }
+                        
+                        #mainNav{
+                            position: absolute;
+                            margin-top:-6vh;
+                            padding:2%;
+                            background-color: #ffffff7e;
+                            width:100vw;
+                            height:7vh;
+                        } 
+                        
+                        
+        
+                        a{
+                            color:#313131;
+                            font-weight: lighter;
+                          }
+            
+                          .nav-link{
+                           
+                            margin-left:10vw;
+                           padding:0% 4% 0% 4%;
+                            color:#242424;
+                            font-size:1.40rem;
+                            font-weight: lighter;
+            
+                          }
+        
+                          #linkOne{
+                            position: absolute;
+                            margin-top:2vh !important;
+                            margin-left:-4vw;
+                           
+                          }
+        
+                          #linkTwo{
+                            position: absolute;
+                            margin-top:2vh !important;
+                            margin-left:5vw;
+                           
+                          }
+        
+                          #booking{
+                            position: absolute;
+                            margin-top:2vh;
                             margin-left:70vw;
                          
                              font-size:1.5rem;
@@ -3377,7 +3735,7 @@ margin-left:20vw;
                           h1{
                             position: absolute;
                             margin-top:-4vh !important;
-                            margin-left:30vw !important;
+                            margin-left:27vw !important;
                             font-size:4rem;
                             font-weight: lighter;
                            font-family: 'Italianno', cursive;
@@ -3420,13 +3778,13 @@ margin-left:20vw;
                             .prev, .next {
                                 cursor: pointer;
                                 position: absolute;
-                                top: 100vh;
+                                top: 80vh;
                                 width: 20px;
                                 margin-top: -50vh;
                                 padding: 1% 1% 1% 1%;
                                 color: rgb(248, 246, 246);
                                 font-weight: bold;
-                                font-size: 30px;
+                                font-size: 20px;
                                 transition: 0.6s ease;
                                 border-radius: 0 3px 3px 0;
                                 user-select: none;
@@ -3480,44 +3838,33 @@ margin-left:20vw;
                        
                     .lgImg{
                         position: absolute;
-                        margin-top:23vh;
+                        margin-top:16vh;
                         margin-left:17vw;
-                        height:57vh;
-                        width:44vw;
+                        height:30vh;
+                        width:45vw;
                        
                     }
         
                     .smImg{
                         position: absolute;
-                        margin-top:23vh;
-                        margin-left:70vw;
-                        height:20vh;
-                        width:6vw;
+                        margin-top:17vh;
+                        margin-left:67vw;
+                        height:30vh;
+                        width:16vw;
                         
         
                     }
         
-                    #img1{
-                        margin-left:20vw;
-                        height:57vh;
-                        width:44vw;
-                       
-                    }
-        
-                    #img2{
-                        margin-left:70vw;
-                        height:55vh;
-                        width:13vw;
-                    }
+                  
                     .underlay{
                         height:20vh;
                         width:40vw;
                     }
         
                     #sliderColor{
-                        margin-top:-80vh;
+                        margin-top:-89vh;
                         margin-left:15vw;
-                        height:65vh;
+                        height:45vh;
                         width:70vw;
                         background-color: #d6d6d6;
                         border-radius: 25px;
@@ -3527,8 +3874,8 @@ margin-left:20vw;
                     h2{
         
                         position: absolute;
-                        margin-top:16vh !important;
-                        margin-left:36vw !important;
+                        margin-top:3vh !important;
+                        margin-left:33vw !important;
                         font-size:5rem;
                         font-weight: lighter;
                        font-family: 'Italianno', cursive;
@@ -3545,7 +3892,7 @@ margin-left:20vw;
         
                     #about1{
                         position: absolute;
-                        margin-top:33vh;
+                        margin-top:15vh;
                         margin-left:23vw;
                         font-size:25px;
                     }
@@ -3553,7 +3900,7 @@ margin-left:20vw;
         
                     #about2{
                         position: absolute;
-                        margin-top:43vh;
+                        margin-top:25vh;
                         margin-left:23vw;
                         font-size:25px;
                     }
@@ -3564,7 +3911,7 @@ margin-left:20vw;
         
                     #contact{
                         position: absolute;
-                        margin-top:54vh !important;
+                        margin-top:40vh !important;
                         margin-left:43vw;
                         font-size:1rem;
         
@@ -3592,14 +3939,14 @@ margin-left:20vw;
         position: absolute;
         margin-top:5vh !important;
         margin-left:18vw !important;
-        font-size:5rem;
+        font-size:4rem;
         font-weight: lighter;
         font-family: 'Italianno', cursive;
         color:rgb(78, 71, 71);
         }
         
         .itemHeader{
-        margin-top:100vh;
+        margin-top:90vh;
         margin-left:20vw;
         
         }
@@ -3607,38 +3954,34 @@ margin-left:20vw;
         .itemText{
             
             margin-left:10vw;
-            width:40vw;
+            width:48vw;
             font-size:25px;
             
             }
         
             #offerHeader{
                 position:relative;
-                margin-top:600px !important;
+                margin-top:46vh !important;
             }
             
             #itemTextOne{
                 
-                margin-top:6vh !important;
+                margin-top:3vh !important;
                 margin-left:5vw;
             }
             
             #itemTextTwo{
-                margin-top:9vh;
-                margin-left:11vw;
+                margin-top:3vh;
+                margin-left:5vw;
             }
             
             #itemTextThree{
-                margin-top:9vh;
-                margin-left:15vw;
-                
-            }
-            
-            #itemTextFour{
-                margin-top:9vh;
+                margin-top:3vh;
                 margin-left:10vw;
                 
             }
+            
+           
             
         
                     #footer{
@@ -3665,7 +4008,7 @@ margin-left:20vw;
                        #footerLogo{
                           position: absolute;
                           margin-top:5vh;
-                          margin-left:35vw !important;
+                          margin-left:30vw !important;
                          font-size:65px;
                           font-family: 'Italianno', cursive;
                           font-weight: lighter;
@@ -3676,3 +4019,372 @@ margin-left:20vw;
                         
                     
                     }
+
+
+            @media screen and (min-width:901px) {
+               
+                  #dskNav{
+                   
+                      margin-left:0vw !important;
+                  }
+                          
+                          #mainNav{
+                              position: absolute;
+                              margin-top:-5vh;
+                              padding:2%;
+                              background-color: #ffffff7e;
+                              width:100vw;
+                              height:5vh;
+                          } 
+                          
+                          
+          
+                          a{
+                              color:#313131;
+                              font-weight: lighter;
+                            }
+              
+                            .nav-link{
+                             
+                              margin-left:10vw;
+                             padding:0% 4% 0% 4%;
+                              color:#242424;
+                              font-size:1.8rem;
+                              font-weight: lighter;
+              
+                            }
+          
+                            #linkOne{
+                              position: absolute;
+                              margin-top:1vh !important;
+                              margin-left:-3vw;
+                             
+                            }
+          
+                            #linkTwo{
+                              position: absolute;
+                              margin-top:1vh !important;
+                              margin-left:7vw;
+                             
+                            }
+          
+                            #booking{
+                              position: absolute;
+                              margin-top:1vh;
+                              margin-left:70vw;
+                           
+                               font-size:1.5rem;
+                              
+                                  padding:0% 3% 0% 3%;          
+                               border-width: 1px;
+                               border-color:#636161;
+                               border-style:solid;
+                               border-radius: 25px;
+                               font-family: 'Italianno', cursive;
+                              
+                               color:#535252 !important;
+                              
+                            }
+          
+                            #mobileLogo{
+                              display:none;
+                            }
+              
+                            #miniNav{
+                              display:none;
+                            }
+              
+                            #mainNav{
+                              display:inline-block;
+                              font-size:0.50rem;
+                              color:#302e2e;
+                            }
+          
+                            h1{
+                              position: absolute;
+                              margin-top:-4vh !important;
+                              margin-left:30vw !important;
+                              font-size:4rem;
+                              font-weight: lighter;
+                             font-family: 'Italianno', cursive;
+                              color:rgb(105, 103, 103);
+                             
+                          }
+                          #mobileTitle{
+                              margin-top:30vh;
+                          }
+          
+                          .sliderContainer{
+                             position: relative;
+                              margin-top:10vh;
+                              
+                              height:100vh;
+                                  width:100vw;
+                                  height:100vh;
+                                 
+                          }
+              
+                              .contentContainer{
+                                
+                                  width:20vw;
+                                  height:10vh;
+                              
+                              }
+          
+                              .mySlides{
+                                  height:5vh;
+                              }
+                              
+                              .sampleImg{
+                                  
+                                  display:flex;
+                                  padding:4%;
+                                  width:10vw;
+                                  height:120px;
+                              }
+                              
+                              .prev, .next {
+                                  cursor: pointer;
+                                  position: absolute;
+                                  top: 80vh;
+                                  width: 20px;
+                                  margin-top: -50vh;
+                                  padding: 1% 1% 1% 2%;
+                                  color: rgb(248, 246, 246);
+                                  font-weight: bold;
+                                  font-size: 17px;
+                                  transition: 0.6s ease;
+                                  border-radius: 0 3px 3px 0;
+                                  user-select: none;
+                                  z-index:1;
+                                }
+                                
+                                /* Position the "next button" to the right */
+                                .next {
+                                  background-color:#363434;
+                                  right:6vw;
+                                  border-radius: 100%;
+          
+                                 
+                                }
+                                .prev{
+                                  background-color:#363434;
+                                  
+                                  left: 5vw;
+                                  border-radius: 100%;
+                                }
+                                /* On hover, add a black background color with a little bit see-through */
+                                .prev:hover, .next:hover {
+                                  background-color: rgba(0,0,0,0.8);
+                                }
+                                
+                                
+                                /* Fading animation */
+                                .fade {
+                                  animation-name: fade;
+                                  animation-duration: 1.5s;
+                                }
+                                
+                                @keyframes fade {
+                                  from {opacity: .4}
+                                  to {opacity: 1}
+                                }
+                              
+          
+                         
+                          
+                               
+          
+                           
+          
+          
+                  .sliderContainer{
+                      margin-top:5vh;
+                  }
+          
+          
+                         
+                      .lgImg{
+                          position: absolute;
+                          margin-top:16vh;
+                          margin-left:17vw;
+                          height:27vh;
+                          width:44vw;
+                         
+                      }
+          
+                      .smImg{
+                          position: absolute;
+                          margin-top:10vh;
+                          margin-left:65vw;
+                          height:40vh;
+                          width:15vw;
+                          
+          
+                      }
+          
+                   
+                      .underlay{
+                          height:20vh;
+                          width:40vw;
+                      }
+          
+                      #sliderColor{
+                          margin-top:-92vh;
+                          margin-left:15vw;
+                          height:45vh;
+                          width:70vw;
+                          background-color: #d6d6d6;
+                          border-radius: 25px;
+          
+                      }
+          
+                      h2{
+          
+                          position: absolute;
+                          margin-top:2vh !important;
+                          margin-left:35vw !important;
+                          font-size:5.8rem;
+                          font-weight: lighter;
+                         font-family: 'Italianno', cursive;
+                          color:rgb(78, 71, 71);
+          
+                      }
+          
+                      
+          
+                      .sectionText{
+                          width:60vw;
+                          font-size:25px;
+                      }
+          
+                      #about1{
+                          position: absolute;
+                          margin-top:16vh;
+                          margin-left:23vw;
+                          font-size:25px;
+                      }
+          
+          
+                      #about2{
+                          position: absolute;
+                          margin-top:26vh;
+                          margin-left:23vw;
+                          font-size:25px;
+                      }
+          
+                      #mobile{
+                          display:none;
+                      }
+          
+                      #contact{
+                          position: absolute;
+                          margin-top:40vh !important;
+                          margin-left:36vw;
+                          font-size:1rem;
+          
+                          padding:1% 10% 1% 10%; 
+                          border-radius: 25px;         
+                       border-width: 1px;
+                       border-color:#636161;
+                       border-style:solid;
+                       font-family: 'Italianno', cursive;
+                       color:#3d3d3d !important;
+                      }
+          
+                      #offers{
+          
+                          margin-top:30vh;
+                          margin-left:25vw;
+                          width:50vw;
+                        
+                      }
+          
+                     
+                     
+          
+          h3{
+          position: absolute;
+          margin-top:-10vh !important;
+          margin-left:18vw !important;
+          font-size:4rem;
+          font-weight: lighter;
+          font-family: 'Italianno', cursive;
+          color:rgb(78, 71, 71);
+          }
+          
+          .itemHeader{
+          margin-top:100vh;
+          margin-left:20vw;
+          
+          }
+          
+          .itemText{
+              
+              margin-left:10vw;
+              width:50vw;
+              font-size:25px;
+              
+              }
+          
+              #offerHeader{
+                  position:relative;
+                  margin-top:45vh !important;
+                  margin-left:20vw !important;
+              }
+              
+              #itemTextOne{
+                  
+                  margin-top:1vh !important;
+                  margin-left:3vw;
+              }
+              
+              #itemTextTwo{
+                  margin-top:3vh;
+                  margin-left:5vw;
+              }
+              
+              #itemTextThree{
+                  margin-top:3vh;
+                  margin-left:8vw;
+                  
+              }
+              
+            
+              
+          
+                      #footer{
+                          position: relative;
+                        margin-top:2000px;
+          
+                          height:27vh;
+                          background-color: #3a3a3a;
+                          color:#fff;
+                          margin-top:8vh !important;
+                      }
+          
+                      .footerNav{
+                          display:inline-block;
+                          padding:0% 4% 0% 4%;
+                          margin-top:2vh;
+                          margin-left:17vw;
+                           
+                            font-size:23px;
+                            color:rgb(212, 212, 212);
+                         }
+            
+                        
+                         #footerLogo{
+                            position: absolute;
+                            margin-top:5vh;
+                            margin-left:34vw !important;
+                           font-size:65px;
+                            font-family: 'Italianno', cursive;
+                            font-weight: lighter;
+                            color:white;
+                        
+                         }
+                          
+                          
+                      
+                      }
