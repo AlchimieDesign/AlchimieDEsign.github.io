@@ -1397,7 +1397,7 @@ font-size: 15px !important;
     
                 #about1{
                     position: absolute;
-                    margin-top:13vh;
+                    margin-top:8vh;
                     margin-left:3vw;
                     font-size:20px;
                     width:95vw;
@@ -1406,7 +1406,7 @@ font-size: 15px !important;
     
                 #about2{
                     position: absolute;
-                    margin-top:27vh;
+                    margin-top:21vh;
                     margin-left:3vw;
                     font-size:20px;
                     width:95vw;
@@ -1418,7 +1418,7 @@ font-size: 15px !important;
     
                 #contact{
                     position: absolute;
-                    margin-top:40vh !important;
+                    margin-top:37vh !important;
                     margin-left:33vw;
                     font-size:1rem;
     
@@ -1433,7 +1433,7 @@ font-size: 15px !important;
     
                 #offers{
     
-                    margin-top:50vh;
+                    margin-top:45vh;
                     margin-left:23vw;
                     width:50vw;
                   
@@ -1476,7 +1476,7 @@ font-size: 15px !important;
     #itemTextTwo{
        
         margin-top:3vh;
-        margin-left:-13vw;
+        margin-left:-15vw;
         width:90vw;
     }
     
@@ -1515,7 +1515,7 @@ font-size: 15px !important;
                    #footerLogo{
                       position: absolute;
                       margin-top:5vh;
-                      margin-left:15vw !important;
+                      margin-left:13vw !important;
                      font-size:2.4rem;
                       font-family: 'Italianno', cursive;
                       font-weight: lighter;
@@ -1831,7 +1831,7 @@ font-size: 15px !important;
             
                             position: absolute;
                             margin-top:3vh !important;
-                            margin-left:24vw !important;
+                            margin-left:18vw !important;
                             font-size:3rem;
                             font-weight: lighter;
                            font-family: 'Italianno', cursive;
@@ -1852,16 +1852,16 @@ font-size: 15px !important;
                             position: absolute;
                             margin-top:10vh;
                             margin-left:3vw;
-                            font-size:20px;
+                            font-size:18px;
                             width:95vw;
                         }
             
             
                         #about2{
                             position: absolute;
-                            margin-top:21vh;
+                            margin-top:20vh;
                             margin-left:3vw;
-                            font-size:20px;
+                            font-size:18px;
                             width:95vw;
                         }
             
@@ -1931,7 +1931,7 @@ font-size: 15px !important;
             #itemTextTwo{
                
                 margin-top:5vh;
-                margin-left:10vw;
+                margin-left:7vw;
                 width:90vw;
             }
             
@@ -1970,7 +1970,7 @@ font-size: 15px !important;
                            #footerLogo{
                               position: absolute;
                               margin-top:5vh;
-                              margin-left:22vw !important;
+                              margin-left:18vw !important;
                              font-size:2.5rem;
                               font-family: 'Italianno', cursive;
                               font-weight: lighter;
@@ -2314,7 +2314,7 @@ font-size: 15px !important;
                                 margin-top:10vh;
                                 margin-left:9vw;
                                 font-size:20px;
-                                width:80vw;
+                                width:87vw;
                             }
                 
                 
@@ -2323,7 +2323,7 @@ font-size: 15px !important;
                                 margin-top:21vh;
                                 margin-left:9vw;
                                 font-size:20px;
-                                width:80vw;
+                                width:87vw;
                             }
                 
                             #mobile{
@@ -2383,8 +2383,8 @@ font-size: 15px !important;
                 #itemTextOne{
                    padding-top: 20%;
                     margin-top:12vh !important;
-                    margin-left:-17vw;
-                    width:80vw;
+                    margin-left:-22vw;
+                    width:86vw;
                 }
                 
                 #itemTextTwo{
@@ -2772,7 +2772,7 @@ font-size: 15px !important;
                             
                                         #about2{
                                             position: absolute;
-                                            margin-top:19vh;
+                                            margin-top:21vh;
                                             margin-left:10vw;
                                             font-size:20px;
                                             width:85vw;
@@ -2877,7 +2877,7 @@ font-size: 15px !important;
                                             display:inline-block;
                                             padding:0% 2% 0% 2%;
                                             margin-top:2vh;
-                                            margin-left:16vw;
+                                            margin-left:14vw;
                                              
                                               font-size:23px;
                                               color:rgb(212, 212, 212);
@@ -2887,7 +2887,7 @@ font-size: 15px !important;
                                            #footerLogo{
                                               position: absolute;
                                               margin-top:5vh;
-                                              margin-left:23vw !important;
+                                              margin-left:18vw !important;
                                              font-size:3rem;
                                               font-family: 'Italianno', cursive;
                                               font-weight: lighter;
@@ -3220,7 +3220,7 @@ font-size: 15px !important;
             
 
             .sectionText{
-                width:80vw;
+                width:85vw;
                 font-size:25px;
             }
 
@@ -3228,15 +3228,15 @@ font-size: 15px !important;
                 position: absolute;
                 margin-top:12vh;
                 margin-left:10vw;
-                font-size:25px;
+                font-size:20px;
             }
 
 
             #about2{
                 position: absolute;
-                margin-top:25vh;
+                margin-top:20vh;
                 margin-left:10vw;
-                font-size:25px;
+                font-size:20px;
             }
 
             #mobile{
@@ -3245,8 +3245,8 @@ font-size: 15px !important;
 
             #contact{
                 position: absolute;
-                margin-top:41vh !important;
-                margin-left:32vw;
+                margin-top:35vh !important;
+                margin-left:35vw;
                 font-size:1rem;
 
                 padding:1% 9% 1% 9%; 
@@ -3272,7 +3272,7 @@ font-size: 15px !important;
 h3{
 position: absolute;
 margin-top:-10vh !important;
-margin-left:16vw !important;
+margin-left:18vw !important;
 font-size:4rem;
 font-weight: lighter;
 font-family: 'Italianno', cursive;
@@ -3289,14 +3289,14 @@ margin-left:10vw;
     
     margin-left:10vw;
     width:80vw;
-    font-size:25px;
+    font-size:20px;
     
     }
 
     #offerHeader{
         position:relative;
         margin-top:47vh !important;
-        margin-left:12vw !important;
+        margin-left:14vw !important;
     }
     
     #itemTextOne{
@@ -3312,7 +3312,7 @@ margin-left:10vw;
     
     #itemTextThree{
         margin-top:4vh;
-        margin-left:-2vw;
+        margin-left:1vw;
         
     }
     
@@ -3674,15 +3674,15 @@ margin-left:10vw;
                         position: absolute;
                         margin-top:13vh;
                         margin-left:10vw;
-                        font-size:25px;
+                        font-size:20px;
                     }
         
         
                     #about2{
                         position: absolute;
-                        margin-top:27vh;
+                        margin-top:22vh;
                         margin-left:10vw;
-                        font-size:25px;
+                        font-size:20px;
                     }
         
                     #mobile{
@@ -3691,7 +3691,7 @@ margin-left:10vw;
         
                     #contact{
                         position: absolute;
-                        margin-top:42vh !important;
+                        margin-top:38vh !important;
                         margin-left:34vw;
                         font-size:1rem;
         
@@ -4448,7 +4448,7 @@ margin-left:10vw;
                       .smImg{
                           position: absolute;
                           margin-top:10vh;
-                          margin-left:65vw;
+                          margin-left:70vw;
                           height:35vh;
                           width:15vw;
                           
@@ -4486,14 +4486,14 @@ margin-left:10vw;
                       
           
                       .sectionText{
-                          width:80vw;
+                          width:70vw;
                           font-size:25px;
                       }
           
                       #about1{
                           position: absolute;
                           margin-top:10vh;
-                          margin-left:10vw;
+                          margin-left:15vw;
                           font-size:25px;
                       }
           
@@ -4501,7 +4501,7 @@ margin-left:10vw;
                       #about2{
                           position: absolute;
                           margin-top:20vh;
-                          margin-left:10vw;
+                          margin-left:15vw;
                           font-size:25px;
                       }
           
@@ -4512,7 +4512,7 @@ margin-left:10vw;
                       #contact{
                           position: absolute;
                           margin-top:37vh !important;
-                          margin-left:30vw;
+                          margin-left:33vw;
                           font-size:1rem;
           
                           padding:1% 10% 1% 10%; 
@@ -4538,7 +4538,7 @@ margin-left:10vw;
           h3{
           position: absolute;
           margin-top:-10vh !important;
-          margin-left:18vw !important;
+          margin-left:20vw !important;
           font-size:4rem;
           font-weight: lighter;
           font-family: 'Italianno', cursive;
@@ -4562,7 +4562,7 @@ margin-left:10vw;
               #offerHeader{
                   position:relative;
                   margin-top:45vh !important;
-                  margin-left:13vw !important;
+                  margin-left:15vw !important;
               }
               
               #itemTextOne{
@@ -4652,7 +4652,7 @@ margin-left:10vw;
                                     margin-left:10vw;
                                    padding:0% 4% 0% 4%;
                                     color:#242424;
-                                    font-size:1.8rem;
+                                    font-size:2rem;
                                     font-weight: lighter;
                     
                                   }
@@ -4674,7 +4674,7 @@ margin-left:10vw;
                                   #booking{
                                     position: absolute;
                                     margin-top:1vh;
-                                    margin-left:67vw;
+                                    margin-left:73vw;
                                  
                                      font-size:1.3rem;
                                     
@@ -4707,7 +4707,7 @@ margin-left:10vw;
                                     position: absolute;
                                     margin-top:-3vh !important;
                                     margin-left:33vw !important;
-                                    font-size:2.6rem;
+                                    font-size:4rem;
                                     font-weight: lighter;
                                    font-family: 'Italianno', cursive;
                                     color:rgb(105, 103, 103);
@@ -4810,18 +4810,18 @@ margin-left:10vw;
                             .lgImg{
                                 position: absolute;
                                 margin-top:14vh;
-                                margin-left:13vw;
-                                height:25vh;
-                                width:48vw;
+                                margin-left:24vw;
+                                height:28vh;
+                                width:40vw;
                                
                             }
                 
                             .smImg{
                                 position: absolute;
-                                margin-top:10vh;
-                                margin-left:65vw;
-                                height:35vh;
-                                width:15vw;
+                                margin-top:13vh;
+                                margin-left:73vw;
+                                height:34vh;
+                                width:10vw;
                                 
                 
                             }
@@ -4834,9 +4834,9 @@ margin-left:10vw;
                 
                             #sliderColor{
                                 margin-top:-92vh;
-                                margin-left:6.4vw;
-                                height:40vh;
-                                width:86vw;
+                                margin-left:17vw;
+                                height:44vh;
+                                width:70vw;
                                 background-color: #d6d6d6;
                                 border-radius: 25px;
                 
@@ -4857,22 +4857,22 @@ margin-left:10vw;
                             
                 
                             .sectionText{
-                                width:80vw;
-                                font-size:25px;
+                                width:60vw;
+                                font-size:30px;
                             }
                 
                             #about1{
                                 position: absolute;
-                                margin-top:10vh;
-                                margin-left:10vw;
+                                margin-top:11vh;
+                                margin-left:20vw;
                                 font-size:25px;
                             }
                 
                 
                             #about2{
                                 position: absolute;
-                                margin-top:17vh;
-                                margin-left:10vw;
+                                margin-top:18vh;
+                                margin-left:20vw;
                                 font-size:25px;
                             }
                 
@@ -4925,8 +4925,8 @@ margin-left:10vw;
                 .itemText{
                     
                     margin-left:10vw;
-                    width:65vw;
-                    font-size:25px;
+                    width:56vw;
+                    font-size:32px;
                     
                     }
                 
@@ -4939,7 +4939,7 @@ margin-left:10vw;
                     #itemTextOne{
                         
                         margin-top:1vh !important;
-                        margin-left:-10vw;
+                        margin-left:-4vw;
                     }
                     
                     #itemTextTwo{
@@ -4980,8 +4980,8 @@ margin-left:10vw;
                                #footerLogo{
                                   position: absolute;
                                   margin-top:5vh;
-                                  margin-left:28vw !important;
-                                 font-size:65px;
+                                  margin-left:32vw !important;
+                                 font-size:4rem;
                                   font-family: 'Italianno', cursive;
                                   font-weight: lighter;
                                   color:white;
