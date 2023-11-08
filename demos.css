@@ -1094,146 +1094,148 @@ font-size: 15px !important;
              }
          
              nav{
-                 height:1vh;
-                 background-color: rgba(233, 233, 233, 0.534);
-             }
-             .navbar{
-                 background-color: #ffffff5e;
-               
-             }
-    
+                height:1vh;
+                background-color: rgba(233, 233, 233, 0.534);
+            }
+            .navbar{
+                background-color: #ffffff5e;
+              
+            }
+   
+           
+                    .nav-menu {
+                        position: fixed;
+                        left: -100%;
+                        top: 2rem;
+                        flex-direction: column;
+                        background-color: #ffffffd5 !important;
+                        height:100vh !important;
+                        width: 60vw;
+                        border-radius: 10px;
+                        text-align: center;
+                        transition: 0.3s;
+                        box-shadow:
+                            0 10px 27px rgba(0, 0, 0, 0.05);
+                            z-index:1 !important;
+                            font-weight: lighter;
+                    }
+                
+                    .nav-menu.active {
+                        left: 0;
+                    }
             
-                     .nav-menu {
-                         position: fixed;
-                         left: -100%;
-                         top: 1.9rem;
-                         flex-direction: column;
-                         background-color: #fff !important;
-                         height:30vh !important;
-                         width: 100vw;
-                         border-radius: 10px;
-                         text-align: center;
-                         transition: 0.3s;
-                         box-shadow:
-                             0 10px 27px rgba(0, 0, 0, 0.05);
-                             z-index:1 !important;
-                             font-weight: lighter;
-                     }
-                 
-                     .nav-menu.active {
-                         left: 0;
-                     }
-             
-                     .nav-item {
-                         margin: 2.5rem 0;
-                         margin-left:10vw;
-                         font-size: 2rem;
-                         font-weight: lighter !important;
-                     }
-                 
-                     .hamburger {
-                         display: block;
-                         cursor: pointer;
-                     }
-             .bar{
-                 background-color: #868686a8;
-             }
-                     .hamburger.active .bar:nth-child(2) {
-                         opacity: 0;
-                     }
-                 
-                     .hamburger.active .bar:nth-child(1) {
-                         transform: translateY(8px) rotate(45deg);
-                     }
-                 
-                     .hamburger.active .bar:nth-child(3) {
-                         transform: translateY(-8px) rotate(-45deg);
-                     }
-             .nav-logo-mobile{
-                 margin-left:39% !important;
-             }
-             
-             .nav-logo-mobile{
-                 height: 50vh !important;
-             }
-             
-             #nav-logo-desktop{
-                 display:none;
-             }
-                     #alchBrand{
-                         margin-top: -59% !important;
-                         margin-left:-9% !important;
-                         width:10% !important;
-                         height:10% !important;
-                        }
-     
-                        #bodycontact{
-                         margin-left:26vw;
-                        }
-             
-                     #homeLink{
-                         position: absolute;
-                         margin-top:-11vh;
-                         margin-left:-24vw !important;
-                         font-size: 2rem;
-                         font-weight: lighter;
-                         color:rgb(68, 68, 68);
-                     }
-             
-                     #aboutLink{
-                         position: absolute;
-                         margin-top:-13vh;
-                         margin-left:-23vw !important;
-                         font-size: 2rem;
-                         font-weight: lighter;
-                         color:rgb(68, 68, 68);
-                     }
-             
-                     #missionLink{
-                         position: absolute;
-                         margin-top:-14vh;
-                         margin-left:-23vw !important;
-                         font-size: 2rem;
-                         font-weight: lighter;
-                         color:rgb(68, 68, 68);
-                     }
-             
-                     #bookLink{
-                         margin-top:-17vh;
-                         margin-left:-38vw !important;
-                         font-size:1.50rem;
-                          padding:2% 10% 2% 10%;
-                           border-width: 1px;
-                           border-color:#636161;
-                           border-style:solid;
-                           font-family: 'Italianno', cursive;
-                           color:#3d3d3d !important;
-                          
-                         }
-                  
+                    .nav-item {
+                        margin: 2.5rem 0;
+                        margin-left:10vw;
+                        font-size: 2rem;
+                        font-weight: lighter !important;
+                    }
+                
+                    .hamburger {
+                        display: block;
+                        cursor: pointer;
+                    }
+            .bar{
+                background-color: #868686a8;
+            }
+                    .hamburger.active .bar:nth-child(2) {
+                        opacity: 0;
+                    }
+                
+                    .hamburger.active .bar:nth-child(1) {
+                        transform: translateY(8px) rotate(45deg);
+                    }
+                
+                    .hamburger.active .bar:nth-child(3) {
+                        transform: translateY(-8px) rotate(-45deg);
+                    }
+            .nav-logo-mobile{
+                margin-left:39% !important;
+            }
+            
+            .nav-logo-mobile{
+                height: 50vh !important;
+            }
+            
+            #nav-logo-desktop{
+                display:none;
+            }
+                    #alchBrand{
+                        margin-top: -59% !important;
+                        margin-left:-9% !important;
+                        width:10% !important;
+                        height:10% !important;
+                       }
+    
+                       #bodycontact{
+                        margin-left:26vw;
+                       }
+            
+                    #homeLink{
+                        position: absolute;
+                        margin-top:-23vh;
+                        margin-left:-20vw !important;
+                        font-size: 2.4rem;
+                        font-weight: lighter;
+                        color:rgb(68, 68, 68);
                         
-             
-                     #contactLink{
-                        display:none;
-             
-                     }
-             
-                     span{
-                         color:#475569;
-                     }
-             
-                 #alchDesignLogo{
-                     margin-top:-12vh !important;
-                 }
-         
-             .nav-logo-mobile{
-                 height: 50vh !important;
-             }
-             
-             #mainNav{
-                 display:none;
-             }
-         
+                    }
+            
+                    #aboutLink{
+                        position: absolute;
+                        margin-top:-36vh;
+                        margin-left:-20vw !important;
+                        font-size: 2.4rem;
+                        font-weight: lighter;
+                        color:rgb(68, 68, 68);
+                    }
+            
+                    #missionLink{
+                        position: absolute;
+                        margin-top:-50vh;
+                        margin-left:-22vw !important;
+                        font-size: 2.4rem;
+                        font-weight: lighter;
+                        color:rgb(68, 68, 68);
+                    }
+            
+                    #bookLink{
+                        margin-top:-65vh;
+                        margin-left:-27vw !important;
+                        font-size:1.50rem;
+                         padding:2% 6% 2% 6%;
+                          border-width: 1px;
+                          border-color:#636161;
+                          border-style:solid;
+                          font-family: 'Italianno', cursive;
+                          color:#3d3d3d !important;
+                         
+                        }
+                 
+                       
+            
+                    #contactLink{
+                       display:none;
+            
+                    }
+            
+                    span{
+                        color:#475569;
+                    }
+            
+                #alchDesignLogo{
+                    margin-top:-12vh !important;
+                }
+        
+            .nav-logo-mobile{
+                height: 50vh !important;
+            }
+            
+            #mainNav{
+                display:none;
+            }
+        
+           
             
     
                       h1{
