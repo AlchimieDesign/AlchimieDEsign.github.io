@@ -122,7 +122,7 @@ li{
 
 
 
-    @media screen and (min-width:50px) and (max-width:130px){
+    @media screen  and (max-width:130px){
         #addText{
             display:none;
          }
@@ -133,6 +133,10 @@ li{
         background-position: center;
         background-size: cover;
              
+         }
+
+         #mobileNavLinks{
+          display:none;
          }
      
          nav{
@@ -214,8 +218,8 @@ li{
       
               #homeLink{
                   position: absolute;
-                  margin-top:-11vh;
-                  margin-left:-45vw !important;
+                  margin-top:-10vh;
+                  margin-left:-55vw !important;
                   font-size: 1.3rem;
                   font-weight: lighter;
                   color:rgb(68, 68, 68);
@@ -223,7 +227,7 @@ li{
       
               #aboutLink{
                   position: absolute;
-                  margin-top:-16vh;
+                  margin-top:-15vh;
                   margin-left:-45vw !important;
                   font-size: 1.3rem;
                   font-weight: lighter;
@@ -233,7 +237,7 @@ li{
               #missionLink{
                   position: absolute;
                   margin-top:-20vh;
-                  margin-left:-50vw !important;
+                  margin-left:-60vw !important;
                   font-size: 1.3rem;
                   font-weight: lighter;
                   color:rgb(68, 68, 68);
@@ -241,7 +245,7 @@ li{
       
               #bookLink{
                   margin-top:-25vh;
-                  margin-left:-61vw !important;
+                  margin-left:-48vw !important;
                   font-size:.70rem;
                    padding:2% 10% 2% 10%;
                     border-width: 1px;
@@ -315,9 +319,7 @@ li{
          width:90%;
          height:120px;
      }
-     #smallText{
-        display:none;
-     }
+    
  
      #explore{
          margin-top:1vh !important;
@@ -427,7 +429,7 @@ li{
        #exploreLink{
         position: absolute;
         margin-top:-3vh !important;
-         margin-left:20vw;
+         margin-left:25vw;
          font-size:1rem;
         
             padding:2% 9% 2% 9%;          
@@ -534,7 +536,7 @@ li{
 
  
 
-@media screen and (min-width:131px) and (max-width:178px){
+@media screen and (min-width:131px) and (max-width:150px){
 
    
   
@@ -549,6 +551,9 @@ li{
    background-position: center;
    background-size: cover;
         
+    }
+    #miniNavLinks{
+      display:none;
     }
 
     nav{
@@ -640,7 +645,7 @@ li{
           #aboutLink{
               position: absolute;
               margin-top:-16vh;
-              margin-left:-45vw !important;
+              margin-left:-37vw !important;
               font-size: 1.3rem;
               font-weight: lighter;
               color:rgb(68, 68, 68);
@@ -648,7 +653,7 @@ li{
   
           #missionLink{
               position: absolute;
-              margin-top:-20vh;
+              margin-top:-21vh;
               margin-left:-50vw !important;
               font-size: 1.3rem;
               font-weight: lighter;
@@ -657,8 +662,8 @@ li{
   
           #bookLink{
               margin-top:-25vh;
-              margin-left:-61vw !important;
-              font-size:.70rem;
+              margin-left:-45vw !important;
+              font-size:1rem;
                padding:2% 10% 2% 10%;
                 border-width: 1px;
                 border-color:#636161;
@@ -690,23 +695,21 @@ li{
   #mainNav{
       display:none;
   }
+  #miniContent{
+    display:none;
+  }
 
- 
-  
-
-    
-
-    h1{
+ h1{
        
         position: absolute;
         margin-top:4.20vh !important;
-        margin-left:10vw !important;
+        margin-left:3vw !important;
         font-size:1.45rem;
         font-weight: lighter;
        font-family: 'Italianno', cursive;
-        color:rgb(255, 255, 255) !important;
+        color:rgb(37, 37, 37) !important;
         -webkit-text-stroke-width: 0.13px;
-        -webkit-text-stroke-color: rgb(85, 85, 85);
+        -webkit-text-stroke-color: rgb(248, 247, 247);
        
     }
 
@@ -940,7 +943,7 @@ h4{
 
 
 
-@media screen and (min-width:179px) and (max-width:220px){
+@media screen and (min-width:151px) and (max-width:190px){
    
 
     #smallText{
@@ -973,7 +976,7 @@ h4{
                 top: 3rem;
                 flex-direction: column;
                 background-color: #fff !important;
-                height:20vh !important;
+                height:25vh !important;
                 width: 100%;
                 border-radius: 10px;
                 text-align: center;
@@ -991,7 +994,7 @@ h4{
             .nav-item {
                 margin: 2.5rem 0;
                 margin-left:20vw;
-                font-size: 0.50rem;
+                font-size: 1rem;
                 font-weight: lighter !important;
             }
         
@@ -1038,8 +1041,8 @@ h4{
             #homeLink{
                 position: absolute;
                 margin-top:-11vh;
-                margin-left:-26vw !important;
-                font-size: 1rem;
+                margin-left:-36vw !important;
+                font-size: 1.5rem;
                 font-weight: lighter;
                 color:rgb(68, 68, 68);
             }
@@ -1048,25 +1051,25 @@ h4{
                 position: absolute;
                 margin-top:-16vh;
                 margin-left:-26vw !important;
-                font-size: 1rem;
+                font-size:1.5rem;
                 font-weight: lighter;
                 color:rgb(68, 68, 68);
             }
     
             #missionLink{
                 position: absolute;
-                margin-top:-20vh;
-                margin-left:-28vw !important;
-                font-size: 1rem;
+                margin-top:-21vh;
+                margin-left:-40vw !important;
+                font-size:1.5rem;
                 font-weight: lighter;
                 color:rgb(68, 68, 68);
             }
     
             #bookLink{
                 margin-top:-25vh;
-                margin-left:-42vw;
-                font-size:.70rem;
-                 padding:2% 10% 2% 10%;
+                margin-left:-32vw;
+                font-size:1rem;
+                 padding:1% 10% 1% 10%;
                   border-width: 1px;
                   border-color:#636161;
                   border-style:solid;
@@ -1103,8 +1106,8 @@ h4{
             h1{
                 position: absolute;
                 margin-top:7vh !important;
-                margin-left:3vw !important;
-                font-size:1.9rem;
+                margin-left:1vw !important;
+                font-size:2rem;
                 font-weight: lighter;
                font-family: 'Italianno', cursive;
                 color:rgb(99, 98, 98);
@@ -1149,7 +1152,7 @@ h4{
 
             
 #explore{
-    margin-top:65vh;
+    margin-top:58vh;
 }
 
 .sampleImg{
@@ -1163,7 +1166,7 @@ h4{
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 100vh;
+    top: 93vh;
     width: auto;
     margin-top: -22px;
     padding: 5px;
@@ -1238,7 +1241,7 @@ h4{
 
   #bodycontact{
     position: absolute;
-    margin-top:-300px !important;
+    margin-top:-500px !important;
     margin-left:23vw;
     padding:2% 8% 2% 8%;
     font-size:1.3rem;
@@ -1253,7 +1256,7 @@ h4{
 
   #exploreLink{
     position: absolute;
-    margin-top:-3vh !important;
+    margin-top:-28vh !important;
      margin-left:34vw;
      font-size:1rem;
     
@@ -1394,7 +1397,7 @@ h4{
             }
 
 
-            @media screen and (min-width:221px) and (max-width:259px){
+            @media screen and (min-width:191px) and (max-width:224px){
 
               
  
@@ -1428,7 +1431,7 @@ h4{
                             top: 3rem;
                             flex-direction: column;
                             background-color: #fff !important;
-                            height:20vh !important;
+                            height:25vh !important;
                             width: 100%;
                             border-radius: 10px;
                             text-align: center;
@@ -1493,35 +1496,35 @@ h4{
                         #homeLink{
                             position: absolute;
                             margin-top:-11vh;
-                            margin-left:-26vw !important;
-                            font-size: 1rem;
+                            margin-left:-35vw !important;
+                            font-size: 1.8rem;
                             font-weight: lighter;
                             color:rgb(68, 68, 68);
                         }
                 
                         #aboutLink{
                             position: absolute;
-                            margin-top:-16vh;
-                            margin-left:-26vw !important;
-                            font-size: 1rem;
+                            margin-top:-14vh;
+                            margin-left:-25vw !important;
+                            font-size: 1.8rem;
                             font-weight: lighter;
                             color:rgb(68, 68, 68);
                         }
                 
                         #missionLink{
                             position: absolute;
-                            margin-top:-20vh;
-                            margin-left:-28vw !important;
-                            font-size: 1rem;
+                            margin-top:-17vh;
+                            margin-left:-36vw !important;
+                            font-size: 1.8rem;
                             font-weight: lighter;
                             color:rgb(68, 68, 68);
                         }
                 
                         #bookLink{
-                            margin-top:-25vh;
-                            margin-left:-45vw;
+                            margin-top:-20vh;
+                            margin-left:-33vw;
                             font-size:.80rem !important;
-                             padding:2% 10% 2% 10%;
+                             padding:0% 15% 0% 15%;
                               border-width: 1px;
                               border-color:#636161;
                               border-style:solid;
@@ -1539,7 +1542,7 @@ h4{
                                 }
                         
                                 span{
-                                    color:#475569;
+                                    color:#4d4d4e;
                                 }
                         
                             #alchDesignLogo{
@@ -1557,12 +1560,12 @@ h4{
                         h1{
                             position: absolute;
                             margin-top:7vh !important;
-                            margin-left:7vw !important;
-                            font-size:1.90rem;
+                            margin-left:6vw !important;
+                            font-size:2rem;
                             font-weight: lighter;
                            font-family: 'Italianno', cursive;
-                            color:rgb(104, 101, 101);
-                            -webkit-text-stroke-width: 0.10px;
+                            color:rgba(53, 52, 52, 0.493);
+                            -webkit-text-stroke-width: 0.22px;
                 -webkit-text-stroke-color: rgb(255, 255, 255);
                            
                         }
@@ -1848,7 +1851,7 @@ h4{
             
                 }
 
-                @media screen and (min-width:224px) and (max-width:261px){
+                @media screen and (min-width:225px) and (max-width:261px){
 
                     #smallText{
                         display:none;
@@ -1956,7 +1959,7 @@ h4{
                                   #aboutLink{
                                       position: absolute;
                                       margin-top:-10vh;
-                                      margin-left:-43vw !important;
+                                      margin-left:-32vw !important;
                                       font-size: 2rem;
                                       font-weight: lighter;
                                       color:rgb(68, 68, 68);
@@ -1973,9 +1976,9 @@ h4{
                           
                                   #bookLink{
                                       margin-top:-12vh;
-                                      margin-left:-47vw !important;
-                                      font-size:1.2rem;
-                                       padding:3% 10% 3% 10%;
+                                      margin-left:-37vw !important;
+                                      font-size:1.6rem;
+                                       padding:0% 6% 0% 6%;
                                         border-width: 1px;
                                         border-color:#636161;
                                         border-style:solid;
@@ -2012,8 +2015,8 @@ h4{
                         
                             h1{
                                 position: absolute;
-                                margin-top:7vh !important;
-                                margin-left:11vw !important;
+                                margin-top:9vh !important;
+                                margin-left:10vw !important;
                                 font-size:2rem;
                                 font-weight: lighter;
                                font-family: 'Italianno', cursive;
@@ -2397,7 +2400,7 @@ h4{
                                           #homeLink{
                                               position: absolute;
                                               margin-top:-10vh;
-                                              margin-left:-43vw !important;
+                                              margin-left:-46vw !important;
                                               font-size: 2rem;
                                               font-weight: lighter;
                                               color:rgb(68, 68, 68);
@@ -2406,7 +2409,7 @@ h4{
                                           #aboutLink{
                                               position: absolute;
                                               margin-top:-10vh;
-                                              margin-left:-43vw !important;
+                                              margin-left:-35vw !important;
                                               font-size: 2rem;
                                               font-weight: lighter;
                                               color:rgb(68, 68, 68);
@@ -2415,17 +2418,17 @@ h4{
                                           #missionLink{
                                               position: absolute;
                                               margin-top:-10vh;
-                                              margin-left:-43vw !important;
+                                              margin-left:-49vw !important;
                                               font-size: 2rem;
                                               font-weight: lighter;
                                               color:rgb(68, 68, 68);
                                           }
                                   
                                           #bookLink{
-                                              margin-top:-10vh;
-                                              margin-left:-58vw !important;
+                                              margin-top:-12vh;
+                                              margin-left:-54vw !important;
                                               font-size:1.2rem;
-                                               padding:2% 10% 2% 10%;
+                                               padding:2% 25% 2% 25%;
                                                 border-width: 1px;
                                                 border-color:#636161;
                                                 border-style:solid;
@@ -2853,7 +2856,7 @@ h4{
                                                   #aboutLink{
                                                       position: absolute;
                                                       margin-top:-10vh;
-                                                      margin-left:-43vw !important;
+                                                      margin-left:-34vw !important;
                                                       font-size: 2rem;
                                                       font-weight: lighter;
                                                       color:rgb(68, 68, 68);
@@ -2869,10 +2872,10 @@ h4{
                                                   }
                                           
                                                   #bookLink{
-                                                      margin-top:-8vh;
-                                                      margin-left:-56vw !important;
+                                                      margin-top:-13vh;
+                                                      margin-left:-53vw !important;
                                                       font-size:1.2rem;
-                                                       padding:2% 10% 2% 10%;
+                                                       padding:2% 25% 2% 25%;
                                                         border-width: 1px;
                                                         border-color:#636161;
                                                         border-style:solid;
@@ -3248,7 +3251,7 @@ h4{
                       
                               .nav-item {
                                   margin: 2.5rem 0;
-                                  margin-left:10vw;
+                                  margin-left:-2vw;
                                   font-size: 2rem;
                                   font-weight: lighter !important;
                               }
@@ -3296,7 +3299,7 @@ h4{
                               #homeLink{
                                   position: absolute;
                                   margin-top:-23vh;
-                                  margin-left:-20vw !important;
+                                  margin-left:-18vw !important;
                                   font-size: 2.4rem;
                                   font-weight: lighter;
                                   color:rgb(68, 68, 68);
@@ -3305,8 +3308,8 @@ h4{
                       
                               #aboutLink{
                                   position: absolute;
-                                  margin-top:-36vh;
-                                  margin-left:-20vw !important;
+                                  margin-top:-39vh;
+                                  margin-left:-10vw !important;
                                   font-size: 2.4rem;
                                   font-weight: lighter;
                                   color:rgb(68, 68, 68);
@@ -3314,8 +3317,8 @@ h4{
                       
                               #missionLink{
                                   position: absolute;
-                                  margin-top:-50vh;
-                                  margin-left:-22vw !important;
+                                  margin-top:-54vh;
+                                  margin-left:-20vw !important;
                                   font-size: 2.4rem;
                                   font-weight: lighter;
                                   color:rgb(68, 68, 68);
@@ -3323,9 +3326,9 @@ h4{
                       
                               #bookLink{
                                   margin-top:-65vh;
-                                  margin-left:-27vw !important;
-                                  font-size:1.3rem;
-                                   padding:2% 6% 2% 6%;
+                                  margin-left:-15vw !important;
+                                  font-size:2rem;
+                                   padding:0% 12% 0% 12%;
                                     border-width: 1px;
                                     border-color:#636161;
                                     border-style:solid;
@@ -3362,8 +3365,8 @@ h4{
                         h1{
                             position: absolute;
                             margin-top:14vh !important;
-                            margin-left:12vw !important;
-                            font-size:3rem;
+                            margin-left:3vw !important;
+                            font-size:4rem;
                             font-weight: lighter;
                            font-family: 'Italianno', cursive;
                             color:rgb(99, 98, 98);
@@ -3487,7 +3490,7 @@ h4{
             .prev, .next {
                 cursor: pointer;
                 position: absolute;
-                top: 120vh;
+                top: 130vh;
                 width: auto;
                 margin-top: -22px;
                 padding: 5px;
@@ -4141,7 +4144,7 @@ h4{
 
                           
                                 #header{
-                                    height:58vh !important;
+                                    height:50vh !important;
                                background-image: url("img/smoke-show2.png");
                                background-repeat: no-repeat;
                                background-position: center;
@@ -4242,8 +4245,8 @@ h4{
                               
                                       #aboutLink{
                                           position: absolute;
-                                          margin-top:-36vh;
-                                          margin-left:-20vw !important;
+                                          margin-top:-38vh;
+                                          margin-left:-13vw !important;
                                           font-size: 2.4rem;
                                           font-weight: lighter;
                                           color:rgb(68, 68, 68);
@@ -4251,18 +4254,18 @@ h4{
                               
                                       #missionLink{
                                           position: absolute;
-                                          margin-top:-50vh;
-                                          margin-left:-22vw !important;
+                                          margin-top:-53vh;
+                                          margin-left:-21vw !important;
                                           font-size: 2.4rem;
                                           font-weight: lighter;
                                           color:rgb(68, 68, 68);
                                       }
                               
                                       #bookLink{
-                                          margin-top:-65vh;
-                                          margin-left:-27vw !important;
+                                          margin-top:-67vh;
+                                          margin-left:-20vw !important;
                                           font-size:1.50rem;
-                                           padding:2% 6% 2% 6%;
+                                           padding:0% 16% 0% 16%;
                                             border-width: 1px;
                                             border-color:#636161;
                                             border-style:solid;
@@ -4299,7 +4302,7 @@ h4{
                             
                                 h1{
                                     position: absolute;
-                                    margin-top:20vh !important;
+                                    margin-top:17vh !important;
                                     margin-left:7vw !important;
                                     font-size:3.8rem;
                                     font-weight: lighter;
@@ -4327,7 +4330,7 @@ h4{
                                     to { width: 100% }
                                   }
                                           #subTitle{
-                                           margin-top:28vh;
+                                           margin-top:24vh;
                                            margin-left:24vw;
                                            font-size:2rem;
                                             color:#616060 !important;
@@ -4336,10 +4339,10 @@ h4{
                             
                                           #aboutHeader{
                                             position: absolute;
-                                            margin-top:37vh !important;
-                                            margin-left:15vw !important;
-                                            width:76vw;
-                                            font-size:3rem;
+                                            margin-top:30vh !important;
+                                            margin-left:10vw !important;
+                                            width:80vw;
+                                            font-size:2.4rem;
                                             font-weight: lighter;
                                            font-family: 'Italianno', cursive;
                                             color:rgb(94, 92, 92);
@@ -4368,65 +4371,58 @@ h4{
                                         #img1{
                                             position: absolute;
                                             margin-top:1vh;
-                                            margin-left:16vw;
-                                            height:14vh !important;
-                                            width:60vw !important;
+                                            margin-left:21vw;
+                                            height:12vh !important;
+                                            width:55vw !important;
                                             z-index:-1;
                                         }
                                         
                                         #img2{
                                             position: absolute;
-                                            margin-top:15vh;
-                                            margin-left:6vw;
-                                            height:13vh !important;
-                                            width:45vw !important;
+                                            margin-top:13vh;
+                                            margin-left:-3vw;
+                                            height:12vh !important;
+                                            width:50vw !important;
                                             z-index:-1;
                                         }
                                         
                                         #img3{
                                             position: absolute;
-                                            margin-top:15vh;
-                                            margin-left:48vw;
-                                            height:13vh !important;
-                                            width:45vw !important;
+                                            margin-top:13vh;
+                                            margin-left:45vw;
+                                            height:12vh !important;
+                                            width:50vw !important;
                                             z-index:-1;
                                         }
         
                                         #img4{
                                             position: absolute;
-                                            margin-top:60vh;
-                                            margin-left:5vw;
-                                            height:13vh !important;
-                                            width:45vw !important;
+                                            margin-top:47vh;
+                                            margin-left:1vw;
+                                            height:12vh !important;
+                                            width:55vw !important;
                                             z-index:-1;
+                                           
                                         }
         
                                         #img5{
                                             position: absolute;
-                                            margin-top:65vh;
-                                            margin-left:40vw;
-                                            height:13vh !important;
-                                            width:45vw !important;
-                                            z-index:-1;
+                                            margin-top:55vh;
+                                            margin-left:37vw;
+                                            height:12vh !important;
+                                            width:55vw !important;
+                                           
+                                          
                                         }
         
-                                        #smallText{
-                                            position: absolute;
-                                            margin-top:83vh;
-                                            margin-left:12vw;
-                                            font-weight: lighter;
-                                            font-size:15px;
-                                           
-                                            color:rgb(94, 92, 92);
-                                           
-                                         }
+                                      
                             
                                         #explore{
                               position:absolute;
                                             height:20vh;
                                             width:50vw;
-                                            margin-top:110vh;
-                                            margin-left:28vw;
+                                            margin-top:85vh;
+                                            margin-left:24vw;
                                         }
         
                                         .mySlides{
@@ -4444,7 +4440,7 @@ h4{
                                         .prev, .next {
                                             cursor: pointer;
                                             position: absolute;
-                                            top: 65vh;
+                                            top: 59vh;
                                             width: auto;
                                             margin-top: -50vh;
                                             padding: 5px;
@@ -4535,11 +4531,11 @@ h4{
         
                                           #exploreLink{
                                             position: absolute;
-                                            margin-top:90vh !important;
-                                             margin-left:35vw;
+                                            margin-top:73vh !important;
+                                             margin-left:26vw;
                                              font-size:2rem;
                                             
-                                                padding:0% 9% 0% 9%;          
+                                                padding:0% 15% 0% 15%;          
                                              border-width: 1px;
                                              border-color:#636161;
                                              border-style:solid;
@@ -4584,10 +4580,10 @@ h4{
                                         }
                                         
                                         #addText{
-                                            margin-top:134vh;
+                                            margin-top:119vh;
                                             margin-left:10vw;
                                             width:90vw;
-                                            font-size:2rem;
+                                            font-size:2.4rem;
                                             font-weight: lighter;
                                            font-family: 'Italianno', cursive;
                                             color:rgb(94, 92, 92);
@@ -4638,7 +4634,7 @@ h4{
 
                           
                                         #header{
-                                            height:58vh !important;
+                                            height:45vh !important;
                                        background-image: url("img/smoke-show2.png");
                                        background-repeat: no-repeat;
                                        background-position: center;
@@ -4739,8 +4735,8 @@ h4{
                                       
                                               #aboutLink{
                                                   position: absolute;
-                                                  margin-top:-36vh;
-                                                  margin-left:-20vw !important;
+                                                  margin-top:-39vh;
+                                                  margin-left:-13vw !important;
                                                   font-size: 2.4rem;
                                                   font-weight: lighter;
                                                   color:rgb(68, 68, 68);
@@ -4748,7 +4744,7 @@ h4{
                                       
                                               #missionLink{
                                                   position: absolute;
-                                                  margin-top:-50vh;
+                                                  margin-top:-55vh;
                                                   margin-left:-22vw !important;
                                                   font-size: 2.4rem;
                                                   font-weight: lighter;
@@ -4756,10 +4752,10 @@ h4{
                                               }
                                       
                                               #bookLink{
-                                                  margin-top:-65vh;
-                                                  margin-left:-27vw !important;
+                                                  margin-top:-70vh;
+                                                  margin-left:-20vw !important;
                                                   font-size:1.50rem;
-                                                   padding:2% 6% 2% 6%;
+                                                   padding:0% 19% 0% 19%;
                                                     border-width: 1px;
                                                     border-color:#636161;
                                                     border-style:solid;
@@ -4795,7 +4791,7 @@ h4{
                              
                                         h1{
                                             position: absolute;
-                                            margin-top:20vh !important;
+                                            margin-top:15vh !important;
                                             margin-left:7vw !important;
                                             font-size:4rem;
                                             font-weight: lighter;
@@ -4823,7 +4819,7 @@ h4{
                                             to { width: 100% }
                                           }
                                                   #subTitle{
-                                                   margin-top:28vh;
+                                                   margin-top:23vh;
                                                    margin-left:24vw;
                                                    font-size:2rem;
                                                     color:#616060 !important;
@@ -4833,9 +4829,9 @@ h4{
                                                   #aboutHeader{
                                                     position: absolute;
                                                     margin-top:37vh !important;
-                                                    margin-left:15vw !important;
+                                                    margin-left:10vw !important;
                                                     width:76vw;
-                                                    font-size:3rem;
+                                                    font-size:2.3rem;
                                                     font-weight: lighter;
                                                    font-family: 'Italianno', cursive;
                                                     color:rgb(94, 92, 92);
@@ -4865,44 +4861,44 @@ h4{
                                                     position: absolute;
                                                     margin-top:1vh;
                                                     margin-left:16vw;
-                                                    height:14vh !important;
-                                                    width:60vw !important;
+                                                    height:13vh !important;
+                                                    width:55vw !important;
                                                     z-index:-1;
                                                 }
                                                 
                                                 #img2{
                                                     position: absolute;
                                                     margin-top:15vh;
-                                                    margin-left:6vw;
+                                                    margin-left:-3vw;
                                                     height:13vh !important;
-                                                    width:45vw !important;
+                                                    width:55vw !important;
                                                     z-index:-1;
                                                 }
                                                 
                                                 #img3{
                                                     position: absolute;
                                                     margin-top:15vh;
-                                                    margin-left:48vw;
+                                                    margin-left:45vw;
                                                     height:13vh !important;
-                                                    width:45vw !important;
+                                                    width:50vw !important;
                                                     z-index:-1;
                                                 }
                 
                                                 #img4{
                                                     position: absolute;
-                                                    margin-top:60vh;
+                                                    margin-top:50vh;
                                                     margin-left:5vw;
                                                     height:13vh !important;
-                                                    width:45vw !important;
+                                                    width:55vw !important;
                                                     z-index:-1;
                                                 }
                 
                                                 #img5{
                                                     position: absolute;
-                                                    margin-top:65vh;
+                                                    margin-top:59vh;
                                                     margin-left:40vw;
                                                     height:13vh !important;
-                                                    width:45vw !important;
+                                                    width:55vw !important;
                                                     z-index:-1;
                                                 }
                 
@@ -4921,8 +4917,8 @@ h4{
                                       position:absolute;
                                                     height:20vh;
                                                     width:50vw;
-                                                    margin-top:110vh;
-                                                    margin-left:28vw;
+                                                    margin-top:90vh;
+                                                    margin-left:25vw;
                                                 }
                 
                                                 .mySlides{
@@ -5031,11 +5027,11 @@ h4{
                 
                                                   #exploreLink{
                                                     position: absolute;
-                                                    margin-top:90vh !important;
-                                                     margin-left:35vw;
+                                                    margin-top:78vh !important;
+                                                     margin-left:26vw;
                                                      font-size:2rem;
                                                     
-                                                        padding:0% 9% 0% 9%;          
+                                                        padding:0% 20% 0% 20%;          
                                                      border-width: 1px;
                                                      border-color:#636161;
                                                      border-style:solid;
@@ -5080,9 +5076,9 @@ h4{
                                                 }
                                                 
                                                 #addText{
-                                                    margin-top:134vh;
-                                                    margin-left:10vw;
-                                                    width:90vw;
+                                                    margin-top:120vh;
+                                                    margin-left:15vw;
+                                                    width:80vw;
                                                     font-size:2rem;
                                                     font-weight: lighter;
                                                    font-family: 'Italianno', cursive;
@@ -5114,7 +5110,7 @@ h4{
                                                    #footerLogo{
                                                       position: absolute;
                                                       margin-top:5vh;
-                                                      margin-left:16vw !important;
+                                                      margin-left:18vw !important;
                                                      font-size:47px;
                                                       font-family: 'Italianno', cursive;
                                                       font-weight: lighter;
@@ -5127,11 +5123,11 @@ h4{
                                             
                                             }
         
-                                            @media screen and (min-width:470px) and (max-width:613px) {
+                                            @media screen and (min-width:470px) and (max-width:560px) {
 
                           
                                                 #header{
-                                                    height:58vh !important;
+                                                    height:40vh !important;
                                                background-image: url("img/smoke-show2.png");
                                                background-repeat: no-repeat;
                                                background-position: center;
@@ -5222,8 +5218,8 @@ h4{
                                               
                                                       #homeLink{
                                                           position: absolute;
-                                                          margin-top:-23vh;
-                                                          margin-left:-20vw !important;
+                                                          margin-top:-20vh;
+                                                          margin-left:-23vw !important;
                                                           font-size: 2.4rem;
                                                           font-weight: lighter;
                                                           color:rgb(68, 68, 68);
@@ -5233,7 +5229,7 @@ h4{
                                                       #aboutLink{
                                                           position: absolute;
                                                           margin-top:-36vh;
-                                                          margin-left:-20vw !important;
+                                                          margin-left:-16vw !important;
                                                           font-size: 2.4rem;
                                                           font-weight: lighter;
                                                           color:rgb(68, 68, 68);
@@ -5241,18 +5237,18 @@ h4{
                                               
                                                       #missionLink{
                                                           position: absolute;
-                                                          margin-top:-50vh;
-                                                          margin-left:-22vw !important;
+                                                          margin-top:-52vh;
+                                                          margin-left:-23vw !important;
                                                           font-size: 2.4rem;
                                                           font-weight: lighter;
                                                           color:rgb(68, 68, 68);
                                                       }
                                               
                                                       #bookLink{
-                                                          margin-top:-65vh;
-                                                          margin-left:-27vw !important;
+                                                          margin-top:-63vh;
+                                                          margin-left:-25vw !important;
                                                           font-size:1.50rem;
-                                                           padding:2% 6% 2% 6%;
+                                                           padding:0% 20% 0% 20%;
                                                             border-width: 1px;
                                                             border-color:#636161;
                                                             border-style:solid;
@@ -5289,9 +5285,9 @@ h4{
                                             
                                                 h1{
                                                     position: absolute;
-                                                    margin-top:20vh !important;
-                                                    margin-left:12vw !important;
-                                                    font-size:4.6rem;
+                                                    margin-top:13vh !important;
+                                                    margin-left:11vw !important;
+                                                    font-size:4.4rem;
                                                     font-weight: lighter;
                                                    font-family: 'Italianno', cursive;
                                                     color:rgb(99, 98, 98);
@@ -5317,7 +5313,7 @@ h4{
                                                     to { width: 100% }
                                                   }
                                                           #subTitle{
-                                                           margin-top:28vh;
+                                                           margin-top:22vh;
                                                            margin-left:29vw;
                                                            font-size:2rem;
                                                             color:#616060 !important;
@@ -5574,10 +5570,10 @@ h4{
                                                         }
                                                         
                                                         #addText{
-                                                            margin-top:154vh;
-                                                            margin-left:10vw;
-                                                            width:90vw;
-                                                            font-size:2rem;
+                                                            margin-top:140vh;
+                                                            margin-left:13vw;
+                                                            width:75vw;
+                                                            font-size:2.4rem;
                                                             font-weight: lighter;
                                                            font-family: 'Italianno', cursive;
                                                             color:rgb(94, 92, 92);
@@ -5622,10 +5618,10 @@ h4{
                                                     }
                 
 
-                                                    @media screen and (min-width:614px) and (max-width:700px) {
+                                                    @media screen and (min-width:561px) and (max-width:598px) {
                        
                                                         #header{
-                                                            height:58vh !important;
+                                                            height:40vh !important;
                                                        background-image: url("img/smoke-show2.png");
                                                        background-repeat: no-repeat;
                                                        background-position: center;
@@ -5727,7 +5723,7 @@ h4{
                                                               #aboutLink{
                                                                   position: absolute;
                                                                   margin-top:-36vh;
-                                                                  margin-left:-20vw !important;
+                                                                  margin-left:-15vw !important;
                                                                   font-size: 2.4rem;
                                                                   font-weight: lighter;
                                                                   color:rgb(68, 68, 68);
@@ -5743,10 +5739,10 @@ h4{
                                                               }
                                                       
                                                               #bookLink{
-                                                                  margin-top:-65vh;
-                                                                  margin-left:-27vw !important;
+                                                                  margin-top:-63vh;
+                                                                  margin-left:-20vw !important;
                                                                   font-size:1.50rem;
-                                                                   padding:2% 6% 2% 6%;
+                                                                   padding:0% 12% 0% 12%;
                                                                     border-width: 1px;
                                                                     border-color:#636161;
                                                                     border-style:solid;
@@ -5783,8 +5779,8 @@ h4{
                                                     
                                                         h1{
                                                             position: absolute;
-                                                            margin-top:20vh !important;
-                                                            margin-left:13vw !important;
+                                                            margin-top:12vh !important;
+                                                            margin-left:10vw !important;
                                                             font-size:4.9rem;
                                                             font-weight: lighter;
                                                            font-family: 'Italianno', cursive;
@@ -5811,7 +5807,7 @@ h4{
                                                             to { width: 100% }
                                                           }
                                                                   #subTitle{
-                                                                   margin-top:28vh;
+                                                                   margin-top:21vh;
                                                                    margin-left:32vw;
                                                                    font-size:2rem;
                                                                     color:#616060 !important;
@@ -5861,7 +5857,7 @@ h4{
                                                                 #img2{
                                                                     position: absolute;
                                                                     margin-top:15vh;
-                                                                    margin-left:6vw;
+                                                                    margin-left:-2vw;
                                                                     height:13vh !important;
                                                                     width:45vw !important;
                                                                     z-index:-1;
@@ -5870,7 +5866,7 @@ h4{
                                                                 #img3{
                                                                     position: absolute;
                                                                     margin-top:15vh;
-                                                                    margin-left:48vw;
+                                                                    margin-left:45vw;
                                                                     height:15vh !important;
                                                                     width:45vw !important;
                                                                     z-index:-1;
@@ -5889,7 +5885,7 @@ h4{
                                                                     position: absolute;
                                                                     margin-top:65vh;
                                                                     margin-left:40vw;
-                                                                    height:17vh !important;
+                                                                    height:15vh !important;
                                                                     width:45vw !important;
                                                                     z-index:-1;
                                                                 }
@@ -6068,7 +6064,7 @@ h4{
                                                                 }
                                                                 
                                                                 #addText{
-                                                                    margin-top:150vh;
+                                                                    margin-top:140vh;
                                                                     margin-left:6vw;
                                                                     width:90vw;
                                                                     font-size:2.4rem;
@@ -6118,12 +6114,12 @@ h4{
                 
         
                            
-                                    @media screen and  (min-width:701px)  and (max-width:717px){
+                                    @media screen and  (min-width:599px)  and (max-width:717px){
 
                                       
                                         
                                 #header{
-                                            height:60vh;
+                                            height:40vh;
                                         background-image: url("img/smoke-show2.png");
                                         background-position: center;
                                         background-size: cover;
@@ -6179,14 +6175,15 @@ h4{
 
                                               #booking{
                                                 position: absolute;
-                                                margin-top:72vw !important;
-                                                margin-left:40vw;
+                                                margin-top:50vw !important;
+                                                margin-left:38vw;
                                                 font-size:1.50rem;
                                                 border-width:1px;
                                                 border-style: groove;
                                                 border-color: #918f8f;
                                                 border-radius: 25px
                                                 ;
+                                                background-color: #ffffff9d;
                                                
                                               }
                                 
@@ -6208,10 +6205,12 @@ h4{
                                                 position: absolute;
                                                 margin-top:-9vh !important;
                                                 margin-left:33vw !important;
-                                                font-size:3rem;
+                                                font-size:2.3rem;
                                                  font-weight: lighter;
                                                  font-family: 'Italianno', cursive;
-                                             color:rgb(218, 218, 218) !important;
+                                             color:rgb(129, 129, 129) !important;
+                                             -webkit-text-stroke-width: none;
+                                             -webkit-text-stroke-color: rgb(250, 250, 250);
                                              
                                             }
                                 
@@ -6233,22 +6232,22 @@ h4{
                                               }
                                 
                                               #subTitle{
-                                               margin-top:20vh;
-                                               margin-left:22vw;
+                                               margin-top:10vh;
+                                               margin-left:17vw;
                                                font-size:3rem;
                                                  font-weight: lighter;
                                                  font-family: 'Italianno', cursive;
-                                             color:rgba(107, 107, 107, 0.836) !important;
+                                             color:rgba(107, 107, 107, 0.966) !important;
                                              -webkit-text-stroke-width: 0.60px !important;
                                             -webkit-text-stroke-color: rgb(250, 250, 250);
                                               }
                                 
                                               #aboutHeader{
                                                 position: absolute;
-                                                margin-top:53vh !important;
+                                                margin-top:37vh !important;
                                                 margin-left:20vw !important;
                                                 width:70vw !important;
-                                                font-size:3.5rem;
+                                                font-size:3rem;
                                                 font-weight: lighter;
                                                font-family: 'Italianno', cursive;
                                                 color:rgb(71, 71, 71);
@@ -6278,23 +6277,23 @@ h4{
                                                 position: absolute;
                                                 margin-top:-2vh;
                                                 margin-left:23vw;
-                                                height:20vh !important;
+                                                height:16vh !important;
                                                 width:50vw !important;
                                                 z-index:-1;
                                             }
                                             
                                             #img2{
                                                 position: absolute;
-                                                margin-top:20vh;
-                                                margin-left:2vw;
-                                                height:20vh !important;
+                                                margin-top:16vh;
+                                                margin-left:-2vw;
+                                                height:16vh !important;
                                                 width:50vw !important;
                                                 z-index:-1;
                                             }
                                             
                                             #img3{
                                                 position: absolute;
-                                                margin-top:20vh;
+                                                margin-top:16vh;
                                                 margin-left:50vw;
                                                 height:20vh !important;
                                                 width:50vw !important;
@@ -6303,7 +6302,7 @@ h4{
 
                                             #img4{
                                                 position: absolute;
-                                                margin-top:76vh;
+                                                margin-top:56vh;
                                                 margin-left:-2vw;
                                                 height:20vh !important;
                                                 width:50vw !important;
@@ -6312,7 +6311,7 @@ h4{
 
                                             #img5{
                                                 position: absolute;
-                                                margin-top:80vh;
+                                                margin-top:60vh;
                                                 margin-left:45vw;
                                                 height:20vh !important;
                                                 width:50vw !important;
@@ -6334,7 +6333,7 @@ h4{
                                   position:absolute;
                                                 height:20vh;
                                                 width:50vw;
-                                                margin-top:1100px;
+                                                margin-top:900px;
                                                 margin-left:28vw;
                                             }
 
@@ -6353,7 +6352,7 @@ h4{
                                             .prev, .next {
                                                 cursor: pointer;
                                                 position: absolute;
-                                                top: 45vh;
+                                                top: 36vh;
                                                 width: auto;
                                                 margin-top: -20vh;
                                                 padding: 5px;
@@ -6444,7 +6443,7 @@ h4{
 
                                               #exploreLink{
                                                 position: absolute;
-                                                margin-top:110vh !important;
+                                                margin-top:86vh !important;
                                                  margin-left:44vw;
                                                  font-size:2rem;
                                                 
@@ -6493,10 +6492,10 @@ h4{
                                             }
                                             
                                             #addText{
-                                                margin-top:169vh;
+                                                margin-top:139vh;
                                                 margin-left:14vw;
                                                 width:80vw;
-                                                font-size:2.4rem;
+                                                font-size:2.5rem;
                                                 font-weight: lighter;
                                                font-family: 'Italianno', cursive;
                                                 color:rgb(94, 92, 92);
@@ -6517,7 +6516,7 @@ h4{
                                                 display:inline-block;
                                                 padding:0% 4% 0% 4%;
                                                 margin-top:2vh;
-                                                margin-left:17vw;
+                                                margin-left:14vw;
                                                  
                                                   font-size:23px;
                                                   color:rgb(212, 212, 212);
@@ -6527,7 +6526,7 @@ h4{
                                                #footerLogo{
                                                   position: absolute;
                                                   margin-top:5vh;
-                                                  margin-left:25vw !important;
+                                                  margin-left:20vw !important;
                                                  font-size:65px;
                                                   font-family: 'Italianno', cursive;
                                                   font-weight: lighter;
@@ -9322,9 +9321,9 @@ h4{
                                                                                                                 cursor: pointer;
                                                                                                                 position: absolute;
                                                                                                                 top: 43vh;
-                                                                                                                width: auto;
+                                                                                                                width: 3%;
                                                                                                                 margin-top: -20vh;
-                                                                                                                padding: 5px;
+                                                                                                                padding: 2% 3% 2% 3% !important;
                                                                                                                 color: rgb(56, 55, 55);
                                                                                                                 font-weight: bold;
                                                                                                                 font-size: 18px;
@@ -9724,9 +9723,7 @@ h4{
                                                                                                                                  }
                                                                                                                     
                                                                                                                                 #explore{
-                                                                                                                      position:absolute;
-                                                                                                                                    height:20vh;
-                                                                                                                                    width:50vw;
+                                                                                                                      position:absolute; width:50vw;
                                                                                                                                     margin-top:1200px !important;
                                                                                                                                     margin-left:28vw;
                                                                                                                                 }
@@ -9739,9 +9736,40 @@ h4{
                                                                                                                                     
                                                                                                                                     display:flex;
                                                                                                                                     padding:4%;
-                                                                                                                                    width:10vw;
-                                                                                                                                    height:120px;
+                                                                                                                                   
                                                                                                                                 }
+
+                                                                                                                                #slide1{
+                                                                                                                                  margin-left:8vw;
+                                                                                                                                  height:60vh !important;
+                                                                                                                                  width:32vw !important;
+                                                                                                                                  
+                                                                                                                                }
+
+                                                                                                                                #slide2{
+                                                                                                                                  margin-top:15vh;
+                                                                                                                                  margin-left:15vw;
+                                                                                                                                  height:36vh !important;
+                                                                                                                                  width:17vw !important;
+                                                                                                                                 
+                                                                                                                                }
+
+                                                                                                                                #slide3{
+                                                                                                                                  margin-top:15vh;
+                                                                                                                                  margin-left:13vw;
+                                                                                                                                  height:30vh !important;
+                                                                                                                                  width:22vw !important;
+                                                                                                                                 
+                                                                                                                                }
+
+                                                                                                                                #slide4{
+                                                                                                                                  margin-top:15vh;
+                                                                                                                                  margin-left:15vw;
+                                                                                                                                  height:20vh !important;
+                                                                                                                                  width:18vw !important;
+                                                                                                                                 
+                                                                                                                                }
+                                                                                                                                
                                                                                                                                 
                                                                                                                                 .prev, .next {
                                                                                                                                     cursor: pointer;
@@ -9886,7 +9914,8 @@ h4{
                                                                                                                                 }
                                                                                                                                 
                                                                                                                                 #addText{
-                                                                                                                                    margin-top:325vh !important;
+                                                                                                                                 
+                                                                                                                                    margin-top:250vh !important;
                                                                                                                                     margin-left:20vw;
                                                                                                                                     width:70vw;
                                                                                                                                     font-size:3rem;
@@ -9897,8 +9926,8 @@ h4{
                                                                                                                                
                                                                                                                                 
                                                                                                                                 #footer{
-                                                                                                                                    position: relative;
-                                                                                                                                  margin-top:2000px;
+                                                                                                                                  
+                                                                                                                                  margin-top:6000px;
                                                                                                               
                                                                                                                                     height:27vh;
                                                                                                                                     background-color: #3a3a3a;
