@@ -128,7 +128,7 @@ body{
       
 #mobileLogo{
     margin-top:1vh;
-    margin-left:26vw;
+    margin-left:21vw;
     height:15vh; 
     width:50vw;
 }
@@ -254,7 +254,7 @@ body{
          
                  #bookLink{
                      margin-top:-25vh;
-                     margin-left:-67vw !important;
+                     margin-left:-69vw !important;
                      font-size:.70rem;
                       padding:2% 10% 2% 10%;
                        border-width: 1px;
@@ -328,9 +328,9 @@ body{
 
         .smImg{
             margin-top:-6vh;
-            margin-left:4vw;
-            height: 33vh;
-            width:90vw;
+            margin-left:0vw;
+            height: 30vh;
+            width:100vw;
 
         }
 
@@ -608,7 +608,7 @@ font-size: 15px !important;
                 margin-top:1vh;
                 margin-left:21vw;
                 height:8vh; 
-                width:50vw;
+                width:55vw;
             }
             
             
@@ -1058,8 +1058,8 @@ font-size: 15px !important;
                        #footerLogo{
                           position: absolute;
                           margin-top:5vh;
-                          margin-left:12vw !important;
-                         font-size:1rem;
+                          margin-left:3vw !important;
+                         font-size:1.5rem;
                           font-family: 'Italianno', cursive;
                           font-weight: lighter;
                           color:white;
@@ -1187,7 +1187,7 @@ font-size: 15px !important;
                              #homeLink{
                                  position: absolute;
                                  margin-top:-10vh;
-                                 margin-left:-53vw !important;
+                                 margin-left:-50vw !important;
                                  font-size: 1.6rem;
                                  font-weight: lighter;
                                  color:rgb(68, 68, 68);
@@ -1196,7 +1196,7 @@ font-size: 15px !important;
                              #aboutLink{
                                  position: absolute;
                                  margin-top:-13vh;
-                                 margin-left:-55vw !important;
+                                 margin-left:-50vw !important;
                                  font-size: 1.6rem;
                                  font-weight: lighter;
                                  color:rgb(68, 68, 68);
@@ -1556,9 +1556,9 @@ font-size: 15px !important;
                  
                     #mobileLogo{
                         margin-top:1vh;
-                        margin-left:26vw;
+                        margin-left:21vw;
                         height:10vh; 
-                        width:50vw;
+                        width:54vw;
                     }
                     
                     
@@ -1958,7 +1958,7 @@ font-size: 15px !important;
                     #itemTextOne{
                     padding-top: 20%;
                     margin-top:12vh !important;
-                    margin-left:-20vw;
+                    margin-left:-22vw;
                     font-size: 15px !important;
                     width:87vw;
                     }
@@ -2008,8 +2008,8 @@ font-size: 15px !important;
                                #footerLogo{
                                   position: absolute;
                                   margin-top:5vh;
-                                  margin-left:10vw !important;
-                                 font-size:1.5rem;
+                                  margin-left:5vw !important;
+                                 font-size:2rem;
                                   font-family: 'Italianno', cursive;
                                   font-weight: lighter;
                                   color:white;
@@ -2062,7 +2062,7 @@ font-size: 15px !important;
                                      flex-direction: column;
                                      background-color: #ffffffd5 !important;
                                      height:100vh !important;
-                                     width: 80vw;
+                                     width: 100vw;
                                      border-radius: 10px;
                                      text-align: center;
                                      transition: 0.3s;
@@ -2126,7 +2126,7 @@ font-size: 15px !important;
                                  #homeLink{
                                      position: absolute;
                                      margin-top:-23vh;
-                                     margin-left:-20vw !important;
+                                     margin-left:-25vw !important;
                                      font-size: 1.7rem;
                                      font-weight: lighter;
                                      color:rgb(68, 68, 68);
@@ -2136,7 +2136,7 @@ font-size: 15px !important;
                                  #aboutLink{
                                      position: absolute;
                                      margin-top:-40vh;
-                                     margin-left:-20vw !important;
+                                     margin-left:-25vw !important;
                                      font-size: 1.7rem;
                                      font-weight: lighter;
                                      color:rgb(68, 68, 68);
@@ -2144,17 +2144,17 @@ font-size: 15px !important;
                          
                                  #missionLink{
                                      position: absolute;
-                                     margin-top:-55vh;
-                                     margin-left:-24vw !important;
+                                     margin-top:-57vh;
+                                     margin-left:-26vw !important;
                                      font-size: 1.7rem;
                                      font-weight: lighter;
                                      color:rgb(68, 68, 68);
                                  }
                          
                                  #bookLink{
-                                     margin-top:-70vh;
-                                     margin-left:-42vw !important;
-                                     font-size:1.3rem;
+                                     margin-top:-72vh;
+                                     margin-left:-38vw !important;
+                                     font-size:1.1rem;
                                       padding:2% 6% 2% 6%;
                                        border-width: 1px;
                                        border-color:#636161;
@@ -2433,8 +2433,8 @@ font-size: 15px !important;
                         #itemTextTwo{
                         
                         margin-top:5vh;
-                        margin-left:-26vw;
-                        width:85vw;
+                        margin-left:-16vw;
+                        width:60vw;
                         font-size: 15px !important;
                         
                         }
@@ -2475,7 +2475,7 @@ font-size: 15px !important;
                                    #footerLogo{
                                       position: absolute;
                                       margin-top:5vh;
-                                      margin-left:10vw !important;
+                                      margin-left:6vw !important;
                                      font-size:2rem;
                                       font-family: 'Italianno', cursive;
                                       font-weight: lighter;
@@ -2590,7 +2590,7 @@ font-size: 15px !important;
                                     #homeLink{
                                         position: absolute;
                                         margin-top:-23vh;
-                                        margin-left:-18vw !important;
+                                        margin-left:-24vw !important;
                                         font-size: 1.6rem;
                                         font-weight: lighter;
                                         color:rgb(68, 68, 68);
@@ -2600,7 +2600,7 @@ font-size: 15px !important;
                                     #aboutLink{
                                         position: absolute;
                                         margin-top:-39vh;
-                                        margin-left:-18vw !important;
+                                        margin-left:-24vw !important;
                                         font-size: 1.6rem;
                                         font-weight: lighter;
                                         color:rgb(68, 68, 68);
@@ -2609,7 +2609,7 @@ font-size: 15px !important;
                                     #missionLink{
                                         position: absolute;
                                         margin-top:-54vh;
-                                        margin-left:-18vw !important;
+                                        margin-left:-24vw !important;
                                         font-size: 1.6rem;
                                         font-weight: lighter;
                                         color:rgb(68, 68, 68);
@@ -2617,7 +2617,7 @@ font-size: 15px !important;
                             
                                     #bookLink{
                                         margin-top:-68vh;
-                                        margin-left:-30vw !important;
+                                        margin-left:-35vw !important;
                                         font-size:1rem;
                                          padding:2% 6% 2% 6%;
                                           border-width: 1px;
@@ -2656,8 +2656,8 @@ font-size: 15px !important;
                                               h1{
                                                 position: absolute;
                                                 margin-top:-4vh !important;
-                                                margin-left:33vw !important;
-                                                font-size:1.5rem;
+                                                margin-left:30vw !important;
+                                                font-size:1.7rem;
                                                 font-weight: lighter;
                                                font-family: 'Italianno', cursive;
                                                 color:rgb(105, 103, 103);
@@ -2940,7 +2940,7 @@ font-size: 15px !important;
                                                   position: absolute;
                                                   margin-top:5vh;
                                                   margin-left:13vw !important;
-                                                 font-size:2rem;
+                                                 font-size:2.3rem;
                                                   font-family: 'Italianno', cursive;
                                                   font-weight: lighter;
                                                   color:white;
@@ -3075,7 +3075,7 @@ font-size: 15px !important;
     
             #aboutLink{
                 position: absolute;
-                margin-top:-39vh;
+                margin-top:-40vh;
                 margin-left:-22vw !important;
                 font-size: 1.8rem;
                 font-weight: lighter;
@@ -3084,7 +3084,7 @@ font-size: 15px !important;
     
             #missionLink{
                 position: absolute;
-                margin-top:-54vh;
+                margin-top:-56vh;
                 margin-left:-22vw !important;
                 font-size: 1.8rem;
                 font-weight: lighter;
@@ -3409,7 +3409,7 @@ font-size: 15px !important;
                     display:inline-block;
                     padding:0% 2% 0% 2%;
                     margin-top:2vh;
-                    margin-left:14vw;
+                    margin-left:12vw;
                      
                       font-size:23px;
                       color:rgb(212, 212, 212);
@@ -3419,7 +3419,7 @@ font-size: 15px !important;
                    #footerLogo{
                       position: absolute;
                       margin-top:5vh;
-                      margin-left:10vw !important;
+                      margin-left:8vw !important;
                      font-size:3rem;
                       font-family: 'Italianno', cursive;
                       font-weight: lighter;
@@ -3559,7 +3559,7 @@ font-size: 15px !important;
             
                     #bookLink{
                         margin-top:-70vh;
-                        margin-left:-32vw !important;
+                        margin-left:-30vw !important;
                         font-size:1.3rem;
                          padding:2% 6% 2% 6%;
                           border-width: 1px;
@@ -3892,7 +3892,7 @@ font-size: 15px !important;
                            #footerLogo{
                               position: absolute;
                               margin-top:5vh;
-                              margin-left:7vw !important;
+                              margin-left:11vw !important;
                              font-size:3rem;
                               font-family: 'Italianno', cursive;
                               font-weight: lighter;
@@ -4002,7 +4002,7 @@ font-size: 15px !important;
                     #homeLink{
                         position: absolute;
                         margin-top:-23vh;
-                        margin-left:-22vw !important;
+                        margin-left:-15vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -4012,7 +4012,7 @@ font-size: 15px !important;
                     #aboutLink{
                         position: absolute;
                         margin-top:-39vh;
-                        margin-left:-22vw !important;
+                        margin-left:-15vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -4021,7 +4021,7 @@ font-size: 15px !important;
                     #missionLink{
                         position: absolute;
                         margin-top:-54vh;
-                        margin-left:-22vw !important;
+                        margin-left:-15vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -4029,8 +4029,8 @@ font-size: 15px !important;
             
                     #bookLink{
                         margin-top:-70vh;
-                        margin-left:-28vw !important;
-                        font-size:1.3rem;
+                        margin-left:-20vw !important;
+                        font-size:1.1rem;
                          padding:2% 6% 2% 6%;
                           border-width: 1px;
                           border-color:#636161;
@@ -4069,7 +4069,7 @@ font-size: 15px !important;
                                 position: absolute;
                                 margin-top:-5vh !important;
                                 margin-left:26vw !important;
-                                font-size:2.2rem;
+                                font-size:2.5rem;
                                 font-weight: lighter;
                                font-family: 'Italianno', cursive;
                                 color:rgb(105, 103, 103);
@@ -4316,7 +4316,7 @@ font-size: 15px !important;
             #itemTextTwo{
                
                 margin-top:5vh;
-                margin-left:-17vw;
+                margin-left:-13vw;
                 width:90vw;
             }
             
@@ -4331,7 +4331,7 @@ font-size: 15px !important;
             #itemTextFour{
                
                 margin-top:4vh;
-                margin-left:-15vw;
+                margin-left:-10vw;
                 width:90vw;
                 
             }
@@ -4361,8 +4361,8 @@ font-size: 15px !important;
                            #footerLogo{
                               position: absolute;
                               margin-top:5vh;
-                              margin-left:2vw !important;
-                             font-size:4rem;
+                              margin-left:16vw !important;
+                             font-size:3rem;
                               font-family: 'Italianno', cursive;
                               font-weight: lighter;
                               color:white;
@@ -4698,18 +4698,18 @@ font-size: 15px !important;
                         #about1{
                             position: absolute;
                             margin-top:-30vh;
-                            margin-left:5vw;
+                            margin-left:8vw;
                             font-size:18px;
-                            width:90vw;
+                            width:85vw;
                         }
             
             
                         #about2{
                             position: absolute;
                             margin-top:-23vh;
-                            margin-left:5vw;
+                            margin-left:8vw;
                             font-size:18px;
-                            width:90vw;
+                            width:85vw;
                         }
             
                         #mobile{
@@ -4834,369 +4834,464 @@ font-size: 15px !important;
 
 
 
-                      @media screen and (min-width:491px) and (max-width:540px)  {
+                      @media screen and (min-width:491px) and (max-width:620px)  {
                        
                
-                        #dskNav{
-                         
-                            margin-left:0vw !important;
+                        #mobileLogo{
+                            display:none;
                         }
-                                
-                                #mainNav{
-                                    position: absolute;
-                                    margin-top:-5vh;
-                                    padding:2%;
-                                    background-color: #ffffff7e;
-                                    width:100vw;
-                                    height:5vh;
-                                } 
-                                
-                                
-                
-                                a{
-                                    color:#313131;
-                                    font-weight: lighter;
-                                  }
-                    
-                                  .nav-link{
-                                   
-                                    margin-left:10vw;
-                                   padding:0% 4% 0% 4%;
-                                    color:#242424;
-                                    font-size:2rem;
-                                    font-weight: lighter;
-                    
-                                  }
-                
-                                  #linkOne{
-                                    position: absolute;
-                                    margin-top:1vh !important;
-                                    margin-left:-3vw;
-                                   
-                                  }
-                
-                                  #linkTwo{
-                                    position: absolute;
-                                    margin-top:1vh !important;
-                                    margin-left:5vw;
-                                   
-                                  }
-                
-                                  #booking{
-                                    position: absolute;
-                                    margin-top:1vh;
-                                    margin-left:73vw;
+                            #addText{
+                                display:none;
+                             }
+                             #header{
+                                 height:20vh;
+                          
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
                                  
-                                     font-size:1.3rem;
-                                    
-                                        padding:0% 3% 0% 3%;          
-                                     border-width: 1px;
-                                     border-color:#636161;
-                                     border-style:solid;
-                                     border-radius: 25px;
-                                     font-family: 'Italianno', cursive;
-                                    
-                                     color:#535252 !important;
-                                    
-                                  }
-                
-                                  #mobileLogo{
-                                    display:none;
-                                  }
+                             }
+                         
+                             nav{
+                                 height:1vh;
+                                 background-color: rgba(233, 233, 233, 0.534);
+                             }
+                             .navbar{
+                                 background-color: #ffffff5e;
+                               
+                             }
                     
-                                  #miniNav{
-                                    display:none;
-                                  }
+                            
+                             .nav-menu {
+                                position: fixed;
+                                left: -100%;
+                                top: 2rem;
+                                flex-direction: column;
+                                background-color: #ffffffd5 !important;
+                                height:100vh !important;
+                                width: 60vw;
+                                border-radius: 10px;
+                                text-align: center;
+                                transition: 0.3s;
+                                box-shadow:
+                                    0 10px 27px rgba(0, 0, 0, 0.05);
+                                    z-index:1 !important;
+                                    font-weight: lighter;
+                            }
+                        
+                            .nav-menu.active {
+                                left: 0;
+                            }
                     
-                                  #mainNav{
-                                    display:inline-block;
-                                    font-size:0.50rem;
-                                    color:#302e2e;
-                                  }
+                            .nav-item {
+                                margin: 2.5rem 0;
+                                margin-left:10vw;
+                                font-size: 2rem;
+                                font-weight: lighter !important;
+                            }
+                        
+                            .hamburger {
+                                display: block;
+                                cursor: pointer;
+                            }
+                    .bar{
+                        background-color: #868686a8;
+                    }
+                            .hamburger.active .bar:nth-child(2) {
+                                opacity: 0;
+                            }
+                        
+                            .hamburger.active .bar:nth-child(1) {
+                                transform: translateY(8px) rotate(45deg);
+                            }
+                        
+                            .hamburger.active .bar:nth-child(3) {
+                                transform: translateY(-8px) rotate(-45deg);
+                            }
+                    .nav-logo-mobile{
+                        margin-left:39% !important;
+                    }
+                    
+                    .nav-logo-mobile{
+                        height: 50vh !important;
+                    }
+                    
+                    #nav-logo-desktop{
+                        display:none;
+                    }
+                            #alchBrand{
+                                margin-top: -59% !important;
+                                margin-left:-9% !important;
+                                width:10% !important;
+                                height:10% !important;
+                               }
                 
-                                  h1{
+                               #bodycontact{
+                                margin-left:26vw;
+                               }
+                    
+                            #homeLink{
+                                position: absolute;
+                                margin-top:-23vh;
+                                margin-left:-14vw !important;
+                                font-size: 1.8rem;
+                                font-weight: lighter;
+                                color:rgb(68, 68, 68);
+                                
+                            }
+                    
+                            #aboutLink{
+                                position: absolute;
+                                margin-top:-39vh;
+                                margin-left:-14vw !important;
+                                font-size: 1.8rem;
+                                font-weight: lighter;
+                                color:rgb(68, 68, 68);
+                            }
+                    
+                            #missionLink{
+                                position: absolute;
+                                margin-top:-54vh;
+                                margin-left:-14vw !important;
+                                font-size: 1.8rem;
+                                font-weight: lighter;
+                                color:rgb(68, 68, 68);
+                            }
+                    
+                            #bookLink{
+                                margin-top:-70vh;
+                                margin-left:-22vw !important;
+                                font-size:1.3rem;
+                                 padding:2% 6% 2% 6%;
+                                  border-width: 1px;
+                                  border-color:#636161;
+                                  border-style:solid;
+                                  font-family: 'Italianno', cursive;
+                                  color:#3d3d3d !important;
+                                 
+                                }
+                         
+                               
+                             
+                                     #contactLink{
+                                        display:none;
+                             
+                                     }
+                             
+                                     span{
+                                         color:#475569;
+                                     }
+                             
+                                 #alchDesignLogo{
+                                     margin-top:-12vh !important;
+                                 }
+                         
+                             .nav-logo-mobile{
+                                 height: 50vh !important;
+                             }
+                             
+                             #mainNav{
+                                 display:none;
+                             }
+                         
+                            
+                    
+                                      h1{
+                                        position: absolute;
+                                        margin-top:-3vh !important;
+                                        margin-left:26vw !important;
+                                        font-size:2.5rem;
+                                        font-weight: lighter;
+                                       font-family: 'Italianno', cursive;
+                                        color:rgb(105, 103, 103);
+                                       
+                                    }
+                                    #mobileTitle{
+                                        margin-top:30vh;
+                                    }
+                    
+                                    .sliderContainer{
+                                       position: relative;
+                                        margin-top:3vh;
+                                        
+                                        height:100vh;
+                                            width:100vw;
+                                            height:100vh;
+                                           
+                                    }
+                        
+                                        .contentContainer{
+                                          
+                                            width:20vw;
+                                            height:10vh;
+                                        
+                                        }
+                    
+                                        .mySlides{
+                                            height:5vh;
+                                        }
+                                        
+                                        .sampleImg{
+                                            
+                                            display:flex;
+                                            padding:4%;
+                                            width:10vw;
+                                            height:120px;
+                                        }
+                                        
+                                        .prev, .next {
+                                            cursor: pointer;
+                                            position: absolute;
+                                            top: 15vh;
+                                            width: 10px;
+                                            margin-top: -50vh;
+                                            padding: 1% 1% 1% 1%;
+                                            color: rgb(248, 246, 246);
+                                            font-weight: bold;
+                                            font-size: 15px;
+                                            transition: 0.6s ease;
+                                            border-radius: 0 3px 3px 0;
+                                            user-select: none;
+                                            z-index:1;
+                                          }
+                                          
+                                          /* Position the "next button" to the right */
+                                          .next {
+                                            background-color:#363434;
+                                            right:1vw;
+                                            border-radius: 100%;
+                    
+                                           
+                                          }
+                                          .prev{
+                                            background-color:#363434;
+                                            
+                                            left: 0.70vw;
+                                            border-radius: 100%;
+                                          }
+                                          /* On hover, add a black background color with a little bit see-through */
+                                          .prev:hover, .next:hover {
+                                            background-color: rgba(0,0,0,0.8);
+                                          }
+                                          
+                                          
+                                          /* Fading animation */
+                                          .fade {
+                                            animation-name: fade;
+                                            animation-duration: 1.5s;
+                                          }
+                                          
+                                          @keyframes fade {
+                                            from {opacity: .4}
+                                            to {opacity: 1}
+                                          }
+                                        
+                    
+                                   
+                                    
+                                         
+                    
+                                     
+                    
+                    
+                            .sliderContainer{
+                                margin-top:37vh !important;
+                                height:20vh !important
+                            }
+                    
+                    
+                                   
+                                .lgImg{
                                     position: absolute;
-                                    margin-top:-3vh !important;
-                                    margin-left:33vw !important;
-                                    font-size:4rem;
+                                    margin-top:-47vh;
+                                    margin-left:17vw !important;
+                                    height:32vh !important;
+                                    width:44vw;
+                                   
+                                }
+                    
+                                .smImg{
+                                    position: absolute;
+                                    margin-top:-42vh;
+                                    margin-left:64vw !important;
+                                    height:22vh !important;
+                                    width:25vw !important;
+                                    
+                    
+                                }
+                    
+                              
+                    
+                                #sliderColor{
+                                    display:none;
+                                    margin-top:-70vh;
+                                    margin-left:7vw;
+                                    height:30vh;
+                                    width:85vw;
+                                    background-color: #d6d6d6;
+                                    border-radius: 25px;
+                    
+                                }
+                
+                
+                    
+                                h2{
+                    
+                                    position: absolute;
+                                    margin-top:3vh !important;
+                                    margin-left:25vw !important;
+                                    font-size:3rem;
                                     font-weight: lighter;
                                    font-family: 'Italianno', cursive;
-                                    color:rgb(105, 103, 103);
-                                   
-                                }
-                                #mobileTitle{
-                                    margin-top:30vh;
-                                }
-                
-                                .sliderContainer{
-                                   position: relative;
-                                    margin-top:10vh;
-                                    
-                                    height:100vh;
-                                        width:100vw;
-                                        height:100vh;
-                                       
+                                    color:rgb(78, 71, 71);
+                    
                                 }
                     
-                                    .contentContainer{
-                                      
-                                        width:20vw;
-                                        height:10vh;
-                                    
-                                    }
-                
-                                    .mySlides{
-                                        height:5vh;
-                                    }
-                                    
-                                    .sampleImg{
-                                        
-                                        display:flex;
-                                        padding:4%;
-                                        width:10vw;
-                                        height:120px;
-                                    }
-                                    
-                                    .prev, .next {
-                                        cursor: pointer;
-                                        position: absolute;
-                                        top: 76vh;
-                                        width: 20px;
-                                        margin-top: -50vh;
-                                        padding: 1% 1% 1% 2%;
-                                        color: rgb(248, 246, 246);
-                                        font-weight: bold;
-                                        font-size: 17px;
-                                        transition: 0.6s ease;
-                                        border-radius: 0 3px 3px 0;
-                                        user-select: none;
-                                        z-index:1;
-                                      }
-                                      
-                                      /* Position the "next button" to the right */
-                                      .next {
-                                        background-color:#363434;
-                                        right:1vw;
-                                        border-radius: 100%;
-                
-                                       
-                                      }
-                                      .prev{
-                                        background-color:#363434;
-                                        
-                                        left: -0.1vw;
-                                        border-radius: 100%;
-                                      }
-                                      /* On hover, add a black background color with a little bit see-through */
-                                      .prev:hover, .next:hover {
-                                        background-color: rgba(0,0,0,0.8);
-                                      }
-                                      
-                                      
-                                      /* Fading animation */
-                                      .fade {
-                                        animation-name: fade;
-                                        animation-duration: 1.5s;
-                                      }
-                                      
-                                      @keyframes fade {
-                                        from {opacity: .4}
-                                        to {opacity: 1}
-                                      }
-                                    
-                
-                               
-                                
-                                     
-                
-                                 
-                
-                
-                        .sliderContainer{
-                            margin-top:5vh;
-                        }
-                
-                
-                               
-                            .lgImg{
-                                position: absolute;
-                                margin-top:8vh;
-                                margin-left:30vw;
-                                height:46vh;
-                                width:15vw;
-                               
-                            }
-                
-                            .smImg{
-                                position: absolute;
-                                margin-top:12vh;
-                                margin-left:53vw;
-                                height:38vh;
-                                width:10vw;
-                                
-                
-                            }
-                
-                         
-                            .underlay{
-                                height:20vh;
-                                width:40vw;
-                            }
-                
-                            #sliderColor{
-                                margin-top:-92vh;
-                                margin-left:17vw;
-                                height:90vh;
-                                width:50vw;
-                               
-                            }
-                
-                            h2{
-                
-                                position: absolute;
-                                margin-top:-43vh !important;
-                                margin-left:14vw !important;
-                                font-size:3rem;
-                                font-weight: lighter;
-                               font-family: 'Italianno', cursive;
-                                color:rgb(78, 71, 71);
-                
-                            }
-                
-                            
-                
-                            .sectionText{
-                                width:60vw;
-                                font-size:30px;
-                            }
-                
-                            #about1{
-                                position: absolute;
-                                margin-top:-36vh;
-                                margin-left:20vw;
-                                font-size:25px;
-                            }
-                
-                
-                            #about2{
-                                position: absolute;
-                                margin-top:-30vh;
-                                margin-left:20vw;
-                                font-size:25px;
-                            }
-                
-                            #mobile{
-                                display:none;
-                            }
-                
-                            #contact{
-                                position: absolute;
-                                margin-top:-20vh !important;
-                                margin-left:34vw;
-                                font-size:1rem;
-                
-                                padding:1% 10% 1% 10%; 
-                                border-radius: 25px;         
-                             border-width: 1px;
-                             border-color:#636161;
-                             border-style:solid;
-                             font-family: 'Italianno', cursive;
-                             color:#3d3d3d !important;
-                            }
-                
-                            #offers{
-                
-                                margin-top:-44vh;
-                                margin-left:25vw;
-                                width:50vw;
-                              
-                            }
-                
-                           
-                           
-                
-                h3{
-                position: absolute;
-                margin-top:-10vh !important;
-                margin-left:18vw !important;
-                font-size:4rem;
-                font-weight: lighter;
-                font-family: 'Italianno', cursive;
-                color:rgb(78, 71, 71);
-                }
-                
-                .itemHeader{
-                margin-top:100vh;
-                margin-left:20vw;
-                
-                }
-                
-                .itemText{
+                                #aboutTitle{
+                                    display:none;
+                                    margin-left:4vw !important;
+                                    font-size:1.3rem;
+                                    width:60vw;
+                                }
                     
-                    margin-left:10vw;
-                    width:56vw;
-                    font-size:32px;
+                                .sectionText{
+                                    width:60vw;
+                                    font-size:16px;
+                                }
+                    
+                                #about1{
+                                    position: absolute;
+                                    margin-top:-30vh;
+                                    margin-left:8vw;
+                                    font-size:18px;
+                                    width:85vw;
+                                }
+                    
+                    
+                                #about2{
+                                    position: absolute;
+                                    margin-top:-23vh;
+                                    margin-left:8vw;
+                                    font-size:18px;
+                                    width:85vw;
+                                }
+                    
+                                #mobile{
+                                    display:none;
+                                }
+                    
+                                #contact{
+                                    position: absolute;
+                                    margin-top:-12vh !important;
+                                    margin-left:38vw;
+                                    font-size:1rem;
+                    
+                                    padding:2% 6% 2% 6%; 
+                                    border-radius: 25px;         
+                                 border-width: 1px;
+                                 border-color:#636161;
+                                 border-style:solid;
+                                 font-family: 'Italianno', cursive;
+                                 color:#3d3d3d !important;
+                                }
+                    
+                                #offers{
+                    
+                                    margin-top:3vh;
+                                    margin-left:26vw;
+                                    width:50vw;
+                                  
+                                }
+                    
+                               
+                               
+                    
+                    h3{
+                    position: absolute;
+                    margin-top:-10vh !important;
+                    margin-left:15vw !important;
+                    font-size:3.2rem;
+                    font-weight: lighter;
+                    font-family: 'Italianno', cursive;
+                    color:rgb(78, 71, 71);
+                    }
+                    
+                    .itemHeader{
+                    margin-top:40vh;
+                    margin-left:20vw;
                     
                     }
-                
-                    #offerHeader{
-                        position:relative;
-                        margin-top:34vh !important;
-                        margin-left:17vw !important;
+                    
+                    .itemText{
+                    margin-top:18vh;
+                    margin-left:5vw;
+                    width:40vw;
+                    font-size:20px;
+                    
                     }
                     
                     #itemTextOne{
-                        
-                        margin-top:1vh !important;
-                        margin-left:-4vw;
+                      
+                        margin-top:3vh !important;
+                        margin-left:-15vw;
+                        width:80vw;
                     }
                     
                     #itemTextTwo{
-                        margin-top:3vh;
-                        margin-left:3vw;
+                       
+                        margin-top:5vh;
+                        margin-left:-10vw !important;
+                        width:90vw;
                     }
                     
                     #itemTextThree{
-                        margin-top:3vh;
-                        margin-left:7vw;
+                        
+                        margin-top:6vh;
+                        margin-left:-2vw !important;
+                        width:90vw !important;
                         
                     }
                     
-                  
+                    #itemTextFour{
+                       
+                        margin-top:4vh;
+                        margin-left:-15vw;
+                        width:90vw;
+                        
+                    }
                     
-                
-                            #footer{
-                                position: relative;
-                              margin-top:2000px;
-                
-                                height:27vh;
-                                background-color: #3a3a3a;
-                                color:#fff;
-                                margin-top:8vh !important;
-                            }
-                
-                            .footerNav{
-                                display:inline-block;
-                                padding:0% 4% 0% 4%;
-                                margin-top:2vh;
-                                margin-left:14vw;
-                                 
-                                  font-size:23px;
-                                  color:rgb(212, 212, 212);
-                               }
-                  
-                              
-                               #footerLogo{
-                                  position: absolute;
-                                  margin-top:5vh;
-                                  margin-left:32vw !important;
-                                 font-size:4rem;
-                                  font-family: 'Italianno', cursive;
-                                  font-weight: lighter;
-                                  color:white;
-                              
-                               }
-                                
+                    
+                                #footer{
+                                   
+                                  margin-top:2000px;
+                    
+                                    height:27vh;
+                                    background-color: #3a3a3a;
+                                    color:#fff;
+                                    margin-top:8vh !important;
+                                }
+                    
+                                .footerNav{
+                                    display:inline-block;
+                                    padding:0% 2% 0% 2%;
+                                    margin-top:2vh;
+                                    margin-left:14vw;
+                                     
+                                      font-size:23px;
+                                      color:rgb(212, 212, 212);
+                                   }
+                      
+                                  
+                                   #footerLogo{
+                                      position: absolute;
+                                      margin-top:5vh;
+                                      margin-left:16vw !important;
+                                     font-size:3rem;
+                                      font-family: 'Italianno', cursive;
+                                      font-weight: lighter;
+                                      color:white;
+                                  
+                                   }
                                 
                             
                             }
