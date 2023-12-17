@@ -7555,7 +7555,7 @@ h4{
                                                   #homeLink{
                                                       position: absolute;
                                                       margin-top:-23vh;
-                                                      margin-left:-20vw !important;
+                                                      margin-left:-16vw !important;
                                                       font-size: 2.2rem;
                                                       font-weight: lighter;
                                                       color:rgb(68, 68, 68);
@@ -7565,7 +7565,7 @@ h4{
                                                   #aboutLink{
                                                       position: absolute;
                                                       margin-top:-38vh;
-                                                      margin-left:-19vw !important;
+                                                      margin-left:-16vw !important;
                                                       font-size: 2.2rem;
                                                       font-weight: lighter;
                                                       color:rgb(68, 68, 68);
@@ -7574,7 +7574,7 @@ h4{
                                                   #missionLink{
                                                       position: absolute;
                                                       margin-top:-53vh;
-                                                      margin-left:-20vw !important;
+                                                      margin-left:-17vw !important;
                                                       font-size: 2.2rem;
                                                       font-weight: lighter;
                                                       color:rgb(68, 68, 68);
@@ -7582,7 +7582,7 @@ h4{
                                           
                                                   #bookLink{
                                                       margin-top:-67vh;
-                                                      margin-left:-34vw !important;
+                                                      margin-left:-30vw !important;
                                                       font-size:1.50rem;
                                                        padding:0% 16% 0% 16%;
                                                         border-width: 1px;
@@ -7622,8 +7622,8 @@ h4{
                                             h1{
                                                 position: absolute;
                                                 margin-top:10vh !important;
-                                                margin-left:13vw !important;
-                                                font-size:2.9rem;
+                                                margin-left:16vw !important;
+                                                font-size:3rem;
                                                 font-weight: lighter;
                                                 font-family: 'Pinyon Script', cursive;
                                                 color:rgb(99, 98, 98);
@@ -7659,7 +7659,7 @@ h4{
                                         
                                                       #aboutHeader{
                                                         position: absolute;
-                                                        margin-top:27vh !important;
+                                                        margin-top:29vh !important;
                                                         margin-left:10vw !important;
                                                         width:80vw;
                                                         font-size:2rem;
@@ -7950,7 +7950,503 @@ h4{
                                                             }
 
 
-                                                            @media screen and  (min-width:778px) and (max-width:820px){
+
+
+                                            @media screen and  (min-width:551px)  and (max-width:585px){
+                                        
+                                              #header{
+                                                height:30vh !important;
+                                           background-image: url("img/smoke-show2.png");
+                                           background-repeat: no-repeat;
+                                           background-position: center;
+                                           background-size: cover;
+                                                
+                                            }
+                                        
+                                          
+                                        
+                                                    
+                                            nav{
+                                              height:1vh;
+                                              background-color: rgba(233, 233, 233, 0.534);
+                                          }
+                                          .navbar{
+                                              background-color: #ffffff5e;
+                                            
+                                          }
+                                 
+                                         
+                                                  .nav-menu {
+                                                      position: fixed;
+                                                      left: -100%;
+                                                      top: 2rem;
+                                                      flex-direction: column;
+                                                      background-color: #ffffffd5 !important;
+                                                      height:100vh !important;
+                                                      width: 100vw;
+                                                      border-radius: 10px;
+                                                      text-align: center;
+                                                      transition: 0.3s;
+                                                      box-shadow:
+                                                          0 10px 27px rgba(0, 0, 0, 0.05);
+                                                          z-index:1 !important;
+                                                          font-weight: lighter;
+                                                  }
+                                              
+                                                  .nav-menu.active {
+                                                      left: 0;
+                                                  }
+                                          
+                                                  .nav-item {
+                                                      margin: 2.5rem 0;
+                                                      margin-left:10vw;
+                                                      font-size: 2rem;
+                                                      font-weight: lighter !important;
+                                                  }
+                                              
+                                                  .hamburger {
+                                                      display: block;
+                                                      cursor: pointer;
+                                                  }
+                                          .bar{
+                                              background-color: #868686a8;
+                                          }
+                                                  .hamburger.active .bar:nth-child(2) {
+                                                      opacity: 0;
+                                                  }
+                                              
+                                                  .hamburger.active .bar:nth-child(1) {
+                                                      transform: translateY(8px) rotate(45deg);
+                                                  }
+                                              
+                                                  .hamburger.active .bar:nth-child(3) {
+                                                      transform: translateY(-8px) rotate(-45deg);
+                                                  }
+                                          .nav-logo-mobile{
+                                              margin-left:39% !important;
+                                          }
+                                          
+                                          .nav-logo-mobile{
+                                              height: 50vh !important;
+                                          }
+                                          
+                                          #nav-logo-desktop{
+                                              display:none;
+                                          }
+                                                  #alchBrand{
+                                                      margin-top: -59% !important;
+                                                      margin-left:-9% !important;
+                                                      width:10% !important;
+                                                      height:10% !important;
+                                                     }
+                                  
+                                                     #bodycontact{
+                                                      margin-left:26vw;
+                                                     }
+                                          
+                                                  #homeLink{
+                                                      position: absolute;
+                                                      margin-top:-23vh;
+                                                      margin-left:-16vw !important;
+                                                      font-size: 2.2rem;
+                                                      font-weight: lighter;
+                                                      color:rgb(68, 68, 68);
+                                                      
+                                                  }
+                                          
+                                                  #aboutLink{
+                                                      position: absolute;
+                                                      margin-top:-38vh;
+                                                      margin-left:-16vw !important;
+                                                      font-size: 2.2rem;
+                                                      font-weight: lighter;
+                                                      color:rgb(68, 68, 68);
+                                                  }
+                                          
+                                                  #missionLink{
+                                                      position: absolute;
+                                                      margin-top:-53vh;
+                                                      margin-left:-17vw !important;
+                                                      font-size: 2.2rem;
+                                                      font-weight: lighter;
+                                                      color:rgb(68, 68, 68);
+                                                  }
+                                          
+                                                  #bookLink{
+                                                      margin-top:-67vh;
+                                                      margin-left:-30vw !important;
+                                                      font-size:1.50rem;
+                                                       padding:0% 16% 0% 16%;
+                                                        border-width: 1px;
+                                                        border-color:#636161;
+                                                        border-style:solid;
+                                                        font-family: 'Pinyon Script', cursive;
+                                                        color:#3d3d3d !important;
+                                                       
+                                                      }
+                                               
+                                                     
+                                          
+                                                  #contactLink{
+                                                     display:none;
+                                          
+                                                  }
+                                          
+                                                  span{
+                                                      color:#475569;
+                                                  }
+                                          
+                                              #alchDesignLogo{
+                                                  margin-top:-12vh !important;
+                                              }
+                                      
+                                          .nav-logo-mobile{
+                                              height: 50vh !important;
+                                          }
+                                          
+                                          #mainNav{
+                                              display:none;
+                                          }
+                                      
+                                         
+                                 
+                                        
+                                            h1{
+                                                position: absolute;
+                                                margin-top:10vh !important;
+                                                margin-left:11vw !important;
+                                                font-size:3.5rem;
+                                                font-weight: lighter;
+                                                font-family: 'Pinyon Script', cursive;
+                                                color:rgb(99, 98, 98);
+                                                -webkit-text-stroke-width: 0.24px;
+                                    -webkit-text-stroke-color: rgb(250, 250, 250);
+                                               
+                                            }
+                                
+                                            .typewriter h1 {
+                                                overflow: hidden; /* Ensures the content is not revealed until the animation */
+                                                border-right: .15em solid rgba(230, 230, 230, 0); /* The typwriter cursor */
+                                                white-space: nowrap; /* Keeps the content on a single line */
+                                                margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+                                               /* Adjust as needed */
+                                                animation: 
+                                                  typing 3.5s steps(40, end),
+                                                  blink-caret .75s step-end infinite;
+                                              }
+                                              
+                                              /* The typing effect */
+                                              @keyframes typing {
+                                                from { width: 0 }
+                                                to { width: 100% }
+                                              }
+                                                      #subTitle{
+                                                        display:none;
+                                                       margin-top:24vh;
+                                                       margin-left:24vw;
+                                                       font-size:2rem;
+                                                        color:#616060 !important;
+                                                        font-weight: lighter;
+                                                      }
+                                        
+                                                      #aboutHeader{
+                                                        position: absolute;
+                                                        margin-top:29vh !important;
+                                                        margin-left:10vw !important;
+                                                        width:80vw;
+                                                        font-size:2rem;
+                                                        font-weight: lighter;
+                                                        font-family: 'Pinyon Script', cursive;
+                                                        color:rgb(94, 92, 92);
+                                                       
+                                                      }
+                                                     
+                                                    
+                                                    
+                                                    
+                                                    .websiteSample{
+                                                        position: absolute;
+                                                        margin-top:2%;
+                                                       
+                                                       
+                                                    }
+                                                    
+                                                    .slogan{
+                                                        margin-left:-3%;
+                                                        font-size: 2rem;
+                                                    }
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    #img1{
+                                                        position: absolute;
+                                                        margin-top:1vh;
+                                                        margin-left:26vw;
+                                                        height:12vh !important;
+                                                        width:45vw !important;
+                                                        z-index:-1;
+                                                    }
+                                                    
+                                                    #img2{
+                                                        position: absolute;
+                                                        margin-top:13vh;
+                                                        margin-left:6vw;
+                                                        height:12vh !important;
+                                                        width:38vw !important;
+                                                        z-index:-1;
+                                                    }
+                                                    
+                                                    #img3{
+                                                        position: absolute;
+                                                        margin-top:13vh;
+                                                        margin-left:46vw;
+                                                        height:12vh !important;
+                                                        width:38vw !important;
+                                                        z-index:-1;
+                                                    }
+                    
+                                                    #img4{
+                                                        position: absolute;
+                                                        margin-top:40vh;
+                                                        margin-left:3vw;
+                                                        height:12vh !important;
+                                                        width:38vw !important;
+                                                        z-index:-1;
+                                                       
+                                                    }
+                    
+                                                    #img5{
+                                                        position: absolute;
+                                                        margin-top:43vh;
+                                                        margin-left:40vw;
+                                                        height:12vh !important;
+                                                        width:38vw !important;
+                                                       
+                                                      
+                                                    }
+                    
+                                                  
+                                        
+                                                    #explore{
+                                          position:absolute;
+                                                        height:20vh;
+                                                        width:50vw;
+                                                        margin-top:69vh;
+                                                        margin-left:24vw;
+                                                    }
+                    
+                                                    .mySlides{
+                                                        height:5vh;
+                                                    }
+                                                    
+                                                    .sampleImg{
+                                                        
+                                                        display:flex;
+                                                        padding:4%;
+                                                        width:10vw;
+                                                        height:120px;
+                                                    }
+                                                    
+                                                    .prev, .next {
+                                                        cursor: pointer;
+                                                        position: absolute;
+                                                        top: 59vh;
+                                                        width: auto;
+                                                        margin-top: -50vh;
+                                                        padding: 5px;
+                                                        color: rgb(56, 55, 55);
+                                                        font-weight: bold;
+                                                        font-size: 18px;
+                                                        transition: 0.6s ease;
+                                                        border-radius: 0 3px 3px 0;
+                                                        user-select: none;
+                                                        z-index:1;
+                                                      }
+                                                      
+                                                      /* Position the "next button" to the right */
+                                                      .next {
+                                                        background-color:#f2f2f2;
+                                                        right: -4vw;
+                                                        border-radius: 100%;
+                    
+                                                       
+                                                      }
+                                                      .prev{
+                                                        background-color:#f2f2f2;
+                                                        left: -4vw;
+                                                        border-radius: 100%;
+                                                      }
+                                                      /* On hover, add a black background color with a little bit see-through */
+                                                      .prev:hover, .next:hover {
+                                                        background-color: rgba(0,0,0,0.8);
+                                                      }
+                                                      
+                                                      /* Caption text */
+                                                      .text {
+                                                        display:none;
+                                                        color: #f2f2f2;
+                                                        font-size: 15px;
+                                                        padding: 8px 12px;
+                                                        position: absolute;
+                                                        bottom: 8px;
+                                                        width: 100%;
+                                                        text-align: center;
+                                                      }
+                                                      
+                                                      /* Number text (1/3 etc) */
+                                                      .numbertext {
+                                                        color: #f2f2f2;
+                                                        font-size: 12px;
+                                                        padding: 8px 12px;
+                                                        position: absolute;
+                                                        top: 0;
+                                                      }
+                                                      
+                                                      /* The dots/bullets/indicators */
+                                                      .dot {
+                                                        display:none !important;
+                                                        cursor: pointer;
+                                                        height: 15px;
+                                                        width: 15px;
+                                                        margin: 0 2px;
+                                                        background-color: #bbb;
+                                                        border-radius: 50%;
+                                                        display: inline-block;
+                                                        transition: background-color 0.6s ease;
+                                                      }
+                                                      
+                                                      .active, .dot:hover {
+                                                        background-color: #717171;
+                                                      }
+                                                      
+                                                      /* Fading animation */
+                                                      .fade {
+                                                        animation-name: fade;
+                                                        animation-duration: 1.5s;
+                                                      }
+                                                      
+                                                      @keyframes fade {
+                                                        from {opacity: .4}
+                                                        to {opacity: 1}
+                                                      }
+                                                    
+                                                      #bodycontact{
+                                                        position: absolute;
+                                                        margin-top:260vh !important;
+                                                        margin-left:45vw;
+                                                        padding:2% 8% 2% 8%;
+                                                        background-color: #535353;
+                                                        color:white;
+                                                      }
+                    
+                                                      #exploreLink{
+                                                        position: absolute;
+                                                        margin-top:59vh !important;
+                                                         margin-left:26vw;
+                                                         font-size:2rem;
+                                                        
+                                                            padding:0% 15% 0% 15%;          
+                                                         border-width: 1px;
+                                                         border-color:#636161;
+                                                         border-style:solid;
+                                                         font-family: 'Pinyon Script', cursive;
+                                                         
+                                                         color:#5c5c5c !important;
+                                                        
+                                                       }
+                                                    
+                                                       #exploreLink:hover{
+                                                        background-color: #446b65;
+                                                        color:white;
+                                                       }
+                                                    #contactBodyLink{
+                                                        display:none;
+                                                    }
+                                                            
+                                                            
+                                        
+                                                   
+                                                    
+                                                    h3{
+                                                        margin-left:34vw;
+                                                        font-size:1.7rem;
+                                        
+                                                        font-weight: lighter;
+                                                        font-family: 'Pinyon Script', cursive;
+                                                         color:rgb(94, 92, 92);
+                                                        width:100%;
+                                                    
+                                                    }
+                                                    
+                                                    h4{
+                                                        margin-top:-4vh !important;
+                                                        margin-left:10vw !important;
+                                                        font-size:1.6rem;
+                                                        font-family: 'Pinyon Script', cursive;
+                                                        color:#535353;
+                                                        font-weight: lighter;
+                                                        padding:3%;
+                                                    
+                                                    }
+                                                    
+                                                    #addText{
+                                                        margin-top:97vh;
+                                                        margin-left:7vw;
+                                                        width:90vw;
+                                                        font-size:2rem;
+                                                        font-weight: lighter;
+                                                        font-family: 'Pinyon Script', cursive;
+                                                        color:rgb(94, 92, 92);
+                                                    }
+                                                   
+                                                    
+                                                    #footer{
+                                                        position: relative;
+                                                      margin-top:80vh;
+                                  
+                                                        height:30vh;
+                                                        background-color: #3a3a3a;
+                                                        color:#fff;
+                                                        margin-top:8vh !important;
+                                                    }
+                            
+                                                    .footerNav{
+                                                        display:inline-block;
+                                                        padding:0% 2% 0% 2%;
+                                                        margin-top:2vh;
+                                                        margin-left:10vw;
+                                                         
+                                                          font-size:1.4rem;
+                                                          color:rgb(212, 212, 212);
+                                                       }
+                                          
+                                                      
+                                                       #footerLogo{
+                                                          position: absolute;
+                                                          margin-top:5vh;
+                                                          margin-left:15vw !important;
+                                                         font-size:2.9rem;
+                                                         font-family: 'Pinyon Script', cursive;
+                                                          font-weight: lighter;
+                                                          color:white;
+                                                      
+                                                       }
+                                                        
+                                         
+                                             
+                                                   
+                                                            
+                                                            
+                                                            }
+
+
+
+                                                            
+
+
+                                                            @media screen and  (min-width:586px) and (max-width:820px){
 
                                                               
                                                 #header{
@@ -7981,7 +8477,7 @@ h4{
                                                         margin-left:10vw;
                                                        padding:0% 4% 0% 4%;
                                                         color:#242424;
-                                                        font-size:1.50rem;
+                                                        font-size:1rem;
                                                         font-weight: lighter;
                                         
                                                       }
@@ -7989,7 +8485,7 @@ h4{
                                                       #linkOne{
                                                         position: absolute;
                                                         margin-top:10px !important;
-                                                        margin-left:3vw;
+                                                        margin-left:6vw;
                                                        
                                                        
                                                       }
@@ -8004,15 +8500,15 @@ h4{
                                                       #linkThree{
                                                         position: absolute;
                                                         margin-top:10px !important;
-                                                        margin-left:80vw;
+                                                        margin-left:76vw;
                                                        
                                                       }
         
                                                       #booking{
                                                         position: absolute;
                                                         margin-top:45vh !important;
-                                                        margin-left:40vw;
-                                                        font-size:1.6rem;
+                                                        margin-left:33vw;
+                                                        font-size:1.3rem;
                                                         border-width:1px;
                                                         border-style: groove;
                                                         border-color: #918f8f;
@@ -8039,7 +8535,7 @@ h4{
                                                         position: absolute;
                                                         margin-top:-7vh !important;
                                                         margin-left:34vw !important;
-                                                        font-size:3rem;
+                                                        font-size:1.7rem;
                                                          font-weight: lighter;
                                                          font-family: 'Pinyon Script', cursive;
                                                      color:rgba(255, 255, 255, 0.911) !important;
@@ -8064,22 +8560,22 @@ h4{
                                                       }
                                         
                                                       #subTitle{
-                                                       margin-top:16vh;
+                                                       margin-top:18vh;
                                                        margin-left:14vw;
-                                                       font-size:4rem;
+                                                       font-size:2.5rem;
                                                          font-weight: lighter;
                                                          font-family: 'Pinyon Script', cursive;
-                                                     color:rgba(107, 107, 107, 0.726) !important;
+                                                     color:#3a3a3a;
                                                      -webkit-text-stroke-width: 0.60px !important;
                                                     -webkit-text-stroke-color: rgb(250, 250, 250);
                                                       }
                                         
                                                       #aboutHeader{
                                                         position: absolute;
-                                                        margin-top:57vh !important;
+                                                        margin-top:50vh !important;
                                                         margin-left:17vw !important;
                                                         width:70vw;
-                                                        font-size:3.5rem;
+                                                        font-size:2.5rem;
                                                         font-weight: lighter;
                                                         font-family: 'Pinyon Script', cursive;
                                                         color:rgb(94, 92, 92);
@@ -8107,10 +8603,10 @@ h4{
                                                     
                                                     #img1{
                                                         position: absolute;
-                                                        margin-top:-2vh;
-                                                        margin-left:20vw;
-                                                        height:25vh !important;
-                                                        width:50vw !important;
+                                                        margin-top:6vh;
+                                                        margin-left:24vw;
+                                                        height:17vh !important;
+                                                        width:45vw !important;
                                                         z-index:-1;
                                                     }
                                                     
@@ -8118,8 +8614,8 @@ h4{
                                                         position: absolute;
                                                         margin-top:24vh;
                                                         margin-left:-3vw;
-                                                        height:25vh !important;
-                                                        width:50vw !important;
+                                                        height:17vh !important;
+                                                        width:45vw !important;
                                                         z-index:-1;
                                                     }
                                                     
@@ -8127,8 +8623,8 @@ h4{
                                                         position: absolute;
                                                         margin-top:24vh;
                                                         margin-left:46vw;
-                                                        height:25vh !important;
-                                                        width:50vw !important;
+                                                        height:17vh !important;
+                                                        width:45vw !important;
                                                         z-index:-1;
                                                     }
         
@@ -8136,8 +8632,8 @@ h4{
                                                         position: absolute;
                                                         margin-top:70vh;
                                                         margin-left:-2vw;
-                                                        height:25vh !important;
-                                                        width:50vw !important;
+                                                        height:17vh !important;
+                                                        width:45vw !important;
                                                         z-index:-1;
                                                     }
         
@@ -8145,8 +8641,8 @@ h4{
                                                         position: absolute;
                                                         margin-top:80vh;
                                                         margin-left:45vw;
-                                                        height:25vh !important;
-                                                        width:50vw !important;
+                                                        height:17vh !important;
+                                                        width:45vw !important;
                                                         z-index:-1;
                                                     }
         
