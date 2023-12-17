@@ -5001,9 +5001,7 @@ h4{
 
 
                                     @media screen and (min-width:353px) and (max-width:380px) {
-                                      body{
-                                        background-color: pink;
-                                      }
+                                      
 
                           
                                       #header{
@@ -5492,10 +5490,7 @@ h4{
                                             }
         
                                             @media screen and (min-width:381px) and (max-width:418px) {
-                                              body{
-                                                background-color: red;
-                                              }
-
+                                             
                           
                                               #header{
                                                 height:30vh !important;
@@ -5752,7 +5747,7 @@ h4{
                     
                                                     #img4{
                                                         position: absolute;
-                                                        margin-top:33vh;
+                                                        margin-top:36vh;
                                                         margin-left:1vw;
                                                         height:9vh !important;
                                                         width:50vw !important;
