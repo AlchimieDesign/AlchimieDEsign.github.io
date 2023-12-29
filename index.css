@@ -152,7 +152,7 @@ li{
                 top: 2rem;
                 flex-direction: column;
                 background-color: #fff !important;
-                height:20vh !important;
+                height:50vh !important;
                 width: 100%;
                 border-radius: 10px;
                 text-align: center;
@@ -518,7 +518,7 @@ li{
 
    .footerNav{
       display:block;
-      margin-left:20vw;
+      margin-left:15vw;
       padding:3% 5% 2% 5%;
       font-size:1rem;
       color:white;
@@ -528,7 +528,7 @@ li{
       position: absolute;
       margin-top:3vh;
       margin-left:1vw;
-      font-size: .80rem;
+      font-size: .60rem;
       font-family: 'Pinyon Script', cursive;
       font-weight: lighter;
 
