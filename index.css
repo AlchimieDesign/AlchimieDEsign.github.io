@@ -118,6 +118,7 @@ li{
     }
 
     @media screen   and (max-width:100px){
+        body{background-color:red;}
       
       #addText{
           display:none;
