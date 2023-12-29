@@ -427,7 +427,7 @@ li{
      #exploreLink{
       position: absolute;
       margin-top:-3vh !important;
-       margin-left:20vw;
+       margin-left:25vw;
        font-size:.70rem;
       
           padding:2% 9% 2% 9%;          
@@ -525,7 +525,7 @@ li{
      
       position: absolute;
       margin-top:3vh;
-      margin-left:1vw;
+      margin-left:8vw;
       font-size: .60rem;
       font-family: 'Pinyon Script', cursive;
       font-weight: lighter;
