@@ -215,7 +215,7 @@ li{
             #homeLink{
                 position: absolute;
                 margin-top:-17vh;
-                margin-left:-50vw !important;
+                margin-left:-48vw !important;
                 font-size: 1rem;
                 font-weight: lighter;
                 color:rgb(68, 68, 68);
@@ -223,7 +223,7 @@ li{
     
             #aboutLink{
                 position: absolute;
-                margin-top:-19vh;
+                margin-top:-23vh;
                 margin-left:-45vw !important;
                 font-size: 1rem;
                 font-weight: lighter;
@@ -232,7 +232,7 @@ li{
     
             #missionLink{
                 position: absolute;
-                margin-top:-25vh;
+                margin-top:-28vh;
                 margin-left:-45vw !important;
                 font-size: 1rem;
                 font-weight: lighter;
