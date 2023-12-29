@@ -214,7 +214,7 @@ li{
     
             #homeLink{
                 position: absolute;
-                margin-top:-10vh;
+                margin-top:-17vh;
                 margin-left:-50vw !important;
                 font-size: 1rem;
                 font-weight: lighter;
@@ -223,7 +223,7 @@ li{
     
             #aboutLink{
                 position: absolute;
-                margin-top:-15vh;
+                margin-top:-19vh;
                 margin-left:-45vw !important;
                 font-size: 1rem;
                 font-weight: lighter;
@@ -232,7 +232,7 @@ li{
     
             #missionLink{
                 position: absolute;
-                margin-top:-20vh;
+                margin-top:-25vh;
                 margin-left:-45vw !important;
                 font-size: 1rem;
                 font-weight: lighter;
@@ -240,7 +240,7 @@ li{
             }
     
             #bookLink{
-                margin-top:-25vh;
+                margin-top:-28vh;
                 margin-left:-48vw !important;
                 font-size:.70rem;
                  padding:2% 10% 2% 10%;
