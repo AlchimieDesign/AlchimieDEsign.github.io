@@ -1,13 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Imbue:opsz,wght@10..100,100&family=Italianno&amily=Tsukimi+Rounded:wght@300&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Imbue:opsz,wght@10..100,100&family=Italianno&family=Pinyon+Script&family=Tsukimi+Rounded:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Cinzel+Decorative&family=Cormorant+Garamond:wght@300&family=Cormorant+Infant:wght@300&family=Cormorant+SC:wght@300&family=Forum&family=Gilda+Display&family=Imbue:opsz,wght@10..100,100&family=Italianno&family=Oranienbaum&family=Pinyon+Script&family=Tsukimi+Rounded:wght@300&display=swap');
 *{
     margin:0;
     padding:0;
 }
 body{
-    font-family: 'Imbue', serif;}
+    font-family: 'Cormorant Infant', serif;}
 
 li{
     list-style-type:none;
@@ -260,7 +257,7 @@ body{
                        border-width: 1px;
                        border-color:#636161;
                        border-style:solid;
-                       font-family: 'Italianno', cursive;
+                       font-family: 'Pinyon Script', cursive;
                        color:#3d3d3d !important;
                       
                      }
@@ -304,7 +301,7 @@ body{
              margin-left:8vw !important;
              font-size:1.2rem;
              font-weight: lighter;
-            font-family: 'Italianno', cursive;
+             font-family: 'Pinyon Script', cursive;
              color:rgb(26, 25, 25);
             
          }
@@ -422,7 +419,7 @@ body{
             margin-top:-20vh;
             margin-left:23vw !important;
             font-size:2rem;
-            font-family: 'Italianno', cursive;
+            font-family: 'Pinyon Script', cursive;
             color:#535353;
         }
         #about1{
@@ -434,7 +431,7 @@ body{
             margin-top:-20vh;
             margin-left:10vw !important;
             font-size:2rem;
-            font-family: 'Italianno', cursive;
+            font-family: 'Pinyon Script', cursive;
             color:#535353;
         }
 
@@ -450,7 +447,7 @@ body{
             margin-left:24vw !important;
             font-size:2rem;
             font-weight: lighter;
-           font-family: 'Italianno', cursive;
+            font-family: 'Pinyon Script', cursive;
             color:rgb(78, 71, 71);
 
         }
@@ -494,7 +491,7 @@ body{
          border-width: 1px;
          border-color:#636161;
          border-style:solid;
-         font-family: 'Italianno', cursive;
+         font-family: 'Pinyon Script', cursive;
          color:#3d3d3d !important;
         }
 
@@ -515,7 +512,7 @@ margin-top:-4vh !important;
 margin-left:3vw !important;
 font-size:2rem;
 font-weight: lighter;
-font-family: 'Italianno', cursive;
+font-family: 'Pinyon Script', cursive;
 color:rgb(78, 71, 71);
 }
 
@@ -588,7 +585,7 @@ font-size: 15px !important;
               margin-top:5vh;
               margin-left:6vw !important;
              font-size:1rem;
-              font-family: 'Italianno', cursive;
+             font-family: 'Pinyon Script', cursive;
               font-weight: lighter;
               color:white;
           
@@ -738,7 +735,7 @@ font-size: 15px !important;
                                    border-width: 1px;
                                    border-color:#636161;
                                    border-style:solid;
-                                   font-family: 'Italianno', cursive;
+                                   font-family: 'Pinyon Script', cursive;
                                    color:#3d3d3d !important;
                                   
                                  }
@@ -781,7 +778,7 @@ font-size: 15px !important;
                          margin-left:8vw !important;
                          font-size:1.2rem;
                          font-weight: lighter;
-                        font-family: 'Italianno', cursive;
+                         font-family: 'Pinyon Script', cursive;
                          color:rgb(26, 25, 25);
                         
                      }
@@ -895,7 +892,7 @@ font-size: 15px !important;
                         margin-top:-20vh;
                         margin-left:23vw !important;
                         font-size:2rem;
-                        font-family: 'Italianno', cursive;
+                        font-family: 'Pinyon Script', cursive;
                         color:#535353;
                     }
                     #about1{
@@ -907,7 +904,7 @@ font-size: 15px !important;
                         margin-top:-20vh;
                         margin-left:17vw !important;
                         font-size:2.8rem;
-                        font-family: 'Italianno', cursive;
+                        font-family: 'Pinyon Script', cursive;
                         color:#535353;
                     }
             
@@ -922,7 +919,7 @@ font-size: 15px !important;
                         margin-left:24vw !important;
                         font-size:2rem;
                         font-weight: lighter;
-                       font-family: 'Italianno', cursive;
+                        font-family: 'Pinyon Script', cursive;
                         color:rgb(78, 71, 71);
             
                     }
@@ -966,7 +963,7 @@ font-size: 15px !important;
                      border-width: 1px;
                      border-color:#636161;
                      border-style:solid;
-                     font-family: 'Italianno', cursive;
+                     font-family: 'Pinyon Script', cursive;
                      color:#3d3d3d !important;
                     }
             
@@ -987,7 +984,7 @@ font-size: 15px !important;
             margin-left:1vw !important;
             font-size:2rem;
             font-weight: lighter;
-            font-family: 'Italianno', cursive;
+            font-family: 'Pinyon Script', cursive;
             color:rgb(78, 71, 71);
             }
             
@@ -1060,7 +1057,7 @@ font-size: 15px !important;
                           margin-top:5vh;
                           margin-left:3vw !important;
                          font-size:1.5rem;
-                          font-family: 'Italianno', cursive;
+                         font-family: 'Pinyon Script', cursive;
                           font-weight: lighter;
                           color:white;
                       
@@ -1219,7 +1216,7 @@ font-size: 15px !important;
                                    border-width: 1px;
                                    border-color:#636161;
                                    border-style:solid;
-                                   font-family: 'Italianno', cursive;
+                                   font-family: 'Pinyon Script', cursive;
                                    color:#3d3d3d !important;
                                   
                                  }
@@ -1262,7 +1259,7 @@ font-size: 15px !important;
                          margin-left:8vw !important;
                          font-size:1.2rem;
                          font-weight: lighter;
-                        font-family: 'Italianno', cursive;
+                         font-family: 'Pinyon Script', cursive;
                          color:rgb(26, 25, 25);
                         
                      }
@@ -1376,7 +1373,7 @@ font-size: 15px !important;
                         margin-top:-20vh;
                         margin-left:23vw !important;
                         font-size:2rem;
-                        font-family: 'Italianno', cursive;
+                        font-family: 'Pinyon Script', cursive;
                         color:#535353;
                     }
                     #about1{
@@ -1388,7 +1385,7 @@ font-size: 15px !important;
                         margin-top:-20vh;
                         margin-left:17vw !important;
                         font-size:2.8rem;
-                        font-family: 'Italianno', cursive;
+                        font-family: 'Pinyon Script', cursive;
                         color:#535353;
                     }
             
@@ -1403,7 +1400,7 @@ font-size: 15px !important;
                         margin-left:24vw !important;
                         font-size:2rem;
                         font-weight: lighter;
-                       font-family: 'Italianno', cursive;
+                        font-family: 'Pinyon Script', cursive;
                         color:rgb(78, 71, 71);
             
                     }
@@ -1447,7 +1444,7 @@ font-size: 15px !important;
                      border-width: 1px;
                      border-color:#636161;
                      border-style:solid;
-                     font-family: 'Italianno', cursive;
+                     font-family: 'Pinyon Script', cursive;
                      color:#3d3d3d !important;
                     }
             
@@ -1468,7 +1465,7 @@ font-size: 15px !important;
             margin-left:-2vw !important;
             font-size:2rem;
             font-weight: lighter;
-            font-family: 'Italianno', cursive;
+            font-family: 'Pinyon Script', cursive;
             color:rgb(78, 71, 71);
             }
             
@@ -1541,7 +1538,7 @@ font-size: 15px !important;
                           margin-top:5vh;
                           margin-left:7vw !important;
                          font-size:1.5rem;
-                          font-family: 'Italianno', cursive;
+                         font-family: 'Pinyon Script', cursive;
                           font-weight: lighter;
                           color:white;
                       
@@ -1688,7 +1685,7 @@ font-size: 15px !important;
                                            border-width: 1px;
                                            border-color:#636161;
                                            border-style:solid;
-                                           font-family: 'Italianno', cursive;
+                                           font-family: 'Pinyon Script', cursive;
                                            color:#3d3d3d !important;
                                           
                                          }
@@ -1731,7 +1728,7 @@ font-size: 15px !important;
                                  margin-left:8vw !important;
                                  font-size:1.2rem;
                                  font-weight: lighter;
-                                font-family: 'Italianno', cursive;
+                                 font-family: 'Pinyon Script', cursive;
                                  color:rgb(26, 25, 25);
                                 
                              }
@@ -1845,7 +1842,7 @@ font-size: 15px !important;
                                 margin-top:-20vh;
                                 margin-left:23vw !important;
                                 font-size:2rem;
-                                font-family: 'Italianno', cursive;
+                                font-family: 'Pinyon Script', cursive;
                                 color:#535353;
                             }
                             #about1{
@@ -1857,7 +1854,7 @@ font-size: 15px !important;
                                 margin-top:-20vh;
                                 margin-left:17vw !important;
                                 font-size:2.8rem;
-                                font-family: 'Italianno', cursive;
+                                font-family: 'Pinyon Script', cursive;
                                 color:#535353;
                             }
                     
@@ -1872,7 +1869,7 @@ font-size: 15px !important;
                                 margin-left:24vw !important;
                                 font-size:2rem;
                                 font-weight: lighter;
-                               font-family: 'Italianno', cursive;
+                                font-family: 'Pinyon Script', cursive;
                                 color:rgb(78, 71, 71);
                     
                             }
@@ -1916,7 +1913,7 @@ font-size: 15px !important;
                              border-width: 1px;
                              border-color:#636161;
                              border-style:solid;
-                             font-family: 'Italianno', cursive;
+                             font-family: 'Pinyon Script', cursive;
                              color:#3d3d3d !important;
                             }
                     
@@ -1937,7 +1934,7 @@ font-size: 15px !important;
                     margin-left:-13vw !important;
                     font-size:2rem;
                     font-weight: lighter;
-                    font-family: 'Italianno', cursive;
+                    font-family: 'Pinyon Script', cursive;
                     color:rgb(78, 71, 71);
                     }
                     
@@ -2010,7 +2007,7 @@ font-size: 15px !important;
                                   margin-top:5vh;
                                   margin-left:5vw !important;
                                  font-size:2rem;
-                                  font-family: 'Italianno', cursive;
+                                 font-family: 'Pinyon Script', cursive;
                                   font-weight: lighter;
                                   color:white;
                               
@@ -2159,7 +2156,7 @@ font-size: 15px !important;
                                        border-width: 1px;
                                        border-color:#636161;
                                        border-style:solid;
-                                       font-family: 'Italianno', cursive;
+                                       font-family: 'Pinyon Script', cursive;
                                        color:#3d3d3d !important;
                                       
                                      }
@@ -2195,7 +2192,7 @@ font-size: 15px !important;
                                     margin-left:30vw !important;
                                     font-size:1.4rem;
                                     font-weight: lighter;
-                                   font-family: 'Italianno', cursive;
+                                    font-family: 'Pinyon Script', cursive;
                                     color:rgb(105, 103, 103);
                                    
                                 }
@@ -2312,7 +2309,7 @@ font-size: 15px !important;
                                     margin-top:-20vh;
                                     margin-left:23vw !important;
                                     font-size:2rem;
-                                    font-family: 'Italianno', cursive;
+                                    font-family: 'Pinyon Script', cursive;
                                     color:#535353;
                                 }
                                 #about1{
@@ -2324,7 +2321,7 @@ font-size: 15px !important;
                                     margin-top:-20vh;
                                     margin-left:17vw !important;
                                     font-size:2.8rem;
-                                    font-family: 'Italianno', cursive;
+                                    font-family: 'Pinyon Script', cursive;
                                     color:#535353;
                                 }
                         
@@ -2339,7 +2336,7 @@ font-size: 15px !important;
                                     margin-left:24vw !important;
                                     font-size:2rem;
                                     font-weight: lighter;
-                                   font-family: 'Italianno', cursive;
+                                    font-family: 'Pinyon Script', cursive;
                                     color:rgb(78, 71, 71);
                         
                                 }
@@ -2383,7 +2380,7 @@ font-size: 15px !important;
                                  border-width: 1px;
                                  border-color:#636161;
                                  border-style:solid;
-                                 font-family: 'Italianno', cursive;
+                                 font-family: 'Pinyon Script', cursive;
                                  color:#3d3d3d !important;
                                 }
                         
@@ -2404,7 +2401,7 @@ font-size: 15px !important;
                         margin-left:5vw !important;
                         font-size:2rem;
                         font-weight: lighter;
-                        font-family: 'Italianno', cursive;
+                        font-family: 'Pinyon Script', cursive;
                         color:rgb(78, 71, 71);
                         }
                         
@@ -2477,7 +2474,7 @@ font-size: 15px !important;
                                       margin-top:5vh;
                                       margin-left:6vw !important;
                                      font-size:2rem;
-                                      font-family: 'Italianno', cursive;
+                                     font-family: 'Pinyon Script', cursive;
                                       font-weight: lighter;
                                       color:white;
                                   
@@ -2623,7 +2620,7 @@ font-size: 15px !important;
                                           border-width: 1px;
                                           border-color:#636161;
                                           border-style:solid;
-                                          font-family: 'Italianno', cursive;
+                                          font-family: 'Pinyon Script', cursive;
                                           color:#3d3d3d !important;
                                          
                                         }
@@ -2659,7 +2656,7 @@ font-size: 15px !important;
                                                 margin-left:30vw !important;
                                                 font-size:1.7rem;
                                                 font-weight: lighter;
-                                               font-family: 'Italianno', cursive;
+                                                font-family: 'Pinyon Script', cursive;
                                                 color:rgb(105, 103, 103);
                                                
                                             }
@@ -2776,7 +2773,7 @@ font-size: 15px !important;
                                                 margin-top:-20vh;
                                                 margin-left:23vw !important;
                                                 font-size:2rem;
-                                                font-family: 'Italianno', cursive;
+                                                font-family: 'Pinyon Script', cursive;
                                                 color:#535353;
                                             }
                                             #about1{
@@ -2788,7 +2785,7 @@ font-size: 15px !important;
                                                 margin-top:-20vh;
                                                 margin-left:17vw !important;
                                                 font-size:2.8rem;
-                                                font-family: 'Italianno', cursive;
+                                                font-family: 'Pinyon Script', cursive;
                                                 color:#535353;
                                             }
                                     
@@ -2803,7 +2800,7 @@ font-size: 15px !important;
                                                 margin-left:24vw !important;
                                                 font-size:2rem;
                                                 font-weight: lighter;
-                                               font-family: 'Italianno', cursive;
+                                                font-family: 'Pinyon Script', cursive;
                                                 color:rgb(78, 71, 71);
                                     
                                             }
@@ -2847,7 +2844,7 @@ font-size: 15px !important;
                                              border-width: 1px;
                                              border-color:#636161;
                                              border-style:solid;
-                                             font-family: 'Italianno', cursive;
+                                             font-family: 'Pinyon Script', cursive;
                                              color:#3d3d3d !important;
                                             }
                                     
@@ -2868,7 +2865,7 @@ font-size: 15px !important;
                                     margin-left:5vw !important;
                                     font-size:2rem;
                                     font-weight: lighter;
-                                    font-family: 'Italianno', cursive;
+                                    font-family: 'Pinyon Script', cursive;
                                     color:rgb(78, 71, 71);
                                     }
                                     
@@ -2941,7 +2938,7 @@ font-size: 15px !important;
                                                   margin-top:5vh;
                                                   margin-left:13vw !important;
                                                  font-size:2.3rem;
-                                                  font-family: 'Italianno', cursive;
+                                                 font-family: 'Pinyon Script', cursive;
                                                   font-weight: lighter;
                                                   color:white;
                                               
@@ -3099,7 +3096,7 @@ font-size: 15px !important;
                   border-width: 1px;
                   border-color:#636161;
                   border-style:solid;
-                  font-family: 'Italianno', cursive;
+                  font-family: 'Pinyon Script', cursive;
                   color:#3d3d3d !important;
                  
                 }
@@ -3135,7 +3132,7 @@ font-size: 15px !important;
                         margin-left:26vw !important;
                         font-size:2.2rem;
                         font-weight: lighter;
-                       font-family: 'Italianno', cursive;
+                        font-family: 'Pinyon Script', cursive;
                         color:rgb(105, 103, 103);
                        
                     }
@@ -3275,7 +3272,7 @@ font-size: 15px !important;
                     margin-left:25vw !important;
                     font-size:3rem;
                     font-weight: lighter;
-                   font-family: 'Italianno', cursive;
+                    font-family: 'Pinyon Script', cursive;
                     color:rgb(78, 71, 71);
     
                 }
@@ -3324,7 +3321,7 @@ font-size: 15px !important;
                  border-width: 1px;
                  border-color:#636161;
                  border-style:solid;
-                 font-family: 'Italianno', cursive;
+                 font-family: 'Pinyon Script', cursive;
                  color:#3d3d3d !important;
                 }
     
@@ -3345,7 +3342,7 @@ font-size: 15px !important;
     margin-left:1vw !important;
     font-size:4rem;
     font-weight: lighter;
-    font-family: 'Italianno', cursive;
+    font-family: 'Pinyon Script', cursive;
     color:rgb(78, 71, 71);
     }
     
@@ -3421,7 +3418,7 @@ font-size: 15px !important;
                       margin-top:5vh;
                       margin-left:8vw !important;
                      font-size:3rem;
-                      font-family: 'Italianno', cursive;
+                     font-family: 'Pinyon Script', cursive;
                       font-weight: lighter;
                       color:white;
                   
@@ -3565,7 +3562,7 @@ font-size: 15px !important;
                           border-width: 1px;
                           border-color:#636161;
                           border-style:solid;
-                          font-family: 'Italianno', cursive;
+                          font-family: 'Pinyon Script', cursive;
                           color:#3d3d3d !important;
                          
                         }
@@ -3601,7 +3598,7 @@ font-size: 15px !important;
                                 margin-left:26vw !important;
                                 font-size:2.2rem;
                                 font-weight: lighter;
-                               font-family: 'Italianno', cursive;
+                                font-family: 'Pinyon Script', cursive;
                                 color:rgb(105, 103, 103);
                                
                             }
@@ -3741,7 +3738,7 @@ font-size: 15px !important;
                             margin-left:25vw !important;
                             font-size:5rem;
                             font-weight: lighter;
-                           font-family: 'Italianno', cursive;
+                            font-family: 'Pinyon Script', cursive;
                             color:rgb(78, 71, 71);
             
                         }
@@ -3790,7 +3787,7 @@ font-size: 15px !important;
                          border-width: 1px;
                          border-color:#636161;
                          border-style:solid;
-                         font-family: 'Italianno', cursive;
+                         font-family: 'Pinyon Script', cursive;
                          color:#3d3d3d !important;
                         }
             
@@ -3811,7 +3808,7 @@ font-size: 15px !important;
             margin-left:3vw !important;
             font-size:3.3rem;
             font-weight: lighter;
-            font-family: 'Italianno', cursive;
+            font-family: 'Pinyon Script', cursive;
             color:rgb(78, 71, 71);
             }
             
@@ -3894,7 +3891,7 @@ font-size: 15px !important;
                               margin-top:5vh;
                               margin-left:11vw !important;
                              font-size:3rem;
-                              font-family: 'Italianno', cursive;
+                             font-family: 'Pinyon Script', cursive;
                               font-weight: lighter;
                               color:white;
                           
@@ -4035,7 +4032,7 @@ font-size: 15px !important;
                           border-width: 1px;
                           border-color:#636161;
                           border-style:solid;
-                          font-family: 'Italianno', cursive;
+                          font-family: 'Pinyon Script', cursive;
                           color:#3d3d3d !important;
                          
                         }
@@ -4071,7 +4068,7 @@ font-size: 15px !important;
                                 margin-left:26vw !important;
                                 font-size:2.5rem;
                                 font-weight: lighter;
-                               font-family: 'Italianno', cursive;
+                                font-family: 'Pinyon Script', cursive;
                                 color:rgb(105, 103, 103);
                                
                             }
@@ -4211,7 +4208,7 @@ font-size: 15px !important;
                             margin-left:25vw !important;
                             font-size:3rem;
                             font-weight: lighter;
-                           font-family: 'Italianno', cursive;
+                            font-family: 'Pinyon Script', cursive;
                             color:rgb(78, 71, 71);
             
                         }
@@ -4260,7 +4257,7 @@ font-size: 15px !important;
                          border-width: 1px;
                          border-color:#636161;
                          border-style:solid;
-                         font-family: 'Italianno', cursive;
+                         font-family: 'Pinyon Script', cursive;
                          color:#3d3d3d !important;
                         }
             
@@ -4281,7 +4278,7 @@ font-size: 15px !important;
             margin-left:10vw !important;
             font-size:3.5rem;
             font-weight: lighter;
-            font-family: 'Italianno', cursive;
+            font-family: 'Pinyon Script', cursive;
             color:rgb(78, 71, 71);
             }
 
@@ -4363,7 +4360,7 @@ font-size: 15px !important;
                               margin-top:5vh;
                               margin-left:16vw !important;
                              font-size:3rem;
-                              font-family: 'Italianno', cursive;
+                             font-family: 'Pinyon Script', cursive;
                               font-weight: lighter;
                               color:white;
                           
@@ -4502,7 +4499,7 @@ font-size: 15px !important;
                           border-width: 1px;
                           border-color:#636161;
                           border-style:solid;
-                          font-family: 'Italianno', cursive;
+                          font-family: 'Pinyon Script', cursive;
                           color:#3d3d3d !important;
                          
                         }
@@ -4538,7 +4535,7 @@ font-size: 15px !important;
                                 margin-left:26vw !important;
                                 font-size:2.5rem;
                                 font-weight: lighter;
-                               font-family: 'Italianno', cursive;
+                                font-family: 'Pinyon Script', cursive;
                                 color:rgb(105, 103, 103);
                                
                             }
@@ -4678,7 +4675,7 @@ font-size: 15px !important;
                             margin-left:25vw !important;
                             font-size:3rem;
                             font-weight: lighter;
-                           font-family: 'Italianno', cursive;
+                            font-family: 'Pinyon Script', cursive;
                             color:rgb(78, 71, 71);
             
                         }
@@ -4727,7 +4724,7 @@ font-size: 15px !important;
                          border-width: 1px;
                          border-color:#636161;
                          border-style:solid;
-                         font-family: 'Italianno', cursive;
+                         font-family: 'Pinyon Script', cursive;
                          color:#3d3d3d !important;
                         }
             
@@ -4748,7 +4745,7 @@ font-size: 15px !important;
             margin-left:15vw !important;
             font-size:3.2rem;
             font-weight: lighter;
-            font-family: 'Italianno', cursive;
+            font-family: 'Pinyon Script', cursive;
             color:rgb(78, 71, 71);
             }
             
@@ -4823,7 +4820,7 @@ font-size: 15px !important;
                               margin-top:5vh;
                               margin-left:16vw !important;
                              font-size:3rem;
-                              font-family: 'Italianno', cursive;
+                              font-family: 'Pinyon Script', cursive;
                               font-weight: lighter;
                               color:white;
                           
@@ -4834,7 +4831,7 @@ font-size: 15px !important;
 
 
 
-                      @media screen and (min-width:491px) and (max-width:620px)  {
+                      @media screen and (min-width:491px) and (max-width:588px)  {
                        
                
                         #mobileLogo{
@@ -4966,7 +4963,7 @@ font-size: 15px !important;
                                   border-width: 1px;
                                   border-color:#636161;
                                   border-style:solid;
-                                  font-family: 'Italianno', cursive;
+                                  font-family: 'Pinyon Script', cursive;
                                   color:#3d3d3d !important;
                                  
                                 }
@@ -4998,11 +4995,11 @@ font-size: 15px !important;
                     
                                       h1{
                                         position: absolute;
-                                        margin-top:-3vh !important;
-                                        margin-left:26vw !important;
-                                        font-size:2.5rem;
+                                        margin-top:-4vh !important;
+                                        margin-left:30vw !important;
+                                        font-size:2rem;
                                         font-weight: lighter;
-                                       font-family: 'Italianno', cursive;
+                                        font-family: 'Pinyon Script', cursive;
                                         color:rgb(105, 103, 103);
                                        
                                     }
@@ -5105,8 +5102,8 @@ font-size: 15px !important;
                                     position: absolute;
                                     margin-top:-47vh;
                                     margin-left:17vw !important;
-                                    height:32vh !important;
-                                    width:44vw;
+                                    height:35vh !important;
+                                    width:34vw;
                                    
                                 }
                     
@@ -5114,8 +5111,8 @@ font-size: 15px !important;
                                     position: absolute;
                                     margin-top:-42vh;
                                     margin-left:64vw !important;
-                                    height:22vh !important;
-                                    width:25vw !important;
+                                    height:29vh !important;
+                                    width:22vw !important;
                                     
                     
                                 }
@@ -5142,7 +5139,7 @@ font-size: 15px !important;
                                     margin-left:25vw !important;
                                     font-size:3rem;
                                     font-weight: lighter;
-                                   font-family: 'Italianno', cursive;
+                                    font-family: 'Pinyon Script', cursive;
                                     color:rgb(78, 71, 71);
                     
                                 }
@@ -5162,18 +5159,18 @@ font-size: 15px !important;
                                 #about1{
                                     position: absolute;
                                     margin-top:-30vh;
-                                    margin-left:8vw;
+                                    margin-left:12vw;
                                     font-size:18px;
-                                    width:85vw;
+                                    width:80vw;
                                 }
                     
                     
                                 #about2{
                                     position: absolute;
                                     margin-top:-23vh;
-                                    margin-left:8vw;
+                                    margin-left:12vw;
                                     font-size:18px;
-                                    width:85vw;
+                                    width:80vw;
                                 }
                     
                                 #mobile{
@@ -5182,7 +5179,7 @@ font-size: 15px !important;
                     
                                 #contact{
                                     position: absolute;
-                                    margin-top:-12vh !important;
+                                    margin-top:-14vh !important;
                                     margin-left:38vw;
                                     font-size:1rem;
                     
@@ -5191,7 +5188,7 @@ font-size: 15px !important;
                                  border-width: 1px;
                                  border-color:#636161;
                                  border-style:solid;
-                                 font-family: 'Italianno', cursive;
+                                 font-family: 'Pinyon Script', cursive;
                                  color:#3d3d3d !important;
                                 }
                     
@@ -5209,10 +5206,10 @@ font-size: 15px !important;
                     h3{
                     position: absolute;
                     margin-top:-10vh !important;
-                    margin-left:15vw !important;
-                    font-size:3.2rem;
+                    margin-left:12vw !important;
+                    font-size:4rem;
                     font-weight: lighter;
-                    font-family: 'Italianno', cursive;
+                    font-family: 'Pinyon Script', cursive;
                     color:rgb(78, 71, 71);
                     }
                     
@@ -5232,22 +5229,22 @@ font-size: 15px !important;
                     
                     #itemTextOne{
                       
-                        margin-top:3vh !important;
-                        margin-left:-15vw;
-                        width:80vw;
+                        margin-top:1vh !important;
+                        margin-left:-10vw;
+                        width:70vw;
                     }
                     
                     #itemTextTwo{
                        
                         margin-top:5vh;
-                        margin-left:-10vw !important;
+                        margin-left:-2vw !important;
                         width:90vw;
                     }
                     
                     #itemTextThree{
                         
                         margin-top:6vh;
-                        margin-left:-2vw !important;
+                        margin-left:4vw !important;
                         width:90vw !important;
                         
                     }
@@ -5285,9 +5282,9 @@ font-size: 15px !important;
                                    #footerLogo{
                                       position: absolute;
                                       margin-top:5vh;
-                                      margin-left:16vw !important;
+                                      margin-left:23vw !important;
                                      font-size:3rem;
-                                      font-family: 'Italianno', cursive;
+                                     font-family: 'Pinyon Script', cursive;
                                       font-weight: lighter;
                                       color:white;
                                   
@@ -5297,8 +5294,8 @@ font-size: 15px !important;
                             }
 
 
-                            @media screen and (min-width:541px) and (max-width:590px)  {
-                       
+                            @media screen and (min-width:589px) and (max-width:640px)  {
+                     
                
                                 #dskNav{
                                  
@@ -5326,7 +5323,7 @@ font-size: 15px !important;
                                             margin-left:10vw;
                                            padding:0% 4% 0% 4%;
                                             color:#242424;
-                                            font-size:2rem;
+                                            font-size:1.2rem;
                                             font-weight: lighter;
                             
                                           }
@@ -5348,7 +5345,7 @@ font-size: 15px !important;
                                           #booking{
                                             position: absolute;
                                             margin-top:1vh;
-                                            margin-left:73vw;
+                                            margin-left:65vw;
                                          
                                              font-size:1.3rem;
                                             
@@ -5357,8 +5354,7 @@ font-size: 15px !important;
                                              border-color:#636161;
                                              border-style:solid;
                                              border-radius: 25px;
-                                             font-family: 'Italianno', cursive;
-                                            
+                                             font-family: 'Pinyon Script', cursive;
                                              color:#535252 !important;
                                             
                                           }
@@ -5381,9 +5377,9 @@ font-size: 15px !important;
                                             position: absolute;
                                             margin-top:-3vh !important;
                                             margin-left:33vw !important;
-                                            font-size:4rem;
+                                            font-size:2rem;
                                             font-weight: lighter;
-                                           font-family: 'Italianno', cursive;
+                                            font-family: 'Pinyon Script', cursive;
                                             color:rgb(105, 103, 103);
                                            
                                         }
@@ -5484,18 +5480,18 @@ font-size: 15px !important;
                                     .lgImg{
                                         position: absolute;
                                         margin-top:8vh;
-                                        margin-left:30vw;
-                                        height:46vh;
-                                        width:15vw;
+                                        margin-left:13vw;
+                                        height:36vh;
+                                        width:40vw;
                                        
                                     }
                         
                                     .smImg{
                                         position: absolute;
-                                        margin-top:12vh;
-                                        margin-left:53vw;
-                                        height:38vh;
-                                        width:10vw;
+                                        margin-top:11vh;
+                                        margin-left:60vw;
+                                        height:30vh;
+                                        width:25vw;
                                         
                         
                                     }
@@ -5515,14 +5511,16 @@ font-size: 15px !important;
                                     }
                         
                                     h2{
+                                        display:none;
                         
                                         position: absolute;
-                                        margin-top:-43vh !important;
-                                        margin-left:14vw !important;
-                                        font-size:3rem;
+                                        margin-top:-52vh !important;
+                                        margin-left:2vw !important;
+                                        font-size:2rem;
                                         font-weight: lighter;
-                                       font-family: 'Italianno', cursive;
+                                        font-family: 'Pinyon Script', cursive;
                                         color:rgb(78, 71, 71);
+                                       
                         
                                     }
                         
@@ -5535,17 +5533,20 @@ font-size: 15px !important;
                         
                                     #about1{
                                         position: absolute;
-                                        margin-top:-36vh;
-                                        margin-left:20vw;
+                                        margin-top:-53vh;
+                                        margin-left:10vw;
                                         font-size:25px;
+                                        width:85vw;
                                     }
                         
                         
                                     #about2{
                                         position: absolute;
-                                        margin-top:-30vh;
-                                        margin-left:20vw;
+                                      
+                                        margin-top:-43vh;
+                                        margin-left:10vw;
                                         font-size:25px;
+                                        width:85vw;
                                     }
                         
                                     #mobile{
@@ -5554,7 +5555,7 @@ font-size: 15px !important;
                         
                                     #contact{
                                         position: absolute;
-                                        margin-top:-20vh !important;
+                                        margin-top:-28vh !important;
                                         margin-left:34vw;
                                         font-size:1rem;
                         
@@ -5563,7 +5564,7 @@ font-size: 15px !important;
                                      border-width: 1px;
                                      border-color:#636161;
                                      border-style:solid;
-                                     font-family: 'Italianno', cursive;
+                                     font-family: 'Pinyon Script', cursive;
                                      color:#3d3d3d !important;
                                     }
                         
@@ -5580,16 +5581,16 @@ font-size: 15px !important;
                         
                         h3{
                         position: absolute;
-                        margin-top:-10vh !important;
+                        margin-top:-15vh !important;
                         margin-left:18vw !important;
                         font-size:4rem;
                         font-weight: lighter;
-                        font-family: 'Italianno', cursive;
+                        font-family: 'Pinyon Script', cursive;
                         color:rgb(78, 71, 71);
                         }
                         
                         .itemHeader{
-                        margin-top:100vh;
+                        margin-top:80vh;
                         margin-left:20vw;
                         
                         }
@@ -5597,31 +5598,34 @@ font-size: 15px !important;
                         .itemText{
                             
                             margin-left:10vw;
-                            width:56vw;
-                            font-size:32px;
+                           
+                            font-size:25px;
                             
                             }
                         
                             #offerHeader{
                                 position:relative;
-                                margin-top:34vh !important;
-                                margin-left:17vw !important;
+                                margin-top:24vh !important;
+                                margin-left:14vw !important;
                             }
                             
                             #itemTextOne{
                                 
                                 margin-top:1vh !important;
-                                margin-left:-4vw;
+                                margin-left:-8vw;
+                                width:70vw;
                             }
                             
                             #itemTextTwo{
                                 margin-top:3vh;
-                                margin-left:3vw;
+                                margin-left:-5vw;
+                                width:70vw;
                             }
                             
                             #itemTextThree{
                                 margin-top:3vh;
-                                margin-left:7vw;
+                                margin-left:3vw;
+                                width:70vw;
                                 
                             }
                             
@@ -5652,9 +5656,9 @@ font-size: 15px !important;
                                        #footerLogo{
                                           position: absolute;
                                           margin-top:5vh;
-                                          margin-left:32vw !important;
+                                          margin-left:19vw !important;
                                          font-size:4rem;
-                                          font-family: 'Italianno', cursive;
+                                         font-family: 'Pinyon Script', cursive;
                                           font-weight: lighter;
                                           color:white;
                                       
@@ -5663,12 +5667,10 @@ font-size: 15px !important;
                                         
                                     
                                     }
-
-                                    @media screen and (min-width:591px) and (max-width:640px)  {
+                                    @media screen and (min-width:641px) and (max-width:690px)  {
                        
-               
                                         #dskNav{
-                                         
+                                 
                                             margin-left:0vw !important;
                                         }
                                                 
@@ -5693,7 +5695,7 @@ font-size: 15px !important;
                                                     margin-left:10vw;
                                                    padding:0% 4% 0% 4%;
                                                     color:#242424;
-                                                    font-size:2rem;
+                                                    font-size:1.2rem;
                                                     font-weight: lighter;
                                     
                                                   }
@@ -5715,7 +5717,7 @@ font-size: 15px !important;
                                                   #booking{
                                                     position: absolute;
                                                     margin-top:1vh;
-                                                    margin-left:73vw;
+                                                    margin-left:65vw;
                                                  
                                                      font-size:1.3rem;
                                                     
@@ -5724,7 +5726,7 @@ font-size: 15px !important;
                                                      border-color:#636161;
                                                      border-style:solid;
                                                      border-radius: 25px;
-                                                     font-family: 'Italianno', cursive;
+                                                     font-family: 'Pinyon Script', cursive;
                                                     
                                                      color:#535252 !important;
                                                     
@@ -5748,9 +5750,9 @@ font-size: 15px !important;
                                                     position: absolute;
                                                     margin-top:-3vh !important;
                                                     margin-left:33vw !important;
-                                                    font-size:4rem;
+                                                    font-size:2rem;
                                                     font-weight: lighter;
-                                                   font-family: 'Italianno', cursive;
+                                                    font-family: 'Pinyon Script', cursive;
                                                     color:rgb(105, 103, 103);
                                                    
                                                 }
@@ -5851,18 +5853,18 @@ font-size: 15px !important;
                                             .lgImg{
                                                 position: absolute;
                                                 margin-top:8vh;
-                                                margin-left:30vw;
-                                                height:46vh;
-                                                width:15vw;
+                                                margin-left:13vw;
+                                                height:36vh;
+                                                width:40vw;
                                                
                                             }
                                 
                                             .smImg{
                                                 position: absolute;
-                                                margin-top:12vh;
-                                                margin-left:53vw;
-                                                height:38vh;
-                                                width:10vw;
+                                                margin-top:11vh;
+                                                margin-left:60vw;
+                                                height:30vh;
+                                                width:25vw;
                                                 
                                 
                                             }
@@ -5882,14 +5884,16 @@ font-size: 15px !important;
                                             }
                                 
                                             h2{
+                                                display:none;
                                 
                                                 position: absolute;
-                                                margin-top:-43vh !important;
-                                                margin-left:14vw !important;
-                                                font-size:3rem;
+                                                margin-top:-52vh !important;
+                                                margin-left:2vw !important;
+                                                font-size:2rem;
                                                 font-weight: lighter;
-                                               font-family: 'Italianno', cursive;
+                                                font-family: 'Pinyon Script', cursive;
                                                 color:rgb(78, 71, 71);
+                                               
                                 
                                             }
                                 
@@ -5902,17 +5906,20 @@ font-size: 15px !important;
                                 
                                             #about1{
                                                 position: absolute;
-                                                margin-top:-36vh;
-                                                margin-left:20vw;
+                                                margin-top:-53vh;
+                                                margin-left:10vw;
                                                 font-size:25px;
+                                                width:85vw;
                                             }
                                 
                                 
                                             #about2{
                                                 position: absolute;
-                                                margin-top:-30vh;
-                                                margin-left:20vw;
+                                              
+                                                margin-top:-43vh;
+                                                margin-left:10vw;
                                                 font-size:25px;
+                                                width:85vw;
                                             }
                                 
                                             #mobile{
@@ -5921,7 +5928,7 @@ font-size: 15px !important;
                                 
                                             #contact{
                                                 position: absolute;
-                                                margin-top:-20vh !important;
+                                                margin-top:-28vh !important;
                                                 margin-left:34vw;
                                                 font-size:1rem;
                                 
@@ -5930,7 +5937,7 @@ font-size: 15px !important;
                                              border-width: 1px;
                                              border-color:#636161;
                                              border-style:solid;
-                                             font-family: 'Italianno', cursive;
+                                             font-family: 'Pinyon Script', cursive;
                                              color:#3d3d3d !important;
                                             }
                                 
@@ -5947,16 +5954,16 @@ font-size: 15px !important;
                                 
                                 h3{
                                 position: absolute;
-                                margin-top:-10vh !important;
+                                margin-top:-15vh !important;
                                 margin-left:18vw !important;
                                 font-size:4rem;
                                 font-weight: lighter;
-                                font-family: 'Italianno', cursive;
+                                font-family: 'Pinyon Script', cursive;
                                 color:rgb(78, 71, 71);
                                 }
                                 
                                 .itemHeader{
-                                margin-top:100vh;
+                                margin-top:80vh;
                                 margin-left:20vw;
                                 
                                 }
@@ -5964,31 +5971,34 @@ font-size: 15px !important;
                                 .itemText{
                                     
                                     margin-left:10vw;
-                                    width:56vw;
-                                    font-size:32px;
+                                   
+                                    font-size:25px;
                                     
                                     }
                                 
                                     #offerHeader{
                                         position:relative;
-                                        margin-top:34vh !important;
-                                        margin-left:17vw !important;
+                                        margin-top:24vh !important;
+                                        margin-left:14vw !important;
                                     }
                                     
                                     #itemTextOne{
                                         
                                         margin-top:1vh !important;
-                                        margin-left:-4vw;
+                                        margin-left:-8vw;
+                                        width:70vw;
                                     }
                                     
                                     #itemTextTwo{
                                         margin-top:3vh;
-                                        margin-left:3vw;
+                                        margin-left:-5vw;
+                                        width:70vw;
                                     }
                                     
                                     #itemTextThree{
                                         margin-top:3vh;
-                                        margin-left:7vw;
+                                        margin-left:3vw;
+                                        width:70vw;
                                         
                                     }
                                     
@@ -6019,22 +6029,21 @@ font-size: 15px !important;
                                                #footerLogo{
                                                   position: absolute;
                                                   margin-top:5vh;
-                                                  margin-left:32vw !important;
+                                                  margin-left:19vw !important;
                                                  font-size:4rem;
-                                                  font-family: 'Italianno', cursive;
+                                                 font-family: 'Pinyon Script', cursive;
                                                   font-weight: lighter;
                                                   color:white;
                                               
                                                }
                                                 
-                                                
                                             
                                             }
 
-                                            @media screen and (min-width:641px) and (max-width:904px) {
+                                            @media screen and (min-width:691px) and (max-width:904px) {
                
                                                 #dskNav{
-                                                 
+                                 
                                                     margin-left:0vw !important;
                                                 }
                                                         
@@ -6059,7 +6068,7 @@ font-size: 15px !important;
                                                             margin-left:10vw;
                                                            padding:0% 4% 0% 4%;
                                                             color:#242424;
-                                                            font-size:1.8rem;
+                                                            font-size:1.2rem;
                                                             font-weight: lighter;
                                             
                                                           }
@@ -6081,7 +6090,7 @@ font-size: 15px !important;
                                                           #booking{
                                                             position: absolute;
                                                             margin-top:1vh;
-                                                            margin-left:67vw;
+                                                            margin-left:65vw;
                                                          
                                                              font-size:1.3rem;
                                                             
@@ -6090,8 +6099,7 @@ font-size: 15px !important;
                                                              border-color:#636161;
                                                              border-style:solid;
                                                              border-radius: 25px;
-                                                             font-family: 'Italianno', cursive;
-                                                            
+                                                             font-family: 'Pinyon Script', cursive;
                                                              color:#535252 !important;
                                                             
                                                           }
@@ -6114,9 +6122,9 @@ font-size: 15px !important;
                                                             position: absolute;
                                                             margin-top:-3vh !important;
                                                             margin-left:33vw !important;
-                                                            font-size:2.6rem;
+                                                            font-size:2rem;
                                                             font-weight: lighter;
-                                                           font-family: 'Italianno', cursive;
+                                                            font-family: 'Pinyon Script', cursive;
                                                             color:rgb(105, 103, 103);
                                                            
                                                         }
@@ -6216,19 +6224,19 @@ font-size: 15px !important;
                                                        
                                                     .lgImg{
                                                         position: absolute;
-                                                        margin-top:14vh;
+                                                        margin-top:8vh;
                                                         margin-left:13vw;
-                                                        height:25vh;
-                                                        width:48vw;
+                                                        height:36vh;
+                                                        width:40vw;
                                                        
                                                     }
                                         
                                                     .smImg{
                                                         position: absolute;
-                                                        margin-top:10vh;
-                                                        margin-left:70vw;
-                                                        height:35vh;
-                                                        width:15vw;
+                                                        margin-top:11vh;
+                                                        margin-left:60vw;
+                                                        height:30vh;
+                                                        width:25vw;
                                                         
                                         
                                                     }
@@ -6241,46 +6249,49 @@ font-size: 15px !important;
                                         
                                                     #sliderColor{
                                                         margin-top:-92vh;
-                                                        margin-left:6.4vw;
-                                                        height:40vh;
-                                                        width:86vw;
-                                                        background-color: #d6d6d6;
-                                                        border-radius: 25px;
-                                        
+                                                        margin-left:17vw;
+                                                        height:90vh;
+                                                        width:50vw;
+                                                       
                                                     }
                                         
                                                     h2{
+                                                        display:none;
                                         
                                                         position: absolute;
-                                                        margin-top:2vh !important;
-                                                        margin-left:30vw !important;
-                                                        font-size:4rem;
+                                                        margin-top:-52vh !important;
+                                                        margin-left:2vw !important;
+                                                        font-size:2rem;
                                                         font-weight: lighter;
-                                                       font-family: 'Italianno', cursive;
+                                                        font-family: 'Pinyon Script', cursive;
                                                         color:rgb(78, 71, 71);
+                                                       
                                         
                                                     }
                                         
                                                     
                                         
                                                     .sectionText{
-                                                        width:70vw;
-                                                        font-size:25px;
+                                                        width:60vw;
+                                                        font-size:30px;
                                                     }
                                         
                                                     #about1{
                                                         position: absolute;
-                                                        margin-top:10vh;
-                                                        margin-left:15vw;
+                                                        margin-top:-53vh;
+                                                        margin-left:10vw;
                                                         font-size:25px;
+                                                        width:85vw;
                                                     }
                                         
                                         
                                                     #about2{
                                                         position: absolute;
-                                                        margin-top:20vh;
-                                                        margin-left:15vw;
+                                                      
+                                                        margin-top:-43vh;
+                                                        margin-left:10vw;
                                                         font-size:25px;
+                                                        width:85vw;
                                                     }
                                         
                                                     #mobile{
@@ -6289,8 +6300,8 @@ font-size: 15px !important;
                                         
                                                     #contact{
                                                         position: absolute;
-                                                        margin-top:37vh !important;
-                                                        margin-left:33vw;
+                                                        margin-top:-28vh !important;
+                                                        margin-left:34vw;
                                                         font-size:1rem;
                                         
                                                         padding:1% 10% 1% 10%; 
@@ -6298,13 +6309,13 @@ font-size: 15px !important;
                                                      border-width: 1px;
                                                      border-color:#636161;
                                                      border-style:solid;
-                                                     font-family: 'Italianno', cursive;
+                                                     font-family: 'Pinyon Script', cursive;
                                                      color:#3d3d3d !important;
                                                     }
                                         
                                                     #offers{
                                         
-                                                        margin-top:30vh;
+                                                        margin-top:-44vh;
                                                         margin-left:25vw;
                                                         width:50vw;
                                                       
@@ -6315,16 +6326,16 @@ font-size: 15px !important;
                                         
                                         h3{
                                         position: absolute;
-                                        margin-top:-10vh !important;
-                                        margin-left:20vw !important;
+                                        margin-top:-15vh !important;
+                                        margin-left:18vw !important;
                                         font-size:4rem;
                                         font-weight: lighter;
-                                        font-family: 'Italianno', cursive;
+                                        font-family: 'Pinyon Script', cursive;
                                         color:rgb(78, 71, 71);
                                         }
                                         
                                         .itemHeader{
-                                        margin-top:100vh;
+                                        margin-top:80vh;
                                         margin-left:20vw;
                                         
                                         }
@@ -6332,31 +6343,34 @@ font-size: 15px !important;
                                         .itemText{
                                             
                                             margin-left:10vw;
-                                            width:65vw;
+                                           
                                             font-size:25px;
                                             
                                             }
                                         
                                             #offerHeader{
                                                 position:relative;
-                                                margin-top:45vh !important;
-                                                margin-left:15vw !important;
+                                                margin-top:24vh !important;
+                                                margin-left:14vw !important;
                                             }
                                             
                                             #itemTextOne{
                                                 
                                                 margin-top:1vh !important;
-                                                margin-left:-10vw;
+                                                margin-left:-8vw;
+                                                width:70vw;
                                             }
                                             
                                             #itemTextTwo{
                                                 margin-top:3vh;
-                                                margin-left:-1vw;
+                                                margin-left:-5vw;
+                                                width:70vw;
                                             }
                                             
                                             #itemTextThree{
                                                 margin-top:3vh;
                                                 margin-left:3vw;
+                                                width:70vw;
                                                 
                                             }
                                             
@@ -6387,15 +6401,13 @@ font-size: 15px !important;
                                                        #footerLogo{
                                                           position: absolute;
                                                           margin-top:5vh;
-                                                          margin-left:25vw !important;
-                                                         font-size:65px;
-                                                          font-family: 'Italianno', cursive;
+                                                          margin-left:19vw !important;
+                                                         font-size:4rem;
+                                                         font-family: 'Pinyon Script', cursive;
                                                           font-weight: lighter;
                                                           color:white;
                                                       
                                                        }
-                                                        
-                                                        
                                                     
                                                     }
                               
@@ -6451,7 +6463,7 @@ font-size: 15px !important;
                                               
                                                                 #booking{
                                                                   position: absolute;
-                                                                  margin-top:1vh;
+                                                                  margin-top:2vh;
                                                                   margin-left:73vw;
                                                                
                                                                    font-size:1.3rem;
@@ -6461,7 +6473,7 @@ font-size: 15px !important;
                                                                    border-color:#636161;
                                                                    border-style:solid;
                                                                    border-radius: 25px;
-                                                                   font-family: 'Italianno', cursive;
+                                                                   font-family: 'Pinyon Script', cursive;
                                                                   
                                                                    color:#535252 !important;
                                                                   
@@ -6483,11 +6495,11 @@ font-size: 15px !important;
                                               
                                                                 h1{
                                                                   position: absolute;
-                                                                  margin-top:-3vh !important;
+                                                                  margin-top:-2vh !important;
                                                                   margin-left:33vw !important;
                                                                   font-size:4rem;
                                                                   font-weight: lighter;
-                                                                 font-family: 'Italianno', cursive;
+                                                                  font-family: 'Pinyon Script', cursive;
                                                                   color:rgb(105, 103, 103);
                                                                  
                                                               }
@@ -6543,7 +6555,7 @@ font-size: 15px !important;
                                                                     /* Position the "next button" to the right */
                                                                     .next {
                                                                       background-color:#363434;
-                                                                      right:1vw;
+                                                                      right:10vw;
                                                                       border-radius: 100%;
                                               
                                                                      
@@ -6587,34 +6599,34 @@ font-size: 15px !important;
                                                              
                                                           .lgImg{
                                                               position: absolute;
-                                                              margin-top:14vh;
-                                                              margin-left:24vw;
-                                                              height:28vh;
-                                                              width:40vw;
+                                                              margin-top:9.2vh;
+                                                              margin-left:26vw;
+                                                              height:45vh;
+                                                              width:28vw;
                                                              
                                                           }
                                               
                                                           .smImg{
                                                               position: absolute;
                                                               margin-top:13vh;
-                                                              margin-left:73vw;
-                                                              height:34vh;
-                                                              width:10vw;
+                                                              margin-left:60vw;
+                                                              height:37vh;
+                                                              width:14vw;
                                                               
                                               
                                                           }
                                               
                                                        
                                                           .underlay{
-                                                              height:20vh;
+                                                              height:30vh;
                                                               width:40vw;
                                                           }
                                               
                                                           #sliderColor{
                                                               margin-top:-92vh;
-                                                              margin-left:17vw;
-                                                              height:44vh;
-                                                              width:70vw;
+                                                              margin-left:18vw;
+                                                              height:47vh;
+                                                              width:60vw;
                                                               background-color: #d6d6d6;
                                                               border-radius: 25px;
                                               
@@ -6627,7 +6639,7 @@ font-size: 15px !important;
                                                               margin-left:20vw !important;
                                                               font-size:2.5rem;
                                                               font-weight: lighter;
-                                                             font-family: 'Italianno', cursive;
+                                                              font-family: 'Pinyon Script', cursive;
                                                               color:rgb(78, 71, 71);
                                               
                                                           }
@@ -6669,7 +6681,7 @@ font-size: 15px !important;
                                                            border-width: 1px;
                                                            border-color:#636161;
                                                            border-style:solid;
-                                                           font-family: 'Italianno', cursive;
+                                                           font-family: 'Pinyon Script', cursive;
                                                            color:#3d3d3d !important;
                                                           }
                                               
@@ -6690,7 +6702,7 @@ font-size: 15px !important;
                                               margin-left:18vw !important;
                                               font-size:4rem;
                                               font-weight: lighter;
-                                              font-family: 'Italianno', cursive;
+                                              font-family: 'Pinyon Script', cursive;
                                               color:rgb(78, 71, 71);
                                               }
                                               
@@ -6760,7 +6772,7 @@ font-size: 15px !important;
                                                                 margin-top:5vh;
                                                                 margin-left:32vw !important;
                                                                font-size:4rem;
-                                                                font-family: 'Italianno', cursive;
+                                                               font-family: 'Pinyon Script', cursive;
                                                                 font-weight: lighter;
                                                                 color:white;
                                                             
