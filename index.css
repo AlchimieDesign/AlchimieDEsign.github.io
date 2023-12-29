@@ -118,9 +118,7 @@ li{
     }
 
     @media screen   and (max-width:100px){
-        body{
-            background-color:red;
-        }
+      
       #addText{
           display:none;
        }
@@ -451,7 +449,7 @@ li{
     
    #aboutHeader{
        position:absolute;
-       margin-top:23vh !important;
+       margin-top:26vh !important;
        margin-left:8vw !important;
        font-weight: lighter;
        font-size:1rem;
