@@ -118,7 +118,7 @@ li{
     }
 
     @media screen   and (max-width:100px){
-       body{background-color:rgba(26, 26, 51);}
+      
       
       
       #addText{
@@ -225,7 +225,7 @@ li{
     
             #aboutLink{
                 position: absolute;
-                margin-top:-17vh;
+                margin-top:-19vh;
                 margin-left:-45vw !important;
                 font-size: 1rem;
                 font-weight: lighter;
@@ -452,7 +452,7 @@ li{
     
    #aboutHeader{
        position:absolute;
-       margin-top:18vh !important;
+       margin-top:22vh !important;
        margin-left:8vw !important;
        font-weight: lighter;
        font-size:0.80rem;
@@ -518,7 +518,9 @@ li{
    }
 
    .footerNav{
+       
       display:block;
+       margin-top:4vh;
       margin-left:15vw;
       padding:3% 5% 2% 5%;
       font-size:1rem;
@@ -527,7 +529,7 @@ li{
    #footerLogo{
      
       position: absolute;
-      margin-top:3vh;
+      margin-top:4vh;
       margin-left:12vw;
       font-size: .60rem;
       font-family: 'Pinyon Script', cursive;
