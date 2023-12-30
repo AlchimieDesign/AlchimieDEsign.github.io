@@ -118,7 +118,7 @@ li{
     }
 
     @media screen   and (max-width:100px){
-        body{background-color:64, 125, 80;}
+        body{background-color:rgba(64, 125, 80);}
       
       
       #addText{
