@@ -1255,7 +1255,7 @@ li{
   #exploreLink{
     position: absolute;
     margin-top:-3vh !important;
-     margin-left:28vw;
+     margin-left:26vw;
      font-size:1rem;
     
         padding:2% 9% 2% 9%;          
@@ -1331,7 +1331,7 @@ h4{
 
 #footer{
    
-    margin-top:-170vh !important;
+    margin-top:-190vh !important;
     height:25vh;
     width:100vw;
     background-color: #3d3d3d;
