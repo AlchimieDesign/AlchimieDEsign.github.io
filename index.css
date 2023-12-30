@@ -1424,7 +1424,7 @@ h4{
                 cursor: pointer;
             }
     .bar{
-        background-color: #3b3b3b;
+        background-color: rgba(159, 160, 161);
     }
             .hamburger.active .bar:nth-child(2) {
                 opacity: 0;
