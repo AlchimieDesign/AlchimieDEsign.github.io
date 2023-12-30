@@ -216,7 +216,7 @@ li{
     
             #homeLink{
                 position: absolute;
-                margin-top:-17vh;
+                margin-top:-14vh;
                 margin-left:-48vw !important;
                 font-size: 1rem;
                 font-weight: lighter;
@@ -225,7 +225,7 @@ li{
     
             #aboutLink{
                 position: absolute;
-                margin-top:-23vh;
+                margin-top:-20vh;
                 margin-left:-45vw !important;
                 font-size: 1rem;
                 font-weight: lighter;
