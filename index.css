@@ -225,7 +225,7 @@ li{
     
             #aboutLink{
                 position: absolute;
-                margin-top:-23vh;
+                margin-top:-21vh;
                 margin-left:-45vw !important;
                 font-size: 1rem;
                 font-weight: lighter;
@@ -346,6 +346,7 @@ li{
        right: 0;
        border-radius: 3px 0 0 3px;
      }
+        .prev{left:0;}
      
      /* On hover, add a black background color with a little bit see-through */
      .prev:hover, .next:hover {
