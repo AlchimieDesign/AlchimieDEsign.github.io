@@ -641,34 +641,34 @@ li{
            
             #homeLink{
                 position: absolute;
-                margin-top:-12vh;
+                margin-top:-5vh;
                 margin-left:-48vw !important;
-                font-size: 1rem;
+                font-size: 1.2rem;
                 font-weight: lighter;
                 color:rgb(68, 68, 68);
             }
     
             #aboutLink{
                 position: absolute;
-                margin-top:-19vh;
+                margin-top:-3vh;
                 margin-left:-45vw !important;
-                font-size: 1rem;
+                font-size: 1.2rem;
                 font-weight: lighter;
                 color:rgb(68, 68, 68);
             }
     
             #missionLink{
                 position: absolute;
-                margin-top:-25vh;
+                margin-top:-3vh;
                 margin-left:-45vw !important;
-                font-size: 1rem;
+                font-size: 1.2rem;
                 font-weight: lighter;
                 color:rgb(68, 68, 68);
             }
       
               #bookLink{
-                  margin-top:-32vh;
-                  margin-left:-46vw !important;
+                  margin-top:-12vh;
+                  margin-left:-47vw !important;
                   font-size:.70rem;
                    padding:2% 10% 2% 10%;
                     border-width: 1px;
@@ -851,7 +851,7 @@ li{
  
        #exploreLink{
         position: absolute;
-        margin-top:17vh !important;
+        margin-top:15vh !important;
          margin-left:23vw;
          font-size:1rem;
         
