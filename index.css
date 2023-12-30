@@ -641,7 +641,7 @@ li{
            
             #homeLink{
                 position: absolute;
-                margin-top:-5vh;
+                margin-top:-10vh;
                 margin-left:-48vw !important;
                 font-size: 1.2rem;
                 font-weight: lighter;
@@ -650,7 +650,7 @@ li{
     
             #aboutLink{
                 position: absolute;
-                margin-top:-3vh;
+                margin-top:-13vh;
                 margin-left:-45vw !important;
                 font-size: 1.2rem;
                 font-weight: lighter;
@@ -659,7 +659,7 @@ li{
     
             #missionLink{
                 position: absolute;
-                margin-top:-3vh;
+                margin-top:-11vh;
                 margin-left:-45vw !important;
                 font-size: 1.2rem;
                 font-weight: lighter;
@@ -852,7 +852,7 @@ li{
        #exploreLink{
         position: absolute;
         margin-top:15vh !important;
-         margin-left:23vw;
+         margin-left:21vw;
          font-size:1rem;
         
             padding:2% 9% 2% 9%;          
