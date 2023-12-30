@@ -118,7 +118,7 @@ li{
     }
 
     @media screen   and (max-width:100px){
-       
+       body{background-color:rgba(26, 26, 51);}
       
       
       #addText{
@@ -225,7 +225,7 @@ li{
     
             #aboutLink{
                 position: absolute;
-                margin-top:-20vh;
+                margin-top:-17vh;
                 margin-left:-45vw !important;
                 font-size: 1rem;
                 font-weight: lighter;
@@ -452,11 +452,11 @@ li{
     
    #aboutHeader{
        position:absolute;
-       margin-top:22vh !important;
+       margin-top:18vh !important;
        margin-left:8vw !important;
        font-weight: lighter;
-       font-size:1rem;
-       width:90vw;
+       font-size:0.80rem;
+       width:93vw;
        font-family: 'Pinyon Script', cursive;
        color:#464646;
    }
