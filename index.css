@@ -1528,7 +1528,7 @@ h4{
                 position: absolute;
                 margin-top:5vh !important;
                 margin-left:4vw !important;
-                font-size:1.2rem !important;
+                font-size:1.4rem !important;
               
                 font-family: 'Pinyon Script', cursive;
                 color:#676969;
@@ -1725,7 +1725,7 @@ h4{
   #exploreLink{
     position: absolute;
     margin-top:-32vh !important;
-     margin-left:20vw;
+     margin-left:18vw;
      font-size:1rem;
     
         padding:2% 15% 2% 15%;          
