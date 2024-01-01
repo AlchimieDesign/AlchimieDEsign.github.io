@@ -1462,7 +1462,7 @@ h4{
             #homeLink{
                 position: absolute;
                 margin-top:-11vh;
-                margin-left:-36vw !important;
+                margin-left:-33vw !important;
                 font-size: 1.3rem;
                 font-weight: lighter;
                 color:rgb(68, 68, 68);
@@ -1471,7 +1471,7 @@ h4{
             #aboutLink{
                 position: absolute;
                 margin-top:-16vh;
-                margin-left:-36vw !important;
+                margin-left:-33vw !important;
                 font-size:1.3rem;
                 font-weight: lighter;
                 color:rgb(68, 68, 68);
@@ -1480,7 +1480,7 @@ h4{
             #missionLink{
                 position: absolute;
                 margin-top:-21vh;
-                margin-left:-37vw !important;
+                margin-left:-34vw !important;
                 font-size:1.3rem;
                 font-weight: lighter;
                 color:rgb(68, 68, 68);
