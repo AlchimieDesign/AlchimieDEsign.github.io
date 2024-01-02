@@ -2727,7 +2727,7 @@ h4{
         
         
 
-                        @media screen and (min-width:195px) and (max-width:224px){
+                        @media screen and (min-width:195px) and (max-width:202px){
                             #smallText{
                                 display:none;
                              }
@@ -3173,7 +3173,7 @@ h4{
                                      }
                                     
                                 }
-                                @media screen and (min-width:225px) and (max-width:261px){
+                                @media screen and (min-width:203px) and (max-width:261px){
                                 
                                     #smallText{
                                         display:none;
