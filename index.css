@@ -3173,8 +3173,8 @@ h4{
                                      }
                                     
                                 }
-                                @media screen and (min-width:203px) and (max-width:261px){
-                                  
+                                @media screen and (min-width:203px) and (max-width:118px){
+                                  body{background-color:pink;}
                                 
                                     #smallText{
                                         display:none;
@@ -3413,7 +3413,7 @@ h4{
                                              
                                             #img4{
                                                 position: absolute;
-                                                margin-top:30vh;
+                                                margin-top:28vh;
                                                 margin-left:3vw;
                                                 height:7vh;
                                                 width:53vw;
@@ -3422,7 +3422,7 @@ h4{
                                 
                                             #img5{
                                                 position: absolute;
-                                                margin-top:37vh !important;
+                                                margin-top:35vh !important;
                                                 margin-left:36vw;
                                                 height:7vh;
                                                 width:53vw;
@@ -3432,7 +3432,7 @@ h4{
                                 
                                             #aboutHeader{
                                                 position: absolute;
-                                                margin-top:17vh !important;
+                                                margin-top:20vh !important;
                                                 margin-left:5vw !important;
                                                 font-size:1.3rem;
                                                 font-weight: lighter;
@@ -3603,7 +3603,7 @@ h4{
                                 
                                             .footerNav{
                                                 display:block;
-                                                margin-left:27vw;
+                                                margin-left:25vw;
                                                 padding:3% 5% 2% 5%;
                                                 font-size:1.5rem;
                                                 color:white;
@@ -3611,7 +3611,7 @@ h4{
                                              #footerLogo{
                                                 position: absolute;
                                                 margin-top:4vh;
-                                                margin-left:6vw;
+                                                margin-left:8vw;
                                                 font-size: 1.4rem;
                                                 font-family: 'Pinyon Script', cursive;
                                                 font-weight: lighter;
