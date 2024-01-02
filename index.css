@@ -3174,6 +3174,7 @@ h4{
                                     
                                 }
                                 @media screen and (min-width:203px) and (max-width:261px){
+                                    body{background-color:red;}
                                 
                                     #smallText{
                                         display:none;
