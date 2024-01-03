@@ -3174,7 +3174,7 @@ h4{
                                     
                                 }
                                 @media screen and (min-width:203px) and (max-width:218px){
-                                  body{background-color:pink;}
+                                 
                                 
                                     #smallText{
                                         display:none;
@@ -3554,7 +3554,7 @@ h4{
                                   #exploreLink{
                                     position: absolute;
                                     margin-top:-3vh !important;
-                                     margin-left:32vw;
+                                     margin-left:28vw;
                                      font-size:1rem;
                                     
                                         padding:2% 9% 2% 9%;          
