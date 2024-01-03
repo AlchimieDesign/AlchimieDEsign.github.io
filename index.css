@@ -3621,11 +3621,8 @@ h4{
                                             
                                         }
                             
-
-
-
- @media screen and (min-width:219px) and (max-width:250px){
-                                  body{background-color:blue;}
+          @media screen and (min-width:219px) and (max-width:261px){
+                body{background-color:blue;}
                                 
                                     #smallText{
                                         display:none;
@@ -3883,7 +3880,7 @@ h4{
                                 
                                             #aboutHeader{
                                                 position: absolute;
-                                                margin-top:20vh !important;
+                                                margin-top:18vh !important;
                                                 margin-left:5vw !important;
                                                 font-size:1.3rem;
                                                 font-weight: lighter;
@@ -4062,16 +4059,17 @@ h4{
                                              #footerLogo{
                                                 position: absolute;
                                                 margin-top:4vh;
-                                                margin-left:8vw;
+                                                margin-left:10vw;
                                                 font-size: 1.4rem;
                                                 font-family: 'Pinyon Script', cursive;
                                                 font-weight: lighter;
                                                 color:white;
                                             
                                              }
-                                            
-                                        }
-                            
+          }
+
+
+
 
             @media screen and (min-width:262px) and (max-width:299px){
              
