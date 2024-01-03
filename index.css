@@ -3622,7 +3622,7 @@ h4{
                                         }
                             
           @media screen and (min-width:219px) and (max-width:261px){
-                body{background-color:blue;}
+              
                                 
                                     #smallText{
                                         display:none;
@@ -3721,7 +3721,7 @@ h4{
                                                   #homeLink{
                                                       position: absolute;
                                                       margin-top:-10vh;
-                                                      margin-left:-43vw !important;
+                                                      margin-left:-38vw !important;
                                                       font-size: 1.5rem;
                                                       font-weight: lighter;
                                                       color:rgb(68, 68, 68);
@@ -3730,7 +3730,7 @@ h4{
                                                   #aboutLink{
                                                       position: absolute;
                                                       margin-top:-10vh;
-                                                      margin-left:-40vw !important;
+                                                      margin-left:-38vw !important;
                                                       font-size: 1.5rem;
                                                       font-weight: lighter;
                                                       color:rgb(68, 68, 68);
@@ -3739,7 +3739,7 @@ h4{
                                                   #missionLink{
                                                       position: absolute;
                                                       margin-top:-10vh;
-                                                      margin-left:-40vw !important;
+                                                      margin-left:-38vw !important;
                                                       font-size: 1.5rem;
                                                       font-weight: lighter;
                                                       color:rgb(68, 68, 68);
@@ -3785,7 +3785,7 @@ h4{
                                             h1{
                                                 position: absolute;
                                                 margin-top:9vh !important;
-                                                margin-left:4vw !important;
+                                                margin-left:8vw !important;
                                                 font-size:1.6rem;
                                                 font-weight: lighter;
                                                 font-family: 'Pinyon Script', cursive;
@@ -3886,7 +3886,7 @@ h4{
                                                 font-weight: lighter;
                                                 font-family: 'Pinyon Script', cursive;
                                                 color:rgb(87, 86, 86);
-                                                width:90vw;
+                                                width:97vw;
                                             }
                                 
                                             #subTitle{
