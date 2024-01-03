@@ -4172,7 +4172,7 @@ h4{
                               #homeLink{
                                   position: absolute;
                                   margin-top:-23vh;
-                                  margin-left:-18vw !important;
+                                  margin-left:-22vw !important;
                                   font-size: 2.4rem;
                                   font-weight: lighter;
                                   color:rgb(68, 68, 68);
@@ -4182,7 +4182,7 @@ h4{
                               #aboutLink{
                                   position: absolute;
                                   margin-top:-39vh;
-                                  margin-left:-15vw !important;
+                                  margin-left:-22vw !important;
                                   font-size: 2.4rem;
                                   font-weight: lighter;
                                   color:rgb(68, 68, 68);
@@ -4191,7 +4191,7 @@ h4{
                               #missionLink{
                                   position: absolute;
                                   margin-top:-54vh;
-                                  margin-left:-18vw !important;
+                                  margin-left:-22vw !important;
                                   font-size: 2.4rem;
                                   font-weight: lighter;
                                   color:rgb(68, 68, 68);
@@ -4199,7 +4199,7 @@ h4{
                       
                               #bookLink{
                                   margin-top:-69vh;
-                                  margin-left:-28vw !important;
+                                  margin-left:-32vw !important;
                                   font-size:2rem;
                                    padding:0% 12% 0% 12%;
                                     border-width: 1px;
@@ -4238,7 +4238,7 @@ h4{
                         h1{
                             position: absolute;
                             margin-top:6vh !important;
-                            margin-left:5vw !important;
+                            margin-left:3vw !important;
                             font-size:2.1rem;
                             font-weight: lighter;
                             font-family: 'Pinyon Script', cursive;
@@ -4335,7 +4335,7 @@ h4{
                             position: absolute;
                             margin-top:20vh !important;
                             margin-left:8vw !important;
-                            font-size:1.7rem;
+                            font-size:1.5rem;
                             font-weight: lighter;
                             font-family: 'Pinyon Script', cursive;
                             color:rgb(87, 86, 86);
