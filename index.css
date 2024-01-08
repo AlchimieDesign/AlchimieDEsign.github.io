@@ -12377,8 +12377,8 @@ h4{
                                                                 
                                                                                                               #booking{
                                                                                                                 position: absolute;
-                                                                                                                margin-top:15px !important;
-                                                                                                                margin-left:85vw;
+                                                                                                                margin-top:45px !important;
+                                                                                                                margin-left:45vw;
                                                                                                                 font-size:1rem;
                                                                                                                 border-width:1px;
                                                                                                                 border-style: groove;
@@ -12405,7 +12405,7 @@ h4{
                                                                                                             h1{
                                                                                                                 position: absolute;
                                                                                                                 margin-top:-9vh !important;
-                                                                                                                margin-left:27vw !important;
+                                                                                                                margin-left:37vw !important;
                                                                                                                 font-size:2.5rem !important;
                                                                                                                  font-weight: lighter;
                                                                                                                  font-family: 'Pinyon Script', cursive;
