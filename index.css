@@ -12344,7 +12344,7 @@ h4{
                                                                                                               }
                                                                                                 
                                                                                                               .nav-link{
-                                                                                                               margin-top:3px;
+                                                                                                               margin-top:2px;
                                                                                                                 margin-left:10vw;
                                                                                                                padding:0% 4% 0% 4%;
                                                                                                                 color:#242424;
@@ -12355,7 +12355,7 @@ h4{
                                                                 
                                                                                                               #linkOne{
                                                                                                                 position: absolute;
-                                                                                                                margin-top:10px !important;
+                                                                                                                margin-top:5px !important;
                                                                                                                 margin-left:8vw;
                                                                                                                
                                                                                                                
@@ -12363,21 +12363,21 @@ h4{
                                                                 
                                                                                                               #linkTwo{
                                                                                                                 position: absolute;
-                                                                                                                margin-top:10px !important;
+                                                                                                                margin-top:5px !important;
                                                                                                                 margin-left:20vw;
                                                                                                                
                                                                                                               }
                                                                 
                                                                                                               #linkThree{
                                                                                                                 position: absolute;
-                                                                                                                margin-top:10px !important;
+                                                                                                                margin-top:5px !important;
                                                                                                                 margin-left:79vw;
                                                                                                                
                                                                                                               }
                                                                 
                                                                                                               #booking{
                                                                                                                 position: absolute;
-                                                                                                                margin-top:50vh !important;
+                                                                                                                margin-top:100vh !important;
                                                                                                                 margin-left:45vw;
                                                                                                                 font-size:1rem;
                                                                                                                 border-width:1px;
@@ -12642,7 +12642,7 @@ h4{
                                                                 
                                                                                                               #exploreLink{
                                                                                                                 position: absolute;
-                                                                                                                margin-top:165vh !important;
+                                                                                                                margin-top:158vh !important;
                                                                                                                  margin-left:36vw;
                                                                                                                  font-size:1.4rem;
                                                                                                                 
@@ -12692,9 +12692,9 @@ h4{
                                                                                                             
                                                                                                             #addText{
                                                                                                                 margin-top:215vh !important;
-                                                                                                                margin-left:20vw;
+                                                                                                                margin-left:6vw;
                                                                                                                 width:90vw;
-                                                                                                                font-size:3rem;
+                                                                                                                font-size:2.5rem;
                                                                                                                 font-weight: lighter;
                                                                                                                 font-family: 'Pinyon Script', cursive;
                                                                                                                 color:rgb(94, 92, 92);
@@ -12726,7 +12726,7 @@ h4{
                                                                                                                   position: absolute;
                                                                                                                   margin-top:5vh;
                                                                                                                   margin-left:32vw !important;
-                                                                                                                 font-size:2rem;
+                                                                                                                 font-size:2.5rem;
                                                                                                                  font-family: 'Pinyon Script', cursive;
                                                                                                                   font-weight: lighter;
                                                                                                                   color:white;
