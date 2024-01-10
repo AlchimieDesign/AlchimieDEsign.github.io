@@ -12344,7 +12344,7 @@ h4{
                                                                                                               }
                                                                                                 
                                                                                                               .nav-link{
-                                                                                                               margin-top:5px;
+                                                                                                               margin-top:3px;
                                                                                                                 margin-left:10vw;
                                                                                                                padding:0% 4% 0% 4%;
                                                                                                                 color:#242424;
@@ -12406,7 +12406,7 @@ h4{
                                                                                                                 position: absolute;
                                                                                                                 margin-top:-5vh !important;
                                                                                                                 margin-left:37vw !important;
-                                                                                                                font-size:1.3rem !important;
+                                                                                                                font-size:1.5rem !important;
                                                                                                                  font-weight: lighter;
                                                                                                                  font-family: 'Pinyon Script', cursive;
                                                                                                              color:rgba(255, 255, 255, 0.911) !important;
@@ -12443,7 +12443,7 @@ h4{
                                                                                                 
                                                                                                               #aboutHeader{
                                                                                                                 position: absolute;
-                                                                                                                margin-top:58vh !important;
+                                                                                                                margin-top:61vh !important;
                                                                                                                 margin-left:17vw !important;
                                                                                                                 width:74vw;
                                                                                                                 font-size:4rem;
@@ -12477,13 +12477,13 @@ h4{
                                                                                                                 margin-top:3vh;
                                                                                                                 margin-left:26vw;
                                                                                                                 height:25vh !important;
-                                                                                                                width:40vw !important;
+                                                                                                                width:45vw !important;
                                                                                                                 z-index:-1;
                                                                                                             }
                                                                                                             
                                                                                                             #img2{
                                                                                                                 position: absolute;
-                                                                                                                margin-top:25vh;
+                                                                                                                margin-top:30vh;
                                                                                                                 margin-left:4vw;
                                                                                                                 height:25vh !important;
                                                                                                                 width:43vw !important;
@@ -12492,7 +12492,7 @@ h4{
                                                                                                             
                                                                                                             #img3{
                                                                                                                 position: absolute;
-                                                                                                                margin-top:25vh;
+                                                                                                                margin-top:30vh;
                                                                                                                 margin-left:48vw;
                                                                                                                 height:25vh !important;
                                                                                                                 width:43vw !important;
@@ -12642,8 +12642,8 @@ h4{
                                                                 
                                                                                                               #exploreLink{
                                                                                                                 position: absolute;
-                                                                                                                margin-top:135vh !important;
-                                                                                                                 margin-left:44vw;
+                                                                                                                margin-top:165vh !important;
+                                                                                                                 margin-left:36vw;
                                                                                                                  font-size:1.4rem;
                                                                                                                 
                                                                                                                     padding:1% 6% 1% 6%;          
@@ -12693,7 +12693,7 @@ h4{
                                                                                                             #addText{
                                                                                                                 margin-top:215vh !important;
                                                                                                                 margin-left:20vw;
-                                                                                                                width:70vw;
+                                                                                                                width:90vw;
                                                                                                                 font-size:3rem;
                                                                                                                 font-weight: lighter;
                                                                                                                 font-family: 'Pinyon Script', cursive;
@@ -12713,11 +12713,11 @@ h4{
                                                                                     
                                                                                                             .footerNav{
                                                                                                                 display:inline-block;
-                                                                                                                padding:0% 4% 0% 4%;
+                                                                                                                padding:0% 2% 0% 2%;
                                                                                                                 margin-top:2vh;
                                                                                                                 margin-left:17vw;
                                                                                                                  
-                                                                                                                  font-size:23px;
+                                                                                                                  font-size:1.50;
                                                                                                                   color:rgb(212, 212, 212);
                                                                                                                }
                                                                                                   
@@ -12726,7 +12726,7 @@ h4{
                                                                                                                   position: absolute;
                                                                                                                   margin-top:5vh;
                                                                                                                   margin-left:32vw !important;
-                                                                                                                 font-size:65px;
+                                                                                                                 font-size:2rem;
                                                                                                                  font-family: 'Pinyon Script', cursive;
                                                                                                                   font-weight: lighter;
                                                                                                                   color:white;
