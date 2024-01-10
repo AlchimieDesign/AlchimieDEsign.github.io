@@ -232,14 +232,7 @@ li{
                 color:rgb(68, 68, 68);
             }
     
-            #missionLink{
-                position: absolute;
-                margin-top:-25vh;
-                margin-left:-45vw !important;
-                font-size: 1rem;
-                font-weight: lighter;
-                color:rgb(68, 68, 68);
-            }
+          
     
             #bookLink{
                 margin-top:-30vh;
@@ -10835,7 +10828,7 @@ h4{
                                                                                                                                                                                 height:5vh;
                                                                                                                                                                             }
                                                                                                                                                                             
-                                                                                                                                                                            .sampleImg{
+                                                                                                                                                                                                                                                                           .sampleImg{
                                                                                                                                                                                 
                                                                                                                                                                                 display:flex;
                                                                                                                                                                                 padding:4%;
@@ -12446,7 +12439,7 @@ h4{
                                                                                                                 margin-top:61vh !important;
                                                                                                                 margin-left:17vw !important;
                                                                                                                 width:74vw;
-                                                                                                                font-size:4rem;
+                                                                                                                font-size:3rem;
                                                                                                                 font-weight: lighter;
                                                                                                                 font-family: 'Pinyon Script', cursive;
                                                                                                                 color:rgb(94, 92, 92);
@@ -12475,7 +12468,7 @@ h4{
                                                                                                             #img1{
                                                                                                                 position: absolute;
                                                                                                                 margin-top:3vh;
-                                                                                                                margin-left:26vw;
+                                                                                                                margin-left:20vw;
                                                                                                                 height:25vh !important;
                                                                                                                 width:45vw !important;
                                                                                                                 z-index:-1;
@@ -12483,7 +12476,7 @@ h4{
                                                                                                             
                                                                                                             #img2{
                                                                                                                 position: absolute;
-                                                                                                                margin-top:30vh;
+                                                                                                                margin-top:34vh;
                                                                                                                 margin-left:4vw;
                                                                                                                 height:25vh !important;
                                                                                                                 width:43vw !important;
@@ -12492,7 +12485,7 @@ h4{
                                                                                                             
                                                                                                             #img3{
                                                                                                                 position: absolute;
-                                                                                                                margin-top:30vh;
+                                                                                                                margin-top:34vh;
                                                                                                                 margin-left:48vw;
                                                                                                                 height:25vh !important;
                                                                                                                 width:43vw !important;
