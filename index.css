@@ -12436,10 +12436,10 @@ h4{
                                                                                                 
                                                                                                               #aboutHeader{
                                                                                                                 position: absolute;
-                                                                                                                margin-top:61vh !important;
+                                                                                                                margin-top:63vh !important;
                                                                                                                 margin-left:17vw !important;
                                                                                                                 width:74vw;
-                                                                                                                font-size:3rem;
+                                                                                                                font-size:3.5rem;
                                                                                                                 font-weight: lighter;
                                                                                                                 font-family: 'Pinyon Script', cursive;
                                                                                                                 color:rgb(94, 92, 92);
@@ -12636,7 +12636,7 @@ h4{
                                                                                                               #exploreLink{
                                                                                                                 position: absolute;
                                                                                                                 margin-top:70vh !important;
-                                                                                                                 margin-left:36vw;
+                                                                                                                 margin-left:30vw;
                                                                                                                  font-size:1.4rem;
                                                                                                                 
                                                                                                                     padding:1% 6% 1% 6%;          
