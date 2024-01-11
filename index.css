@@ -12732,7 +12732,7 @@ h4{
                                                                                                             
                                                                                                             }
 
-                                                                                                               @media screen and  (min-width:990px) and (max-width:1200px) {
+                                                                                                               @media screen and  (min-width:990px) and (max-width:1088px) {
 
                                                                                                              
                                                                                           
@@ -13157,9 +13157,9 @@ h4{
 
 
 
-                                                                                                            @media screen and  (min-width:1291px) {
+                                                                                                            @media screen and  (min-width:1089px)  {
 
-                                                                                                               
+                                                                                                               body{background-color:pink;}
                                                                                                              
                                                                                                                     #header{
                                                                                                                                 height:90vh;
