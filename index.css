@@ -12309,7 +12309,7 @@ h4{
                                                                                                             
                                                                                                             }
 
-                                                                                                            @media screen and  (min-width:941px) and (max-width:1200px) {
+                                                                                                            @media screen and  (min-width:941px) and (max-width:989px) {
                                                                                                           
 
                                                                                          
@@ -12732,9 +12732,9 @@ h4{
                                                                                                             
                                                                                                             }
 
-                                                                                                               @media screen and  (min-width:1201px) and (max-width:1290px) {
+                                                                                                               @media screen and  (min-width:990px) and (max-width:1200px) {
 
-                                                                                                               
+                                                                                                               body{background-color:blue;}
                                                                                           
                                                         
                                                                                                 #header{
