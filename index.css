@@ -13158,7 +13158,7 @@ h4{
 
                                                                                                             @media screen and  (min-width:1033px) and (max-width:1070px) {
 
-                                                                                                               body{background-color:red;}
+                                                                                                               body{background-color:white;}
                                                                                                              
                                                                                                                     #header{
                                                                                                                                 height:60vh;
@@ -13175,7 +13175,7 @@ h4{
                                                                                                                             #mainNav{
                                                                                                                                 background-color: #ffffff9f;
                                                                                                                                 width:100vw;
-                                                                                                                                height:10vh;
+                                                                                                                                height:6vh;
                                                                                                                             }
                                                                                                                                   a{
                                                                                                                                     color:#313131;
@@ -13184,7 +13184,7 @@ h4{
                                                                                                                                   }
                                                                                                                     
                                                                                                                                   .nav-link{
-                                                                                                                                   margin-top:5px;
+                                                                                                                                   margin-top:3px;
                                                                                                                                     margin-left:10vw;
                                                                                                                                    padding:0% 4% 0% 4%;
                                                                                                                                     color:#242424;
@@ -13195,7 +13195,7 @@ h4{
                                                                                     
                                                                                                                                   #linkOne{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:10px !important;
+                                                                                                                                    margin-top:6px !important;
                                                                                                                                     margin-left:8vw;
                                                                                                                                    
                                                                                                                                    
@@ -13203,14 +13203,14 @@ h4{
                                                                                     
                                                                                                                                   #linkTwo{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:10px !important;
+                                                                                                                                    margin-top:6px !important;
                                                                                                                                     margin-left:30vw;
                                                                                                                                    
                                                                                                                                   }
                                                                                     
                                                                                                                                   #linkThree{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:10px !important;
+                                                                                                                                    margin-top:6px !important;
                                                                                                                                     margin-left:79vw;
                                                                                                                                    
                                                                                                                                   }
@@ -13271,9 +13271,9 @@ h4{
                                                                                                                                   }
                                                                                                                     
                                                                                                                                   #subTitle{
-                                                                                                                                   margin-top:13vh;
-                                                                                                                                   margin-left:15vw;
-                                                                                                                                   font-size:5rem;
+                                                                                                                                   margin-top:16vh;
+                                                                                                                                   margin-left:22vw;
+                                                                                                                                   font-size:3rem;
                                                                                                                                      font-weight: lighter;
                                                                                                                                      font-family: 'Pinyon Script', cursive;
                                                                                                                                  color:rgba(107, 107, 107, 0.726) !important;
