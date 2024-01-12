@@ -13217,8 +13217,8 @@ h4{
                                                                                     
                                                                                                                                   #booking{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:80vh !important;
-                                                                                                                                    margin-left:85vw;
+                                                                                                                                    margin-top:40vh !important;
+                                                                                                                                    margin-left:35vw;
                                                                                                                                     font-size:1rem;
                                                                                                                                     border-width:1px;
                                                                                                                                     border-style: groove;
@@ -13272,7 +13272,7 @@ h4{
                                                                                                                     
                                                                                                                                   #subTitle{
                                                                                                                                    margin-top:16vh;
-                                                                                                                                   margin-left:22vw;
+                                                                                                                                   margin-left:36vw;
                                                                                                                                    font-size:3rem;
                                                                                                                                      font-weight: lighter;
                                                                                                                                      font-family: 'Pinyon Script', cursive;
