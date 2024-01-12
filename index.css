@@ -13158,7 +13158,7 @@ h4{
 
                                                                                                             @media screen and  (min-width:1033px) and (max-width:1070px) {
 
-                                                                                                               body{background-color:white;}
+                                                                                                               body{background-color:red;}
                                                                                                              
                                                                                                                     #header{
                                                                                                                                 height:60vh;
@@ -13271,7 +13271,7 @@ h4{
                                                                                                                                   }
                                                                                                                     
                                                                                                                                   #subTitle{
-                                                                                                                                   margin-top:29vh;
+                                                                                                                                   margin-top:13vh;
                                                                                                                                    margin-left:15vw;
                                                                                                                                    font-size:5rem;
                                                                                                                                      font-weight: lighter;
