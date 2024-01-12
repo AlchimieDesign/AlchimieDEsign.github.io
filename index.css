@@ -13158,7 +13158,7 @@ h4{
 
                                                                                                             @media screen and  (min-width:1033px) and (max-width:1070px) {
 
-                                                                                                               body{background-color:red;}
+                                                                                                               body{background-color:white;}
                                                                                                              
                                                                                                                     #header{
                                                                                                                                 height:60vh;
@@ -13285,7 +13285,7 @@ h4{
                                                                                                                                     position: absolute;
                                                                                                                                     margin-top:73vh !important;
                                                                                                                                     margin-left:25vw !important;
-                                                                                                                                    width:56vw;
+                                                                                                                                    width:76vw;
                                                                                                                                     font-size:4rem;
                                                                                                                                     font-weight: lighter;
                                                                                                                                     font-family: 'Pinyon Script', cursive;
