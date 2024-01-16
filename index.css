@@ -8608,7 +8608,7 @@ h4{
                                                       #aboutHeader{
                                                         position: absolute;
                                                         margin-top:29vh !important;
-                                                        margin-left:20vw !important;
+                                                        margin-left:15vw !important;
                                                         width:80vw;
                                                         font-size:2rem;
                                                         font-weight: lighter;
@@ -8639,7 +8639,7 @@ h4{
                                                     #img1{
                                                         position: absolute;
                                                         margin-top:1vh;
-                                                        margin-left:26vw;
+                                                        margin-left:22vw;
                                                         height:12vh !important;
                                                         width:45vw !important;
                                                         z-index:-1;
@@ -8849,7 +8849,7 @@ h4{
                                                     
                                                     #addText{
                                                         margin-top:97vh;
-                                                        margin-left:7vw;
+                                                        margin-left:10vw;
                                                         width:90vw;
                                                         font-size:2rem;
                                                         font-weight: lighter;
