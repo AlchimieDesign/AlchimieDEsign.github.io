@@ -12308,7 +12308,7 @@ h4{
 
                                                                                                                @media screen and  (min-width:990px) and (max-width:1032px) {
 
-                                                                                                             body{background-color:pink;}
+                                                                                                             body{background-color:white;}
                                                                                           
                                                         
                                                                                                  #header{
@@ -13180,7 +13180,7 @@ h4{
                                                                                                                                   }
                                                                                                          @media screen and  (min-width:1071px) and (max-width:1387px)  {
 
-                                                                                                               body{background-color:pink;}
+                                                                                                               body{background-color:white;}
                                                                                                              
                                                                                                                     #header{
                                                                                                                                 height:70vh;
@@ -13293,7 +13293,7 @@ h4{
                                                                                                                                   }
                                                                                                                     
                                                                                                                                   #subTitle{
-                                                                                                                                   margin-top:29vh;
+                                                                                                                                   margin-top:27vh;
                                                                                                                                    margin-left:20vw;
                                                                                                                                    font-size:3.4rem;
                                                                                                                                      font-weight: lighter;
