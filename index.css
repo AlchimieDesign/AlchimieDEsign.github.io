@@ -12308,7 +12308,7 @@ h4{
 
                                                                                                                @media screen and  (min-width:990px) and (max-width:1032px) {
 
-                                                                                                             body{background-color:whiite;}
+                                                                                                             body{background-color:pink;}
                                                                                           
                                                         
                                                                                                  #header{
@@ -12397,7 +12397,7 @@ h4{
                                                                                                                 position: absolute;
                                                                                                                 margin-top:-3vh !important;
                                                                                                                 margin-left:39vw !important;
-                                                                                                                font-size:1.5rem !important;
+                                                                                                                font-size:1.3rem !important;
                                                                                                                  font-weight: lighter;
                                                                                                                  font-family: 'Pinyon Script', cursive;
                                                                                                              color:rgba(255, 255, 255, 0.911) !important;
@@ -12422,7 +12422,7 @@ h4{
                                                                                                               }
                                                                                                 
                                                                                                               #subTitle{
-                                                                                                               margin-top:27vh;
+                                                                                                               margin-top:29vh;
                                                                                                                margin-left:24vw;
                                                                                                                font-size:3rem;
                                                                                                                  font-weight: lighter;
