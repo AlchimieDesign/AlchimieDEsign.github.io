@@ -12308,7 +12308,7 @@ h4{
 
                                                                                                                @media screen and  (min-width:990px) and (max-width:1032px) {
 
-                                                                                                             body{background-color:brown;}
+                                                                                                             body{background-color:whiite;}
                                                                                           
                                                         
                                                                                                  #header{
@@ -12396,7 +12396,7 @@ h4{
                                                                                                             h1{
                                                                                                                 position: absolute;
                                                                                                                 margin-top:-3vh !important;
-                                                                                                                margin-left:40vw !important;
+                                                                                                                margin-left:39vw !important;
                                                                                                                 font-size:1.5rem !important;
                                                                                                                  font-weight: lighter;
                                                                                                                  font-family: 'Pinyon Script', cursive;
@@ -12733,7 +12733,7 @@ h4{
 
                                                                                                             @media screen and  (min-width:1033px) and (max-width:1070px) {
 
-                                                                                                               body{background-color:red;}
+                                                                                                               body{background-color:white;}
                                                                                                              
                                                                                                                     #header{
                                                                                                                                 height:60vh;
@@ -12750,7 +12750,7 @@ h4{
                                                                                                                             #mainNav{
                                                                                                                                 background-color: #ffffff9f;
                                                                                                                                 width:100vw;
-                                                                                                                                height:8vh;
+                                                                                                                                height:5vh;
                                                                                                                             }
                                                                                                                                   a{
                                                                                                                                     color:#313131;
@@ -12792,7 +12792,7 @@ h4{
                                                                                     
                                                                                                                                   #booking{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:84vh !important;
+                                                                                                                                    margin-top:54vh !important;
                                                                                                                                     margin-left:42vw;
                                                                                                                                     font-size:1rem;
                                                                                                                                     border-width:1px;
@@ -12819,7 +12819,7 @@ h4{
                                                                                                                                 
                                                                                                                                 h1{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:-4vh !important;
+                                                                                                                                    margin-top:-6vh !important;
                                                                                                                                     margin-left:32vw !important;
                                                                                                                                     font-size:3rem !important;
                                                                                                                                      font-weight: lighter;
@@ -12846,7 +12846,7 @@ h4{
                                                                                                                                   }
                                                                                                                     
                                                                                                                                   #subTitle{
-                                                                                                                                   margin-top:28vh;
+                                                                                                                                   margin-top:23vh;
                                                                                                                                    margin-left:25vw;
                                                                                                                                    font-size:3rem;
                                                                                                                                      font-weight: lighter;
@@ -12889,8 +12889,8 @@ h4{
                                                                                                                                 
                                                                                                                                 #img1{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:6vh;
-                                                                                                                                    margin-left:33vw;
+                                                                                                                                    margin-top:4vh;
+                                                                                                                                    margin-left:25vw;
                                                                                                                                     height:30vh !important;
                                                                                                                                     width:44vw !important;
                                                                                                                                     z-index:-1;
