@@ -4515,6 +4515,8 @@ h4{
                     }
 
                     @media screen and (min-width:300px) and (max-width:320px) {
+
+                        body{background-color:red;}
                        
 
                       #smallText{
