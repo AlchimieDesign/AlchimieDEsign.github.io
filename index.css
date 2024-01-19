@@ -10243,7 +10243,7 @@ h4{
                                                                                                   
                                                                                                                                                 #booking{
                                                                                                                                                   position: absolute;
-                                                                                                                                                  margin-top:45vh !important;
+                                                                                                                                                  margin-top:43vh !important;
                                                                                                                                                   margin-left:36vw;
                                                                                                                                                   font-size:1.3rem;
                                                                                                                                                   border-width:1px;
@@ -10667,7 +10667,7 @@ h4{
                                                                                                                                 
                                                                                                                                                                               #booking{
                                                                                                                                                                                 position: absolute;
-                                                                                                                                                                                margin-top:47vh !important;
+                                                                                                                                                                                margin-top:43vh !important;
                                                                                                                                                                                 margin-left:38vw;
                                                                                                                                                                                 font-family: 'Pinyon Script', cursive;
                                                                                                                                                                                 font-size:1.3rem;
@@ -11037,7 +11037,7 @@ h4{
 
                                                                             @media screen and  (min-width:821px)  and (max-width:900px){
 
-                                                                                body{background-color:brown;}
+                                                                                body{background-color:white;}
 
                                                                                
                                                         
@@ -11098,7 +11098,7 @@ h4{
                                                 
                                                                                               #booking{
                                                                                                 position: absolute;
-                                                                                                margin-top:50vh !important;
+                                                                                                margin-top:47vh !important;
                                                                                                 margin-left:41vw;
                                                                                                 font-size:1rem;
                                                                                                 border-width:1px;
@@ -11125,8 +11125,8 @@ h4{
                                                                                             
                                                                                             h1{
                                                                                                 position: absolute;
-                                                                                                margin-top:-5vh !important;
-                                                                                                margin-left:32vw !important;
+                                                                                                margin-top:-6vh !important;
+                                                                                                margin-left:28vw !important;
                                                                                                 font-size:2rem;
                                                                                                  font-weight: lighter;
                                                                                                  font-family: 'Pinyon Script', cursive;
@@ -11215,7 +11215,7 @@ h4{
                                                                                                 position: absolute;
                                                                                                 margin-top:25vh;
                                                                                                 margin-left:48vw;
-                                                                                                height:28vh !important;
+                                                                                                height:23vh !important;
                                                                                                 width:43vw !important;
                                                                                                 z-index:-1;
                                                                                             }
@@ -11414,7 +11414,7 @@ h4{
                                                                                             
                                                                                             #addText{
                                                                                                 margin-top:180vh;
-                                                                                                margin-left:15vw;
+                                                                                                margin-left:12vw;
                                                                                                 width:80vw;
                                                                                                 font-size:2rem;
                                                                                                 font-weight: lighter;
@@ -12797,8 +12797,8 @@ h4{
                                                                                     
                                                                                                                                   #booking{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:59vh !important;
-                                                                                                                                    margin-left:42vw;
+                                                                                                                                    margin-top:62vh !important;
+                                                                                                                                    margin-left:44vw;
                                                                                                                                     font-size:1rem;
                                                                                                                                     border-width:1px;
                                                                                                                                     border-style: groove;
@@ -12903,7 +12903,7 @@ h4{
                                                                                                                                 
                                                                                                                                 #img2{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:42vh;
+                                                                                                                                    margin-top:36vh;
                                                                                                                                     margin-left:6vw;
                                                                                                                                     height:34vh !important;
                                                                                                                                     width:43vw !important;
@@ -12912,7 +12912,7 @@ h4{
                                                                                                                                 
                                                                                                                                 #img3{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:42vh;
+                                                                                                                                    margin-top:36vh;
                                                                                                                                     margin-left:48vw;
                                                                                                                                      height:34vh !important;
                                                                                                                                     width:43vw !important;
@@ -12950,7 +12950,7 @@ h4{
                                                                                                                     
                                                                                                                                 #explore{
                                                                                                                       position:absolute; width:50vw;
-                                                                                                                                    margin-top:120vh !important;
+                                                                                                                                    margin-top:170vh !important;
                                                                                                                                     margin-left:28vw;
                                                                                                                                 }
                                                                                     
