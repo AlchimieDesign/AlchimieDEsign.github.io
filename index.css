@@ -4516,7 +4516,7 @@ h4{
 
                     @media screen and (min-width:300px) and (max-width:320px) {
 
-                        body{background-color:pink;}
+                        body{background-color:white;}
                        
 
                       #smallText{
@@ -4967,6 +4967,7 @@ h4{
                             
                             }
                             @media screen and (min-width:321px) and (max-width:352px) {
+                                body{background-color:red;}
 
                           
                                 #header{
@@ -5129,7 +5130,7 @@ h4{
                                 h1{
                                     position: absolute;
                                     margin-top:10vh !important;
-                                    margin-left:9vw !important;
+                                    margin-left:6vw !important;
                                     font-size:2.4rem;
                                     font-weight: lighter;
                                     font-family: 'Pinyon Script', cursive;
@@ -11036,6 +11037,8 @@ h4{
 
                                                                             @media screen and  (min-width:821px)  and (max-width:900px){
 
+                                                                                body{background-color:brown;}
+
                                                                                
                                                         
                                                                                 #header{
@@ -11150,8 +11153,8 @@ h4{
                                                                                 
                                                                                               #subTitle{
                                                                                                margin-top:19vh;
-                                                                                               margin-left:16vw;
-                                                                                               font-size:3.4rem;
+                                                                                               margin-left:18vw;
+                                                                                               font-size:3rem;
                                                                                                  font-weight: lighter;
                                                                                                  font-family: 'Pinyon Script', cursive;
                                                                                              color:rgba(107, 107, 107, 0.726) !important;
