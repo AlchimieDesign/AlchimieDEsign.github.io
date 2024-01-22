@@ -12797,8 +12797,8 @@ h4{
                                                                                     
                                                                                                                                   #booking{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:62vh !important;
-                                                                                                                                    margin-left:44vw;
+                                                                                                                                    margin-top:60vh !important;
+                                                                                                                                    margin-left:42vw;
                                                                                                                                     font-size:1rem;
                                                                                                                                     border-width:1px;
                                                                                                                                     border-style: groove;
@@ -12851,7 +12851,7 @@ h4{
                                                                                                                                   }
                                                                                                                     
                                                                                                                                   #subTitle{
-                                                                                                                                   margin-top:25vh;
+                                                                                                                                   margin-top:26vh;
                                                                                                                                    margin-left:25vw;
                                                                                                                                    font-size:3rem;
                                                                                                                                      font-weight: lighter;
@@ -12863,7 +12863,7 @@ h4{
                                                                                                                     
                                                                                                                                   #aboutHeader{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:88vh !important;
+                                                                                                                                    margin-top:86vh !important;
                                                                                                                                     margin-left:13vw !important;
                                                                                                                                     width:76vw;
                                                                                                                                     font-size:4rem;
@@ -12896,8 +12896,8 @@ h4{
                                                                                                                                     position: absolute;
                                                                                                                                     margin-top:4vh;
                                                                                                                                     margin-left:25vw;
-                                                                                                                                    height:20vh !important;
-                                                                                                                                    width:34vw !important;
+                                                                                                                                    height:30vh !important;
+                                                                                                                                    width:40vw !important;
                                                                                                                                     z-index:-1;
                                                                                                                                 }
                                                                                                                                 
@@ -13091,7 +13091,7 @@ h4{
                                                                                     
                                                                                                                                   #exploreLink{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:140vh !important;
+                                                                                                                                    margin-top:160vh !important;
                                                                                                                                      margin-left:44vw;
                                                                                                                                      font-size:2rem;
                                                                                                                                     
@@ -13142,8 +13142,8 @@ h4{
                                                                                                                                 #addText{
                                                                                                                                  
                                                                                                                                     margin-top:250vh !important;
-                                                                                                                                    margin-left:20vw;
-                                                                                                                                    width:70vw;
+                                                                                                                                    margin-left:10vw;
+                                                                                                                                    width:90vw;
                                                                                                                                     font-size:3.4rem;
                                                                                                                                     font-weight: lighter;
                                                                                                                                     font-family: 'Pinyon Script', cursive;
@@ -13165,7 +13165,7 @@ h4{
                                                                                                                                     display:inline-block;
                                                                                                                                     padding:0% 4% 0% 4%;
                                                                                                                                     margin-top:2vh;
-                                                                                                                                    margin-left:10vw;
+                                                                                                                                    margin-left:15vw;
                                                                                                                                      
                                                                                                                                       font-size:23px;
                                                                                                                                       color:rgb(212, 212, 212);
