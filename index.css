@@ -13244,7 +13244,7 @@ h4{
                                                                                     
                                                                                                                                   #booking{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:63vh !important;
+                                                                                                                                    margin-top:59vh !important;
                                                                                                                                     margin-left:44vw;
                                                                                                                                     font-size:1rem;
                                                                                                                                     border-width:1px;
@@ -13272,7 +13272,7 @@ h4{
                                                                                                                                 h1{
                                                                                                                                     position: absolute;
                                                                                                                                     margin-top:-5vh !important;
-                                                                                                                                    margin-left:30vw !important;
+                                                                                                                                    margin-left:32vw !important;
                                                                                                                                     font-size:2.5rem !important;
                                                                                                                                      font-weight: lighter;
                                                                                                                                      font-family: 'Pinyon Script', cursive;
@@ -13298,7 +13298,7 @@ h4{
                                                                                                                                   }
                                                                                                                     
                                                                                                                                   #subTitle{
-                                                                                                                                   margin-top:29vh;
+                                                                                                                                   margin-top:28vh;
                                                                                                                                    margin-left:22vw;
                                                                                                                                    font-size:3.4rem;
                                                                                                                                      font-weight: lighter;
@@ -13310,7 +13310,7 @@ h4{
                                                                                                                     
                                                                                                                                   #aboutHeader{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:80vh !important;
+                                                                                                                                    margin-top:82vh !important;
                                                                                                                                     margin-left:20vw !important;
                                                                                                                                     width:70vw;
                                                                                                                                     font-size:4rem;
@@ -13351,7 +13351,7 @@ h4{
                                                                                                                                 #img2{
                                                                                                                                     position: absolute;
                                                                                                                                     margin-top:40vh;
-                                                                                                                                    margin-left:3vw;
+                                                                                                                                    margin-left:1vw;
                                                                                                                                     height:34vh !important;
                                                                                                                                     width:43vw !important;
                                                                                                                                     z-index:-1;
