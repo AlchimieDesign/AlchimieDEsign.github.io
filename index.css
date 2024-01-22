@@ -12738,7 +12738,7 @@ h4{
 
                                                                                                             @media screen and  (min-width:1033px) and (max-width:1070px) {
 
-                                                                                                               body{background-color:red;}
+                                                                                                               body{background-color:white;}
                                                                                                              
                                                                                                                     #header{
                                                                                                                                 height:60vh;
@@ -12895,7 +12895,7 @@ h4{
                                                                                                                                 #img1{
                                                                                                                                     position: absolute;
                                                                                                                                     margin-top:4vh;
-                                                                                                                                    margin-left:25vw;
+                                                                                                                                    margin-left:22vw;
                                                                                                                                     height:30vh !important;
                                                                                                                                     width:46vw !important;
                                                                                                                                     z-index:-1;
@@ -12950,7 +12950,7 @@ h4{
                                                                                                                     
                                                                                                                                 #explore{
                                                                                                                       position:absolute; width:50vw;
-                                                                                                                                    margin-top:160vh !important;
+                                                                                                                                    margin-top:169vh !important;
                                                                                                                                     margin-left:28vw;
                                                                                                                                 }
                                                                                     
@@ -12967,7 +12967,7 @@ h4{
 
                                                                                                                                 #slide1{
                                                                                                                                   margin-left:8vw;
-                                                                                                                                  height:50vh !important;
+                                                                                                                                  height:44vh !important;
                                                                                                                                   width:32vw !important;
                                                                                                                                   
                                                                                                                                 }
