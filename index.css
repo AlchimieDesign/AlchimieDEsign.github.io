@@ -8418,7 +8418,7 @@ h4{
 
 
                                             @media screen and  (min-width:551px)  and (max-width:585px){
-                                        
+                                        body{background-color:red;}
                                               #header{
                                                 height:30vh !important;
                                            background-image: url("img/smoke-show2.png");
@@ -8579,7 +8579,7 @@ h4{
                                             h1{
                                                 position: absolute;
                                                 margin-top:10vh !important;
-                                                margin-left:11vw !important;
+                                                margin-left:13vw !important;
                                                 font-size:3.5rem;
                                                 font-weight: lighter;
                                                 font-family: 'Pinyon Script', cursive;
@@ -8616,7 +8616,7 @@ h4{
                                         
                                                       #aboutHeader{
                                                         position: absolute;
-                                                        margin-top:29vh !important;
+                                                        margin-top:31vh !important;
                                                         margin-left:15vw !important;
                                                         width:80vw;
                                                         font-size:2rem;
@@ -8858,9 +8858,9 @@ h4{
                                                     
                                                     #addText{
                                                         margin-top:97vh;
-                                                        margin-left:10vw;
+                                                        margin-left:9vw;
                                                         width:90vw;
-                                                        font-size:2rem;
+                                                        font-size:1.4rem;
                                                         font-weight: lighter;
                                                        
                                                         color:rgb(94, 92, 92);
