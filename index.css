@@ -4971,7 +4971,7 @@ h4{
 
 
                             @media screen and (min-width:321px) and (max-width:352px) {
-                                body{background-color:red;}
+                                body{background-color:white;}
 
                           
                                 #header{
@@ -5134,7 +5134,7 @@ h4{
                                 h1{
                                     position: absolute;
                                     margin-top:10vh !important;
-                                    margin-left:6vw !important;
+                                    margin-left:8vw !important;
                                     font-size:2.4rem;
                                     font-weight: lighter;
                                     font-family: 'Pinyon Script', cursive;
@@ -5415,7 +5415,7 @@ h4{
                                             margin-top:105vh;
                                             margin-left:7vw;
                                             width:90vw;
-                                            font-size:1.5rem;
+                                            font-size:1.2rem;
                                             font-weight: lighter;
                                             
                                             color:rgb(94, 92, 92);
