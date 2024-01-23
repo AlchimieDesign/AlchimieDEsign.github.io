@@ -3167,7 +3167,7 @@ h4{
                                     
                                 }
                                 @media screen and (min-width:203px) and (max-width:218px){
-                                    body{background-color:red;}
+                                   
                                  
                                 
                                     #smallText{
@@ -4231,7 +4231,7 @@ h4{
              
                         h1{
                             position: absolute;
-                            margin-top:7vh !important;
+                            margin-top:6vh !important;
                             margin-left:3vw !important;
                             font-size:2.1rem;
                             font-weight: lighter;
