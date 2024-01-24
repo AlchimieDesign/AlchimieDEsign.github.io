@@ -10198,7 +10198,7 @@ h4{
                                                                                                                                           background-position: center;
                                                                                                                                           background-size: cover;
                                                                                                                                           background-repeat: no-repeat;
-                                                                                                                                          }
+                                                                                                                                          }                                                                
                                                                                                                                   #dskNav{
                                                                                                                                       margin-left:-5vw !important;
                                                                                                                                       height:180px;
@@ -10637,7 +10637,7 @@ h4{
                                                                                                                                                                                 color:#313131;
                                                                                                                                                                                 font-weight: lighter;
                                                                                                                                                                                padding:0%;
-                                                                                                                                                                              }
+                                                                                                                                                                              }                                       
                                                                                                                                                                 
                                                                                                                                                                               .nav-link{
                                                                                                                                                                                margin-top:5px;
@@ -10990,7 +10990,7 @@ h4{
                                                                                                                                                                             }
                                                                                                                                                                             
                                                                                                                                                                             #addText{
-                                                                                                                                                                                margin-top:170vh;
+                                                                                                                                                                                margin-top:160vh;
                                                                                                                                                                                 margin-left:9vw;
                                                                                                                                                                                 width:90vw;
                                                                                                                                                                                 font-size:1.4rem;
@@ -11014,17 +11014,17 @@ h4{
                                                                                                                                                                                 display:inline-block;
                                                                                                                                                                                 padding:0% 4% 0% 4%;
                                                                                                                                                                                 margin-top:2vh;
-                                                                                                                                                                                margin-left:10vw;
+                                                                                                                                                                                margin-left:14vw;
                                                                                                                                                                                  
                                                                                                                                                                                   font-size:23px;
                                                                                                                                                                                   color:rgb(212, 212, 212);
-                                                                                                                                                                               }
+                                                                                                                                                                               }                               
                                                                                                                                                                   
                                                                                                                                                                               
                                                                                                                                                                                #footerLogo{
                                                                                                                                                                                   position: absolute;
                                                                                                                                                                                   margin-top:5vh;
-                                                                                                                                                                                  margin-left:25vw !important;
+                                                                                                                                                                                  margin-left:23vw !important;
                                                                                                                                                                                  font-size:3.8rem;
                                                                                                                                                                                  font-family: 'Pinyon Script', cursive;
                                                                                                                                                                                   font-weight: lighter;
