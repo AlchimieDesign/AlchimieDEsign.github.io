@@ -12745,7 +12745,7 @@ h4{
                                                                                                             @media screen and  (min-width:1033px) and (max-width:1070px) {
 
                                                                                                              
-                                                                                                             body{background-color:red;}
+                                                                                                             body{background-color:white;}
                                                                                           
                                                         
                                                                                                  #header{
@@ -12902,8 +12902,8 @@ h4{
                                                                                                             
                                                                                                             #img1{
                                                                                                                 position: absolute;
-                                                                                                                margin-top:3vh;
-                                                                                                                margin-left:22vw;
+                                                                                                                margin-top:4vh;
+                                                                                                                margin-left:24vw;
                                                                                                                 height:25vh !important;
                                                                                                                 width:45vw !important;
                                                                                                                 z-index:-1;
@@ -12995,7 +12995,7 @@ h4{
                                                                                                               /* Position the "next button" to the right */
                                                                                                               .next {
                                                                                                                 background-color:#f2f2f2;
-                                                                                                                right: -1vw;
+                                                                                                                right: -4vw;
                                                                                                                 border-radius: 100%;
                                                                 
                                                                                                                
@@ -13120,7 +13120,7 @@ h4{
                                                                                                             
                                                                                                             #addText{
                                                                                                                 margin-top:190vh !important;
-                                                                                                                margin-left:3vw;
+                                                                                                                margin-left:5vw;
                                                                                                                 width:90vw;
                                                                                                                 font-size:1.8rem;
                                                                                                                 font-weight: lighter;
@@ -13163,7 +13163,7 @@ h4{
                                                                                                                                   }
                                                                                                          @media screen and  (min-width:1071px) and (max-width:1387px)  {
 
-                                                                                                               body{background-color:white;}
+                                                                                                               body{background-color:red;}
                                                                                                              
                                                                                                                     #header{
                                                                                                                                 height:60vh;
@@ -13441,7 +13441,7 @@ h4{
                                                                                                                                   /* Position the "next button" to the right */
                                                                                                                                   .next {
                                                                                                                                     background-color:#f2f2f2;
-                                                                                                                                    right: 10vw;
+                                                                                                                                    right: 15vw;
                                                                                                                                     border-radius: 100%;
                                                                                     
                                                                                                                                    
@@ -13567,7 +13567,7 @@ h4{
                                                                                                                                 #addText{
                                                                                                                                  
                                                                                                                                     margin-top:220vh !important;
-                                                                                                                                    margin-left:20vw;
+                                                                                                                                    margin-left:15vw;
                                                                                                                                     width:70vw;
                                                                                                                                     font-size:1.7rem;
                                                                                                                                     font-weight: lighter;
