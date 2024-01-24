@@ -13163,7 +13163,7 @@ h4{
                                                                                                                                   }
                                                                                                          @media screen and  (min-width:1071px) and (max-width:1387px)  {
 
-                                                                                                               body{background-color:pink;}
+                                                                                                               body{background-color:white;}
                                                                                                              
                                                                                                                     #header{
                                                                                                                                 height:60vh;
@@ -13441,7 +13441,7 @@ h4{
                                                                                                                                   /* Position the "next button" to the right */
                                                                                                                                   .next {
                                                                                                                                     background-color:#f2f2f2;
-                                                                                                                                    right: 15vw;
+                                                                                                                                    right: 17vw;
                                                                                                                                     border-radius: 100%;
                                                                                     
                                                                                                                                    
@@ -13568,7 +13568,7 @@ h4{
                                                                                                                                  
                                                                                                                                     margin-top:220vh !important;
                                                                                                                                     margin-left:15vw;
-                                                                                                                                    width:70vw;
+                                                                                                                                    width:90vw;
                                                                                                                                     font-size:1.7rem;
                                                                                                                                     font-weight: lighter;
                                                                                                                                    
