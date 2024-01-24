@@ -13163,7 +13163,7 @@ h4{
                                                                                                                                   }
                                                                                                          @media screen and  (min-width:1071px) and (max-width:1387px)  {
 
-                                                                                                               body{background-color:red;}
+                                                                                                               body{background-color:white;}
                                                                                                              
                                                                                                                     #header{
                                                                                                                                 height:60vh;
@@ -13338,8 +13338,8 @@ h4{
                                                                                                                                 #img3{
                                                                                                                                     position: absolute;
                                                                                                                                     margin-top:40vh;
-                                                                                                                                    margin-left:44vw;
-                                                                                                                                     height:34vh !important;
+                                                                                                                                    margin-left:47vw;
+                                                                                                                                     height:30vh !important;
                                                                                                                                     width:46vw !important;
                                                                                                                                     z-index:-1;
                                                                                                                                 }
@@ -13441,7 +13441,7 @@ h4{
                                                                                                                                   /* Position the "next button" to the right */
                                                                                                                                   .next {
                                                                                                                                     background-color:#f2f2f2;
-                                                                                                                                    right: 6vw;
+                                                                                                                                    right: 10vw;
                                                                                                                                     border-radius: 100%;
                                                                                     
                                                                                                                                    
@@ -13566,7 +13566,7 @@ h4{
                                                                                                                                 
                                                                                                                                 #addText{
                                                                                                                                  
-                                                                                                                                    margin-top:250vh !important;
+                                                                                                                                    margin-top:220vh !important;
                                                                                                                                     margin-left:20vw;
                                                                                                                                     width:70vw;
                                                                                                                                     font-size:1.7rem;
