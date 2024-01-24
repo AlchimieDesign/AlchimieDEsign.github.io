@@ -13163,7 +13163,7 @@ h4{
                                                                                                                                   }
                                                                                                          @media screen and  (min-width:1071px) and (max-width:1387px)  {
 
-                                                                                                               body{background-color:white;}
+                                                                                                               body{background-color:red;}
                                                                                                              
                                                                                                                     #header{
                                                                                                                                 height:60vh;
@@ -13376,7 +13376,7 @@ h4{
                                                                                                                                 #explore{
                                                                                                                       position:absolute; width:70vw;
                                                                                                                                     margin-top:178vh !important;
-                                                                                                                                    margin-left:25vw;
+                                                                                                                                    margin-left:27vw;
                                                                                                                                 }
                                                                                     
                                                                                                                                 .mySlides{
