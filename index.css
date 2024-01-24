@@ -13441,7 +13441,7 @@ h4{
                                                                                                                                   /* Position the "next button" to the right */
                                                                                                                                   .next {
                                                                                                                                     background-color:#f2f2f2;
-                                                                                                                                    right: `6vw;
+                                                                                                                                    right: 6vw;
                                                                                                                                     border-radius: 100%;
                                                                                     
                                                                                                                                    
@@ -13566,7 +13566,7 @@ h4{
                                                                                                                                 
                                                                                                                                 #addText{
                                                                                                                                  
-                                                                                                                                    margin-top:210vh !important;
+                                                                                                                                    margin-top:250vh !important;
                                                                                                                                     margin-left:20vw;
                                                                                                                                     width:70vw;
                                                                                                                                     font-size:1.7rem;
