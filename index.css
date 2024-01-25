@@ -11895,7 +11895,7 @@ h4{
                                                                                                             }
 
                                                                                                             @media screen and  (min-width:941px) and (max-width:989px) {
-                                                                                                          body{background-color:white;}
+                                                                                                          body{background-color:#cb5ab2;}
 
                                                                                          
                                                                                                 #header{
@@ -12269,8 +12269,8 @@ h4{
                                                                                                             }
                                                                                                             
                                                                                                             #addText{
-                                                                                                                margin-top:227vh !important;
-                                                                                                                margin-left:10vw;
+                                                                                                                margin-top:200vh !important;
+                                                                                                                margin-left:17vw;
                                                                                                                 width:80vw;
                                                                                                                 font-size:1.7rem;
                                                                                                                 font-weight: lighter;
