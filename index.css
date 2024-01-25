@@ -11895,7 +11895,7 @@ h4{
                                                                                                             }
 
                                                                                                             @media screen and  (min-width:941px) and (max-width:989px) {
-                                                                                                          body{background-color:white;}
+                                                                                                          body{background-color:#501442;}
 
                                                                                          
                                                                                                 #header{
@@ -12269,7 +12269,7 @@ h4{
                                                                                                             }
                                                                                                             
                                                                                                             #addText{
-                                                                                                                margin-top:240vh !important;
+                                                                                                                margin-top:220vh !important;
                                                                                                                 margin-left:13vw;
                                                                                                                 width:80vw;
                                                                                                                 font-size:1.7rem;
