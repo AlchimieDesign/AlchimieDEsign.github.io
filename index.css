@@ -11895,7 +11895,7 @@ h4{
                                                                                                             }
 
                                                                                                             @media screen and  (min-width:941px) and (max-width:989px) {
-                                                                                                          body{background-color:#501442;}
+                                                                                                          body{background-color:white;}
 
                                                                                          
                                                                                                 #header{
@@ -12270,8 +12270,8 @@ h4{
                                                                                                             
                                                                                                             #addText{
                                                                                                                 margin-top:220vh !important;
-                                                                                                                margin-left:13vw;
-                                                                                                                width:80vw;
+                                                                                                                margin-left:8vw;
+                                                                                                                width:85vw;
                                                                                                                 font-size:1.7rem;
                                                                                                                 font-weight: lighter;
                                                                                                               
