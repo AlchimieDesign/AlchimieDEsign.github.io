@@ -12747,7 +12747,7 @@ h4{
                                                                                                             @media screen and  (min-width:1042px) and (max-width:1370px) {
 
                                                                                                              
-                                                                                                             body{background-color:white;}
+                                                                                                             body{background-color:#501442;}
                                                                                           
                                                         
                                                                                                  #header{
@@ -12863,7 +12863,7 @@ h4{
                                                                                                               #subTitle{
                                                                                                                margin-top:27vh;
                                                                                                                margin-left:24vw;
-                                                                                                               font-size:3rem;
+                                                                                                               font-size:3.3rem;
                                                                                                                  font-weight: lighter;
                                                                                                                  font-family: 'Pinyon Script', cursive;
                                                                                                              color:rgba(120, 126, 135) !important;
