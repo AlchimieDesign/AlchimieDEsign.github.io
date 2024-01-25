@@ -11895,7 +11895,7 @@ h4{
                                                                                                             }
 
                                                                                                             @media screen and  (min-width:941px) and (max-width:989px) {
-                                                                                                          body{background-color:#04504b;}
+                                                                                                          body{background-color:white;}
 
                                                                                          
                                                                                                 #header{
@@ -12110,7 +12110,7 @@ h4{
                                                                                                   position:absolute;
                                                                                                                 height:4vh;
                                                                                                                 width:70vw;
-                                                                                                                margin-top:130vh !important;
+                                                                                                                margin-top:139vh !important;
                                                                                                                 margin-left:17vw;
                                                                                                             }
                                                                 
@@ -12269,7 +12269,7 @@ h4{
                                                                                                             }
                                                                                                             
                                                                                                             #addText{
-                                                                                                                margin-top:235vh !important;
+                                                                                                                margin-top:227vh !important;
                                                                                                                 margin-left:8vw;
                                                                                                                 width:80vw;
                                                                                                                 font-size:1.9rem;
