@@ -11922,7 +11922,7 @@ h4{
                                                                                                               }
                                                                                                 
                                                                                                               .nav-link{
-                                                                                                               margin-top:3vh;
+                                                                                                               margin-top:6vh;
                                                                                                                 margin-left:10vw;
                                                                                                                padding:0% 4% 0% 4%;
                                                                                                                 color:#242424;
@@ -11933,7 +11933,7 @@ h4{
                                                                 
                                                                                                               #linkOne{
                                                                                                                 position: absolute;
-                                                                                                                margin-top:8px !important;
+                                                                                                                margin-top:6vh !important;
                                                                                                                 margin-left:7vw;
                                                                                                                
                                                                                                                
@@ -11941,7 +11941,7 @@ h4{
                                                                 
                                                                                                               #linkTwo{
                                                                                                                 position: absolute;
-                                                                                                                margin-top:7px !important;
+                                                                                                                margin-top:6vh !important;
                                                                                                                 margin-left:20vw;
                                                                                                                
                                                                                                               }
@@ -11983,7 +11983,7 @@ h4{
                                                                                                             h1{
                                                                                                                 position: absolute;
                                                                                                                 margin-top:-6vh !important;
-                                                                                                                margin-left:39vw !important;
+                                                                                                                margin-left:30vw !important;
                                                                                                                 font-size:2rem !important;
                                                                                                                  font-weight: lighter;
                                                                                                                  font-family: 'Pinyon Script', cursive;
@@ -12009,7 +12009,7 @@ h4{
                                                                                                               }
                                                                                                 
                                                                                                               #subTitle{
-                                                                                                               margin-top:26vh;
+                                                                                                               margin-top:25vh;
                                                                                                                margin-left:23vw;
                                                                                                                font-size:3rem;
                                                                                                                  font-weight: lighter;
@@ -12109,7 +12109,7 @@ h4{
                                                                                                             #explore{
                                                                                                   position:absolute;
                                                                                                                 height:20vh;
-                                                                                                                width:50vw;
+                                                                                                                width:70vw;
                                                                                                                 margin-top:160vh !important;
                                                                                                                 margin-left:22vw;
                                                                                                             }
@@ -12220,7 +12220,7 @@ h4{
                                                                 
                                                                                                               #exploreLink{
                                                                                                                 position: absolute;
-                                                                                                                margin-top:70vh !important;
+                                                                                                                margin-top:100vh !important;
                                                                                                                  margin-left:30vw;
                                                                                                                  font-size:1.4rem;
                                                                                                                 
@@ -12271,7 +12271,7 @@ h4{
                                                                                                             #addText{
                                                                                                                 margin-top:215vh !important;
                                                                                                                 margin-left:6vw;
-                                                                                                                width:90vw;
+                                                                                                                width:80vw;
                                                                                                                 font-size:1.6rem;
                                                                                                                 font-weight: lighter;
                                                                                                               
