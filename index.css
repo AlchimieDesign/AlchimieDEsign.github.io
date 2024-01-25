@@ -11895,7 +11895,7 @@ h4{
                                                                                                             }
 
                                                                                                             @media screen and  (min-width:941px) and (max-width:989px) {
-                                                                                                          
+                                                                                                          body{background-color:blue;}
 
                                                                                          
                                                                                                 #header{
@@ -11913,7 +11913,7 @@ h4{
                                                                                                         #mainNav{
                                                                                                             background-color: #ffffff9f;
                                                                                                             width:100vw;
-                                                                                                            height:5vh;
+                                                                                                            height:7vh;
                                                                                                         }
                                                                                                               a{
                                                                                                                 color:#313131;
