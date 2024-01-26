@@ -13166,7 +13166,7 @@ h4{
                                                                                                        
                                                                                          @media screen and  (min-width:1117px)   {
 
-                                                                                                               body{background-color:white;}
+                                                                                                               body{background-color:#7d7d7d;}
                                                                                                              
                                                                                                                     #header{
                                                                                                                                 height:60vh;
@@ -13183,7 +13183,7 @@ h4{
                                                                                                                             #mainNav{
                                                                                                                                 background-color: #ffffff9f;
                                                                                                                                 width:100vw;
-                                                                                                                                height:5vh;
+                                                                                                                                height:7vh;
                                                                                                                             }
                                                                                                                                   a{
                                                                                                                                     color:#313131;
@@ -13257,7 +13257,7 @@ h4{
                                                                                                                                     font-size:2.5rem !important;
                                                                                                                                      font-weight: lighter;
                                                                                                                                      font-family: 'Pinyon Script', cursive;
-                                                                                                                                 color:rgba(#c8c8c8) !important;
+                                                                                                                                 color:rgba(#dbdbdb) !important;
                                                                                                                                  
                                                                                                                                 }
                                                                                                                     
