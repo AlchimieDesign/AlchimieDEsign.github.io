@@ -12747,7 +12747,7 @@ h4{
                                                                                                             @media screen and  (min-width:1042px) and (max-width:1116px) {
 
                                                                                                              
-                                                                                                             body{background-color:white;}
+                                                                                                             body{background-colorwhite:;}
                                                                                           
                                                         
                                                                                                  #header{
@@ -13166,10 +13166,10 @@ h4{
                                                                                                        
                                                                                          @media screen and  (min-width:1117px)   {
 
-                                                                                                               body{background-color:white;}
+                                                                                                               body{background-color:pink;}
                                                                                                              
                                                                                                                     #header{
-                                                                                                                                height:70vh;
+                                                                                                                                height:60vh;
                                                                                                                             background-image: url("img/smoke-show2.png");
                                                                                                                             background-position: center;
                                                                                                                             background-size: cover;
@@ -13252,12 +13252,12 @@ h4{
                                                                                                                                 
                                                                                                                                 h1{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:-5vh !important;
-                                                                                                                                    margin-left:32vw !important;
+                                                                                                                                    margin-top:-6vh !important;
+                                                                                                                                    margin-left:35vw !important;
                                                                                                                                     font-size:2.5rem !important;
                                                                                                                                      font-weight: lighter;
                                                                                                                                      font-family: 'Pinyon Script', cursive;
-                                                                                                                                color:rgba(167, 171, 176);
+                                                                                                                                color:#bf1717;
                                      
                                                                                                                                  
                                                                                                                                 }
@@ -13285,9 +13285,7 @@ h4{
                                                                                                                                    font-size:3.4rem;
                                                                                                                                      font-weight: lighter;
                                                                                                                                      font-family: 'Pinyon Script', cursive;
-                                                                                                                                 color:rgba(107, 107, 107, 0.726) !important;
-                                                                                                                                 -webkit-text-stroke-width: 0.60px !important;
-                                                                                                                                -webkit-text-stroke-color: rgb(250, 250, 250);
+                                                                                                                                color:#d4d4d4;
                                                                                                                                   }
                                                                                                                     
                                                                                                                                   #aboutHeader{
@@ -13295,7 +13293,7 @@ h4{
                                                                                                                                     margin-top:82vh !important;
                                                                                                                                     margin-left:20vw !important;
                                                                                                                                     width:70vw;
-                                                                                                                                    font-size:4rem;
+                                                                                                                                    font-size:6rem;
                                                                                                                                     font-weight: lighter;
                                                                                                                                     font-family: 'Pinyon Script', cursive;
                                                                                                                                     color:rgb(94, 92, 92);
