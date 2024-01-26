@@ -13166,7 +13166,7 @@ h4{
                                                                                                        
                                                                                          @media screen and  (min-width:1117px)   {
 
-                                                                                                               body{background-color:#f4f4f4;}
+                                                                                                               body{background-color:#737373;}
                                                                                                              
                                                                                                                     #header{
                                                                                                                                 height:66vh;
@@ -13281,7 +13281,7 @@ h4{
                                                                                                                     
                                                                                                                                   #subTitle{
                                                                                                                                    margin-top:27vh;
-                                                                                                                                   margin-left:32vw;
+                                                                                                                                   margin-left:16vw;
                                                                                                                                    font-size:3.9rem;
                                                                                                                                      font-weight: lighter;
                                                                                                                                      font-family: 'Pinyon Script', cursive;
@@ -13290,7 +13290,7 @@ h4{
                                                                                                                     
                                                                                                                                   #aboutHeader{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:52vh !important;
+                                                                                                                                    margin-top:82vh !important;
                                                                                                                                     margin-left:18vw !important;
                                                                                                                                     width:70vw;
                                                                                                                                     font-size:3rem;
