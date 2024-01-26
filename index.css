@@ -13166,10 +13166,10 @@ h4{
                                                                                                        
                                                                                          @media screen and  (min-width:1117px)   {
 
-                                                                                                               body{background-color:white;}
+                                                                                                               body{background-color:red;}
                                                                                                              
                                                                                                                     #header{
-                                                                                                                                height:60vh;
+                                                                                                                                height:66vh;
                                                                                                                             background-image: url("img/smoke-show2.png");
                                                                                                                             background-position: center;
                                                                                                                             background-size: cover;
@@ -13219,7 +13219,7 @@ h4{
                                                                                                                                   #linkThree{
                                                                                                                                     position: absolute;
                                                                                                                                     margin-top:10px !important;
-                                                                                                                                    margin-left:73vw;
+                                                                                                                                    margin-left:75vw;
                                                                                                                                    
                                                                                                                                   }
                                                                                     
@@ -13252,8 +13252,8 @@ h4{
                                                                                                                                 
                                                                                                                                 h1{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:-6vh !important;
-                                                                                                                                    margin-left:42vw !important;
+                                                                                                                                    margin-top:-7vh !important;
+                                                                                                                                    margin-left:38vw !important;
                                                                                                                                     font-size:2.7rem !important;
                                                                                                                                      font-weight: lighter;
                                                                                                                                      font-family: 'Pinyon Script', cursive;
@@ -13328,7 +13328,8 @@ h4{
                                                                                                                                     z-index:-1;
                                                                                                                                 }
                                                                                                                                 
-                                                                                                                                #img2{
+                                                                                                                                #img
+                                                                                             2{
                                                                                                                                     position: absolute;
                                                                                                                                     margin-top:40vh;
                                                                                                                                     margin-left:1vw;
