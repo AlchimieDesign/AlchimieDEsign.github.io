@@ -13166,7 +13166,7 @@ h4{
                                                                                                        
                                                                                          @media screen and  (min-width:1117px)   {
 
-                                                                                                               body{background-color:pink;}
+                                                                                                               body{background-color:white;}
                                                                                                              
                                                                                                                     #header{
                                                                                                                                 height:60vh;
@@ -13253,11 +13253,11 @@ h4{
                                                                                                                                 h1{
                                                                                                                                     position: absolute;
                                                                                                                                     margin-top:-6vh !important;
-                                                                                                                                    margin-left:35vw !important;
+                                                                                                                                    margin-left:37vw !important;
                                                                                                                                     font-size:2.5rem !important;
                                                                                                                                      font-weight: lighter;
                                                                                                                                      font-family: 'Pinyon Script', cursive;
-                                                                                                                                color:#bf1717;
+                                                                                                                                color:rgb(212, 214, 217);
                                      
                                                                                                                                  
                                                                                                                                 }
@@ -13281,7 +13281,7 @@ h4{
                                                                                                                     
                                                                                                                                   #subTitle{
                                                                                                                                    margin-top:27vh;
-                                                                                                                                   margin-left:22vw;
+                                                                                                                                   margin-left:32vw;
                                                                                                                                    font-size:3.4rem;
                                                                                                                                      font-weight: lighter;
                                                                                                                                      font-family: 'Pinyon Script', cursive;
@@ -13323,7 +13323,7 @@ h4{
                                                                                                                                     position: absolute;
                                                                                                                                     margin-top:6vh;
                                                                                                                                     margin-left:24vw;
-                                                                                                                                    height:30vh !important;
+                                                                                                                                    height:34vh !important;
                                                                                                                                     width:46vw !important;
                                                                                                                                     z-index:-1;
                                                                                                                                 }
