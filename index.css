@@ -13166,7 +13166,7 @@ h4{
                                                                                                        
                                                                                          @media screen and  (min-width:1117px)   {
 
-                                                                                                               body{background-color:red;}
+                                                                                                               body{background-color:white;}
                                                                                                              
                                                                                                                     #header{
                                                                                                                                 height:66vh;
@@ -13225,7 +13225,7 @@ h4{
                                                                                     
                                                                                                                                   #booking{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:61vh !important;
+                                                                                                                                    margin-top:70vh !important;
                                                                                                                                     margin-left:44vw;
                                                                                                                                     font-size:1rem;
                                                                                                                                     border-width:1px;
@@ -13282,18 +13282,18 @@ h4{
                                                                                                                                   #subTitle{
                                                                                                                                    margin-top:27vh;
                                                                                                                                    margin-left:32vw;
-                                                                                                                                   font-size:3.4rem;
+                                                                                                                                   font-size:3.9rem;
                                                                                                                                      font-weight: lighter;
                                                                                                                                      font-family: 'Pinyon Script', cursive;
-                                                                                                                                color:rgb(212, 214, 217);
+                                                                                                                                color:rgb(120, 121, 122);
                                                                                                                                   }
                                                                                                                     
                                                                                                                                   #aboutHeader{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:82vh !important;
+                                                                                                                                    margin-top:22vh !important;
                                                                                                                                     margin-left:18vw !important;
                                                                                                                                     width:70vw;
-                                                                                                                                    font-size:8rem;
+                                                                                                                                    font-size:3rem;
                                                                                                                                     font-weight: lighter;
                                                                                                                                     font-family: 'Pinyon Script', cursive;
                                                                                                                                     color:rgb(94, 92, 92);
@@ -13328,10 +13328,10 @@ h4{
                                                                                                                                     z-index:-1;
                                                                                                                                 }
                                                                                                                                 
-                                                                                                                                #img
+                                                                                                                                #img2{
                                                                                              2{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:40vh;
+                                                                                                                                    margin-top:10;
                                                                                                                                     margin-left:1vw;
                                                                                                                                     height:30vh !important;
                                                                                                                                     width:46vw !important;
@@ -13340,7 +13340,7 @@ h4{
                                                                                                                                 
                                                                                                                                 #img3{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:40vh;
+                                                                                                                                    margin-top:10vh;
                                                                                                                                     margin-left:47vw;
                                                                                                                                      height:30vh !important;
                                                                                                                                     width:46vw !important;
