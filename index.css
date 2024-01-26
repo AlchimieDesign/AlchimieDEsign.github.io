@@ -13166,7 +13166,7 @@ h4{
                                                                                                        
                                                                                          @media screen and  (min-width:1117px)   {
 
-                                                                                                               body{background-color:#f4f4f4;}
+                                                                                                               body{background-color:white;}
                                                                                                              
                                                                                                                     #header{
                                                                                                                                 height:66vh;
@@ -13281,7 +13281,7 @@ h4{
                                                                                                                     
                                                                                                                                   #subTitle{
                                                                                                                                    margin-top:27vh;
-                                                                                                                                   margin-left:22vw;
+                                                                                                                                   margin-left:26vw;
                                                                                                                                    font-size:3.9rem;
                                                                                                                                      font-weight: lighter;
                                                                                                                                      font-family: 'Pinyon Script', cursive;
@@ -13321,7 +13321,7 @@ h4{
                                                                                                                                 
                                                                                                                                 #img1{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:8vh;
+                                                                                                                                    margin-top:6vh;
                                                                                                                                     margin-left:21vw;
                                                                                                                                     height:34vh !important;
                                                                                                                                     width:43vw !important;
