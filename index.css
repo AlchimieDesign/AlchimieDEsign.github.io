@@ -849,9 +849,8 @@ li{
          font-size:1rem;
         
             padding:2% 9% 2% 9%;          
-         border-width: 1px;
-         border-color:#636161;
-         border-style:solid;
+        font-size:1rem;
+                                                                                                                                   
          font-family: 'Pinyon Script', cursive;
          color:#3d3d3d !important;
         
@@ -860,6 +859,12 @@ li{
        #exploreLink:hover{
         background-color: #505050;
         color:white;
+           font-size:1rem;
+         border-width:1px;
+        border-style: groove;
+       border-color: #918f8f;
+      border-radius: 25px;
+                                                                                                                                    
        }
 
       
