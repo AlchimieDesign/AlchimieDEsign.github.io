@@ -537,7 +537,7 @@ li{
 
 
     @media screen and (min-width:101px)  and (max-width:130px){
-      body{background-color:red;}
+     
         #addText{
             display:none;
          }
