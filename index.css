@@ -850,6 +850,10 @@ li{
         
             padding:2% 9% 2% 9%;          
         font-size:1rem;
+            border-width:1px;
+        border-style: groove;
+       border-color: #918f8f;
+      border-radius: 25px;
                                                                                                                                    
          font-family: 'Pinyon Script', cursive;
          color:#3d3d3d !important;
