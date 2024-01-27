@@ -1255,19 +1255,22 @@ li{
   }
 
   #exploreLink{
-    position: absolute;
-    margin-top:-3vh !important;
-     margin-left:26vw;
-     font-size:1rem;
-    
-        padding:2% 9% 2% 9%;          
-     border-width: 1px;
-     border-color:#636161;
-     border-style:solid;
-     font-family: 'Pinyon Script', cursive;
-     color:#3d3d3d !important;
-    
-   }
+        position: absolute;
+        margin-top:15vh !important;
+         margin-left:21vw;
+         font-size:1rem;
+        
+            padding:2% 9% 2% 9%;          
+        font-size:1rem;
+            border-width:1px;
+        border-style: groove;
+       border-color: #918f8f;
+      border-radius: 25px;
+                                                                                                                                   
+         font-family: 'Pinyon Script', cursive;
+         color:#3d3d3d !important;
+        
+       }
 
    #exploreLink:hover{
     background-color: #505050;
@@ -1725,19 +1728,22 @@ h4{
 
 
   #exploreLink{
-    position: absolute;
-    margin-top:-32vh !important;
-     margin-left:18vw;
-     font-size:1rem;
-    
-        padding:2% 15% 2% 15%;          
-     border-width: 1px;
-     border-color:#636161;
-     border-style:solid;
-     font-family: 'Pinyon Script', cursive;
-     color:#3d3d3d !important;
-    
-   }
+        position: absolute;
+        margin-top:15vh !important;
+         margin-left:21vw;
+         font-size:1rem;
+        
+            padding:2% 9% 2% 9%;          
+        font-size:1rem;
+            border-width:1px;
+        border-style: groove;
+       border-color: #918f8f;
+      border-radius: 25px;
+                                                                                                                                   
+         font-family: 'Pinyon Script', cursive;
+         color:#3d3d3d !important;
+        
+       }
 
    #exploreLink:hover{
     background-color: #505050;
@@ -2189,20 +2195,22 @@ h4{
               }
             
               #exploreLink{
-                position: absolute;
-                margin-top:-3vh !important;
-                 margin-left:34vw;
-                 font-size:1rem;
-                
-                    padding:2% 9% 2% 9%;          
-                 border-width: 1px;
-                 border-color:#636161;
-                 border-style:solid;
-                 font-family: 'Pinyon Script', cursive;
-                 color:#3d3d3d !important;
-                
-               }
-            
+        position: absolute;
+        margin-top:15vh !important;
+         margin-left:21vw;
+         font-size:1rem;
+        
+            padding:2% 9% 2% 9%;          
+        font-size:1rem;
+            border-width:1px;
+        border-style: groove;
+       border-color: #918f8f;
+      border-radius: 25px;
+                                                                                                                                   
+         font-family: 'Pinyon Script', cursive;
+         color:#3d3d3d !important;
+        
+       }
                #exploreLink:hover{
                 background-color: #505050;
                 color:white;
@@ -2657,19 +2665,22 @@ h4{
                   }
                 
                   #exploreLink{
-                    position: absolute;
-                    margin-top:-3vh !important;
-                     margin-left:34vw;
-                     font-size:1rem;
-                    
-                        padding:2% 9% 2% 9%;          
-                     border-width: 1px;
-                     border-color:#636161;
-                     border-style:solid;
-                     font-family: 'Pinyon Script', cursive;
-                     color:#3d3d3d !important;
-                    
-                   }
+        position: absolute;
+        margin-top:15vh !important;
+         margin-left:21vw;
+         font-size:1rem;
+        
+            padding:2% 9% 2% 9%;          
+        font-size:1rem;
+            border-width:1px;
+        border-style: groove;
+       border-color: #918f8f;
+      border-radius: 25px;
+                                                                                                                                   
+         font-family: 'Pinyon Script', cursive;
+         color:#3d3d3d !important;
+        
+       }
                 
                    #exploreLink:hover{
                     background-color: #505050;
@@ -3106,21 +3117,23 @@ h4{
                             
                           }
                         
-                          #exploreLink{
-                            position: absolute;
-                            margin-top:-3vh !important;
-                             margin-left:34vw;
-                             font-size:1rem;
-                            
-                                padding:2% 9% 2% 9%;          
-                             border-width: 1px;
-                             border-color:#636161;
-                             border-style:solid;
-                             font-family: 'Pinyon Script', cursive;
-                             color:#3d3d3d !important;
-                            
-                           }
-                        
+                         #exploreLink{
+        position: absolute;
+        margin-top:15vh !important;
+         margin-left:21vw;
+         font-size:1rem;
+        
+            padding:2% 9% 2% 9%;          
+        font-size:1rem;
+            border-width:1px;
+        border-style: groove;
+       border-color: #918f8f;
+      border-radius: 25px;
+                                                                                                                                   
+         font-family: 'Pinyon Script', cursive;
+         color:#3d3d3d !important;
+        
+       }
                            #exploreLink:hover{
                             background-color: #505050;
                             color:white;
@@ -3564,8 +3577,13 @@ h4{
                                      border-width: 1px;
                                      border-color:#636161;
                                      border-style:solid;
+                                      boarder-radius:25px;
                                      font-family: 'Pinyon Script', cursive;
                                      color:#3d3d3d !important;
+                                       #exploreLink{
+      
+        
+       }
                                     
                                    }
                                 
@@ -4012,6 +4030,7 @@ h4{
                                      border-width: 1px;
                                      border-color:#636161;
                                      border-style:solid;
+                                      border-radius:25px;
                                      font-family: 'Pinyon Script', cursive;
                                      color:#3d3d3d !important;
                                     
@@ -4464,6 +4483,7 @@ h4{
                  border-width: 1px;
                  border-color:#636161;
                  border-style:solid;
+                   border-radius:25px;
                  font-family: 'Pinyon Script', cursive;
                  color:#3d3d3d !important;
                 
@@ -4916,6 +4936,7 @@ h4{
                      border-width: 1px;
                      border-color:#636161;
                      border-style:solid;
+                       border-radius:25px;
                      font-family: 'Pinyon Script', cursive;
                      color:#3d3d3d !important;
                     
@@ -5380,6 +5401,7 @@ h4{
                                              border-width: 1px;
                                              border-color:#636161;
                                              border-style:solid;
+                                               border-radius:25px;
                                              font-family: 'Pinyon Script', cursive;
                                              
                                              color:#5c5c5c !important;
@@ -5874,6 +5896,7 @@ h4{
                                                  border-width: 1px;
                                                  border-color:#636161;
                                                  border-style:solid;
+                                                   border-radius:25px;
                                                  font-family: 'Pinyon Script', cursive;
                                                  
                                                  color:#5c5c5c !important;
@@ -6362,6 +6385,7 @@ h4{
                                                          border-width: 1px;
                                                          border-color:#636161;
                                                          border-style:solid;
+                                                           border-radius:25px;
                                                          font-family: 'Pinyon Script', cursive;
                                                          
                                                          color:#5c5c5c !important;
@@ -6851,6 +6875,7 @@ h4{
                                                                  border-width: 1px;
                                                                  border-color:#636161;
                                                                  border-style:solid;
+                                                                   border-radius:25px;
                                                                  font-family: 'Pinyon Script', cursive;
                                                                  
                                                                  color:#5c5c5c !important;
@@ -7346,6 +7371,7 @@ h4{
                                                  border-width: 1px;
                                                  border-color:#636161;
                                                  border-style:solid;
+                                                   border-radius:25px;
                                                  font-family: 'Pinyon Script', cursive;
                                                  
                                                  color:#5c5c5c !important;
@@ -7839,6 +7865,7 @@ h4{
                                                          border-width: 1px;
                                                          border-color:#636161;
                                                          border-style:solid;
+                                                           border-radius:25px;
                                                          font-family: 'Pinyon Script', cursive;
                                                          
                                                          color:#5c5c5c !important;
@@ -8333,6 +8360,8 @@ h4{
                                                          border-width: 1px;
                                                          border-color:#636161;
                                                          border-style:solid;
+
+                                                           border-radius:25px;
                                                          font-family: 'Pinyon Script', cursive;
                                                          
                                                          color:#5c5c5c !important;
@@ -8825,6 +8854,7 @@ h4{
                                                          border-width: 1px;
                                                          border-color:#636161;
                                                          border-style:solid;
+                                                           border-radius:25px;
                                                          font-family: 'Pinyon Script', cursive;
                                                          
                                                          color:#5c5c5c !important;
