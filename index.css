@@ -961,7 +961,7 @@ li{
 
  
 
-@media screen and (min-width:131px) and (max-width:150px){
+@media screen and (min-width:131px) and (max-width:151px){
 
    body{background-color:white;}
   
@@ -1369,8 +1369,8 @@ h4{
 
 
 
-@media screen and (min-width:151px) and (max-width:170px){
-   
+@media screen and (min-width:152px) and (max-width:170px){
+   body{background-color:31, 21, 41;}
 
     #smallText{
         display:none;
@@ -1729,7 +1729,7 @@ h4{
 
   #exploreLink{
         position: absolute;
-        margin-top:15vh !important;
+        margin-top:-7vh !important;
          margin-left:21vw;
          font-size:1rem;
         
