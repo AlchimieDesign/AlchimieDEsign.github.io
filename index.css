@@ -1371,7 +1371,7 @@ h4{
 
 
 @media screen and (min-width:152px) and (max-width:170px){
-   body{background-color:31, 21, 41 !important;}
+   body{background-color:white;}
 
     #smallText{
         display:none;
@@ -1730,11 +1730,11 @@ h4{
 
   #exploreLink{
         position: absolute;
-        margin-top:-20vh !important;
+        margin-top:-40vh !important;
          margin-left:21vw;
          font-size:1rem;
         
-            padding:2% 9% 2% 9%;          
+            padding:0% 13% 0% 13%;          
         font-size:1rem;
             border-width:1px;
         border-style: groove;
