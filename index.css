@@ -1256,7 +1256,7 @@ li{
 
   #exploreLink{
         position: absolute;
-        margin-top:15vh !important;
+        margin-top:-5vh !important;
          margin-left:21vw;
          font-size:1rem;
         
