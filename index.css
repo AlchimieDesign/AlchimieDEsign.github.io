@@ -1830,7 +1830,7 @@ h4{
 
             @media screen and (min-width:171px) and (max-width:186px){
 
-              
+              body{background-color:red;}
  
                 #smallText{
                     display:none;
