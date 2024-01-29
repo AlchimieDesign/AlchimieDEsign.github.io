@@ -963,7 +963,7 @@ li{
 
 @media screen and (min-width:131px) and (max-width:150px){
 
-   
+   body{background-color:red;}
   
     #addText{
         display:none;
