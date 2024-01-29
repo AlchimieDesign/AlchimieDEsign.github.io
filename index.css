@@ -5397,7 +5397,7 @@ h4{
                                             position: absolute;
                                             margin-top:73vh !important;
                                              margin-left:26vw;
-                                             font-size:2rem;
+                                             font-size:1rem;
                                             
                                                 padding:0% 15% 0% 15%;          
                                              border-width: 1px;
@@ -6381,7 +6381,7 @@ h4{
                                                         position: absolute;
                                                         margin-top:57vh !important;
                                                          margin-left:26vw;
-                                                         font-size:2rem;
+                                                         font-size:1rem;
                                                         
                                                             padding:0% 15% 0% 15%;          
                                                          border-width: 1px;
@@ -10661,7 +10661,7 @@ h4{
                                                                                                                                                                             height:47vh;
                                                                                                                                                                         background-image: url("img/smoke-show2.png");
                                                                                                                                                                         background-position: center;
-                                                                                                                                                                        background-size: cover;
+                                                                                                                                                                                                                                                                                                                                                            background-size: cover;
                                                                                                                                                                                                                                                                                                                           background-repeat: no-repeat;
                                                                                                                                                                         }                                                                                                                                                                                                                                                      
                                                                                                                                                                 #dskNav{
@@ -11410,7 +11410,7 @@ h4{
                                                 
                                                                                               #exploreLink{
                                                                                                 position: absolute;
-                                                                                                margin-top:50vh !important;
+                                                                                                margin-top:100vh !important;
                                                                                                  margin-left:40vw;
                                                                                                  
                                                                                                 
@@ -13267,7 +13267,7 @@ h4{
                                                                                                                                   #booking{
                                                                                                                                     position: absolute;
                                                                                                                                     margin-top:67vh !important;
-                                                                                                                                    margin-left:40vw;
+                                                                                                                                    margin-left:46vw;
                                                                                                                                     font-size:1rem;
                                                                                                                                     border-width:1px;
                                                                                                                                     border-style: groove;
