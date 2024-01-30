@@ -1551,7 +1551,7 @@ font-size: 15px !important;
 
 
                 @media screen and (min-width:181px) and (max-width:212px){
-                    body{background-color:red;}
+                    body{background-color:white;}
                  
                  
                     #mobileLogo{
@@ -1656,8 +1656,8 @@ font-size: 15px !important;
                                      #homeLink{
                                          position: absolute;
                                          margin-top:-10vh;
-                                         margin-left:-50vw !important;
-                                         font-size: 1rem;
+                                         margin-left:20vw !important;
+                                         font-size: 1.3rem;
                                          font-weight: lighter;
                                          color:rgb(68, 68, 68);
                                      }
@@ -1665,8 +1665,8 @@ font-size: 15px !important;
                                      #aboutLink{
                                          position: absolute;
                                          margin-top:-13vh;
-                                         margin-left:-50vw !important;
-                                         font-size: 1rem;
+                                         margin-left:20vw !important;
+                                         font-size: 1.3rem;
                                          font-weight: lighter;
                                          color:rgb(68, 68, 68);
                                      }
@@ -1674,8 +1674,8 @@ font-size: 15px !important;
                                      #missionLink{
                                          position: absolute;
                                          margin-top:-15vh;
-                                         margin-left:-50vw !important;
-                                         font-size: 1rem;
+                                         margin-left:20vw !important;
+                                         font-size: 1.3rem;
                                          font-weight: lighter;
                                          color:rgb(68, 68, 68);
                                      }
@@ -1998,7 +1998,7 @@ font-size: 15px !important;
                                 display:block;
                                 padding:0% 1% 0% 1%;
                                 margin-top:2vh;
-                                margin-left:15vw;
+                                margin-left:22vw;
                                  
                                   font-size:1.5rem;
                                   color:rgb(212, 212, 212);
@@ -2008,8 +2008,8 @@ font-size: 15px !important;
                                #footerLogo{
                                   position: absolute;
                                   margin-top:5vh;
-                                  margin-left:3vw !important;
-                                 font-size:.90rem;
+                                  margin-left:5vw !important;
+                                 font-size:1rem;
                                  font-family: 'Pinyon Script', cursive;
                                   font-weight: lighter;
                                   color:white;
