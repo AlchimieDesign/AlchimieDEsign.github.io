@@ -483,10 +483,10 @@ body{
         #contact{
             position: absolute;
             margin-top:6vh !important;
-            margin-left:15vw;
-            font-size:1rem;
+            margin-left:5vw;
+            font-size:.30rem;
 
-            padding:2% 9% 2% 9%; 
+            padding:1% 9% 1% 9%; 
             border-radius: 25px;         
          border-width: 1px;
          border-color:#636161;
