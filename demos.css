@@ -483,7 +483,7 @@ body{
         #contact{
             position: absolute;
             margin-top:4vh !important;
-            margin-left:8vw;
+            margin-left:10vw;
             font-size:.80rem;
 
             padding:1% 9% 1% 9%; 
@@ -508,8 +508,8 @@ body{
 
 h3{
 position: absolute;
-margin-top:-4vh !important;
-margin-left:1.30vw !important;
+margin-top:-5vh !important;
+margin-left:8vw !important;
 font-size:2rem;
 font-weight: lighter;
 font-family: 'Pinyon Script', cursive;
