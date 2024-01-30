@@ -1551,7 +1551,7 @@ font-size: 15px !important;
 
 
                 @media screen and (min-width:181px) and (max-width:212px){
-                    body{background-color:red;}
+                    body{background-color:#7d7d80;}
                  
                  
                     #mobileLogo{
@@ -1656,7 +1656,7 @@ font-size: 15px !important;
                                      #homeLink{
                                          position: absolute;
                                          margin-top:-10vh;
-                                         margin-left:-22vw !important;
+                                         margin-left:-14vw !important;
                                          font-size: 1.3rem;
                                          font-weight: lighter;
                                          color:rgb(68, 68, 68);
@@ -1665,7 +1665,7 @@ font-size: 15px !important;
                                      #aboutLink{
                                          position: absolute;
                                          margin-top:-13vh;
-                                         margin-left:-22vw !important;
+                                         margin-left:-14vw !important;
                                          font-size: 1.3rem;
                                          font-weight: lighter;
                                          color:rgb(68, 68, 68);
@@ -1674,7 +1674,7 @@ font-size: 15px !important;
                                      #missionLink{
                                          position: absolute;
                                          margin-top:-15vh;
-                                         margin-left:-22vw !important;
+                                         margin-left:-14vw !important;
                                          font-size: 1.3rem;
                                          font-weight: lighter;
                                          color:rgb(68, 68, 68);
@@ -1683,7 +1683,7 @@ font-size: 15px !important;
                                      #bookLink{
                                          margin-top:-18vh;
                                          margin-left:-60vw !important;
-                                         font-size:1.2rem;
+                                         font-size:.80rem;
                                           padding:1% 5% 1% 5%;
                                            border-width: 1px;
                                            border-color:#636161;
