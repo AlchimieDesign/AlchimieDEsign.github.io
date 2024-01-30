@@ -600,7 +600,7 @@ font-size: 15px !important;
        
 
         @media screen and (min-width:121px) and (max-width:159px){
-            body{background-color:red;}
+            body{background-color:white;}
 
       
             #mobileLogo{
@@ -657,7 +657,7 @@ font-size: 15px !important;
                      
                              .nav-item {
                                  margin: 2.5rem 0;
-                                 margin-left:40vw;
+                                 margin-left:10vw;
                                  font-size: 2rem !important;
                                  font-weight: lighter !important;
                              }
