@@ -1656,7 +1656,7 @@ font-size: 15px !important;
                                      #homeLink{
                                          position: absolute;
                                          margin-top:-10vh;
-                                         margin-left:20vw !important;
+                                         margin-left:-6vw !important;
                                          font-size: 1.3rem;
                                          font-weight: lighter;
                                          color:rgb(68, 68, 68);
@@ -1665,7 +1665,7 @@ font-size: 15px !important;
                                      #aboutLink{
                                          position: absolute;
                                          margin-top:-13vh;
-                                         margin-left:20vw !important;
+                                         margin-left:-6vw !important;
                                          font-size: 1.3rem;
                                          font-weight: lighter;
                                          color:rgb(68, 68, 68);
@@ -1674,7 +1674,7 @@ font-size: 15px !important;
                                      #missionLink{
                                          position: absolute;
                                          margin-top:-15vh;
-                                         margin-left:20vw !important;
+                                         margin-left:-6vw !important;
                                          font-size: 1.3rem;
                                          font-weight: lighter;
                                          color:rgb(68, 68, 68);
