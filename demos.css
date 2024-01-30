@@ -120,12 +120,12 @@ li{
 
     @media screen and (min-width:50px) and (max-width:120px){
 body{
-    background-color: #47556928;
+    background-color: white;
 }
       
 #mobileLogo{
     margin-top:1vh;
-    margin-left:21vw;
+    margin-left:25vw;
     height:15vh; 
     width:50vw;
 }
@@ -498,7 +498,7 @@ body{
         #offers{
 
             margin-top:15vh;
-            margin-left:20vw;
+            margin-left:16vw;
             width:50vw;
           
         }
@@ -518,7 +518,7 @@ color:rgb(78, 71, 71);
 
 .itemHeader{
 margin-top:90vh;
-margin-left:17vw;
+margin-left:13vw;
 
 }
 
