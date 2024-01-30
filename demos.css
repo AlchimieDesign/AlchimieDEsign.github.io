@@ -1656,7 +1656,7 @@ font-size: 15px !important;
                                      #homeLink{
                                          position: absolute;
                                          margin-top:-10vh;
-                                         margin-left:-15vw !important;
+                                         margin-left:-20vw !important;
                                          font-size: 1.3rem;
                                          font-weight: lighter;
                                          color:rgb(68, 68, 68);
@@ -1665,7 +1665,7 @@ font-size: 15px !important;
                                      #aboutLink{
                                          position: absolute;
                                          margin-top:-13vh;
-                                         margin-left:-15vw !important;
+                                         margin-left:-20vw !important;
                                          font-size: 1.3rem;
                                          font-weight: lighter;
                                          color:rgb(68, 68, 68);
@@ -1674,7 +1674,7 @@ font-size: 15px !important;
                                      #missionLink{
                                          position: absolute;
                                          margin-top:-15vh;
-                                         margin-left:-15vw !important;
+                                         margin-left:-20vw !important;
                                          font-size: 1.3rem;
                                          font-weight: lighter;
                                          color:rgb(68, 68, 68);
@@ -1682,7 +1682,7 @@ font-size: 15px !important;
                              
                                      #bookLink{
                                          margin-top:-18vh;
-                                         margin-left:-67vw !important;
+                                         margin-left:-69vw !important;
                                          font-size:1.2rem;
                                           padding:2% 8% 2% 8%;
                                            border-width: 1px;
