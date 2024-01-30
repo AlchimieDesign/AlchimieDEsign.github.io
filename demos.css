@@ -1682,7 +1682,7 @@ font-size: 15px !important;
                              
                                      #bookLink{
                                          margin-top:-18vh;
-                                         margin-left:-50vw !important;
+                                         margin-left:-46vw !important;
                                          font-size:.80rem;
                                           padding:1% 5% 1% 5%;
                                            border-width: 1px;
@@ -2008,7 +2008,7 @@ font-size: 15px !important;
                                #footerLogo{
                                   position: absolute;
                                   margin-top:5vh;
-                                  margin-left:5vw !important;
+                                  margin-left:10vw !important;
                                  font-size:1rem;
                                  font-family: 'Pinyon Script', cursive;
                                   font-weight: lighter;
