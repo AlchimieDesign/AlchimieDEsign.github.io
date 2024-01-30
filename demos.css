@@ -534,7 +534,7 @@ font-size:20px;
 #itemTextOne{
 padding-top: 20%;
 margin-top:12vh !important;
-margin-left:4vw;
+margin-left:3vw;
 font-size: 15px !important;
 width:80vw;
 }
@@ -542,7 +542,7 @@ width:80vw;
 #itemTextTwo{
 
 margin-top:3vh;
-margin-left:4vw;
+margin-left:3vw;
 width:80vw;
 font-size: 15px !important;
 
@@ -551,7 +551,7 @@ font-size: 15px !important;
 #itemTextThree{
 
 margin-top:4vh;
-margin-left:4vw;
+margin-left:3vw;
 width:90vw !important;
 font-size: 15px !important;
 
@@ -574,7 +574,7 @@ font-size: 15px !important;
             display:block;
             padding:0% 1% 0% 1%;
             margin-top:2vh;
-            margin-left:20vw !important;
+            margin-left:16vw !important;
              
               font-size:1.4rem;
               color:rgb(212, 212, 212);
@@ -585,7 +585,7 @@ font-size: 15px !important;
               position: absolute;
               margin-top:5vh;
               margin-left:6vw !important;
-             font-size:1rem;
+             font-size:.70rem;
              font-family: 'Pinyon Script', cursive;
               font-weight: lighter;
               color:white;
