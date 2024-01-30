@@ -600,6 +600,7 @@ font-size: 15px !important;
        
 
         @media screen and (min-width:121px) and (max-width:159px){
+            body{background-color:red;}
 
       
             #mobileLogo{
@@ -704,7 +705,7 @@ font-size: 15px !important;
                              #homeLink{
                                  position: absolute;
                                  margin-top:-10vh;
-                                 margin-left:-47vw !important;
+                                 margin-left:20vw !important;
                                  font-size: 1.4rem;
                                  font-weight: lighter;
                                  color:rgb(68, 68, 68);
@@ -713,7 +714,7 @@ font-size: 15px !important;
                              #aboutLink{
                                  position: absolute;
                                  margin-top:-13vh;
-                                 margin-left:-49vw !important;
+                                 margin-left:20vw !important;
                                  font-size: 1.4rem;
                                  font-weight: lighter;
                                  color:rgb(68, 68, 68);
@@ -722,7 +723,7 @@ font-size: 15px !important;
                              #missionLink{
                                  position: absolute;
                                  margin-top:-15vh;
-                                 margin-left:-52vw !important;
+                                 margin-left:20vw !important;
                                  font-size: 1.4rem;
                                  font-weight: lighter;
                                  color:rgb(68, 68, 68);
@@ -730,10 +731,10 @@ font-size: 15px !important;
                      
                              #bookLink{
                                  margin-top:-18vh;
-                                 margin-left:-61vw !important;
+                                 margin-left:13vw !important;
                                  font-size:.77rem;
                                   padding:2% 10% 2% 10%;
-                                   border-width: 1px;
+                                   border-width: .80px;
                                    border-color:#636161;
                                    border-style:solid;
                                    font-family: 'Pinyon Script', cursive;
@@ -955,8 +956,8 @@ font-size: 15px !important;
             
                     #contact{
                         position: absolute;
-                        margin-top:6vh !important;
-                        margin-left:21vw;
+                        margin-top:3vh !important;
+                        margin-left:17vw;
                         font-size:1rem;
             
                         padding:1% 6% 1% 6%; 
@@ -1007,7 +1008,7 @@ font-size: 15px !important;
             padding-top: 20%;
             margin-top:12vh !important;
             margin-left:-22vw;
-            font-size: 13px !important;
+            font-size: 10px !important;
             width:87vw;
             }
             
@@ -1016,7 +1017,7 @@ font-size: 15px !important;
             margin-top:5vh;
             margin-left:-20vw;
             width:83vw;
-            font-size: 13px !important;
+            font-size: 10px !important;
             
             }
             
@@ -1025,7 +1026,7 @@ font-size: 15px !important;
             margin-top:6vh;
             margin-left:-20vw;
             width:85vw !important;
-            font-size: 15px !important;
+            font-size: 10px !important;
             
             }
             
@@ -1046,7 +1047,7 @@ font-size: 15px !important;
                         display:block;
                         padding:0% 1% 0% 1%;
                         margin-top:1.4vh;
-                        margin-left:30vw;
+                        margin-left:13vw;
                          
                           font-size:1.5rem;
                           color:rgb(212, 212, 212);
@@ -1056,8 +1057,8 @@ font-size: 15px !important;
                        #footerLogo{
                           position: absolute;
                           margin-top:5vh;
-                          margin-left:3vw !important;
-                         font-size:1.5rem;
+                          margin-left:4vw !important;
+                         font-size:.90rem;
                          font-family: 'Pinyon Script', cursive;
                           font-weight: lighter;
                           color:white;
