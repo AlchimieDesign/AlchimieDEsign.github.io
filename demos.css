@@ -534,7 +534,7 @@ font-size:20px;
 #itemTextOne{
 padding-top: 20%;
 margin-top:12vh !important;
-margin-left:6vw;
+margin-left:4vw;
 font-size: 15px !important;
 width:80vw;
 }
@@ -542,7 +542,7 @@ width:80vw;
 #itemTextTwo{
 
 margin-top:3vh;
-margin-left:-13vw;
+margin-left:4vw;
 width:80vw;
 font-size: 15px !important;
 
@@ -551,7 +551,7 @@ font-size: 15px !important;
 #itemTextThree{
 
 margin-top:4vh;
-margin-left:-13vw;
+margin-left:4vw;
 width:90vw !important;
 font-size: 15px !important;
 
