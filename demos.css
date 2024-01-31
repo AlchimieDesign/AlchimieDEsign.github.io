@@ -600,7 +600,7 @@ font-size: 15px !important;
        
 
         @media screen and (min-width:121px) and (max-width:159px){
-            body{background-color:white;}
+            body{background-color:#e8e6eb;}
 
       
             #mobileLogo{
@@ -731,7 +731,7 @@ font-size: 15px !important;
                      
                              #bookLink{
                                  margin-top:-18vh;
-                                 margin-left:-25vw !important;
+                                 margin-left:-35vw !important;
                                  font-size:.70rem;
                                   padding:2% 10% 2% 10%;
                                    border-width: .80px;
@@ -957,7 +957,7 @@ font-size: 15px !important;
                     #contact{
                         position: absolute;
                         margin-top:3vh !important;
-                        margin-left:17vw;
+                        margin-left:14vw;
                         font-size:1rem;
             
                         padding:1% 6% 1% 6%; 
@@ -991,7 +991,7 @@ font-size: 15px !important;
             }
             
             .itemHeader{
-            margin-top:73vh;
+            margin-top:65vh;
             margin-left:-9vw !important;
             
             }
