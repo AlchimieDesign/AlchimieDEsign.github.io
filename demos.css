@@ -600,7 +600,7 @@ font-size: 15px !important;
        
 
         @media screen and (min-width:121px) and (max-width:159px){
-            body{background-color:#e8e6eb;}
+            body{background-color:white;}
 
       
             #mobileLogo{
@@ -731,7 +731,7 @@ font-size: 15px !important;
                      
                              #bookLink{
                                  margin-top:-18vh;
-                                 margin-left:-19vw !important;
+                                 margin-left:-25vw !important;
                                  font-size:.70rem;
                                   padding:2% 10% 2% 10%;
                                    border-width: .80px;
