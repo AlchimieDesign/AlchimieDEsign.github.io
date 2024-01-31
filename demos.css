@@ -2028,7 +2028,7 @@ font-size: 15px !important;
 
                 @media screen and (min-width:213px) and (max-width:239px){
                    
-                   body{background-color:#e8e6eb;}
+                   body{background-color:white;}
 
                     #mobileLogo{
                         display:none;
@@ -2400,8 +2400,8 @@ font-size: 15px !important;
                         
                         h3{
                         position: absolute;
-                        margin-top:-3vh !important;
-                        margin-left:-6vw !important;
+                        margin-top:-4vh !important;
+                        margin-left:-4vw !important;
                         font-size:2rem;
                         font-weight: lighter;
                         font-family: 'Pinyon Script', cursive;
