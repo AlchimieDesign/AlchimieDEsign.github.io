@@ -600,7 +600,7 @@ font-size: 15px !important;
        
 
         @media screen and (min-width:121px) and (max-width:159px){
-            body{background-color:#28183d;}
+            body{background-color:white;}
 
       
             #mobileLogo{
@@ -705,7 +705,7 @@ font-size: 15px !important;
                              #homeLink{
                                  position: absolute;
                                  margin-top:-10vh;
-                                 margin-left:-8vw !important;
+                                 margin-left:-13vw !important;
                                  font-size: 1rem;
                                  font-weight: lighter;
                                  color:rgb(68, 68, 68);
@@ -714,7 +714,7 @@ font-size: 15px !important;
                              #aboutLink{
                                  position: absolute;
                                  margin-top:-13vh;
-                                 margin-left:-8vw !important;
+                                 margin-left:-13vw !important;
                                  font-size: 1rem;
                                  font-weight: lighter;
                                  color:rgb(68, 68, 68);
@@ -723,7 +723,7 @@ font-size: 15px !important;
                              #missionLink{
                                  position: absolute;
                                  margin-top:-15vh;
-                                 margin-left:-8vw !important;
+                                 margin-left:-13vw !important;
                                  font-size: 1rem;
                                  font-weight: lighter;
                                  color:rgb(68, 68, 68);
@@ -731,7 +731,7 @@ font-size: 15px !important;
                      
                              #bookLink{
                                  margin-top:-18vh;
-                                 margin-left:-6vw !important;
+                                 margin-left:-14vw !important;
                                  font-size:.70rem;
                                   padding:2% 10% 2% 10%;
                                    border-width: .80px;
