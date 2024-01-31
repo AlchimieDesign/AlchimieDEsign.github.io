@@ -2491,6 +2491,7 @@ font-size: 15px !important;
 
 
                             @media screen and (min-width:240px) and (max-width:320px){
+                                body{background-color:#3b6968;}
 
                                
 
@@ -2617,7 +2618,7 @@ font-size: 15px !important;
                             
                                     #bookLink{
                                         margin-top:-68vh;
-                                        margin-left:-35vw !important;
+                                        margin-left:-18vw !important;
                                         font-size:1rem;
                                          padding:2% 6% 2% 6%;
                                           border-width: 1px;
@@ -2657,7 +2658,7 @@ font-size: 15px !important;
                                                 position: absolute;
                                                 margin-top:-4vh !important;
                                                 margin-left:30vw !important;
-                                                font-size:1.7rem;
+                                                font-size:1.4rem;
                                                 font-weight: lighter;
                                                 font-family: 'Pinyon Script', cursive;
                                                 color:rgb(105, 103, 103);
@@ -2839,7 +2840,7 @@ font-size: 15px !important;
                                             #contact{
                                                 position: absolute;
                                                 margin-top:6vh !important;
-                                                margin-left:30vw;
+                                                margin-left:27vw;
                                                 font-size:1rem;
                                     
                                                 padding:1% 6% 1% 6%; 
@@ -2874,7 +2875,7 @@ font-size: 15px !important;
                                     
                                     .itemHeader{
                                     margin-top:90vh;
-                                    margin-left:20vw;
+                                    margin-left:16vw;
                                     
                                     }
                                     
@@ -2897,7 +2898,7 @@ font-size: 15px !important;
                                     #itemTextTwo{
                                     
                                     margin-top:5vh;
-                                    margin-left:-20vw;
+                                    margin-left:-22vw;
                                     width:85vw;
                                     font-size: 15px !important;
                                     
@@ -2906,8 +2907,8 @@ font-size: 15px !important;
                                     #itemTextThree{
                                     
                                     margin-top:6vh;
-                                    margin-left:-17vw;
-                                    width:85vw !important;
+                                    margin-left:-19vw;
+                                    width:87vw !important;
                                     font-size: 15px !important;
                                     
                                     }
@@ -2931,7 +2932,7 @@ font-size: 15px !important;
                                                 margin-top:2vh;
                                                 margin-left:10vw;
                                                  
-                                                  font-size:1.5rem;
+                                                  font-size:1.2rem;
                                                   color:rgb(212, 212, 212);
                                                }
                                     
@@ -2940,7 +2941,7 @@ font-size: 15px !important;
                                                   position: absolute;
                                                   margin-top:5vh;
                                                   margin-left:13vw !important;
-                                                 font-size:2.3rem;
+                                                 font-size:1.7rem;
                                                  font-family: 'Pinyon Script', cursive;
                                                   font-weight: lighter;
                                                   color:white;
