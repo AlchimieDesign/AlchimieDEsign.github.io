@@ -517,8 +517,8 @@ color:rgb(78, 71, 71);
 }
 
 .itemHeader{
-margin-top:87vh;
-margin-left:11vw;
+margin-top:85vh;
+margin-left:8vw;
     
 
 }
@@ -574,7 +574,7 @@ font-size: 15px !important;
             display:block;
             padding:0% 1% 0% 1%;
             margin-top:2vh;
-            margin-left:16vw !important;
+            margin-left:19vw !important;
              
               font-size:1rem;
               color:rgb(212, 212, 212);
@@ -584,7 +584,7 @@ font-size: 15px !important;
            #footerLogo{
               position: absolute;
               margin-top:5vh;
-              margin-left:8vw !important;
+              margin-left:10vw !important;
              font-size:.70rem;
              font-family: 'Pinyon Script', cursive;
               font-weight: lighter;
