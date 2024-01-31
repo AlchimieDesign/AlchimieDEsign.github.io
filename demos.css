@@ -2028,7 +2028,7 @@ font-size: 15px !important;
 
                 @media screen and (min-width:213px) and (max-width:239px){
                    
-                   body{background-color:#e8e6eb;}
+                   body{background-color:white;}
 
                     #mobileLogo{
                         display:none;
@@ -2374,8 +2374,8 @@ font-size: 15px !important;
                         
                                 #contact{
                                     position: absolute;
-                                    margin-top:6vh !important;
-                                    margin-left:30vw;
+                                    margin-top:4vh !important;
+                                    margin-left:24vw;
                                     font-size:1rem;
                         
                                     padding:1% 6% 1% 6%; 
@@ -2410,7 +2410,7 @@ font-size: 15px !important;
                         
                         .itemHeader{
                         margin-top:90vh;
-                        margin-left:20vw;
+                        margin-left:17vw;
                         
                         }
                         
@@ -2476,7 +2476,7 @@ font-size: 15px !important;
                                       position: absolute;
                                       margin-top:5vh;
                                       margin-left:3vw !important;
-                                     font-size:1.8rem;
+                                     font-size:1.4rem;
                                      font-family: 'Pinyon Script', cursive;
                                       font-weight: lighter;
                                       color:white;
