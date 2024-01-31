@@ -120,7 +120,7 @@ li{
 
     @media screen and (min-width:50px) and (max-width:120px){
 body{
-    background-color:#181830;
+    background-color:white;
 }
       
 #mobileLogo{
@@ -177,7 +177,7 @@ body{
          
                  .nav-item {
                      margin: 2.5rem 0;
-                     margin-left:10vw;
+                     margin-left:40vw;
                      font-size: 0.50rem;
                      font-weight: lighter !important;
                  }
@@ -251,7 +251,7 @@ body{
          
                  #bookLink{
                      margin-top:-25vh;
-                     margin-left:-69vw !important;
+                     margin-left:-68vw !important;
                      font-size:.70rem;
                       padding:2% 10% 2% 10%;
                        border-width: 1px;
@@ -518,13 +518,13 @@ color:rgb(78, 71, 71);
 
 .itemHeader{
 margin-top:85vh;
-margin-left:8vw;
+margin-left:5vw;
     
 
 }
 
 .itemText{
-margin-top:17vh;
+margin-top:14vh;
 margin-left:10vw;
 width:40vw;
 font-size:20px;
