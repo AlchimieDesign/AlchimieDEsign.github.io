@@ -2491,7 +2491,7 @@ font-size: 15px !important;
 
 
                             @media screen and (min-width:240px) and (max-width:320px){
-                                body{background-color:white;}
+                                body{background-color:#2d918f;}
 
                                
 
@@ -2618,7 +2618,7 @@ font-size: 15px !important;
                             
                                     #bookLink{
                                         margin-top:-68vh;
-                                        margin-left:-23vw !important;
+                                        margin-left:-43vw !important;
                                         font-size:1rem;
                                          padding:2% 6% 2% 6%;
                                           border-width: 1px;
@@ -2657,7 +2657,7 @@ font-size: 15px !important;
                                               h1{
                                                 position: absolute;
                                                 margin-top:-4vh !important;
-                                                margin-left:27vw !important;
+                                                margin-left:31vw !important;
                                                 font-size:1.2rem;
                                                 font-weight: lighter;
                                                 font-family: 'Pinyon Script', cursive;
@@ -2890,9 +2890,9 @@ font-size: 15px !important;
                                     #itemTextOne{
                                     padding-top: 20%;
                                     margin-top:12vh !important;
-                                    margin-left:-24vw;
+                                    margin-left:-22vw;
                                     font-size: 15px !important;
-                                    width:87vw;
+                                    width:90vw;
                                     }
                                     
                                     #itemTextTwo{
