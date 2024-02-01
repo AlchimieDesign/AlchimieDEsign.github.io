@@ -161,7 +161,7 @@ body{
                      top: 2rem;
                      flex-direction: column;
                      background-color: #fff !important;
-                     height:50vh !important;
+                     height:30vh !important;
                      width: 100%;
                      border-radius: 10px;
                      text-align: center;
@@ -484,7 +484,7 @@ body{
         #contact{
             position: absolute;
             margin-top:4vh !important;
-            margin-left:10vw;
+            margin-left:5vw;
             font-size:.80rem;
 
             padding:1% 9% 1% 9%; 
@@ -519,7 +519,7 @@ color:rgb(78, 71, 71);
 
 .itemHeader{
 margin-top:85vh;
-margin-left:5vw;
+margin-left:3vw;
     
 
 }
@@ -585,7 +585,7 @@ font-size: 15px !important;
            #footerLogo{
               position: absolute;
               margin-top:5vh;
-              margin-left:10vw !important;
+              margin-left:15vw !important;
              font-size:.50rem;
              font-family: 'Pinyon Script', cursive;
               font-weight: lighter;
