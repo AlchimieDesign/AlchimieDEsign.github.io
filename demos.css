@@ -2491,7 +2491,7 @@ font-size: 15px !important;
 
 
                             @media screen and (min-width:240px) and (max-width:320px){
-                                body{background-color:#2d918f;}
+                                body{background-color:white;}
 
                                
 
@@ -2890,7 +2890,7 @@ font-size: 15px !important;
                                     #itemTextOne{
                                     padding-top: 20%;
                                     margin-top:12vh !important;
-                                    margin-left:-22vw;
+                                    margin-left:-24vw;
                                     font-size: 15px !important;
                                     width:90vw;
                                     }
@@ -2907,8 +2907,8 @@ font-size: 15px !important;
                                     #itemTextThree{
                                     
                                     margin-top:6vh;
-                                    margin-left:-19vw;
-                                    width:87vw !important;
+                                    margin-left:-23vw;
+                                    width:84vw !important;
                                     font-size: 15px !important;
                                     
                                     }
