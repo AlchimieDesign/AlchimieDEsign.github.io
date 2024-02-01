@@ -3068,7 +3068,7 @@ font-size: 15px !important;
             #homeLink{
                 position: absolute;
                 margin-top:-23vh;
-                margin-left:6vw !important;
+                margin-left:-10vw !important;
                 font-size: 1.8rem;
                 font-weight: lighter;
                 color:rgb(68, 68, 68);
@@ -3078,7 +3078,7 @@ font-size: 15px !important;
             #aboutLink{
                 position: absolute;
                 margin-top:-40vh;
-                margin-left:6vw !important;
+                margin-left:-10vw !important;
                 font-size: 1.8rem;
                 font-weight: lighter;
                 color:rgb(68, 68, 68);
@@ -3087,7 +3087,7 @@ font-size: 15px !important;
             #missionLink{
                 position: absolute;
                 margin-top:-56vh;
-                margin-left:6vw !important;
+                margin-left:-10vw !important;
                 font-size: 1.8rem;
                 font-weight: lighter;
                 color:rgb(68, 68, 68);
@@ -3095,7 +3095,7 @@ font-size: 15px !important;
     
             #bookLink{
                 margin-top:-73vh;
-                margin-left:-15vw !important;
+                margin-left:-25vw !important;
                 font-size:1.3rem;
                  padding:2% 6% 2% 6%;
                   border-width: 1px;
@@ -3201,7 +3201,7 @@ font-size: 15px !important;
                           .prev{
                             background-color:#363434;
                             
-                            left: 1vw;
+                            left: 10vw;
                             border-radius: 100%;
                           }
                           /* On hover, add a black background color with a little bit see-through */
@@ -3273,9 +3273,9 @@ font-size: 15px !important;
                 h2{
     
                     position: absolute;
-                    margin-top:3vh !important;
-                    margin-left:25vw !important;
-                    font-size:3rem;
+                    margin-top:-6vh !important;
+                    margin-left:40vw !important;
+                    font-size:3.3rem;
                     font-weight: lighter;
                     font-family: 'Pinyon Script', cursive;
                     color:rgb(78, 71, 71);
@@ -3296,7 +3296,7 @@ font-size: 15px !important;
     
                 #about1{
                     position: absolute;
-                    margin-top:-60vh;
+                    margin-top:-90vh;
                     margin-left:10vw;
                     font-size:18px;
                     width:85vw;
@@ -3317,7 +3317,7 @@ font-size: 15px !important;
     
                 #contact{
                     position: absolute;
-                    margin-top:-34vh !important;
+                    margin-top:-31vh !important;
                     margin-left:43vw;
                     font-size:1rem;
     
