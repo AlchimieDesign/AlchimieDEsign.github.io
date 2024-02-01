@@ -120,9 +120,7 @@ li{
 
 
     @media screen and (min-width:50px) and (max-width:120px){
-body{
-    background-color:red;
-}
+
       
 #mobileLogo{
     margin-top:1vh;
@@ -167,7 +165,7 @@ li{
                      top: 2rem;
                      flex-direction: column;
                      background-color: #fff !important;
-                     height:30vh !important;
+                     height:26vh !important;
                      width: 100%;
                      border-radius: 10px;
                      text-align: center;
