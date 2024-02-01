@@ -2969,6 +2969,7 @@ font-size: 15px !important;
 /* Staring with 700 desktop first , place mobile above it*/
 
     @media screen and (min-width:321px) and (max-width:343px){
+        body{backgound-color:red;}
       
       
 
@@ -3020,7 +3021,7 @@ font-size: 15px !important;
     
             .nav-item {
                 margin: 2.5rem 0;
-                margin-left:5vw;
+                margin-left:-15vw;
                 font-size: 2rem;
                 font-weight: lighter !important;
             }
@@ -3318,7 +3319,7 @@ font-size: 15px !important;
                 #contact{
                     position: absolute;
                     margin-top:-31vh !important;
-                    margin-left:43vw;
+                    margin-left:36vw;
                     font-size:1rem;
     
                     padding:2% 6% 2% 6%; 
@@ -3345,15 +3346,15 @@ font-size: 15px !important;
     position: absolute;
     margin-top:-14vh !important;
     margin-left:1vw !important;
-    font-size:2rem;
+    font-size:2.6rem;
     font-weight: lighter;
     font-family: 'Pinyon Script', cursive;
     color:rgb(78, 71, 71);
     }
     
     .itemHeader{
-    margin-top:70vh;
-    margin-left:35vw;
+    margin-top:50vh;
+    margin-left:43vw;
     
     }
     
