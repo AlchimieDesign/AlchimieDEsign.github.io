@@ -2866,7 +2866,7 @@ font-size: 15px !important;
                                     h3{
                                     position: absolute;
                                     margin-top:-3vh !important;
-                                    margin-left:2vw !important;
+                                    margin-left:-1vw !important;
                                     font-size:2rem;
                                     font-weight: lighter;
                                     font-family: 'Pinyon Script', cursive;
@@ -2875,7 +2875,7 @@ font-size: 15px !important;
                                     
                                     .itemHeader{
                                     margin-top:90vh;
-                                    margin-left:6vw;
+                                    margin-left:4vw;
                                     
                                     }
                                     
