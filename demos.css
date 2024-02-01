@@ -121,7 +121,7 @@ li{
 
     @media screen and (min-width:50px) and (max-width:120px){
 body{
-    background-color:red;
+    background-color:white;
 }
       
 #mobileLogo{
@@ -158,10 +158,10 @@ body{
                  .nav-menu {
                      position: fixed;
                      left: -100%;
-                     top: 3rem;
+                     top: 2rem;
                      flex-direction: column;
                      background-color: #fff !important;
-                     height:18vh !important;
+                     height:50vh !important;
                      width: 100%;
                      border-radius: 10px;
                      text-align: center;
@@ -586,7 +586,7 @@ font-size: 15px !important;
               position: absolute;
               margin-top:5vh;
               margin-left:10vw !important;
-             font-size:.70rem;
+             font-size:.50rem;
              font-family: 'Pinyon Script', cursive;
               font-weight: lighter;
               color:white;
