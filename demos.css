@@ -120,7 +120,7 @@ li{
 
 
     @media screen and (min-width:50px) and (max-width:120px){
-body{background-color:#04403f;}
+body{background-color:white;}
       
 #mobileLogo{
     margin-top:1vh;
@@ -256,7 +256,7 @@ li{
          
                  #bookLink{
                      margin-top:-25vh;
-                     margin-left:-63vw !important;
+                     margin-left:-50vw !important;
                      font-size:.70rem;
                       padding:2% 10% 2% 10%;
                        border-width: 1px;
@@ -514,7 +514,7 @@ li{
 h3{
 position: absolute;
 margin-top:-8vh !important;
-margin-left:-2vw !important;
+margin-left:1vw !important;
 font-size:2rem;
 font-weight: lighter;
 font-family: 'Pinyon Script', cursive;
@@ -523,7 +523,7 @@ color:rgb(78, 71, 71);
 
 .itemHeader{
 margin-top:85vh;
-margin-left:-2vw;
+margin-left:1vw;
     
 
 }
@@ -537,7 +537,7 @@ font-size:20px;
 }
 
 #itemTextOne{
-padding-top: -10vh;
+padding-top: -17vh;
 margin-top:6vh !important;
 margin-left:-2vw;
 font-size: 15px !important;
@@ -589,8 +589,8 @@ font-size: 15px !important;
            #footerLogo{
               position: absolute;
               margin-top:5vh;
-              margin-left:15vw !important;
-             font-size:.50rem;
+              margin-left:5vw !important;
+             font-size:.70rem;
              font-family: 'Pinyon Script', cursive;
               font-weight: lighter;
               color:white;
