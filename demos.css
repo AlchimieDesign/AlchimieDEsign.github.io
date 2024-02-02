@@ -1088,6 +1088,7 @@ font-size: 15px !important;
 
 
         @media screen and (min-width:160px) and (max-width:180px){
+            body{background-color:#48084a:}
         
             #mobileLogo{
                 margin-top:1vh;
@@ -1191,7 +1192,7 @@ font-size: 15px !important;
                              #homeLink{
                                  position: absolute;
                                  margin-top:-10vh;
-                                 margin-left:-50vw !important;
+                                 margin-left:-45vw !important;
                                  font-size: 1.6rem;
                                  font-weight: lighter;
                                  color:rgb(68, 68, 68);
@@ -1200,7 +1201,7 @@ font-size: 15px !important;
                              #aboutLink{
                                  position: absolute;
                                  margin-top:-13vh;
-                                 margin-left:-50vw !important;
+                                 margin-left:-45vw !important;
                                  font-size: 1.6rem;
                                  font-weight: lighter;
                                  color:rgb(68, 68, 68);
@@ -1209,14 +1210,14 @@ font-size: 15px !important;
                              #missionLink{
                                  position: absolute;
                                  margin-top:-15vh;
-                                 margin-left:-55vw !important;
+                                 margin-left:-45vw !important;
                                  font-size: 1.6rem;
                                  font-weight: lighter;
                                  color:rgb(68, 68, 68);
                              }
                      
                              #bookLink{
-                                 margin-top:-17vh;
+                                 margin-top:-19vh;
                                  margin-left:-68vw !important;
                                  font-size:1rem;
                                   padding:2% 10% 2% 10%;
@@ -1442,8 +1443,8 @@ font-size: 15px !important;
             
                     #contact{
                         position: absolute;
-                        margin-top:6vh !important;
-                        margin-left:26vw;
+                        margin-top:4vh !important;
+                        margin-left:22vw;
                         font-size:1rem;
             
                         padding:1% 6% 1% 6%; 
@@ -1477,7 +1478,7 @@ font-size: 15px !important;
             }
             
             .itemHeader{
-            margin-top:90vh;
+            margin-top:87vh;
             margin-left:20vw;
             
             }
@@ -1501,7 +1502,7 @@ font-size: 15px !important;
             #itemTextTwo{
             
             margin-top:5vh;
-            margin-left:-26vw;
+            margin-left:-23vw;
             width:85vw;
             font-size: 15px !important;
             
@@ -1535,7 +1536,7 @@ font-size: 15px !important;
                         margin-top:2vh;
                         margin-left:30vw;
                          
-                          font-size:1.5rem;
+                          font-size:1.2rem;
                           color:rgb(212, 212, 212);
                        }
             
@@ -1543,7 +1544,7 @@ font-size: 15px !important;
                        #footerLogo{
                           position: absolute;
                           margin-top:5vh;
-                          margin-left:7vw !important;
+                          margin-left:2vw !important;
                          font-size:1.5rem;
                          font-family: 'Pinyon Script', cursive;
                           font-weight: lighter;
