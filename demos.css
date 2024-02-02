@@ -1557,12 +1557,12 @@ font-size: 15px !important;
 
 
                 @media screen and (min-width:181px) and (max-width:212px){
-                    body{background-color:white;}
+                    body{background-color:#48194a;}
                  
                  
                     #mobileLogo{
                         margin-top:1vh;
-                        margin-left:21vw;
+                        margin-left:23vw;
                         height:10vh; 
                         width:54vw;
                     }
@@ -1688,7 +1688,7 @@ font-size: 15px !important;
                              
                                      #bookLink{
                                          margin-top:-18vh;
-                                         margin-left:-43vw !important;
+                                         margin-left:-47vw !important;
                                          font-size:1rem;
                                           padding:1% 5% 1% 5%;
                                            border-width: 1px;
@@ -1949,7 +1949,7 @@ font-size: 15px !important;
                     
                     .itemHeader{
                     margin-top:90vh;
-                    margin-left:-4vw !important;
+                    margin-left:3vw !important;
                     
                     }
                     
