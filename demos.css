@@ -2624,7 +2624,7 @@ font-size: 15px !important;
                             
                                     #bookLink{
                                         margin-top:-68vh;
-                                        margin-left:-37vw !important;
+                                        margin-left:-43vw !important;
                                         font-size:1rem;
                                          padding:2% 6% 2% 6%;
                                           border-width: 1px;
@@ -2845,7 +2845,7 @@ font-size: 15px !important;
                                     
                                             #contact{
                                                 position: absolute;
-                                                margin-top:6vh !important;
+                                                margin-top:4vh !important;
                                                 margin-left:27vw;
                                                 font-size:1rem;
                                     
@@ -2881,12 +2881,12 @@ font-size: 15px !important;
                                     
                                     .itemHeader{
                                     margin-top:90vh;
-                                    margin-left:7vw;
+                                    margin-left:8vw;
                                     
                                     }
                                     
                                     .itemText{
-                                    margin-top:22vh;
+                                    margin-top:21vh;
                                     margin-left:10vw;
                                     width:40vw;
                                     font-size:20px;
@@ -2936,7 +2936,7 @@ font-size: 15px !important;
                                                 display:inline-block;
                                                 padding:0% 1% 0% 1%;
                                                 margin-top:2vh;
-                                                margin-left:8vw;
+                                                margin-left:6vw;
                                     
                                                  
                                                   font-size:1rem;
@@ -2947,7 +2947,7 @@ font-size: 15px !important;
                                                #footerLogo{
                                                   position: absolute;
                                                   margin-top:5vh;
-                                                  margin-left:9vw !important;
+                                                  margin-left:7vw !important;
                                                  font-size:1.7rem;
                                                  font-family: 'Pinyon Script', cursive;
                                                   font-weight: lighter;
