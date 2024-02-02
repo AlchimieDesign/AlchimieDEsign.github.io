@@ -2496,8 +2496,8 @@ font-size: 15px !important;
                             }
 
 
-                            @media screen and (min-width:240px) and (max-width:320px){
-                                body{background-color:white;}
+                            @media screen and (min-width:240px) and (max-width:270px){
+                                body{background-color:red;}
 
                                
 
@@ -2974,8 +2974,8 @@ font-size: 15px !important;
 
 /* Staring with 700 desktop first , place mobile above it*/
 
-    @media screen and (min-width:321px) and (max-width:343px){
-        body{backgound-color:red;}
+    @media screen and (min-width:271px) and (max-width:343px){
+        body{backgound-color:pink;}
       
       
 
