@@ -2497,7 +2497,7 @@ font-size: 15px !important;
 
 
                             @media screen and (min-width:240px) and (max-width:270px){
-                                body{background-color:red;}
+                                body{background-color:white;}
 
                                
 
@@ -2936,7 +2936,7 @@ font-size: 15px !important;
                                                 display:inline-block;
                                                 padding:0% 1% 0% 1%;
                                                 margin-top:2vh;
-                                                margin-left:6vw;
+                                                margin-left:7vw;
                                     
                                                  
                                                   font-size:1rem;
@@ -2947,7 +2947,7 @@ font-size: 15px !important;
                                                #footerLogo{
                                                   position: absolute;
                                                   margin-top:5vh;
-                                                  margin-left:7vw !important;
+                                                  margin-left:8vw !important;
                                                  font-size:1.7rem;
                                                  font-family: 'Pinyon Script', cursive;
                                                   font-weight: lighter;
