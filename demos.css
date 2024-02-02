@@ -256,7 +256,7 @@ li{
          
                  #bookLink{
                      margin-top:-25vh;
-                     margin-left:-50vw !important;
+                     margin-left:-67vw !important;
                      font-size:.70rem;
                       padding:2% 10% 2% 10%;
                        border-width: 1px;
@@ -488,7 +488,7 @@ li{
         #contact{
             position: absolute;
             margin-top:4vh !important;
-            margin-left:5vw;
+            margin-left:7vw;
             font-size:.80rem;
 
             padding:1% 9% 1% 9%; 
@@ -588,9 +588,9 @@ font-size: 15px !important;
           
            #footerLogo{
               position: absolute;
-              margin-top:5vh;
-              margin-left:5vw !important;
-             font-size:.70rem;
+              margin-top:3vh;
+              margin-left:7vw !important;
+             font-size:.78rem;
              font-family: 'Pinyon Script', cursive;
               font-weight: lighter;
               color:white;
