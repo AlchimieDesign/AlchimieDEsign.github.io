@@ -4,7 +4,7 @@
     padding:0;
 }
 body{
-   background-color:red;
+  
     font-family: 'Cormorant Infant', serif;}
 
 li{
@@ -3142,7 +3142,7 @@ font-size: 15px !important;
                         position: absolute;
                         margin-top:-4vh !important;
                         margin-left:26vw !important;
-                        font-size:1.4rem;
+                        font-size:3rem;
                         font-weight: lighter;
                         font-family: 'Pinyon Script', cursive;
                         color:rgb(105, 103, 103);
