@@ -3102,7 +3102,7 @@ font-size: 15px !important;
     
             #bookLink{
                 margin-top:-73vh;
-                margin-left:-28vw !important;
+                margin-left:-20vw !important;
                 font-size:1rem;
                  padding:2% 6% 2% 6%;
                   border-width: 1px;
@@ -3208,7 +3208,7 @@ font-size: 15px !important;
                           .prev{
                             background-color:#363434;
                             
-                            left: 10vw;
+                            left: 1vw;
                             border-radius: 100%;
                           }
                           /* On hover, add a black background color with a little bit see-through */
@@ -3325,10 +3325,10 @@ font-size: 15px !important;
                 #contact{
                     position: absolute;
                     margin-top:-31vh !important;
-                    margin-left:36vw;
+                    margin-left:30vw;
                     font-size:1rem;
     
-                    padding:2% 6% 2% 6%; 
+                    padding:1% 8% 1% 8%; 
                     border-radius: 25px;         
                  border-width: 1px;
                  border-color:#636161;
@@ -3359,14 +3359,14 @@ font-size: 15px !important;
     }
     
     .itemHeader{
-    margin-top:50vh;
+    margin-top:30vh;
     margin-left:43vw;
     
     }
     
     .itemText{
     margin-top:18vh;
-    margin-left:5vw;
+    margin-left:25vw;
     width:40vw;
     font-size:20px;
     
