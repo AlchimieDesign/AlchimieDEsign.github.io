@@ -2976,7 +2976,7 @@ font-size: 15px !important;
 
     @media screen and (min-width:271px) and (max-width:343px){
        
-      
+      body{background-color:red;}
       
 
         #mobileLogo{
