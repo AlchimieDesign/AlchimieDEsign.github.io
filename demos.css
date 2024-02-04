@@ -2976,7 +2976,7 @@ font-size: 15px !important;
 
     @media screen and (min-width:271px) and (max-width:343px){
        
-      body{background-color:#80918e;}
+      body{background-color:#443e49;}
       
 
         #mobileLogo{
@@ -3360,7 +3360,7 @@ font-size: 15px !important;
     
     .itemHeader{
     margin-top:-36vh !important;
-    margin-left:26vw;
+    margin-left:-30vw;
     
     }
     
