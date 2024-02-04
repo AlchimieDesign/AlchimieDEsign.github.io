@@ -2976,7 +2976,7 @@ font-size: 15px !important;
 
     @media screen and (min-width:271px) and (max-width:343px){
        
-      body{background-color:#80918e;}
+      body{background-color:#f8f6f6;}
       
 
         #mobileLogo{
@@ -3360,7 +3360,7 @@ font-size: 15px !important;
     
     .itemHeader{
     margin-top:-36vh !important;
-    margin-left:-36vw !important;
+    margin-left:-6vw !important;
     
     }
     
@@ -3374,7 +3374,7 @@ font-size: 15px !important;
     
     #itemTextOne{
        
-       padding-top: -32vh !important;
+       padding-top: -40vh !important;
         margin-top:12vh !important;
         margin-left:-15vw;
         width:80vw;
@@ -3389,8 +3389,8 @@ font-size: 15px !important;
     
     #itemTextThree{
         
-        margin-top:30vh;
-        margin-left:-10vw;
+        margin-top:-16vh;
+        margin-left:-20vw;
         width:90vw !important;
         
     }
@@ -3418,7 +3418,7 @@ font-size: 15px !important;
                     display:inline-block;
                     padding:0% 2% 0% 2%;
                     margin-top:2vh;
-                    margin-left:8vw;
+                    margin-left:10vw;
                      
                       font-size:1.3;
                       color:rgb(212, 212, 212);
@@ -3428,7 +3428,7 @@ font-size: 15px !important;
                    #footerLogo{
                       position: absolute;
                       margin-top:5vh;
-                      margin-left:9vw !important;
+                      margin-left:12vw !important;
                      font-size:1.5rem;
                      font-family: 'Pinyon Script', cursive;
                       font-weight: lighter;
