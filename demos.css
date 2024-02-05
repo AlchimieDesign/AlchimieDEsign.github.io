@@ -3916,6 +3916,10 @@ font-size: 15px !important;
                
                
 
+             body{background-color:white;}
+                 
+     
+
                 #mobileLogo{
                     display:none;
                 }
@@ -3948,7 +3952,7 @@ font-size: 15px !important;
                         flex-direction: column;
                         background-color: #ffffffd5 !important;
                         height:100vh !important;
-                        width: 60vw;
+                        width: 100vw;
                         border-radius: 10px;
                         text-align: center;
                         transition: 0.3s;
@@ -3964,7 +3968,7 @@ font-size: 15px !important;
             
                     .nav-item {
                         margin: 2.5rem 0;
-                        margin-left:10vw;
+                        margin-left:5vw;
                         font-size: 2rem;
                         font-weight: lighter !important;
                     }
@@ -4012,7 +4016,7 @@ font-size: 15px !important;
                     #homeLink{
                         position: absolute;
                         margin-top:-23vh;
-                        margin-left:-15vw !important;
+                        margin-left:-16vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -4022,7 +4026,7 @@ font-size: 15px !important;
                     #aboutLink{
                         position: absolute;
                         margin-top:-39vh;
-                        margin-left:-15vw !important;
+                        margin-left:-16vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -4031,7 +4035,7 @@ font-size: 15px !important;
                     #missionLink{
                         position: absolute;
                         margin-top:-54vh;
-                        margin-left:-15vw !important;
+                        margin-left:-16vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -4039,8 +4043,8 @@ font-size: 15px !important;
             
                     #bookLink{
                         margin-top:-70vh;
-                        margin-left:-20vw !important;
-                        font-size:1.1rem;
+                        margin-left:-31vw !important;
+                        font-size:1rem;
                          padding:2% 6% 2% 6%;
                           border-width: 1px;
                           border-color:#636161;
@@ -4077,9 +4081,9 @@ font-size: 15px !important;
             
                               h1{
                                 position: absolute;
-                                margin-top:-5vh !important;
-                                margin-left:26vw !important;
-                                font-size:2.5rem;
+                                margin-top:-4vh !important;
+                                margin-left:28vw !important;
+                                font-size:1.5rem;
                                 font-weight: lighter;
                                 font-family: 'Pinyon Script', cursive;
                                 color:rgb(105, 103, 103);
@@ -4219,7 +4223,7 @@ font-size: 15px !important;
                             position: absolute;
                             margin-top:3vh !important;
                             margin-left:25vw !important;
-                            font-size:3rem;
+                            font-size:5rem;
                             font-weight: lighter;
                             font-family: 'Pinyon Script', cursive;
                             color:rgb(78, 71, 71);
@@ -4241,7 +4245,7 @@ font-size: 15px !important;
                         #about1{
                             position: absolute;
                             margin-top:-30vh;
-                            margin-left:13vw;
+                            margin-left:12vw;
                             font-size:18px;
                             width:80vw;
                         }
@@ -4249,8 +4253,8 @@ font-size: 15px !important;
             
                         #about2{
                             position: absolute;
-                            margin-top:-20vh;
-                            margin-left:13vw;
+                            margin-top:10vh;
+                            margin-left:12vw;
                             font-size:18px;
                             width:80vw;
                         }
@@ -4261,11 +4265,11 @@ font-size: 15px !important;
             
                         #contact{
                             position: absolute;
-                            margin-top:-8vh !important;
-                            margin-left:35vw;
+                            margin-top:-30vh !important;
+                            margin-left:33vw;
                             font-size:1rem;
             
-                            padding:2% 6% 2% 6%; 
+                            padding:1% 9% 1% 9%; 
                             border-radius: 25px;         
                          border-width: 1px;
                          border-color:#636161;
@@ -4287,71 +4291,72 @@ font-size: 15px !important;
             
             h3{
             position: absolute;
-            margin-top:-15vh !important;
-            margin-left:10vw !important;
-            font-size:3.5rem;
+            margin-top:-23vh !important;
+            margin-left:3vw !important;
+            font-size:2.4rem;
             font-weight: lighter;
             font-family: 'Pinyon Script', cursive;
             color:rgb(78, 71, 71);
             }
-
-           #offerHeader{
-            position: absolute;
-            margin-top:-7vh !important;
-           }
             
             .itemHeader{
-            margin-top:60vh;
-            margin-left:20vw;
+                position: absolute;
+            margin-top:-56vh !important;
+            margin-left:46vw !important;
             
+            }
+
+            #offerHeader{
+                position: absolute;
+                margin-top:-8vh !important;
+                margin-left:12vw !important;
+
             }
             
             .itemText{
-            margin-top:18vh;
-            margin-left:5vw;
-            width:40vw;
+            margin-top:-10vh;
+            margin-left:3vw;
+            width:90vw;
             font-size:20px;
             
             }
             
             #itemTextOne{
               
-
-              
-                margin-top:7vh !important;
-                margin-left:-15vw;
-                width:80vw;
+                margin-top:-20vh !important;
+                margin-left:-16vw;
+                width:85vw;
             }
             
             #itemTextTwo{
                
                 margin-top:5vh;
-                margin-left:-13vw;
+                margin-left:-17vw;
                 width:90vw;
             }
             
             #itemTextThree{
                 
                 margin-top:6vh;
-                margin-left:-8vw;
+                margin-left:-20vw;
                 width:90vw !important;
                 
             }
             
             #itemTextFour{
                
-                margin-top:4vh;
-                margin-left:-10vw;
+                margin-top:6vh;
+                margin-left:-17vw;
                 width:90vw;
                 
             }
             
             
                         #footer{
-                           
-                          margin-top:2000px;
-            
-                            height:27vh;
+                           position:absolute;
+                          margin-top:3300px !important;
+            width:100vw;
+                            height:24vh;
                             background-color: #3a3a3a;
                             color:#fff;
                             margin-top:8vh !important;
@@ -4361,9 +4366,9 @@ font-size: 15px !important;
                             display:inline-block;
                             padding:0% 2% 0% 2%;
                             margin-top:2vh;
-                            margin-left:14vw;
+                            margin-left:9vw;
                              
-                              font-size:23px;
+                              font-size:1rem;
                               color:rgb(212, 212, 212);
                            }
               
@@ -4371,14 +4376,13 @@ font-size: 15px !important;
                            #footerLogo{
                               position: absolute;
                               margin-top:5vh;
-                              margin-left:16vw !important;
-                             font-size:3rem;
+                              margin-left:17vw !important;
+                             font-size:1.8rem;
                              font-family: 'Pinyon Script', cursive;
                               font-weight: lighter;
                               color:white;
                           
                            }
-                    
                     }
 
 
