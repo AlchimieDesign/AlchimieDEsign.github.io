@@ -4387,7 +4387,7 @@ font-size: 15px !important;
 
 
             @media screen and (min-width:431px) and (max-width:490px) {
-                #mobileLogo{
+              #mobileLogo{
                     display:none;
                 }
                     #addText{
@@ -4419,7 +4419,7 @@ font-size: 15px !important;
                         flex-direction: column;
                         background-color: #ffffffd5 !important;
                         height:100vh !important;
-                        width: 60vw;
+                        width: 100vw;
                         border-radius: 10px;
                         text-align: center;
                         transition: 0.3s;
@@ -4435,7 +4435,7 @@ font-size: 15px !important;
             
                     .nav-item {
                         margin: 2.5rem 0;
-                        margin-left:10vw;
+                        margin-left:5vw;
                         font-size: 2rem;
                         font-weight: lighter !important;
                     }
@@ -4483,7 +4483,7 @@ font-size: 15px !important;
                     #homeLink{
                         position: absolute;
                         margin-top:-23vh;
-                        margin-left:-14vw !important;
+                        margin-left:-16vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -4493,7 +4493,7 @@ font-size: 15px !important;
                     #aboutLink{
                         position: absolute;
                         margin-top:-39vh;
-                        margin-left:-14vw !important;
+                        margin-left:-16vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -4502,7 +4502,7 @@ font-size: 15px !important;
                     #missionLink{
                         position: absolute;
                         margin-top:-54vh;
-                        margin-left:-14vw !important;
+                        margin-left:-16vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -4510,8 +4510,8 @@ font-size: 15px !important;
             
                     #bookLink{
                         margin-top:-70vh;
-                        margin-left:-22vw !important;
-                        font-size:1.3rem;
+                        margin-left:-31vw !important;
+                        font-size:1rem;
                          padding:2% 6% 2% 6%;
                           border-width: 1px;
                           border-color:#636161;
@@ -4548,9 +4548,9 @@ font-size: 15px !important;
             
                               h1{
                                 position: absolute;
-                                margin-top:-3vh !important;
-                                margin-left:26vw !important;
-                                font-size:2.5rem;
+                                margin-top:-4vh !important;
+                                margin-left:28vw !important;
+                                font-size:1.5rem;
                                 font-weight: lighter;
                                 font-family: 'Pinyon Script', cursive;
                                 color:rgb(105, 103, 103);
@@ -4655,8 +4655,8 @@ font-size: 15px !important;
                             position: absolute;
                             margin-top:-47vh;
                             margin-left:17vw !important;
-                            height:32vh !important;
-                            width:44vw;
+                            height:34vh !important;
+                            width:42vw;
                            
                         }
             
@@ -4664,8 +4664,8 @@ font-size: 15px !important;
                             position: absolute;
                             margin-top:-42vh;
                             margin-left:64vw !important;
-                            height:22vh !important;
-                            width:25vw !important;
+                            height:24vh !important;
+                            width:22vw !important;
                             
             
                         }
@@ -4690,7 +4690,7 @@ font-size: 15px !important;
                             position: absolute;
                             margin-top:3vh !important;
                             margin-left:25vw !important;
-                            font-size:3rem;
+                            font-size:5rem;
                             font-weight: lighter;
                             font-family: 'Pinyon Script', cursive;
                             color:rgb(78, 71, 71);
@@ -4712,18 +4712,18 @@ font-size: 15px !important;
                         #about1{
                             position: absolute;
                             margin-top:-30vh;
-                            margin-left:8vw;
+                            margin-left:12vw;
                             font-size:18px;
-                            width:85vw;
+                            width:80vw;
                         }
             
             
                         #about2{
                             position: absolute;
-                            margin-top:-23vh;
-                            margin-left:8vw;
+                            margin-top:10vh;
+                            margin-left:12vw;
                             font-size:18px;
-                            width:85vw;
+                            width:80vw;
                         }
             
                         #mobile{
@@ -4732,11 +4732,11 @@ font-size: 15px !important;
             
                         #contact{
                             position: absolute;
-                            margin-top:-12vh !important;
-                            margin-left:38vw;
+                            margin-top:-30vh !important;
+                            margin-left:33vw;
                             font-size:1rem;
             
-                            padding:2% 6% 2% 6%; 
+                            padding:1% 9% 1% 9%; 
                             border-radius: 25px;         
                          border-width: 1px;
                          border-color:#636161;
@@ -4758,64 +4758,72 @@ font-size: 15px !important;
             
             h3{
             position: absolute;
-            margin-top:-10vh !important;
-            margin-left:15vw !important;
-            font-size:3.2rem;
+            margin-top:-23vh !important;
+            margin-left:3vw !important;
+            font-size:2.4rem;
             font-weight: lighter;
             font-family: 'Pinyon Script', cursive;
             color:rgb(78, 71, 71);
             }
             
             .itemHeader{
-            margin-top:40vh;
-            margin-left:20vw;
+                position: absolute;
+            margin-top:-56vh !important;
+            margin-left:46vw !important;
             
+            }
+
+            #offerHeader{
+                position: absolute;
+                margin-top:-8vh !important;
+                margin-left:12vw !important;
+
             }
             
             .itemText{
-            margin-top:18vh;
-            margin-left:5vw;
-            width:40vw;
+            margin-top:-10vh;
+            margin-left:3vw;
+            width:90vw;
             font-size:20px;
             
             }
             
             #itemTextOne{
               
-                margin-top:3vh !important;
-                margin-left:-15vw;
-                width:80vw;
+                margin-top:-20vh !important;
+                margin-left:-16vw;
+                width:85vw;
             }
             
             #itemTextTwo{
                
                 margin-top:5vh;
-                margin-left:-10vw !important;
+                margin-left:-17vw;
                 width:90vw;
             }
             
             #itemTextThree{
                 
                 margin-top:6vh;
-                margin-left:-2vw !important;
+                margin-left:-20vw;
                 width:90vw !important;
                 
             }
             
             #itemTextFour{
                
-                margin-top:4vh;
-                margin-left:-15vw;
+                margin-top:6vh;
+                margin-left:-17vw;
                 width:90vw;
                 
             }
             
             
                         #footer{
-                           
-                          margin-top:2000px;
-            
-                            height:27vh;
+                           position:absolute;
+                          margin-top:3300px !important;
+            width:100vw;
+                            height:24vh;
                             background-color: #3a3a3a;
                             color:#fff;
                             margin-top:8vh !important;
@@ -4825,9 +4833,9 @@ font-size: 15px !important;
                             display:inline-block;
                             padding:0% 2% 0% 2%;
                             margin-top:2vh;
-                            margin-left:14vw;
+                            margin-left:9vw;
                              
-                              font-size:23px;
+                              font-size:1rem;
                               color:rgb(212, 212, 212);
                            }
               
@@ -4835,14 +4843,13 @@ font-size: 15px !important;
                            #footerLogo{
                               position: absolute;
                               margin-top:5vh;
-                              margin-left:16vw !important;
-                             font-size:3rem;
-                              font-family: 'Pinyon Script', cursive;
+                              margin-left:17vw !important;
+                             font-size:1.8rem;
+                             font-family: 'Pinyon Script', cursive;
                               font-weight: lighter;
                               color:white;
                           
                            }
-                          
                       
                       }
 
@@ -4851,462 +4858,469 @@ font-size: 15px !important;
                       @media screen and (min-width:491px) and (max-width:588px)  {
                        
                
-                        #mobileLogo{
+                         #mobileLogo{
+                    display:none;
+                }
+                    #addText{
+                        display:none;
+                     }
+                     #header{
+                         height:20vh;
+                  
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                         
+                     }
+                 
+                     nav{
+                         height:1vh;
+                         background-color: rgba(233, 233, 233, 0.534);
+                     }
+                     .navbar{
+                         background-color: #ffffff5e;
+                       
+                     }
+            
+                    
+                     .nav-menu {
+                        position: fixed;
+                        left: -100%;
+                        top: 2rem;
+                        flex-direction: column;
+                        background-color: #ffffffd5 !important;
+                        height:100vh !important;
+                        width: 100vw;
+                        border-radius: 10px;
+                        text-align: center;
+                        transition: 0.3s;
+                        box-shadow:
+                            0 10px 27px rgba(0, 0, 0, 0.05);
+                            z-index:1 !important;
+                            font-weight: lighter;
+                    }
+                
+                    .nav-menu.active {
+                        left: 0;
+                    }
+            
+                    .nav-item {
+                        margin: 2.5rem 0;
+                        margin-left:5vw;
+                        font-size: 2rem;
+                        font-weight: lighter !important;
+                    }
+                
+                    .hamburger {
+                        display: block;
+                        cursor: pointer;
+                    }
+            .bar{
+                background-color: #868686a8;
+            }
+                    .hamburger.active .bar:nth-child(2) {
+                        opacity: 0;
+                    }
+                
+                    .hamburger.active .bar:nth-child(1) {
+                        transform: translateY(8px) rotate(45deg);
+                    }
+                
+                    .hamburger.active .bar:nth-child(3) {
+                        transform: translateY(-8px) rotate(-45deg);
+                    }
+            .nav-logo-mobile{
+                margin-left:39% !important;
+            }
+            
+            .nav-logo-mobile{
+                height: 50vh !important;
+            }
+            
+            #nav-logo-desktop{
+                display:none;
+            }
+                    #alchBrand{
+                        margin-top: -59% !important;
+                        margin-left:-9% !important;
+                        width:10% !important;
+                        height:10% !important;
+                       }
+        
+                       #bodycontact{
+                        margin-left:26vw;
+                       }
+            
+                    #homeLink{
+                        position: absolute;
+                        margin-top:-23vh;
+                        margin-left:-16vw !important;
+                        font-size: 1.8rem;
+                        font-weight: lighter;
+                        color:rgb(68, 68, 68);
+                        
+                    }
+            
+                    #aboutLink{
+                        position: absolute;
+                        margin-top:-39vh;
+                        margin-left:-16vw !important;
+                        font-size: 1.8rem;
+                        font-weight: lighter;
+                        color:rgb(68, 68, 68);
+                    }
+            
+                    #missionLink{
+                        position: absolute;
+                        margin-top:-54vh;
+                        margin-left:-16vw !important;
+                        font-size: 1.8rem;
+                        font-weight: lighter;
+                        color:rgb(68, 68, 68);
+                    }
+            
+                    #bookLink{
+                        margin-top:-70vh;
+                        margin-left:-31vw !important;
+                        font-size:1rem;
+                         padding:2% 6% 2% 6%;
+                          border-width: 1px;
+                          border-color:#636161;
+                          border-style:solid;
+                          font-family: 'Pinyon Script', cursive;
+                          color:#3d3d3d !important;
+                         
+                        }
+                 
+                       
+                     
+                             #contactLink{
+                                display:none;
+                     
+                             }
+                     
+                             span{
+                                 color:#475569;
+                             }
+                     
+                         #alchDesignLogo{
+                             margin-top:-12vh !important;
+                         }
+                 
+                     .nav-logo-mobile{
+                         height: 50vh !important;
+                     }
+                     
+                     #mainNav{
+                         display:none;
+                     }
+                 
+                    
+            
+                              h1{
+                                position: absolute;
+                                margin-top:-4vh !important;
+                                margin-left:28vw !important;
+                                font-size:1.5rem;
+                                font-weight: lighter;
+                                font-family: 'Pinyon Script', cursive;
+                                color:rgb(105, 103, 103);
+                               
+                            }
+                            #mobileTitle{
+                                margin-top:30vh;
+                            }
+            
+                            .sliderContainer{
+                               position: relative;
+                                margin-top:3vh;
+                                
+                                height:100vh;
+                                    width:100vw;
+                                    height:100vh;
+                                   
+                            }
+                
+                                .contentContainer{
+                                  
+                                    width:20vw;
+                                    height:10vh;
+                                
+                                }
+            
+                                .mySlides{
+                                    height:5vh;
+                                }
+                                
+                                .sampleImg{
+                                    
+                                    display:flex;
+                                    padding:4%;
+                                    width:10vw;
+                                    height:120px;
+                                }
+                                
+                                .prev, .next {
+                                    cursor: pointer;
+                                    position: absolute;
+                                    top: 15vh;
+                                    width: 10px;
+                                    margin-top: -50vh;
+                                    padding: 1% 1% 1% 1%;
+                                    color: rgb(248, 246, 246);
+                                    font-weight: bold;
+                                    font-size: 15px;
+                                    transition: 0.6s ease;
+                                    border-radius: 0 3px 3px 0;
+                                    user-select: none;
+                                    z-index:1;
+                                  }
+                                  
+                                  /* Position the "next button" to the right */
+                                  .next {
+                                    background-color:#363434;
+                                    right:1vw;
+                                    border-radius: 100%;
+            
+                                   
+                                  }
+                                  .prev{
+                                    background-color:#363434;
+                                    
+                                    left: 0.70vw;
+                                    border-radius: 100%;
+                                  }
+                                  /* On hover, add a black background color with a little bit see-through */
+                                  .prev:hover, .next:hover {
+                                    background-color: rgba(0,0,0,0.8);
+                                  }
+                                  
+                                  
+                                  /* Fading animation */
+                                  .fade {
+                                    animation-name: fade;
+                                    animation-duration: 1.5s;
+                                  }
+                                  
+                                  @keyframes fade {
+                                    from {opacity: .4}
+                                    to {opacity: 1}
+                                  }
+                                
+            
+                           
+                            
+                                 
+            
+                             
+            
+            
+                    .sliderContainer{
+                        margin-top:37vh !important;
+                        height:20vh !important
+                    }
+            
+            
+                           
+                        .lgImg{
+                            position: absolute;
+                            margin-top:-47vh;
+                            margin-left:17vw !important;
+                            height:34vh !important;
+                            width:42vw;
+                           
+                        }
+            
+                        .smImg{
+                            position: absolute;
+                            margin-top:-42vh;
+                            margin-left:64vw !important;
+                            height:24vh !important;
+                            width:22vw !important;
+                            
+            
+                        }
+            
+                      
+            
+                        #sliderColor{
+                            display:none;
+                            margin-top:-70vh;
+                            margin-left:7vw;
+                            height:30vh;
+                            width:85vw;
+                            background-color: #d6d6d6;
+                            border-radius: 25px;
+            
+                        }
+        
+        
+            
+                        h2{
+            
+                            position: absolute;
+                            margin-top:3vh !important;
+                            margin-left:25vw !important;
+                            font-size:5rem;
+                            font-weight: lighter;
+                            font-family: 'Pinyon Script', cursive;
+                            color:rgb(78, 71, 71);
+            
+                        }
+            
+                        #aboutTitle{
+                            display:none;
+                            margin-left:4vw !important;
+                            font-size:1.3rem;
+                            width:60vw;
+                        }
+            
+                        .sectionText{
+                            width:60vw;
+                            font-size:16px;
+                        }
+            
+                        #about1{
+                            position: absolute;
+                            margin-top:-30vh;
+                            margin-left:12vw;
+                            font-size:18px;
+                            width:80vw;
+                        }
+            
+            
+                        #about2{
+                            position: absolute;
+                            margin-top:10vh;
+                            margin-left:12vw;
+                            font-size:18px;
+                            width:80vw;
+                        }
+            
+                        #mobile{
                             display:none;
                         }
-                            #addText{
-                                display:none;
-                             }
-                             #header{
-                                 height:20vh;
+            
+                        #contact{
+                            position: absolute;
+                            margin-top:-30vh !important;
+                            margin-left:33vw;
+                            font-size:1rem;
+            
+                            padding:1% 9% 1% 9%; 
+                            border-radius: 25px;         
+                         border-width: 1px;
+                         border-color:#636161;
+                         border-style:solid;
+                         font-family: 'Pinyon Script', cursive;
+                         color:#3d3d3d !important;
+                        }
+            
+                        #offers{
+            
+                            margin-top:3vh;
+                            margin-left:26vw;
+                            width:50vw;
                           
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            background-size: cover;
-                                 
-                             }
-                         
-                             nav{
-                                 height:1vh;
-                                 background-color: rgba(233, 233, 233, 0.534);
-                             }
-                             .navbar{
-                                 background-color: #ffffff5e;
-                               
-                             }
-                    
-                            
-                             .nav-menu {
-                                position: fixed;
-                                left: -100%;
-                                top: 2rem;
-                                flex-direction: column;
-                                background-color: #ffffffd5 !important;
-                                height:100vh !important;
-                                width: 60vw;
-                                border-radius: 10px;
-                                text-align: center;
-                                transition: 0.3s;
-                                box-shadow:
-                                    0 10px 27px rgba(0, 0, 0, 0.05);
-                                    z-index:1 !important;
-                                    font-weight: lighter;
-                            }
-                        
-                            .nav-menu.active {
-                                left: 0;
-                            }
-                    
-                            .nav-item {
-                                margin: 2.5rem 0;
-                                margin-left:10vw;
-                                font-size: 2rem;
-                                font-weight: lighter !important;
-                            }
-                        
-                            .hamburger {
-                                display: block;
-                                cursor: pointer;
-                            }
-                    .bar{
-                        background-color: #868686a8;
-                    }
-                            .hamburger.active .bar:nth-child(2) {
-                                opacity: 0;
-                            }
-                        
-                            .hamburger.active .bar:nth-child(1) {
-                                transform: translateY(8px) rotate(45deg);
-                            }
-                        
-                            .hamburger.active .bar:nth-child(3) {
-                                transform: translateY(-8px) rotate(-45deg);
-                            }
-                    .nav-logo-mobile{
-                        margin-left:39% !important;
-                    }
-                    
-                    .nav-logo-mobile{
-                        height: 50vh !important;
-                    }
-                    
-                    #nav-logo-desktop{
-                        display:none;
-                    }
-                            #alchBrand{
-                                margin-top: -59% !important;
-                                margin-left:-9% !important;
-                                width:10% !important;
-                                height:10% !important;
-                               }
-                
-                               #bodycontact{
-                                margin-left:26vw;
-                               }
-                    
-                            #homeLink{
-                                position: absolute;
-                                margin-top:-23vh;
-                                margin-left:-14vw !important;
-                                font-size: 1.8rem;
-                                font-weight: lighter;
-                                color:rgb(68, 68, 68);
-                                
-                            }
-                    
-                            #aboutLink{
-                                position: absolute;
-                                margin-top:-39vh;
-                                margin-left:-14vw !important;
-                                font-size: 1.8rem;
-                                font-weight: lighter;
-                                color:rgb(68, 68, 68);
-                            }
-                    
-                            #missionLink{
-                                position: absolute;
-                                margin-top:-54vh;
-                                margin-left:-14vw !important;
-                                font-size: 1.8rem;
-                                font-weight: lighter;
-                                color:rgb(68, 68, 68);
-                            }
-                    
-                            #bookLink{
-                                margin-top:-70vh;
-                                margin-left:-22vw !important;
-                                font-size:1.3rem;
-                                 padding:2% 6% 2% 6%;
-                                  border-width: 1px;
-                                  border-color:#636161;
-                                  border-style:solid;
-                                  font-family: 'Pinyon Script', cursive;
-                                  color:#3d3d3d !important;
-                                 
-                                }
-                         
-                               
-                             
-                                     #contactLink{
-                                        display:none;
-                             
-                                     }
-                             
-                                     span{
-                                         color:#475569;
-                                     }
-                             
-                                 #alchDesignLogo{
-                                     margin-top:-12vh !important;
-                                 }
-                         
-                             .nav-logo-mobile{
-                                 height: 50vh !important;
-                             }
-                             
-                             #mainNav{
-                                 display:none;
-                             }
-                         
-                            
-                    
-                                      h1{
-                                        position: absolute;
-                                        margin-top:-4vh !important;
-                                        margin-left:30vw !important;
-                                        font-size:2rem;
-                                        font-weight: lighter;
-                                        font-family: 'Pinyon Script', cursive;
-                                        color:rgb(105, 103, 103);
-                                       
-                                    }
-                                    #mobileTitle{
-                                        margin-top:30vh;
-                                    }
-                    
-                                    .sliderContainer{
-                                       position: relative;
-                                        margin-top:3vh;
-                                        
-                                        height:100vh;
-                                            width:100vw;
-                                            height:100vh;
-                                           
-                                    }
-                        
-                                        .contentContainer{
-                                          
-                                            width:20vw;
-                                            height:10vh;
-                                        
-                                        }
-                    
-                                        .mySlides{
-                                            height:5vh;
-                                        }
-                                        
-                                        .sampleImg{
-                                            
-                                            display:flex;
-                                            padding:4%;
-                                            width:10vw;
-                                            height:120px;
-                                        }
-                                        
-                                        .prev, .next {
-                                            cursor: pointer;
-                                            position: absolute;
-                                            top: 15vh;
-                                            width: 10px;
-                                            margin-top: -50vh;
-                                            padding: 1% 1% 1% 1%;
-                                            color: rgb(248, 246, 246);
-                                            font-weight: bold;
-                                            font-size: 15px;
-                                            transition: 0.6s ease;
-                                            border-radius: 0 3px 3px 0;
-                                            user-select: none;
-                                            z-index:1;
-                                          }
-                                          
-                                          /* Position the "next button" to the right */
-                                          .next {
-                                            background-color:#363434;
-                                            right:1vw;
-                                            border-radius: 100%;
-                    
-                                           
-                                          }
-                                          .prev{
-                                            background-color:#363434;
-                                            
-                                            left: 0.70vw;
-                                            border-radius: 100%;
-                                          }
-                                          /* On hover, add a black background color with a little bit see-through */
-                                          .prev:hover, .next:hover {
-                                            background-color: rgba(0,0,0,0.8);
-                                          }
-                                          
-                                          
-                                          /* Fading animation */
-                                          .fade {
-                                            animation-name: fade;
-                                            animation-duration: 1.5s;
-                                          }
-                                          
-                                          @keyframes fade {
-                                            from {opacity: .4}
-                                            to {opacity: 1}
-                                          }
-                                        
-                    
-                                   
-                                    
-                                         
-                    
-                                     
-                    
-                    
-                            .sliderContainer{
-                                margin-top:37vh !important;
-                                height:20vh !important
-                            }
-                    
-                    
-                                   
-                                .lgImg{
-                                    position: absolute;
-                                    margin-top:-47vh;
-                                    margin-left:17vw !important;
-                                    height:35vh !important;
-                                    width:34vw;
-                                   
-                                }
-                    
-                                .smImg{
-                                    position: absolute;
-                                    margin-top:-42vh;
-                                    margin-left:64vw !important;
-                                    height:29vh !important;
-                                    width:22vw !important;
-                                    
-                    
-                                }
-                    
-                              
-                    
-                                #sliderColor{
-                                    display:none;
-                                    margin-top:-70vh;
-                                    margin-left:7vw;
-                                    height:30vh;
-                                    width:85vw;
-                                    background-color: #d6d6d6;
-                                    border-radius: 25px;
-                    
-                                }
-                
-                
-                    
-                                h2{
-                    
-                                    position: absolute;
-                                    margin-top:3vh !important;
-                                    margin-left:25vw !important;
-                                    font-size:3rem;
-                                    font-weight: lighter;
-                                    font-family: 'Pinyon Script', cursive;
-                                    color:rgb(78, 71, 71);
-                    
-                                }
-                    
-                                #aboutTitle{
-                                    display:none;
-                                    margin-left:4vw !important;
-                                    font-size:1.3rem;
-                                    width:60vw;
-                                }
-                    
-                                .sectionText{
-                                    width:60vw;
-                                    font-size:16px;
-                                }
-                    
-                                #about1{
-                                    position: absolute;
-                                    margin-top:-30vh;
-                                    margin-left:12vw;
-                                    font-size:18px;
-                                    width:80vw;
-                                }
-                    
-                    
-                                #about2{
-                                    position: absolute;
-                                    margin-top:-23vh;
-                                    margin-left:12vw;
-                                    font-size:18px;
-                                    width:80vw;
-                                }
-                    
-                                #mobile{
-                                    display:none;
-                                }
-                    
-                                #contact{
-                                    position: absolute;
-                                    margin-top:-14vh !important;
-                                    margin-left:38vw;
-                                    font-size:1rem;
-                    
-                                    padding:2% 6% 2% 6%; 
-                                    border-radius: 25px;         
-                                 border-width: 1px;
-                                 border-color:#636161;
-                                 border-style:solid;
-                                 font-family: 'Pinyon Script', cursive;
-                                 color:#3d3d3d !important;
-                                }
-                    
-                                #offers{
-                    
-                                    margin-top:3vh;
-                                    margin-left:26vw;
-                                    width:50vw;
-                                  
-                                }
-                    
-                               
-                               
-                    
-                    h3{
-                    position: absolute;
-                    margin-top:-10vh !important;
-                    margin-left:12vw !important;
-                    font-size:4rem;
-                    font-weight: lighter;
-                    font-family: 'Pinyon Script', cursive;
-                    color:rgb(78, 71, 71);
-                    }
-                    
-                    .itemHeader{
-                    margin-top:40vh;
-                    margin-left:20vw;
-                    
-                    }
-                    
-                    .itemText{
-                    margin-top:18vh;
-                    margin-left:5vw;
-                    width:40vw;
-                    font-size:20px;
-                    
-                    }
-                    
-                    #itemTextOne{
-                      
-                        margin-top:1vh !important;
-                        margin-left:-10vw;
-                        width:70vw;
-                    }
-                    
-                    #itemTextTwo{
+                        }
+            
                        
-                        margin-top:5vh;
-                        margin-left:-2vw !important;
-                        width:90vw;
-                    }
-                    
-                    #itemTextThree{
-                        
-                        margin-top:6vh;
-                        margin-left:4vw !important;
-                        width:90vw !important;
-                        
-                    }
-                    
-                    #itemTextFour{
                        
-                        margin-top:4vh;
-                        margin-left:-15vw;
-                        width:90vw;
-                        
-                    }
-                    
-                    
-                                #footer{
-                                   
-                                  margin-top:2000px;
-                    
-                                    height:27vh;
-                                    background-color: #3a3a3a;
-                                    color:#fff;
-                                    margin-top:8vh !important;
-                                }
-                    
-                                .footerNav{
-                                    display:inline-block;
-                                    padding:0% 2% 0% 2%;
-                                    margin-top:2vh;
-                                    margin-left:14vw;
-                                     
-                                      font-size:23px;
-                                      color:rgb(212, 212, 212);
-                                   }
-                      
-                                  
-                                   #footerLogo{
-                                      position: absolute;
-                                      margin-top:5vh;
-                                      margin-left:23vw !important;
-                                     font-size:3rem;
-                                     font-family: 'Pinyon Script', cursive;
-                                      font-weight: lighter;
-                                      color:white;
-                                  
-                                   }
-                                
+            
+            h3{
+            position: absolute;
+            margin-top:-23vh !important;
+            margin-left:3vw !important;
+            font-size:2.4rem;
+            font-weight: lighter;
+            font-family: 'Pinyon Script', cursive;
+            color:rgb(78, 71, 71);
+            }
+            
+            .itemHeader{
+                position: absolute;
+            margin-top:-56vh !important;
+            margin-left:46vw !important;
+            
+            }
+
+            #offerHeader{
+                position: absolute;
+                margin-top:-8vh !important;
+                margin-left:12vw !important;
+
+            }
+            
+            .itemText{
+            margin-top:-10vh;
+            margin-left:3vw;
+            width:90vw;
+            font-size:20px;
+            
+            }
+            
+            #itemTextOne{
+              
+                margin-top:-20vh !important;
+                margin-left:-16vw;
+                width:85vw;
+            }
+            
+            #itemTextTwo{
+               
+                margin-top:5vh;
+                margin-left:-17vw;
+                width:90vw;
+            }
+            
+            #itemTextThree{
+                
+                margin-top:6vh;
+                margin-left:-20vw;
+                width:90vw !important;
+                
+            }
+            
+            #itemTextFour{
+               
+                margin-top:6vh;
+                margin-left:-17vw;
+                width:90vw;
+                
+            }
+            
+            
+                        #footer{
+                           position:absolute;
+                          margin-top:3300px !important;
+            width:100vw;
+                            height:24vh;
+                            background-color: #3a3a3a;
+                            color:#fff;
+                            margin-top:8vh !important;
+                        }
+            
+                        .footerNav{
+                            display:inline-block;
+                            padding:0% 2% 0% 2%;
+                            margin-top:2vh;
+                            margin-left:9vw;
+                             
+                              font-size:1rem;
+                              color:rgb(212, 212, 212);
+                           }
+              
+                          
+                           #footerLogo{
+                              position: absolute;
+                              margin-top:5vh;
+                              margin-left:17vw !important;
+                             font-size:1.8rem;
+                             font-family: 'Pinyon Script', cursive;
+                              font-weight: lighter;
+                              color:white;
+                          
+                           }
                             
                             }
 
