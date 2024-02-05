@@ -3442,7 +3442,7 @@ font-size: 15px !important;
 
             @media screen and (min-width:344px) and (max-width:380px){
        
-      body{background-color:#f8f6f6;}
+      body{background-color:#c9e8e3;}
                  
      
 
@@ -3817,7 +3817,7 @@ font-size: 15px !important;
             
             h3{
             position: absolute;
-            margin-top:-13vh !important;
+            margin-top:-23vh !important;
             margin-left:3vw !important;
             font-size:2.4rem;
             font-weight: lighter;
@@ -3827,7 +3827,7 @@ font-size: 15px !important;
             
             .itemHeader{
                 position: absolute;
-            margin-top:-17vh;
+            margin-top:-26vh;
             margin-left:46vw !important;
             
             }
@@ -3880,7 +3880,7 @@ font-size: 15px !important;
             
                         #footer{
                            position:absolute;
-                          margin-top:220vh !important;
+                          margin-top:3000px !important;
             
                             height:27vh;
                             background-color: #3a3a3a;
