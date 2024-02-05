@@ -3442,7 +3442,7 @@ font-size: 15px !important;
 
             @media screen and (min-width:344px) and (max-width:380px){
        
-      body{background-color:#7f6396;}
+      body{background-color:#f8f6f6;}
                  
      
 
@@ -3779,7 +3779,7 @@ font-size: 15px !important;
             
                         #about2{
                             position: absolute;
-                            margin-top:33vh;
+                            margin-top:10vh;
                             margin-left:12vw;
                             font-size:18px;
                             width:80vw;
@@ -3827,7 +3827,7 @@ font-size: 15px !important;
             
             .itemHeader{
                 position: absolute;
-            margin-top:10vh;
+            margin-top:-17vh;
             margin-left:46vw !important;
             
             }
