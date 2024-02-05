@@ -3442,7 +3442,7 @@ font-size: 15px !important;
 
             @media screen and (min-width:344px) and (max-width:380px){
        
-      body{background-color:#f8f6f6;}
+      body{background-color:#7f6396;}
                  
      
 
@@ -3835,7 +3835,7 @@ font-size: 15px !important;
             #offerHeader{
                 position: absolute;
                 margin-top:-8vh !important;
-                margin-left:11vw !important;
+                margin-left:12vw !important;
 
             }
             
@@ -3871,8 +3871,8 @@ font-size: 15px !important;
             
             #itemTextFour{
                
-                margin-top:17vh;
-                margin-left:-15vw;
+                margin-top:14vh;
+                margin-left:-14vw;
                 width:90vw;
                 
             }
@@ -3892,7 +3892,7 @@ font-size: 15px !important;
                             display:inline-block;
                             padding:0% 2% 0% 2%;
                             margin-top:2vh;
-                            margin-left:15vw;
+                            margin-left:13vw;
                              
                               font-size:1rem;
                               color:rgb(212, 212, 212);
@@ -3902,8 +3902,8 @@ font-size: 15px !important;
                            #footerLogo{
                               position: absolute;
                               margin-top:5vh;
-                              margin-left:19vw !important;
-                             font-size:1.5rem;
+                              margin-left:17vw !important;
+                             font-size:1.8rem;
                              font-family: 'Pinyon Script', cursive;
                               font-weight: lighter;
                               color:white;
