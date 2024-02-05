@@ -3442,7 +3442,7 @@ font-size: 15px !important;
 
             @media screen and (min-width:344px) and (max-width:380px){
        
-      body{background-color:#e8b6d0;}
+      body{background-color:#80918e;}
                  
      
 
@@ -3542,7 +3542,7 @@ font-size: 15px !important;
                     #homeLink{
                         position: absolute;
                         margin-top:-23vh;
-                        margin-left:-10vw !important;
+                        margin-left:-20vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -3552,7 +3552,7 @@ font-size: 15px !important;
                     #aboutLink{
                         position: absolute;
                         margin-top:-39vh;
-                        margin-left:-10vw !important;
+                        margin-left:-20vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -3561,7 +3561,7 @@ font-size: 15px !important;
                     #missionLink{
                         position: absolute;
                         margin-top:-54vh;
-                        margin-left:-10vw !important;
+                        margin-left:-20vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -3569,7 +3569,7 @@ font-size: 15px !important;
             
                     #bookLink{
                         margin-top:-70vh;
-                        margin-left:-12vw !important;
+                        margin-left:-32vw !important;
                         font-size:1rem;
                          padding:2% 6% 2% 6%;
                           border-width: 1px;
@@ -3827,8 +3827,8 @@ font-size: 15px !important;
             
             .itemHeader{
                 position: absolute;
-            margin-top:10vh;
-            margin-left:20vw;
+            margin-top:-15vh;
+            margin-left:26vw;
             
             }
 
@@ -3849,7 +3849,7 @@ font-size: 15px !important;
             
             #itemTextOne{
               
-                margin-top:6vh !important;
+                margin-top:-10vh !important;
                 margin-left:-16vw;
                 width:85vw;
             }
