@@ -3442,7 +3442,7 @@ font-size: 15px !important;
 
             @media screen and (min-width:344px) and (max-width:380px){
        
-      body{background-color:#80918e;}
+      body{background-color:#6ba298;}
                  
      
 
@@ -3542,7 +3542,7 @@ font-size: 15px !important;
                     #homeLink{
                         position: absolute;
                         margin-top:-23vh;
-                        margin-left:-20vw !important;
+                        margin-left:-24vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -3552,7 +3552,7 @@ font-size: 15px !important;
                     #aboutLink{
                         position: absolute;
                         margin-top:-39vh;
-                        margin-left:-20vw !important;
+                        margin-left:-24vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -3561,7 +3561,7 @@ font-size: 15px !important;
                     #missionLink{
                         position: absolute;
                         margin-top:-54vh;
-                        margin-left:-20vw !important;
+                        margin-left:-24vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -3608,7 +3608,7 @@ font-size: 15px !important;
                               h1{
                                 position: absolute;
                                 margin-top:-4vh !important;
-                                margin-left:26vw !important;
+                                margin-left:28vw !important;
                                 font-size:1.5rem;
                                 font-weight: lighter;
                                 font-family: 'Pinyon Script', cursive;
@@ -3827,8 +3827,8 @@ font-size: 15px !important;
             
             .itemHeader{
                 position: absolute;
-            margin-top:-15vh;
-            margin-left:26vw;
+            margin-top:-25vh;
+            margin-left:30vw;
             
             }
 
@@ -3849,7 +3849,7 @@ font-size: 15px !important;
             
             #itemTextOne{
               
-                margin-top:-10vh !important;
+                margin-top:-17vh !important;
                 margin-left:-16vw;
                 width:85vw;
             }
