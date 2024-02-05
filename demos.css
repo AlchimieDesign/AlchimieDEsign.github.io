@@ -3442,7 +3442,7 @@ font-size: 15px !important;
 
             @media screen and (min-width:344px) and (max-width:380px){
        
-      body{background-color:#6ba298;}
+      body{background-color:#f4f3f3;}
                  
      
 
@@ -3542,7 +3542,7 @@ font-size: 15px !important;
                     #homeLink{
                         position: absolute;
                         margin-top:-23vh;
-                        margin-left:-24vw !important;
+                        margin-left:-22vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -3552,7 +3552,7 @@ font-size: 15px !important;
                     #aboutLink{
                         position: absolute;
                         margin-top:-39vh;
-                        margin-left:-24vw !important;
+                        margin-left:-22vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -3561,7 +3561,7 @@ font-size: 15px !important;
                     #missionLink{
                         position: absolute;
                         margin-top:-54vh;
-                        margin-left:-24vw !important;
+                        margin-left:-22vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -3779,7 +3779,7 @@ font-size: 15px !important;
             
                         #about2{
                             position: absolute;
-                            margin-top:-30vh;
+                            margin-top:-43vh;
                             margin-left:12vw;
                             font-size:18px;
                             width:80vw;
@@ -3828,7 +3828,7 @@ font-size: 15px !important;
             .itemHeader{
                 position: absolute;
             margin-top:-25vh;
-            margin-left:30vw;
+            margin-left:36vw;
             
             }
 
@@ -3849,7 +3849,7 @@ font-size: 15px !important;
             
             #itemTextOne{
               
-                margin-top:-17vh !important;
+                margin-top:-20vh !important;
                 margin-left:-16vw;
                 width:85vw;
             }
@@ -3880,7 +3880,7 @@ font-size: 15px !important;
             
                         #footer{
                            
-                          margin-top:2000px;
+                          margin-top:2200px;
             
                             height:27vh;
                             background-color: #3a3a3a;
