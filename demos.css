@@ -2976,7 +2976,7 @@ font-size: 15px !important;
 
     @media screen and (min-width:271px) and (max-width:343px){
        
-      body{background-color:white;}
+      body{background-color:#80918e;}
       
 
         #mobileLogo{
@@ -3312,7 +3312,7 @@ font-size: 15px !important;
     
                 #about2{
                     position: absolute;
-                    margin-top:40vh;
+                    margin-top:20vh;
                     margin-left:10vw;
                     font-size:18px;
                     width:85vw;
@@ -3374,7 +3374,7 @@ font-size: 15px !important;
     
     #itemTextOne{
        
-       padding-top: -58vh !important;
+       padding-top: -55vh !important;
         margin-top:-26vh !important;
         margin-left:-15vw;
         width:85vw;
@@ -3406,7 +3406,7 @@ font-size: 15px !important;
     
                 #footer{
                    
-                  margin-top:100vh;
+                  margin-top:60vh;
     
                     height:27vh;
                     background-color: #3a3a3a;
