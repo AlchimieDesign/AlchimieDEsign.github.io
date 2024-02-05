@@ -3442,7 +3442,7 @@ font-size: 15px !important;
 
             @media screen and (min-width:344px) and (max-width:380px){
        
-      body{background-color:#7f6396;}
+      body{background-color:white;}
                  
      
 
@@ -3871,8 +3871,8 @@ font-size: 15px !important;
             
             #itemTextFour{
                
-                margin-top:14vh;
-                margin-left:-14vw;
+                margin-top:6vh;
+                margin-left:-17vw;
                 width:90vw;
                 
             }
@@ -3892,7 +3892,7 @@ font-size: 15px !important;
                             display:inline-block;
                             padding:0% 2% 0% 2%;
                             margin-top:2vh;
-                            margin-left:13vw;
+                            margin-left:4vw;
                              
                               font-size:1rem;
                               color:rgb(212, 212, 212);
