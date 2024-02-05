@@ -3442,7 +3442,7 @@ font-size: 15px !important;
 
             @media screen and (min-width:344px) and (max-width:380px){
        
-      body{background-color:#f8f6f6;}
+      body{background-color:#7f6396;}
                  
      
 
@@ -3834,7 +3834,7 @@ font-size: 15px !important;
 
             #offerHeader{
                 position: absolute;
-                margin-top:-12vh !important;
+                margin-top:20vh !important;
                 margin-left:9vw !important;
 
             }
@@ -3879,7 +3879,7 @@ font-size: 15px !important;
             
             
                         #footer{
-                           
+                           position:absolute;
                           margin-top:220vh !important;
             
                             height:27vh;
