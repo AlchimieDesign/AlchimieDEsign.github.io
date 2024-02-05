@@ -3442,7 +3442,7 @@ font-size: 15px !important;
 
             @media screen and (min-width:344px) and (max-width:380px){
        
-      body{background-color:#b0fff1;}
+      body{background-color:#f4f3f3;}
                  
      
 
@@ -3494,7 +3494,7 @@ font-size: 15px !important;
             
                     .nav-item {
                         margin: 2.5rem 0;
-                        margin-left:10vw;
+                        margin-left:5vw;
                         font-size: 2rem;
                         font-weight: lighter !important;
                     }
@@ -3542,7 +3542,7 @@ font-size: 15px !important;
                     #homeLink{
                         position: absolute;
                         margin-top:-23vh;
-                        margin-left:20vw !important;
+                        margin-left:10vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -3552,7 +3552,7 @@ font-size: 15px !important;
                     #aboutLink{
                         position: absolute;
                         margin-top:-39vh;
-                        margin-left:20vw !important;
+                        margin-left:10vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -3561,7 +3561,7 @@ font-size: 15px !important;
                     #missionLink{
                         position: absolute;
                         margin-top:-54vh;
-                        margin-left:20vw !important;
+                        margin-left:10vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -3569,7 +3569,7 @@ font-size: 15px !important;
             
                     #bookLink{
                         margin-top:-70vh;
-                        margin-left:30vw !important;
+                        margin-left:5vw !important;
                         font-size:1rem;
                          padding:2% 6% 2% 6%;
                           border-width: 1px;
@@ -3779,7 +3779,7 @@ font-size: 15px !important;
             
                         #about2{
                             position: absolute;
-                            margin-top:30vh;
+                            margin-top:5vh;
                             margin-left:12vw;
                             font-size:18px;
                             width:80vw;
