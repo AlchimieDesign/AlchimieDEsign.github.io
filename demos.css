@@ -5369,13 +5369,13 @@ font-size: 15px !important;
                                           #linkTwo{
                                             position: absolute;
                                             margin-top:1vh !important;
-                                            margin-left:5vw;
+                                            margin-left:70vw;
                                            
                                           }
                         
                                           #booking{
                                             position: absolute;
-                                            margin-top:1vh;
+                                            margin-top:50vh;
                                             margin-left:65vw;
                                          
                                              font-size:1.3rem;
@@ -5407,8 +5407,8 @@ font-size: 15px !important;
                                           h1{
                                             position: absolute;
                                             margin-top:-3vh !important;
-                                            margin-left:33vw !important;
-                                            font-size:2rem;
+                                            margin-left:40vw !important;
+                                            font-size:1.9rem;
                                             font-weight: lighter;
                                             font-family: 'Pinyon Script', cursive;
                                             color:rgb(105, 103, 103);
@@ -5585,6 +5585,7 @@ font-size: 15px !important;
                                     }
                         
                                     #contact{
+                                        display:none;
                                         position: absolute;
                                         margin-top:-28vh !important;
                                         margin-left:34vw;
@@ -5636,7 +5637,7 @@ font-size: 15px !important;
                         
                             #offerHeader{
                                 position:relative;
-                                margin-top:24vh !important;
+                                margin-top:18vh !important;
                                 margin-left:14vw !important;
                             }
                             
