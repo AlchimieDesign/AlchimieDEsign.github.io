@@ -3442,7 +3442,7 @@ font-size: 15px !important;
 
             @media screen and (min-width:344px) and (max-width:380px){
        
-      body{background-color:#c9e8e3;}
+      body{background-color:#f8f6f6;}
                  
      
 
@@ -3827,7 +3827,7 @@ font-size: 15px !important;
             
             .itemHeader{
                 position: absolute;
-            margin-top:-26vh;
+            margin-top:-56vh !important;
             margin-left:46vw !important;
             
             }
@@ -3882,7 +3882,7 @@ font-size: 15px !important;
                            position:absolute;
                           margin-top:3000px !important;
             
-                            height:27vh;
+                            height:24vh;
                             background-color: #3a3a3a;
                             color:#fff;
                             margin-top:8vh !important;
@@ -3892,9 +3892,9 @@ font-size: 15px !important;
                             display:inline-block;
                             padding:0% 2% 0% 2%;
                             margin-top:2vh;
-                            margin-left:10vw;
+                            margin-left:15vw;
                              
-                              font-size:1.4rem;
+                              font-size:1rem;
                               color:rgb(212, 212, 212);
                            }
               
@@ -3902,8 +3902,8 @@ font-size: 15px !important;
                            #footerLogo{
                               position: absolute;
                               margin-top:5vh;
-                              margin-left:17vw !important;
-                             font-size:1.8rem;
+                              margin-left:19vw !important;
+                             font-size:1.5rem;
                              font-family: 'Pinyon Script', cursive;
                               font-weight: lighter;
                               color:white;
