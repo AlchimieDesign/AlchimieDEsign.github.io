@@ -3442,7 +3442,7 @@ font-size: 15px !important;
 
             @media screen and (min-width:344px) and (max-width:380px){
        
-      body{background-color:#6ba298;}
+      body{background-color:#f8f6f6;}
                  
      
 
@@ -3835,7 +3835,7 @@ font-size: 15px !important;
             #offerHeader{
                 position: absolute;
                 margin-top:-8vh !important;
-                margin-left:9vw !important;
+                margin-left:11vw !important;
 
             }
             
@@ -3871,7 +3871,7 @@ font-size: 15px !important;
             
             #itemTextFour{
                
-                margin-top:10vh;
+                margin-top:17vh;
                 margin-left:-15vw;
                 width:90vw;
                 
@@ -3880,7 +3880,7 @@ font-size: 15px !important;
             
                         #footer{
                            position:absolute;
-                          margin-top:3000px !important;
+                          margin-top:3300px !important;
             width:100vw;
                             height:24vh;
                             background-color: #3a3a3a;
