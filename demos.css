@@ -3442,7 +3442,7 @@ font-size: 15px !important;
 
             @media screen and (min-width:344px) and (max-width:380px){
        
-      body{background-color:#f8f6f6;}
+      body{background-color:#80918e;}
                  
      
 
@@ -3569,7 +3569,7 @@ font-size: 15px !important;
             
                     #bookLink{
                         margin-top:-70vh;
-                        margin-left:-32vw !important;
+                        margin-left:-31vw !important;
                         font-size:1rem;
                          padding:2% 6% 2% 6%;
                           border-width: 1px;
@@ -3827,8 +3827,8 @@ font-size: 15px !important;
             
             .itemHeader{
                 position: absolute;
-            margin-top:-15vh;
-            margin-left:44vw;
+            margin-top:-11vh;
+            margin-left:46vw;
             
             }
 
@@ -3880,7 +3880,7 @@ font-size: 15px !important;
             
                         #footer{
                            
-                          margin-top:2500px !important;
+                          margin-top:100% !important;
             
                             height:27vh;
                             background-color: #3a3a3a;
