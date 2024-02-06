@@ -4981,7 +4981,7 @@ font-size: 15px !important;
             
                     #bookLink{
                         margin-top:-70vh;
-                        margin-left:-31vw !important;
+                        margin-left:-51vw !important;
                         font-size:1rem;
                          padding:2% 6% 2% 6%;
                           border-width: 1px;
@@ -5020,7 +5020,7 @@ font-size: 15px !important;
                               h1{
                                 position: absolute;
                                 margin-top:-4vh !important;
-                                margin-left:30vw !important;
+                                margin-left:25vw !important;
                                 font-size:1.8rem;
                                 font-weight: lighter;
                                 font-family: 'Pinyon Script', cursive;
@@ -5176,7 +5176,7 @@ font-size: 15px !important;
                         }
             
                         .sectionText{
-                            width:60vw;
+                            width:90vw;
                             font-size:16px;
                         }
             
@@ -5192,9 +5192,10 @@ font-size: 15px !important;
                         #about2{
                             position: absolute;
                             margin-top:10vh;
-                            margin-left:12vw;
+                            margin-left:-6vw;
                             font-size:18px;
-                            width:80vw;
+                            width:90vw;
+                            font-weight:light;
                         }
             
                         #mobile{
@@ -5246,8 +5247,8 @@ font-size: 15px !important;
 
             #offerHeader{
                 position: absolute;
-                margin-top:-8vh !important;
-                margin-left:12vw !important;
+                margin-top:-16vh !important;
+                margin-left:6vw !important;
 
             }
             
@@ -5262,22 +5263,25 @@ font-size: 15px !important;
             #itemTextOne{
               
                 margin-top:-20vh !important;
-                margin-left:-16vw;
-                width:85vw;
+                margin-left:-23vw;
+                width:90vw;
+                font-weight:light;
             }
             
             #itemTextTwo{
                
                 margin-top:5vh;
-                margin-left:-17vw;
+                 margin-left:-23vw;
                 width:90vw;
+                font-weight:light;
             }
             
             #itemTextThree{
                 
                 margin-top:6vh;
-                margin-left:-20vw;
-                width:90vw !important;
+                 margin-left:-23vw;
+                width:90vw;
+                font-weight:light;
                 
             }
             
@@ -5304,7 +5308,7 @@ font-size: 15px !important;
                             display:inline-block;
                             padding:0% 2% 0% 2%;
                             margin-top:2vh;
-                            margin-left:9vw;
+                            margin-left:5vw;
                              
                               font-size:1rem;
                               color:rgb(212, 212, 212);
@@ -5314,7 +5318,7 @@ font-size: 15px !important;
                            #footerLogo{
                               position: absolute;
                               margin-top:5vh;
-                              margin-left:17vw !important;
+                              margin-left:6vw !important;
                              font-size:1.8rem;
                              font-family: 'Pinyon Script', cursive;
                               font-weight: lighter;
