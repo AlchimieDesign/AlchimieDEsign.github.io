@@ -4856,7 +4856,7 @@ font-size: 15px !important;
 
 
                       @media screen and (min-width:491px) and (max-width:588px)  {
-                       body{background-color:#7f6396;}
+                       body{background-color:white;}
                
                          #mobileLogo{
                     display:none;
@@ -5180,23 +5180,7 @@ font-size: 15px !important;
                             font-size:16px;
                         }
             
-                        #about1{
-                            position: absolute;
-                            margin-top:-30vh;
-                            margin-left:12vw;
-                            font-size:18px;
-                            width:80vw;
-                        }
-            
-            
-                        #about2{
-                            position: absolute;
-                            margin-top:10vh;
-                            margin-left:-6vw;
-                            font-size:18px;
-                            width:90vw;
-                            font-weight:light;
-                        }
+                      
             
                         #mobile{
                             display:none;
@@ -5240,7 +5224,7 @@ font-size: 15px !important;
             
             .itemHeader{
                 position: absolute;
-            margin-top:-56vh !important;
+            margin-top:50vh !important;
             margin-left:46vw !important;
             
             }
@@ -5279,7 +5263,7 @@ font-size: 15px !important;
             #itemTextThree{
                 
                 margin-top:6vh;
-                 margin-left:-18vw;
+                 margin-left:-8vw;
                 width:85vw;
                 font-weight:light;
                 
@@ -5288,7 +5272,7 @@ font-size: 15px !important;
             #itemTextFour{
                
                 margin-top:6vh;
-                margin-left:-22vw;
+                margin-left:-8vw;
                 width:80vw;
                 
             }
@@ -5308,7 +5292,7 @@ font-size: 15px !important;
                             display:inline-block;
                             padding:0% 2% 0% 2%;
                             margin-top:2vh;
-                            margin-left:10vw;
+                            margin-left:20vw;
                              
                               font-size:1rem;
                               color:rgb(212, 212, 212);
@@ -5318,7 +5302,7 @@ font-size: 15px !important;
                            #footerLogo{
                               position: absolute;
                               margin-top:5vh;
-                              margin-left:20vw !important;
+                              margin-left:26vw !important;
                              font-size:2.2rem;
                              font-family: 'Pinyon Script', cursive;
                               font-weight: lighter;
