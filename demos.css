@@ -4856,7 +4856,7 @@ font-size: 15px !important;
 
 
                       @media screen and (min-width:491px) and (max-width:588px)  {
-                       body{background-color:#868384;}
+                       body{background-color:#c9e8e3;}
                
                          #mobileLogo{
                     display:none;
@@ -5224,14 +5224,14 @@ font-size: 15px !important;
             
             .itemHeader{
                 position: absolute;
-            margin-top:-10vh !important;
+            margin-top:-7vh !important;
             margin-left:46vw !important;
             
             }
 
             #offerHeader{
                 position: absolute;
-                margin-top:-10h !important;
+                margin-top:-7h !important;
                 margin-left:16vw !important;
 
             }
@@ -5263,7 +5263,7 @@ font-size: 15px !important;
             #itemTextThree{
                 
                 margin-top:6vh;
-                 margin-left:-8vw;
+                 margin-left:-10vw;
                 width:85vw;
                 font-weight:light;
                 
@@ -5272,7 +5272,7 @@ font-size: 15px !important;
             #itemTextFour{
                
                 margin-top:6vh;
-                margin-left:-8vw;
+                margin-left:-10vw;
                 width:80vw;
                 
             }
@@ -5292,7 +5292,7 @@ font-size: 15px !important;
                             display:inline-block;
                             padding:0% 2% 0% 2%;
                             margin-top:2vh;
-                            margin-left:20vw;
+                            margin-left:15vw;
                              
                               font-size:1rem;
                               color:rgb(212, 212, 212);
