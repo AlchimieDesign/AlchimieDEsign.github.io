@@ -5314,7 +5314,7 @@ font-size: 15px !important;
 
 
                             @media screen and (min-width:589px) and (max-width:640px)  {
-                     body{background-color:white;}
+                     body{background-color:#b0fff1;}
                
                                 #dskNav{
                                  
@@ -5602,8 +5602,8 @@ font-size: 15px !important;
                         h3{
                         position: absolute;
                         margin-top:-22vh !important;
-                        margin-left:18vw !important;
-                        font-size:3.1rem;
+                        margin-left:17vw !important;
+                        font-size:2.7rem;
                         font-weight: lighter;
                         font-family: 'Pinyon Script', cursive;
                         color:rgb(78, 71, 71);
@@ -5624,7 +5624,7 @@ font-size: 15px !important;
                         
                         .itemText{
                             
-                            margin-left:10vw;
+                            margin-left:5vw;
                            
                             font-size:23px;
                             font-weight:lighter;
@@ -5636,7 +5636,7 @@ font-size: 15px !important;
                             #itemTextOne{
                                 
                                 margin-top:1vh !important;
-                                margin-left:-8vw;
+                                margin-left:-16vw;
                                   font-size:23px;
                             font-weight:lighter;
                                 width:85vw;
@@ -5644,7 +5644,7 @@ font-size: 15px !important;
                             
                             #itemTextTwo{
                                 margin-top:3vh;
-                                margin-left:-5vw;
+                                margin-left:-16vw;
                              font-size:23px;
                             font-weight:lighter;
                                 width:85vw;
@@ -5652,7 +5652,7 @@ font-size: 15px !important;
                             
                             #itemTextThree{
                                 margin-top:3vh;
-                                margin-left:3vw;
+                                margin-left:-14vw;
                                font-size:23px;
                             font-weight:lighter;
                                 width:85vw;
@@ -5661,7 +5661,7 @@ font-size: 15px !important;
 
                                   #itemTextFour{
                                 margin-top:6vh;
-                                margin-left:3vw;
+                                margin-left:-14vw;
                                font-size:23px;
                             font-weight:lighter;
                                 width:85vw;
@@ -5686,7 +5686,7 @@ font-size: 15px !important;
                                         display:inline-block;
                                         padding:0% 4% 0% 4%;
                                         margin-top:2vh;
-                                        margin-left:6vw;
+                                        margin-left:9vw;
                                          
                                           font-size:23px;
                                           color:rgb(212, 212, 212);
