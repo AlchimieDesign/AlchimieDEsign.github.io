@@ -5314,7 +5314,7 @@ font-size: 15px !important;
 
 
                             @media screen and (min-width:589px) and (max-width:640px)  {
-                     body{background-color:#f4f3f3;}
+                     body{background-color:#80706c;}
                
                                 #dskNav{
                                  
@@ -5363,7 +5363,7 @@ font-size: 15px !important;
                         
                                           #booking{
                                             position: absolute;
-                                            margin-top:50vh;
+                                            margin-top:52vh;
                                             margin-left:25vw;
                                          
                                              font-size:1.5rem;
@@ -5625,7 +5625,7 @@ font-size: 15px !important;
                         
                             #offerHeader{
                                 position:relative;
-                                margin-top:8vh !important;
+                                margin-top:-20vh !important;
                                 margin-left:12vw !important;
                             }
                             
