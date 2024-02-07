@@ -5709,7 +5709,7 @@ font-size: 15px !important;
                                     }
                                     @media screen and (min-width:641px) and (max-width:690px)  {
                        
-                                       body{background-color:#485a64;}
+                                       body{background-color:white;}
                
                                 #dskNav{
                                  
@@ -5745,7 +5745,7 @@ font-size: 15px !important;
                                           #linkOne{
                                             position: absolute;
                                             margin-top:1vh !important;
-                                            margin-left:-3vw;
+                                            margin-left:4vw;
                                            
                                           }
                         
@@ -5759,7 +5759,7 @@ font-size: 15px !important;
                                           #booking{
                                             position: absolute;
                                             margin-top:52vh;
-                                            margin-left:25vw;
+                                            margin-left:28vw;
                                          
                                              font-size:1.5rem;
                                             
@@ -5790,8 +5790,8 @@ font-size: 15px !important;
                                           h1{
                                             position: absolute;
                                             margin-top:-3vh !important;
-                                            margin-left:29.6vw !important;
-                                            font-size:1.9rem;
+                                            margin-left:29.9vw !important;
+                                            font-size:2.2rem;
                                             font-weight: lighter;
                                             font-family: 'Pinyon Script', cursive;
                                             color:rgb(105, 103, 103);
@@ -6013,7 +6013,7 @@ font-size: 15px !important;
                                  #offerHeader{
                                 position:relative;
                                 margin-top:-20vh !important;
-                                margin-left:14vw !important;
+                                margin-left:16vw !important;
                             }
                             
                         
@@ -6047,7 +6047,7 @@ font-size: 15px !important;
                             
                             #itemTextThree{
                                 margin-top:3vh;
-                                margin-left:-14vw;
+                                margin-left:-12vw;
                                font-size:23px;
                             font-weight:lighter;
                                 width:85vw;
