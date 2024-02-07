@@ -5618,7 +5618,7 @@ font-size: 15px !important;
                                  #offerHeader{
                                 position:relative;
                                 margin-top:-20vh !important;
-                                margin-left:12vw !important;
+                                margin-left:14vw !important;
                             }
                             
                         
@@ -5626,7 +5626,8 @@ font-size: 15px !important;
                             
                             margin-left:10vw;
                            
-                            font-size:25px;
+                            font-size:23px;
+                            font-weight:lighter;
                             
                             }
                         
@@ -5636,21 +5637,37 @@ font-size: 15px !important;
                                 
                                 margin-top:1vh !important;
                                 margin-left:-8vw;
-                                width:70vw;
+                                  font-size:23px;
+                            font-weight:lighter;
+                                width:85vw;
                             }
                             
                             #itemTextTwo{
                                 margin-top:3vh;
                                 margin-left:-5vw;
-                                width:70vw;
+                             font-size:23px;
+                            font-weight:lighter;
+                                width:85vw;
                             }
                             
                             #itemTextThree{
                                 margin-top:3vh;
                                 margin-left:3vw;
-                                width:70vw;
+                               font-size:23px;
+                            font-weight:lighter;
+                                width:85vw;
                                 
                             }
+
+                                  #itemTextFour{
+                                margin-top:6vh;
+                                margin-left:3vw;
+                               font-size:23px;
+                            font-weight:lighter;
+                                width:85vw;
+                                
+                            }
+                            
                             
                           
                             
@@ -5669,7 +5686,7 @@ font-size: 15px !important;
                                         display:inline-block;
                                         padding:0% 4% 0% 4%;
                                         margin-top:2vh;
-                                        margin-left:14vw;
+                                        margin-left:6vw;
                                          
                                           font-size:23px;
                                           color:rgb(212, 212, 212);
@@ -5680,7 +5697,7 @@ font-size: 15px !important;
                                           position: absolute;
                                           margin-top:5vh;
                                           margin-left:19vw !important;
-                                         font-size:4rem;
+                                         font-size:3rem;
                                          font-family: 'Pinyon Script', cursive;
                                           font-weight: lighter;
                                           color:white;
