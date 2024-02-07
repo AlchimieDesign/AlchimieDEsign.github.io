@@ -5314,7 +5314,7 @@ font-size: 15px !important;
 
 
                             @media screen and (min-width:589px) and (max-width:640px)  {
-                     body{background-color:#b0fff1;}
+                     body{background-color:white;}
                
                                 #dskNav{
                                  
@@ -5664,7 +5664,7 @@ font-size: 15px !important;
                                 margin-left:-14vw;
                                font-size:23px;
                             font-weight:lighter;
-                                width:85vw;
+                                width:84vw;
                                 
                             }
                             
