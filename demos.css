@@ -3916,7 +3916,7 @@ font-size: 15px !important;
                
                
 
-             body{background-color:#7c9aab;}
+             body{background-color:white;}
                  
      
 
@@ -4266,7 +4266,7 @@ font-size: 15px !important;
                         #contact{
                             position: absolute;
                             margin-top:-30vh !important;
-                            margin-left:33vw;
+                            margin-left:30vw;
                             font-size:1rem;
             
                             padding:0% 11% 0% 11%; 
@@ -4338,9 +4338,9 @@ font-size: 15px !important;
             #itemTextThree{
                 
                 margin-top:6vh;
-                margin-left:-20vw;
+                margin-left:-18vw;
                 width:86vw !important;
-                font-size:18px;
+                font-size:16px;
                 
             }
             
@@ -4368,7 +4368,7 @@ font-size: 15px !important;
                             display:inline-block;
                             padding:0% 2% 0% 2%;
                             margin-top:2vh;
-                            margin-left:9vw;
+                            margin-left:11vw;
                              
                               font-size:1rem;
                               color:rgb(212, 212, 212);
@@ -4378,7 +4378,7 @@ font-size: 15px !important;
                            #footerLogo{
                               position: absolute;
                               margin-top:5vh;
-                              margin-left:17vw !important;
+                              margin-left:19vw !important;
                              font-size:1.8rem;
                              font-family: 'Pinyon Script', cursive;
                               font-weight: lighter;
