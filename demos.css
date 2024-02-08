@@ -3442,7 +3442,7 @@ font-size: 15px !important;
 
             @media screen and (min-width:344px) and (max-width:380px){
        
-      body{background-color:white;}
+      body{background-color:#6ba298;}
                  
      
 
@@ -3792,10 +3792,10 @@ font-size: 15px !important;
                         #contact{
                             position: absolute;
                             margin-top:-30vh !important;
-                            margin-left:33vw;
+                            margin-left:30vw;
                             font-size:1rem;
             
-                            padding:1% 9% 1% 9%; 
+                            padding:0% 11% 0% 11%; 
                             border-radius: 25px;         
                          border-width: 1px;
                          border-color:#636161;
@@ -3819,7 +3819,7 @@ font-size: 15px !important;
             position: absolute;
             margin-top:-23vh !important;
             margin-left:3vw !important;
-            font-size:2.4rem;
+            font-size:2.7rem;
             font-weight: lighter;
             font-family: 'Pinyon Script', cursive;
             color:rgb(78, 71, 71);
