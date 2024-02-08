@@ -6108,7 +6108,7 @@ font-size: 15px !important;
                                             }
 
                                             @media screen and (min-width:691px) and (max-width:904px) {
-                                                body{background-color:white;}
+                                                body{background-color:#ebd0dc;}
                
                                                 #dskNav{
                                  
@@ -6368,7 +6368,7 @@ font-size: 15px !important;
                                         
                                                     #contact{
                                                         position: absolute;
-                                                        margin-top:-28vh !important;
+                                                        margin-top:-33vh !important;
                                                         margin-left:34vw;
                                                         font-size:1rem;
                                         
@@ -6419,7 +6419,7 @@ font-size: 15px !important;
                                             #offerHeader{
                                                 position:relative;
                                                 margin-top:-22vh !important;
-                                                margin-left:14vw !important;
+                                                margin-left:11vw !important;
                                             }
                                             
                                             #itemTextOne{
@@ -6439,6 +6439,15 @@ font-size: 15px !important;
                                                 margin-top:3vh;
                                                 margin-left:3vw;
                                                 width:70vw;
+                                                
+                                            }
+
+                                                   #itemTextFour{
+                                                margin-top:3vh;
+                                                margin-left:3vw;
+                                                width:70vw;
+                                            font-family: 'Pinyon Script', cursive;
+                                                       font-size:3rem;
                                                 
                                             }
                                             
