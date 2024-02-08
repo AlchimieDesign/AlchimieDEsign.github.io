@@ -3916,7 +3916,7 @@ font-size: 15px !important;
                
                
 
-             body{background-color:white;}
+             body{background-color:#7c9aab;}
                  
      
 
@@ -4269,7 +4269,7 @@ font-size: 15px !important;
                             margin-left:33vw;
                             font-size:1rem;
             
-                            padding:1% 9% 1% 9%; 
+                            padding:0% 11% 0% 11%; 
                             border-radius: 25px;         
                          border-width: 1px;
                          border-color:#636161;
@@ -4339,7 +4339,8 @@ font-size: 15px !important;
                 
                 margin-top:6vh;
                 margin-left:-20vw;
-                width:90vw !important;
+                width:86vw !important;
+                font-size:18px;
                 
             }
             
@@ -4348,6 +4349,7 @@ font-size: 15px !important;
                 margin-top:6vh;
                 margin-left:-17vw;
                 width:90vw;
+                 font-family: 'Pinyon Script', cursive;
                 
             }
             
