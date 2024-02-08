@@ -4387,6 +4387,7 @@ font-size: 15px !important;
 
 
             @media screen and (min-width:431px) and (max-width:490px) {
+                body{background-color:#485a64;}
               #mobileLogo{
                     display:none;
                 }
@@ -4776,7 +4777,7 @@ font-size: 15px !important;
             #offerHeader{
                 position: absolute;
                 margin-top:-8vh !important;
-                margin-left:12vw !important;
+                margin-left:13.5vw !important;
 
             }
             
@@ -4791,7 +4792,7 @@ font-size: 15px !important;
             #itemTextOne{
               
                 margin-top:-20vh !important;
-                margin-left:-16vw;
+                margin-left:-17vw;
                 width:85vw;
             }
             
@@ -4805,7 +4806,7 @@ font-size: 15px !important;
             #itemTextThree{
                 
                 margin-top:6vh;
-                margin-left:-20vw;
+                margin-left:-18vw;
                 width:90vw !important;
                 
             }
@@ -4833,9 +4834,9 @@ font-size: 15px !important;
                             display:inline-block;
                             padding:0% 2% 0% 2%;
                             margin-top:2vh;
-                            margin-left:9vw;
+                            margin-left:11vw;
                              
-                              font-size:1rem;
+                              font-size:1.4rem;
                               color:rgb(212, 212, 212);
                            }
               
@@ -4843,8 +4844,8 @@ font-size: 15px !important;
                            #footerLogo{
                               position: absolute;
                               margin-top:5vh;
-                              margin-left:17vw !important;
-                             font-size:1.8rem;
+                              margin-left:19vw !important;
+                             font-size:1.6rem;
                              font-family: 'Pinyon Script', cursive;
                               font-weight: lighter;
                               color:white;
