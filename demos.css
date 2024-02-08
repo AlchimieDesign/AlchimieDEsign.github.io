@@ -6108,383 +6108,396 @@ font-size: 15px !important;
                                             }
 
                                             @media screen and (min-width:691px) and (max-width:904px) {
-                                                body{background-color:#ebd0dc;}
+                                               body{background-color:#80918e;}
                
-                                                #dskNav{
+                                #dskNav{
                                  
-                                                    margin-left:0vw !important;
-                                                }
-                                                        
-                                                        #mainNav{
-                                                            position: absolute;
-                                                            margin-top:-5vh;
-                                                            padding:2%;
-                                                            background-color: #ffffff7e;
-                                                            width:100vw;
-                                                            height:5vh;
-                                                        } 
-                                                        
-                                                        
+                                    margin-left:0vw !important;
+                                }
                                         
-                                                        a{
-                                                            color:#313131;
-                                                            font-weight: lighter;
-                                                          }
+                                        #mainNav{
+                                            position: absolute;
+                                            margin-top:-5vh;
+                                            padding:2%;
+                                            background-color: #ffffff7e;
+                                            width:100vw;
+                                            height:5vh;
+                                        } 
+                                        
+                                        
+                        
+                                        a{
+                                            color:#313131;
+                                            font-weight: lighter;
+                                          }
+                            
+                                          .nav-link{
+                                           
+                                            margin-left:10vw;
+                                           padding:0% 4% 0% 4%;
+                                            color:#242424;
+                                            font-size:1.2rem;
+                                            font-weight: lighter;
+                            
+                                          }
+                        
+                                          #linkOne{
+                                            position: absolute;
+                                            margin-top:1vh !important;
+                                            margin-left:4vw;
+                                           
+                                          }
+                        
+                                          #linkTwo{
+                                            position: absolute;
+                                            margin-top:1vh !important;
+                                            margin-left:70vw;
+                                           
+                                          }
+                        
+                                          #booking{
+                                            position: absolute;
+                                            margin-top:52vh;
+                                            margin-left:28vw;
+                                         
+                                             font-size:1.5rem;
                                             
-                                                          .nav-link{
-                                                           
-                                                            margin-left:10vw;
-                                                           padding:0% 4% 0% 4%;
-                                                            color:#242424;
-                                                            font-size:1.2rem;
-                                                            font-weight: lighter;
+                                                padding:0% 3% 0% 3%;          
+                                             border-width: 1px;
+                                             border-color:#636161;
+                                             border-style:solid;
+                                             border-radius: 25px;
+                                             font-family: 'Pinyon Script', cursive;
+                                             color:#535252 !important;
                                             
-                                                          }
-                                        
-                                                          #linkOne{
-                                                            position: absolute;
-                                                            margin-top:1vh !important;
-                                                            margin-left:-3vw;
-                                                           
-                                                          }
-                                        
-                                                          #linkTwo{
-                                                            position: absolute;
-                                                            margin-top:1vh !important;
-                                                            margin-left:5vw;
-                                                           
-                                                          }
-                                        
-                                                          #booking{
-                                                            position: absolute;
-                                                            margin-top:1vh;
-                                                            margin-left:65vw;
-                                                         
-                                                             font-size:1.3rem;
-                                                            
-                                                                padding:0% 3% 0% 3%;          
-                                                             border-width: 1px;
-                                                             border-color:#636161;
-                                                             border-style:solid;
-                                                             border-radius: 25px;
-                                                             font-family: 'Pinyon Script', cursive;
-                                                             color:#535252 !important;
-                                                            
-                                                          }
-                                        
-                                                          #mobileLogo{
-                                                            display:none;
-                                                          }
+                                          }
+                        
+                                          #mobileLogo{
+                                            display:none;
+                                          }
+                            
+                                          #miniNav{
+                                            display:none;
+                                          }
+                            
+                                          #mainNav{
+                                            display:inline-block;
+                                            font-size:0.50rem;
+                                            color:#302e2e;
+                                          }
+                        
+                                          h1{
+                                            position: absolute;
+                                            margin-top:-3vh !important;
+                                            margin-left:29.9vw !important;
+                                            font-size:2.2rem;
+                                            font-weight: lighter;
+                                            font-family: 'Pinyon Script', cursive;
+                                            color:rgb(105, 103, 103);
+                                           
+                                        }
+                                        #mobileTitle{
+                                            margin-top:30vh;
+                                        }
+                        
+                                        .sliderContainer{
+                                           position: relative;
+                                            margin-top:10vh;
                                             
-                                                          #miniNav{
-                                                            display:none;
-                                                          }
+                                            height:100vh;
+                                                width:100vw;
+                                                height:100vh;
+                                               
+                                        }
+                            
+                                            .contentContainer{
+                                              
+                                                width:20vw;
+                                                height:10vh;
                                             
-                                                          #mainNav{
-                                                            display:inline-block;
-                                                            font-size:0.50rem;
-                                                            color:#302e2e;
-                                                          }
-                                        
-                                                          h1{
-                                                            position: absolute;
-                                                            margin-top:-3vh !important;
-                                                            margin-left:33vw !important;
-                                                            font-size:2rem;
-                                                            font-weight: lighter;
-                                                            font-family: 'Pinyon Script', cursive;
-                                                            color:rgb(105, 103, 103);
-                                                           
-                                                        }
-                                                        #mobileTitle{
-                                                            margin-top:30vh;
-                                                        }
-                                        
-                                                        .sliderContainer{
-                                                           position: relative;
-                                                            margin-top:10vh;
-                                                            
-                                                            height:100vh;
-                                                                width:100vw;
-                                                                height:100vh;
-                                                               
-                                                        }
+                                            }
+                        
+                                            .mySlides{
+                                                height:5vh;
+                                            }
                                             
-                                                            .contentContainer{
-                                                              
-                                                                width:20vw;
-                                                                height:10vh;
-                                                            
-                                                            }
+                                            .sampleImg{
+                                                
+                                                display:flex;
+                                                padding:4%;
+                                                width:10vw;
+                                                height:120px;
+                                            }
+                                            
+                                            .prev, .next {
+                                                cursor: pointer;
+                                                position: absolute;
+                                                top: 76vh;
+                                                width: 20px;
+                                                margin-top: -50vh;
+                                                padding: 1% 1% 1% 2%;
+                                                color: rgb(248, 246, 246);
+                                                font-weight: bold;
+                                                font-size: 17px;
+                                                transition: 0.6s ease;
+                                                border-radius: 0 3px 3px 0;
+                                                user-select: none;
+                                                z-index:1;
+                                              }
+                                              
+                                              /* Position the "next button" to the right */
+                                              .next {
+                                                background-color:#363434;
+                                                right:1vw;
+                                                border-radius: 100%;
+                        
+                                               
+                                              }
+                                              .prev{
+                                                background-color:#363434;
+                                                
+                                                left: -0.1vw;
+                                                border-radius: 100%;
+                                              }
+                                              /* On hover, add a black background color with a little bit see-through */
+                                              .prev:hover, .next:hover {
+                                                background-color: rgba(0,0,0,0.8);
+                                              }
+                                              
+                                              
+                                              /* Fading animation */
+                                              .fade {
+                                                animation-name: fade;
+                                                animation-duration: 1.5s;
+                                              }
+                                              
+                                              @keyframes fade {
+                                                from {opacity: .4}
+                                                to {opacity: 1}
+                                              }
+                                            
+                        
+                                       
                                         
-                                                            .mySlides{
-                                                                height:5vh;
-                                                            }
-                                                            
-                                                            .sampleImg{
-                                                                
-                                                                display:flex;
-                                                                padding:4%;
-                                                                width:10vw;
-                                                                height:120px;
-                                                            }
-                                                            
-                                                            .prev, .next {
-                                                                cursor: pointer;
-                                                                position: absolute;
-                                                                top: 76vh;
-                                                                width: 20px;
-                                                                margin-top: -50vh;
-                                                                padding: 1% 1% 1% 2%;
-                                                                color: rgb(248, 246, 246);
-                                                                font-weight: bold;
-                                                                font-size: 17px;
-                                                                transition: 0.6s ease;
-                                                                border-radius: 0 3px 3px 0;
-                                                                user-select: none;
-                                                                z-index:1;
-                                                              }
-                                                              
-                                                              /* Position the "next button" to the right */
-                                                              .next {
-                                                                background-color:#363434;
-                                                                right:1vw;
-                                                                border-radius: 100%;
-                                        
-                                                               
-                                                              }
-                                                              .prev{
-                                                                background-color:#363434;
-                                                                
-                                                                left: -0.1vw;
-                                                                border-radius: 100%;
-                                                              }
-                                                              /* On hover, add a black background color with a little bit see-through */
-                                                              .prev:hover, .next:hover {
-                                                                background-color: rgba(0,0,0,0.8);
-                                                              }
-                                                              
-                                                              
-                                                              /* Fading animation */
-                                                              .fade {
-                                                                animation-name: fade;
-                                                                animation-duration: 1.5s;
-                                                              }
-                                                              
-                                                              @keyframes fade {
-                                                                from {opacity: .4}
-                                                                to {opacity: 1}
-                                                              }
-                                                            
-                                        
-                                                       
-                                                        
-                                                             
-                                        
-                                                         
-                                        
-                                        
-                                                .sliderContainer{
-                                                    margin-top:5vh;
-                                                }
-                                        
-                                        
-                                                       
-                                                    .lgImg{
-                                                        position: absolute;
-                                                        margin-top:8vh;
-                                                        margin-left:13vw;
-                                                        height:36vh;
-                                                        width:40vw;
-                                                       
-                                                    }
-                                        
-                                                    .smImg{
-                                                        position: absolute;
-                                                        margin-top:11vh;
-                                                        margin-left:60vw;
-                                                        height:30vh;
-                                                        width:25vw;
-                                                        
-                                        
-                                                    }
-                                        
-                                                 
-                                                    .underlay{
-                                                        height:20vh;
-                                                        width:40vw;
-                                                    }
-                                        
-                                                    #sliderColor{
-                                                        margin-top:-92vh;
-                                                        margin-left:17vw;
-                                                        height:90vh;
-                                                        width:50vw;
-                                                       
-                                                    }
-                                        
-                                                    h2{
-                                                        display:none;
-                                        
-                                                        position: absolute;
-                                                        margin-top:-52vh !important;
-                                                        margin-left:2vw !important;
-                                                        font-size:2rem;
-                                                        font-weight: lighter;
-                                                        font-family: 'Pinyon Script', cursive;
-                                                        color:rgb(78, 71, 71);
-                                                       
-                                        
-                                                    }
-                                        
-                                                    
-                                        
-                                                    .sectionText{
-                                                        width:60vw;
-                                                        font-size:30px;
-                                                    }
-                                        
-                                                    #about1{
-                                                        position: absolute;
-                                                        margin-top:-53vh;
-                                                        margin-left:10vw;
-                                                        font-size:25px;
-                                                        width:85vw;
-                                                    }
-                                        
-                                        
-                                                    #about2{
-                                                        position: absolute;
-                                                      
-                                                        margin-top:-43vh;
-                                                        margin-left:10vw;
-                                                        font-size:25px;
-                                                        width:85vw;
-                                                    }
-                                        
-                                                    #mobile{
-                                                        display:none;
-                                                    }
-                                        
-                                                    #contact{
-                                                        position: absolute;
-                                                        margin-top:-33vh !important;
-                                                        margin-left:34vw;
-                                                        font-size:1rem;
-                                        
-                                                        padding:1% 10% 1% 10%; 
-                                                        border-radius: 25px;         
-                                                     border-width: 1px;
-                                                     border-color:#636161;
-                                                     border-style:solid;
-                                                     font-family: 'Pinyon Script', cursive;
-                                                     color:#3d3d3d !important;
-                                                    }
-                                        
-                                                    #offers{
-                                        
-                                                        margin-top:-44vh;
-                                                        margin-left:25vw;
-                                                        width:50vw;
-                                                      
-                                                    }
-                                        
-                                                   
-                                                   
-                                        
-                                        h3{
+                                             
+                        
+                                         
+                        
+                        
+                                .sliderContainer{
+                                    margin-top:5vh;
+                                }
+                        
+                        
+                                       
+                                    .lgImg{
                                         position: absolute;
-                                        margin-top:-15vh !important;
-                                        margin-left:18vw !important;
-                                        font-size:4rem;
+                                        margin-top:8vh;
+                                        margin-left:13vw;
+                                        height:36vh;
+                                        width:40vw;
+                                       
+                                    }
+                        
+                                    .smImg{
+                                        position: absolute;
+                                        margin-top:11vh;
+                                        margin-left:60vw;
+                                        height:30vh;
+                                        width:25vw;
+                                        
+                        
+                                    }
+                        
+                                 
+                                    .underlay{
+                                        height:20vh;
+                                        width:40vw;
+                                    }
+                        
+                                    #sliderColor{
+                                        margin-top:-92vh;
+                                        margin-left:17vw;
+                                        height:90vh;
+                                        width:50vw;
+                                       
+                                    }
+                        
+                                    h2{
+                                        display:none;
+                        
+                                        position: absolute;
+                                        margin-top:-52vh !important;
+                                        margin-left:2vw !important;
+                                        font-size:2rem;
                                         font-weight: lighter;
                                         font-family: 'Pinyon Script', cursive;
                                         color:rgb(78, 71, 71);
-                                        }
-                                        
-                                        .itemHeader{
-                                        margin-top:80vh;
-                                        margin-left:20vw;
-                                        
-                                        }
-                                        
-                                        .itemText{
-                                            
-                                            margin-left:10vw;
-                                           
-                                            font-size:25px;
-                                            
-                                            }
-                                        
-                                            #offerHeader{
-                                                position:relative;
-                                                margin-top:-22vh !important;
-                                                margin-left:11vw !important;
-                                            }
-                                            
-                                            #itemTextOne{
-                                                
-                                                margin-top:1vh !important;
-                                                margin-left:-8vw;
-                                                width:70vw;
-                                            }
-                                            
-                                            #itemTextTwo{
-                                                margin-top:3vh;
-                                                margin-left:-5vw;
-                                                width:70vw;
-                                            }
-                                            
-                                            #itemTextThree{
-                                                margin-top:3vh;
-                                                margin-left:3vw;
-                                                width:70vw;
-                                                
-                                            }
+                                       
+                        
+                                    }
+                        
+                                    
+                        
+                                    .sectionText{
+                                        width:60vw;
+                                        font-size:30px;
+                                    }
+                        
+                                    #about1{
+                                        position: absolute;
+                                        margin-top:-53vh;
+                                        margin-left:10vw;
+                                        font-size:25px;
+                                        width:85vw;
+                                    }
+                        
+                        
+                                    #about2{
+                                        position: absolute;
+                                      
+                                        margin-top:-43vh;
+                                        margin-left:10vw;
+                                        font-size:25px;
+                                        width:85vw;
+                                    }
+                        
+                                    #mobile{
+                                        display:none;
+                                    }
+                        
+                                    #contact{
+                                        display:none;
+                                        position: absolute;
+                                        margin-top:-28vh !important;
+                                        margin-left:34vw;
+                                        font-size:1rem;
+                        
+                                        padding:1% 10% 1% 10%; 
+                                        border-radius: 25px;         
+                                     border-width: 1px;
+                                     border-color:#636161;
+                                     border-style:solid;
+                                     font-family: 'Pinyon Script', cursive;
+                                     color:#3d3d3d !important;
+                                    }
+                        
+                                    #offers{
+                        
+                                        margin-top:-44vh;
+                                        margin-left:25vw;
+                                        width:50vw;
+                                      
+                                    }
+                        
+                                   
+                                   
+                        
+                        h3{
+                        position: absolute;
+                        margin-top:-22vh !important;
+                        margin-left:17vw !important;
+                        font-size:2.7rem;
+                        font-weight: lighter;
+                        font-family: 'Pinyon Script', cursive;
+                        color:rgb(78, 71, 71);
+                        }
+                        
+                        .itemHeader{
+                        margin-top:-25vh;
+                        margin-left:40vw;
+                        
+                        }
 
-                                                   #itemTextFour{
-                                                margin-top:3vh;
-                                                margin-left:3vw;
-                                                width:70vw;
-                                            font-family: 'Pinyon Script', cursive;
-                                                       font-size:3rem;
-                                                
-                                            }
-                                            
-                                          
-                                            
+                                 #offerHeader{
+                                position:relative;
+                                margin-top:-20vh !important;
+                                margin-left:16vw !important;
+                            }
+                            
+                        
+                        .itemText{
+                            
+                            margin-left:5vw;
+                           
+                            font-size:23px;
+                            font-weight:lighter;
+                            
+                            }
+                        
+                          
+                            
+                            #itemTextOne{
+                                
+                                margin-top:1vh !important;
+                                margin-left:-16vw;
+                                  font-size:23px;
+                            font-weight:lighter;
+                                width:85vw;
+                            }
+                            
+                            #itemTextTwo{
+                                margin-top:3vh;
+                                margin-left:-16vw;
+                             font-size:23px;
+                            font-weight:lighter;
+                                width:85vw;
+                            }
+                            
+                            #itemTextThree{
+                                margin-top:3vh;
+                                margin-left:-12vw;
+                               font-size:23px;
+                            font-weight:lighter;
+                                width:85vw;
+                                
+                            }
+
+                                  #itemTextFour{
+                                margin-top:6vh;
+                                margin-left:-15vw;
+                               font-size:23px;
+                            font-weight:lighter;
+                                width:84vw;
+                                
+                            }
+                            
+                            
+                          
+                            
+                        
+                                    #footer{
+                                        position: relative;
+                                      margin-top:2000px;
+                        
+                                        height:27vh;
+                                        background-color: #3a3a3a;
+                                        color:#fff;
+                                        margin-top:8vh !important;
+                                    }
+                        
+                                    .footerNav{
+                                        display:inline-block;
+                                        padding:0% 4% 0% 4%;
+                                        margin-top:2vh;
+                                        margin-left:9vw;
+                                         
+                                          font-size:23px;
+                                          color:rgb(212, 212, 212);
+                                       }
+                          
+                                      
+                                       #footerLogo{
+                                          position: absolute;
+                                          margin-top:5vh;
+                                          margin-left:19vw !important;
+                                         font-size:3rem;
+                                         font-family: 'Pinyon Script', cursive;
+                                          font-weight: lighter;
+                                          color:white;
+                                      
+                                       }
                                         
-                                                    #footer{
-                                                        position: relative;
-                                                      margin-top:2000px;
-                                        
-                                                        height:27vh;
-                                                        background-color: #3a3a3a;
-                                                        color:#fff;
-                                                        margin-top:8vh !important;
-                                                    }
-                                        
-                                                    .footerNav{
-                                                        display:inline-block;
-                                                        padding:0% 4% 0% 4%;
-                                                        margin-top:2vh;
-                                                        margin-left:14vw;
-                                                         
-                                                          font-size:23px;
-                                                          color:rgb(212, 212, 212);
-                                                       }
-                                          
-                                                      
-                                                       #footerLogo{
-                                                          position: absolute;
-                                                          margin-top:5vh;
-                                                          margin-left:19vw !important;
-                                                         font-size:4rem;
-                                                         font-family: 'Pinyon Script', cursive;
-                                                          font-weight: lighter;
-                                                          color:white;
-                                                      
-                                                       }
                                                     
                                                     }
                               
