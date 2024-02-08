@@ -4761,7 +4761,7 @@ font-size: 15px !important;
             position: absolute;
             margin-top:-23vh !important;
             margin-left:3vw !important;
-            font-size:4.3rem;
+            font-size:3rem;
             font-weight: lighter;
             font-family: 'Pinyon Script', cursive;
             color:rgb(78, 71, 71);
@@ -4816,7 +4816,8 @@ font-size: 15px !important;
                
                 margin-top:6vh;
                 margin-left:-17vw;
-                width:90vw;
+                font-size:3rem;
+                width:80vw;
                  font-family: 'Pinyon Script', cursive;
                 
             }
