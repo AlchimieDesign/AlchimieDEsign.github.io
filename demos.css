@@ -6111,7 +6111,7 @@ font-size: 15px !important;
                                             }
 
                                             @media screen and (min-width:691px) and (max-width:904px) {
-                                               body{background-color:#9b9b9b;}
+                                               body{background-color:white;}
                
                                 #dskNav{
                                  
@@ -6161,7 +6161,7 @@ font-size: 15px !important;
                                           #booking{
                                             position: absolute;
                                             margin-top:54vh;
-                                            margin-left:27vw;
+                                            margin-left:28vw;
                                          
                                              font-size:1.5rem;
                                             
@@ -6449,7 +6449,7 @@ font-size: 15px !important;
                             
                             #itemTextThree{
                                 margin-top:6vh;
-                                margin-left:8vw;
+                                margin-left:4vw;
                                font-size:-16px;
                             font-weight:lighter;
                                 width:85vw;
@@ -6461,7 +6461,7 @@ font-size: 15px !important;
                                 margin-left:-10vw;
                                font-size:2rem;
                             font-weight:lighter;
-                                width:70vw;
+                                width:66vw;
                           font-family: 'Pinyon Script', cursive;
                                 
                             }
@@ -6494,7 +6494,7 @@ font-size: 15px !important;
                                        #footerLogo{
                                           position: absolute;
                                           margin-top:5vh;
-                                          margin-left:27vw !important;
+                                          margin-left:26vw !important;
                                          font-size:3.2rem;
                                          font-family: 'Pinyon Script', cursive;
                                           font-weight: lighter;
