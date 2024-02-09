@@ -6111,7 +6111,7 @@ font-size: 15px !important;
                                             }
 
                                             @media screen and (min-width:691px) and (max-width:904px) {
-                                               body{background-color:white;}
+                                               body{background-color:#443e49;}
                
                                 #dskNav{
                                  
@@ -6161,7 +6161,7 @@ font-size: 15px !important;
                                           #booking{
                                             position: absolute;
                                             margin-top:54vh;
-                                            margin-left:28vw;
+                                            margin-left:30vw;
                                          
                                              font-size:1.5rem;
                                             
@@ -6415,7 +6415,7 @@ font-size: 15px !important;
                                  #offerHeader{
                                 position:relative;
                                 margin-top:5vh !important;
-                                margin-left:17vw !important;
+                                margin-left:20vw !important;
                             }
                             
                         
@@ -6449,7 +6449,7 @@ font-size: 15px !important;
                             
                             #itemTextThree{
                                 margin-top:6vh;
-                                margin-left:4vw;
+                                margin-left:-2vw;
                                font-size:-16px;
                             font-weight:lighter;
                                 width:85vw;
@@ -6458,10 +6458,10 @@ font-size: 15px !important;
 
                                   #itemTextFour{
                                 margin-top:6vh;
-                                margin-left:-10vw;
+                                margin-left:-4vw;
                                font-size:2rem;
                             font-weight:lighter;
-                                width:66vw;
+                                width:60vw;
                           font-family: 'Pinyon Script', cursive;
                                 
                             }
