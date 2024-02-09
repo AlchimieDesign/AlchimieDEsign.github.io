@@ -6111,7 +6111,7 @@ font-size: 15px !important;
                                             }
 
                                             @media screen and (min-width:691px) and (max-width:904px) {
-                                               body{background-color:#485a64;}
+                                               body{background-color:white;}
                
                                 #dskNav{
                                  
@@ -6154,13 +6154,13 @@ font-size: 15px !important;
                                           #linkTwo{
                                             position: absolute;
                                             margin-top:1vh !important;
-                                            margin-left:75vw;
+                                            margin-left:69vw;
                                            
                                           }
                         
                                           #booking{
                                             position: absolute;
-                                            margin-top:52vh;
+                                            margin-top:54vh;
                                             margin-left:28vw;
                                          
                                              font-size:1.5rem;
@@ -6297,7 +6297,7 @@ font-size: 15px !important;
                                         position: absolute;
                                         margin-top:8vh;
                                         margin-left:13vw;
-                                        height:36vh;
+                                        height:39vh;
                                         width:40vw;
                                        
                                     }
@@ -6449,7 +6449,7 @@ font-size: 15px !important;
                             
                             #itemTextThree{
                                 margin-top:6vh;
-                                margin-left:10vw;
+                                margin-left:6vw;
                                font-size:-16px;
                             font-weight:lighter;
                                 width:85vw;
@@ -6458,10 +6458,10 @@ font-size: 15px !important;
 
                                   #itemTextFour{
                                 margin-top:6vh;
-                                margin-left:-13vw;
+                                margin-left:-10vw;
                                font-size:2rem;
                             font-weight:lighter;
-                                width:78vw;
+                                width:70vw;
                           font-family: 'Pinyon Script', cursive;
                                 
                             }
