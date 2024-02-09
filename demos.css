@@ -6110,8 +6110,8 @@ font-size: 15px !important;
                                             
                                             }
 
-                                            @media screen and (min-width:691px) and (max-width:904px) {
-                                               body{background-color:white;}
+                                            @media screen and (min-width:691px) and (max-width:1199px) {
+                                               body{background-color:#443e49;}
                
                                 #dskNav{
                                  
@@ -6507,7 +6507,7 @@ font-size: 15px !important;
                               
                               
                               
-                                                    @media screen and (min-width:905px)  {
+                                                    @media screen and (min-width:1200px)  {
                                                      
                                              
                                                       #dskNav{
