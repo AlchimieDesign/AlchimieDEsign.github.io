@@ -6111,7 +6111,7 @@ font-size: 15px !important;
                                             }
 
                                             @media screen and (min-width:691px) and (max-width:904px) {
-                                               body{background-color:#ebd0dc;}
+                                               body{background-color:white;}
                
                                 #dskNav{
                                  
@@ -6161,7 +6161,7 @@ font-size: 15px !important;
                                           #booking{
                                             position: absolute;
                                             margin-top:54vh;
-                                            margin-left:26vw;
+                                            margin-left:29vw;
                                          
                                              font-size:1.5rem;
                                             
@@ -6414,8 +6414,8 @@ font-size: 15px !important;
 
                                  #offerHeader{
                                 position:relative;
-                                margin-top:-15vh !important;
-                                margin-left:18vw !important;
+                                margin-top:-13vh !important;
+                                margin-left:23vw !important;
                             }
                             
                         
@@ -6436,7 +6436,7 @@ font-size: 15px !important;
                                 margin-left:-13vw;
                                   font-size:23px;
                             font-weight:lighter;
-                                width:83vw;
+                                width:75vw;
                             }
                             
                             #itemTextTwo{
@@ -6444,7 +6444,7 @@ font-size: 15px !important;
                                 margin-left:-16vw;
                              font-size:23px;
                             font-weight:lighter;
-                                width:82vw;
+                                width:75vw;
                             }
                             
                             #itemTextThree{
@@ -6494,7 +6494,7 @@ font-size: 15px !important;
                                        #footerLogo{
                                           position: absolute;
                                           margin-top:5vh;
-                                          margin-left:26vw !important;
+                                          margin-left:29vw !important;
                                          font-size:3rem;
                                          font-family: 'Pinyon Script', cursive;
                                           font-weight: lighter;
