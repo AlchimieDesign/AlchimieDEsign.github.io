@@ -6111,7 +6111,7 @@ font-size: 15px !important;
                                             }
 
                                             @media screen and (min-width:691px) and (max-width:904px) {
-                                               body{background-color:#485a64;}
+                                               body{background-color:#ebd0dc;}
                
                                 #dskNav{
                                  
@@ -6161,7 +6161,7 @@ font-size: 15px !important;
                                           #booking{
                                             position: absolute;
                                             margin-top:54vh;
-                                            margin-left:29vw;
+                                            margin-left:27vw;
                                          
                                              font-size:1.5rem;
                                             
@@ -6433,7 +6433,7 @@ font-size: 15px !important;
                             #itemTextOne{
                                 
                                 margin-top:5vh !important;
-                                margin-left:-13vw;
+                                margin-left:-10vw;
                                   font-size:23px;
                             font-weight:lighter;
                                 width:75vw;
@@ -6441,7 +6441,7 @@ font-size: 15px !important;
                             
                             #itemTextTwo{
                                 margin-top:6vh;
-                                margin-left:-16vw;
+                                margin-left:-1v3w;
                              font-size:23px;
                             font-weight:lighter;
                                 width:75vw;
@@ -6449,7 +6449,7 @@ font-size: 15px !important;
                             
                             #itemTextThree{
                                 margin-top:6vh;
-                                margin-left:3vw;
+                                margin-left:-10vw;
                                font-size:-16px;
                             font-weight:lighter;
                                 width:85vw;
