@@ -6414,8 +6414,8 @@ font-size: 15px !important;
 
                                  #offerHeader{
                                 position:relative;
-                                margin-top:-18vh !important;
-                                margin-left:16vw !important;
+                                margin-top:-15vh !important;
+                                margin-left:18vw !important;
                             }
                             
                         
@@ -6449,7 +6449,7 @@ font-size: 15px !important;
                             
                             #itemTextThree{
                                 margin-top:6vh;
-                                margin-left:6vw;
+                                margin-left:3vw;
                                font-size:-16px;
                             font-weight:lighter;
                                 width:85vw;
