@@ -6717,6 +6717,7 @@ font-size: 15px !important;
                                                           }
                                               
                                                           #sliderColor{
+                                                              display:none;
                                                               margin-top:-92vh;
                                                               margin-left:18vw;
                                                               height:47vh;
@@ -6730,7 +6731,7 @@ font-size: 15px !important;
                                               
                                                               position: absolute;
                                                               margin-top:2vh !important;
-                                                              margin-left:34vw !important;
+                                                              margin-left:24vw !important;
                                                               font-size:2.5rem;
                                                               font-weight: lighter;
                                                               font-family: 'Pinyon Script', cursive;
@@ -6766,7 +6767,7 @@ font-size: 15px !important;
                                               
                                                           #contact{
                                                               position: absolute;
-                                                              margin-top:26vh !important;
+                                                              margin-top:16vh !important;
                                                               margin-left:34vw;
                                                               font-size:1rem;
                                               
