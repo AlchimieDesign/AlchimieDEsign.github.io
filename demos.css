@@ -6508,7 +6508,7 @@ font-size: 15px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:#485a64;}
+                                                     body{background-color:white;}
                                              
                                                       #dskNav{
                                                        
@@ -6768,7 +6768,7 @@ font-size: 15px !important;
                                                           #contact{
                                                               position: absolute;
                                                               margin-top:-34vh !important;
-                                                              margin-left:34vw;
+                                                              margin-left:45vw;
                                                               font-size:1rem;
                                               
                                                               padding:1% 10% 1% 10%; 
@@ -6793,7 +6793,7 @@ font-size: 15px !important;
                                               
                                               h3{
                                               position: absolute;
-                                              margin-top:-10vh !important;
+                                              margin-top:-24vh !important;
                                               margin-left:18vw !important;
                                               font-size:4rem;
                                               font-weight: lighter;
