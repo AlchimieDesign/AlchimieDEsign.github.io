@@ -6111,7 +6111,7 @@ font-size: 15px !important;
                                             }
 
                                             @media screen and (min-width:691px) and (max-width:816px) {
-                                               body{background-color:white;}
+                                               body{background-color:#7b6d6a;}
                
                                 #dskNav{
                                  
@@ -6415,7 +6415,7 @@ font-size: 15px !important;
                                  #offerHeader{
                                 position:relative;
                                 margin-top:5vh !important;
-                                margin-left:14vw !important;
+                                margin-left:16vw !important;
                             }
                             
                         
@@ -6494,7 +6494,7 @@ font-size: 15px !important;
                                        #footerLogo{
                                           position: absolute;
                                           margin-top:5vh;
-                                          margin-left:24vw !important;
+                                          margin-left:26vw !important;
                                          font-size:3.2rem;
                                          font-family: 'Pinyon Script', cursive;
                                           font-weight: lighter;
