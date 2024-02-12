@@ -6508,7 +6508,7 @@ font-size: 15px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:white;}
+                                                     body{background-color:#485a64;}
                                              
                                                       #dskNav{
                                                        
@@ -6536,7 +6536,7 @@ font-size: 15px !important;
                                                                   margin-left:10vw;
                                                                  padding:0% 4% 0% 4%;
                                                                   color:#242424;
-                                                                  font-size:1.8rem;
+                                                                  font-size:1.6rem;
                                                                   font-weight: lighter;
                                                   
                                                                 }
@@ -6590,8 +6590,8 @@ font-size: 15px !important;
                                                                 h1{
                                                                   position: absolute;
                                                                   margin-top:-2vh !important;
-                                                                  margin-left:33vw !important;
-                                                                  font-size:3rem;
+                                                                  margin-left:35vw !important;
+                                                                  font-size:3.2rem;
                                                                   font-weight: lighter;
                                                                   font-family: 'Pinyon Script', cursive;
                                                                   color:rgb(105, 103, 103);
@@ -6731,7 +6731,7 @@ font-size: 15px !important;
                                               
                                                               position: absolute;
                                                               margin-top:-44vh !important;
-                                                              margin-left:32vw !important;
+                                                              margin-left:30vw !important;
                                                               font-size:2.5rem;
                                                               font-weight: lighter;
                                                               font-family: 'Pinyon Script', cursive;
@@ -6768,8 +6768,8 @@ font-size: 15px !important;
                                                           #contact{
                                                               position: absolute;
                                                               margin-top:-34vh !important;
-                                                              margin-left:45vw;
-                                                              font-size:1rem;
+                                                              margin-left:35vw;
+                                                              font-size:1.4rem;
                                               
                                                               padding:1% 10% 1% 10%; 
                                                               border-radius: 25px;         
@@ -6818,7 +6818,7 @@ font-size: 15px !important;
                                               
                                                   #offerHeader{
                                                       position:relative;
-                                                      margin-top:-23vh !important;
+                                                      margin-top:-33vh !important;
                                                       margin-left:17vw !important;
                                                   }
                                                   
