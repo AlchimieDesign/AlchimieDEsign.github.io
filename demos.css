@@ -6508,7 +6508,7 @@ font-size: 15px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:#7b6d6a;}
+                                                     body{background-color:white;}
                                              
                                                       #dskNav{
                                                        
@@ -6590,7 +6590,7 @@ font-size: 15px !important;
                                                                 h1{
                                                                   position: absolute;
                                                                   margin-top:-2vh !important;
-                                                                  margin-left:35vw !important;
+                                                                  margin-left:33vw !important;
                                                                   font-size:3.2rem;
                                                                   font-weight: lighter;
                                                                   font-family: 'Pinyon Script', cursive;
@@ -6830,18 +6830,19 @@ font-size: 15px !important;
                                                   
                                                   #itemTextTwo{
                                                       margin-top:4vh;
-                                                      margin-left:-9vw;
+                                                      margin-left:5vw;
                                                   }
                                                   
                                                   #itemTextThree{
                                                       margin-top:3vh;
-                                                      margin-left:-9vw;
+                                                      margin-left:4vw;
                                                       
                                                   }
 
                                                           #itemTextFour{
                                                       margin-top:7vh;
                                                       margin-left:7vw;
+                                                    font-family: 'Pinyon Script', cursive;
                                                       
                                                   }
                                                   
@@ -6872,7 +6873,7 @@ font-size: 15px !important;
                                                              #footerLogo{
                                                                 position: absolute;
                                                                 margin-top:5vh;
-                                                                margin-left:32vw !important;
+                                                                margin-left:28vw !important;
                                                                font-size:4rem;
                                                                font-family: 'Pinyon Script', cursive;
                                                                 font-weight: lighter;
