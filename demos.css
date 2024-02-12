@@ -6508,7 +6508,7 @@ font-size: 15px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:#7b6d6a;}
+                                                     body{background-color:white;}
                                              
                                                       #dskNav{
                                                        
@@ -6830,7 +6830,7 @@ font-size: 15px !important;
                                                   
                                                   #itemTextTwo{
                                                       margin-top:4vh;
-                                                      margin-left:4vw;
+                                                      margin-left:-2vw;
                                                   }
                                                   
                                                   #itemTextThree{
@@ -6841,7 +6841,7 @@ font-size: 15px !important;
 
                                                           #itemTextFour{
                                                       margin-top:7vh;
-                                                      margin-left:2.8vw;
+                                                      margin-left:3vw;
                                                     font-family: 'Pinyon Script', cursive;
                                                               font-size:2rem;
                                                               width:70vw;
