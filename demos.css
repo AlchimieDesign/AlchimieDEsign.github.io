@@ -6508,7 +6508,7 @@ font-size: 15px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:white;}
+                                                     body{background-color:#7b6d6a;}
                                              
                                                       #dskNav{
                                                        
@@ -6824,18 +6824,18 @@ font-size: 15px !important;
                                                   
                                                   #itemTextOne{
                                                       
-                                                      margin-top:8vh !important;
+                                                      margin-top:5vh !important;
                                                       margin-left:-4vw;
                                                   }
                                                   
                                                   #itemTextTwo{
                                                       margin-top:4vh;
-                                                      margin-left:3vw;
+                                                      margin-left:-9vw;
                                                   }
                                                   
                                                   #itemTextThree{
                                                       margin-top:3vh;
-                                                      margin-left:7vw;
+                                                      margin-left:-9vw;
                                                       
                                                   }
 
