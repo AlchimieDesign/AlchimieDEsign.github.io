@@ -6508,7 +6508,7 @@ font-size: 15px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:white;}
+                                                     body{background-color:#c6c9bc;}
                                              
                                                       #dskNav{
                                                        
@@ -6782,7 +6782,7 @@ font-size: 15px !important;
                                               
                                                           #offers{
                                               
-                                                              margin-top:12vh;
+                                                              margin-top:15vh;
                                                               margin-left:25vw;
                                                               width:50vw;
                                                             
@@ -6818,13 +6818,13 @@ font-size: 15px !important;
                                               
                                                   #offerHeader{
                                                       position:relative;
-                                                      margin-top:-53vh !important;
+                                                      margin-top:-43vh !important;
                                                       margin-left:17vw !important;
                                                   }
                                                   
                                                   #itemTextOne{
                                                       
-                                                      margin-top:-6vh !important;
+                                                      margin-top:10vh !important;
                                                       margin-left:-4vw;
                                                   }
                                                   
