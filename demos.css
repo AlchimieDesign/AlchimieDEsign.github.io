@@ -6508,7 +6508,7 @@ font-size: 15px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:#c6c9bc;}
+                                                     body{background-color:white;}
                                              
                                                       #dskNav{
                                                        
@@ -6768,10 +6768,10 @@ font-size: 15px !important;
                                                           #contact{
                                                               position: absolute;
                                                               margin-top:-34vh !important;
-                                                              margin-left:35vw;
+                                                              margin-left:34vw;
                                                               font-size:1.4rem;
                                               
-                                                              padding:1% 10% 1% 10%; 
+                                                              padding:0% 10% 0% 10%; 
                                                               border-radius: 25px;         
                                                            border-width: 1px;
                                                            border-color:#636161;
@@ -6782,7 +6782,7 @@ font-size: 15px !important;
                                               
                                                           #offers{
                                               
-                                                              margin-top:15vh;
+                                                              margin-top:17vh;
                                                               margin-left:25vw;
                                                               width:50vw;
                                                             
@@ -6811,7 +6811,7 @@ font-size: 15px !important;
                                                   
                                                   margin-left:10vw;
                                                   width:56vw;
-                                                  font-size:32px;
+                                                  font-size:26px;
                                                   font-weight:light;
                                                   
                                                   }
@@ -6824,7 +6824,7 @@ font-size: 15px !important;
                                                   
                                                   #itemTextOne{
                                                       
-                                                      margin-top:10vh !important;
+                                                      margin-top:8vh !important;
                                                       margin-left:-4vw;
                                                   }
                                                   
