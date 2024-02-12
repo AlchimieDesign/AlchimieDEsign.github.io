@@ -6508,7 +6508,7 @@ font-size: 15px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:white;}
+                                                     body{background-color:#d1bdc4;}
                                              
                                                       #dskNav{
                                                        
@@ -6830,19 +6830,20 @@ font-size: 15px !important;
                                                   
                                                   #itemTextTwo{
                                                       margin-top:4vh;
-                                                      margin-left:5vw;
+                                                      margin-left:-6vw;
                                                   }
                                                   
                                                   #itemTextThree{
                                                       margin-top:3vh;
-                                                      margin-left:4vw;
+                                                      margin-left:-3vw;
                                                       
                                                   }
 
                                                           #itemTextFour{
                                                       margin-top:7vh;
-                                                      margin-left:7vw;
+                                                      margin-left:2vw;
                                                     font-family: 'Pinyon Script', cursive;
+                                                              font-size:2rem;
                                                       
                                                   }
                                                   
