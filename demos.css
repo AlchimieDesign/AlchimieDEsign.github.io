@@ -6508,7 +6508,7 @@ font-size: 15px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:white;}
+                                                     body{background-color:#7b6d6a;}
                                              
                                                       #dskNav{
                                                        
@@ -6830,20 +6830,21 @@ font-size: 15px !important;
                                                   
                                                   #itemTextTwo{
                                                       margin-top:4vh;
-                                                      margin-left:-2vw;
+                                                      margin-left:4vw;
                                                   }
                                                   
                                                   #itemTextThree{
                                                       margin-top:3vh;
-                                                      margin-left:3vw;
+                                                      margin-left:4vw;
                                                       
                                                   }
 
                                                           #itemTextFour{
                                                       margin-top:7vh;
-                                                      margin-left:2.4vw;
+                                                      margin-left:2.8vw;
                                                     font-family: 'Pinyon Script', cursive;
                                                               font-size:2rem;
+                                                              width:70vw;
                                                       
                                                   }
                                                   
