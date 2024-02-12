@@ -6508,7 +6508,7 @@ font-size: 15px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:whiite;}
+                                                     body{background-color:#485a64;}
                                              
                                                       #dskNav{
                                                        
@@ -6802,7 +6802,7 @@ font-size: 15px !important;
                                               }
                                               
                                               .itemHeader{
-                                              margin-top:40vh;
+                                              margin-top:-40vh;
                                               margin-left:20vw;
                                               
                                               }
