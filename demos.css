@@ -6508,7 +6508,7 @@ font-size: 15px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:white;}
+                                                     body{background-color:#c9e8e3;}
                                              
                                                       #dskNav{
                                                        
@@ -6782,7 +6782,7 @@ font-size: 15px !important;
                                               
                                                           #offers{
                                               
-                                                              margin-top:30vh;
+                                                              margin-top:-20vh;
                                                               margin-left:25vw;
                                                               width:50vw;
                                                             
@@ -6818,7 +6818,7 @@ font-size: 15px !important;
                                               
                                                   #offerHeader{
                                                       position:relative;
-                                                      margin-top:-33vh !important;
+                                                      margin-top:-53vh !important;
                                                       margin-left:17vw !important;
                                                   }
                                                   
