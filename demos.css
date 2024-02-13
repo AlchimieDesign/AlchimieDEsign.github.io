@@ -6111,7 +6111,7 @@ font-size: 15px !important;
                                             }
 
                                             @media screen and (min-width:691px) and (max-width:816px) {
-                                               body{background-color:#7b6d6a;}
+                                               body{background-color:white;}
                
                                 #dskNav{
                                  
@@ -6147,7 +6147,7 @@ font-size: 15px !important;
                                           #linkOne{
                                             position: absolute;
                                             margin-top:1vh !important;
-                                            margin-left:4vw;
+                                            margin-left:2vw;
                                            
                                           }
                         
@@ -6372,7 +6372,7 @@ font-size: 15px !important;
                                     #contact{
                                         display:none;
                                         position: absolute;
-                                        margin-top:-28vh !important;
+                                        margin-top:-26vh !important;
                                         margin-left:34vw;
                                         font-size:1rem;
                         
@@ -6459,9 +6459,9 @@ font-size: 15px !important;
                                   #itemTextFour{
                                 margin-top:6vh;
                                 margin-left:-4vw;
-                               font-size:2.3rem;
+                               font-size:2.1rem;
                             font-weight:lighter;
-                                width:60vw;
+                                width:70vw;
                           font-family: 'Pinyon Script', cursive;
                                 
                             }
@@ -6494,7 +6494,7 @@ font-size: 15px !important;
                                        #footerLogo{
                                           position: absolute;
                                           margin-top:5vh;
-                                          margin-left:26vw !important;
+                                          margin-left:25vw !important;
                                          font-size:3.2rem;
                                          font-family: 'Pinyon Script', cursive;
                                           font-weight: lighter;
