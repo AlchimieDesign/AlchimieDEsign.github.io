@@ -4389,7 +4389,7 @@ font-size: 15px !important;
 
 
             @media screen and (min-width:431px) and (max-width:490px) {
-               body{background-color:#485a64;}
+               body{background-color:white;}
                  
      
 
@@ -4821,9 +4821,9 @@ font-size: 15px !important;
                
                 margin-top:6vh;
                 margin-left:-17vw;
-                width:70vw;
+                width:77vw;
                  font-family: 'Pinyon Script', cursive;
-                font-size:2.2rem;
+                font-size:1.7rem;
                 
             }
             
