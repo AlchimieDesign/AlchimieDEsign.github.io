@@ -4267,9 +4267,9 @@ font-size: 15px !important;
                             position: absolute;
                             margin-top:-30vh !important;
                             margin-left:30vw;
-                            font-size:1rem;
+                            font-size:1.3rem;
             
-                            padding:0% 11% 0% 11%; 
+                            padding:0% 13% 0% 13%; 
                             border-radius: 25px;         
                          border-width: 1px;
                          border-color:#636161;
@@ -4324,23 +4324,23 @@ font-size: 15px !important;
             #itemTextOne{
               
                 margin-top:-20vh !important;
-                margin-left:-16vw;
+                margin-left:-15vw;
                 width:85vw;
             }
             
             #itemTextTwo{
                
                 margin-top:5vh;
-                margin-left:-17vw;
+                margin-left:-16vw;
                 width:90vw;
             }
             
             #itemTextThree{
                 
                 margin-top:6vh;
-                margin-left:-18vw;
+                margin-left:-16vw;
                 width:86vw !important;
-                font-size:16px;
+               
                 
             }
             
