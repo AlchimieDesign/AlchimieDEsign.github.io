@@ -6907,7 +6907,7 @@ font-size: 15px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:#677a85;}
+                                                     body{background-color:#485a64;}
                                              
                                                       #dskNav{
                                                        
@@ -7130,7 +7130,7 @@ font-size: 15px !important;
                                               
                                                               position: absolute;
                                                               margin-top:-44vh !important;
-                                                              margin-left:26vw !important;
+                                                              margin-left:24vw !important;
                                                               font-size:3.5rem;
                                                               font-weight: lighter;
                                                               font-family: 'Pinyon Script', cursive;
@@ -7167,7 +7167,7 @@ font-size: 15px !important;
                                                           #contact{
                                                               position: absolute;
                                                               margin-top:-34vh !important;
-                                                              margin-left:33vw;
+                                                              margin-left:39vw;
                                                               font-size:1.4rem;
                                               
                                                               padding:0% 10% 0% 10%; 
@@ -7229,7 +7229,7 @@ font-size: 15px !important;
                                                   
                                                   #itemTextTwo{
                                                       margin-top:4vh;
-                                                      margin-left:-10vww;
+                                                      margin-left:-14vww;
                                                           width:52vw;
                                                     
                                                   }
@@ -7276,7 +7276,7 @@ font-size: 15px !important;
                                                              #footerLogo{
                                                                 position: absolute;
                                                                 margin-top:5vh;
-                                                                margin-left:30vw !important;
+                                                                margin-left:34vw !important;
                                                                font-size:4.3rem;
                                                                font-family: 'Pinyon Script', cursive;
                                                                 font-weight: lighter;
