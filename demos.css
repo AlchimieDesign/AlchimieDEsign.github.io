@@ -6907,7 +6907,7 @@ font-size: 15px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:white;}
+                                                     body{background-color:#4b474b;}
                                              
                                                       #dskNav{
                                                        
@@ -6989,7 +6989,7 @@ font-size: 15px !important;
                                                                 h1{
                                                                   position: absolute;
                                                                   margin-top:-2vh !important;
-                                                                  margin-left:38vw !important;
+                                                                  margin-left:36vw !important;
                                                                   font-size:3.7rem;
                                                                   font-weight: lighter;
                                                                   font-family: 'Pinyon Script', cursive;
