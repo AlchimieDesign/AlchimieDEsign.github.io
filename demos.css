@@ -6907,7 +6907,7 @@ font-size: 15px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:#d1bdc4;}
+                                                     body{background-color:white;}
                                              
                                                       #dskNav{
                                                        
@@ -6957,7 +6957,7 @@ font-size: 15px !important;
                                                                 #booking{
                                                                   position: absolute;
                                                                   margin-top:2vh;
-                                                                  margin-left:73vw;
+                                                                  margin-left:75vw;
                                                                
                                                                    font-size:1.3rem;
                                                                   
@@ -6989,7 +6989,7 @@ font-size: 15px !important;
                                                                 h1{
                                                                   position: absolute;
                                                                   margin-top:-2vh !important;
-                                                                  margin-left:35vw !important;
+                                                                  margin-left:38vw !important;
                                                                   font-size:3.7rem;
                                                                   font-weight: lighter;
                                                                   font-family: 'Pinyon Script', cursive;
@@ -7167,7 +7167,7 @@ font-size: 15px !important;
                                                           #contact{
                                                               position: absolute;
                                                               margin-top:-34vh !important;
-                                                              margin-left:47vw;
+                                                              margin-left:45vw;
                                                               font-size:1.4rem;
                                               
                                                               padding:0% 10% 0% 10%; 
@@ -7217,7 +7217,7 @@ font-size: 15px !important;
                                               
                                                   #offerHeader{
                                                       position:relative;
-                                                      margin-top:-43vh !important;
+                                                      margin-top:-49vh !important;
                                                       margin-left:23vw !important;
                                                   }
                                                   
@@ -7230,13 +7230,13 @@ font-size: 15px !important;
                                                   #itemTextTwo{
                                                       margin-top:4vh;
                                                       margin-left:-2vww;
-                                                          width:40vw;
+                                                          width:50vw;
                                                     
                                                   }
                                                   
                                                   #itemTextThree{
                                                       margin-top:4vh;
-                                                      margin-left:7vw;
+                                                      margin-left:9vw;
                                                       
                                                   }
 
@@ -7244,7 +7244,7 @@ font-size: 15px !important;
                                                       margin-top:7vh;
                                                       margin-left:6vw;
                                                     font-family: 'Pinyon Script', cursive;
-                                                              font-size:2.8rem;
+                                                              font-size:2.5rem;
                                                               width:50vw;
                                                       
                                                   }
