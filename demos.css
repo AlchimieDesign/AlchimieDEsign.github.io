@@ -6907,7 +6907,7 @@ font-size: 15px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:#f6f6f6;}
+                                                     body{background-color:white;}
                                              
                                                       #dskNav{
                                                        
@@ -7167,7 +7167,7 @@ font-size: 15px !important;
                                                           #contact{
                                                               position: absolute;
                                                               margin-top:-34vh !important;
-                                                              margin-left:39vw;
+                                                              margin-left:30vw;
                                                               font-size:1.4rem;
                                               
                                                               padding:0% 10% 0% 10%; 
@@ -7217,8 +7217,8 @@ font-size: 15px !important;
                                               
                                                   #offerHeader{
                                                       position:relative;
-                                                      margin-top:-49vh !important;
-                                                      margin-left:20vw !important;
+                                                      margin-top:-47vh !important;
+                                                      margin-left:`18vw !important;
                                                   }
                                                   
                                                   #itemTextOne{
