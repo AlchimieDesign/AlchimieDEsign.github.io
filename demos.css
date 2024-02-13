@@ -6111,7 +6111,7 @@ font-size: 15px !important;
                                             }
 
                                             @media screen and (min-width:691px) and (max-width:816px) {
-                                               body{background-color:#d1bdc4;}
+                                               body{background-color:white;}
                
                                 #dskNav{
                                  
@@ -6373,7 +6373,7 @@ font-size: 15px !important;
                                         display:none;
                                         position: absolute;
                                         margin-top:-26vh !important;
-                                        margin-left:34vw;
+                                        margin-left:32vw;
                                         font-size:1rem;
                         
                                         padding:1% 10% 1% 10%; 
@@ -6458,7 +6458,7 @@ font-size: 15px !important;
 
                                   #itemTextFour{
                                 margin-top:6vh;
-                                margin-left:-6vw;
+                                margin-left:-9vw;
                                font-size:2.7rem;
                             font-weight:lighter;
                                 width:80vw;
