@@ -6112,7 +6112,7 @@ font-size: 15px !important;
                                             }
 
                                             @media screen and (min-width:691px) and (max-width:816px) {
-                                               body{background-color:white;}
+                                               body{background-color:#485a64;}
                
                                 #dskNav{
                                  
@@ -6148,14 +6148,14 @@ font-size: 15px !important;
                                           #linkOne{
                                             position: absolute;
                                             margin-top:1vh !important;
-                                            margin-left:2vw;
+                                            margin-left:-3vw;
                                            
                                           }
                         
                                           #linkTwo{
                                             position: absolute;
                                             margin-top:1vh !important;
-                                            margin-left:73vw;
+                                            margin-left:70vw;
                                            
                                           }
                         
@@ -6193,8 +6193,8 @@ font-size: 15px !important;
                                           h1{
                                             position: absolute;
                                             margin-top:-3.70vh !important;
-                                            margin-left:26vw !important;
-                                            font-size:2.9rem;
+                                            margin-left:25vw !important;
+                                            font-size:2.7rem;
                                             font-weight: lighter;
                                             font-family: 'Pinyon Script', cursive;
                                             color:rgb(105, 103, 103);
