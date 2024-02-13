@@ -6907,7 +6907,7 @@ font-size: 15px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:white;}
+                                                     body{background-color:#677a85;}
                                              
                                                       #dskNav{
                                                        
@@ -6989,7 +6989,7 @@ font-size: 15px !important;
                                                                 h1{
                                                                   position: absolute;
                                                                   margin-top:-2vh !important;
-                                                                  margin-left:36vw !important;
+                                                                  margin-left:33vw !important;
                                                                   font-size:3.7rem;
                                                                   font-weight: lighter;
                                                                   font-family: 'Pinyon Script', cursive;
@@ -7130,7 +7130,7 @@ font-size: 15px !important;
                                               
                                                               position: absolute;
                                                               margin-top:-44vh !important;
-                                                              margin-left:29vw !important;
+                                                              margin-left:26vw !important;
                                                               font-size:3.5rem;
                                                               font-weight: lighter;
                                                               font-family: 'Pinyon Script', cursive;
@@ -7167,7 +7167,7 @@ font-size: 15px !important;
                                                           #contact{
                                                               position: absolute;
                                                               margin-top:-34vh !important;
-                                                              margin-left:30vw;
+                                                              margin-left:33vw;
                                                               font-size:1.4rem;
                                               
                                                               padding:0% 10% 0% 10%; 
@@ -7224,13 +7224,13 @@ font-size: 15px !important;
                                                   #itemTextOne{
                                                       
                                                       margin-top:5vh !important;
-                                                      margin-left:4vw;
+                                                      margin-left:3vw;
                                                   }
                                                   
                                                   #itemTextTwo{
                                                       margin-top:4vh;
-                                                      margin-left:-4vww;
-                                                          width:55vw;
+                                                      margin-left:-10vww;
+                                                          width:52vw;
                                                     
                                                   }
                                                   
