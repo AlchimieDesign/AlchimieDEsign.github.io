@@ -6907,7 +6907,7 @@ font-size: 15px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:#593761;}
+                                                     body{background-color:white;}
                                              
                                                       #dskNav{
                                                        
@@ -7229,7 +7229,7 @@ font-size: 15px !important;
                                                   
                                                   #itemTextTwo{
                                                       margin-top:4vh;
-                                                      margin-left:-66vww;
+                                                      margin-left:-75vww;
                                                           width:45vw;
                                                     
                                                   }
