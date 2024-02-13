@@ -6507,7 +6507,7 @@ font-size: 15px !important;
 
 
                                            @media screen and (min-width:817px) and (max-width:1199px) {
-                                               body{background-color:red;}
+                                               body{background-color:white;}
                
                                 #dskNav{
                                  
@@ -6588,7 +6588,7 @@ font-size: 15px !important;
                                           h1{
                                             position: absolute;
                                             margin-top:-3vh !important;
-                                            margin-left:30vw !important;
+                                            margin-left:27vw !important;
                                             font-size:2.9rem;
                                             font-weight: lighter;
                                             font-family: 'Pinyon Script', cursive;
@@ -6890,8 +6890,8 @@ font-size: 15px !important;
                                        #footerLogo{
                                           position: absolute;
                                           margin-top:5vh;
-                                          margin-left:27vw !important;
-                                         font-size:3.2rem;
+                                          margin-left:26vw !important;
+                                         font-size:3.5rem;
                                          font-family: 'Pinyon Script', cursive;
                                           font-weight: lighter;
                                           color:white;
