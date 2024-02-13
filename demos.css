@@ -4389,7 +4389,7 @@ font-size: 15px !important;
 
 
             @media screen and (min-width:431px) and (max-width:490px) {
-               body{background-color:white;}
+               body{background-color:#485a64;}
                  
      
 
@@ -4811,9 +4811,9 @@ font-size: 15px !important;
             #itemTextThree{
                 
                 margin-top:6vh;
-                margin-left:-18vw;
+                margin-left:-17vw;
                 width:86vw !important;
-                font-size:16px;
+                font-size:20px;
                 
             }
             
@@ -4821,8 +4821,9 @@ font-size: 15px !important;
                
                 margin-top:6vh;
                 margin-left:-17vw;
-                width:90vw;
+                width:70vw;
                  font-family: 'Pinyon Script', cursive;
+                font-size:2.2rem;
                 
             }
             
@@ -4852,7 +4853,7 @@ font-size: 15px !important;
                               position: absolute;
                               margin-top:5vh;
                               margin-left:19vw !important;
-                             font-size:1.8rem;
+                             font-size:2.3rem;
                              font-family: 'Pinyon Script', cursive;
                               font-weight: lighter;
                               color:white;
