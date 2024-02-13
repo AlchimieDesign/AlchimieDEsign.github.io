@@ -6112,7 +6112,7 @@ font-size: 15px !important;
                                             }
 
                                             @media screen and (min-width:691px) and (max-width:816px) {
-                                               body{background-color:#485a64;}
+                                               body{background-color:white;}
                
                                 #dskNav{
                                  
@@ -6450,7 +6450,7 @@ font-size: 15px !important;
                             
                             #itemTextThree{
                                 margin-top:6vh;
-                                margin-left:-5vw;
+                                margin-left:-7vw;
                                font-size:23px;
                             font-weight:lighter;
                                 width:85vw;
@@ -6459,7 +6459,7 @@ font-size: 15px !important;
 
                                   #itemTextFour{
                                 margin-top:6vh;
-                                margin-left:-15vw;
+                                margin-left:-14vw;
                                font-size:2.5rem;
                             font-weight:lighter;
                                 width:80vw;
@@ -6495,7 +6495,7 @@ font-size: 15px !important;
                                        #footerLogo{
                                           position: absolute;
                                           margin-top:5vh;
-                                          margin-left:23vw !important;
+                                          margin-left:19vw !important;
                                          font-size:3.6rem;
                                          font-family: 'Pinyon Script', cursive;
                                           font-weight: lighter;
