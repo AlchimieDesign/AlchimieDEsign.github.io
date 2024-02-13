@@ -6112,7 +6112,7 @@ font-size: 15px !important;
                                             }
 
                                             @media screen and (min-width:691px) and (max-width:816px) {
-                                               body{background-color:white;}
+                                               body{background-color:#485a64;}
                
                                 #dskNav{
                                  
@@ -6373,7 +6373,7 @@ font-size: 15px !important;
                                     #contact{
                                         display:none;
                                         position: absolute;
-                                        margin-top:-26vh !important;
+                                        margin-top:-28vh !important;
                                         margin-left:32vw;
                                         font-size:1rem;
                         
@@ -6401,7 +6401,7 @@ font-size: 15px !important;
                         position: absolute;
                         margin-top:-22vh !important;
                         margin-left:17vw !important;
-                        font-size:3rem;
+                        font-size:3.2rem;
                         font-weight: lighter;
                         font-family: 'Pinyon Script', cursive;
                         color:rgb(78, 71, 71);
@@ -6416,7 +6416,7 @@ font-size: 15px !important;
                                  #offerHeader{
                                 position:relative;
                                 margin-top:5vh !important;
-                                margin-left:16vw !important;
+                                margin-left:15vw !important;
                             }
                             
                         
@@ -6435,7 +6435,7 @@ font-size: 15px !important;
                                 
                                 margin-top:4vh !important;
                                 margin-left:-10vw;
-                                  font-size:27px;
+                                  font-size:24px;
                             font-weight:lighter;
                                 width:75vw;
                             }
@@ -6443,7 +6443,7 @@ font-size: 15px !important;
                             #itemTextTwo{
                                 margin-top:6vh;
                                 margin-left:-10vw;
-                             font-size:27px;
+                             font-size:24px;
                             font-weight:lighter;
                                 width:75vw;
                             }
@@ -6459,8 +6459,8 @@ font-size: 15px !important;
 
                                   #itemTextFour{
                                 margin-top:6vh;
-                                margin-left:-12vw;
-                               font-size:3rem;
+                                margin-left:-15vw;
+                               font-size:2.5rem;
                             font-weight:lighter;
                                 width:80vw;
                           font-family: 'Pinyon Script', cursive;
