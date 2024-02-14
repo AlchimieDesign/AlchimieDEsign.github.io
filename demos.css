@@ -3424,28 +3424,28 @@ font-size: 13px !important;
        padding-top: -50vh !important;
         margin-top:-20vh !important;
         margin-left:-15vw;
-        width:85vw;
+        width:90vw;
     }
     
     #itemTextTwo{
        
-        margin-top:10vh;
+        margin-top:6vh;
         margin-left:-19vw;
         width:90vw;
     }
     
     #itemTextThree{
         
-        margin-top:9vh;
-        margin-left:-20vw;
+        margin-top:6vh;
+        margin-left:-19vw;
         width:90vw !important;
         
     }
     
     #itemTextFour{
        
-        margin-top:4vh;
-        margin-left:-15vw;
+        margin-top:3vh;
+        margin-left:-19vw;
         width:90vw;
         
     }
@@ -3453,7 +3453,7 @@ font-size: 13px !important;
     
                 #footer{
                    
-                  margin-top:2000px;
+                  margin-top:1900px;
     
                     height:35vh;
                     background-color: #3a3a3a;
