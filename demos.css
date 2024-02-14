@@ -5371,7 +5371,7 @@ font-size: 13px !important;
 
 
                             @media screen and (min-width:589px) and (max-width:640px)  {
-                     body{background-color:#6ba298;}
+                     body{background-color:white;}
                
                                 #dskNav{
                                  
@@ -5767,7 +5767,7 @@ font-size: 13px !important;
                                     }
                                     @media screen and (min-width:641px) and (max-width:690px)  {
                        
-                                       body{background-color:white;}
+                                       body{background-color:red;}
                
                                 #dskNav{
                                  
@@ -6032,7 +6032,7 @@ font-size: 13px !important;
                                         margin-left:34vw;
                                         font-size:1rem;
                         
-                                        padding:1% 10% 1% 10%; 
+                                        padding:0% 13% 0% 13%; 
                                         border-radius: 25px;         
                                      border-width: 1px;
                                      border-color:#636161;
@@ -6071,7 +6071,7 @@ font-size: 13px !important;
                                  #offerHeader{
                                 position:relative;
                                 margin-top:-20vh !important;
-                                margin-left:16vw !important;
+                                margin-left:18vw !important;
                             }
                             
                         
@@ -6118,6 +6118,7 @@ font-size: 13px !important;
                                font-size:23px;
                             font-weight:lighter;
                                 width:84vw;
+                                       font-family: 'Pinyon Script', cursive;
                                 
                             }
                             
