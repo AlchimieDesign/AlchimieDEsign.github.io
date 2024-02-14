@@ -3022,7 +3022,7 @@ font-size: 13px !important;
 
     @media screen and (min-width:271px) and (max-width:343px){
        
-      body{background-color:#6ba298;}
+      body{background-color:white;}
       
 
         #mobileLogo{
@@ -3963,7 +3963,7 @@ font-size: 13px !important;
                
                
 
-             body{background-color:white;}
+             body{background-color:#9b9b9b;}
                  
      
 
@@ -4425,7 +4425,7 @@ font-size: 13px !important;
                            #footerLogo{
                               position: absolute;
                               margin-top:5vh;
-                              margin-left:19vw !important;
+                              margin-left:10vw !important;
                              font-size:2.4rem;
                              font-family: 'Pinyon Script', cursive;
                               font-weight: lighter;
