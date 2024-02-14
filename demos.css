@@ -4436,7 +4436,7 @@ font-size: 13px !important;
 
 
             @media screen and (min-width:431px) and (max-width:490px) {
-               body{background-color:white;}
+               body{background-color:#b0fff1;}
                  
      
 
@@ -4789,7 +4789,7 @@ font-size: 13px !important;
                             margin-left:29vw;
                             font-size:1rem;
             
-                            padding:0% 11% 0% 11%; 
+                            padding:0% 13% 0% 13%; 
                             border-radius: 25px;         
                          border-width: 1px;
                          border-color:#636161;
@@ -4813,7 +4813,7 @@ font-size: 13px !important;
             position: absolute;
             margin-top:-23vh !important;
             margin-left:3vw !important;
-            font-size:2.4rem;
+            font-size:2.5rem;
             font-weight: lighter;
             font-family: 'Pinyon Script', cursive;
             color:rgb(78, 71, 71);
@@ -4829,7 +4829,7 @@ font-size: 13px !important;
             #offerHeader{
                 position: absolute;
                 margin-top:-9vh !important;
-                margin-left:12vw !important;
+                margin-left:11vw !important;
 
             }
             
