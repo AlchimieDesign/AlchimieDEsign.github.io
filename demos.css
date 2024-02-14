@@ -120,6 +120,7 @@ li{
 
 
     @media screen and (min-width:50px) and (max-width:120px){
+        body{background-color:#d3d4d5;}
 
       
 #mobileLogo{
