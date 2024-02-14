@@ -1576,7 +1576,7 @@ font-size: 13px !important;
 
 
                 @media screen and (min-width:181px) and (max-width:212px){
-                    body{background-color:red;}
+                    body{background-color:white;}
                  
                  
                     #mobileLogo{
@@ -1707,7 +1707,7 @@ font-size: 13px !important;
                              
                                      #bookLink{
                                          margin-top:-18vh;
-                                         margin-left:-47vw !important;
+                                         margin-left:-49vw !important;
                                          font-size:1rem;
                                           padding:1% 5% 1% 5%;
                                            border-width: 1px;
@@ -1958,8 +1958,8 @@ font-size: 13px !important;
                     
                     h3{
                     position: absolute;
-                    margin-top:-3vh !important;
-                    margin-left:-16vw !important;
+                    margin-top:-5vh !important;
+                    margin-left:-18vw !important;
                     font-size:2rem;
                     font-weight: lighter;
                     font-family: 'Pinyon Script', cursive;
@@ -1991,7 +1991,7 @@ font-size: 13px !important;
                     #itemTextTwo{
                     
                     margin-top:5vh;
-                    margin-left:-15vw;
+                    margin-left:-17vw;
                     width:80vw;
                     font-size: 15px !important;
                     
@@ -2009,7 +2009,7 @@ font-size: 13px !important;
                      #itemTextFour{
                     
                     margin-top:4vh;
-                    margin-left:-16vw;
+                    margin-left:-17vw;
                     width:83vw !important;
                     font-size: 15px !important;
                     
