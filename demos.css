@@ -5371,7 +5371,7 @@ font-size: 13px !important;
 
 
                             @media screen and (min-width:589px) and (max-width:640px)  {
-                     body{background-color:white;}
+                     body{background-color:red;}
                
                                 #dskNav{
                                  
@@ -5692,7 +5692,7 @@ font-size: 13px !important;
                             
                             #itemTextOne{
                                 
-                                margin-top:1vh !important;
+                                margin-top:3vh !important;
                                 margin-left:-15vw;
                                   font-size:23px;
                             font-weight:lighter;
@@ -5700,7 +5700,7 @@ font-size: 13px !important;
                             }
                             
                             #itemTextTwo{
-                                margin-top:3vh;
+                                margin-top:4vh;
                                 margin-left:-15vw;
                              font-size:23px;
                             font-weight:lighter;
@@ -5708,8 +5708,8 @@ font-size: 13px !important;
                             }
                             
                             #itemTextThree{
-                                margin-top:3vh;
-                                margin-left:-13vw;
+                                margin-top:5vh;
+                                margin-left:-10vw;
                                font-size:23px;
                             font-weight:lighter;
                                 width:85vw;
@@ -5717,9 +5717,9 @@ font-size: 13px !important;
                             }
 
                                   #itemTextFour{
-                                margin-top:6vh;
+                                margin-top:8vh;
                                 margin-left:-14vw;
-                               font-size:30px;
+                               font-size:33px;
                             font-weight:lighter;
                                 width:80vw;
                                        font-family: 'Pinyon Script', cursive;
