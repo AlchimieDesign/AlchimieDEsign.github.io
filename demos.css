@@ -5452,8 +5452,8 @@ font-size: 13px !important;
                                           h1{
                                             position: absolute;
                                             margin-top:-3vh !important;
-                                            margin-left:29.6vw !important;
-                                            font-size:1.9rem;
+                                            margin-left:28vw !important;
+                                            font-size:2.1rem;
                                             font-weight: lighter;
                                             font-family: 'Pinyon Script', cursive;
                                             color:rgb(105, 103, 103);
@@ -5636,7 +5636,7 @@ font-size: 13px !important;
                                         margin-left:34vw;
                                         font-size:1rem;
                         
-                                        padding:1% 10% 1% 10%; 
+                                        padding:0% 12% 0% 12%; 
                                         border-radius: 25px;         
                                      border-width: 1px;
                                      border-color:#636161;
@@ -5693,15 +5693,15 @@ font-size: 13px !important;
                             #itemTextOne{
                                 
                                 margin-top:1vh !important;
-                                margin-left:-16vw;
+                                margin-left:-15vw;
                                   font-size:23px;
                             font-weight:lighter;
-                                width:85vw;
+                                width:82vw;
                             }
                             
                             #itemTextTwo{
                                 margin-top:3vh;
-                                margin-left:-16vw;
+                                margin-left:-15vw;
                              font-size:23px;
                             font-weight:lighter;
                                 width:85vw;
@@ -5709,7 +5709,7 @@ font-size: 13px !important;
                             
                             #itemTextThree{
                                 margin-top:3vh;
-                                margin-left:-14vw;
+                                margin-left:-13vw;
                                font-size:23px;
                             font-weight:lighter;
                                 width:85vw;
@@ -5719,9 +5719,9 @@ font-size: 13px !important;
                                   #itemTextFour{
                                 margin-top:6vh;
                                 margin-left:-14vw;
-                               font-size:23px;
+                               font-size:30px;
                             font-weight:lighter;
-                                width:84vw;
+                                width:80vw;
                                        font-family: 'Pinyon Script', cursive;
                                 
                             }
