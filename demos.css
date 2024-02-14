@@ -4911,7 +4911,7 @@ font-size: 13px !important;
 
 
                       @media screen and (min-width:491px) and (max-width:588px)  {
-                       body{background-color:white;}
+                       body{background-color:red;}
                
                          #mobileLogo{
                     display:none;
@@ -5318,7 +5318,7 @@ font-size: 13px !important;
             #itemTextThree{
                 
                 margin-top:6vh;
-                 margin-left:-14vw;
+                 margin-left:-12vw;
                 width:85vw;
                 font-weight:light;
                 
@@ -5328,7 +5328,7 @@ font-size: 13px !important;
                
                 margin-top:6vh;
                 margin-left:-17.4vw;
-                font-size:2.4rem;
+                font-size:2.2rem;
                  font-family: 'Pinyon Script', cursive;
                 width:85vw;
                 
