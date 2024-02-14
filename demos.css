@@ -4911,7 +4911,7 @@ font-size: 13px !important;
 
 
                       @media screen and (min-width:491px) and (max-width:588px)  {
-                       body{background-color:white;}
+                       body{background-color:red;}
                
                          #mobileLogo{
                     display:none;
@@ -5318,7 +5318,7 @@ font-size: 13px !important;
             #itemTextThree{
                 
                 margin-top:6vh;
-                 margin-left:-17vw;
+                 margin-left:-14vw;
                 width:85vw;
                 font-weight:light;
                 
