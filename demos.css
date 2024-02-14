@@ -120,7 +120,7 @@ li{
 
 
     @media screen and (min-width:50px) and (max-width:120px){
-        body{background-color:#d3d4d5;}
+        body{background-color:white;}
 
       
 #mobileLogo{
@@ -566,9 +566,9 @@ font-size: 15px !important;
         #itemTextFour{
 
 margin-top:6vh;
-margin-left:-2vw;
+margin-left:-3vw;
 width:90vw !important;
-font-size: 15px !important;
+font-size: 13px !important;
 
 }
 
