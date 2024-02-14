@@ -5009,7 +5009,7 @@ font-size: 13px !important;
                     #homeLink{
                         position: absolute;
                         margin-top:-23vh;
-                        margin-left:-16vw !important;
+                        margin-left:-13vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -5019,7 +5019,7 @@ font-size: 13px !important;
                     #aboutLink{
                         position: absolute;
                         margin-top:-39vh;
-                        margin-left:-16vw !important;
+                        margin-left:-13vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -5028,7 +5028,7 @@ font-size: 13px !important;
                     #missionLink{
                         position: absolute;
                         margin-top:-54vh;
-                        margin-left:-16vw !important;
+                        margin-left:-13vw !important;
                         font-size: 1.8rem;
                         font-weight: lighter;
                         color:rgb(68, 68, 68);
@@ -5038,7 +5038,7 @@ font-size: 13px !important;
                         margin-top:-70vh;
                         margin-left:-28vw !important;
                         font-size:1rem;
-                         padding:2% 6% 2% 6%;
+                         padding:1% 8% 1% 8%;
                           border-width: 1px;
                           border-color:#636161;
                           border-style:solid;
@@ -5369,7 +5369,7 @@ font-size: 13px !important;
 
 
                             @media screen and (min-width:589px) and (max-width:640px)  {
-                     body{background-color:white;}
+                     body{background-color:#6ba298;}
                
                                 #dskNav{
                                  
@@ -5720,6 +5720,7 @@ font-size: 13px !important;
                                font-size:23px;
                             font-weight:lighter;
                                 width:84vw;
+                                       font-family: 'Pinyon Script', cursive;
                                 
                             }
                             
