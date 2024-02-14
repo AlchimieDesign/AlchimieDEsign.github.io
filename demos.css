@@ -2534,7 +2534,7 @@ font-size: 13px !important;
 
 
                             @media screen and (min-width:240px) and (max-width:270px){
-                                body{background-color:#c4939f;}
+                                body{background-color:white;}
 
                                
 
@@ -3022,7 +3022,7 @@ font-size: 13px !important;
 
     @media screen and (min-width:271px) and (max-width:343px){
        
-      body{background-color:white;}
+      body{background-color:#c4939f;}
       
 
         #mobileLogo{
@@ -3073,7 +3073,7 @@ font-size: 13px !important;
     
             .nav-item {
                 margin: 2.5rem 0;
-                margin-left:-15vw;
+                margin-left:-14vw;
                 font-size: 2rem;
                 font-weight: lighter !important;
             }
@@ -3397,9 +3397,9 @@ font-size: 13px !important;
     
     h3{
     position: absolute;
-    margin-top:-34vh !important;
+    margin-top:-35vh !important;
     margin-left:30vw !important;
-    font-size:2.6rem;
+    font-size:2.4rem;
     font-weight: lighter;
     font-family: 'Pinyon Script', cursive;
     color:rgb(78, 71, 71);
@@ -3415,7 +3415,7 @@ font-size: 13px !important;
     margin-top:18vh;
     margin-left:25vw;
     width:40vw;
-    font-size:20px;
+    font-size:17px;
     
     }
     
