@@ -3963,7 +3963,7 @@ font-size: 13px !important;
                
                
 
-             body{background-color:#9b9b9b;}
+             body{background-color:white;}
                  
      
 
@@ -4436,7 +4436,7 @@ font-size: 13px !important;
 
 
             @media screen and (min-width:431px) and (max-width:490px) {
-               body{background-color:white;}
+               body{background-color:#9b9b9b;}
                  
      
 
@@ -4489,7 +4489,7 @@ font-size: 13px !important;
                     .nav-item {
                         margin: 2.5rem 0;
                         margin-left:5vw;
-                        font-size: 2rem;
+                        font-size: 2.4rem;
                         font-weight: lighter !important;
                     }
                 
@@ -4828,7 +4828,7 @@ font-size: 13px !important;
 
             #offerHeader{
                 position: absolute;
-                margin-top:-8vh !important;
+                margin-top:-9vh !important;
                 margin-left:12vw !important;
 
             }
@@ -4844,7 +4844,7 @@ font-size: 13px !important;
             #itemTextOne{
               
                 margin-top:-20vh !important;
-                margin-left:-16vw;
+                margin-left:-18vw;
                 width:85vw;
             }
             
