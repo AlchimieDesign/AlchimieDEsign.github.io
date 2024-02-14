@@ -1099,7 +1099,7 @@ font-size: 13px !important;
 
 
         @media screen and (min-width:160px) and (max-width:180px){
-            body{background-color:#677a85;}
+            body{background-color:white;}
         
             #mobileLogo{
                 margin-top:1vh;
@@ -1529,7 +1529,7 @@ font-size: 13px !important;
             }
              #itemTextFour{
             
-            margin-top:7vh;
+            margin-top:5vh;
             margin-left:-23vw;
             width:85vw !important;
             font-size: 15px !important;
@@ -1576,7 +1576,7 @@ font-size: 13px !important;
 
 
                 @media screen and (min-width:181px) and (max-width:212px){
-                    body{background-color:white;}
+                    body{background-color:red;}
                  
                  
                     #mobileLogo{
@@ -1959,7 +1959,7 @@ font-size: 13px !important;
                     h3{
                     position: absolute;
                     margin-top:-3vh !important;
-                    margin-left:-15vw !important;
+                    margin-left:-16vw !important;
                     font-size:2rem;
                     font-weight: lighter;
                     font-family: 'Pinyon Script', cursive;
@@ -2000,7 +2000,16 @@ font-size: 13px !important;
                     #itemTextThree{
                     
                     margin-top:6vh;
-                    margin-left:-18vw;
+                    margin-left:-16vw;
+                    width:83vw !important;
+                    font-size: 15px !important;
+                    
+                    }
+
+                     #itemTextFour{
+                    
+                    margin-top:4vh;
+                    margin-left:-16vw;
                     width:83vw !important;
                     font-size: 15px !important;
                     
@@ -2033,7 +2042,7 @@ font-size: 13px !important;
                                #footerLogo{
                                   position: absolute;
                                   margin-top:5vh;
-                                  margin-left:10vw !important;
+                                  margin-left:9vw !important;
                                  font-size:1.3rem;
                                  font-family: 'Pinyon Script', cursive;
                                   font-weight: lighter;
