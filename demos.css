@@ -4921,7 +4921,7 @@ font-size: 13px !important;
 
 
                       @media screen and (min-width:491px) and (max-width:588px)  {
-                       body{background-color:white;}
+                       body{background-color:red;
                
                          #mobileLogo{
                     display:none;
@@ -5254,7 +5254,7 @@ font-size: 13px !important;
                         #contact{
                             position: absolute;
                             margin-top:-30vh !important;
-                            margin-left:30vw;
+                            margin-left:28vw;
                             font-size:1rem;
             
                             padding:0% 15% 0% 15%; 
@@ -5297,7 +5297,7 @@ font-size: 13px !important;
             #offerHeader{
                 position: absolute;
                 margin-top:-7h !important;
-                margin-left:16vw !important;
+                margin-left:13vw !important;
 
             }
             
@@ -5328,7 +5328,7 @@ font-size: 13px !important;
             #itemTextThree{
                 
                 margin-top:6vh;
-                 margin-left:-10vw;
+                 margin-left:-12vw;
                 width:85vw;
                 font-weight:light;
                 
@@ -5337,7 +5337,7 @@ font-size: 13px !important;
             #itemTextFour{
                
                 margin-top:6vh;
-                margin-left:-16vw;
+                margin-left:-18vw;
                 font-size:2rem;
                  font-family: 'Pinyon Script', cursive;
                 width:85vw;
@@ -5369,7 +5369,7 @@ font-size: 13px !important;
                            #footerLogo{
                               position: absolute;
                               margin-top:5vh;
-                              margin-left:19vw !important;
+                              margin-left:18vw !important;
                              font-size:2.5rem;
                              font-family: 'Pinyon Script', cursive;
                               font-weight: lighter;
