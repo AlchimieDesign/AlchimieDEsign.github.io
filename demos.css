@@ -6969,7 +6969,7 @@ font-size: 13px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:red;}
+                                                     body{background-color:white;}
                                              
                                                       #dskNav{
                                                        
@@ -6977,7 +6977,7 @@ font-size: 13px !important;
                                                       }
                                                               
                                                               #mainNav{
-                                                                  position: absolute;
+                                                                  position: relative;
                                                                   margin-top:-5vh;
                                                                   padding:2%;
                                                                   background-color: #ffffff7e;
