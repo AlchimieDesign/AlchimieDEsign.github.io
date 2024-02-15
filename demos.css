@@ -616,7 +616,7 @@ font-size: 13px !important;
        
 
         @media screen and (min-width:121px) and (max-width:159px){
-            body{background-color:red;}
+            body{background-color:white;}
 
       
             #mobileLogo{
@@ -998,7 +998,7 @@ font-size: 13px !important;
             
             h3{
             position: absolute;
-            margin-top:-3vh !important;
+            margin-top:-6vh !important;
             margin-left:1vw !important;
             font-size:2rem;
             font-weight: lighter;
