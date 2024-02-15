@@ -120,7 +120,7 @@ li{
 
 
     @media screen and (min-width:50px) and (max-width:120px){
-        body{background-color:red;}
+        body{background-color:white;}
 
       
 #mobileLogo{
@@ -231,7 +231,7 @@ li{
                  #homeLink{
                      position: absolute;
                      margin-top:-11vh;
-                     margin-left:-49vw !important;
+                     margin-left:-46vw !important;
                      font-size: 1.3rem;
                      font-weight: lighter;
                      color:rgb(68, 68, 68);
@@ -240,7 +240,7 @@ li{
                  #aboutLink{
                      position: absolute;
                      margin-top:-16vh;
-                     margin-left:-49vw !important;
+                     margin-left:-46vw !important;
                      font-size: 1.3rem;
                      font-weight: lighter;
                      color:rgb(68, 68, 68);
@@ -248,8 +248,8 @@ li{
          
                  #missionLink{
                      position: absolute;
-                     margin-top:-20vh;
-                     margin-left:-54vw !important;
+                     margin-top:-21vh;
+                     margin-left:-52vw !important;
                      font-size: 1.3rem;
                      font-weight: lighter;
                      color:rgb(68, 68, 68);
@@ -566,7 +566,7 @@ font-size: 15px !important;
         #itemTextFour{
 
 margin-top:6vh;
-margin-left:-3vw;
+margin-left:-5vw;
 width:90vw !important;
 font-size: 13px !important;
 
@@ -600,7 +600,7 @@ font-size: 13px !important;
            #footerLogo{
               position: absolute;
               margin-top:3vh;
-              margin-left:4vw !important;
+              margin-left:5vw !important;
              font-size:.78rem;
              font-family: 'Pinyon Script', cursive;
               font-weight: lighter;
