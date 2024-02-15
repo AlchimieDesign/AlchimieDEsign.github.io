@@ -6969,7 +6969,7 @@ font-size: 13px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:red;}
+                                                     body{background-color:white;}
                                              
                                                       #dskNav{
                                                        
@@ -7155,7 +7155,7 @@ font-size: 13px !important;
                                                              
                                                           .lgImg{
                                                               position: absolute;
-                                                              margin-top:9.2vh;
+                                                              margin-top:3vh;
                                                               margin-left:26vw;
                                                               height:55vh;
                                                               width:28vw;
@@ -7164,7 +7164,7 @@ font-size: 13px !important;
                                               
                                                           .smImg{
                                                               position: absolute;
-                                                              margin-top:13vh;
+                                                              margin-top:9vh;
                                                               margin-left:60vw;
                                                               height:43vh;
                                                               width:14vw;
@@ -7192,7 +7192,7 @@ font-size: 13px !important;
                                                           h2{
                                               
                                                               position: absolute;
-                                                              margin-top:-44vh !important;
+                                                              margin-top:-34vh !important;
                                                               margin-left:27vw !important;
                                                               font-size:3.8rem;
                                                               font-weight: lighter;
@@ -7229,7 +7229,7 @@ font-size: 13px !important;
                                               
                                                           #contact{
                                                               position: absolute;
-                                                              margin-top:-34vh !important;
+                                                              margin-top:-24vh !important;
                                                               margin-left:36vw;
                                                               font-size:1.4rem;
                                               
