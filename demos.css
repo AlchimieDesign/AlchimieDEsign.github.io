@@ -4921,7 +4921,7 @@ font-size: 13px !important;
 
 
                       @media screen and (min-width:491px) and (max-width:588px)  {
-                       body{background-color:white;}
+                       body{background-color:red;}
                
                          #mobileLogo{
                     display:none;
@@ -5086,7 +5086,7 @@ font-size: 13px !important;
                                 position: absolute;
                                 margin-top:-4vh !important;
                                 margin-left:28vw !important;
-                                font-size:2rem;
+                                font-size:2.6rem;
                                 font-weight: lighter;
                                 font-family: 'Pinyon Script', cursive;
                                 color:rgb(105, 103, 103);
