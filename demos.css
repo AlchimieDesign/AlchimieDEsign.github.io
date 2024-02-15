@@ -4921,7 +4921,7 @@ font-size: 13px !important;
 
 
                       @media screen and (min-width:491px) and (max-width:588px)  {
-                       body{background-color:red;}
+                       body{background-color:white;}
                
                          #mobileLogo{
                     display:none;
@@ -5297,13 +5297,13 @@ font-size: 13px !important;
             #offerHeader{
                 position: absolute;
                 margin-top:-8h !important;
-                margin-left:15vw !important;
+                margin-left:14vw !important;
 
             }
             
             .itemText{
             margin-top:-10vh;
-            margin-left:3vw;
+            margin-left:1vw;
             width:90vw;
             font-size:20px;
             
@@ -5312,7 +5312,7 @@ font-size: 13px !important;
             #itemTextOne{
               
                 margin-top:-20vh !important;
-                margin-left:-16vw;
+                margin-left:-17vw;
                 width:85vw;
                 font-weight:light;
             }
@@ -5321,7 +5321,7 @@ font-size: 13px !important;
                
                 margin-top:5vh;
                   margin-left:-18vw;
-                width:85vw;
+                width:84vw;
                 font-weight:light;
             }
             
@@ -5370,7 +5370,7 @@ font-size: 13px !important;
                               position: absolute;
                               margin-top:5vh;
                               margin-left:18vw !important;
-                             font-size:2.5rem;
+                             font-size:2.7rem;
                              font-family: 'Pinyon Script', cursive;
                               font-weight: lighter;
                               color:white;
