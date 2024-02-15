@@ -1109,7 +1109,7 @@ font-size: 13px !important;
 
 
         @media screen and (min-width:160px) and (max-width:180px){
-            body{background-color:red;}
+            body{background-color:white;}
         
             #mobileLogo{
                 margin-top:1vh;
@@ -1490,7 +1490,7 @@ font-size: 13px !important;
             
             h3{
             position: absolute;
-            margin-top:-3vh !important;
+            margin-top:-7vh !important;
             margin-left:-3vw !important;
             font-size:2rem;
             font-weight: lighter;
@@ -1499,7 +1499,7 @@ font-size: 13px !important;
             }
             
             .itemHeader{
-            margin-top:50vh;
+            margin-top:6vh;
             margin-left:20vw;
             
             }
