@@ -6969,7 +6969,7 @@ font-size: 13px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:#485a64;}
+                                                     body{background-color:white;}
                                              
                                                       #dskNav{
                                                        
@@ -7005,7 +7005,7 @@ font-size: 13px !important;
                                                                 #linkOne{
                                                                   position: absolute;
                                                                   margin-top:1vh !important;
-                                                                  margin-left:3vw;
+                                                                  margin-left:-2vw;
                                                                  
                                                                 }
                                               
