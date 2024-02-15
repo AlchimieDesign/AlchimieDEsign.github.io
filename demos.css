@@ -4921,7 +4921,7 @@ font-size: 13px !important;
 
 
                       @media screen and (min-width:491px) and (max-width:588px)  {
-                       body{background-color:white;}
+                       body{background-color:red;}
                
                          #mobileLogo{
                     display:none;
@@ -5085,8 +5085,8 @@ font-size: 13px !important;
                               h1{
                                 position: absolute;
                                 margin-top:-4vh !important;
-                                margin-left:30vw !important;
-                                font-size:1.8rem;
+                                margin-left:28vw !important;
+                                font-size:2rem;
                                 font-weight: lighter;
                                 font-family: 'Pinyon Script', cursive;
                                 color:rgb(105, 103, 103);
@@ -5254,7 +5254,7 @@ font-size: 13px !important;
                         #contact{
                             position: absolute;
                             margin-top:-30vh !important;
-                            margin-left:33vw;
+                            margin-left:30vw;
                             font-size:1rem;
             
                             padding:1% 13% 1% 13%; 
