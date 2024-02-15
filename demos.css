@@ -6969,7 +6969,7 @@ font-size: 13px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:red;}
+                                                     body{background-color:white;}
                                              
                                                       #dskNav{
                                                        
@@ -7063,7 +7063,7 @@ font-size: 13px !important;
                                                               }
                                               
                                                               .sliderContainer{
-                                                                 position: absolute;
+                                                                 position: relative;
                                                                   margin-top:10vh;
                                                                   
                                                                   height:100vh;
