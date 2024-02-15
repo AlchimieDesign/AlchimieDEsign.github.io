@@ -120,7 +120,7 @@ li{
 
 
     @media screen and (min-width:50px) and (max-width:120px){
-        body{background-color:white;}
+        body{background-color:red;}
 
       
 #mobileLogo{
@@ -600,7 +600,7 @@ font-size: 13px !important;
            #footerLogo{
               position: absolute;
               margin-top:3vh;
-              margin-left:7vw !important;
+              margin-left:4vw !important;
              font-size:.78rem;
              font-family: 'Pinyon Script', cursive;
               font-weight: lighter;
@@ -616,7 +616,7 @@ font-size: 13px !important;
        
 
         @media screen and (min-width:121px) and (max-width:159px){
-            body{background-color:white;}
+            body{background-color:red;}
 
       
             #mobileLogo{
@@ -1043,6 +1043,16 @@ font-size: 13px !important;
             margin-left:-20vw;
             width:85vw !important;
             font-size: 10px !important;
+            
+            }
+
+              #itemTextFour{
+            
+            margin-top:7vh;
+            margin-left:-20vw;
+            width:85vw !important;
+            font-size: 10px !important;
+                  font-family: 'Pinyon Script', cursive;
             
             }
             
