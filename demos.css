@@ -4921,7 +4921,7 @@ font-size: 13px !important;
 
 
                       @media screen and (min-width:491px) and (max-width:588px)  {
-                       body{background-color:red;
+                       body{background-color:white;
                
                          #mobileLogo{
                     display:none;
@@ -5296,8 +5296,8 @@ font-size: 13px !important;
 
             #offerHeader{
                 position: absolute;
-                margin-top:-7h !important;
-                margin-left:13vw !important;
+                margin-top:-8h !important;
+                margin-left:15vw !important;
 
             }
             
