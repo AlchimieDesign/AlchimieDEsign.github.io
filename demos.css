@@ -1109,7 +1109,7 @@ font-size: 13px !important;
 
 
         @media screen and (min-width:160px) and (max-width:180px){
-            body{background-color:red;}
+            body{background-color:white;}
         
             #mobileLogo{
                 margin-top:1vh;
@@ -1239,7 +1239,7 @@ font-size: 13px !important;
                      
                              #bookLink{
                                  margin-top:-19vh;
-                                 margin-left:-68vw !important;
+                                 margin-left:-66vw !important;
                                  font-size:0.70rem;
                                   padding:2% 10% 2% 10%;
                                    border-width: 1px;
@@ -1490,8 +1490,8 @@ font-size: 13px !important;
             
             h3{
             position: absolute;
-            margin-top:-1vh !important;
-            margin-left:-2vw !important;
+            margin-top:-3vh !important;
+            margin-left:-3vw !important;
             font-size:2rem;
             font-weight: lighter;
             font-family: 'Pinyon Script', cursive;
