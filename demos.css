@@ -6969,7 +6969,7 @@ font-size: 13px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:white;}
+                                                     body{background-color:red;}
                                              
                                                       #dskNav{
                                                        
@@ -7229,7 +7229,7 @@ font-size: 13px !important;
                                               
                                                           #contact{
                                                               position: absolute;
-                                                              margin-top:-24vh !important;
+                                                              margin-top:-14vh !important;
                                                               margin-left:36vw;
                                                               font-size:1.4rem;
                                               
@@ -7317,7 +7317,7 @@ font-size: 13px !important;
                                               
                                                           #footer{
                                                               position: relative;
-                                                            margin-top:2000px;
+                                                            margin-top:2500px;
                                               
                                                               height:27vh;
                                                               background-color: #3a3a3a;
