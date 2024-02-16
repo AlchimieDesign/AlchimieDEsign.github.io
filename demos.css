@@ -6969,7 +6969,7 @@ font-size: 13px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:white;}
+                                                     body{background-color:red;}
                                              
                                                       #dskNav{
                                                        
@@ -7004,21 +7004,21 @@ font-size: 13px !important;
                                               
                                                                 #linkOne{
                                                                   position: absolute;
-                                                                  margin-top:3vh !important;
+                                                                  margin-top:5vh !important;
                                                                   margin-left:-2vw;
                                                                  
                                                                 }
                                               
                                                                 #linkTwo{
                                                                   position: absolute;
-                                                                  margin-top:3vh !important;
+                                                                  margin-top:5vh !important;
                                                                   margin-left:8vw;
                                                                  
                                                                 }
                                               
                                                                 #booking{
                                                                   position: absolute;
-                                                                  margin-top:4vh;
+                                                                  margin-top:5vh;
                                                                   margin-left:75vw;
                                                                
                                                                    font-size:1.3rem;
@@ -7050,7 +7050,7 @@ font-size: 13px !important;
                                               
                                                                 h1{
                                                                   position: absolute;
-                                                                  margin-top:-4vh !important;
+                                                                  margin-top:-6vh !important;
                                                                   margin-left:37vw !important;
                                                                   font-size:3.7rem;
                                                                   font-weight: lighter;
@@ -7157,7 +7157,7 @@ font-size: 13px !important;
                                                               position: absolute;
                                                               margin-top:3vh;
                                                               margin-left:26vw;
-                                                              height:55vh;
+                                                              height:60vh;
                                                               width:28vw;
                                                              
                                                           }
@@ -7166,7 +7166,7 @@ font-size: 13px !important;
                                                               position: absolute;
                                                               margin-top:9vh;
                                                               margin-left:60vw;
-                                                              height:43vh;
+                                                              height:47vh;
                                                               width:14vw;
                                                               
                                               
@@ -7273,7 +7273,7 @@ font-size: 13px !important;
                                                   
                                                   margin-left:10vw;
                                                   width:56vw;
-                                                  font-size:26px;
+                                                  font-size:2.7rem;
                                                   font-weight:light;
                                                   
                                                   }
