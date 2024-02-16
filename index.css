@@ -13216,7 +13216,7 @@ h4{
                                                                                                        
                                                                                          @media screen and  (min-width:1117px)   {
 
-                                                                                                               body{background-color:red;}
+                                                                                                               body{background-color:white;}
                                                                                                              
                                                                                                                     #header{
                                                                                                                                 height:66vh;
@@ -13494,14 +13494,14 @@ h4{
                                                                                                                                   /* Position the "next button" to the right */
                                                                                                                                   .next {
                                                                                                                                     background-color:#f2f2f2;
-                                                                                                                                    right: 7vw;
+                                                                                                                                    right: 3vw;
                                                                                                                                     border-radius: 100%;
                                                                                     
                                                                                                                                    
                                                                                                                                   }
                                                                                                                                   .prev{
                                                                                                                                     background-color:#f2f2f2;
-                                                                                                                                    left: -4vw;
+                                                                                                                                    left: 3vw;
                                                                                                                                     border-radius: 100%;
                                                                                                                                   }
                                                                                                                                   /* On hover, add a black background color with a little bit see-through */
@@ -13621,10 +13621,10 @@ h4{
                                                                                                                                 
                                                                                                                                 #addText{
                                                                                                                                  
-                                                                                                                                    margin-top:240vh !important;
-                                                                                                                                    margin-left:6vw;
+                                                                                                                                    margin-top:220vh !important;
+                                                                                                                                    margin-left:10vw;
                                                                                                                                     width:70vw;
-                                                                                                                                    font-size:1.7rem;
+                                                                                                                                    font-size:2.3rem;
                                                                                                                                     font-weight: lighter;
                                                                                                                                    
                                                                                                                                     color:rgb(94, 92, 92);
