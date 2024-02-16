@@ -547,7 +547,7 @@ li{
 
 
     @media screen and (min-width:101px)  and (max-width:130px){
-     body{background-color:red;}
+     body{background-color:white;}
         #addText{
             display:none;
          }
@@ -1379,7 +1379,7 @@ h4{
 
 
 
-@media screen and (min-width:152px) and (max-width:170px){
+@media screen and (min-width:152px) and (max-width:171px){
    body{background-color:white;}
 
     #smallText{
@@ -1839,7 +1839,7 @@ h4{
 
             @media screen and (min-width:171px) and (max-width:186px){
 
-              body{background-color:white;}
+              body{background-color:oink;}
  
                 #smallText{
                     display:none;
