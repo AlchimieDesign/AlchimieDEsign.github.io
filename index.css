@@ -120,7 +120,7 @@ li{
 
     @media screen   and (max-width:100px){
       
-      
+      body{background-color:red;}
       
       #addText{
           display:none;
@@ -227,6 +227,15 @@ li{
             #aboutLink{
                 position: absolute;
                 margin-top:-19vh;
+                margin-left:-45vw !important;
+                font-size: 1rem;
+                font-weight: lighter;
+                color:rgb(68, 68, 68);
+            }
+
+         #missionLink{
+                position: absolute;
+                margin-top:-17vh;
                 margin-left:-45vw !important;
                 font-size: 1rem;
                 font-weight: lighter;
