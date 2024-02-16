@@ -6969,8 +6969,8 @@ font-size: 13px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:red;
-                                                         color:#b8b8b8}
+                                                     body{background-color:white;
+                                                          color:rgb(105, 103, 103);}
                                              
                                                       #dskNav{
                                                        
@@ -7274,7 +7274,7 @@ font-size: 13px !important;
                                                   
                                                   margin-left:10vw;
                                                   width:56vw;
-                                                  font-size:2.5rem;
+                                                  font-size:2.3rem;
                                                   font-weight:lighter;
                                                   
                                                   }
@@ -7283,24 +7283,27 @@ font-size: 13px !important;
                                                       position:relative;
                                                       margin-top:-17vh !important;
                                                       margin-left:19vw !important;
+                                                     
                                                   }
                                                   
                                                   #itemTextOne{
                                                       
                                                       margin-top:9vh !important;
                                                       margin-left:-1vw;
+                                                       width:60vw;
                                                   }
                                                   
                                                   #itemTextTwo{
                                                       margin-top:5vh;
-                                                      margin-left:1vw;
-                                                          width:55vw;
+                                                      margin-left:-1vw;
+                                                        width:60vw;
                                                     
                                                   }
                                                   
                                                   #itemTextThree{
                                                       margin-top:4vh;
-                                                      margin-left:-2vw;
+                                                      margin-left:1vw;
+                                                      
                                                       
                                                   }
 
@@ -7309,7 +7312,7 @@ font-size: 13px !important;
                                                       margin-top:16vh;
                                                       margin-left:6vw;
                                                     font-family: 'Pinyon Script', cursive;
-                                                              font-size:2.8rem;
+                                                              font-size:3rem;
                                                               width:50vw;
                                                       
                                                   }
