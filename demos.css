@@ -6969,7 +6969,7 @@ font-size: 13px !important;
                               
                               
                                                     @media screen and (min-width:1200px)  {
-                                                     body{background-color:red;}
+                                                     body{background-color:white;}
                                              
                                                       #dskNav{
                                                        
@@ -7050,7 +7050,7 @@ font-size: 13px !important;
                                               
                                                                 h1{
                                                                   position: absolute;
-                                                                  margin-top:-2vh !important;
+                                                                  margin-top:-4vh !important;
                                                                   margin-left:37vw !important;
                                                                   font-size:3.7rem;
                                                                   font-weight: lighter;
@@ -7304,8 +7304,8 @@ font-size: 13px !important;
                                                   }
 
                                                           #itemTextFour{
-                                                              padding:20%;
-                                                      margin-top:20vh;
+                                                            
+                                                      margin-top:16vh;
                                                       margin-left:4vw;
                                                     font-family: 'Pinyon Script', cursive;
                                                               font-size:2.5rem;
@@ -7318,7 +7318,7 @@ font-size: 13px !important;
                                               
                                                           #footer{
                                                               position: relative;
-                                                            margin-top:2100px !important;
+                                                            margin-top:2000px !important;
                                               
                                                               height:27vh;
                                                               background-color: #3a3a3a;
