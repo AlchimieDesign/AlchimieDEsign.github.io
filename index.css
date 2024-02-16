@@ -13207,7 +13207,7 @@ h4{
                                                                                                        
                                                                                          @media screen and  (min-width:1117px)   {
 
-                                                                                                               body{background-color:red;}
+                                                                                                               body{background-color:white;}
                                                                                                              
                                                                                                                     #header{
                                                                                                                                 height:66vh;
@@ -13562,7 +13562,7 @@ h4{
                                                                                                                                     position: absolute;
                                                                                                                                     margin-top:165vh !important;
                                                                                                                                      margin-left:38vw;
-                                                                                                                                     font-size:2.5rem;
+                                                                                                                                     font-size:3rem;
                                                                                                                                       padding:0% 8% 0% 8%;
                                                                                                                                         font-size:1rem;
                                                                                                                                     border-width:1px;
