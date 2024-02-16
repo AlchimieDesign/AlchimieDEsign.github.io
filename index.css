@@ -13207,7 +13207,7 @@ h4{
                                                                                                        
                                                                                          @media screen and  (min-width:1117px)   {
 
-                                                                                                               body{background-color:white;}
+                                                                                                               body{background-color:red;}
                                                                                                              
                                                                                                                     #header{
                                                                                                                                 height:66vh;
@@ -13331,7 +13331,7 @@ h4{
                                                                                                                     
                                                                                                                                   #aboutHeader{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:84vh !important;
+                                                                                                                                    margin-top:86vh !important;
                                                                                                                                     margin-left:20vw !important;
                                                                                                                                     width:60vw;
                                                                                                                                     font-size:4.3rem;
@@ -13418,7 +13418,7 @@ h4{
                                                                                                                                  }
                                                                                                                     
                                                                                                                                 #explore{
-                                                                                                                      position:absolute; width:70vw;
+                                                                                                                      position:absolute; width:50vw;
                                                                                                                                     margin-top:178vh !important;
                                                                                                                                     margin-left:25vw;
                                                                                                                                 }
@@ -13560,9 +13560,9 @@ h4{
                                                                                     
                                                                                                                                   #exploreLink{
                                                                                                                                     position: absolute;
-                                                                                                                                    margin-top:160vh !important;
+                                                                                                                                    margin-top:165vh !important;
                                                                                                                                      margin-left:38vw;
-                                                                                                                                     font-size:2rem;
+                                                                                                                                     font-size:2.5rem;
                                                                                                                                       padding:0% 8% 0% 8%;
                                                                                                                                         font-size:1rem;
                                                                                                                                     border-width:1px;
