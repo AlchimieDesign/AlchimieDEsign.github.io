@@ -449,7 +449,7 @@ li{
 
      #exploreLink:hover{
       background-color: rgb(69, 69, 69);
-      color:white;
+      color:white !important;
      }
 
     
@@ -547,7 +547,7 @@ li{
 
 
     @media screen and (min-width:101px)  and (max-width:130px){
-     
+     body{background-color:red;}
         #addText{
             display:none;
          }
@@ -872,7 +872,7 @@ li{
 
        #exploreLink:hover{
         background-color: #505050;
-        color:white;
+        color:white !important;
            font-size:1rem;
          border-width:1px;
         border-style: groove;
