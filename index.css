@@ -2297,7 +2297,7 @@ h4{
                 }
 
                 @media screen and (min-width:186px) and (max-width:194px){
-                    body{background-color:red;}
+                    body{background-color:white;}
 
                     #smallText{
                         display:none;
